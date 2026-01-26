@@ -10,3 +10,6 @@ title: Home
   <li><a href="{{ '/works/' | append: work.id | relative_url }}">{{ work.title }}</a> by {{ work.author }}</li>
 {% endfor %}
 </ul>
+<pre>
+{{ site.data | jsonify }}
+</pre>
