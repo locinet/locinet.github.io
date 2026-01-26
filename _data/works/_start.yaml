@@ -1,1 +1,7 @@
 works:
+  - id: institutes_1559
+    title: "Institutio Christianae Religionis"
+    author: "John Calvin"
+  - id: summa
+    title: "Summa Theologiae"
+    author: "Thomas Aquinas"
