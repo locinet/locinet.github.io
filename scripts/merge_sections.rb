@@ -36,9 +36,9 @@ end
 
 # Write to CSV
 CSV.open('_data/topics.csv', 'w') do |csv|
-  csv << ['work_id', 'section_id', 'topic_ids']
+  csv << ['work_id', 'section_id', 'section_title', 'topic_ids']
   all_sections.each do |section|
-    csv << [section[:work_id], section[:section_id], section[:topic_ids]]
+    csv << [section[:work_id], section[:section_id], section[:section_title], section[:topic_ids]]
   end
 end
 

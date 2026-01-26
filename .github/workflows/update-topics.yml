@@ -7,7 +7,7 @@ on:
       - '_data/*.yaml'
 
 permissions:
-  contents: write  # Add this line!
+  contents: write
 
 jobs:
   update-topics:
