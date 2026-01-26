@@ -14,8 +14,740 @@ works:
             id: inst1559_1_1
             number: 1
             title:
-              en: "Connection between the Knowledge of God and the Knowledge of Ourselves. Nature of the connection."
+              en: "The Knowledge of God and of Ourselves Mutually Connected.—Nature of the Connection."
             links:
               - site: CCEL
                 language: en
                 url: https://www.ccel.org/ccel/calvin/institutes.iii.ii.html
+          - type: chapter
+            id: inst1559_1_2
+            number: 2
+            title:
+              en: "What It Is to Know God,—Tendency of This Knowledge."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.iii.html
+          - type: chapter
+            id: inst1559_1_3
+            number: 3
+            title:
+              en: "The Knowledge of God Naturally Implanted in the Human Mind."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.iv.html
+          - type: chapter
+            id: inst1559_1_4
+            number: 4
+            title:
+              en: "The Knowledge of God Stifled or Corrupted, Ignorantly or Maliciously."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.v.html
+          - type: chapter
+            id: inst1559_1_5
+            number: 5
+            title:
+              en: "The Knowledge of God Conspicuous in the Creation, and Continual Government of the World."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.vi.html
+          - type: chapter
+            id: inst1559_1_6
+            number: 6
+            title:
+              en: "The Need of Scripture, as a Guide and Teacher, in Coming to God as a Creator"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.vii.html
+          - type: chapter
+            id: inst1559_1_7
+            number: 7
+            title:
+              en: "The Testimony of the Spirit Necessary to Give Full Authority to Scripture. The Impiety of Pretending That the Credibility of Scripture Depends on the Judgment of the Church."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.viii.html
+          - type: chapter
+            id: inst1559_1_8
+            number: 8
+            title:
+              en: "The Credibility of Scripture Sufficiently Proved in So Far as Natural Reason Admits."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.ix.html
+          - type: chapter
+            id: inst1559_1_9
+            number: 9
+            title:
+              en: "All the Principles of Piety Subverted by Fanatics, Who Substitute Revelations for Scripture."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.x.html
+          - type: chapter
+            id: inst1559_1_10
+            number: 10
+            title:
+              en: "In Scripture, the True God Opposed, Exclusively, to All the Gods of the Heathen."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xi.html
+          - type: chapter
+            id: inst1559_1_11
+            number: 11
+            title:
+              en: "Impiety of Attributing a Visible Form to God.—The Setting up of Idols a Defection from the True God."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xii.html
+          - type: chapter
+            id: inst1559_1_12
+            number: 12
+            title:
+              en: "God Distinguished from Idols, That He May Be the Exclusive Object of Worship."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xiii.html
+          - type: chapter
+            id: inst1559_1_13
+            number: 13
+            title:
+              en: "The Unity of the Divine Essence in Three Persons Taught, in Scripture, from the Foundation of the World."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xiv.html
+          - type: chapter
+            id: inst1559_1_14
+            number: 14
+            title:
+              en: "In the Creation of the World, and All Things in It, the True God Distinguished by Certain Marks from Fictitious Gods."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xv.html
+          - type: chapter
+            id: inst1559_1_15
+            number: 15
+            title:
+              en: "State in Which Man Was Created. The Faculties of the Soul—The Image of God—Free Will—Original Righteousness"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xvi.html
+          - type: chapter
+            id: inst1559_1_16
+            number: 16
+            title:
+              en: "The World, Created by God, Still Cherished and Protected by Him. Each and All of Its Parts Governed by His Providence."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xvii.html
+          - type: chapter
+            id: inst1559_1_17
+            number: 17
+            title:
+              en: "Use to Be Made of the Doctrine of Providence."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xviii.html
+          - type: chapter
+            id: inst1559_1_18
+            number: 18
+            title:
+              en: "The Instrumentality of the Wicked Employed by God, While He Continues Free from Every Taint"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iii.xix.html
+
+      - type: book
+        id: inst1559_2
+        number: 2
+        title:
+          en: "Of the Knowledge of God the Redeemer, in Christ, as First Manifested to the Fathers, Under the Law, and Thereafter to Us Under the Gospel"
+        children:
+          - type: chapter
+            id: inst1559_2_1
+            number: 1
+            title:
+              en: "Through the Fall and Revolt of Adam, the Whole Human Race Made Accursed and Degenerate. Of Original Sin."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.ii.html
+          - type: chapter
+            id: inst1559_2_2
+            number: 2
+            title:
+              en: "Man Now Deprived of Freedom of Will, and Miserably Enslaved."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.iii.html
+          - type: chapter
+            id: inst1559_2_3
+            number: 3
+            title:
+              en: "Every Thing Proceeding from the Corrupt Nature of Man Damnable."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.iv.html
+          - type: chapter
+            id: inst1559_2_4
+            number: 4
+            title:
+              en: "How God Works in the Hearts of Men."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.v.html
+          - type: chapter
+            id: inst1559_2_5
+            number: 5
+            title:
+              en: "The Arguments Usually Alleged in Support of Free Will Refuted."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.vi.html
+          - type: chapter
+            id: inst1559_2_6
+            number: 6
+            title:
+              en: "Redemption for Man Lost to Be Sought in Christ."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.vii.html
+          - type: chapter
+            id: inst1559_2_7
+            number: 7
+            title:
+              en: "The Law Given, Not to Retain a People for Itself, but to Keep Alive the Hope of Salvation in Christ Until His Advent."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.viii.html
+          - type: chapter
+            id: inst1559_2_8
+            number: 8
+            title:
+              en: "Exposition of the Moral Law."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.ix.html
+          - type: chapter
+            id: inst1559_2_9
+            number: 9
+            title:
+              en: "Christ, Though Known to the Jews Under the Law, Yet Only Manifested Under the Gospel."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.x.html
+          - type: chapter
+            id: inst1559_2_10
+            number: 10
+            title:
+              en: "The Resemblance Between the Old Testament and the New."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.xi.html
+          - type: chapter
+            id: inst1559_2_11
+            number: 11
+            title:
+              en: "The Difference Between the Two Testaments."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.xii.html
+          - type: chapter
+            id: inst1559_2_12
+            number: 12
+            title:
+              en: "Christ, to Perform the Office of Mediator, Behoved to Become Man."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.xiii.html
+          - type: chapter
+            id: inst1559_2_13
+            number: 13
+            title:
+              en: "Christ Clothed with the True Substance of Human Nature."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.xiv.html
+          - type: chapter
+            id: inst1559_2_14
+            number: 14
+            title:
+              en: "How Two Natures Constitute the Person of the Mediator."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.xv.html
+          - type: chapter
+            id: inst1559_2_15
+            number: 15
+            title:
+              en: "Three Things Briefly to Be Regarded in Christ—Viz. His Offices of Prophet, King, and Priest."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.xvi.html
+          - type: chapter
+            id: inst1559_2_16
+            number: 16
+            title:
+              en: "How Christ Performed the Office of Redeemer in Procuring Our Salvation. The Death, Resurrection, and Ascension of Christ."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.xvii.html
+          - type: chapter
+            id: inst1559_2_17
+            number: 17
+            title:
+              en: "Christ Rightly and Properly Said to Have Merited Grace and Salvation for Us."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.iv.xviii.html
+
+      - type: book
+        id: inst1559_3
+        number: 3
+        title:
+          en: "The Mode of Obtaining the Grace of Christ. The Benefits It Confers, and the Effects Resulting from It"
+        children:
+          - type: chapter
+            id: inst1559_3_1
+            number: 1
+            title:
+              en: "The Benefits of Christ Made Available to Us by the Secret Operation of the Spirit."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.ii.html
+          - type: chapter
+            id: inst1559_3_2
+            number: 2
+            title:
+              en: "Of Faith. The Definition of It. Its Peculiar Properties."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.iii.html
+          - type: chapter
+            id: inst1559_3_3
+            number: 3
+            title:
+              en: "Regeneration by Faith. Of Repentance."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.iv.html
+          - type: chapter
+            id: inst1559_3_4
+            number: 4
+            title:
+              en: "Penitence, as Explained in the Sophistical Jargon of the Schoolmen, Widely Different from the Purity Required by the Gospel. Of Confession and Satisfaction."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.v.html
+          - type: chapter
+            id: inst1559_3_5
+            number: 5
+            title:
+              en: "Of the Modes of Supplementing Satisfaction—Viz. Indulgences and Purgatory."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.vi.html
+          - type: chapter
+            id: inst1559_3_6
+            number: 6
+            title:
+              en: "The Life of a Christian Man. Scriptural Arguments Exhorting to It."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.vii.html
+          - type: chapter
+            id: inst1559_3_7
+            number: 7
+            title:
+              en: "A Summary of the Christian Life. Of Self-Denial."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.viii.html
+          - type: chapter
+            id: inst1559_3_8
+            number: 8
+            title:
+              en: "Of Bearing the Cross—One Branch of Self-Denial."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.ix.html
+          - type: chapter
+            id: inst1559_3_9
+            number: 9
+            title:
+              en: "Of Meditating on the Future Life."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.x.html
+          - type: chapter
+            id: inst1559_3_10
+            number: 10
+            title:
+              en: "How to Use the Present Life, and the Comforts of It."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xi.html
+          - type: chapter
+            id: inst1559_3_11
+            number: 11
+            title:
+              en: "Of Justification by Faith. Both the Name and the Reality Defined."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xii.html
+          - type: chapter
+            id: inst1559_3_12
+            number: 12
+            title:
+              en: "Necessity of Contemplating the Judgment-Seat of God, in Order to Be Seriously Convinced of the Doctrine of Gratuitous Justification."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xiii.html
+          - type: chapter
+            id: inst1559_3_13
+            number: 13
+            title:
+              en: "Two Things to Be Observed in Gratuitous Justification."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xiv.html
+          - type: chapter
+            id: inst1559_3_14
+            number: 14
+            title:
+              en: "The Beginning of Justification. In What Sense Progressive."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xv.html
+          - type: chapter
+            id: inst1559_3_15
+            number: 15
+            title:
+              en: "The Boasted Merit of Works Subversive Both of the Glory of God, in Bestowing Righteousness, and of the Certainty of Salvation."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xvi.html
+          - type: chapter
+            id: inst1559_3_16
+            number: 16
+            title:
+              en: "Refutation of the Calumnies by Which It Is Attempted to Throw Odium on This Doctrine."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xvii.html
+          - type: chapter
+            id: inst1559_3_17
+            number: 17
+            title:
+              en: "The Promises of the Law and the Gospel Reconciled."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xviii.html
+          - type: chapter
+            id: inst1559_3_18
+            number: 18
+            title:
+              en: "The Righteousness of Works Improperly Inferred from Rewards."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xix.html
+          - type: chapter
+            id: inst1559_3_19
+            number: 19
+            title:
+              en: "Of Christian Liberty."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xx.html
+          - type: chapter
+            id: inst1559_3_20
+            number: 20
+            title:
+              en: "Of Prayer—A Perpetual Exercise of Faith. The Daily Benefits Derived from It."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xxi.html
+          - type: chapter
+            id: inst1559_3_21
+            number: 21
+            title:
+              en: "Of the Eternal Election, by Which God Has Predestinated Some to Salvation, and Others to Destruction."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xxii.html
+          - type: chapter
+            id: inst1559_3_22
+            number: 22
+            title:
+              en: "This Doctrine Confirmed by Proofs from Scripture."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xxiii.html
+          - type: chapter
+            id: inst1559_3_23
+            number: 23
+            title:
+              en: "Refutation of the Calumnies by Which This Doctrine Is Always Unjustly Assailed."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xxiv.html
+          - type: chapter
+            id: inst1559_3_24
+            number: 24
+            title:
+              en: "Election Confirmed by the Calling of God. The Reprobate Bring Upon Themselves the Righteous Destruction to Which They Are Doomed."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xxv.html
+          - type: chapter
+            id: inst1559_3_25
+            number: 25
+            title:
+              en: "Of the Last Resurrection."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.v.xxvi.html
+
+      - type: book
+        id: inst1559_4
+        number: 4
+        title:
+          en: "Of the Holy Catholic Church"
+        children:
+          - type: chapter
+            id: inst1559_4_1
+            number: 1
+            title:
+              en: "Of the True Church. Duty of Cultivating Unity with Her, as the Mother of All the Godly."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.ii.html
+          - type: chapter
+            id: inst1559_4_2
+            number: 2
+            title:
+              en: "Comparison Between the False Church and the True."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.iii.html
+          - type: chapter
+            id: inst1559_4_3
+            number: 3
+            title:
+              en: "Of the Teachers and Ministers of the Church. Their Election and Office."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.iv.html
+          - type: chapter
+            id: inst1559_4_4
+            number: 4
+            title:
+              en: "Of the State of the Primitive Church, and the Mode of Government in Use Before the Papacy."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.v.html
+          - type: chapter
+            id: inst1559_4_5
+            number: 5
+            title:
+              en: "The Ancient Form of Government Utterly Corrupted by the Tyranny of the Papacy."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.vi.html
+          - type: chapter
+            id: inst1559_4_6
+            number: 6
+            title:
+              en: "Of the Primacy of the Romish See."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.vii.html
+          - type: chapter
+            id: inst1559_4_7
+            number: 7
+            title:
+              en: "Of the Beginning and Rise of the Romish Papacy, Till It Attained a Height by Which the Liberty of the Church Was Destroyed, and All True Rule Overthrown."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.viii.html
+          - type: chapter
+            id: inst1559_4_8
+            number: 8
+            title:
+              en: "Of the Power of the Church in Articles of Faith. The Unbridled Licence of the Papal Church in Destroying Purity of Doctrine."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.ix.html
+          - type: chapter
+            id: inst1559_4_9
+            number: 9
+            title:
+              en: "Of Councils and Their Authority"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.x.html
+          - type: chapter
+            id: inst1559_4_10
+            number: 10
+            title:
+              en: "Of the Power of Making Laws. The Cruelty of the Pope and His Adherents, in This Respect, in Tyrannically Oppressing and Destroying Souls."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xi.html
+          - type: chapter
+            id: inst1559_4_11
+            number: 11
+            title:
+              en: "Of the Jurisdiction of the Church, and the Abuses of It, as Exemplified in the Papacy."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xii.html
+          - type: chapter
+            id: inst1559_4_12
+            number: 12
+            title:
+              en: "Of the Discipline of the Church, and Its Principal Use in Censures and Excommunication."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xiii.html
+          - type: chapter
+            id: inst1559_4_13
+            number: 13
+            title:
+              en: "Of Vows. The Miserable Entanglements Caused by Vowing Rashly."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xiv.html
+          - type: chapter
+            id: inst1559_4_14
+            number: 14
+            title:
+              en: "Of the Sacraments."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xv.html
+          - type: chapter
+            id: inst1559_4_15
+            number: 15
+            title:
+              en: "Of Baptism."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xvi.html
+          - type: chapter
+            id: inst1559_4_16
+            number: 16
+            title:
+              en: "Pædobaptism. Its Accordance with the Institution of Christ, and the Nature of the Sign."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xvii.html
+          - type: chapter
+            id: inst1559_4_17
+            number: 17
+            title:
+              en: "Of the Lord's Supper, and the Benefits Conferred by It"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xviii.html
+          - type: chapter
+            id: inst1559_4_18
+            number: 18
+            title:
+              en: "Of the Popish Mass. How It Not Only Profanes, but Annihilates the Lord's Supper."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xix.html
+          - type: chapter
+            id: inst1559_4_19
+            number: 19
+            title:
+              en: "Of the Five Sacraments, Falsely So Called. Their Spuriousness Proved, and Their True Character Explained."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xx.html
+          - type: chapter
+            id: inst1559_4_20
+            number: 20
+            title:
+              en: "Of Civil Government."
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/ccel/calvin/institutes.vi.xxi.html

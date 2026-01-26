@@ -2,28 +2,23 @@
 layout: default
 title: Works
 ---
-
 <h1>Works</h1>
-
 {% assign all_works = "" | split: "" %}
-
 {%- comment -%} Collect all works from all data files {%- endcomment -%}
 {% for pair in site.data %}
   {% if pair[1].works %}
     {% assign all_works = all_works | concat: pair[1].works %}
   {% endif %}
 {% endfor %}
-
 {%- comment -%} Sort oldest → newest {%- endcomment -%}
 {% assign all_works = all_works | sort: "year" %}
-
 <ul>
   {% for work in all_works %}
     <li>
+      {{ work.author }}, 
       <a href="{{ '/works/' | append: work.id | append: '/' | relative_url }}">
         {{ work.title }}
       </a>
-      — {{ work.author }}
       {% if work.year %} ({{ work.year }}){% endif %}
     </li>
   {% endfor %}
