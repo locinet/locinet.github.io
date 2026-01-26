@@ -1086,3 +1086,1041 @@ works:
               - site: CCEL
                 language: en
                 url: https://www.ccel.org/a/aquinas/summa/FP/FP119.html#FPQ119OUTP1
+      - type: part
+        id: summa_2_1
+        number: 2
+        subtitle: "First Part of the Second Part"
+        title:
+          en: "First Part of the Second Part"
+          la: "Prima Secundae"
+        links:
+          - site: CCEL
+            language: en
+            url: https://www.ccel.org/a/aquinas/summa/FS.html
+        children:
+          - type: question
+            id: summa_2_1_1
+            number: 1
+            title:
+              en: "Of Man's Last End"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS001.html#FSQ1OUTP1
+          - type: question
+            id: summa_2_1_2
+            number: 2
+            title:
+              en: "Of Those Things in Which Man's Happiness Consists"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS002.html#FSQ2OUTP1
+          - type: question
+            id: summa_2_1_3
+            number: 3
+            title:
+              en: "What Is Happiness"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS003.html#FSQ3OUTP1
+          - type: question
+            id: summa_2_1_4
+            number: 4
+            title:
+              en: "Of Those Things That Are Required for Happiness"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS004.html#FSQ4OUTP1
+          - type: question
+            id: summa_2_1_5
+            number: 5
+            title:
+              en: "Of the Attainment of Happiness"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS005.html#FSQ5OUTP1
+          - type: question
+            id: summa_2_1_6
+            number: 6
+            title:
+              en: "Of the Voluntary and the Involuntary"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS006.html#FSQ6OUTP1
+          - type: question
+            id: summa_2_1_7
+            number: 7
+            title:
+              en: "Of the Circumstances of Human Acts"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS007.html#FSQ7OUTP1
+          - type: question
+            id: summa_2_1_8
+            number: 8
+            title:
+              en: "Of the Will, in Regard to What It Wills"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS008.html#FSQ8OUTP1
+          - type: question
+            id: summa_2_1_9
+            number: 9
+            title:
+              en: "Of That Which Moves the Will"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS009.html#FSQ9OUTP1
+          - type: question
+            id: summa_2_1_10
+            number: 10
+            title:
+              en: "Of the Manner in Which the Will Is Moved"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS010.html#FSQ10OUTP1
+          - type: question
+            id: summa_2_1_11
+            number: 11
+            title:
+              en: "Of Enjoyment, Which Is an Act of the Will"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS011.html#FSQ11OUTP1
+          - type: question
+            id: summa_2_1_12
+            number: 12
+            title:
+              en: "Of Intention"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS012.html#FSQ12OUTP1
+          - type: question
+            id: summa_2_1_13
+            number: 13
+            title:
+              en: "Of Choice, Which Is an Act of the Will with Regard to the Means"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS013.html#FSQ13OUTP1
+          - type: question
+            id: summa_2_1_14
+            number: 14
+            title:
+              en: "Of Counsel, Which Precedes Choice"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS014.html#FSQ14OUTP1
+          - type: question
+            id: summa_2_1_15
+            number: 15
+            title:
+              en: "Of Consent, Which Is an Act of the Will in Regard to the Means"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS015.html#FSQ15OUTP1
+          - type: question
+            id: summa_2_1_16
+            number: 16
+            title:
+              en: "Of Use, Which Is an Act of the Will"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS016.html#FSQ16OUTP1
+          - type: question
+            id: summa_2_1_17
+            number: 17
+            title:
+              en: "Of Acts Commanded by the Will"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS017.html#FSQ17OUTP1
+          - type: question
+            id: summa_2_1_18
+            number: 18
+            title:
+              en: "Of the Good and Evil of Human Acts, in General"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS018.html#FSQ18OUTP1
+          - type: question
+            id: summa_2_1_19
+            number: 19
+            title:
+              en: "Of the Goodness and Malice of the Interior Act of the Will"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS019.html#FSQ19OUTP1
+          - type: question
+            id: summa_2_1_20
+            number: 20
+            title:
+              en: "Of Goodness and Malice in External Human Actions"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS020.html#FSQ20OUTP1
+          - type: question
+            id: summa_2_1_21
+            number: 21
+            title:
+              en: "Of the Consequences of Human Actions by Reason of Their Goodness and Malice"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS021.html#FSQ21OUTP1
+          - type: question
+            id: summa_2_1_22
+            number: 22
+            title:
+              en: "Of the Subject of the Soul's Passions"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS022.html#FSQ22OUTP1
+          - type: question
+            id: summa_2_1_23
+            number: 23
+            title:
+              en: "How the Passions Differ from One Another"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS023.html#FSQ23OUTP1
+          - type: question
+            id: summa_2_1_24
+            number: 24
+            title:
+              en: "Of Good and Evil in the Passions of the Soul"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS024.html#FSQ24OUTP1
+          - type: question
+            id: summa_2_1_25
+            number: 25
+            title:
+              en: "Of the Order of the Passions to One Another"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS025.html#FSQ25OUTP1
+          - type: question
+            id: summa_2_1_26
+            number: 26
+            title:
+              en: "Of the Passions of the Soul in Particular: And First, of Love"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS026.html#FSQ26OUTP1
+          - type: question
+            id: summa_2_1_27
+            number: 27
+            title:
+              en: "Of the Cause of Love"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS027.html#FSQ27OUTP1
+          - type: question
+            id: summa_2_1_28
+            number: 28
+            title:
+              en: "Of the Effects of Love"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS028.html#FSQ28OUTP1
+          - type: question
+            id: summa_2_1_29
+            number: 29
+            title:
+              en: "Of Hatred"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS029.html#FSQ29OUTP1
+          - type: question
+            id: summa_2_1_30
+            number: 30
+            title:
+              en: "Of Concupiscence"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS030.html#FSQ30OUTP1
+          - type: question
+            id: summa_2_1_31
+            number: 31
+            title:
+              en: "Of Delight Considered in Itself"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS031.html#FSQ31OUTP1
+          - type: question
+            id: summa_2_1_32
+            number: 32
+            title:
+              en: "Of the Cause of Pleasure"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS032.html#FSQ32OUTP1
+          - type: question
+            id: summa_2_1_33
+            number: 33
+            title:
+              en: "Of the Effects of Pleasure"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS033.html#FSQ33OUTP1
+          - type: question
+            id: summa_2_1_34
+            number: 34
+            title:
+              en: "Of the Goodness and Malice of Pleasures"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS034.html#FSQ34OUTP1
+          - type: question
+            id: summa_2_1_35
+            number: 35
+            title:
+              en: "Of Pain or Sorrow, in Itself"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS035.html#FSQ35OUTP1
+          - type: question
+            id: summa_2_1_36
+            number: 36
+            title:
+              en: "Of the Causes of Sorrow or Pain"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS036.html#FSQ36OUTP1
+          - type: question
+            id: summa_2_1_37
+            number: 37
+            title:
+              en: "Of the Effects of Pain or Sorrow"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS037.html#FSQ37OUTP1
+          - type: question
+            id: summa_2_1_38
+            number: 38
+            title:
+              en: "Of the Remedies of Sorrow or Pain"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS038.html#FSQ38OUTP1
+          - type: question
+            id: summa_2_1_39
+            number: 39
+            title:
+              en: "Of the Goodness and Malice of Sorrow or Pain"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS039.html#FSQ39OUTP1
+          - type: question
+            id: summa_2_1_40
+            number: 40
+            title:
+              en: "Of the Irascible Passions, and First, of Hope and Despair"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS040.html#FSQ40OUTP1
+          - type: question
+            id: summa_2_1_41
+            number: 41
+            title:
+              en: "Of Fear, in Itself"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS041.html#FSQ41OUTP1
+          - type: question
+            id: summa_2_1_42
+            number: 42
+            title:
+              en: "Of the Object of Fear"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS042.html#FSQ42OUTP1
+          - type: question
+            id: summa_2_1_43
+            number: 43
+            title:
+              en: "Of the Cause of Fear"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS043.html#FSQ43OUTP1
+          - type: question
+            id: summa_2_1_44
+            number: 44
+            title:
+              en: "Of the Effects of Fear"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS044.html#FSQ44OUTP1
+          - type: question
+            id: summa_2_1_45
+            number: 45
+            title:
+              en: "Of Daring"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS045.html#FSQ45OUTP1
+          - type: question
+            id: summa_2_1_46
+            number: 46
+            title:
+              en: "Of Anger, in Itself"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS046.html#FSQ46OUTP1
+          - type: question
+            id: summa_2_1_47
+            number: 47
+            title:
+              en: "Of the Cause That Provokes Anger, and of the Remedies of Anger"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS047.html#FSQ47OUTP1
+          - type: question
+            id: summa_2_1_48
+            number: 48
+            title:
+              en: "Of the Effects of Anger"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS048.html#FSQ48OUTP1
+          - type: question
+            id: summa_2_1_49
+            number: 49
+            title:
+              en: "Of Habits in General, As to Their Substance"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS049.html#FSQ49OUTP1
+          - type: question
+            id: summa_2_1_50
+            number: 50
+            title:
+              en: "Of the Subject of Habits"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS050.html#FSQ50OUTP1
+          - type: question
+            id: summa_2_1_51
+            number: 51
+            title:
+              en: "Of the Cause of Habits, As to Their Formation"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS051.html#FSQ51OUTP1
+          - type: question
+            id: summa_2_1_52
+            number: 52
+            title:
+              en: "Of the Increase of Habits"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS052.html#FSQ52OUTP1
+          - type: question
+            id: summa_2_1_53
+            number: 53
+            title:
+              en: "How Habits Are Corrupted or Diminished"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS053.html#FSQ53OUTP1
+          - type: question
+            id: summa_2_1_54
+            number: 54
+            title:
+              en: "Of the Distinction of Habits"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS054.html#FSQ54OUTP1
+          - type: question
+            id: summa_2_1_55
+            number: 55
+            title:
+              en: "Of the Virtues, As to Their Essence"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS055.html#FSQ55OUTP1
+          - type: question
+            id: summa_2_1_56
+            number: 56
+            title:
+              en: "Of the Subject of Virtue"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS056.html#FSQ56OUTP1
+          - type: question
+            id: summa_2_1_57
+            number: 57
+            title:
+              en: "Of the Intellectual Virtues"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS057.html#FSQ57OUTP1
+          - type: question
+            id: summa_2_1_58
+            number: 58
+            title:
+              en: "Of the Difference between Moral and Intellectual Virtues"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS058.html#FSQ58OUTP1
+          - type: question
+            id: summa_2_1_59
+            number: 59
+            title:
+              en: "Of Moral Virtue in Relation to the Passions"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS059.html#FSQ59OUTP1
+          - type: question
+            id: summa_2_1_60
+            number: 60
+            title:
+              en: "How the Moral Virtues Differ from One Another"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS060.html#FSQ60OUTP1
+          - type: question
+            id: summa_2_1_61
+            number: 61
+            title:
+              en: "Of the Cardinal Virtues"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS061.html#FSQ61OUTP1
+          - type: question
+            id: summa_2_1_62
+            number: 62
+            title:
+              en: "Of the Theological Virtues"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS062.html#FSQ62OUTP1
+          - type: question
+            id: summa_2_1_63
+            number: 63
+            title:
+              en: "Of the Cause of Virtues"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS063.html#FSQ63OUTP1
+          - type: question
+            id: summa_2_1_64
+            number: 64
+            title:
+              en: "Of the Mean of Virtue"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS064.html#FSQ64OUTP1
+          - type: question
+            id: summa_2_1_65
+            number: 65
+            title:
+              en: "Of the Connection of Virtues"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS065.html#FSQ65OUTP1
+          - type: question
+            id: summa_2_1_66
+            number: 66
+            title:
+              en: "Of Equality among the Virtues"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS066.html#FSQ66OUTP1
+          - type: question
+            id: summa_2_1_67
+            number: 67
+            title:
+              en: "Of the Duration of Virtues after This Life"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS067.html#FSQ67OUTP1
+          - type: question
+            id: summa_2_1_68
+            number: 68
+            title:
+              en: "Of the Gifts"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS068.html#FSQ68OUTP1
+          - type: question
+            id: summa_2_1_69
+            number: 69
+            title:
+              en: "Of the Beatitudes"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS069.html#FSQ69OUTP1
+          - type: question
+            id: summa_2_1_70
+            number: 70
+            title:
+              en: "Of the Fruits of the Holy Ghost"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS070.html#FSQ70OUTP1
+          - type: question
+            id: summa_2_1_71
+            number: 71
+            title:
+              en: "Of Vice and Sin Considered in Themselves"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS071.html#FSQ71OUTP1
+          - type: question
+            id: summa_2_1_72
+            number: 72
+            title:
+              en: "Of the Distinction of Sins"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS072.html#FSQ72OUTP1
+          - type: question
+            id: summa_2_1_73
+            number: 73
+            title:
+              en: "Of the Comparison of One Sin with Another"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS073.html#FSQ73OUTP1
+          - type: question
+            id: summa_2_1_74
+            number: 74
+            title:
+              en: "Of the Subject of Sin"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS074.html#FSQ74OUTP1
+          - type: question
+            id: summa_2_1_75
+            number: 75
+            title:
+              en: "Of the Causes of Sin, in General"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS075.html#FSQ75OUTP1
+          - type: question
+            id: summa_2_1_76
+            number: 76
+            title:
+              en: "Of the Causes of Sin, in Particular"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS076.html#FSQ76OUTP1
+          - type: question
+            id: summa_2_1_77
+            number: 77
+            title:
+              en: "Of the Cause of Sin, on the Part of the Sensitive Appetite"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS077.html#FSQ77OUTP1
+          - type: question
+            id: summa_2_1_78
+            number: 78
+            title:
+              en: "Of That Cause of Sin Which Is Malice"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS078.html#FSQ78OUTP1
+          - type: question
+            id: summa_2_1_79
+            number: 79
+            title:
+              en: "Of the External Causes of Sin"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS079.html#FSQ79OUTP1
+          - type: question
+            id: summa_2_1_80
+            number: 80
+            title:
+              en: "Of the Cause of Sin, As Regards the Devil"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS080.html#FSQ80OUTP1
+          - type: question
+            id: summa_2_1_81
+            number: 81
+            title:
+              en: "Of the Cause of Sin, on the Part of Man"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS081.html#FSQ81OUTP1
+          - type: question
+            id: summa_2_1_82
+            number: 82
+            title:
+              en: "Of Original Sin, As to Its Essence"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS082.html#FSQ82OUTP1
+          - type: question
+            id: summa_2_1_83
+            number: 83
+            title:
+              en: "Of the Subject of Original Sin"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS083.html#FSQ83OUTP1
+          - type: question
+            id: summa_2_1_84
+            number: 84
+            title:
+              en: "Of the Cause of Sin, in Respect of One Sin Being the Cause of Another"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS084.html#FSQ84OUTP1
+          - type: question
+            id: summa_2_1_85
+            number: 85
+            title:
+              en: "Of the Effects of Sin, and, First, of the Corruption of the Good of Nature"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS085.html#FSQ85OUTP1
+          - type: question
+            id: summa_2_1_86
+            number: 86
+            title:
+              en: "Of the Stain of Sin"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS086.html#FSQ86OUTP1
+          - type: question
+            id: summa_2_1_87
+            number: 87
+            title:
+              en: "Of the Debt of Punishment"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS087.html#FSQ87OUTP1
+          - type: question
+            id: summa_2_1_88
+            number: 88
+            title:
+              en: "Of Venial and Mortal Sin"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS088.html#FSQ88OUTP1
+          - type: question
+            id: summa_2_1_89
+            number: 89
+            title:
+              en: "Of Venial Sin in Itself"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS089.html#FSQ89OUTP1
+          - type: question
+            id: summa_2_1_90
+            number: 90
+            title:
+              en: "Of the Essence of Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS090.html#FSQ90OUTP1
+          - type: question
+            id: summa_2_1_91
+            number: 91
+            title:
+              en: "Of the Various Kinds of Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS091.html#FSQ91OUTP1
+          - type: question
+            id: summa_2_1_92
+            number: 92
+            title:
+              en: "Of the Effects of Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS092.html#FSQ92OUTP1
+          - type: question
+            id: summa_2_1_93
+            number: 93
+            title:
+              en: "Of the Eternal Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS093.html#FSQ93OUTP1
+          - type: question
+            id: summa_2_1_94
+            number: 94
+            title:
+              en: "Of the Natural Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS094.html#FSQ94OUTP1
+          - type: question
+            id: summa_2_1_95
+            number: 95
+            title:
+              en: "Of Human Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS095.html#FSQ95OUTP1
+          - type: question
+            id: summa_2_1_96
+            number: 96
+            title:
+              en: "Of the Power of Human Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS096.html#FSQ96OUTP1
+          - type: question
+            id: summa_2_1_97
+            number: 97
+            title:
+              en: "Of Change in Laws"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS097.html#FSQ97OUTP1
+          - type: question
+            id: summa_2_1_98
+            number: 98
+            title:
+              en: "Of the Old Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS098.html#FSQ98OUTP1
+          - type: question
+            id: summa_2_1_99
+            number: 99
+            title:
+              en: "Of the Precepts of the Old Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS099.html#FSQ99OUTP1
+          - type: question
+            id: summa_2_1_100
+            number: 100
+            title:
+              en: "Of the Moral Precepts of the Old Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS100.html#FSQ100OUTP1
+          - type: question
+            id: summa_2_1_101
+            number: 101
+            title:
+              en: "Of the Ceremonial Precepts in Themselves"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS101.html#FSQ101OUTP1
+          - type: question
+            id: summa_2_1_102
+            number: 102
+            title:
+              en: "Of the Causes of the Ceremonial Precepts"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS102.html#FSQ102OUTP1
+          - type: question
+            id: summa_2_1_103
+            number: 103
+            title:
+              en: "Of the Duration of the Ceremonial Precepts"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS103.html#FSQ103OUTP1
+          - type: question
+            id: summa_2_1_104
+            number: 104
+            title:
+              en: "Of the Judicial Precepts"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS104.html#FSQ104OUTP1
+          - type: question
+            id: summa_2_1_105
+            number: 105
+            title:
+              en: "Of the Reason for the Judicial Precepts"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS105.html#FSQ105OUTP1
+          - type: question
+            id: summa_2_1_106
+            number: 106
+            title:
+              en: "Of the Law of the Gospel, Called the New Law, Considered in Itself"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS106.html#FSQ106OUTP1
+          - type: question
+            id: summa_2_1_107
+            number: 107
+            title:
+              en: "Of the New Law As Compared with the Old"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS107.html#FSQ107OUTP1
+          - type: question
+            id: summa_2_1_108
+            number: 108
+            title:
+              en: "Of Those Things That Are Contained in the New Law"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS108.html#FSQ108OUTP1
+          - type: question
+            id: summa_2_1_109
+            number: 109
+            title:
+              en: "Of the Necessity of Grace"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS109.html#FSQ109OUTP1
+          - type: question
+            id: summa_2_1_110
+            number: 110
+            title:
+              en: "Of the Grace of God As Regards Its Essence"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS110.html#FSQ110OUTP1
+          - type: question
+            id: summa_2_1_111
+            number: 111
+            title:
+              en: "Of the Division of Grace"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS111.html#FSQ111OUTP1
+          - type: question
+            id: summa_2_1_112
+            number: 112
+            title:
+              en: "Of the Cause of Grace"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS112.html#FSQ112OUTP1
+          - type: question
+            id: summa_2_1_113
+            number: 113
+            title:
+              en: "Of the Effects of Grace"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS113.html#FSQ113OUTP1
+          - type: question
+            id: summa_2_1_114
+            number: 114
+            title:
+              en: "Of Merit"
+            links:
+              - site: CCEL
+                language: en
+                url: https://www.ccel.org/a/aquinas/summa/FS/FS114.html#FSQ114OUTP1
