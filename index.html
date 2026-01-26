@@ -6,16 +6,13 @@ title: Home
 <p>Explore the works below:</p>
 
 <ul>
-{% for key, works_array in site.data.works %}
-  {% for work in works_array %}
-    <li>
-      <a href="{{ '/works/' | append: work.id | relative_url }}">
-        {{ work.title }}
-      </a> by {{ work.author }}
-    </li>
-  {% endfor %}
+{% for work in site.data.works %}
+  <li>
+    <a href="{{ '/works/' | append: work.id | relative_url }}">{{ work.title }}</a> by {{ work.author }}
+  </li>
 {% endfor %}
 </ul>
+
 
 
 <pre>
