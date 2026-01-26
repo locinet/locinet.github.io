@@ -6,20 +6,40 @@ title: Home
 
 <p>Data files: {{ site.data | jsonify }}</p>
 
-<ul>
-  {% assign total_works = 0 %}
+{% assign all_works = "" | split: "" %}
 
-  {% for pair in site.data %}
-    {% assign data_file = pair[1] %}
-    {% if data_file.works %}
-      {% for work in data_file.works %}
-        <li>{{ work.title }} by {{ work.author }}</li>
-        {% assign total_works = total_works | plus: 1 %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-
-  {% if total_works == 0 %}
-    <li>No works found.</li>
+{%- comment -%} Collect all works from all data files {%- endcomment -%}
+{% for pair in site.data %}
+  {% if pair[1].works %}
+    {% assign all_works = all_works | concat: pair[1].works %}
   {% endif %}
-</ul>
+{% endfor %}
+
+{%- comment -%} Sort by year (ascending = oldest first) {%- endcomment -%}
+{% assign all_works = all_works | sort: "year" %}
+
+{%- comment -%} Track current author for grouping {%- endcomment -%}
+{% assign current_author = "" %}
+
+{% for work in all_works %}
+  {% if work.author != current_author %}
+    {% unless forloop.first %}
+      </ul>
+    {% endunless %}
+
+    <h3>{{ work.author }}</h3>
+    <ul>
+
+    {% assign current_author = work.author %}
+  {% endif %}
+
+  <li>
+    {{ work.title }}
+    {% if work.year %} ({{ work.year }}){% endif %}
+  </li>
+
+  {% if forloop.last %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
