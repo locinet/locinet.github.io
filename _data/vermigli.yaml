@@ -1,0 +1,135 @@
+works:
+  - id: common-places-1583
+    title: The Common Places of the Most Famous and Renowmed Diuine Doctor Peter Martyr
+    author: Pietro Martire Vermigli
+    year: 1583
+    structure:
+      - type: part
+        id: part_1
+        number: 1
+        title:
+          en: "A Generall Method and Distribution of the Whole Work"
+        children:
+          - type: chapter
+            id: cp1583_1_1
+            number: 1
+            title:
+              en: "Of the Ends of Good and Euill among the Christians"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#24
+          - type: chapter
+            id: cp1583_1_2
+            number: 2
+            title:
+              en: "Of the Naturall Knowledge of God by the Things Created"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#25
+          - type: chapter
+            id: cp1583_1_3
+            number: 3
+            title:
+              en: "Concerning Prophesie"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#26
+          - type: chapter
+            id: cp1583_1_4
+            number: 4
+            title:
+              en: "Of Visions; and How God May be Knowne of Men"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#27
+          - type: chapter
+            id: cp1583_1_5
+            number: 5
+            title:
+              en: "Of the Law of God"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#28
+          - type: chapter
+            id: cp1583_1_6
+            number: 6
+            title:
+              en: "Of Faith and Justification"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#29
+          - type: chapter
+            id: cp1583_1_7
+            number: 7
+            title:
+              en: "Of the Christian Sacraments"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#30
+          - type: chapter
+            id: cp1583_1_8
+            number: 8
+            title:
+              en: "Of Prayer and the Church"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#31
+      - type: part
+        id: part_2
+        number: 2
+        title:
+          en: "Of the Knowledge of God and the Scriptures"
+        children:
+          - type: chapter
+            id: cp1583_2_1
+            number: 1
+            title:
+              en: "Of the Knowledge of God by Nature and by Revelation"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#32
+          - type: chapter
+            id: cp1583_2_2
+            number: 2
+            title:
+              en: "Of the Authority and Use of Scripture"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#33
+          - type: chapter
+            id: cp1583_2_3
+            number: 3
+            title:
+              en: "Of the Interpretation of the Scriptures"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#34
+          - type: chapter
+            id: cp1583_2_4
+            number: 4
+            title:
+              en: "Of the Old and New Testament Concord"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#35
+          - type: chapter
+            id: cp1583_2_5
+            number: 5
+            title:
+              en: "Of the Law, the Prophets, and the Gospels"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#36
