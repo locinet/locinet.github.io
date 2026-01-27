@@ -1,0 +1,41 @@
+---
+layout: default
+title: Topics Index
+---
+<h1>Topics</h1>
+
+{% for topic_def in site.data.topics_definitions %}
+  <h2 id="{{ topic_def.topic_id }}">{{ topic_def.topic_name }}</h2>
+  {% if topic_def.description %}
+    <p>{{ topic_def.description }}</p>
+  {% endif %}
+  
+  <ul>
+    {% for row in site.data.topics %}
+      {% assign topic_ids = row.topic_ids | split: "," %}
+      {% if topic_ids contains topic_def.topic_id %}
+        {% comment %}Find the work and section details{% endcomment %}
+        {% for pair in site.data %}
+          {% if pair[1].works %}
+            {% for work in pair[1].works %}
+              {% if work.id == row.work_id %}
+                {% for structure_item in work.structure %}
+                  {% for child in structure_item.children %}
+                    {% if child.id == row.section_id %}
+                      <li>
+                        <em>{{ work.title }}</em> — 
+                        <a href="{{ '/works/' | append: work.id | append: '/' | relative_url }}">
+                          {{ child.type | capitalize }} {{ child.number }}: {{ child.title.en }}
+                        </a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
