@@ -6,7 +6,13 @@
   <style>
     body { max-width: 800px; margin: 2rem auto; line-height: 1.6; }
     a { color: blue; text-decoration: none; }
-    h1,h2,h3 { margin-top: 1.5em; }
+    h1, h2, h3, h4, h5 {
+      margin-top: 0.5em; /* was 1.5em */
+      margin-bottom: 0.25em;
+    }
+    h2 + p, h3 + p, h4 + p, h5 + p {
+      margin-top: 0.25em;
+    }
     ul { list-style-type: none; padding-left: 0; }
     li { margin-bottom: 0.5em; }
   </style>
