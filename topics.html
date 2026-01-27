@@ -44,7 +44,7 @@ permalink: /topics/
   {% if topic.description %}
     <p>{{ topic.description }}</p>
   {% endif %}
-  
-  {% assign next_level = parent_level | plus: 1 %}
-  {% include topic_children.html children=subtopic.children parent_level=next_level all_assignments=all_assignments %}
+
+  {% assign parent_level = 3 %}
+  {% include topic_children.html children=topic.children parent_level=parent_level all_assignments=all_assignments %}
 {% endfor %}
