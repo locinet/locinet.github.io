@@ -23,5 +23,6 @@ permalink: /topics/
   {% endif %}
 
   {% assign parent_level = 3 %}
-  {% include topic_children.html children=topic.children parent_level=parent_level all_assignments=all_assignments %}
+  {% assign children = topic.children | default: empty %}
+  {% include topic_children.html children=children parent_level=parent_level all_assignments=all_assignments %}
 {% endfor %}
