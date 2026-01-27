@@ -1,4 +1,50 @@
-{% if subtopic.children %}
-  {% assign next_level = parent_level | plus: 1 %}
-  {% include topic_children.html children=subtopic.children parent_level=next_level all_assignments=all_assignments %}
+{% if children %}
+  {% assign margin = parent_level | times: 20 %}
+  {% for subtopic in children %}
+    <h{{ parent_level }} id="{{ subtopic.id }}" style="margin-left: {{ margin }}px;">
+      {{ subtopic.name }}
+    </h{{ parent_level }}>
+    {% if subtopic.description %}
+      <p style="margin-left: {{ margin }}px;"><em>{{ subtopic.description }}</em></p>
+    {% endif %}
+
+    {% assign has_sections = false %}
+    {% for assignment in all_assignments %}
+      {% if assignment.topics contains subtopic.id %}
+        {% assign has_sections = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if has_sections %}
+      <ul style="margin-left: {{ margin }}px;">
+        {% for assignment in all_assignments %}
+          {% if assignment.topics contains subtopic.id %}
+            {% for pair in site.data %}
+              {% if pair[1].works %}
+                {% for work in pair[1].works %}
+                  {% for structure_item in work.structure %}
+                    {% for child in structure_item.children %}
+                      {% if child.id == assignment.section_id %}
+                        <li>
+                          <a href="{{ '/works/' | append: work.id | append: '/' | relative_url }}">
+                            <em>{{ work.title }}</em>
+                          </a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  {% endfor %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if subtopic.children %}
+      {% assign next_level = parent_level | plus: 1 %}
+      {% include topic_children.html children=subtopic.children parent_level=next_level all_assignments=all_assignments %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
