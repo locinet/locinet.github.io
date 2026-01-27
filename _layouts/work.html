@@ -9,6 +9,15 @@
     h1,h2,h3 { margin-top: 1.5em; }
     ul { list-style-type: none; padding-left: 0; }
     li { margin-bottom: 0.5em; }
+    .topic-tag {
+      display: inline-block;
+      padding: 2px 6px;
+      margin: 2px;
+      background-color: #e8f4f8;
+      border: 1px solid #b8dae8;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
   </style>
 </head>
 <body>
@@ -16,6 +25,27 @@
     <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
   </header>
   <main>
+{% comment %}Build a flat topic lookup for easy searching{% endcomment %}
+{% assign topic_lookup = "" | split: "" %}
+{% for topic in site.data.topics_definitions.topics %}
+  {% assign topic_lookup = topic_lookup | push: topic %}
+  {% if topic.children %}
+    {% for child in topic.children %}
+      {% assign topic_lookup = topic_lookup | push: child %}
+      {% if child.children %}
+        {% for grandchild in child.children %}
+          {% assign topic_lookup = topic_lookup | push: grandchild %}
+          {% if grandchild.children %}
+            {% for ggrandchild in grandchild.children %}
+              {% assign topic_lookup = topic_lookup | push: ggrandchild %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
 {% assign work = nil %}
 {% for pair in site.data %}
   {% if pair[1].works %}
@@ -41,50 +71,47 @@
   {% if item.children %}
     <ul>
       {% for child in item.children %}
-  <li>
-    {{ child.type | capitalize }} {{ child.number }} —
-    {{ child.title.en }}
-
-    {% if child.links %}
-      {% for link in child.links %}
-         — <a href="{{ link.url }}" target="_blank">{{ link.site }}</a>
+        <li>
+          {{ child.type | capitalize }} {{ child.number }} —
+          {{ child.title.en }}
+          
+          {% comment %}Check all topic files{% endcomment %}
+          {% assign section_assignment = nil %}
+          {% if site.data.topics.assignments %}
+            {% assign section_assignment = site.data.topics.assignments | where: "section_id", child.id | first %}
+          {% endif %}
+          {% unless section_assignment %}
+            {% if site.data.institutes_topics.assignments %}
+              {% assign section_assignment = site.data.institutes_topics.assignments | where: "section_id", child.id | first %}
+            {% endif %}
+          {% endunless %}
+          {% unless section_assignment %}
+            {% if site.data.summa_topics.assignments %}
+              {% assign section_assignment = site.data.summa_topics.assignments | where: "section_id", child.id | first %}
+            {% endif %}
+          {% endunless %}
+          
+          {% if section_assignment and section_assignment.topics.size > 0 %}
+            <br>
+            <small>Topics: 
+              {% for topic_id in section_assignment.topics %}
+                {% assign topic_def = topic_lookup | where: "id", topic_id | first %}
+                {% if topic_def %}
+                  <a href="{{ '/topics/#' | append: topic_id | relative_url }}" class="topic-tag">
+                    {{ topic_def.name }}
+                  </a>{% unless forloop.last %}, {% endunless %}
+                {% endif %}
+              {% endfor %}
+            </small>
+          {% endif %}
+          
+          {% if child.links %}
+            {% for link in child.links %}
+              — <a href="{{ link.url }}" target="_blank">{{ link.site }}</a>
+            {% endfor %}
+          {% endif %}
+        </li>
       {% endfor %}
-    {% endif %}
-    
-    {% comment %}Find topics for this section{% endcomment %}
-      {% comment %}Check all topic files{% endcomment %}
-      {% assign section_assignment = nil %}
-      {% if site.data.topics.assignments %}
-        {% assign section_assignment = site.data.topics.assignments | where: "section_id", child.id | first %}
-      {% endif %}
-      {% unless section_assignment %}
-        {% if site.data.institutes_topics.assignments %}
-          {% assign section_assignment = site.data.institutes_topics.assignments | where: "section_id", child.id | first %}
-        {% endif %}
-      {% endunless %}
-      {% unless section_assignment %}
-        {% if site.data.summa_first_part_topics.assignments %}
-          {% assign section_assignment = site.data.summa_first_part_topics.assignments | where: "section_id", child.id | first %}
-        {% endif %}
-      {% endunless %}
-
-{% if section_assignment and section_assignment.topics.size > 0 %}
-  <br>
-  <small>Topics: 
-    {% for topic_id in section_assignment.topics %}
-      {% comment %}Find topic name from hierarchy{% endcomment %}
-      {% assign topic_def = topic_lookup | where: "id", topic_id | first %}
-      {% if topic_def %}
-        <a href="{{ '/topics/#' | append: topic_id | relative_url }}" class="topic-tag">
-          {{ topic_def.name }}
-        </a>
-      {% endif %}
-    {% endfor %}
-  </small>
-{% endif %}
-
-  </li>
-{% endfor %}
     </ul>
   {% endif %}
 {% endfor %}
@@ -92,5 +119,3 @@
   </main>
 </body>
 </html>
-
-
