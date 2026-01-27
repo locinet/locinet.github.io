@@ -61,7 +61,7 @@
         {% for topic_id in topic_ids %}
           {% assign topic_def = site.data.topics_definitions | where: "topic_id", topic_id | first %}
           {% if topic_def %}
-            <a href="{{ '/topics/#' | append: topic_id | relative_url }}" class="topic-tag">
+            <a href="{{ '/topics.html#' | append: topic_id | relative_url }}">
               {{ topic_def.topic_name }}
             </a>
           {% endif %}
