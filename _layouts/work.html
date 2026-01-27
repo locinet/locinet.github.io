@@ -52,7 +52,21 @@
     {% endif %}
     
     {% comment %}Find topics for this section{% endcomment %}
-{% assign section_assignment = site.data.topics.assignments | where: "section_id", child.id | first %}
+      {% comment %}Check all topic files{% endcomment %}
+      {% assign section_assignment = nil %}
+      {% if site.data.topics.assignments %}
+        {% assign section_assignment = site.data.topics.assignments | where: "section_id", child.id | first %}
+      {% endif %}
+      {% unless section_assignment %}
+        {% if site.data.institutes_topics.assignments %}
+          {% assign section_assignment = site.data.institutes_topics.assignments | where: "section_id", child.id | first %}
+        {% endif %}
+      {% endunless %}
+      {% unless section_assignment %}
+        {% if site.data.summa_first_part_topics.assignments %}
+          {% assign section_assignment = site.data.summa_first_part_topics.assignments | where: "section_id", child.id | first %}
+        {% endif %}
+      {% endunless %}
 
 {% if section_assignment and section_assignment.topics.size > 0 %}
   <br>
