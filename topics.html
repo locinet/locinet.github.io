@@ -42,7 +42,19 @@ permalink: /topics.html
       
       {% comment %}Check if this subtopic has any sections assigned to it{% endcomment %}
       {% assign has_sections = false %}
-      {% for assignment in site.data.topics.assignments %}
+      {% comment %}Combine all topic assignments from multiple files{% endcomment %}
+        {% assign all_assignments = "" | split: "" %}
+        {% if site.data.topics.assignments %}
+          {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
+        {% endif %}
+        {% if site.data.institutes_topics.assignments %}
+          {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
+        {% endif %}
+        {% if site.data.summa_first_part_topics.assignments %}
+          {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
+        {% endif %}
+        
+        {% for assignment in all_assignments %}
         {% if assignment.topics contains subtopic.id %}
           {% assign has_sections = true %}
           {% break %}
@@ -51,7 +63,19 @@ permalink: /topics.html
       
       {% if has_sections %}
         <ul style="margin-left: 20px;">
-          {% for assignment in site.data.topics.assignments %}
+          {% comment %}Combine all topic assignments from multiple files{% endcomment %}
+            {% assign all_assignments = "" | split: "" %}
+            {% if site.data.topics.assignments %}
+              {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
+            {% endif %}
+            {% if site.data.institutes_topics.assignments %}
+              {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
+            {% endif %}
+            {% if site.data.summa_first_part_topics.assignments %}
+              {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
+            {% endif %}
+            
+            {% for assignment in all_assignments %}
             {% if assignment.topics contains subtopic.id %}
               {% comment %}Find the work and section details{% endcomment %}
               {% for pair in site.data %}
@@ -86,7 +110,19 @@ permalink: /topics.html
           {% endif %}
           
           {% assign has_sections = false %}
-          {% for assignment in site.data.topics.assignments %}
+          {% comment %}Combine all topic assignments from multiple files{% endcomment %}
+            {% assign all_assignments = "" | split: "" %}
+            {% if site.data.topics.assignments %}
+              {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
+            {% endif %}
+            {% if site.data.institutes_topics.assignments %}
+              {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
+            {% endif %}
+            {% if site.data.summa_first_part_topics.assignments %}
+              {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
+            {% endif %}
+            
+            {% for assignment in all_assignments %}
             {% if assignment.topics contains subsubtopic.id %}
               {% assign has_sections = true %}
               {% break %}
@@ -95,7 +131,19 @@ permalink: /topics.html
           
           {% if has_sections %}
             <ul style="margin-left: 40px;">
-              {% for assignment in site.data.topics.assignments %}
+              {% comment %}Combine all topic assignments from multiple files{% endcomment %}
+                {% assign all_assignments = "" | split: "" %}
+                {% if site.data.topics.assignments %}
+                  {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
+                {% endif %}
+                {% if site.data.institutes_topics.assignments %}
+                  {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
+                {% endif %}
+                {% if site.data.summa_first_part_topics.assignments %}
+                  {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
+                {% endif %}
+                
+                {% for assignment in all_assignments %}
                 {% if assignment.topics contains subsubtopic.id %}
                   {% for pair in site.data %}
                     {% if pair[1].works %}
@@ -129,7 +177,19 @@ permalink: /topics.html
               {% endif %}
               
               {% assign has_sections = false %}
-              {% for assignment in site.data.topics.assignments %}
+              {% comment %}Combine all topic assignments from multiple files{% endcomment %}
+                {% assign all_assignments = "" | split: "" %}
+                {% if site.data.topics.assignments %}
+                  {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
+                {% endif %}
+                {% if site.data.institutes_topics.assignments %}
+                  {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
+                {% endif %}
+                {% if site.data.summa_first_part_topics.assignments %}
+                  {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
+                {% endif %}
+                
+                {% for assignment in all_assignments %}
                 {% if assignment.topics contains subsubsubtopic.id %}
                   {% assign has_sections = true %}
                   {% break %}
@@ -138,7 +198,19 @@ permalink: /topics.html
               
               {% if has_sections %}
                 <ul style="margin-left: 60px;">
-                  {% for assignment in site.data.topics.assignments %}
+                  {% comment %}Combine all topic assignments from multiple files{% endcomment %}
+                    {% assign all_assignments = "" | split: "" %}
+                    {% if site.data.topics.assignments %}
+                      {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
+                    {% endif %}
+                    {% if site.data.institutes_topics.assignments %}
+                      {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
+                    {% endif %}
+                    {% if site.data.summa_first_part_topics.assignments %}
+                      {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
+                    {% endif %}
+                    
+                    {% for assignment in all_assignments %}
                     {% if assignment.topics contains subsubsubtopic.id %}
                       {% for pair in site.data %}
                         {% if pair[1].works %}
