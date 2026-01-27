@@ -1,0 +1,13 @@
+authors:
+  - id: calvin
+      name: 
+        en: John Calvin
+      short_name: Calvin
+  - id: vermigli
+      name:
+        en: Peter Martyr Vermigli
+      short_name: Vermigli
+  - id: aquinas
+      name:
+        en: Thomas Aquinas
+      short_name: Aquinas
