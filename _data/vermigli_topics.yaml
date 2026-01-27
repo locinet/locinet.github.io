@@ -1,0 +1,443 @@
+work_id: common-places-1583
+
+assignments:
+  # PART IV — Church, Sacraments, Magistracy
+work_id: common-places-1583
+
+assignments:
+  # PART 1 — Of the Ends of Good and Evil Among Christians
+
+  - section_id: cp1583_1_1
+    topics:
+      - moral-theology
+      - divine-goodness
+      - divine-justice
+
+  - section_id: cp1583_1_2
+    topics:
+      - natural-revelation
+      - existence-of-god
+      - teleological-argument
+
+  - section_id: cp1583_1_3
+    topics:
+      - revelation
+      - prophecy
+
+  - section_id: cp1583_1_4
+    topics:
+      - revelation
+      - mystical-experiences
+      - vision
+
+  - section_id: cp1583_1_5
+    topics:
+      - mystical-experiences
+      - dreams
+
+  - section_id: cp1583_1_6
+    topics:
+      - special-revelation
+      - scripture
+      - authority
+
+  - section_id: cp1583_1_7
+    topics:
+      - ecclesiology
+      - ministry
+      - calling
+
+  - section_id: cp1583_1_8
+    topics:
+      - divine-operations
+      - providence-general
+      - fate
+
+  - section_id: cp1583_1_9
+    topics:
+      - divine-operations
+      - miracles
+
+  - section_id: cp1583_1_10
+    topics:
+      - angelology
+      - fallen-angels
+      - demonic-assaults
+
+  - section_id: cp1583_1_11
+    topics:
+      - moral-theology
+      - virtues
+      - human-acts
+
+  - section_id: cp1583_1_12
+    topics:
+      - trinity
+      - nature-of-god
+      - divine-truth
+
+  - section_id: cp1583_1_13
+    topics:
+      - divine-operations
+      - creation
+      - creation-ex-nihilo
+
+  - section_id: cp1583_1_14
+    topics:
+      - anthropology
+      - human-action
+      - felicity
+
+  - section_id: cp1583_1_15
+    topics:
+      - anthropology
+      - human-action
+      - free-will-after-fall
+
+  - section_id: cp1583_1_16
+    topics:
+      - divine-providence
+      - providence-general
+
+  - section_id: cp1583_1_17
+    topics:
+      - hamartiology
+      - original-sin
+
+  - section_id: cp1583_1_18
+    topics:
+      - divine-operations
+      - providence-general
+      - predestination
+
+  - section_id: cp1583_2_1
+    topics:
+      - hamartiology
+      - original-sin
+      - effects-of-sin
+      - divine-operations
+      - divine-providence
+
+  - section_id: cp1583_2_2
+    topics:
+      - anthropology
+      - free-will-after-fall
+      - divine-will
+      - free-will-and-grace
+
+  - section_id: cp1583_2_3
+    topics:
+      - revelation
+      - scripture
+      - authority
+
+  - section_id: cp1583_2_4
+    topics:
+      - moral-theology
+      - divine-law
+      - old-law
+      - moral-precepts
+
+  - section_id: cp1583_2_5
+    topics:
+      - moral-theology
+      - divine-law
+      - old-law
+      - ceremonial-precepts
+
+  - section_id: cp1583_2_6
+    topics:
+      - moral-theology
+      - divine-law
+      - moral-precepts
+
+  - section_id: cp1583_2_7
+    topics:
+      - moral-theology
+      - divine-law
+      - moral-precepts
+
+  - section_id: cp1583_2_8
+    topics:
+      - moral-theology
+      - divine-law
+      - moral-precepts
+
+  - section_id: cp1583_2_9
+    topics:
+      - moral-theology
+      - virtues
+      - human-acts
+
+  - section_id: cp1583_2_10
+    topics:
+      - moral-theology
+      - divine-law
+      - old-law
+      - moral-precepts
+
+  - section_id: cp1583_2_11
+    topics:
+      - moral-theology
+      - human-acts
+      - vices
+
+  - section_id: cp1583_2_12
+    topics:
+      - moral-theology
+      - divine-law
+      - old-law
+      - moral-precepts
+
+  - section_id: cp1583_2_13
+    topics:
+      - moral-theology
+      - divine-law
+      - old-law
+      - moral-precepts
+
+  - section_id: cp1583_2_14
+    topics:
+      - moral-theology
+      - divine-law
+      - old-law
+      - moral-precepts
+
+  - section_id: cp1583_2_15
+    topics:
+      - moral-theology
+      - human-acts
+      - conscience
+
+  - section_id: cp1583_2_16
+    topics:
+      - revelation
+      - scripture
+      - canon
+
+  - section_id: cp1583_2_17
+    topics:
+      - christology
+      - incarnation
+      - offices-of-christ
+
+  - section_id: cp1583_2_18
+    topics:
+      - soteriology
+      - justification
+      - grace
+      - calling
+
+  - section_id: cp1583_3_1
+    topics:
+      - soteriology
+      - predestination
+      - divine-will
+      - election
+
+  - section_id: cp1583_3_2
+    topics:
+      - soteriology
+      - predestination
+      - reprobation
+      - divine-justice
+
+  - section_id: cp1583_3_3
+    topics:
+      - soteriology
+      - justification
+      - grace
+      - faith
+
+  - section_id: cp1583_3_4
+    topics:
+      - soteriology
+      - justification
+      - works-and-faith
+      - divine-grace
+
+  - section_id: cp1583_3_5
+    topics:
+      - christian-life
+      - virtues
+      - sanctification
+      - human-acts
+
+  - section_id: cp1583_3_6
+    topics:
+      - christian-life
+      - prayer
+      - piety
+      - devotion
+
+  - section_id: cp1583_3_7
+    topics:
+      - christian-life
+      - church
+      - discipline
+      - obedience
+
+  - section_id: cp1583_3_8
+    topics:
+      - sacraments
+      - baptism
+      - covenant
+      - sacramental-theology
+
+  - section_id: cp1583_3_9
+    topics:
+      - sacraments
+      - eucharist
+      - presence-of-christ
+      - sacramental-theology
+
+  - section_id: cp1583_3_10
+    topics:
+      - eschatology
+      - last-things
+      - resurrection
+      - final-judgment
+
+  - section_id: cp1583_3_11
+    topics:
+      - eschatology
+      - heaven
+      - beatific-vision
+      - eternal-life
+
+  - section_id: cp1583_3_12
+    topics:
+      - eschatology
+      - hell
+      - eternal-punishment
+      - divine-justice
+
+  - section_id: cp1583_4_1
+    topics:
+      - ecclesiology
+      - nature-of-church
+      - ministry
+      - church-authority
+
+  - section_id: cp1583_4_2
+    topics:
+      - ecclesiology
+      - church-authority
+      - human-law
+      - church-and-state
+      - property
+
+  - section_id: cp1583_4_3
+    topics:
+      - ecclesiology
+      - papacy
+      - visible-invisible-church
+
+  - section_id: cp1583_4_4
+    topics:
+      - revelation
+      - tradition
+      - interpretation
+      - councils
+      - discernment
+
+  - section_id: cp1583_4_5
+    topics:
+      - ecclesiology
+      - church-discipline
+      - ministry
+      - liturgical-theology
+
+  - section_id: cp1583_4_6
+    topics:
+      - ecclesiology
+      - nature-of-church
+      - visible-invisible-church
+
+  - section_id: cp1583_4_7
+    topics:
+      - sacraments
+      - nature-of-sacraments
+
+  - section_id: cp1583_4_8
+    topics:
+      - sacraments
+      - baptism
+      - infant-baptism
+      - baptismal-regeneration
+
+  - section_id: cp1583_4_9
+    topics:
+      - sacraments
+      - baptism
+      - liturgical-theology
+
+  - section_id: cp1583_4_10
+    topics:
+      - sacraments
+      - eucharist
+      - real-presence
+      - memorial-view
+      - transubstantiation
+
+  - section_id: cp1583_4_11
+    topics:
+      - sacraments
+      - eucharist
+      - church-authority
+
+  - section_id: cp1583_4_12
+    topics:
+      - sacraments
+      - eucharist
+      - mass
+      - atonement
+
+  - section_id: cp1583_4_13
+    topics:
+      - moral-theology
+      - church-and-state
+      - human-law
+
+  - section_id: cp1583_4_14
+    topics:
+      - moral-theology
+      - human-law
+      - justice
+      - punishment
+
+  - section_id: cp1583_4_15
+    topics:
+      - moral-theology
+      - human-law
+      - punishment
+
+  - section_id: cp1583_4_16
+    topics:
+      - moral-theology
+      - conscience
+      - human-law
+
+  - section_id: cp1583_4_17
+    topics:
+      - moral-theology
+      - war-and-peace
+      - just-war
+
+  - section_id: cp1583_4_18
+    topics:
+      - moral-theology
+      - war-and-peace
+      - punishment
+
+  - section_id: cp1583_4_19
+    topics:
+      - moral-theology
+      - war-and-peace
+      - punishment
+
+  - section_id: cp1583_4_20
+    topics:
+      - moral-theology
+      - property
+      - human-law
