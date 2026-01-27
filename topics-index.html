@@ -9,7 +9,7 @@ title: Topics Index
   max-width: 1400px;
   margin: 0 auto;
   gap: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Garamond', 'Crimson Text', 'Libre Baskerville', Georgia, serif;
 }
 
 .toc-sidebar {
@@ -22,19 +22,22 @@ title: Topics Index
   top: 1rem;
   max-height: calc(100vh - 2rem);
   overflow-y: auto;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  background: #faf8f3;
+  border: 2px solid #8b7355;
+  border-radius: 2px;
   padding: 1.5rem;
+  box-shadow: 2px 2px 8px rgba(80, 60, 40, 0.15);
 }
 
 .toc-title {
   font-size: 1.125rem;
   font-weight: 700;
-  color: #111827;
+  color: #3e2723;
   margin: 0 0 1rem 0;
   padding-bottom: 0.75rem;
-  border-bottom: 2px solid #e5e7eb;
+  border-bottom: 2px solid #8b7355;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .toc-list {
@@ -49,16 +52,17 @@ title: Topics Index
 
 .toc-item-1 > a {
   display: block;
-  color: #111827;
+  color: #3e2723;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   padding: 0.25rem 0;
   transition: color 0.2s;
+  font-variant: small-caps;
 }
 
 .toc-item-1 > a:hover {
-  color: #667eea;
+  color: #8b4513;
 }
 
 .toc-list-2 {
@@ -73,15 +77,15 @@ title: Topics Index
 
 .toc-item-2 a {
   display: block;
-  color: #6b7280;
+  color: #5d4037;
   text-decoration: none;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   padding: 0.125rem 0;
   transition: color 0.2s;
 }
 
 .toc-item-2 a:hover {
-  color: #667eea;
+  color: #8b4513;
 }
 
 .topics-container {
@@ -93,34 +97,38 @@ title: Topics Index
 .page-header {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #e5e7eb;
+  border-bottom: 3px double #8b7355;
 }
 
 .page-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #111827;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #3e2723;
   margin: 0 0 0.5rem 0;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
 }
 
 .page-header p {
-  color: #6b7280;
+  color: #5d4037;
   font-size: 1rem;
   margin: 0;
+  font-style: italic;
 }
 
 .topic-level-1 {
   margin-bottom: 2rem;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  background: #faf8f3;
+  border: 2px solid #8b7355;
+  border-radius: 2px;
   overflow: hidden;
+  box-shadow: 2px 2px 8px rgba(80, 60, 40, 0.1);
 }
 
 .topic-level-2 {
   margin: 0 0 1rem 0;
   padding: 0 0 1rem 0;
-  border-bottom: 1px solid #f3f4f6;
+  border-bottom: 1px solid #d7ccc8;
 }
 
 .topic-level-2:last-child {
@@ -139,28 +147,29 @@ title: Topics Index
 
 .topic-header {
   padding: 1rem 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(to bottom, #8b7355 0%, #6d5d4b 100%);
+  color: #faf8f3;
+  border-bottom: 2px solid #5d4037;
 }
 
 .topic-header-2 {
   padding: 0.75rem 1.5rem;
-  background: #f9fafb;
-  border-left: 3px solid #667eea;
+  background: #f5f1e8;
+  border-left: 4px solid #8b7355;
 }
 
 .topic-header-3 {
   padding: 0.5rem 1rem;
-  background: #fafafa;
-  border-left: 2px solid #a78bfa;
-  border-radius: 4px;
+  background: #faf8f3;
+  border-left: 3px solid #a1887f;
+  border-radius: 2px;
 }
 
 .topic-header-4 {
   padding: 0.4rem 0.75rem;
-  background: #f5f5f5;
-  border-left: 2px solid #c4b5fd;
-  border-radius: 3px;
+  background: #fdfcfa;
+  border-left: 2px solid #bcaaa4;
+  border-radius: 2px;
 }
 
 .topic-title-line {
@@ -176,27 +185,31 @@ title: Topics Index
 }
 
 .topic-level-1 .topic-name {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
 }
 
 .topic-level-2 .topic-name {
-  font-size: 1.1rem;
-  color: #111827;
+  font-size: 1.125rem;
+  color: #3e2723;
+  font-variant: small-caps;
 }
 
 .topic-level-3 .topic-name {
   font-size: 1rem;
-  color: #374151;
+  color: #4e342e;
 }
 
 .topic-level-4 .topic-name {
   font-size: 0.9375rem;
-  color: #4b5563;
+  color: #5d4037;
 }
 
 .topic-description {
   margin: 0;
   font-weight: 400;
+  font-style: italic;
 }
 
 .topic-level-1 .topic-description {
@@ -206,13 +219,13 @@ title: Topics Index
 
 .topic-level-2 .topic-description {
   font-size: 0.875rem;
-  color: #6b7280;
+  color: #5d4037;
 }
 
 .topic-level-3 .topic-description,
 .topic-level-4 .topic-description {
   font-size: 0.8125rem;
-  color: #6b7280;
+  color: #6d5d4b;
 }
 
 .topic-content {
@@ -228,34 +241,35 @@ title: Topics Index
 .section-item {
   margin-bottom: 0.375rem;
   padding: 0.375rem 0.5rem;
-  background: #f9fafb;
-  border-radius: 4px;
-  border-left: 3px solid #8b5cf6;
+  background: #f5f1e8;
+  border-radius: 2px;
+  border-left: 3px solid #8b7355;
 }
 
 .section-item:hover {
-  background: #f3f4f6;
+  background: #ebe7dc;
 }
 
 .section-reference {
-  color: #111827;
+  color: #3e2723;
   font-weight: 500;
   font-size: 0.875rem;
 }
 
 .section-reference a {
-  color: #8b5cf6;
+  color: #8b4513;
   text-decoration: none;
   transition: color 0.2s;
+  border-bottom: 1px dotted #8b4513;
 }
 
 .section-reference a:hover {
-  color: #7c3aed;
-  text-decoration: underline;
+  color: #6d3410;
+  border-bottom-style: solid;
 }
 
 .no-sections {
-  color: #9ca3af;
+  color: #8d6e63;
   font-style: italic;
   font-size: 0.8125rem;
   padding: 0.25rem 0;

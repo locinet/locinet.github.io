@@ -1,52 +1,55 @@
 {% comment %}
 This include displays sections for a given topic_id
 Parameters: topic_id
+Works with any work that has a corresponding work_topics.yaml file
 {% endcomment %}
 
 {% assign sections_found = false %}
 {% assign work_sections = "" | split: "" %}
 
-{% comment %} Collect all sections for this topic from institutes {% endcomment %}
-{% if site.data.institutes_topics %}
-  {% for assignment in site.data.institutes_topics.assignments %}
-    {% if assignment.topics contains include.topic_id %}
-      {% for work in site.data.institutes.works %}
-        {% if work.id == site.data.institutes_topics.work_id %}
-          {% for book in work.structure %}
-            {% for chapter in book.children %}
-              {% if chapter.id == assignment.section_id %}
-                {% capture section_data %}{{ work.id }}|{{ work.author }}|{{ work.short_title }}|{{ book.number }}|{{ chapter.number }}|{{ chapter.links[0].url }}{% endcapture %}
-                {% assign work_sections = work_sections | push: section_data %}
-                {% assign sections_found = true %}
-              {% endif %}
-            {% endfor %}
+{% comment %} Iterate through all data files to find work_topics files {% endcomment %}
+{% for data_file in site.data %}
+  {% assign file_name = data_file[0] %}
+  {% assign file_data = data_file[1] %}
+  
+  {% comment %} Check if this is a topics file (ends with _topics) {% endcomment %}
+  {% if file_name contains "_topics" %}
+    {% assign work_id = file_data.work_id %}
+    
+    {% comment %} Get the corresponding work file name {% endcomment %}
+    {% assign work_file_name = file_name | remove: "_topics" %}
+    {% assign work_file = site.data[work_file_name] %}
+    
+    {% if work_file and work_file.works %}
+      {% comment %} Process assignments from this topics file {% endcomment %}
+      {% for assignment in file_data.assignments %}
+        {% if assignment.topics contains include.topic_id %}
+          {% for work in work_file.works %}
+            {% if work.id == work_id %}
+              {% comment %} Handle different structure types {% endcomment %}
+              {% for structure_item in work.structure %}
+                {% comment %} Check if this has chapters (like Institutes) {% endcomment %}
+                {% if structure_item.children %}
+                  {% for child in structure_item.children %}
+                    {% if child.id == assignment.section_id %}
+                      {% assign first_link = "" %}
+                      {% if child.links.size > 0 %}
+                        {% assign first_link = child.links[0].url %}
+                      {% endif %}
+                      {% capture section_data %}{{ work.id }}|{{ work.author }}|{{ work.short_title }}|{{ structure_item.number }}|{{ child.number }}|{{ first_link }}{% endcapture %}
+                      {% assign work_sections = work_sections | push: section_data %}
+                      {% assign sections_found = true %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
           {% endfor %}
         {% endif %}
       {% endfor %}
     {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% comment %} Collect all sections for this topic from summa {% endcomment %}
-{% if site.data.summa_topics and site.data.summa %}
-  {% for assignment in site.data.summa_topics.assignments %}
-    {% if assignment.topics contains include.topic_id %}
-      {% for work in site.data.summa.works %}
-        {% if work.id == site.data.summa_topics.work_id %}
-          {% for part in work.structure %}
-            {% for question in part.children %}
-              {% if question.id == assignment.section_id %}
-                {% capture section_data %}{{ work.id }}|{{ work.author }}|{{ work.short_title }}|{{ part.number }}|{{ question.number }}|{{ question.links[0].url }}{% endcapture %}
-                {% assign work_sections = work_sections | push: section_data %}
-                {% assign sections_found = true %}
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+{% endfor %}
 
 {% if sections_found %}
   {% comment %} Group sections by work {% endcomment %}
@@ -57,9 +60,8 @@ Parameters: topic_id
     {% assign work_id = parts[0] %}
     
     {% assign work_found = false %}
-    {% for work_entry in works_hash %}
-      {% assign work_parts = work_entry | split: "||" %}
-      {% if work_parts[0] == work_id %}
+    {% for existing_work in works_hash %}
+      {% if existing_work == work_id %}
         {% assign work_found = true %}
       {% endif %}
     {% endfor %}
