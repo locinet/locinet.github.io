@@ -1,0 +1,173 @@
+{% comment %}
+This include displays sections for a given topic_id
+Parameters: topic_id
+{% endcomment %}
+
+{% assign sections_found = false %}
+{% assign work_sections = "" | split: "" %}
+
+{% comment %} Collect all sections for this topic from institutes {% endcomment %}
+{% if site.data.institutes_topics %}
+  {% for assignment in site.data.institutes_topics.assignments %}
+    {% if assignment.topics contains include.topic_id %}
+      {% for work in site.data.institutes.works %}
+        {% if work.id == site.data.institutes_topics.work_id %}
+          {% for book in work.structure %}
+            {% for chapter in book.children %}
+              {% if chapter.id == assignment.section_id %}
+                {% capture section_data %}{{ work.id }}|{{ work.author }}|{{ work.short_title }}|{{ book.number }}|{{ chapter.number }}|{{ chapter.links[0].url }}{% endcapture %}
+                {% assign work_sections = work_sections | push: section_data %}
+                {% assign sections_found = true %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %} Collect all sections for this topic from summa {% endcomment %}
+{% if site.data.summa_topics and site.data.summa %}
+  {% for assignment in site.data.summa_topics.assignments %}
+    {% if assignment.topics contains include.topic_id %}
+      {% for work in site.data.summa.works %}
+        {% if work.id == site.data.summa_topics.work_id %}
+          {% for part in work.structure %}
+            {% for question in part.children %}
+              {% if question.id == assignment.section_id %}
+                {% capture section_data %}{{ work.id }}|{{ work.author }}|{{ work.short_title }}|{{ part.number }}|{{ question.number }}|{{ question.links[0].url }}{% endcapture %}
+                {% assign work_sections = work_sections | push: section_data %}
+                {% assign sections_found = true %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if sections_found %}
+  {% comment %} Group sections by work {% endcomment %}
+  {% assign works_hash = "" | split: "" %}
+  
+  {% for section_data in work_sections %}
+    {% assign parts = section_data | split: "|" %}
+    {% assign work_id = parts[0] %}
+    
+    {% assign work_found = false %}
+    {% for work_entry in works_hash %}
+      {% assign work_parts = work_entry | split: "||" %}
+      {% if work_parts[0] == work_id %}
+        {% assign work_found = true %}
+      {% endif %}
+    {% endfor %}
+    
+    {% unless work_found %}
+      {% assign works_hash = works_hash | push: work_id %}
+    {% endunless %}
+  {% endfor %}
+  
+  <ul class="sections-list">
+    {% for work_id in works_hash %}
+      {% comment %} Get all sections for this work {% endcomment %}
+      {% assign work_data = "" | split: "" %}
+      {% assign author_id = "" %}
+      {% assign work_title = "" %}
+      
+      {% for section_data in work_sections %}
+        {% assign parts = section_data | split: "|" %}
+        {% if parts[0] == work_id %}
+          {% assign work_data = work_data | push: section_data %}
+          {% assign author_id = parts[1] %}
+          {% assign work_title = parts[2] %}
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} Sort sections by book and chapter {% endcomment %}
+      {% assign sorted_data = work_data | sort %}
+      
+      {% comment %} Get author short name {% endcomment %}
+      {% assign author_name = "" %}
+      {% for author in site.data.authors.authors %}
+        {% if author.id == author_id %}
+          {% assign author_name = author.short_name %}
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} Build ranges {% endcomment %}
+      {% assign current_book = -1 %}
+      {% assign range_start = -1 %}
+      {% assign range_end = -1 %}
+      {% assign ranges = "" %}
+      {% assign first_link = "" %}
+      
+      {% for section_data in sorted_data %}
+        {% assign parts = section_data | split: "|" %}
+        {% assign book_num = parts[3] | plus: 0 %}
+        {% assign chapter_num = parts[4] | plus: 0 %}
+        {% assign link_url = parts[5] %}
+        
+        {% if current_book == -1 or current_book != book_num %}
+          {% comment %} New book - save previous range {% endcomment %}
+          {% if range_start != -1 %}
+            {% if ranges != "" %}
+              {% assign ranges = ranges | append: ", " %}
+            {% endif %}
+            {% if range_start == range_end %}
+              {% assign ranges = ranges | append: '<a href="' | append: first_link | append: '" target="_blank">' | append: current_book | append: '.' | append: range_start | append: '</a>' %}
+            {% else %}
+              {% assign ranges = ranges | append: '<a href="' | append: first_link | append: '" target="_blank">' | append: current_book | append: '.' | append: range_start | append: '-' | append: range_end | append: '</a>' %}
+            {% endif %}
+          {% endif %}
+          
+          {% assign current_book = book_num %}
+          {% assign range_start = chapter_num %}
+          {% assign range_end = chapter_num %}
+          {% assign first_link = link_url %}
+        {% else %}
+          {% comment %} Same book - check if contiguous {% endcomment %}
+          {% assign expected = range_end | plus: 1 %}
+          {% if chapter_num == expected %}
+            {% assign range_end = chapter_num %}
+          {% else %}
+            {% comment %} Gap - save previous range and start new one {% endcomment %}
+            {% if ranges != "" %}
+              {% assign ranges = ranges | append: ", " %}
+            {% endif %}
+            {% if range_start == range_end %}
+              {% assign ranges = ranges | append: '<a href="' | append: first_link | append: '" target="_blank">' | append: current_book | append: '.' | append: range_start | append: '</a>' %}
+            {% else %}
+              {% assign ranges = ranges | append: '<a href="' | append: first_link | append: '" target="_blank">' | append: current_book | append: '.' | append: range_start | append: '-' | append: range_end | append: '</a>' %}
+            {% endif %}
+            
+            {% assign range_start = chapter_num %}
+            {% assign range_end = chapter_num %}
+            {% assign first_link = link_url %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} Save final range {% endcomment %}
+      {% if range_start != -1 %}
+        {% if ranges != "" %}
+          {% assign ranges = ranges | append: ", " %}
+        {% endif %}
+        {% if range_start == range_end %}
+          {% assign ranges = ranges | append: '<a href="' | append: first_link | append: '" target="_blank">' | append: current_book | append: '.' | append: range_start | append: '</a>' %}
+        {% else %}
+          {% assign ranges = ranges | append: '<a href="' | append: first_link | append: '" target="_blank">' | append: current_book | append: '.' | append: range_start | append: '-' | append: range_end | append: '</a>' %}
+        {% endif %}
+      {% endif %}
+      
+      <li class="section-item">
+        <div class="section-reference">
+          {{ author_name }} {{ work_title }} {{ ranges }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="no-sections">No sections tagged with this topic yet</p>
+{% endif %}

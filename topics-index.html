@@ -1,0 +1,236 @@
+---
+layout: default
+title: Topics Index
+---
+
+<style>
+.topics-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.page-header {
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: #6b7280;
+  font-size: 1.125rem;
+}
+
+.topic-level-1 {
+  margin-bottom: 3rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.topic-level-2 {
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.topic-level-2:last-child {
+  border-bottom: none;
+}
+
+.topic-level-3 {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.topic-level-4 {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.topic-header {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.topic-header-2 {
+  padding: 1rem 1.5rem;
+  background: #f9fafb;
+  border-left: 4px solid #667eea;
+}
+
+.topic-header-3 {
+  padding: 0.75rem 1rem;
+  background: #fafafa;
+  border-left: 3px solid #a78bfa;
+  border-radius: 4px;
+}
+
+.topic-header-4 {
+  padding: 0.5rem 0.75rem;
+  background: #f5f5f5;
+  border-left: 2px solid #c4b5fd;
+  border-radius: 3px;
+}
+
+.topic-name {
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+}
+
+.topic-level-1 .topic-name {
+  font-size: 1.5rem;
+}
+
+.topic-level-2 .topic-name {
+  font-size: 1.25rem;
+  color: #111827;
+}
+
+.topic-level-3 .topic-name {
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+.topic-level-4 .topic-name {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.topic-description {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.topic-level-1 .topic-description {
+  font-size: 1rem;
+}
+
+.topic-level-2 .topic-description,
+.topic-level-3 .topic-description,
+.topic-level-4 .topic-description {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.topic-content {
+  padding: 1.5rem;
+}
+
+.sections-list {
+  margin-top: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.section-item {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: #f9fafb;
+  border-radius: 4px;
+  border-left: 3px solid #8b5cf6;
+}
+
+.section-item:hover {
+  background: #f3f4f6;
+}
+
+.section-reference {
+  color: #111827;
+  font-weight: 500;
+}
+
+.section-reference a {
+  color: #8b5cf6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.section-reference a:hover {
+  color: #7c3aed;
+  text-decoration: underline;
+}
+
+.no-sections {
+  color: #9ca3af;
+  font-style: italic;
+  font-size: 0.875rem;
+  padding: 0.5rem 0;
+}
+</style>
+
+<div class="topics-container">
+  <div class="page-header">
+    <h1>Theological Topics Index</h1>
+    <p>Browse theological topics and their appearances in classic works</p>
+  </div>
+
+  {% assign topics_data = site.data.topics_definitions.topics %}
+
+  {% comment %} Display Level 1 Topics {% endcomment %}
+  {% for topic1 in topics_data %}
+    <div class="topic-level-1">
+      <div class="topic-header">
+        <h2 class="topic-name">{{ topic1.name }}</h2>
+        <p class="topic-description">{{ topic1.description }}</p>
+      </div>
+      
+      <div class="topic-content">
+        {% include topic_sections.html topic_id=topic1.id %}
+        
+        {% comment %} Display Level 2 Topics {% endcomment %}
+        {% if topic1.children %}
+          {% for topic2 in topic1.children %}
+            <div class="topic-level-2">
+              <div class="topic-header-2">
+                <h3 class="topic-name">{{ topic2.name }}</h3>
+                <p class="topic-description">{{ topic2.description }}</p>
+              </div>
+              
+              {% include topic_sections.html topic_id=topic2.id %}
+              
+              {% comment %} Display Level 3 Topics {% endcomment %}
+              {% if topic2.children %}
+                {% for topic3 in topic2.children %}
+                  <div class="topic-level-3">
+                    <div class="topic-header-3">
+                      <h4 class="topic-name">{{ topic3.name }}</h4>
+                      <p class="topic-description">{{ topic3.description }}</p>
+                    </div>
+                    
+                    {% include topic_sections.html topic_id=topic3.id %}
+                    
+                    {% comment %} Display Level 4 Topics {% endcomment %}
+                    {% if topic3.children %}
+                      {% for topic4 in topic3.children %}
+                        <div class="topic-level-4">
+                          <div class="topic-header-4">
+                            <h5 class="topic-name">{{ topic4.name }}</h5>
+                            <p class="topic-description">{{ topic4.description }}</p>
+                          </div>
+                          
+                          {% include topic_sections.html topic_id=topic4.id %}
+                        </div>
+                      {% endfor %}
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              {% endif %}
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
