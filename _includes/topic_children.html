@@ -1,4 +1,13 @@
-{% if children %}
+{% comment %}
+Variables:
+- children: array of subtopics
+- parent_level: heading level (3 = h3, 4 = h4, etc.)
+- all_assignments: all topic assignments
+{% endcomment %}
+
+{% assign children = children | default: "" | split: "" %}
+
+{% if children.size > 0 %}
   {% assign margin = parent_level | times: 20 %}
   {% for subtopic in children %}
     <h{{ parent_level }} id="{{ subtopic.id }}" style="margin-left: {{ margin }}px;">
@@ -8,6 +17,7 @@
       <p style="margin-left: {{ margin }}px;"><em>{{ subtopic.description }}</em></p>
     {% endif %}
 
+    {% comment %}Check if this topic has sections assigned{% endcomment %}
     {% assign has_sections = false %}
     {% for assignment in all_assignments %}
       {% if assignment.topics contains subtopic.id %}
@@ -42,9 +52,11 @@
       </ul>
     {% endif %}
 
+    {% comment %}Recursively render subchildren{% endcomment %}
     {% if subtopic.children %}
       {% assign next_level = parent_level | plus: 1 %}
       {% include topic_children.html children=subtopic.children parent_level=next_level all_assignments=all_assignments %}
     {% endif %}
+
   {% endfor %}
 {% endif %}
