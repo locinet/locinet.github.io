@@ -1,0 +1,1111 @@
+topics:
+  - id: theology-proper
+    name: Theology Proper
+    description: The doctrine of God - His existence, nature, and attributes
+    children:
+      - id: existence-of-god
+        name: Existence of God
+        description: Arguments and proofs for God's existence
+        children:
+          - id: ontological-argument
+            name: Ontological Argument
+            description: God's existence from the concept of a perfect being
+          - id: cosmological-argument
+            name: Cosmological Argument
+            description: God as first cause and necessary being
+          - id: teleological-argument
+            name: Teleological Argument
+            description: Evidence of design in nature
+          - id: moral-argument
+            name: Moral Argument
+            description: God as ground of objective morality
+      
+      - id: nature-of-god
+        name: Nature of God
+        description: God's essential attributes and being
+        children:
+          - id: divine-simplicity
+            name: Divine Simplicity
+            description: God has no parts; His essence and existence are identical
+          - id: divine-immutability
+            name: Divine Immutability
+            description: God does not change in His being or purposes
+          - id: divine-eternity
+            name: Divine Eternity
+            description: God exists beyond time
+          - id: divine-infinity
+            name: Divine Infinity
+            description: God is unlimited in His perfections
+          - id: divine-omnipresence
+            name: Divine Omnipresence
+            description: God is present everywhere
+          - id: divine-omniscience
+            name: Divine Omniscience
+            description: God knows all things actual and possible
+          - id: divine-omnipotence
+            name: Divine Omnipotence
+            description: God is all-powerful
+      
+      - id: attributes-of-god
+        name: Attributes of God
+        description: God's communicable and incommunicable attributes
+        children:
+          - id: divine-goodness
+            name: Divine Goodness
+            description: God is perfectly good
+          - id: divine-love
+            name: Divine Love
+            description: God's benevolent disposition toward His creatures
+          - id: divine-mercy
+            name: Divine Mercy
+            description: God's compassion toward the suffering
+          - id: divine-justice
+            name: Divine Justice
+            description: God's righteousness and fair judgment
+          - id: divine-holiness
+            name: Divine Holiness
+            description: God's moral perfection and separateness from evil
+          - id: divine-wisdom
+            name: Divine Wisdom
+            description: God's perfect knowledge and understanding
+          - id: divine-truth
+            name: Divine Truth
+            description: God's faithfulness and veracity
+      
+      - id: trinity
+        name: Trinity
+        description: One God in three persons
+        children:
+          - id: unity-of-god
+            name: Unity of God
+            description: The oneness of the divine essence
+          - id: trinity-persons
+            name: Divine Persons
+            description: Father, Son, and Holy Spirit as distinct persons
+          - id: trinity-processions
+            name: Divine Processions
+            description: The eternal generation of the Son and procession of the Spirit
+          - id: trinity-relations
+            name: Divine Relations
+            description: The relations between the persons of the Trinity
+          - id: trinity-missions
+            name: Divine Missions
+            description: The temporal sending of the Son and Spirit
+          - id: perichoresis
+            name: Perichoresis
+            description: The mutual indwelling of the Trinity
+      
+      - id: divine-knowledge
+        name: Divine Knowledge
+        description: What and how God knows
+        children:
+          - id: divine-ideas
+            name: Divine Ideas
+            description: The exemplar forms in God's mind
+          - id: gods-knowledge-of-future
+            name: God's Knowledge of Future Contingents
+            description: How God knows free future actions
+      
+      - id: divine-will
+        name: Divine Will
+        description: God's willing and choosing
+        children:
+          - id: divine-freedom
+            name: Divine Freedom
+            description: God's liberty in willing
+          - id: divine-beatitude
+            name: Divine Beatitude
+            description: God's perfect happiness
+
+  - id: divine-operations
+    name: Divine Operations
+    description: God's actions in relation to creation
+    children:
+      - id: creation
+        name: Creation
+        description: God's act of bringing the universe into being
+        children:
+          - id: creation-ex-nihilo
+            name: Creation Ex Nihilo
+            description: Creation from nothing
+          - id: creation-purpose
+            name: Purpose of Creation
+            description: Why God created
+          - id: creation-goodness
+            name: Goodness of Creation
+            description: The original perfection of created things
+          - id: creation-time
+            name: Creation and Time
+            description: Whether creation is eternal or temporal
+      
+      - id: divine-providence
+        name: Divine Providence
+        description: God's care and governance of creation
+        children:
+          - id: providence-general
+            name: General Providence
+            description: God's universal governance
+          - id: providence-special
+            name: Special Providence
+            description: God's particular care for individuals
+          - id: divine-concurrence
+            name: Divine Concurrence
+            description: How God works with secondary causes
+          - id: divine-government
+            name: Divine Government
+            description: God's ordering of creation to its end
+      
+      - id: predestination
+        name: Predestination and Election
+        description: God's eternal decree concerning salvation
+        children:
+          - id: election
+            name: Election
+            description: God's choice of individuals for salvation
+          - id: reprobation
+            name: Reprobation
+            description: God's decree concerning the non-elect
+          - id: free-will-and-grace
+            name: Free Will and Grace
+            description: The relationship between human freedom and divine grace
+          - id: predestination-and-foreknowledge
+            name: Predestination and Foreknowledge
+            description: How God's foreknowledge relates to His decrees
+      
+      - id: miracles
+        name: Miracles
+        description: God's extraordinary interventions in nature
+
+  - id: revelation
+    name: Revelation and Scripture
+    description: How God makes Himself known
+    children:
+      - id: natural-revelation
+        name: Natural Revelation
+        description: Knowledge of God from nature and reason
+      
+      - id: special-revelation
+        name: Special Revelation
+        description: God's supernatural self-disclosure
+        children:
+          - id: scripture
+            name: Sacred Scripture
+            description: The written Word of God
+            children:
+              - id: inspiration
+                name: Inspiration
+                description: The divine authorship of Scripture
+              - id: inerrancy
+                name: Inerrancy
+                description: Scripture's freedom from error
+              - id: authority
+                name: Authority of Scripture
+                description: Scripture as the rule of faith
+              - id: sufficiency
+                name: Sufficiency of Scripture
+                description: Scripture contains all necessary doctrine
+              - id: clarity
+                name: Clarity of Scripture
+                description: Scripture's perspicuity in essential matters
+              - id: canon
+                name: Canon of Scripture
+                description: Which books belong in the Bible
+              - id: interpretation
+                name: Biblical Interpretation
+                description: Principles of hermeneutics
+          
+          - id: tradition
+            name: Sacred Tradition
+            description: The transmission of apostolic teaching
+          
+          - id: prophecy
+            name: Prophecy
+            description: Divine revelation through prophets
+
+  - id: angelology
+    name: Angelology
+    description: The doctrine of angels
+    children:
+      - id: nature-of-angels
+        name: Nature of Angels
+        description: The substance and powers of angelic beings
+      
+      - id: angelic-hierarchy
+        name: Angelic Hierarchy
+        description: The orders and ranks of angels
+      
+      - id: good-angels
+        name: Good Angels
+        description: Angels who remained faithful to God
+        children:
+          - id: guardian-angels
+            name: Guardian Angels
+            description: Angels assigned to protect individuals
+          - id: angelic-ministry
+            name: Angelic Ministry
+            description: How angels serve God and humanity
+      
+      - id: fallen-angels
+        name: Fallen Angels
+        description: Angels who rebelled against God
+        children:
+          - id: demons
+            name: Demons
+            description: Evil spirits
+          - id: satan
+            name: Satan
+            description: The chief of fallen angels
+          - id: demonic-temptation
+            name: Demonic Temptation
+            description: How demons tempt humanity
+
+  - id: anthropology
+    name: Theological Anthropology
+    description: The doctrine of humanity
+    children:
+      - id: creation-of-humanity
+        name: Creation of Humanity
+        description: The origin of human beings
+        children:
+          - id: image-of-god
+            name: Image of God
+            description: Humanity created in God's likeness
+          - id: soul-and-body
+            name: Soul and Body
+            description: The union of spiritual and material in human nature
+          - id: human-faculties
+            name: Human Faculties
+            description: Intellect, will, and passions
+      
+      - id: original-righteousness
+        name: Original Righteousness
+        description: Humanity's state before the Fall
+      
+      - id: the-fall
+        name: The Fall
+        description: Original sin and its effects
+        children:
+          - id: original-sin
+            name: Original Sin
+            description: Inherited guilt and corruption
+          - id: concupiscence
+            name: Concupiscence
+            description: Disordered desire as effect of sin
+          - id: effects-of-sin
+            name: Effects of Sin
+            description: Corruption of nature, death, and suffering
+          - id: transmission-of-sin
+            name: Transmission of Original Sin
+            description: How original sin is passed to descendants
+      
+      - id: free-will
+        name: Free Will
+        description: Human freedom and moral agency
+        children:
+          - id: free-will-before-fall
+            name: Free Will Before the Fall
+            description: Humanity's original freedom
+          - id: free-will-after-fall
+            name: Free Will After the Fall
+            description: The bondage of the will to sin
+          - id: free-will-and-grace
+            name: Free Will and Grace
+            description: How grace affects human freedom
+
+  - id: hamartiology
+    name: Hamartiology
+    description: The doctrine of sin
+    children:
+      - id: nature-of-sin
+        name: Nature of Sin
+        description: The essence and definition of sin
+        children:
+          - id: sin-as-privation
+            name: Sin as Privation
+            description: Sin as lack of due good
+          - id: sin-as-transgression
+            name: Sin as Transgression
+            description: Sin as violation of law
+      
+      - id: kinds-of-sin
+        name: Kinds of Sin
+        description: Classifications and distinctions of sin
+        children:
+          - id: mortal-sin
+            name: Mortal Sin
+            description: Grave sin that kills the soul
+          - id: venial-sin
+            name: Venial Sin
+            description: Lesser sin that wounds the soul
+          - id: sins-of-commission
+            name: Sins of Commission
+            description: Sinful acts done
+          - id: sins-of-omission
+            name: Sins of Omission
+            description: Good acts left undone
+      
+      - id: capital-vices
+        name: Capital Vices
+        description: The seven deadly sins
+        children:
+          - id: pride
+            name: Pride
+            description: Excessive self-love
+          - id: greed
+            name: Greed
+            description: Inordinate desire for wealth
+          - id: lust
+            name: Lust
+            description: Disordered sexual desire
+          - id: envy
+            name: Envy
+            description: Sorrow at another's good
+          - id: gluttony
+            name: Gluttony
+            description: Excessive eating or drinking
+          - id: wrath
+            name: Wrath
+            description: Uncontrolled anger
+          - id: sloth
+            name: Sloth
+            description: Spiritual laziness
+      
+      - id: blasphemy
+        name: Blasphemy
+        description: Sin against God directly
+        children:
+          - id: blasphemy-against-holy-spirit
+            name: Blasphemy Against the Holy Spirit
+            description: The unforgivable sin
+      
+      - id: cause-of-evil
+        name: Problem of Evil
+        description: Why God permits evil
+
+  - id: christology
+    name: Christology
+    description: The doctrine of Christ
+    children:
+      - id: incarnation
+        name: Incarnation
+        description: The Word made flesh
+        children:
+          - id: hypostatic-union
+            name: Hypostatic Union
+            description: The union of divine and human natures in one person
+          - id: two-natures
+            name: Two Natures of Christ
+            description: Christ as fully God and fully human
+          - id: communication-of-idioms
+            name: Communication of Idioms
+            description: Attribution of properties across Christ's natures
+          - id: necessity-of-incarnation
+            name: Necessity of Incarnation
+            description: Why the Son became man
+      
+      - id: virgin-birth
+        name: Virgin Birth
+        description: Christ's conception by the Holy Spirit
+      
+      - id: offices-of-christ
+        name: Offices of Christ
+        description: Christ's threefold office
+        children:
+          - id: christ-as-prophet
+            name: Christ as Prophet
+            description: Christ reveals God's truth
+          - id: christ-as-priest
+            name: Christ as Priest
+            description: Christ offers sacrifice and intercedes
+          - id: christ-as-king
+            name: Christ as King
+            description: Christ rules over all
+      
+      - id: life-of-christ
+        name: Life of Christ
+        description: Christ's earthly ministry
+      
+      - id: passion-of-christ
+        name: Passion of Christ
+        description: Christ's suffering and death
+        children:
+          - id: atonement
+            name: Atonement
+            description: How Christ's death saves
+            children:
+              - id: satisfaction-theory
+                name: Satisfaction Theory
+                description: Christ satisfies divine justice
+              - id: penal-substitution
+                name: Penal Substitution
+                description: Christ bears our punishment
+              - id: christus-victor
+                name: Christus Victor
+                description: Christ defeats sin and death
+              - id: moral-influence
+                name: Moral Influence
+                description: Christ's example transforms us
+          - id: merit-of-christ
+            name: Merit of Christ
+            description: How Christ earned our salvation
+      
+      - id: resurrection
+        name: Resurrection
+        description: Christ's rising from the dead
+      
+      - id: ascension
+        name: Ascension
+        description: Christ's exaltation to heaven
+      
+      - id: session
+        name: Session
+        description: Christ seated at God's right hand
+
+  - id: pneumatology
+    name: Pneumatology
+    description: The doctrine of the Holy Spirit
+    children:
+      - id: person-of-spirit
+        name: Person of the Holy Spirit
+        description: The Spirit as distinct divine person
+      
+      - id: procession-of-spirit
+        name: Procession of the Spirit
+        description: The Spirit's eternal procession from Father (and Son)
+      
+      - id: work-of-spirit
+        name: Work of the Holy Spirit
+        description: The Spirit's operations
+        children:
+          - id: conviction-of-sin
+            name: Conviction of Sin
+            description: The Spirit convicts the world
+          - id: regeneration
+            name: Regeneration
+            description: The Spirit gives new birth
+          - id: sanctification
+            name: Sanctification
+            description: The Spirit makes holy
+          - id: illumination
+            name: Illumination
+            description: The Spirit enlightens minds
+          - id: sealing
+            name: Sealing
+            description: The Spirit marks believers
+          - id: indwelling
+            name: Indwelling
+            description: The Spirit lives in believers
+      
+      - id: gifts-of-spirit
+        name: Gifts of the Holy Spirit
+        description: Special graces given by the Spirit
+        children:
+          - id: charismatic-gifts
+            name: Charismatic Gifts
+            description: Miraculous gifts (tongues, healing, prophecy)
+          - id: sanctifying-gifts
+            name: Sanctifying Gifts
+            description: Wisdom, understanding, counsel, fortitude, knowledge, piety, fear of the Lord
+      
+      - id: fruits-of-spirit
+        name: Fruits of the Spirit
+        description: Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control
+
+  - id: soteriology
+    name: Soteriology
+    description: The doctrine of salvation
+    children:
+      - id: grace
+        name: Grace
+        description: God's unmerited favor
+        children:
+          - id: prevenient-grace
+            name: Prevenient Grace
+            description: Grace that precedes conversion
+          - id: efficacious-grace
+            name: Efficacious Grace
+            description: Grace that accomplishes its purpose
+          - id: sufficient-grace
+            name: Sufficient Grace
+            description: Grace that makes salvation possible
+          - id: actual-grace
+            name: Actual Grace
+            description: Momentary divine help
+          - id: habitual-grace
+            name: Habitual Grace
+            description: Permanent state of grace
+      
+      - id: calling
+        name: Calling
+        description: God's invitation to salvation
+        children:
+          - id: general-call
+            name: General Call
+            description: Universal gospel invitation
+          - id: effectual-call
+            name: Effectual Call
+            description: The Spirit's irresistible summons
+      
+      - id: conversion
+        name: Conversion
+        description: Turning to God
+        children:
+          - id: repentance
+            name: Repentance
+            description: Turning from sin
+          - id: faith
+            name: Faith
+            description: Trust in Christ
+            children:
+              - id: nature-of-faith
+                name: Nature of Faith
+                description: Knowledge, assent, and trust
+              - id: object-of-faith
+                name: Object of Faith
+                description: Christ and His promises
+              - id: justifying-faith
+                name: Justifying Faith
+                description: Faith that saves
+      
+      - id: justification
+        name: Justification
+        description: Being declared righteous before God
+        children:
+          - id: imputation
+            name: Imputation
+            description: Christ's righteousness credited to believers
+          - id: justification-by-faith-alone
+            name: Justification by Faith Alone
+            description: Sola fide
+          - id: justification-and-works
+            name: Justification and Works
+            description: The relationship between faith and works
+      
+      - id: adoption
+        name: Adoption
+        description: Becoming children of God
+      
+      - id: sanctification
+        name: Sanctification
+        description: The process of being made holy
+        children:
+          - id: progressive-sanctification
+            name: Progressive Sanctification
+            description: Growth in holiness
+          - id: definitive-sanctification
+            name: Definitive Sanctification
+            description: Set apart at conversion
+          - id: entire-sanctification
+            name: Entire Sanctification
+            description: Perfection in love
+      
+      - id: perseverance
+        name: Perseverance of the Saints
+        description: Security of salvation
+      
+      - id: glorification
+        name: Glorification
+        description: Final perfection in heaven
+      
+      - id: merit
+        name: Merit
+        description: Whether humans can merit salvation
+
+  - id: ecclesiology
+    name: Ecclesiology
+    description: The doctrine of the Church
+    children:
+      - id: nature-of-church
+        name: Nature of the Church
+        description: What the Church is
+        children:
+          - id: marks-of-church
+            name: Marks of the Church
+            description: One, holy, catholic, apostolic
+          - id: visible-invisible-church
+            name: Visible and Invisible Church
+            description: The distinction between them
+          - id: body-of-christ
+            name: Body of Christ
+            description: The Church as Christ's body
+          - id: bride-of-christ
+            name: Bride of Christ
+            description: The Church as Christ's bride
+      
+      - id: church-authority
+        name: Church Authority
+        description: The Church's teaching power
+        children:
+          - id: infallibility
+            name: Infallibility
+            description: The Church's freedom from error in doctrine
+          - id: magisterium
+            name: Magisterium
+            description: The teaching office
+          - id: councils
+            name: Councils
+            description: Ecumenical and local councils
+      
+      - id: church-government
+        name: Church Government
+        description: Polity and structure
+        children:
+          - id: episcopacy
+            name: Episcopacy
+            description: Government by bishops
+          - id: presbyterianism
+            name: Presbyterianism
+            description: Government by elders
+          - id: congregationalism
+            name: Congregationalism
+            description: Local church autonomy
+      
+      - id: ministry
+        name: Ministry
+        description: Church offices and orders
+        children:
+          - id: ordained-ministry
+            name: Ordained Ministry
+            description: Bishops, priests, deacons
+          - id: priesthood-of-believers
+            name: Priesthood of All Believers
+            description: Universal priesthood
+          - id: apostolic-succession
+            name: Apostolic Succession
+            description: Continuity with the apostles
+      
+      - id: sacraments
+        name: Sacraments
+        description: Sacred rites instituted by Christ
+        children:
+          - id: nature-of-sacraments
+            name: Nature of Sacraments
+            description: Definition and number of sacraments
+          - id: baptism
+            name: Baptism
+            description: Sacrament of initiation
+            children:
+              - id: infant-baptism
+                name: Infant Baptism
+                description: Baptism of children
+              - id: believers-baptism
+                name: Believer's Baptism
+                description: Baptism upon profession of faith
+              - id: baptismal-regeneration
+                name: Baptismal Regeneration
+                description: Whether baptism causes rebirth
+          - id: eucharist
+            name: Eucharist
+            description: The Lord's Supper
+            children:
+              - id: real-presence
+                name: Real Presence
+                description: Christ's presence in the Eucharist
+              - id: transubstantiation
+                name: Transubstantiation
+                description: Substance changes to Christ's body and blood
+              - id: consubstantiation
+                name: Consubstantiation
+                description: Christ present with bread and wine
+              - id: memorial-view
+                name: Memorial View
+                description: Eucharist as symbolic remembrance
+          - id: confirmation
+            name: Confirmation
+            description: Strengthening in the Spirit
+          - id: penance
+            name: Penance
+            description: Sacrament of reconciliation
+            children:
+              - id: confession
+                name: Confession
+                description: Acknowledgment of sins
+              - id: absolution
+                name: Absolution
+                description: Priestly forgiveness
+              - id: satisfaction
+                name: Satisfaction
+                description: Making amends for sin
+          - id: anointing
+            name: Anointing of the Sick
+            description: Sacrament for the ill
+          - id: marriage
+            name: Matrimony
+            description: Sacrament of marriage
+          - id: holy-orders
+            name: Holy Orders
+            description: Sacrament of ordination
+      
+      - id: church-discipline
+        name: Church Discipline
+        description: Correction and excommunication
+      
+      - id: communion-of-saints
+        name: Communion of Saints
+        description: Unity of believers across time and space
+
+  - id: mariology
+    name: Mariology
+    description: The doctrine of Mary
+    children:
+      - id: theotokos
+        name: Theotokos
+        description: Mary as Mother of God
+      
+      - id: perpetual-virginity
+        name: Perpetual Virginity
+        description: Mary's virginity before, during, and after birth
+      
+      - id: immaculate-conception
+        name: Immaculate Conception
+        description: Mary conceived without original sin
+      
+      - id: assumption
+        name: Assumption
+        description: Mary's bodily assumption into heaven
+      
+      - id: marian-intercession
+        name: Marian Intercession
+        description: Mary's prayers for the faithful
+
+  - id: eschatology
+    name: Eschatology
+    description: The doctrine of last things
+    children:
+      - id: death
+        name: Death
+        description: Physical death and its meaning
+      
+      - id: intermediate-state
+        name: Intermediate State
+        description: The soul between death and resurrection
+        children:
+          - id: particular-judgment
+            name: Particular Judgment
+            description: Judgment at death
+          - id: purgatory
+            name: Purgatory
+            description: Purification after death
+          - id: limbo
+            name: Limbo
+            description: State of unbaptized infants
+          - id: paradise
+            name: Paradise
+            description: The righteous await resurrection
+      
+      - id: second-coming
+        name: Second Coming
+        description: Christ's return in glory
+        children:
+          - id: signs-of-times
+            name: Signs of the Times
+            description: Events preceding Christ's return
+          - id: antichrist
+            name: Antichrist
+            description: The final enemy of Christ
+          - id: tribulation
+            name: Tribulation
+            description: Period of great suffering
+          - id: rapture
+            name: Rapture
+            description: Believers caught up to meet Christ
+      
+      - id: millennium
+        name: Millennium
+        description: The thousand-year reign
+        children:
+          - id: premillennialism
+            name: Premillennialism
+            description: Christ returns before the millennium
+          - id: postmillennialism
+            name: Postmillennialism
+            description: Christ returns after the millennium
+          - id: amillennialism
+            name: Amillennialism
+            description: Millennium is symbolic
+      
+      - id: resurrection
+        name: General Resurrection
+        description: The raising of all the dead
+        children:
+          - id: resurrection-body
+            name: Resurrection Body
+            description: Nature of the glorified body
+      
+      - id: final-judgment
+        name: Final Judgment
+        description: Christ judges all humanity
+        children:
+          - id: book-of-life
+            name: Book of Life
+            description: Registry of the saved
+          - id: judgment-of-works
+            name: Judgment of Works
+            description: Evaluation of deeds
+      
+      - id: hell
+        name: Hell
+        description: Eternal punishment
+        children:
+          - id: nature-of-hell
+            name: Nature of Hell
+            description: What hell is like
+          - id: eternal-punishment
+            name: Eternal Punishment
+            description: Duration of damnation
+          - id: annihilationism
+            name: Annihilationism
+            description: The wicked cease to exist
+      
+      - id: heaven
+        name: Heaven
+        description: Eternal blessedness
+        children:
+          - id: beatific-vision
+            name: Beatific Vision
+            description: Seeing God face to face
+          - id: new-heaven-new-earth
+            name: New Heaven and New Earth
+            description: The renewed creation
+          - id: eternal-life
+            name: Eternal Life
+            description: Life with God forever
+
+  - id: moral-theology
+    name: Moral Theology
+    description: Christian ethics and the moral life
+    children:
+      - id: natural-law
+        name: Natural Law
+        description: Moral law written on the heart
+      
+      - id: divine-law
+        name: Divine Law
+        description: God's revealed moral commands
+        children:
+          - id: old-law
+            name: Old Law
+            description: The Mosaic law
+            children:
+              - id: moral-precepts
+                name: Moral Precepts
+                description: The Ten Commandments
+              - id: ceremonial-precepts
+                name: Ceremonial Precepts
+                description: Ritual laws
+              - id: judicial-precepts
+                name: Judicial Precepts
+                description: Civil laws
+          - id: new-law
+            name: New Law
+            description: The law of the Gospel
+      
+      - id: human-law
+        name: Human Law
+        description: Civil and ecclesiastical law
+      
+      - id: conscience
+        name: Conscience
+        description: Moral judgment of particular acts
+        children:
+          - id: formation-of-conscience
+            name: Formation of Conscience
+            description: Educating the moral sense
+          - id: erroneous-conscience
+            name: Erroneous Conscience
+            description: When conscience errs
+      
+      - id: virtues
+        name: Virtues
+        description: Habits of excellence
+        children:
+          - id: theological-virtues
+            name: Theological Virtues
+            description: Faith, hope, charity
+            children:
+              - id: faith-virtue
+                name: Faith
+                description: Belief in God and His revelation
+              - id: hope-virtue
+                name: Hope
+                description: Confident expectation of salvation
+              - id: charity-virtue
+                name: Charity
+                description: Love of God and neighbor
+          - id: cardinal-virtues
+            name: Cardinal Virtues
+            description: Prudence, justice, fortitude, temperance
+            children:
+              - id: prudence
+                name: Prudence
+                description: Right reason in action
+              - id: justice
+                name: Justice
+                description: Rendering to each their due
+              - id: fortitude
+                name: Fortitude
+                description: Courage in facing difficulty
+              - id: temperance
+                name: Temperance
+                description: Moderation in pleasure
+      
+      - id: vices
+        name: Vices
+        description: Habits of moral failure
+      
+      - id: human-acts
+        name: Human Acts
+        description: Free and deliberate actions
+        children:
+          - id: voluntariness
+            name: Voluntariness
+            description: Freedom in acting
+          - id: intention
+            name: Intention
+            description: Purpose of the act
+          - id: circumstances
+            name: Circumstances
+                description: Conditions affecting morality
+          - id: good-and-evil
+            name: Good and Evil in Acts
+            description: Moral evaluation of actions
+      
+      - id: passions
+        name: Passions
+        description: Movements of sensitive appetite
+        children:
+          - id: love-and-hatred
+            name: Love and Hatred
+            description: Attraction and repulsion
+          - id: desire-and-aversion
+            name: Desire and Aversion
+            description: Pursuit and flight
+          - id: joy-and-sorrow
+            name: Joy and Sorrow
+            description: Pleasure and pain
+          - id: hope-and-despair
+            name: Hope and Despair
+            description: Expectation and discouragement
+          - id: fear-and-daring
+            name: Fear and Daring
+            description: Shrinking and boldness
+          - id: anger
+            name: Anger
+            description: Response to injury
+      
+      - id: specific-moral-issues
+        name: Specific Moral Issues
+        description: Applied ethics
+        children:
+          - id: respect-for-life
+            name: Respect for Life
+            description: Murder, abortion, euthanasia
+          - id: sexual-ethics
+            name: Sexual Ethics
+            description: Chastity, marriage, sexuality
+          - id: truthfulness
+            name: Truthfulness
+            description: Lying, secrets, mental reservation
+          - id: property
+            name: Property
+            description: Theft, restitution, usury
+          - id: war-and-peace
+            name: War and Peace
+            description: Just war, pacifism
+          - id: punishment
+            name: Punishment
+            description: Capital punishment, vindictive justice
+
+  - id: ascetical-theology
+    name: Ascetical and Mystical Theology
+    description: The spiritual life and prayer
+    children:
+      - id: prayer
+        name: Prayer
+        description: Communication with God
+        children:
+          - id: kinds-of-prayer
+            name: Kinds of Prayer
+            description: Adoration, petition, thanksgiving, contrition
+          - id: contemplation
+            name: Contemplation
+            description: Wordless gazing on God
+          - id: meditation
+            name: Meditation
+            description: Reflective prayer
+          - id: liturgical-prayer
+            name: Liturgical Prayer
+            description: Public worship
+      
+      - id: spiritual-growth
+        name: Spiritual Growth
+        description: Progress in holiness
+        children:
+          - id: purgative-way
+            name: Purgative Way
+            description: Cleansing from sin
+          - id: illuminative-way
+            name: Illuminative Way
+            description: Growing in virtue
+          - id: unitive-way
+            name: Unitive Way
+            description: Union with God
+      
+      - id: mystical-experiences
+        name: Mystical Experiences
+        description: Extraordinary graces
+        children:
+          - id: visions
+            name: Visions
+            description: Supernatural sight
+          - id: locutions
+            name: Locutions
+            description: Interior words from God
+          - id: rapture
+            name: Rapture
+            description: Ecstatic union
+      
+      - id: religious-life
+        name: Religious Life
+        description: Consecrated life
+        children:
+          - id: evangelical-counsels
+            name: Evangelical Counsels
+            description: Poverty, chastity, obedience
+          - id: monasticism
+            name: Monasticism
+            description: Contemplative religious life
+          - id: active-religious
+            name: Active Religious Life
+            description: Service-oriented communities
+      
+      - id: spiritual-warfare
+        name: Spiritual Warfare
+        description: Combat against evil
+        children:
+          - id: temptation
+            name: Temptation
+            description: Enticement to sin
+          - id: discernment
+            name: Discernment of Spirits
+            description: Distinguishing divine from demonic
+
+  - id: liturgical-theology
+    name: Liturgical Theology
+    description: The Church's worship
+    children:
+      - id: mass
+        name: The Mass
+        description: The Eucharistic liturgy
+      
+      - id: liturgical-year
+        name: Liturgical Year
+        description: Seasons and feasts
+      
+      - id: sacred-art
+        name: Sacred Art
+        description: Icons, images, church architecture
+      
+      - id: sacred-music
+        name: Sacred Music
+        description: Chant, hymns, liturgical music
