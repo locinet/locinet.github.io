@@ -173,3 +173,188 @@ works:
               - site: EEBO
                 language: en
                 url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.15?rgn=div2;view=fulltext
+      - type: part
+        id: part_2
+        number: 2
+        title:
+          en: "The Second Part"
+        children:
+          - type: chapter
+            id: cp1583_2_1
+            number: 1
+            title:
+              en: "Of Sinne, especiallie originall sinne; and of the vniuersall corrupting of mans nature"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.1?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_2
+            number: 2
+            title:
+              en: "Of Free will"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.2?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_3
+            number: 3
+            title:
+              en: "Of the Lawe"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.3?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_4
+            number: 4
+            title:
+              en: "Of Idolatrie, forbidden by the first Commandement"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.4?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_5
+            number: 5
+            title:
+              en: "The second Precept, which concerneth Images"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.5?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_6
+            number: 6
+            title:
+              en: "The third Precept; of the sanctification of the name of God"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.6?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_7
+            number: 7
+            title:
+              en: "The fourth precept; of sanctifying the sabboth daie"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.7?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_8
+            number: 8
+            title:
+              en: "The fift precept; of the honouring of Superiours"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.8?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_9
+            number: 9
+            title:
+              en: "Wherein is treated vpon the sixt precept; and first of Friendship"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.9?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_10
+            number: 10
+            title:
+              en: "The seuenth precept; Thou shalt not commit adulterie"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.10?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_11
+            number: 11
+            title:
+              en: "Of Whoredome, fornication, adulterie, and other noisome things"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.11?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_12
+            number: 12
+            title:
+              en: "The eight commandement; Thou shalt not steale"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.12?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_13
+            number: 13
+            title:
+              en: "The ninth Precept; Thou shalt not beare false witnesse"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.13?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_14
+            number: 14
+            title:
+              en: "The last precept; Thou shalt not lust"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.14?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_15
+            number: 15
+            title:
+              en: "Whether the commandement of God may be kept in this life"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.15?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_16
+            number: 16
+            title:
+              en: "Of the likenesse and vnlikenesse of the Old and New couenant"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.16?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_17
+            number: 17
+            title:
+              en: "Of Christ, and his manifestation in the flesh"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.17?rgn=div2;view=fulltext
+
+          - type: chapter
+            id: cp1583_2_18
+            number: 18
+            title:
+              en: "A plaine exposition of Peter Martyr, vpon the twelue articles of the Christian faith"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.18?rgn=div2;view=fulltext
