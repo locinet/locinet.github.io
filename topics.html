@@ -1,8 +1,18 @@
 ---
 layout: default
 title: Topics Index
+permalink: /topics/
 ---
 <h1>Topics</h1>
+
+{% assign all_assignments = "" | split: "" %}
+
+{% for pair in site.data %}
+  {% if pair[1].assignments %}
+    {% assign all_assignments = all_assignments | concat: pair[1].assignments %}
+  {% endif %}
+{% endfor %}
+
 
 {% comment %}Build a flat topic lookup for easy searching{% endcomment %}
 {% assign topic_lookup = "" | split: "" %}
@@ -42,17 +52,7 @@ title: Topics Index
       {% comment %}Check if this subtopic has any sections assigned to it{% endcomment %}
       {% assign has_sections = false %}
       {% comment %}Combine all topic assignments from multiple files{% endcomment %}
-        {% assign all_assignments = "" | split: "" %}
-        {% if site.data.topics.assignments %}
-          {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
-        {% endif %}
-        {% if site.data.institutes_topics.assignments %}
-          {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
-        {% endif %}
-        {% if site.data.summa_first_part_topics.assignments %}
-          {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
-        {% endif %}
-        
+       
         {% for assignment in all_assignments %}
         {% if assignment.topics contains subtopic.id %}
           {% assign has_sections = true %}
@@ -63,16 +63,6 @@ title: Topics Index
       {% if has_sections %}
         <ul style="margin-left: 20px;">
           {% comment %}Combine all topic assignments from multiple files{% endcomment %}
-            {% assign all_assignments = "" | split: "" %}
-            {% if site.data.topics.assignments %}
-              {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
-            {% endif %}
-            {% if site.data.institutes_topics.assignments %}
-              {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
-            {% endif %}
-            {% if site.data.summa_first_part_topics.assignments %}
-              {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
-            {% endif %}
             
             {% for assignment in all_assignments %}
             {% if assignment.topics contains subtopic.id %}
@@ -110,17 +100,7 @@ title: Topics Index
           
           {% assign has_sections = false %}
           {% comment %}Combine all topic assignments from multiple files{% endcomment %}
-            {% assign all_assignments = "" | split: "" %}
-            {% if site.data.topics.assignments %}
-              {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
-            {% endif %}
-            {% if site.data.institutes_topics.assignments %}
-              {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
-            {% endif %}
-            {% if site.data.summa_first_part_topics.assignments %}
-              {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
-            {% endif %}
-            
+           
             {% for assignment in all_assignments %}
             {% if assignment.topics contains subsubtopic.id %}
               {% assign has_sections = true %}
@@ -131,16 +111,6 @@ title: Topics Index
           {% if has_sections %}
             <ul style="margin-left: 40px;">
               {% comment %}Combine all topic assignments from multiple files{% endcomment %}
-                {% assign all_assignments = "" | split: "" %}
-                {% if site.data.topics.assignments %}
-                  {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
-                {% endif %}
-                {% if site.data.institutes_topics.assignments %}
-                  {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
-                {% endif %}
-                {% if site.data.summa_first_part_topics.assignments %}
-                  {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
-                {% endif %}
                 
                 {% for assignment in all_assignments %}
                 {% if assignment.topics contains subsubtopic.id %}
@@ -177,16 +147,6 @@ title: Topics Index
               
               {% assign has_sections = false %}
               {% comment %}Combine all topic assignments from multiple files{% endcomment %}
-                {% assign all_assignments = "" | split: "" %}
-                {% if site.data.topics.assignments %}
-                  {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
-                {% endif %}
-                {% if site.data.institutes_topics.assignments %}
-                  {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
-                {% endif %}
-                {% if site.data.summa_first_part_topics.assignments %}
-                  {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
-                {% endif %}
                 
                 {% for assignment in all_assignments %}
                 {% if assignment.topics contains subsubsubtopic.id %}
@@ -198,16 +158,6 @@ title: Topics Index
               {% if has_sections %}
                 <ul style="margin-left: 60px;">
                   {% comment %}Combine all topic assignments from multiple files{% endcomment %}
-                    {% assign all_assignments = "" | split: "" %}
-                    {% if site.data.topics.assignments %}
-                      {% assign all_assignments = all_assignments | concat: site.data.topics.assignments %}
-                    {% endif %}
-                    {% if site.data.institutes_topics.assignments %}
-                      {% assign all_assignments = all_assignments | concat: site.data.institutes_topics.assignments %}
-                    {% endif %}
-                    {% if site.data.summa_first_part_topics.assignments %}
-                      {% assign all_assignments = all_assignments | concat: site.data.summa_first_part_topics.assignments %}
-                    {% endif %}
                     
                     {% for assignment in all_assignments %}
                     {% if assignment.topics contains subsubsubtopic.id %}
