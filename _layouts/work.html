@@ -44,6 +44,12 @@
   <li>
     {{ child.type | capitalize }} {{ child.number }} —
     {{ child.title.en }}
+
+    {% if child.links %}
+      {% for link in child.links %}
+         — <a href="{{ link.url }}" target="_blank">{{ link.site }}</a>
+      {% endfor %}
+    {% endif %}
     
     {% comment %}Find topics for this section{% endcomment %}
     {% assign section_row = site.data.topics | where: "work_id", page.work_id | where: "section_id", child.id | first %}
@@ -62,14 +68,7 @@
         {% endfor %}
       </small>
     {% endif %}
-    
-    {% if child.links %}
-      {% for link in child.links %}
-        {% if link.site == "CCEL" %}
-          — <a href="{{ link.url }}" target="_blank">CCEL</a>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+
   </li>
 {% endfor %}
     </ul>
