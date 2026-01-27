@@ -1,6 +1,6 @@
 works:
   - id: common-places-1583
-    title: The Common Places of the Most Famous and Renowmed Diuine Doctor Peter Martyr
+    title: The common places of the most famous and renowmed diuine Doctor Peter Martyr
     author: Pietro Martire Vermigli
     year: 1583
     structure:
@@ -8,26 +8,26 @@ works:
         id: part_1
         number: 1
         title:
-          en: "A Generall Method and Distribution of the Whole Work"
+          en: "A Generall Method and Distribution of the Whole Worke"
         children:
           - type: chapter
             id: cp1583_1_1
             number: 1
             title:
-              en: "Of the Ends of Good and Euill among the Christians"
+              en: "Of the ends of good and euill among the Christians"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#24
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.1?rgn=div2;view=fulltext
           - type: chapter
             id: cp1583_1_2
             number: 2
             title:
-              en: "Of the Naturall Knowledge of God by the Things Created"
+              en: "Of the naturall knowledge of God by the things created"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#25
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.2?rgn=div2;view=fulltext
           - type: chapter
             id: cp1583_1_3
             number: 3
@@ -36,100 +36,139 @@ works:
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#26
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.3?rgn=div2;view=fulltext
           - type: chapter
             id: cp1583_1_4
             number: 4
             title:
-              en: "Of Visions; and How God May be Knowne of Men"
+              en: "Of Visions; and how, and how much God may bee knowne of men"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#27
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.4?rgn=div2;view=fulltext
           - type: chapter
             id: cp1583_1_5
             number: 5
             title:
-              en: "Of the Law of God"
+              en: "Of Dreames"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#28
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.5?rgn=div2;view=fulltext
           - type: chapter
             id: cp1583_1_6
             number: 6
             title:
-              en: "Of Faith and Justification"
+              en: "Of the holie scriptures"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#29
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.6?rgn=div2;view=fulltext
           - type: chapter
             id: cp1583_1_7
             number: 7
             title:
-              en: "Of the Christian Sacraments"
+              en: "Whether young and incontinent men are to be excluded from hearing of the word"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#30
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.7?rgn=div2;view=fulltext
           - type: chapter
             id: cp1583_1_8
             number: 8
             title:
-              en: "Of Prayer and the Church"
+              en: "Of Lots, whereby Gods counsell was asked"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#31
-      - type: part
-        id: part_2
-        number: 2
-        title:
-          en: "Of the Knowledge of God and the Scriptures"
-        children:
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.8?rgn=div2;view=fulltext
           - type: chapter
-            id: cp1583_2_1
-            number: 1
+            id: cp1583_1_9
+            number: 9
             title:
-              en: "Of the Knowledge of God by Nature and by Revelation"
+              en: "Of Miracles"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#32
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.9?rgn=div2;view=fulltext
           - type: chapter
-            id: cp1583_2_2
-            number: 2
+            id: cp1583_1_10
+            number: 10
             title:
-              en: "Of the Authority and Use of Scripture"
+              en: "Of appeerings of diuels"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#33
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.10?rgn=div2;view=fulltext
           - type: chapter
-            id: cp1583_2_3
-            number: 3
+            id: cp1583_1_11
+            number: 11
             title:
-              en: "Of the Interpretation of the Scriptures"
+              en: "Of a good intent, zeale, prescription, and custome"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#34
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.11?rgn=div2;view=fulltext
           - type: chapter
-            id: cp1583_2_4
-            number: 4
+            id: cp1583_1_12
+            number: 12
             title:
-              en: "Of the Old and New Testament Concord"
+              en: "Of sundrie things attributed vnto God, and the holie Trinitie"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#35
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.12?rgn=div2;view=fulltext
           - type: chapter
-            id: cp1583_2_5
-            number: 5
+            id: cp1583_1_13
+            number: 13
             title:
-              en: "Of the Law, the Prophets, and the Gospels"
+              en: "Of the creation of all things"
             links:
               - site: EEBO
                 language: en
-                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001?view=toc#36
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.13?rgn=div2;view=fulltext
+          - type: chapter
+            id: cp1583_1_14
+            number: 14
+            title:
+              en: "Of felicitie in generall, and of the chiefest good"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.14?rgn=div2;view=fulltext
+          - type: chapter
+            id: cp1583_1_15
+            number: 15
+            title:
+              en: "Whether anie man can be counted happie in this world"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.15?rgn=div2;view=fulltext
+          - type: chapter
+            id: cp1583_1_16
+            number: 16
+            title:
+              en: "Of Prouidence"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.16?rgn=div2;view=fulltext
+          - type: chapter
+            id: cp1583_1_17
+            number: 17
+            title:
+              en: "Whether God be the Author of sinne"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:7.17?rgn=div2;view=fulltext
+          - type: chapter
+            id: cp1583_1_18
+            number: 18
+            title:
+              en: "How it may be said, that God dooth repent, and dooth tempt"
+            links:
+              - site: EEBO
+                language: en
+                url: https://quod.lib.umich.edu/e/eebo2/A14350.0001.001/1:8.15?rgn=div2;view=fulltext
