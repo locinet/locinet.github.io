@@ -12,7 +12,6 @@
       <p style="margin-left: {{ margin }}px;"><em>{{ subtopic.description }}</em></p>
     {% endif %}
 
-    {% comment %}Debug: show subtopic object{% endcomment %}
     <pre style="color: blue;">DEBUG: subtopic={{ subtopic | jsonify }}</pre>
 
     {% assign has_sections = false %}
@@ -49,10 +48,13 @@
       </ul>
     {% endif %}
 
-    {% if subtopic.children %}
+    {% assign next_children = subtopic.children | default: empty %}
+    {% assign max_depth = 6 %}
+    {% if next_children.size > 0 and parent_level < max_depth %}
       {% assign next_level = parent_level | plus: 1 %}
-      {% include topic_children.html children=subtopic.children parent_level=next_level all_assignments=all_assignments %}
+      {% include topic_children.html children=next_children parent_level=next_level all_assignments=all_assignments %}
     {% endif %}
+
   {% endfor %}
 {% else %}
   <p style="color: orange;">DEBUG: No children at this level</p>
