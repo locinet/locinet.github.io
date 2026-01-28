@@ -1,0 +1,26 @@
+work: institutes-1559
+
+levels:
+  - id: book
+    label:
+      en: Book
+      la: Liber
+  - id: chapter
+    label:
+      en: Chapter
+      la: Caput
+
+nodes:
+  - id: inst1559_b1
+    level: book
+    ordinal: 1
+
+  - id: inst1559_b1_c1
+    level: chapter
+    parent: inst1559_b1
+    ordinal: 1
+
+  - id: inst1559_b1_c2
+    level: chapter
+    parent: inst1559_b1
+    ordinal: 2
