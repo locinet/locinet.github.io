@@ -2,32 +2,46 @@
 layout: default
 ---
 
-{% comment %} Find the work data {% endcomment %}
-{% assign work_data = nil %}
-{% assign work_file_name = "" %}
+{% comment %} Get work metadata {% endcomment %}
+{% assign work_file_name = "works/" | append: page.work_id %}
+{% assign work = site.data[work_file_name] %}
 
-{% for data_file in site.data %}
-  {% assign file_name = data_file[0] %}
-  {% assign file_data = data_file[1] %}
-  
-  {% if file_data.works %}
-    {% for work in file_data.works %}
-      {% if work.id == page.work_id %}
-        {% assign work_data = work %}
-        {% assign work_file_name = file_name %}
-      {% endif %}
-    {% endfor %}
+{% comment %} Get structure {% endcomment %}
+{% assign structure_file_name = "structures/" | append: page.work_id %}
+{% assign structure_data = site.data[structure_file_name] %}
+
+{% comment %} Get titles {% endcomment %}
+{% assign titles_file_name = "titles/" | append: page.work_id %}
+{% assign titles_data = site.data[titles_file_name] %}
+
+{% comment %} Get links {% endcomment %}
+{% assign links_file_name = "links/" | append: page.work_id %}
+{% assign links_data = site.data[links_file_name] %}
+
+{% comment %} Get topics {% endcomment %}
+{% assign topics_file_name = page.work_id | append: "_topics" %}
+{% assign work_topics = site.data[topics_file_name] %}
+
+{% comment %} Get author info {% endcomment %}
+{% assign author_info = nil %}
+{% for author in site.data.authors.authors %}
+  {% if author.id == work.author %}
+    {% assign author_info = author %}
   {% endif %}
 {% endfor %}
 
-{% assign topics_file_name = work_file_name | append: "_topics" %}
-{% assign work_topics = site.data[topics_file_name] %}
-
-{% assign author_info = nil %}
-{% for author in site.data.authors.authors %}
-  {% if author.id == work_data.author %}
-    {% assign author_info = author %}
-  {% endif %}
+{% comment %} Build hierarchy from nodes {% endcomment %}
+{% assign top_level_nodes = "" | split: "" %}
+{% for node in structure_data.structure.nodes %}
+  {% assign has_parent = false %}
+  {% for check_node in structure_data.structure.nodes %}
+    {% if check_node.id == node.parent %}
+      {% assign has_parent = true %}
+    {% endif %}
+  {% endfor %}
+  {% unless has_parent %}
+    {% assign top_level_nodes = top_level_nodes | push: node %}
+  {% endunless %}
 {% endfor %}
 
 <style>
@@ -344,17 +358,19 @@ layout: default
       
       <h2 class="work-toc-title">Contents</h2>
       <ul class="work-toc-list">
-        {% for structure_item in work_data.structure %}
+        {% for parent_node in top_level_nodes %}
           <li class="work-toc-item">
-            <a href="#structure-{{ structure_item.id }}">
-              {% if structure_item.type == "book" %}
-                Book {{ structure_item.number }}.
-              {% elsif structure_item.type == "part" %}
-                Part {{ structure_item.number }}.
-              {% else %}
-                {{ structure_item.number }}.
+            <a href="#node-{{ parent_node.id }}">
+              {% comment %} Get level label {% endcomment %}
+              {% for level in structure_data.structure.levels %}
+                {% if level.id == parent_node.level %}
+                  {{ level.label.en }} {{ parent_node.ordinal }}.
+                {% endif %}
+              {% endfor %}
+              {% comment %} Get title {% endcomment %}
+              {% if titles_data.chapter_titles.en[parent_node.id] %}
+                {{ titles_data.chapter_titles.en[parent_node.id] }}
               {% endif %}
-              {{ structure_item.title.en }}
             </a>
           </li>
         {% endfor %}
@@ -365,106 +381,130 @@ layout: default
   <div class="work-page">
     <div class="work-header">
       <div class="work-title-line">
-        <h1 class="work-title">{{ work_data.title }}</h1>
-        <span class="work-year">({{ work_data.year }})</span>
+        <h1 class="work-title">{{ work.title }}</h1>
+        <span class="work-year">({{ work.year }})</span>
       </div>
       <div class="work-author">{{ author_info.name.en }}</div>
     </div>
 
     <div class="work-structure">
-      {% for structure_item in work_data.structure %}
-        <div class="structure-item" id="structure-{{ structure_item.id }}">
+      {% for parent_node in top_level_nodes %}
+        <div class="structure-item" id="node-{{ parent_node.id }}">
           <div class="structure-header">
             <h2 class="structure-title">
-              {{ structure_item.title.en }}
+              {% if titles_data.chapter_titles.en[parent_node.id] %}
+                {{ titles_data.chapter_titles.en[parent_node.id] }}
+              {% else %}
+                {% for level in structure_data.structure.levels %}
+                  {% if level.id == parent_node.level %}
+                    {{ level.label.en }} {{ parent_node.ordinal }}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
             </h2>
           </div>
           
           <div class="structure-content">
             <ul class="section-list">
-              {% for child in structure_item.children %}
-                <li class="section-item">
-                  <div class="section-header">
-                    <div class="section-number-title">
-                      <span class="section-number">
-                        {% if structure_item.type == "book" %}
-                          Book {{ structure_item.number }}, Chapter {{ child.number }}
-                        {% elsif structure_item.type == "part" %}
-                          Part {{ structure_item.number }}, Question {{ child.number }}
-                        {% else %}
-                          {{ structure_item.number }}.{{ child.number }}
-                        {% endif %}
-                      </span>
-                      <span class="section-title">{{ child.title.en }}</span>
-                    </div>
-                    
-                    {% if child.links %}
-                      <div class="section-links">
-                        {% for link in child.links %}
-                          <a href="{{ link.url }}" class="section-link" target="_blank">
-                            {{ link.site }} ({{ link.language | upcase }})
-                          </a>
-                        {% endfor %}
+              {% comment %} Get child nodes {% endcomment %}
+              {% for child_node in structure_data.structure.nodes %}
+                {% if child_node.parent == parent_node.id %}
+                  <li class="section-item">
+                    <div class="section-header">
+                      <div class="section-number-title">
+                        <span class="section-number">
+                          {% for level in structure_data.structure.levels %}
+                            {% if level.id == parent_node.level %}
+                              {{ level.label.en }} {{ parent_node.ordinal }},
+                            {% endif %}
+                          {% endfor %}
+                          {% for level in structure_data.structure.levels %}
+                            {% if level.id == child_node.level %}
+                              {{ level.label.en }} {{ child_node.ordinal }}
+                            {% endif %}
+                          {% endfor %}
+                        </span>
+                        <span class="section-title">
+                          {% if titles_data.chapter_titles.en[child_node.id] %}
+                            {{ titles_data.chapter_titles.en[child_node.id] }}
+                          {% endif %}
+                        </span>
                       </div>
-                    {% endif %}
-                  </div>
-                  
-                  {% if work_topics %}
-                    {% assign section_topics = "" | split: "" %}
-                    {% for assignment in work_topics.assignments %}
-                      {% if assignment.section_id == child.id %}
-                        {% assign section_topics = assignment.topics %}
-                      {% endif %}
-                    {% endfor %}
-                    
-                    {% if section_topics.size > 0 %}
-                      <div class="section-topics">
-                        <div class="topics-label">Topics:</div>
-                        <div class="topic-tags">
-                          {% for topic_id in section_topics %}
-                            {% assign topic_found = false %}
-                            {% for topic1 in site.data.topics_definitions.topics %}
-                              {% if topic1.id == topic_id %}
-                                <a href="{{ '/' | relative_url }}#topic-{{ topic_id }}" class="topic-tag">{{ topic1.name }}</a>
-                                {% assign topic_found = true %}
-                              {% endif %}
-                              {% unless topic_found %}
-                                {% if topic1.children %}
-                                  {% for topic2 in topic1.children %}
-                                    {% if topic2.id == topic_id %}
-                                      <a href="{{ '/' | relative_url }}#topic-{{ topic_id }}" class="topic-tag">{{ topic2.name }}</a>
-                                      {% assign topic_found = true %}
-                                    {% endif %}
-                                    {% unless topic_found %}
-                                      {% if topic2.children %}
-                                        {% for topic3 in topic2.children %}
-                                          {% if topic3.id == topic_id %}
-                                            <a href="{{ '/' | relative_url }}#topic-{{ topic_id }}" class="topic-tag">{{ topic3.name }}</a>
-                                            {% assign topic_found = true %}
-                                          {% endif %}
-                                          {% unless topic_found %}
-                                            {% if topic3.children %}
-                                              {% for topic4 in topic3.children %}
-                                                {% if topic4.id == topic_id %}
-                                                  <a href="{{ '/' | relative_url }}#topic-{{ topic_id }}" class="topic-tag">{{ topic4.name }}</a>
-                                                  {% assign topic_found = true %}
-                                                {% endif %}
-                                              {% endfor %}
-                                            {% endif %}
-                                          {% endunless %}
-                                        {% endfor %}
-                                      {% endif %}
-                                    {% endunless %}
-                                  {% endfor %}
-                                {% endif %}
-                              {% endunless %}
-                            {% endfor %}
+                      
+                      {% comment %} Get links for this node {% endcomment %}
+                      {% if links_data.sites %}
+                        <div class="section-links">
+                          {% for site_entry in links_data.sites %}
+                            {% assign site_name = site_entry[0] %}
+                            {% assign site_data = site_entry[1] %}
+                            {% if site_data.nodes[child_node.id] %}
+                              <a href="{{ site_data.nodes[child_node.id] }}" class="section-link" target="_blank">
+                                {{ site_name }}
+                              </a>
+                            {% endif %}
                           {% endfor %}
                         </div>
-                      </div>
+                      {% endif %}
+                    </div>
+                    
+                    {% comment %} Get topics for this section {% endcomment %}
+                    {% if work_topics %}
+                      {% assign section_topics = "" | split: "" %}
+                      {% for assignment in work_topics.assignments %}
+                        {% if assignment.section_id == child_node.id %}
+                          {% assign section_topics = assignment.topics %}
+                        {% endif %}
+                      {% endfor %}
+                      
+                      {% if section_topics.size > 0 %}
+                        <div class="section-topics">
+                          <div class="topics-label">Topics:</div>
+                          <div class="topic-tags">
+                            {% for topic_id in section_topics %}
+                              {% assign topic_found = false %}
+                              {% for topic1 in site.data.topics_definitions.topics %}
+                                {% if topic1.id == topic_id %}
+                                  <a href="{{ '/' | relative_url }}#topic-{{ topic_id }}" class="topic-tag">{{ topic1.name }}</a>
+                                  {% assign topic_found = true %}
+                                {% endif %}
+                                {% unless topic_found %}
+                                  {% if topic1.children %}
+                                    {% for topic2 in topic1.children %}
+                                      {% if topic2.id == topic_id %}
+                                        <a href="{{ '/' | relative_url }}#topic-{{ topic_id }}" class="topic-tag">{{ topic2.name }}</a>
+                                        {% assign topic_found = true %}
+                                      {% endif %}
+                                      {% unless topic_found %}
+                                        {% if topic2.children %}
+                                          {% for topic3 in topic2.children %}
+                                            {% if topic3.id == topic_id %}
+                                              <a href="{{ '/' | relative_url }}#topic-{{ topic_id }}" class="topic-tag">{{ topic3.name }}</a>
+                                              {% assign topic_found = true %}
+                                            {% endif %}
+                                            {% unless topic_found %}
+                                              {% if topic3.children %}
+                                                {% for topic4 in topic3.children %}
+                                                  {% if topic4.id == topic_id %}
+                                                    <a href="{{ '/' | relative_url }}#topic-{{ topic_id }}" class="topic-tag">{{ topic4.name }}</a>
+                                                    {% assign topic_found = true %}
+                                                  {% endif %}
+                                                {% endfor %}
+                                              {% endif %}
+                                            {% endunless %}
+                                          {% endfor %}
+                                        {% endif %}
+                                      {% endunless %}
+                                    {% endfor %}
+                                  {% endif %}
+                                {% endunless %}
+                              {% endfor %}
+                            {% endfor %}
+                          </div>
+                        </div>
+                      {% endif %}
                     {% endif %}
-                  {% endif %}
-                </li>
+                  </li>
+                {% endif %}
               {% endfor %}
             </ul>
           </div>
