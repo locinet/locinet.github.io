@@ -1,0 +1,173 @@
+---
+layout: default
+title: Index of Works
+---
+
+<style>
+.works-index-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Garamond', 'Crimson Text', 'Libre Baskerville', Georgia, serif;
+}
+
+.works-index-header {
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 3px double #8b7355;
+}
+
+.works-index-header h1 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #3e2723;
+  margin: 0 0 0.5rem 0;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+}
+
+.works-index-header p {
+  color: #5d4037;
+  font-size: 1rem;
+  margin: 0 0 0.75rem 0;
+  font-style: italic;
+}
+
+.back-link {
+  display: inline-block;
+  color: #8b4513;
+  text-decoration: none;
+  font-size: 0.9375rem;
+  border-bottom: 1px dotted #8b4513;
+  font-variant: small-caps;
+}
+
+.back-link:hover {
+  color: #6d3410;
+  border-bottom-style: solid;
+}
+
+.works-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-entry {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #faf8f3;
+  border: 2px solid #8b7355;
+  border-radius: 2px;
+  box-shadow: 2px 2px 8px rgba(80, 60, 40, 0.1);
+}
+
+.work-entry:hover {
+  background: #f5f1e8;
+}
+
+.work-year-display {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #8b7355;
+  margin-bottom: 0.5rem;
+  font-variant: small-caps;
+}
+
+.work-title-link {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #3e2723;
+  margin: 0 0 0.5rem 0;
+  font-style: italic;
+  text-decoration: none;
+  display: block;
+  transition: color 0.2s;
+}
+
+.work-title-link:hover {
+  color: #8b4513;
+}
+
+.work-author-display {
+  font-size: 1.25rem;
+  color: #5d4037;
+  margin: 0;
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
+}
+
+.work-tradition {
+  font-size: 0.9375rem;
+  color: #8d6e63;
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+</style>
+
+<div class="works-index-page">
+  <div class="works-index-header">
+    <h1>Index of Works</h1>
+    <p>Classic theological works ordered chronologically</p>
+    <a href="{{ '/' | relative_url }}" class="back-link">← Back to Topics Index</a>
+  </div>
+
+  {% comment %} Collect all works from all data files {% endcomment %}
+  {% assign all_works = "" | split: "" %}
+  
+  {% for data_file in site.data %}
+    {% assign file_name = data_file[0] %}
+    {% assign file_data = data_file[1] %}
+    
+    {% if file_data.works %}
+      {% for work in file_data.works %}
+        {% comment %} Get author info {% endcomment %}
+        {% assign author_info = nil %}
+        {% for author in site.data.authors.authors %}
+          {% if author.id == work.author %}
+            {% assign author_info = author %}
+          {% endif %}
+        {% endfor %}
+        
+        {% comment %} Find work page URL {% endcomment %}
+        {% assign work_url = "" %}
+        {% for work_page in site.works %}
+          {% if work_page.work_id == work.id %}
+            {% assign work_url = work_page.url %}
+          {% endif %}
+        {% endfor %}
+        
+        {% comment %} Create work entry {% endcomment %}
+        {% capture work_entry %}{{ work.year }}|{{ work.title }}|{{ author_info.name.en }}|{{ author_info.tradition }}|{{ work_url }}{% endcapture %}
+        {% assign all_works = all_works | push: work_entry %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  
+  {% comment %} Sort by year {% endcomment %}
+  {% assign sorted_works = all_works | sort %}
+  
+  <ul class="works-list">
+    {% for work_entry in sorted_works %}
+      {% assign parts = work_entry | split: "|" %}
+      {% assign year = parts[0] %}
+      {% assign title = parts[1] %}
+      {% assign author = parts[2] %}
+      {% assign tradition = parts[3] %}
+      {% assign url = parts[4] %}
+      
+      <li class="work-entry">
+        <div class="work-year-display">{{ year }}</div>
+        {% if url != "" %}
+          <a href="{{ url | relative_url }}" class="work-title-link">{{ title }}</a>
+        {% else %}
+          <div class="work-title-link" style="cursor: default;">{{ title }}</div>
+        {% endif %}
+        <div class="work-author-display">{{ author }}</div>
+        {% if tradition != "" %}
+          <div class="work-tradition">{{ tradition }}</div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
