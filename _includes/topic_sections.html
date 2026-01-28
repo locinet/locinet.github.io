@@ -1,43 +1,69 @@
 {% comment %}
 This include displays sections for a given topic_id with tooltips
+Uses new data structure: works/, structures/, titles/, links/
 Parameters: topic_id
 {% endcomment %}
 
 {% assign sections_found = false %}
 {% assign work_sections = "" | split: "" %}
 
-{% comment %} Iterate through all data files to find work_topics files {% endcomment %}
+{% comment %} Iterate through all topics assignment files {% endcomment %}
 {% for data_file in site.data %}
   {% assign file_name = data_file[0] %}
   {% assign file_data = data_file[1] %}
   
   {% if file_name contains "_topics" %}
     {% assign work_id = file_data.work_id %}
-    {% assign work_file_name = file_name | remove: "_topics" %}
-    {% assign work_file = site.data[work_file_name] %}
     
-    {% if work_file and work_file.works %}
+    {% comment %} Get work metadata {% endcomment %}
+    {% assign work_file_name = "works/" | append: work_id %}
+    {% assign work = site.data[work_file_name] %}
+    
+    {% if work %}
+      {% comment %} Process assignments {% endcomment %}
       {% for assignment in file_data.assignments %}
         {% if assignment.topics contains include.topic_id %}
-          {% for work in work_file.works %}
-            {% if work.id == work_id %}
-              {% for structure_item in work.structure %}
-                {% if structure_item.children %}
-                  {% for child in structure_item.children %}
-                    {% if child.id == assignment.section_id %}
-                      {% assign first_link = "" %}
-                      {% if child.links.size > 0 %}
-                        {% assign first_link = child.links[0].url %}
-                      {% endif %}
-                      {% capture section_data %}{{ work.id }}|{{ work.author }}|{{ work.short_title }}|{{ work.title }}|{{ work.year }}|{{ structure_item.number }}|{{ child.number }}|{{ first_link }}{% endcapture %}
-                      {% assign work_sections = work_sections | push: section_data %}
-                      {% assign sections_found = true %}
+          {% assign section_id = assignment.section_id %}
+          
+          {% comment %} Get structure info to find parent and ordinal {% endcomment %}
+          {% assign structure_file_name = "structures/" | append: work_id %}
+          {% assign structure_data = site.data[structure_file_name] %}
+          
+          {% if structure_data %}
+            {% for node in structure_data.structure.nodes %}
+              {% if node.id == section_id %}
+                {% assign parent_id = node.parent %}
+                {% assign ordinal = node.ordinal %}
+                
+                {% comment %} Find parent ordinal if exists {% endcomment %}
+                {% assign parent_ordinal = "" %}
+                {% for parent_node in structure_data.structure.nodes %}
+                  {% if parent_node.id == parent_id %}
+                    {% assign parent_ordinal = parent_node.ordinal %}
+                  {% endif %}
+                {% endfor %}
+                
+                {% comment %} Get first link {% endcomment %}
+                {% assign first_link = "" %}
+                {% assign links_file_name = "links/" | append: work_id %}
+                {% assign links_data = site.data[links_file_name] %}
+                {% if links_data and links_data.sites %}
+                  {% for site_entry in links_data.sites %}
+                    {% assign site_name = site_entry[0] %}
+                    {% assign site_data = site_entry[1] %}
+                    {% if site_data.nodes[section_id] %}
+                      {% assign first_link = site_data.nodes[section_id] %}
+                      {% break %}
                     {% endif %}
                   {% endfor %}
                 {% endif %}
-              {% endfor %}
-            {% endif %}
-          {% endfor %}
+                
+                {% capture section_data %}{{ work.id }}|{{ work.author }}|{{ work.short_title }}|{{ work.title }}|{{ work.year }}|{{ parent_ordinal }}|{{ ordinal }}|{{ first_link }}{% endcapture %}
+                {% assign work_sections = work_sections | push: section_data %}
+                {% assign sections_found = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     {% endif %}
