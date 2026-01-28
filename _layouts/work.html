@@ -33,14 +33,14 @@ layout: default
 <style>
 .work-page-container {
   display: flex;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
   gap: 2rem;
   font-family: 'Garamond', 'Crimson Text', 'Libre Baskerville', Georgia, serif;
 }
 
 .work-toc-sidebar {
-  width: 260px;
+  width: 280px;
   flex-shrink: 0;
 }
 
@@ -84,7 +84,7 @@ layout: default
   font-size: 0.875rem;
   padding: 0.25rem 0;
   transition: color 0.2s;
-  font-variant: small-caps;
+  line-height: 1.4;
 }
 
 .work-toc-item a:hover {
@@ -128,9 +128,30 @@ layout: default
 .work-author {
   font-size: 1.5rem;
   color: #5d4037;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
   font-variant: small-caps;
   letter-spacing: 0.02em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.back-link,
+.works-index-link {
+  display: inline-block;
+  color: #8b4513;
+  text-decoration: none;
+  font-size: 0.9375rem;
+  border-bottom: 1px dotted #8b4513;
+}
+
+.back-link:hover,
+.works-index-link:hover {
+  color: #6d3410;
+  border-bottom-style: solid;
 }
 
 .work-structure {
@@ -276,20 +297,6 @@ layout: default
   color: #faf8f3;
 }
 
-.back-link {
-  display: inline-block;
-  margin-bottom: 1.5rem;
-  color: #8b4513;
-  text-decoration: none;
-  font-size: 0.9375rem;
-  border-bottom: 1px dotted #8b4513;
-}
-
-.back-link:hover {
-  color: #6d3410;
-  border-bottom-style: solid;
-}
-
 @media (max-width: 768px) {
   .work-page-container {
     flex-direction: column;
@@ -313,7 +320,16 @@ layout: default
       <ul class="work-toc-list">
         {% for structure_item in work_data.structure %}
           <li class="work-toc-item">
-            <a href="#structure-{{ structure_item.id }}">{{ structure_item.title.en }}</a>
+            <a href="#structure-{{ structure_item.id }}">
+              {% if structure_item.type == "book" %}
+                Book {{ structure_item.number }}.
+              {% elsif structure_item.type == "part" %}
+                Part {{ structure_item.number }}.
+              {% else %}
+                {{ structure_item.number }}.
+              {% endif %}
+              {{ structure_item.title.en }}
+            </a>
           </li>
         {% endfor %}
       </ul>
@@ -321,7 +337,10 @@ layout: default
   </aside>
 
   <div class="work-page">
-    <a href="{{ '/' | relative_url }}" class="back-link">← Back to Topics Index</a>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}" class="back-link">← Topics Index</a>
+      <a href="{{ '/works-index.html' | relative_url }}" class="works-index-link">Index of Works</a>
+    </div>
     
     <div class="work-header">
       <div class="work-title-line">
