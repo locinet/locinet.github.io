@@ -29,6 +29,28 @@ title: A Theological Syntopticon
   box-shadow: 2px 2px 8px rgba(80, 60, 40, 0.15);
 }
 
+.back-to-top {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background: #8b7355;
+  color: #faf8f3;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.back-to-top:hover {
+  background: #6d5d4b;
+  color: #faf8f3;
+}
+
 .toc-title {
   font-size: 1.125rem;
   font-weight: 700;
@@ -334,6 +356,8 @@ title: A Theological Syntopticon
 <div class="topics-page">
   <aside class="toc-sidebar">
     <nav class="toc-sticky">
+      <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="back-to-top">↑ Back to Top</button>
+      
       <h2 class="toc-title">Contents</h2>
       <ul class="toc-list">
         {% for topic1 in site.data.topics_definitions.topics %}
