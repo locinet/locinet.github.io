@@ -232,22 +232,13 @@ title: Topics Index
   padding: 1rem 1.5rem;
 }
 
-.sections-list {
+.sections-display {
   margin: 0.5rem 0 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.section-item {
-  margin-bottom: 0.375rem;
-  padding: 0.375rem 0.5rem;
+  padding: 0.5rem;
   background: #f5f1e8;
   border-radius: 2px;
   border-left: 3px solid #8b7355;
-}
-
-.section-item:hover {
-  background: #ebe7dc;
+  line-height: 1.6;
 }
 
 .section-reference {
@@ -274,6 +265,11 @@ title: Topics Index
 .section-reference a:hover {
   color: #6d3410;
   border-bottom-style: solid;
+}
+
+.section-separator {
+  color: #8b7355;
+  margin: 0 0.5rem;
 }
 
 .no-sections {
@@ -342,7 +338,9 @@ title: Topics Index
         </div>
         
         <div class="topic-content">
-          {% include topic_sections.html topic_id=topic1.id %}
+          <div class="sections-display">
+            {% include topic_sections.html topic_id=topic1.id %}
+          </div>
           
           {% comment %} Display Level 2 Topics {% endcomment %}
           {% if topic1.children %}
@@ -355,7 +353,9 @@ title: Topics Index
                   </div>
                 </div>
                 
-                {% include topic_sections.html topic_id=topic2.id %}
+                <div class="sections-display">
+                  {% include topic_sections.html topic_id=topic2.id %}
+                </div>
                 
                 {% comment %} Display Level 3 Topics {% endcomment %}
                 {% if topic2.children %}
@@ -368,7 +368,9 @@ title: Topics Index
                         </div>
                       </div>
                       
-                      {% include topic_sections.html topic_id=topic3.id %}
+                      <div class="sections-display">
+                        {% include topic_sections.html topic_id=topic3.id %}
+                      </div>
                       
                       {% comment %} Display Level 4 Topics {% endcomment %}
                       {% if topic3.children %}
@@ -381,7 +383,9 @@ title: Topics Index
                               </div>
                             </div>
                             
-                            {% include topic_sections.html topic_id=topic4.id %}
+                            <div class="sections-display">
+                              {% include topic_sections.html topic_id=topic4.id %}
+                            </div>
                           </div>
                         {% endfor %}
                       {% endif %}
