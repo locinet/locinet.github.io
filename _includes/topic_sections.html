@@ -98,6 +98,14 @@ Works with any work that has a corresponding work_topics.yaml file
         {% endif %}
       {% endfor %}
       
+      {% comment %} Find the work page URL {% endcomment %}
+      {% assign work_url = "" %}
+      {% for work_page in site.works %}
+        {% if work_page.work_id == work_id %}
+          {% assign work_url = work_page.url %}
+        {% endif %}
+      {% endfor %}
+      
       {% comment %} Build ranges {% endcomment %}
       {% assign current_book = -1 %}
       {% assign range_start = -1 %}
@@ -165,7 +173,13 @@ Works with any work that has a corresponding work_topics.yaml file
       
       <li class="section-item">
         <div class="section-reference">
-          {{ author_name }} {{ work_title }} {{ ranges }}
+          <span class="author-name">{{ author_name }}</span>
+          {% if work_url != "" %}
+            <a href="{{ work_url }}" class="work-title">{{ work_title }}</a>
+          {% else %}
+            <span class="work-title">{{ work_title }}</span>
+          {% endif %}
+          {{ ranges }}
         </div>
       </li>
     {% endfor %}
