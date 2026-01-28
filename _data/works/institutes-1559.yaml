@@ -1,11 +1,15 @@
 id: institutes-1559
-title: Institutio Christianae Religionis
+title: Institutes of the Christian Religion
 short_title: Institutes
 author: john-calvin
 year: 1559
 original_lang: la
-
 editions:
+  - id: beveridge-1845
+    title: Institutes of the Christian Religion
+    lang: en
+    translator: Henry Beveridge
+    year: 1845
   - id: battles-1960
     title: Institutes of the Christian Religion
     lang: en
