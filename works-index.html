@@ -109,14 +109,14 @@ title: Index of Works
     <a href="{{ '/' | relative_url }}" class="back-link">← Syntopticon</a>
   </div>
 
-  {% comment %} Collect all works from works/ folder {% endcomment %}
+  {% comment %} Collect all works from works folder in site.data {% endcomment %}
   {% assign all_works = "" | split: "" %}
   
-  {% for data_file in site.data %}
-    {% assign file_path = data_file[0] %}
-    
-    {% if file_path contains "works/" %}
-      {% assign work = data_file[1] %}
+  {% comment %} Access the works folder directly {% endcomment %}
+  {% if site.data.works %}
+    {% for work_entry in site.data.works %}
+      {% assign work_file_name = work_entry[0] %}
+      {% assign work = work_entry[1] %}
       
       {% comment %} Get author info {% endcomment %}
       {% assign author_info = nil %}
@@ -135,10 +135,12 @@ title: Index of Works
       {% endfor %}
       
       {% comment %} Create work entry {% endcomment %}
-      {% capture work_entry %}{{ work.year }}|{{ work.title }}|{{ author_info.name.en }}|{{ work_url }}{% endcapture %}
-      {% assign all_works = all_works | push: work_entry %}
-    {% endif %}
-  {% endfor %}
+      {% if author_info %}
+        {% capture work_entry_str %}{{ work.year }}|{{ work.title }}|{{ author_info.name.en }}|{{ work_url }}{% endcapture %}
+        {% assign all_works = all_works | push: work_entry_str %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
   
   {% comment %} Sort by year {% endcomment %}
   {% assign sorted_works = all_works | sort %}
