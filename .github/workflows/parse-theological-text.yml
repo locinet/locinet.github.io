@@ -1,0 +1,189 @@
+name: Parse Theological Text
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'URL of the theological work (table of contents or full-text page)'
+        required: true
+        type: string
+      work_id:
+        description: 'Work ID in kebab-case (e.g. "bondage-1525", "city-of-god")'
+        required: true
+        type: string
+      title:
+        description: 'Full title of the work'
+        required: true
+        type: string
+      short_title:
+        description: 'Abbreviated title (e.g. "ST", "Institutes")'
+        required: false
+        type: string
+      year:
+        description: 'Year of original publication'
+        required: false
+        type: string
+      original_lang:
+        description: 'Original language code'
+        required: false
+        type: choice
+        default: 'la'
+        options:
+          - la
+          - en
+          - de
+          - fr
+          - grc
+      author_id:
+        description: 'Author ID — use existing (john-calvin, peter-martyr-vermigli, thomas-aquinas) or enter a new one'
+        required: true
+        type: string
+      author_name:
+        description: 'Author full name (only needed for NEW authors)'
+        required: false
+        type: string
+      author_short_name:
+        description: 'Author short name, e.g. "Luther" (only needed for NEW authors)'
+        required: false
+        type: string
+      author_tradition:
+        description: 'Theological tradition (only needed for NEW authors)'
+        required: false
+        type: choice
+        default: 'Reformed'
+        options:
+          - Reformed
+          - Roman Catholic
+          - Lutheran
+          - Anglican
+          - Orthodox
+          - Anabaptist
+          - Other
+      site_name:
+        description: 'Source website name (e.g. "CCEL", "EEBO", "archive.org")'
+        required: false
+        type: string
+      edition_id:
+        description: 'Edition ID (e.g. "beveridge-1845")'
+        required: false
+        type: string
+      edition_lang:
+        description: 'Language of the online edition'
+        required: false
+        type: choice
+        default: 'en'
+        options:
+          - en
+          - la
+          - de
+          - fr
+          - grc
+      translator:
+        description: 'Translator name (leave blank if original language)'
+        required: false
+        type: string
+      edition_year:
+        description: 'Edition year'
+        required: false
+        type: string
+      levels:
+        description: 'Hierarchy level names, comma-separated (e.g. "book,chapter" or "part,question,article")'
+        required: false
+        type: string
+        default: 'book,chapter'
+      mode:
+        description: 'How to detect the work structure from the page'
+        required: false
+        type: choice
+        default: 'toc'
+        options:
+          - toc
+          - headings
+      fetch_content:
+        description: 'Fetch each section page for topic analysis? (slower but much better topics)'
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r tools/requirements.txt
+
+      - name: Run parser
+        run: |
+          CMD="python3 tools/parse_theological_text.py"
+          CMD="$CMD '${{ inputs.url }}'"
+          CMD="$CMD --work-id '${{ inputs.work_id }}'"
+          CMD="$CMD --title '${{ inputs.title }}'"
+          CMD="$CMD --author-id '${{ inputs.author_id }}'"
+          CMD="$CMD --mode '${{ inputs.mode }}'"
+
+          if [ -n "${{ inputs.short_title }}" ]; then
+            CMD="$CMD --short-title '${{ inputs.short_title }}'"
+          fi
+          if [ -n "${{ inputs.year }}" ]; then
+            CMD="$CMD --year '${{ inputs.year }}'"
+          fi
+          if [ -n "${{ inputs.original_lang }}" ]; then
+            CMD="$CMD --original-lang '${{ inputs.original_lang }}'"
+          fi
+          if [ -n "${{ inputs.author_name }}" ]; then
+            CMD="$CMD --author-name '${{ inputs.author_name }}'"
+          fi
+          if [ -n "${{ inputs.author_short_name }}" ]; then
+            CMD="$CMD --author-short-name '${{ inputs.author_short_name }}'"
+          fi
+          if [ -n "${{ inputs.author_tradition }}" ]; then
+            CMD="$CMD --author-tradition '${{ inputs.author_tradition }}'"
+          fi
+          if [ -n "${{ inputs.site_name }}" ]; then
+            CMD="$CMD --site-name '${{ inputs.site_name }}'"
+          fi
+          if [ -n "${{ inputs.edition_id }}" ]; then
+            CMD="$CMD --edition-id '${{ inputs.edition_id }}'"
+          fi
+          if [ -n "${{ inputs.edition_lang }}" ]; then
+            CMD="$CMD --edition-lang '${{ inputs.edition_lang }}'"
+          fi
+          if [ -n "${{ inputs.translator }}" ]; then
+            CMD="$CMD --translator '${{ inputs.translator }}'"
+          fi
+          if [ -n "${{ inputs.edition_year }}" ]; then
+            CMD="$CMD --edition-year '${{ inputs.edition_year }}'"
+          fi
+          if [ -n "${{ inputs.levels }}" ]; then
+            CMD="$CMD --levels '${{ inputs.levels }}'"
+          fi
+          if [ "${{ inputs.fetch_content }}" = "false" ]; then
+            CMD="$CMD --no-fetch-content"
+          fi
+
+          eval $CMD
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/ _works/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add ${{ inputs.title }} (${{ inputs.work_id }})
+
+Generated by the Theological Text Parser from:
+${{ inputs.url }}"
+            git push
+          fi
