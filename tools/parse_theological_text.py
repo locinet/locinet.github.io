@@ -1023,16 +1023,115 @@ def update_authors_yaml(author):
 # ---------------------------------------------------------------------------
 
 
-def main():
+def parse_level_names_arg(levels_str):
+    """Parse a comma-separated levels string like 'book,chapter' into level dicts."""
+    levels = []
+    for name in levels_str.split(","):
+        name = name.strip()
+        if not name:
+            continue
+        level_id = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        levels.append({"id": level_id, "label": {"en": name.title()}})
+    return levels
+
+
+def parse_toc_based_batch(toc_entries, session, fetch_content=True):
+    """Non-interactive version of parse_toc_based."""
+    sections = []
+    total = len(toc_entries)
+
+    for i, entry in enumerate(toc_entries):
+        content = ""
+        if fetch_content:
+            print(f"  Fetching [{i+1}/{total}]: {entry['title'][:60]}...", end="", flush=True)
+            try:
+                page_soup, _ = fetch_page(entry["url"], session)
+                body = page_soup.find("body") or page_soup
+                content = get_text_content(body)
+                words = content.split()
+                if len(words) > 5000:
+                    content = " ".join(words[:5000])
+                print(f" ({len(words)} words)")
+            except Exception as e:
+                print(f" [error: {e}]")
+            if i < total - 1:
+                time.sleep(REQUEST_DELAY)
+        else:
+            print(f"  Section [{i+1}/{total}]: {entry['title'][:60]}")
+
+        sections.append({
+            "title": entry["title"],
+            "url": entry["url"],
+            "level": entry["level"],
+            "content": content,
+        })
+
+    return sections
+
+
+def build_arg_parser():
+    """Build the argument parser with all CLI options."""
     parser = argparse.ArgumentParser(
-        description="Parse a theological text and generate Syntopticon data files."
+        description="Parse a theological text and generate Syntopticon data files.",
+        epilog=(
+            "When all required options are provided via CLI, the tool runs "
+            "non-interactively (suitable for GitHub Actions). Otherwise, it "
+            "prompts for missing values."
+        ),
     )
     parser.add_argument("url", nargs="?", help="URL of the theological work")
+
+    work = parser.add_argument_group("work metadata")
+    work.add_argument("--work-id", help="Work ID in kebab-case (e.g. 'institutes-1559')")
+    work.add_argument("--title", help="Full title of the work")
+    work.add_argument("--short-title", help="Abbreviated title (e.g. 'ST', 'Institutes')")
+    work.add_argument("--year", type=int, help="Year of original publication")
+    work.add_argument("--original-lang", default="la",
+                       help="Original language code (default: la)")
+
+    author = parser.add_argument_group("author")
+    author.add_argument("--author-id", help="Author ID (use existing or create new)")
+    author.add_argument("--author-name", help="Author's full name (for new authors)")
+    author.add_argument("--author-short-name", help="Author short name (e.g. 'Calvin')")
+    author.add_argument("--author-tradition", help="Theological tradition (e.g. Reformed)")
+
+    edition = parser.add_argument_group("edition")
+    edition.add_argument("--site-name", help="Source site name (e.g. 'CCEL')")
+    edition.add_argument("--edition-id", help="Edition ID (e.g. 'beveridge-1845')")
+    edition.add_argument("--edition-lang", default="en", help="Edition language (default: en)")
+    edition.add_argument("--translator", help="Translator name")
+    edition.add_argument("--edition-year", type=int, help="Edition year")
+
+    structure = parser.add_argument_group("structure")
+    structure.add_argument("--levels", help=(
+        "Comma-separated hierarchy level names (e.g. 'book,chapter'). "
+        "If omitted, auto-detected level count is used with prompts."
+    ))
+    structure.add_argument("--mode", choices=["toc", "headings"],
+                           help="Force structure detection mode")
+    structure.add_argument("--no-fetch-content", action="store_true",
+                           help="Skip fetching section pages (faster, but no topic analysis)")
+
+    return parser
+
+
+def main():
+    parser = build_arg_parser()
     args = parser.parse_args()
+
+    # Determine if we can run non-interactively
+    batch_mode = all([
+        args.url,
+        args.work_id,
+        args.title,
+        args.author_id,
+    ])
 
     print("=" * 60)
     print("  Theological Text Parser")
     print("  for the Theological Syntopticon")
+    if batch_mode:
+        print("  (running in non-interactive mode)")
     print("=" * 60)
 
     # --- Step 1: Get the URL ---
@@ -1076,35 +1175,43 @@ def main():
     toc_entries = detect_toc_links(soup, final_url)
     headings = detect_headings_structure(soup)
 
-    mode = None
-    if toc_entries and len(toc_entries) >= 3:
-        print(f"\n  Detected {len(toc_entries)} table-of-contents links")
-        # Show preview
-        for i, entry in enumerate(toc_entries[:10]):
-            indent = "    " + "  " * entry["level"]
-            print(f"{indent}{entry['title'][:70]}")
-        if len(toc_entries) > 10:
-            print(f"    ... and {len(toc_entries) - 10} more")
-
-        if headings and len(headings) >= 3:
-            print(f"\n  Also detected {len(headings)} headings on this page")
-            choice = input(
-                "\n  Use (t)able-of-contents links or (h)eadings? [t]: "
-            ).strip().lower()
-            mode = "headings" if choice == "h" else "toc"
+    mode = args.mode  # may be None
+    if mode is None:
+        if batch_mode:
+            # Auto-select: prefer TOC if available
+            if toc_entries and len(toc_entries) >= 3:
+                mode = "toc"
+            elif headings and len(headings) >= 3:
+                mode = "headings"
         else:
-            use_toc = input("\n  Use these TOC entries? (y/n) [y]: ").strip().lower()
-            mode = "toc" if use_toc != "n" else None
+            # Interactive selection
+            if toc_entries and len(toc_entries) >= 3:
+                print(f"\n  Detected {len(toc_entries)} table-of-contents links")
+                for i, entry in enumerate(toc_entries[:10]):
+                    indent = "    " + "  " * entry["level"]
+                    print(f"{indent}{entry['title'][:70]}")
+                if len(toc_entries) > 10:
+                    print(f"    ... and {len(toc_entries) - 10} more")
 
-    if mode is None and headings and len(headings) >= 3:
-        print(f"\n  Detected {len(headings)} headings on this page")
-        for i, h in enumerate(headings[:10]):
-            indent = "    " + "  " * (h["level"] - 1)
-            print(f"{indent}[h{h['level']}] {h['title'][:70]}")
-        if len(headings) > 10:
-            print(f"    ... and {len(headings) - 10} more")
-        use_h = input("\n  Use these headings? (y/n) [y]: ").strip().lower()
-        mode = "headings" if use_h != "n" else None
+                if headings and len(headings) >= 3:
+                    print(f"\n  Also detected {len(headings)} headings on this page")
+                    choice = input(
+                        "\n  Use (t)able-of-contents links or (h)eadings? [t]: "
+                    ).strip().lower()
+                    mode = "headings" if choice == "h" else "toc"
+                else:
+                    use_toc = input("\n  Use these TOC entries? (y/n) [y]: ").strip().lower()
+                    mode = "toc" if use_toc != "n" else None
+
+            if mode is None and headings and len(headings) >= 3:
+                print(f"\n  Detected {len(headings)} headings on this page")
+                for i, h in enumerate(headings[:10]):
+                    indent = "    " + "  " * (h["level"] - 1)
+                    print(f"{indent}[h{h['level']}] {h['title'][:70]}")
+                if len(headings) > 10:
+                    print(f"    ... and {len(headings) - 10} more")
+                use_h = input("\n  Use these headings? (y/n) [y]: ").strip().lower()
+                mode = "headings" if use_h != "n" else None
 
     if mode is None:
         print("\nCould not auto-detect the work structure from this page.")
@@ -1112,15 +1219,64 @@ def main():
         print("with clear heading hierarchy (h1, h2, h3, etc.).")
         sys.exit(1)
 
+    print(f"\n  Using mode: {mode}")
+
     # --- Step 5: Collect metadata ---
-    work_meta = collect_work_metadata(detected_title=page_title)
-    author, is_new_author = collect_author_metadata()
-    edition_meta = collect_edition_metadata(final_url)
+    if batch_mode:
+        work_meta = {
+            "title": args.title,
+            "short_title": args.short_title or args.title,
+            "id": args.work_id,
+            "year": args.year,
+            "original_lang": args.original_lang or "la",
+        }
+
+        # Resolve author
+        authors_data = {"authors": []}
+        if os.path.exists(AUTHORS_PATH):
+            with open(AUTHORS_PATH, "r") as f:
+                authors_data = yaml.safe_load(f) or {"authors": []}
+        existing = {a["id"]: a for a in authors_data.get("authors", [])}
+
+        if args.author_id in existing:
+            author = existing[args.author_id]
+            is_new_author = False
+        else:
+            author = {
+                "id": args.author_id,
+                "name": {"en": args.author_name or args.author_id},
+                "short_name": args.author_short_name or (
+                    args.author_name.split()[-1] if args.author_name else args.author_id
+                ),
+                "tradition": args.author_tradition or "",
+            }
+            is_new_author = True
+
+        parsed_url = urlparse(final_url)
+        edition_meta = {
+            "site_name": args.site_name or parsed_url.netloc,
+            "edition_id": args.edition_id or "",
+            "edition_title": "",
+            "edition_lang": args.edition_lang or "en",
+            "translator": args.translator or "",
+            "edition_year": args.edition_year,
+            "url_base": f"{parsed_url.scheme}://{parsed_url.netloc}",
+        }
+    else:
+        work_meta = collect_work_metadata(detected_title=page_title)
+        author, is_new_author = collect_author_metadata()
+        edition_meta = collect_edition_metadata(final_url)
 
     # --- Step 6: Parse sections ---
     print("\n--- Parsing Sections ---")
     if mode == "toc":
-        sections = parse_toc_based(toc_entries, session)
+        if batch_mode:
+            sections = parse_toc_based_batch(
+                toc_entries, session,
+                fetch_content=not args.no_fetch_content,
+            )
+        else:
+            sections = parse_toc_based(toc_entries, session)
     else:
         sections = parse_headings_based(soup, headings)
 
@@ -1137,7 +1293,23 @@ def main():
     else:
         print(f"  Total sections: {len(tree)}")
 
-    levels = prompt_level_names(num_levels)
+    if args.levels:
+        levels = parse_level_names_arg(args.levels)
+        # Pad or trim to match detected level count
+        while len(levels) < num_levels:
+            default = COMMON_LEVEL_NAMES.get(len(levels), COMMON_LEVEL_NAMES[1])[0]
+            levels.append({"id": default[0], "label": {"en": default[1]}})
+        levels = levels[:num_levels]
+    elif batch_mode:
+        # Use sensible defaults
+        levels = []
+        for i in range(num_levels):
+            default = COMMON_LEVEL_NAMES.get(i, COMMON_LEVEL_NAMES[1])[0]
+            levels.append({"id": default[0], "label": {"en": default[1]}})
+    else:
+        levels = prompt_level_names(num_levels)
+
+    print(f"  Levels: {', '.join(l['label']['en'] for l in levels)}")
 
     # --- Step 8: Generate node IDs ---
     struct_data = generate_structure_yaml(work_meta["id"], levels, tree)
@@ -1148,11 +1320,6 @@ def main():
         work_meta["id"], tree, all_topics, keyword_index
     )
     assigned_count = len(topics_data["assignments"])
-    total_sections = sum(
-        1 + len(item.get("children", []))
-        for item in tree
-        if item["section"].get("content") or item.get("children")
-    )
     print(f"  Assigned topics to {assigned_count} section(s)")
     for assignment in topics_data["assignments"][:5]:
         topic_names = [
