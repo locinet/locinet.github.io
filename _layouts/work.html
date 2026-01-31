@@ -209,6 +209,12 @@ layout: default
   letter-spacing: 0.02em;
 }
 
+.structure-header-link {
+  font-size: 0.8125rem;
+  vertical-align: middle;
+  margin-left: 0.75rem;
+}
+
 .structure-content {
   padding: 1rem 1.5rem;
 }
@@ -355,13 +361,14 @@ layout: default
         {% for parent_node in top_level_nodes %}
           <li class="work-toc-item">
             <a href="#node-{{ parent_node.id }}">
-              {% for level in structure_data.structure.levels %}
-                {% if level.id == parent_node.level %}
-                  {{ level.label.en }} {{ parent_node.ordinal }}.
-                {% endif %}
-              {% endfor %}
               {% if titles_data.book_titles.en[parent_node.id] %}
                 {{ titles_data.book_titles.en[parent_node.id] }}
+              {% else %}
+                {% for level in structure_data.structure.levels %}
+                  {% if level.id == parent_node.level %}
+                    {{ level.label.en }} {{ parent_node.ordinal }}
+                  {% endif %}
+                {% endfor %}
               {% endif %}
             </a>
           </li>
@@ -384,6 +391,25 @@ layout: default
 
       <div class="work-structure">
         {% for parent_node in top_level_nodes %}
+          {% comment %} Check if this parent has any children {% endcomment %}
+          {% assign has_children = false %}
+          {% for check_child in structure_data.structure.nodes %}
+            {% if check_child.parent == parent_node.id %}
+              {% assign has_children = true %}
+            {% endif %}
+          {% endfor %}
+
+          {% comment %} Check if this parent has a source link {% endcomment %}
+          {% assign parent_link = nil %}
+          {% if links_data.sites %}
+            {% for site_entry in links_data.sites %}
+              {% assign psite_data = site_entry[1] %}
+              {% if psite_data.nodes[parent_node.id] %}
+                {% assign parent_link = psite_data.nodes[parent_node.id] %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+
           <div class="structure-item" id="node-{{ parent_node.id }}">
             <div class="structure-header">
               <h2 class="structure-title">
@@ -396,9 +422,13 @@ layout: default
                     {% endif %}
                   {% endfor %}
                 {% endif %}
+                {% if parent_link %}
+                  <a href="{{ parent_link }}" class="section-link structure-header-link" target="_blank">Read</a>
+                {% endif %}
               </h2>
             </div>
-            
+
+            {% if has_children %}
             <div class="structure-content">
               <ul class="section-list">
                 {% for child_node in structure_data.structure.nodes %}
@@ -500,6 +530,7 @@ layout: default
                 {% endfor %}
               </ul>
             </div>
+            {% endif %}
           </div>
         {% endfor %}
       </div>

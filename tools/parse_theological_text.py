@@ -420,6 +420,10 @@ def _is_navigation_text(text):
         "buy", "purchase", "order", "browse", "catalog", "library",
         "all works", "all authors", "site map", "sitemap", "faq",
         "mobile", "desktop", "pdf", "epub", "kindle", "mobi",
+        # File format labels (common on sites that offer multiple download formats)
+        "html", "xml", "read on mobile", "microsoft word", "unicode text",
+        "theological markup", "word document", "plain text", "rich text",
+        "open document", "postscript",
     ]
     text_lower = text.lower().strip()
     # Exact match or starts with a nav pattern
@@ -427,7 +431,31 @@ def _is_navigation_text(text):
         if text_lower == pat or text_lower.startswith(pat + " "):
             return True
     # Very short generic text
-    if len(text_lower) <= 2:
+    if len(text_lower) <= 3:
+        return True
+    return False
+
+
+# File extensions that indicate a download link rather than a chapter page
+_DOWNLOAD_EXTENSIONS = {
+    ".epub", ".mobi", ".azw", ".azw3",  # e-book formats
+    ".pdf",                               # PDF
+    ".doc", ".docx", ".rtf", ".odt",     # word processing
+    ".txt",                               # plain text
+    ".xml", ".thml",                      # markup/data
+    ".zip", ".gz", ".tar", ".bz2",       # archives
+    ".mp3", ".ogg", ".wav", ".m4a",      # audio
+}
+
+
+def _is_download_url(url):
+    """Check if a URL points to a downloadable file rather than an HTML page."""
+    path = urlparse(url).path.lower()
+    for ext in _DOWNLOAD_EXTENSIONS:
+        if path.endswith(ext):
+            return True
+    # Also catch URLs with /cache/ directories (common pattern for download mirrors)
+    if "/cache/" in path:
         return True
     return False
 
@@ -486,6 +514,8 @@ def detect_toc_links(soup, base_url):
             if len(text) < 3 or _is_navigation_text(text):
                 continue
             full_url = urljoin(base_url, href)
+            if _is_download_url(full_url):
+                continue
             # Determine nesting level
             depth = 0
             parent = a.parent
@@ -568,6 +598,8 @@ def detect_toc_links(soup, base_url):
             and not _is_navigation_text(text)
         ):
             full_url = urljoin(base_url, href)
+            if _is_download_url(full_url):
+                continue
             if _url_is_related(full_url, base_url):
                 candidate.append({
                     "title": text,
@@ -591,6 +623,8 @@ def detect_toc_links(soup, base_url):
             and not _is_navigation_text(text)
         ):
             full_url = urljoin(base_url, href)
+            if _is_download_url(full_url):
+                continue
             fallback.append({
                 "title": text,
                 "url": full_url,

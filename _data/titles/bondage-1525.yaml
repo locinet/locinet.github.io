@@ -1,8 +1,186 @@
 work: bondage-1525
 book_titles:
   en:
-    bondage1525_1: HTML
-    bondage1525_2: Read on mobile
-    bondage1525_3: Microsoft Word html w/markup
-    bondage1525_4: Unicode Text (utf-8)
-    bondage1525_5: Theological Markup Language (XML)
+    bondage1525_1: Preface by Henry Atherton
+    bondage1525_2: Preface by the Translator
+    bondage1525_3: Introduction
+    bondage1525_4: Erasmus' Preface Reviewed
+    bondage1525_5: Erasmus' Scepticism
+    bondage1525_6: The Necessity of Knowing God and His Power
+    bondage1525_7: The Sovereignty of God
+    bondage1525_8: Exordium
+    bondage1525_9: 'Discussion: First Part'
+    bondage1525_10: 'Discussion: Second Part'
+    bondage1525_11: 'Discussion: Third Part'
+    bondage1525_12: Conclusion
+    bondage1525_13: Martin Luther's Judgment of Erasmus of Rotterdam
+    bondage1525_14: Martin Luther to Nicolas Armsdoff Concerning Erasmus of Rotterdam
+chapter_titles:
+  en:
+    bondage1525_5_1: Section II
+    bondage1525_5_2: Section III
+    bondage1525_5_3: Section IV
+    bondage1525_5_4: Section V
+    bondage1525_5_5: Section VI
+    bondage1525_6_1: Section VII
+    bondage1525_6_2: Section VIII
+    bondage1525_7_1: Section IX
+    bondage1525_7_2: Section X
+    bondage1525_7_3: Section XI
+    bondage1525_7_4: Section XII
+    bondage1525_7_5: Section XIII
+    bondage1525_7_6: Section XIV
+    bondage1525_7_7: Section XV
+    bondage1525_7_8: Section XVI
+    bondage1525_7_9: Section XVII
+    bondage1525_7_10: Section XVIII
+    bondage1525_7_11: Section XIX
+    bondage1525_7_12: Section XX
+    bondage1525_7_13: Section XXI
+    bondage1525_7_14: Section XXII
+    bondage1525_7_15: Section XXIII
+    bondage1525_7_16: Section XXIV
+    bondage1525_7_17: Section XXV
+    bondage1525_7_18: Section XXVI
+    bondage1525_7_19: Section XXVII
+    bondage1525_8_1: Section XXVIII
+    bondage1525_8_2: Section XXIX
+    bondage1525_8_3: Section XXX
+    bondage1525_8_4: Section XXXI
+    bondage1525_8_5: Section XXXII
+    bondage1525_8_6: Section XXXIII
+    bondage1525_8_7: Section XXXIV
+    bondage1525_8_8: Section XXXV
+    bondage1525_8_9: Section XXXVI
+    bondage1525_8_10: Section XXXVII
+    bondage1525_8_11: Section XXXVIII
+    bondage1525_8_12: Section XXXIX
+    bondage1525_8_13: Section XL
+    bondage1525_9_1: Section XLI
+    bondage1525_9_2: Section XLII
+    bondage1525_9_3: Section XLIII
+    bondage1525_9_4: Section XLIV
+    bondage1525_9_5: Section XLV
+    bondage1525_9_6: Section XLVI
+    bondage1525_9_7: Section XLVII
+    bondage1525_9_8: Section XLVIII
+    bondage1525_9_9: Section XLIX
+    bondage1525_9_10: Section L
+    bondage1525_9_11: Section LI
+    bondage1525_9_12: Section LII
+    bondage1525_9_13: Section LIII
+    bondage1525_9_14: Section LIV
+    bondage1525_9_15: Section LV
+    bondage1525_9_16: Section LVI
+    bondage1525_9_17: Section LVII
+    bondage1525_9_18: Section LVIII
+    bondage1525_9_19: Section LIX
+    bondage1525_9_20: Section LX
+    bondage1525_9_21: Section LXI
+    bondage1525_9_22: Section LXII
+    bondage1525_9_23: Section LXIII
+    bondage1525_9_24: Section LXIV
+    bondage1525_9_25: Section LXV
+    bondage1525_9_26: Section LXVI
+    bondage1525_9_27: Section LXVII
+    bondage1525_9_28: Section LXVIII
+    bondage1525_9_29: Section LXIX
+    bondage1525_9_30: Section LXX
+    bondage1525_9_31: Section LXXI
+    bondage1525_9_32: Section LXXII
+    bondage1525_9_33: Section LXXIII
+    bondage1525_9_34: Section LXXIV
+    bondage1525_9_35: Section LXXV
+    bondage1525_10_1: Section LXXVI
+    bondage1525_10_2: Section LXXVII
+    bondage1525_10_3: Section LXXVIII
+    bondage1525_10_4: Section LXXIX
+    bondage1525_10_5: Section LXXX
+    bondage1525_10_6: Section LXXXI
+    bondage1525_10_7: Section LXXXII
+    bondage1525_10_8: Section LXXXIII
+    bondage1525_10_9: Section LXXXIV
+    bondage1525_10_10: Section LXXXV
+    bondage1525_10_11: Section LXXXVI
+    bondage1525_10_12: Section LXXXVII
+    bondage1525_10_13: Section LXXXVIII
+    bondage1525_10_14: Section LXXXIX
+    bondage1525_10_15: Section XC
+    bondage1525_10_16: Section XCI
+    bondage1525_10_17: Section XCII
+    bondage1525_10_18: Section XCIII
+    bondage1525_10_19: Section XCIV
+    bondage1525_10_20: Section XCV
+    bondage1525_10_21: Section XCVI
+    bondage1525_10_22: Section XCVII
+    bondage1525_10_23: Section XCVIII
+    bondage1525_10_24: Section XCIX
+    bondage1525_10_25: Section C
+    bondage1525_10_26: Section CI
+    bondage1525_10_27: Section CII
+    bondage1525_10_28: Section CIII
+    bondage1525_10_29: Section CIV
+    bondage1525_10_30: Section CV
+    bondage1525_10_31: Section CVI
+    bondage1525_10_32: Section CVII
+    bondage1525_10_33: Section CVIII
+    bondage1525_10_34: Section CIX
+    bondage1525_10_35: Section CX
+    bondage1525_10_36: Section CXI
+    bondage1525_10_37: Section CXII
+    bondage1525_10_38: Section CXIII
+    bondage1525_10_39: Section CXIV
+    bondage1525_10_40: Section CXV
+    bondage1525_10_41: Section CXVI
+    bondage1525_10_42: Section CXVII
+    bondage1525_10_43: Section CXVIII
+    bondage1525_10_44: Section CXIX
+    bondage1525_10_45: Section CXX
+    bondage1525_10_46: Section CXXI
+    bondage1525_10_47: Section CXXII
+    bondage1525_10_48: Section CXXIII
+    bondage1525_10_49: Section CXXIV
+    bondage1525_10_50: Section CXXV
+    bondage1525_10_51: Section CXXVI
+    bondage1525_10_52: Section CXXVII
+    bondage1525_10_53: Section CXXVIII
+    bondage1525_10_54: Section CXXIX
+    bondage1525_10_55: Section CXXX
+    bondage1525_10_56: Section CXXXI
+    bondage1525_10_57: Section CXXXII
+    bondage1525_10_58: Section CXXXIII
+    bondage1525_10_59: Section CXXXIV
+    bondage1525_11_1: Section CXXXV
+    bondage1525_11_2: Section CXXXVI
+    bondage1525_11_3: Section CXXXVII
+    bondage1525_11_4: Section CXXXVIII
+    bondage1525_11_5: Section CXXXIX
+    bondage1525_11_6: Section CXL
+    bondage1525_11_7: Section CXLI
+    bondage1525_11_8: Section CXLII
+    bondage1525_11_9: Section CXLIII
+    bondage1525_11_10: Section CXLIV
+    bondage1525_11_11: Section CXLV
+    bondage1525_11_12: Section CXLVI
+    bondage1525_11_13: Section CXLVII
+    bondage1525_11_14: Section CXLVIII
+    bondage1525_11_15: Section CXLIX
+    bondage1525_11_16: Section CL
+    bondage1525_11_17: Section CLI
+    bondage1525_11_18: Section CLII
+    bondage1525_11_19: Section CLIII
+    bondage1525_11_20: Section CLIV
+    bondage1525_11_21: Section CLV
+    bondage1525_11_22: Section CLVI
+    bondage1525_11_23: Section CLVII
+    bondage1525_11_24: Section CLVIII
+    bondage1525_11_25: Section CLIX
+    bondage1525_11_26: Section CLX
+    bondage1525_11_27: Section CLXI
+    bondage1525_11_28: Section CLXII
+    bondage1525_11_29: Section CLXIII
+    bondage1525_11_30: Section CLXIV
+    bondage1525_11_31: Section CLXV
+    bondage1525_11_32: Section CLXVI
+    bondage1525_12_1: Section CLXVII
+    bondage1525_12_2: Section CLXVIII

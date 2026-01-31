@@ -4,6 +4,9 @@ structure:
   - id: book
     label:
       en: Book
+  - id: chapter
+    label:
+      en: Section
   nodes:
   - id: bondage1525_1
     level: book
@@ -20,3 +23,698 @@ structure:
   - id: bondage1525_5
     level: book
     ordinal: 5
+  - id: bondage1525_5_1
+    level: chapter
+    parent: bondage1525_5
+    ordinal: 1
+  - id: bondage1525_5_2
+    level: chapter
+    parent: bondage1525_5
+    ordinal: 2
+  - id: bondage1525_5_3
+    level: chapter
+    parent: bondage1525_5
+    ordinal: 3
+  - id: bondage1525_5_4
+    level: chapter
+    parent: bondage1525_5
+    ordinal: 4
+  - id: bondage1525_5_5
+    level: chapter
+    parent: bondage1525_5
+    ordinal: 5
+  - id: bondage1525_6
+    level: book
+    ordinal: 6
+  - id: bondage1525_6_1
+    level: chapter
+    parent: bondage1525_6
+    ordinal: 1
+  - id: bondage1525_6_2
+    level: chapter
+    parent: bondage1525_6
+    ordinal: 2
+  - id: bondage1525_7
+    level: book
+    ordinal: 7
+  - id: bondage1525_7_1
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 1
+  - id: bondage1525_7_2
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 2
+  - id: bondage1525_7_3
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 3
+  - id: bondage1525_7_4
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 4
+  - id: bondage1525_7_5
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 5
+  - id: bondage1525_7_6
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 6
+  - id: bondage1525_7_7
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 7
+  - id: bondage1525_7_8
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 8
+  - id: bondage1525_7_9
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 9
+  - id: bondage1525_7_10
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 10
+  - id: bondage1525_7_11
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 11
+  - id: bondage1525_7_12
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 12
+  - id: bondage1525_7_13
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 13
+  - id: bondage1525_7_14
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 14
+  - id: bondage1525_7_15
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 15
+  - id: bondage1525_7_16
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 16
+  - id: bondage1525_7_17
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 17
+  - id: bondage1525_7_18
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 18
+  - id: bondage1525_7_19
+    level: chapter
+    parent: bondage1525_7
+    ordinal: 19
+  - id: bondage1525_8
+    level: book
+    ordinal: 8
+  - id: bondage1525_8_1
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 1
+  - id: bondage1525_8_2
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 2
+  - id: bondage1525_8_3
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 3
+  - id: bondage1525_8_4
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 4
+  - id: bondage1525_8_5
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 5
+  - id: bondage1525_8_6
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 6
+  - id: bondage1525_8_7
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 7
+  - id: bondage1525_8_8
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 8
+  - id: bondage1525_8_9
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 9
+  - id: bondage1525_8_10
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 10
+  - id: bondage1525_8_11
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 11
+  - id: bondage1525_8_12
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 12
+  - id: bondage1525_8_13
+    level: chapter
+    parent: bondage1525_8
+    ordinal: 13
+  - id: bondage1525_9
+    level: book
+    ordinal: 9
+  - id: bondage1525_9_1
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 1
+  - id: bondage1525_9_2
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 2
+  - id: bondage1525_9_3
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 3
+  - id: bondage1525_9_4
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 4
+  - id: bondage1525_9_5
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 5
+  - id: bondage1525_9_6
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 6
+  - id: bondage1525_9_7
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 7
+  - id: bondage1525_9_8
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 8
+  - id: bondage1525_9_9
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 9
+  - id: bondage1525_9_10
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 10
+  - id: bondage1525_9_11
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 11
+  - id: bondage1525_9_12
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 12
+  - id: bondage1525_9_13
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 13
+  - id: bondage1525_9_14
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 14
+  - id: bondage1525_9_15
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 15
+  - id: bondage1525_9_16
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 16
+  - id: bondage1525_9_17
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 17
+  - id: bondage1525_9_18
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 18
+  - id: bondage1525_9_19
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 19
+  - id: bondage1525_9_20
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 20
+  - id: bondage1525_9_21
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 21
+  - id: bondage1525_9_22
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 22
+  - id: bondage1525_9_23
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 23
+  - id: bondage1525_9_24
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 24
+  - id: bondage1525_9_25
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 25
+  - id: bondage1525_9_26
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 26
+  - id: bondage1525_9_27
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 27
+  - id: bondage1525_9_28
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 28
+  - id: bondage1525_9_29
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 29
+  - id: bondage1525_9_30
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 30
+  - id: bondage1525_9_31
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 31
+  - id: bondage1525_9_32
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 32
+  - id: bondage1525_9_33
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 33
+  - id: bondage1525_9_34
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 34
+  - id: bondage1525_9_35
+    level: chapter
+    parent: bondage1525_9
+    ordinal: 35
+  - id: bondage1525_10
+    level: book
+    ordinal: 10
+  - id: bondage1525_10_1
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 1
+  - id: bondage1525_10_2
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 2
+  - id: bondage1525_10_3
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 3
+  - id: bondage1525_10_4
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 4
+  - id: bondage1525_10_5
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 5
+  - id: bondage1525_10_6
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 6
+  - id: bondage1525_10_7
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 7
+  - id: bondage1525_10_8
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 8
+  - id: bondage1525_10_9
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 9
+  - id: bondage1525_10_10
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 10
+  - id: bondage1525_10_11
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 11
+  - id: bondage1525_10_12
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 12
+  - id: bondage1525_10_13
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 13
+  - id: bondage1525_10_14
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 14
+  - id: bondage1525_10_15
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 15
+  - id: bondage1525_10_16
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 16
+  - id: bondage1525_10_17
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 17
+  - id: bondage1525_10_18
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 18
+  - id: bondage1525_10_19
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 19
+  - id: bondage1525_10_20
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 20
+  - id: bondage1525_10_21
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 21
+  - id: bondage1525_10_22
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 22
+  - id: bondage1525_10_23
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 23
+  - id: bondage1525_10_24
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 24
+  - id: bondage1525_10_25
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 25
+  - id: bondage1525_10_26
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 26
+  - id: bondage1525_10_27
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 27
+  - id: bondage1525_10_28
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 28
+  - id: bondage1525_10_29
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 29
+  - id: bondage1525_10_30
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 30
+  - id: bondage1525_10_31
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 31
+  - id: bondage1525_10_32
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 32
+  - id: bondage1525_10_33
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 33
+  - id: bondage1525_10_34
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 34
+  - id: bondage1525_10_35
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 35
+  - id: bondage1525_10_36
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 36
+  - id: bondage1525_10_37
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 37
+  - id: bondage1525_10_38
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 38
+  - id: bondage1525_10_39
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 39
+  - id: bondage1525_10_40
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 40
+  - id: bondage1525_10_41
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 41
+  - id: bondage1525_10_42
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 42
+  - id: bondage1525_10_43
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 43
+  - id: bondage1525_10_44
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 44
+  - id: bondage1525_10_45
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 45
+  - id: bondage1525_10_46
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 46
+  - id: bondage1525_10_47
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 47
+  - id: bondage1525_10_48
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 48
+  - id: bondage1525_10_49
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 49
+  - id: bondage1525_10_50
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 50
+  - id: bondage1525_10_51
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 51
+  - id: bondage1525_10_52
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 52
+  - id: bondage1525_10_53
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 53
+  - id: bondage1525_10_54
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 54
+  - id: bondage1525_10_55
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 55
+  - id: bondage1525_10_56
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 56
+  - id: bondage1525_10_57
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 57
+  - id: bondage1525_10_58
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 58
+  - id: bondage1525_10_59
+    level: chapter
+    parent: bondage1525_10
+    ordinal: 59
+  - id: bondage1525_11
+    level: book
+    ordinal: 11
+  - id: bondage1525_11_1
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 1
+  - id: bondage1525_11_2
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 2
+  - id: bondage1525_11_3
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 3
+  - id: bondage1525_11_4
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 4
+  - id: bondage1525_11_5
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 5
+  - id: bondage1525_11_6
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 6
+  - id: bondage1525_11_7
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 7
+  - id: bondage1525_11_8
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 8
+  - id: bondage1525_11_9
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 9
+  - id: bondage1525_11_10
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 10
+  - id: bondage1525_11_11
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 11
+  - id: bondage1525_11_12
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 12
+  - id: bondage1525_11_13
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 13
+  - id: bondage1525_11_14
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 14
+  - id: bondage1525_11_15
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 15
+  - id: bondage1525_11_16
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 16
+  - id: bondage1525_11_17
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 17
+  - id: bondage1525_11_18
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 18
+  - id: bondage1525_11_19
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 19
+  - id: bondage1525_11_20
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 20
+  - id: bondage1525_11_21
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 21
+  - id: bondage1525_11_22
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 22
+  - id: bondage1525_11_23
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 23
+  - id: bondage1525_11_24
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 24
+  - id: bondage1525_11_25
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 25
+  - id: bondage1525_11_26
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 26
+  - id: bondage1525_11_27
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 27
+  - id: bondage1525_11_28
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 28
+  - id: bondage1525_11_29
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 29
+  - id: bondage1525_11_30
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 30
+  - id: bondage1525_11_31
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 31
+  - id: bondage1525_11_32
+    level: chapter
+    parent: bondage1525_11
+    ordinal: 32
+  - id: bondage1525_12
+    level: book
+    ordinal: 12
+  - id: bondage1525_12_1
+    level: chapter
+    parent: bondage1525_12
+    ordinal: 1
+  - id: bondage1525_12_2
+    level: chapter
+    parent: bondage1525_12
+    ordinal: 2
+  - id: bondage1525_13
+    level: book
+    ordinal: 13
+  - id: bondage1525_14
+    level: book
+    ordinal: 14
