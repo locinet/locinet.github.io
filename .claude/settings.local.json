@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(where:*)",
+      "Bash(\"/c/Users/JohnHutson/anaconda3/python.exe\" -c \"\nimport yaml, os, sys\nworks_dir = r''C:\\\\Users\\\\JohnHutson\\\\GitHub\\\\locinet\\\\works''\nerrors = 0\nfor f in sorted\\(os.listdir\\(works_dir\\)\\):\n    if not f.endswith\\(''.yaml''\\): continue\n    path = os.path.join\\(works_dir, f\\)\n    try:\n        with open\\(path, ''r'', encoding=''utf-8''\\) as fh:\n            data = yaml.safe_load\\(fh\\)\n        key = list\\(data.keys\\(\\)\\)[0]\n        author = data[key].get\\(''author'', ''MISSING''\\)\n        print\\(f''OK  {f:45s} author={author}''\\)\n    except Exception as e:\n        print\\(f''ERR {f:45s} {e}''\\)\n        errors += 1\n\n# Also validate loci.yaml\nloci_path = r''C:\\\\Users\\\\JohnHutson\\\\GitHub\\\\locinet\\\\loci.yaml''\ntry:\n    with open\\(loci_path, ''r'', encoding=''utf-8''\\) as fh:\n        tree = yaml.safe_load\\(fh\\)\n    print\\(f''OK  loci.yaml - {len\\(tree\\)} top-level nodes''\\)\nexcept Exception as e:\n    print\\(f''ERR loci.yaml - {e}''\\)\n    errors += 1\n\nprint\\(f''\\\\n{errors} errors''\\)\nsys.exit\\(1 if errors else 0\\)\n\")",
+      "Bash(\"/c/Users/JohnHutson/anaconda3/python.exe\" -c \"\nimport yaml, os, sys\nworks_dir = r''C:\\\\Users\\\\JohnHutson\\\\GitHub\\\\locinet\\\\works''\nerrors = 0\nfor f in sorted\\(os.listdir\\(works_dir\\)\\):\n    if not f.endswith\\(''.yaml''\\): continue\n    path = os.path.join\\(works_dir, f\\)\n    try:\n        with open\\(path, ''r'', encoding=''utf-8''\\) as fh:\n            data = yaml.safe_load\\(fh\\)\n        key = list\\(data.keys\\(\\)\\)[0]\n        author = data[key].get\\(''author'', ''MISSING''\\)\n        print\\(f''OK  {f:45s} author={author}''\\)\n    except Exception as e:\n        print\\(f''ERR {f:45s} {e}''\\)\n        errors += 1\nprint\\(f''\\\\n{errors} errors''\\)\nsys.exit\\(1 if errors else 0\\)\n\")",
+      "Bash(\"/c/Users/JohnHutson/anaconda3/python.exe\" -c \"\nimport yaml, os\n\n# Load loci tree and collect all valid slugs\ndef collect_slugs\\(nodes, s=None\\):\n    if s is None: s = set\\(\\)\n    for n in nodes:\n        s.add\\(n[''slug'']\\)\n        if ''children'' in n: collect_slugs\\(n[''children''], s\\)\n    return s\n\nwith open\\(r''C:\\\\Users\\\\JohnHutson\\\\GitHub\\\\locinet\\\\loci.yaml'', encoding=''utf-8''\\) as f:\n    tree = yaml.safe_load\\(f\\)\nvalid = collect_slugs\\(tree\\)\nprint\\(f''{len\\(valid\\)} valid loci slugs''\\)\n\n# Check each work file\ndef extract_loci\\(sections, found=None\\):\n    if found is None: found = []\n    if not sections: return found\n    for item in sections:\n        if isinstance\\(item, dict\\):\n            if ''loci'' in item:\n                v = item[''loci'']\n                if isinstance\\(v, list\\): found.extend\\(str\\(x\\) for x in v\\)\n                else: found.append\\(str\\(v\\)\\)\n            if ''sections'' in item:\n                extract_loci\\(item[''sections''], found\\)\n    return found\n\nworks_dir = r''C:\\\\Users\\\\JohnHutson\\\\GitHub\\\\locinet\\\\works''\nwarnings = 0\nfor f in sorted\\(os.listdir\\(works_dir\\)\\):\n    if not f.endswith\\(''.yaml''\\): continue\n    with open\\(os.path.join\\(works_dir, f\\), encoding=''utf-8''\\) as fh:\n        data = yaml.safe_load\\(fh\\)\n    key = list\\(data.keys\\(\\)\\)[0]\n    work = data[key]\n    \n    # Work-level loci\n    if ''loci'' in work:\n        v = work[''loci'']\n        tags = [str\\(v\\)] if not isinstance\\(v, list\\) else [str\\(x\\) for x in v]\n        for t in tags:\n            if t not in valid:\n                print\\(f''  WARN [{f}]: unknown work-level locus \"\"{t}\"\"''\\)\n                warnings += 1\n    \n    # Section loci\n    en = work.get\\(''en'', {}\\)\n    if isinstance\\(en, dict\\) and ''sections'' in en:\n        tags = extract_loci\\(en[''sections'']\\)\n        for t in tags:\n            if t not in valid:\n                print\\(f''  WARN [{f}]: unknown section locus \"\"{t}\"\"''\\)\n                warnings += 1\n\nprint\\(f''\\\\n{warnings} warnings''\\)\n\")",
+      "Bash(winget:*)",
+      "Bash(cmd.exe /c \"winget --version\")",
+      "Bash(cmd.exe:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(\"/c/Users/JohnHutson/AppData/Local/Microsoft/WindowsApps/winget.exe\" install OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements)",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" --version)",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" --version)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(node scripts/fetch-wikidata.js:*)",
+      "Bash(npx @11ty/eleventy)",
+      "Bash(npx @11ty/eleventy:*)",
+      "Bash(node -e \"fetch\\(''https://www.wikidata.org/w/api.php?action=wbgetentity&ids=Q37577&props=labels&format=json'', {headers:{''User-Agent'':''Locinet/1.0''}}\\).then\\(r=>r.json\\(\\)\\).then\\(j=>console.log\\(JSON.stringify\\(Object.keys\\(j.entities.Q37577.labels\\).slice\\(0,10\\)\\)\\)\\).catch\\(e=>console.error\\(e\\)\\)\")",
+      "Bash(node -e \"fetch\\(''https://www.wikidata.org/w/api.php?action=wbgetentity&ids=Q37577&props=labels&format=json'', {headers:{''User-Agent'':''Locinet/1.0''}}\\).then\\(r=>r.text\\(\\)\\).then\\(t=>console.log\\(t.substring\\(0,500\\)\\)\\).catch\\(e=>console.error\\(e\\)\\)\")",
+      "Bash(node -e:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+polanus-free-will:
+  author: Q454349
+  loci: free-will
+  la:
+    title: De Arbitrio Hominis Theses Theologicae
+    orig_lang: true
+    editions:
+      - year: 1597
+  en:
+    title: On Man's Free Will
+    translations:
+      - translator: Matt McDaniel (AI assisted?)
+        AI: true
+        sites:
+          - site: Obedientia Mortis Christi
+            url:
+              volumes:
+                1: https://matthaeusmac.substack.com/p/amandus-polanus-on-mans-free-will
+                2: https://matthaeusmac.substack.com/p/amandus-polanus-on-mans-free-will-eaa

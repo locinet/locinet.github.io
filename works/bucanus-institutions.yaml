@@ -1,0 +1,27 @@
+bucanus-institutions:
+  author: Q5617668
+  la:
+    title: Institutiones theologicae
+    orig_lang: true
+    editions:
+      - year: 1606
+  en:
+    title: Institutions of Christian Religion
+    sections:
+      - god: Concerning God
+        loci: god
+      - works-of-god: Concerning the Works of God
+        loci: works-of-god
+    translations:
+      - translator: Robert Hill
+        sites:
+          - site: EEBO
+            url: https://quod.lib.umich.edu/cgi/t/text/text-idx?c=eebo2;idno=A69010.0001.001
+      - translator: Unknown AI
+        AI: true
+        sites:
+          - site: Confessionally Reformed
+            url: https://confessionallyreformed.wordpress.com
+            section_urls:
+              - god: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/
+              - works-of-god: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/

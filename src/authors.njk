@@ -1,0 +1,133 @@
+---
+pagination:
+  data: site.authorPages
+  size: 1
+  alias: authorPage
+permalink: "/authors/{{ authorPage.slug }}/"
+layout: layout.njk
+eleventyComputed:
+  pageTitle: "{{ authorPage.name }} — Locinet"
+  navExtra: '<a href="#" class="contribute-link" id="contribute-btn" data-author-name="{{ authorPage.name }}" data-author-qid="{{ authorPage.qid }}">Contribute</a>'
+---
+
+<div class="author-header">
+  {% if authorPage.imageUrl %}
+    <img class="author-image" src="{{ authorPage.imageUrl }}" alt="{{ authorPage.name }}">
+  {% endif %}
+  <div class="author-info">
+    <h1>{{ authorPage.name }}</h1>
+    {% for al in authorPage.authorLabels %}
+      <p class="author-label">{{ al.label }}</p>
+    {% endfor %}
+    <p class="author-dates">
+      {% if authorPage.birthYear %}{{ authorPage.birthYear }}{% endif %}{% if authorPage.deathYear %}–{{ authorPage.deathYear }}{% endif %}
+    </p>
+    {% if authorPage.wikipediaUrl %}
+      <p class="author-ext-link"><a href="{{ authorPage.wikipediaUrl }}">Wikipedia</a></p>
+    {% endif %}
+    {% if authorPage.prdlId %}
+      <p class="author-ext-link"><a href="https://www.prdl.org/author_view.php?a_id={{ authorPage.prdlId }}">PRDL</a></p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="filter-box">
+  <label for="loci-filter">Filter by locus:</label>
+  <input type="text" id="loci-filter" placeholder="Type to filter..." autocomplete="off">
+  <button type="button" id="clear-filter" class="clear-btn">Clear</button>
+</div>
+
+<div id="works-list">
+{% for work in authorPage.works %}
+  {% set allLociJson %}{{ work.allLoci | dump | safe }}{% endset %}
+  <div class="work" data-loci="{{ allLociJson }}">
+    <div class="work-header">
+      <h2 class="work-title">{{ work.title }}
+        <a href="#" class="edit-link" data-work-id="{{ work.id }}" data-yaml-filename="{{ work.yamlFilename }}">[Edit]</a>
+      </h2>
+      {% if work.origTitle %}
+        <p class="work-title-orig"><em>{{ work.origTitle }}</em></p>
+      {% endif %}
+
+      {# Edition info #}
+      {% for ed in work.origEditions %}
+        <p class="edition-info">
+          {% if ed.place %}{{ ed.place }}, {% endif %}{% if ed.year %}{{ ed.year }}.{% endif %}
+          {% for s in ed.sites %}
+            Original: <a href="{{ s.url }}">{{ s.siteName }}</a>
+          {% endfor %}
+        </p>
+      {% endfor %}
+
+      {# Full text line #}
+      {% if work.translations.length > 0 %}
+        <p class="translations-summary">
+          Full text in English:
+          {% for t in work.translations %}
+            {% for s in t.sites %}
+              {% if s.url %}
+                <a href="{{ s.url }}">{{ s.siteName }}</a>
+              {% elif s.volumes %}
+                {{ s.siteName }}
+                {% for volNum, volUrl in s.volumes %}
+                  <a href="{{ volUrl }}">Vol. {{ volNum }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+              {% else %}
+                {{ s.siteName }}
+              {% endif %}
+              ({{ t.translator }}{% if t.year %}, {{ t.year }}{% endif %}){% if not loop.last %}; {% endif %}
+            {% endfor %}
+            {% if not loop.last %}; {% endif %}
+          {% endfor %}
+        </p>
+      {% endif %}
+
+      {# Work-level loci #}
+      {% if work.workLoci.length > 0 %}
+        <span class="loci-tags">
+          {% for tag in work.workLoci %}
+            <span class="loci-tag" data-slug="{{ tag }}">{{ site.lociFlat[tag].name if site.lociFlat[tag] else tag }}</span>
+          {% endfor %}
+        </span>
+      {% endif %}
+    </div>
+
+    {# Sections #}
+    {% if work.flatSections.length > 0 %}
+      <ul class="sections-list">
+        {% for section in work.flatSections %}
+          {% set sectionLociJson %}{{ section.loci | dump | safe }}{% endset %}
+          <li class="section-item depth-{{ section.depth }}" data-loci="{{ sectionLociJson }}"
+              style="margin-left: {{ section.depth * 1.5 }}em;">
+            <span class="section-title">{{ section.title }}</span>
+            {# Links from each translation #}
+            {% for t in work.translations %}
+              {% for s in t.sites %}
+                {% set sUrl = s.sectionUrls[section.id] %}
+                {% if sUrl %}
+                  <a href="{{ sUrl }}" class="section-link">[{{ s.siteName }}]</a>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+            {# Loci tags #}
+            {% if section.loci.length > 0 %}
+              <span class="loci-tags">
+                {% for tag in section.loci %}
+                  <span class="loci-tag" data-slug="{{ tag }}">{{ site.lociFlat[tag].name if site.lociFlat[tag] else tag }}</span>
+                {% endfor %}
+              </span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+
+<script>
+  const lociFlat = {{ site.lociFlat | dump | safe }};
+  const authorName = {{ authorPage.name | dump | safe }};
+  const authorQid = {{ authorPage.qid | dump | safe }};
+  const repoUrl = {{ site.repoUrl | dump | safe }};
+</script>

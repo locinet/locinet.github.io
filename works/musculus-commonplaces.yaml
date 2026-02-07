@@ -1,0 +1,23 @@
+musculus-commonplaces:
+  author: Q704851
+  la:
+    title: Loci Communes Sacrae Theologiae
+    orig_lang: true
+    editions:
+      - year: 1564
+  en:
+    title: Commonplaces of Sacred Theology
+    sections:
+      - god: Concerning God
+        loci: god
+      - works-of-god: Concerning the Works of God
+        loci: works-of-god
+    translations:
+      - translator: Unknown AI
+        AI: true
+        sites:
+          - site: Confessionally Reformed
+            url: https://confessionallyreformed.wordpress.com/
+            section_urls:
+              - god: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/
+              - works-of-god: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/

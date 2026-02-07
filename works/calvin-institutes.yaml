@@ -1,0 +1,382 @@
+calvin-institutes:
+  author: Q37577
+  category: systematic
+  la:
+    title: Institutio christianae religionis
+    orig_lang: true
+    editions:
+      - year: 1559
+        place: Geneva
+        sites:
+          - site: BSB
+            url: https://www.digitale-sammlungen.de/en/view/bsb10196585
+  en:
+    title: Institutes of the Christian Religion
+    sections:
+      - p: PREFATORY MATERIAL
+        sections:
+          - prefatory-address: PREFATORY ADDRESS
+          - epistle-to-reader: THE EPISTLE TO THE READER
+          - subject-of-work: SUBJECT OF THE PRESENT WORK
+          - epistle-to-reader2: EPISTLE TO THE READER
+      - b1: BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR.
+        sections:
+          - b1c1: CHAPTER 1. THE KNOWLEDGE OF GOD AND OF OURSELVES MUTUALLY CONNECTED. NATURE OF THE CONNECTION.
+            loci: nature-of-theology
+          - b1c2: CHAPTER 2. WHAT IT IS TO KNOW GOD. TENDENCY OF THIS KNOWLEDGE.
+            loci: nature-of-theology
+          - b1c3: CHAPTER 3. THE KNOWLEDGE OF GOD NATURALLY IMPLANTED IN THE HUMAN MIND.
+            loci: natural-theology
+          - b1c4: CHAPTER 4. THE KNOWLEDGE OF GOD STIFLED OR CORRUPTED, IGNORANTLY OR MALICIOUSLY.
+            loci: natural-theology
+          - b1c5: CHAPTER 5. THE KNOWLEDGE OF GOD CONSPICUOUS IN THE CREATION, AND CONTINUAL GOVERNMENT OF THE WORLD.
+            loci: natural-theology
+          - b1c6: CHAPTER 6. THE NEED OF SCRIPTURE, AS A GUIDE AND TEACHER, IN COMING TO GOD AS A CREATOR.
+            loci: scripture
+          - b1c7: CHAPTER 7. THE TESTIMONY OF THE SPIRIT NECESSARY TO GIVE FULL AUTHORITY TO SCRIPTURE.
+            loci: illumination
+          - b1c8: CHAPTER 8. THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO FAR AS NATURAL REASON ADMITS.
+            loci: credibility-of-scripture
+          - b1c9: CHAPTER 9. ALL THE PRINCIPLES OF PIETY SUBVERTED BY FANATICS, WHO SUBSTITUTE REVELATIONS FOR SCRIPTURE.
+            loci: sufficiency-of-scripture
+          - b1c10: CHAPTER 10. IN SCRIPTURE, THE TRUE GOD OPPOSED, EXCLUSIVELY, TO ALL THE GODS OF THE HEATHEN.
+            loci: scripture
+          - b1c11: CHAPTER 11. IMPIETY OF ATTRIBUTING A VISIBLE FORM TO GOD. THE SETTING UP OF IDOLS A DEFECTION FROM THE TRUE GOD.
+            loci: invisibility-of-god
+          - b1c12: CHAPTER 12. GOD DISTINGUISHED FROM IDOLS, THAT HE MAY BE THE EXCLUSIVE OBJECT OF WORSHIP.
+            loci: idolatry
+          - b1c13: CHAPTER 13. THE UNITY OF THE DIVINE ESSENCE IN THREE PERSONS TAUGHT, IN SCRIPTURE, FROM THE FOUNDATION OF THE WORLD.
+            loci: unity-of-god
+          - b1c14: CHAPTER 14. IN THE CREATION OF THE WORLD, AND ALL THINGS IN IT, THE TRUE GOD DISTINGUISHED BY CERTAIN MARKS FROM FICTITIOUS GODS.
+            loci: idolatry
+          - b1c15: CHAPTER 15. STATE IN WHICH MAN WAS CREATED. THE FACULTIES OF THE SOUL. THE IMAGE OF GOD. FREE WILL. ORIGINAL RIGHTEOUSNESS.
+            loci: [image-of-god, free-will, original-righteousness]
+          - b1c16: CHAPTER 16. THE WORLD, CREATED BY GOD, STILL CHERISHED AND PROTECTED BY HIM. EACH AND ALL OF ITS PARTS GOVERNED BY HIS PROVIDENCE.
+            loci: providence
+          - b1c17: CHAPTER 17. USE TO BE MADE OF THE DOCTRINE OF PROVIDENCE.
+            loci: providence
+          - b1c18: CHAPTER 18. THE INSTRUMENTALITY OF THE WICKED EMPLOYED BY GOD, WHILE HE CONTINUES FREE FROM EVERY TAINT.
+            loci: reprobation
+      - b2: BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL.
+        sections:
+          - b2c1: CHAPTER 1. THROUGH THE FALL AND REVOLT OF ADAM, THE WHOLE HUMAN RACE MADE ACCURSED AND DEGENERATE. OF ORIGINAL SIN.
+            loci: original-sin
+          - b2c2: CHAPTER 2. MAN NOW DEPRIVED OF FREEDOM OF WILL, AND MISERABLY ENSLAVED.
+            loci: free-will
+          - b2c3: CHAPTER 3. EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.
+            loci: original-sin
+          - b2c4: CHAPTER 4. HOW GOD WORKS IN THE HEARTS OF MEN.
+            loci: free-will
+          - b2c5: CHAPTER 5. THE ARGUMENTS USUALLY ALLEGED IN SUPPORT OF FREE WILL REFUTED.
+            loci: free-will
+          - b2c6: CHAPTER 6. REDEMPTION FOR MAN LOST TO BE SOUGHT IN CHRIST.
+            loci: covenant-of-grace
+          - b2c7: CHAPTER 7. THE LAW GIVEN, NOT TO RETAIN A PEOPLE FOR ITSELF, BUT TO KEEP ALIVE THE HOPE OF SALVATION IN CHRIST UNTIL HIS ADVENT.
+            loci: purpose-of-law
+          - b2c8: CHAPTER 8. EXPOSITION OF THE MORAL LAW.
+            loci: moral-law
+          - b2c9: CHAPTER 9. CHRIST, THOUGH KNOWN TO THE JEWS UNDER THE LAW, YET ONLY MANIFESTED UNDER THE GOSPEL.
+            loci: new-covenant
+          - b2c10: CHAPTER 10. THE RESEMBLANCE BETWEEN THE OLD TESTAMENT AND THE NEW.
+            loci: [old-covenant, new-covenant]
+          - b2c11: CHAPTER 11. THE DIFFERENCE BETWEEN THE TWO TESTAMENTS.
+            loci: [old-covenant, new-covenant]
+          - b2c12: CHAPTER 12. CHRIST, TO PERFORM THE OFFICE OF MEDIATOR, BEHOVED TO BECOME MAN.
+            loci: incarnation
+          - b2c13: CHAPTER 13. CHRIST CLOTHED WITH THE TRUE SUBSTANCE OF HUMAN NATURE.
+            loci: natures-of-christ
+          - b2c14: CHAPTER 14. HOW TWO NATURES CONSTITUTE THE PERSON OF THE MEDIATOR.
+            loci: natures-of-christ
+          - b2c15: CHAPTER 15. THREE THINGS BRIEFLY TO BE REGARDED IN CHRIST. HIS OFFICES OF PROPHET, KING, AND PRIEST.
+            loci: offices-of-christ
+          - b2c16: CHAPTER 16. HOW CHRIST PERFORMED THE OFFICE OF REDEEMER IN PROCURING OUR SALVATION. THE DEATH, RESURRECTION, AND ASCENSION OF CHRIST.
+            loci: atonement
+          - b2c17: CHAPTER 17. CHRIST RIGHTLY AND PROPERLY SAID TO HAVE MERITED GRACE AND SALVATION FOR US.
+            loci: atonement
+      - b3: BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT.
+        sections:
+          - b3c1: CHAPTER 1. THE BENEFITS OF CHRIST MADE AVAILABLE TO US BY THE SECRET OPERATION OF THE SPIRIT.
+            loci: calling
+          - b3c2: CHAPTER 2. OF FAITH. THE DEFINITION OF IT. ITS PECULIAR PROPERTIES.
+            loci: faith
+          - b3c3: CHAPTER 3. REGENERATION BY FAITH. OF REPENTANCE.
+            loci: faith
+          - b3c4: CHAPTER 4. PENITENCE, AS EXPLAINED IN THE SOPHISTICAL JARGON OF THE SCHOOLMEN, WIDELY DIFFERENT FROM THE PURITY REQUIRED BY THE GOSPEL. OF CONFESSION AND SATISFACTION.
+            loci: penance
+          - b3c5: CHAPTER 5. OF THE MODES OF SUPPLEMENTING SATISFACTION. INDULGENCES AND PURGATORY.
+            loci: [indulgences, purgatory]
+          - b3c6: CHAPTER 6. THE LIFE OF A CHRISTIAN MAN. SCRIPTURAL ARGUMENTS EXHORTING TO IT.
+            loci: sanctification
+          - b3c7: CHAPTER 7. A SUMMARY OF THE CHRISTIAN LIFE. OF SELF-DENIAL.
+            loci: sanctification
+          - b3c8: CHAPTER 8. OF BEARING THE CROSS. ONE BRANCH OF SELF-DENIAL.
+            loci: sanctification
+          - b3c9: CHAPTER 9. OF MEDITATING ON THE FUTURE LIFE.
+            loci: sanctification
+          - b3c10: CHAPTER 10. HOW TO USE THE PRESENT LIFE, AND THE COMFORTS OF IT.
+            loci: sanctification
+          - b3c11: CHAPTER 11. OF JUSTIFICATION BY FAITH. BOTH THE NAME AND THE REALITY DEFINED.
+            loci: justification
+          - b3c12: CHAPTER 12. NECESSITY OF CONTEMPLATING THE JUDGMENT-SEAT OF GOD, IN ORDER TO BE SERIOUSLY CONVINCED OF THE DOCTRINE OF GRATUITOUS JUSTIFICATION.
+            loci: justification
+          - b3c13: CHAPTER 13. TWO THINGS TO BE OBSERVED IN GRATUITOUS JUSTIFICATION.
+            loci: justification
+          - b3c14: CHAPTER 14. THE BEGINNING OF JUSTIFICATION. IN WHAT SENSE PROGRESSIVE.
+            loci: justification
+          - b3c15: CHAPTER 15. THE BOASTED MERIT OF WORKS SUBVERSIVE BOTH OF THE GLORY OF GOD, IN BESTOWING RIGHTEOUSNESS, AND OF THE CERTAINTY OF SALVATION.
+            loci: good-works
+          - b3c16: CHAPTER 16. REFUTATION OF THE CALUMNIES BY WHICH IT IS ATTEMPTED TO THROW ODIUM ON THIS DOCTRINE.
+            loci: good-works
+          - b3c17: CHAPTER 17. THE PROMISES OF THE LAW AND THE GOSPEL RECONCILED.
+            loci: [law, gospel]
+          - b3c18: CHAPTER 18. THE RIGHTEOUSNESS OF WORKS IMPROPERLY INFERRED FROM REWARDS.
+            loci: good-works
+          - b3c19: CHAPTER 19. OF CHRISTIAN LIBERTY.
+            loci: christian-liberty
+          - b3c20: CHAPTER 20. OF PRAYER. A PERPETUAL EXERCISE OF FAITH. THE DAILY BENEFITS DERIVED FROM IT.
+            loci: prayer
+          - b3c21: CHAPTER 21. OF THE ETERNAL ELECTION, BY WHICH GOD HAS PREDESTINATED SOME TO SALVATION, AND OTHERS TO DESTRUCTION.
+            loci: predestination
+          - b3c22: CHAPTER 22. THIS DOCTRINE CONFIRMED BY PROOFS FROM SCRIPTURE.
+            loci: predestination
+          - b3c23: CHAPTER 23. REFUTATION OF THE CALUMNIES BY WHICH THIS DOCTRINE IS ALWAYS UNJUSTLY ASSAILED.
+            loci: predestination
+          - b3c24: CHAPTER 24. ELECTION CONFIRMED BY THE CALLING OF GOD. THE REPROBATE BRING UPON THEMSELVES THE RIGHTEOUS DESTRUCTION TO WHICH THEY ARE DOOMED.
+            loci: [predestination, reprobation]
+          - b3c25: CHAPTER 25. OF THE LAST RESURRECTION.
+            loci: resurrection-of-the-dead
+      - b4: BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH.
+        sections:
+          - b4c1: CHAPTER 1. OF THE TRUE CHURCH. DUTY OF CULTIVATING UNITY WITH HER, AS THE MOTHER OF ALL THE GODLY.
+            loci: unity-of-the-church
+          - b4c2: CHAPTER 2. COMPARISON BETWEEN THE FALSE CHURCH AND THE TRUE.
+            loci: true-church
+          - b4c3: CHAPTER 3. OF THE TEACHERS AND MINISTERS OF THE CHURCH. THEIR ELECTION AND OFFICE.
+            loci: government-of-the-church
+          - b4c4: CHAPTER 4. OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.
+            loci: government-of-the-church
+          - b4c5: CHAPTER 5. THE ANCIENT FORM OF GOVERNMENT UTTERLY CORRUPTED BY THE TYRANNY OF THE PAPACY.
+            loci: papacy
+          - b4c6: CHAPTER 6. OF THE PRIMACY OF THE ROMISH SEE.
+            loci: papacy
+          - b4c7: CHAPTER 7. OF THE BEGINNING AND RISE OF THE ROMISH PAPACY.
+            loci: papacy
+          - b4c8: CHAPTER 8. OF THE POWER OF THE CHURCH IN ARTICLES OF FAITH.
+            loci: power-of-the-church
+          - b4c9: CHAPTER 9. OF COUNCILS AND THEIR AUTHORITY.
+            loci: power-of-the-church
+          - b4c10: CHAPTER 10. OF THE POWER OF MAKING LAWS.
+            loci: power-of-the-church
+          - b4c11: CHAPTER 11. OF THE JURISDICTION OF THE CHURCH, AND THE ABUSES OF IT, AS EXEMPLIFIED IN THE PAPACY.
+            loci: [power-of-the-church, papacy]
+          - b4c12: CHAPTER 12. OF THE DISCIPLINE OF THE CHURCH, AND ITS PRINCIPAL USE IN CENSURES AND EXCOMMUNICATION.
+            loci: power-of-the-church
+          - b4c13: CHAPTER 13. OF VOWS. THE MISERABLE ENTANGLEMENTS CAUSED BY VOWING RASHLY.
+            loci: oaths
+          - b4c14: CHAPTER 14. OF THE SACRAMENTS.
+            loci: sacraments
+          - b4c15: CHAPTER 15. OF BAPTISM.
+            loci: baptism
+          - b4c16: CHAPTER 16. PAEDOBAPTISM. ITS ACCORDANCE WITH THE INSTITUTION OF CHRIST, AND THE NATURE OF THE SIGN.
+            loci: baptism
+          - b4c17: CHAPTER 17. OF THE LORD'S SUPPER, AND THE BENEFITS CONFERRED BY IT.
+            loci: lords-supper
+          - b4c18: CHAPTER 18. OF THE POPISH MASS. HOW IT NOT ONLY PROFANES, BUT ANNIHILATES THE LORD'S SUPPER.
+            loci: lords-supper
+          - b4c19: CHAPTER 19. OF THE FIVE SACRAMENTS, FALSELY SO CALLED.
+            loci: [confirmation, penance, extreme-unction, marriage]
+          - b4c20: CHAPTER 20. OF CIVIL GOVERNMENT.
+            loci: civil-government
+    translations:
+      - translator: Henry Beveridge
+        year: 1845
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/calvin/institutes/institutes.
+            section_urls:
+              - p: https://ccel.org/ccel/calvin/institutes/institutes.ii.html
+              - prefatory-address: https://ccel.org/ccel/calvin/institutes/institutes.ii.viii.html
+              - epistle-to-reader: https://ccel.org/ccel/calvin/institutes/institutes.ii.ix.html
+              - subject-of-work: https://ccel.org/ccel/calvin/institutes/institutes.ii.x.html
+              - epistle-to-reader2: https://ccel.org/ccel/calvin/institutes/institutes.ii.xi.html
+              - b1: https://ccel.org/ccel/calvin/institutes/institutes.iii.html
+              - b1c1: https://ccel.org/ccel/calvin/institutes/institutes.iii.ii.html
+              - b1c2: https://ccel.org/ccel/calvin/institutes/institutes.iii.iii.html
+              - b1c3: https://ccel.org/ccel/calvin/institutes/institutes.iii.iv.html
+              - b1c4: https://ccel.org/ccel/calvin/institutes/institutes.iii.v.html
+              - b1c5: https://ccel.org/ccel/calvin/institutes/institutes.iii.vi.html
+              - b1c6: https://ccel.org/ccel/calvin/institutes/institutes.iii.vii.html
+              - b1c7: https://ccel.org/ccel/calvin/institutes/institutes.iii.viii.html
+              - b1c8: https://ccel.org/ccel/calvin/institutes/institutes.iii.ix.html
+              - b1c9: https://ccel.org/ccel/calvin/institutes/institutes.iii.x.html
+              - b1c10: https://ccel.org/ccel/calvin/institutes/institutes.iii.xi.html
+              - b1c11: https://ccel.org/ccel/calvin/institutes/institutes.iii.xii.html
+              - b1c12: https://ccel.org/ccel/calvin/institutes/institutes.iii.xiii.html
+              - b1c13: https://ccel.org/ccel/calvin/institutes/institutes.iii.xiv.html
+              - b1c14: https://ccel.org/ccel/calvin/institutes/institutes.iii.xv.html
+              - b1c15: https://ccel.org/ccel/calvin/institutes/institutes.iii.xvi.html
+              - b1c16: https://ccel.org/ccel/calvin/institutes/institutes.iii.xvii.html
+              - b1c17: https://ccel.org/ccel/calvin/institutes/institutes.iii.xviii.html
+              - b1c18: https://ccel.org/ccel/calvin/institutes/institutes.iii.xix.html
+              - b2: https://ccel.org/ccel/calvin/institutes/institutes.iv.html
+              - b2c1: https://ccel.org/ccel/calvin/institutes/institutes.iv.ii.html
+              - b2c2: https://ccel.org/ccel/calvin/institutes/institutes.iv.iii.html
+              - b2c3: https://ccel.org/ccel/calvin/institutes/institutes.iv.iv.html
+              - b2c4: https://ccel.org/ccel/calvin/institutes/institutes.iv.v.html
+              - b2c5: https://ccel.org/ccel/calvin/institutes/institutes.iv.vi.html
+              - b2c6: https://ccel.org/ccel/calvin/institutes/institutes.iv.vii.html
+              - b2c7: https://ccel.org/ccel/calvin/institutes/institutes.iv.viii.html
+              - b2c8: https://ccel.org/ccel/calvin/institutes/institutes.iv.ix.html
+              - b2c9: https://ccel.org/ccel/calvin/institutes/institutes.iv.x.html
+              - b2c10: https://ccel.org/ccel/calvin/institutes/institutes.iv.xi.html
+              - b2c11: https://ccel.org/ccel/calvin/institutes/institutes.iv.xii.html
+              - b2c12: https://ccel.org/ccel/calvin/institutes/institutes.iv.xiii.html
+              - b2c13: https://ccel.org/ccel/calvin/institutes/institutes.iv.xiv.html
+              - b2c14: https://ccel.org/ccel/calvin/institutes/institutes.iv.xv.html
+              - b2c15: https://ccel.org/ccel/calvin/institutes/institutes.iv.xvi.html
+              - b2c16: https://ccel.org/ccel/calvin/institutes/institutes.iv.xvii.html
+              - b2c17: https://ccel.org/ccel/calvin/institutes/institutes.iv.xviii.html
+              - b3: https://ccel.org/ccel/calvin/institutes/institutes.v.html
+              - b3c1: https://ccel.org/ccel/calvin/institutes/institutes.v.ii.html
+              - b3c2: https://ccel.org/ccel/calvin/institutes/institutes.v.iii.html
+              - b3c3: https://ccel.org/ccel/calvin/institutes/institutes.v.iv.html
+              - b3c4: https://ccel.org/ccel/calvin/institutes/institutes.v.v.html
+              - b3c5: https://ccel.org/ccel/calvin/institutes/institutes.v.vi.html
+              - b3c6: https://ccel.org/ccel/calvin/institutes/institutes.v.vii.html
+              - b3c7: https://ccel.org/ccel/calvin/institutes/institutes.v.viii.html
+              - b3c8: https://ccel.org/ccel/calvin/institutes/institutes.v.ix.html
+              - b3c9: https://ccel.org/ccel/calvin/institutes/institutes.v.x.html
+              - b3c10: https://ccel.org/ccel/calvin/institutes/institutes.v.xi.html
+              - b3c11: https://ccel.org/ccel/calvin/institutes/institutes.v.xii.html
+              - b3c12: https://ccel.org/ccel/calvin/institutes/institutes.v.xiii.html
+              - b3c13: https://ccel.org/ccel/calvin/institutes/institutes.v.xiv.html
+              - b3c14: https://ccel.org/ccel/calvin/institutes/institutes.v.xv.html
+              - b3c15: https://ccel.org/ccel/calvin/institutes/institutes.v.xvi.html
+              - b3c16: https://ccel.org/ccel/calvin/institutes/institutes.v.xvii.html
+              - b3c17: https://ccel.org/ccel/calvin/institutes/institutes.v.xviii.html
+              - b3c18: https://ccel.org/ccel/calvin/institutes/institutes.v.xix.html
+              - b3c19: https://ccel.org/ccel/calvin/institutes/institutes.v.xx.html
+              - b3c20: https://ccel.org/ccel/calvin/institutes/institutes.v.xxi.html
+              - b3c21: https://ccel.org/ccel/calvin/institutes/institutes.v.xxii.html
+              - b3c22: https://ccel.org/ccel/calvin/institutes/institutes.v.xxiii.html
+              - b3c23: https://ccel.org/ccel/calvin/institutes/institutes.v.xxiv.html
+              - b3c24: https://ccel.org/ccel/calvin/institutes/institutes.v.xxv.html
+              - b3c25: https://ccel.org/ccel/calvin/institutes/institutes.v.xxvi.html
+              - b4: https://ccel.org/ccel/calvin/institutes/institutes.vi.html
+              - b4c1: https://ccel.org/ccel/calvin/institutes/institutes.vi.ii.html
+              - b4c2: https://ccel.org/ccel/calvin/institutes/institutes.vi.iii.html
+              - b4c3: https://ccel.org/ccel/calvin/institutes/institutes.vi.iv.html
+              - b4c4: https://ccel.org/ccel/calvin/institutes/institutes.vi.v.html
+              - b4c5: https://ccel.org/ccel/calvin/institutes/institutes.vi.vi.html
+              - b4c6: https://ccel.org/ccel/calvin/institutes/institutes.vi.vii.html
+              - b4c7: https://ccel.org/ccel/calvin/institutes/institutes.vi.viii.html
+              - b4c8: https://ccel.org/ccel/calvin/institutes/institutes.vi.ix.html
+              - b4c9: https://ccel.org/ccel/calvin/institutes/institutes.vi.x.html
+              - b4c10: https://ccel.org/ccel/calvin/institutes/institutes.vi.xi.html
+              - b4c11: https://ccel.org/ccel/calvin/institutes/institutes.vi.xii.html
+              - b4c12: https://ccel.org/ccel/calvin/institutes/institutes.vi.xiii.html
+              - b4c13: https://ccel.org/ccel/calvin/institutes/institutes.vi.xiv.html
+              - b4c14: https://ccel.org/ccel/calvin/institutes/institutes.vi.xv.html
+              - b4c15: https://ccel.org/ccel/calvin/institutes/institutes.vi.xvi.html
+              - b4c16: https://ccel.org/ccel/calvin/institutes/institutes.vi.xvii.html
+              - b4c17: https://ccel.org/ccel/calvin/institutes/institutes.vi.xviii.html
+              - b4c18: https://ccel.org/ccel/calvin/institutes/institutes.vi.xix.html
+              - b4c19: https://ccel.org/ccel/calvin/institutes/institutes.vi.xx.html
+              - b4c20: https://ccel.org/ccel/calvin/institutes/institutes.vi.xxi.html
+      - translator: Ford Lewis Battles
+        year: 1960
+        sites:
+          - site: Internet Archive Lending Library
+            url:
+              volumes:
+                1: https://archive.org/details/institutesofchri0001calv_p7o5
+                2: https://archive.org/details/institutesofchri0002calv/
+            section_urls:
+              - p: https://archive.org/details/institutesofchri0001calv_p7o5/page/n23/
+              - epistle-to-reader: https://archive.org/details/institutesofchri0001calv_p7o5/page/3/
+              - subject-of-work: https://archive.org/details/institutesofchri0001calv_p7o5/page/6/
+              - prefatory-address: https://archive.org/details/institutesofchri0001calv_p7o5/page/9/
+              - b1: https://archive.org/details/institutesofchri0001calv_p7o5/page/33
+              - b1c1: https://archive.org/details/institutesofchri0001calv_p7o5/page/35
+              - b1c2: https://archive.org/details/institutesofchri0001calv_p7o5/page/39
+              - b1c3: https://archive.org/details/institutesofchri0001calv_p7o5/page/43
+              - b1c4: https://archive.org/details/institutesofchri0001calv_p7o5/page/47
+              - b1c5: https://archive.org/details/institutesofchri0001calv_p7o5/page/51
+              - b1c6: https://archive.org/details/institutesofchri0001calv_p7o5/page/69
+              - b1c7: https://archive.org/details/institutesofchri0001calv_p7o5/page/74
+              - b1c8: https://archive.org/details/institutesofchri0001calv_p7o5/page/81
+              - b1c9: https://archive.org/details/institutesofchri0001calv_p7o5/page/93
+              - b1c10: https://archive.org/details/institutesofchri0001calv_p7o5/page/96
+              - b1c11: https://archive.org/details/institutesofchri0001calv_p7o5/page/99
+              - b1c12: https://archive.org/details/institutesofchri0001calv_p7o5/page/116
+              - b1c13: https://archive.org/details/institutesofchri0001calv_p7o5/page/120
+              - b1c14: https://archive.org/details/institutesofchri0001calv_p7o5/page/159
+              - b1c15: https://archive.org/details/institutesofchri0001calv_p7o5/page/183
+              - b1c16: https://archive.org/details/institutesofchri0001calv_p7o5/page/197
+              - b1c17: https://archive.org/details/institutesofchri0001calv_p7o5/page/210
+              - b1c18: https://archive.org/details/institutesofchri0001calv_p7o5/page/228
+              - b2: https://archive.org/details/institutesofchri0001calv_p7o5/page/239
+              - b2c1: https://archive.org/details/institutesofchri0001calv_p7o5/page/241
+              - b2c2: https://archive.org/details/institutesofchri0001calv_p7o5/page/255
+              - b2c3: https://archive.org/details/institutesofchri0001calv_p7o5/page/289
+              - b2c4: https://archive.org/details/institutesofchri0001calv_p7o5/page/309
+              - b2c5: https://archive.org/details/institutesofchri0001calv_p7o5/page/316
+              - b2c6: https://archive.org/details/institutesofchri0001calv_p7o5/page/340
+              - b2c7: https://archive.org/details/institutesofchri0001calv_p7o5/page/348
+              - b2c8: https://archive.org/details/institutesofchri0001calv_p7o5/page/367
+              - b2c9: https://archive.org/details/institutesofchri0001calv_p7o5/page/423
+              - b2c10: https://archive.org/details/institutesofchri0001calv_p7o5/page/428
+              - b2c11: https://archive.org/details/institutesofchri0001calv_p7o5/page/449
+              - b2c12: https://archive.org/details/institutesofchri0001calv_p7o5/page/464
+              - b2c13: https://archive.org/details/institutesofchri0001calv_p7o5/page/474
+              - b2c14: https://archive.org/details/institutesofchri0001calv_p7o5/page/482
+              - b2c15: https://archive.org/details/institutesofchri0001calv_p7o5/page/494
+              - b2c16: https://archive.org/details/institutesofchri0001calv_p7o5/page/503
+              - b2c17: https://archive.org/details/institutesofchri0001calv_p7o5/page/528
+              - b3: https://archive.org/details/institutesofchri0001calv_p7o5/page/535
+              - b3c1: https://archive.org/details/institutesofchri0001calv_p7o5/page/537
+              - b3c2: https://archive.org/details/institutesofchri0001calv_p7o5/page/542
+              - b3c3: https://archive.org/details/institutesofchri0001calv_p7o5/page/592
+              - b3c4: https://archive.org/details/institutesofchri0001calv_p7o5/page/622
+              - b3c5: https://archive.org/details/institutesofchri0001calv_p7o5/page/670
+              - b3c6: https://archive.org/details/institutesofchri0001calv_p7o5/page/684
+              - b3c7: https://archive.org/details/institutesofchri0001calv_p7o5/page/689
+              - b3c8: https://archive.org/details/institutesofchri0001calv_p7o5/page/702
+              - b3c9: https://archive.org/details/institutesofchri0001calv_p7o5/page/712
+              - b3c10: https://archive.org/details/institutesofchri0001calv_p7o5/page/719
+              - b3c11: https://archive.org/details/institutesofchri0001calv_p7o5/page/725
+              - b3c12: https://archive.org/details/institutesofchri0001calv_p7o5/page/754
+              - b3c13: https://archive.org/details/institutesofchri0001calv_p7o5/page/763
+              - b3c14: https://archive.org/details/institutesofchri0001calv_p7o5/page/768
+              - b3c15: https://archive.org/details/institutesofchri0001calv_p7o5/page/788
+              - b3c16: https://archive.org/details/institutesofchri0001calv_p7o5/page/797
+              - b3c17: https://archive.org/details/institutesofchri0001calv_p7o5/page/802
+              - b3c18: https://archive.org/details/institutesofchri0001calv_p7o5/page/821
+              - b3c19: https://archive.org/details/institutesofchri0001calv_p7o5/page/833
+              - b3c20: https://archive.org/details/institutesofchri0002calv/page/850
+              - b3c21: https://archive.org/details/institutesofchri0002calv/page/920
+              - b3c22: https://archive.org/details/institutesofchri0002calv/page/932
+              - b3c23: https://archive.org/details/institutesofchri0002calv/page/947
+              - b3c24: https://archive.org/details/institutesofchri0002calv/page/964
+              - b3c25: https://archive.org/details/institutesofchri0002calv/page/987
+              - b4: https://archive.org/details/institutesofchri0002calv/page/1009
+              - b4c1: https://archive.org/details/institutesofchri0002calv/page/1011
+              - b4c2: https://archive.org/details/institutesofchri0002calv/page/1041
+              - b4c3: https://archive.org/details/institutesofchri0002calv/page/1053
+              - b4c4: https://archive.org/details/institutesofchri0002calv/page/1068
+              - b4c5: https://archive.org/details/institutesofchri0002calv/page/1084
+              - b4c6: https://archive.org/details/institutesofchri0002calv/page/1102
+              - b4c7: https://archive.org/details/institutesofchri0002calv/page/1118
+              - b4c8: https://archive.org/details/institutesofchri0002calv/page/1149
+              - b4c9: https://archive.org/details/institutesofchri0002calv/page/1166
+              - b4c10: https://archive.org/details/institutesofchri0002calv/page/1179
+              - b4c11: https://archive.org/details/institutesofchri0002calv/page/1211
+              - b4c12: https://archive.org/details/institutesofchri0002calv/page/1229
+              - b4c13: https://archive.org/details/institutesofchri0002calv/page/1254
+              - b4c14: https://archive.org/details/institutesofchri0002calv/page/1276
+              - b4c15: https://archive.org/details/institutesofchri0002calv/page/1303
+              - b4c16: https://archive.org/details/institutesofchri0002calv/page/1324
+              - b4c17: https://archive.org/details/institutesofchri0002calv/page/1359
+              - b4c18: https://archive.org/details/institutesofchri0002calv/page/1429
+              - b4c19: https://archive.org/details/institutesofchri0002calv/page/1448
+              - b4c20: https://archive.org/details/institutesofchri0002calv/page/1485

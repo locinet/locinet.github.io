@@ -1,0 +1,15 @@
+{
+  "name": "locinet",
+  "version": "1.0.0",
+  "description": "A directory of theological works hosted on the internet",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "fetch": "node scripts/fetch-wikidata.js",
+    "validate": "node scripts/validate.js"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}

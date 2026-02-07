@@ -1,0 +1,47 @@
+bullinger-commonplaces:
+  author: Q123839
+  la:
+    title: Compendium Christianae Religionis decem libris comprehensum
+    orig_lang: true
+    editions:
+      - year: 1556
+  en:
+    title: Common Places of Christian Religion
+    sections:
+      - 1: Of the holy scripture of the Bible
+        loci: scripture
+      - 2: Of God and his most excellent works
+        loci: god
+      - 3: Of sinne and the punishment of sinne
+        loci: sin
+      - 4: Of the law of God
+        loci: law
+      - 5: Of the Grace of God, and justification by Christ
+        loci: [grace, justification]
+      - 6: Of faith and the gospel
+        loci: faith
+      - 7: Of invocation of the prayers of the faithfull
+        loci: prayer
+      - 8: Of the holy Sacramentes
+        loci: sacraments
+      - 9: Of good workes
+        loci: good-works
+      - 10: Of death and the end of all things
+        loci: last-things
+    translations:
+      - translator: John Stockton
+        year: 1572
+        sites:
+          - site: Internet Archive
+            url: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/
+            section_urls:
+              - 1: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n32/
+              - 2: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n97/
+              - 3: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n121/
+              - 4: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n167/
+              - 5: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n233/
+              - 6: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n267/
+              - 7: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n354/
+              - 8: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n404/
+              - 9: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n457/
+              - 10: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n495/

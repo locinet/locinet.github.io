@@ -1,0 +1,193 @@
+/* Locinet — minimal text-based style */
+
+:root {
+  --text: #222;
+  --bg: #fafaf8;
+  --link: #1a5276;
+  --link-hover: #0e3a5c;
+  --muted: #777;
+  --tag-bg: #e8e8e4;
+  --tag-text: #555;
+  --border: #ddd;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+
+/* Navigation */
+.site-nav {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: baseline;
+  gap: 1.5em;
+}
+.site-nav a { font-size: 0.9em; }
+.contribute-link {
+  font-size: 0.85em;
+  margin-left: auto;
+}
+
+/* Author page header */
+.author-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  margin-bottom: 0;
+}
+.author-info { flex: 1; }
+.author-info h1 { font-size: 1.6em; margin-bottom: 0; }
+.author-dates { color: var(--muted); font-size: 1em; }
+.author-label {
+  color: var(--muted);
+  font-size: 0.95em;
+  font-style: italic;
+}
+.author-ext-link {
+  font-size: 0.85em;
+}
+.author-image {
+  max-width: 240px;
+  max-height: 320px;
+  border: 1px solid var(--border);
+}
+
+/* Filter box */
+.filter-box {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.filter-box label {
+  font-size: 0.9em;
+}
+.filter-box input {
+  font-family: inherit;
+  font-size: 0.95em;
+  padding: 0.3em 0.5em;
+  border: 1px solid var(--border);
+  width: 20em;
+  max-width: 100%;
+}
+.clear-btn {
+  font-family: inherit;
+  font-size: 0.85em;
+  padding: 0.3em 0.7em;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+}
+.clear-btn:hover {
+  background: var(--tag-bg);
+}
+
+/* Works */
+.work {
+  margin-bottom: 2em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1.5em;
+}
+.work:last-child { border-bottom: none; }
+.work-title { font-size: 1.1em; margin-bottom: 0; }
+.work-title-orig { font-size: 1em; font-weight: normal; color: var(--muted); margin-bottom: 0.3em; }
+.edit-link { font-size: 0.75em; font-weight: normal; color: var(--muted); }
+.edition-info { font-size: 0.9em; color: var(--muted); margin-bottom: 0.2em; }
+.translations-summary { font-size: 0.9em; margin-bottom: 0.5em; }
+
+/* Sections list */
+.sections-list {
+  list-style: none;
+  margin-top: 0.5em;
+}
+.section-item {
+  padding: 0.15em 0;
+  font-size: 0.9em;
+}
+.section-item::before { content: "\2022 "; color: var(--muted); }
+.section-title { }
+.section-link {
+  font-size: 0.8em;
+  margin-left: 0.3em;
+  color: var(--link);
+}
+
+/* Loci tags */
+.loci-tags { margin-left: 0.5em; }
+.loci-tag {
+  display: inline-block;
+  font-size: 0.7em;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  margin-left: 0.2em;
+}
+
+/* Loci tree (index page) */
+.loci-tree { line-height: 1.8; }
+.loci-node { }
+.loci-node[data-depth="0"] { font-weight: bold; margin-top: 1em; }
+.loci-node[data-depth="0"]:first-child { margin-top: 0; }
+.loci-children { padding-left: 1.5em; font-weight: normal; }
+.loci-name { }
+.loci-slug-label { display: none; } /* Hidden on loci index; shown on tagging reference */
+.loci-authors { font-size: 0.85em; color: var(--muted); }
+.loci-authors a { color: var(--link); }
+
+/* Tooltip */
+.author-tooltip {
+  position: absolute;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  padding: 0.5em 0.8em;
+  font-size: 0.8em;
+  border-radius: 4px;
+  max-width: 400px;
+  z-index: 100;
+  pointer-events: none;
+}
+.author-tooltip ul { list-style: none; padding: 0; margin: 0; }
+.author-tooltip li { padding: 0.1em 0; }
+
+/* Tagging reference */
+.tagging-tree {
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.6;
+  white-space: pre;
+}
+.tagging-tree code {
+  color: var(--muted);
+}
+.tagging-tree strong {
+  font-size: 1.1em;
+}
+
+/* Hidden elements during filtering */
+.filtered-hidden { display: none; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  body { font-size: 14px; padding: 0.5em; }
+  .author-image { max-width: 160px; }
+  .filter-box input { width: 100%; }
+}

@@ -1,0 +1,45 @@
+---
+layout: layout.njk
+pageTitle: "Tagging Reference — Locinet"
+---
+
+<h1>Tagging Reference</h1>
+
+<p>When tagging works or sections with loci, use the <strong>slug</strong> shown to the right of each topic.
+Loci should be assigned only when a work or section includes an extended discussion of that topic.
+Select the locus that best describes the topic of that section.
+Do not select loci where the topic is only briefly mentioned.</p>
+
+<p>Loci may be added to the tree when necessary.
+Changes to loci names require updating all work files that reference them.</p>
+
+<pre class="tagging-tree">
+{%- macro renderTree(nodes, prefix, isLast) -%}
+{%- for node in nodes -%}
+{%- set connector = "" -%}
+{%- if prefix != "" -%}
+{%- if loop.last -%}
+{%- set connector = prefix + "└── " -%}
+{%- set childPrefix = prefix + "    " -%}
+{%- else -%}
+{%- set connector = prefix + "├── " -%}
+{%- set childPrefix = prefix + "│   " -%}
+{%- endif -%}
+{%- else -%}
+{%- set connector = "" -%}
+{%- set childPrefix = "" -%}
+{%- endif -%}
+{{ connector }}{{ node.name | padEnd(50 - connector.length) }}  <code>{{ node.slug }}</code>
+{%- if node.children -%}
+{{ renderTree(node.children, childPrefix) }}
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro -%}
+
+{% for node in site.lociTree %}
+<strong>{{ node.name }}</strong>  <code>{{ node.slug }}</code>
+{%- if node.children %}
+{{ renderTree(node.children, "") }}
+{%- endif %}
+{% endfor %}
+</pre>

@@ -1,0 +1,75 @@
+trelcatius-elder-commonplaces:
+  author: Q10320226
+  la:
+    title: Locorum Communium S.S. Theologiae
+    orig_lang: true
+    editions:
+      - year: 1614
+  en:
+    title: Two Books of the Commonplaces of Sacred Theology
+    sections:
+      - 1: "Preface: Of the Common Places"
+      - 2: Of Theology, Its Foundation, and Principle, the Holy Scripture
+        loci: theology
+      - 3: Of God
+        loci: god
+      - 4: Of the Works of God, by Which God Is Known
+        loci: works-of-god
+      - 5: Of the Creation of All Things
+        loci: creation
+      - 6: Of Angels in General
+        loci: angels
+      - 7: Of Man
+        loci: man
+      - 8: Of the Providence of God
+        loci: providence
+      - 9: Of the Fall of Man into Sin and Misery
+        loci: fall-of-man
+      - 10: Of the Free Will of Man
+        loci: free-will
+      - 11: "Of the Person & Office of Our Lord Jesus Christ, the Redeemer"
+        loci: person-of-christ
+      - 12: Of the Eternal Covenant of God
+        loci: covenant-of-grace
+      - 13: Of Divine Predestination
+        loci: predestination
+      - 14: Of Saving or Justifying Faith
+        loci: faith
+      - 15: Of Justification
+        loci: justification
+      - 16: "Of Sanctification, Wherein Also of Repentance"
+        loci: sanctification
+      - 17: Of the Manner of Attaining Glorification
+        loci: glorification
+      - 18: Of the Church
+        loci: church
+      - 19: "On the Ecclesiastical Ministry & the Lawful Calling Thereto"
+        loci: government-of-the-church
+      - 20: Synopsis of the Method of Sacred Theology
+    translations:
+      - translator: Unknown AI
+        AI: true
+        sites:
+          - site: Confessionally Reformed
+            url: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf
+            pdf: true
+            section_urls:
+              - 1: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=16
+              - 2: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=26
+              - 3: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=45
+              - 4: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=46
+              - 5: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=48
+              - 6: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=55
+              - 7: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=59
+              - 8: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=70
+              - 9: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=84
+              - 10: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=99
+              - 11: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=111
+              - 12: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=118
+              - 13: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=129
+              - 14: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=135
+              - 15: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=144
+              - 16: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=150
+              - 17: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=181
+              - 18: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=157
+              - 19: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=190

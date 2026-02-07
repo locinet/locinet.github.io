@@ -1,0 +1,66 @@
+hoornbeek-institutes:
+  author: Q983340
+  la:
+    title: Institutiones Theologicae ex Optimis Auctoribus concinnatae
+    orig_lang: true
+    editions:
+      - year: 1658
+        place: Leiden
+  en:
+    title: Theological Institutes, Harmonized from the Best Authors
+    sections:
+      - 1: "Chapter 1: Of Theology"
+        loci: theology
+      - 2: "Chapter 2: Of Sacred Scripture"
+        loci: scripture
+      - 3: "Chapter 3: Of God"
+        loci: god
+      - 4: "Chapter 4: Of the Decree of God & Predestination"
+        loci: predestination
+      - 5: "Chapter 5: Of Creation"
+        loci: creation
+      - 6: "Chapter 6: Of the Providence of God"
+        loci: providence
+      - 7: "Chapter 7: Of the Law & of Sin"
+        loci: [law, sin]
+      - 8: "Chapter 8: On the Covenant"
+        loci: covenant-of-grace
+      - 9: "Chapter 9: Of Christ"
+        loci: christ
+      - 10: "Chapter 10: Of the Calling of Man"
+        loci: calling
+      - 11: "Chapter 11: Of Justification"
+        loci: justification
+      - 12: "Chapter 12: Of Faith"
+        loci: faith
+      - 13: "Chapter 13: Of Observance"
+        loci: sanctification
+      - 14: "Chapter 14: Of the Church"
+        loci: church
+      - 15: "Chapter 15: On the Sacraments"
+        loci: sacraments
+      - 16: "Chapter 16: Of the Last Things"
+        loci: last-things
+    translations:
+      - translator: Unknown AI (2026)
+        AI: true
+        sites:
+          - site: Confessionally Reformed
+            url: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658
+            section_urls:
+              - 1: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johann-heinrich-alting-c-1644-on-theology
+              - 2: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-sacred-scripture
+              - 3: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-god
+              - 4: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-the-decree-of-god-&-predestination
+              - 5: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-creation
+              - 6: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-the-providence-of-god
+              - 7: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-the-law-&-of-sin
+              - 8: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-the-covenant
+              - 9: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-christ
+              - 10: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-the-calling-of-man-to-salvation
+              - 11: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-justification
+              - 12: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-faith
+              - 13: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-observance
+              - 14: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-the-church
+              - 15: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johann-heinrich-alting-c-1644-on-the-sacraments
+              - 16: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johann-heinrich-alting-c-1644-on-the-last-things

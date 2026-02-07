@@ -1,0 +1,263 @@
+# Loci Theologici
+# This file defines the topic tree for tagging theological works.
+#
+# Rules:
+# - Loci should be assigned only when a work/section includes extended discussion of that topic.
+# - Loci may be added to the tree when necessary.
+# - Loci may be moved around the tree without breaking anything.
+# - Changing the NAME (and thus slug) of a locus requires updating all work files that reference it.
+# - Slugs: lowercase, spaces to hyphens, no apostrophes or special characters.
+
+- name: Theology
+  slug: theology
+  children:
+    - name: Nature of theology
+      slug: nature-of-theology
+    - name: Natural theology
+      slug: natural-theology
+    - name: Supernatural theology
+      slug: supernatural-theology
+      children:
+        - name: Scripture
+          slug: scripture
+          children:
+            - name: Illumination
+              slug: illumination
+            - name: Credibility of Scripture
+              slug: credibility-of-scripture
+            - name: Sufficiency of Scripture
+              slug: sufficiency-of-scripture
+
+- name: God
+  slug: god
+  children:
+    - name: Being of God
+      slug: being-of-god
+      children:
+        - name: Existence of God
+          slug: existence-of-god
+        - name: Knowability of God
+          slug: knowability-of-god
+        - name: Attributes of God
+          slug: attributes-of-god
+          children:
+            - name: Invisibility of God
+              slug: invisibility-of-god
+            - name: Unity of God
+              slug: unity-of-god
+        - name: Names of God
+          slug: names-of-god
+        - name: Trinity
+          slug: trinity
+    - name: Works of God
+      slug: works-of-god
+      children:
+        - name: Creation
+          slug: creation
+        - name: Predestination
+          slug: predestination
+          children:
+            - name: Reprobation
+              slug: reprobation
+        - name: Providence
+          slug: providence
+
+- name: Angels
+  slug: angels
+
+- name: Man
+  slug: man
+  children:
+    - name: Nature of man
+      slug: nature-of-man
+      children:
+        - name: Image of God
+          slug: image-of-god
+        - name: Free will
+          slug: free-will
+        - name: Original righteousness
+          slug: original-righteousness
+    - name: Sin
+      slug: sin
+      children:
+        - name: Origin of sin
+          slug: origin-of-sin
+        - name: Nature of sin
+          slug: nature-of-sin
+        - name: Fall of man
+          slug: fall-of-man
+        - name: Original sin
+          slug: original-sin
+        - name: Transmission of sin
+          slug: transmission-of-sin
+        - name: Punishment of sin
+          slug: punishment-of-sin
+    - name: Grace
+      slug: grace
+      children:
+        - name: Covenant of grace
+          slug: covenant-of-grace
+          children:
+            - name: Old covenant
+              slug: old-covenant
+            - name: New covenant
+              slug: new-covenant
+            - name: Gospel
+              slug: gospel
+
+- name: Law
+  slug: law
+  children:
+    - name: Moral law
+      slug: moral-law
+      children:
+        - name: Worship
+          slug: worship
+          children:
+            - name: Idolatry
+              slug: idolatry
+            - name: Oaths
+              slug: oaths
+            - name: Sabbath
+              slug: sabbath
+        - name: Chastity
+          slug: chastity
+        - name: War
+          slug: war
+        - name: Property
+          slug: property
+        - name: Truth
+          slug: truth
+        - name: Concupiscence
+          slug: concupiscence
+    - name: Purpose of law
+      slug: purpose-of-law
+    - name: Christian liberty
+      slug: christian-liberty
+
+- name: Christ
+  slug: christ
+  children:
+    - name: Person of Christ
+      slug: person-of-christ
+      children:
+        - name: Names of Christ
+          slug: names-of-christ
+        - name: Natures of Christ
+          slug: natures-of-christ
+    - name: Incarnation
+      slug: incarnation
+    - name: States of Christ
+      slug: states-of-christ
+      children:
+        - name: State of humiliation
+          slug: state-of-humiliation
+        - name: State of exaltation
+          slug: state-of-exaltation
+    - name: Offices of Christ
+      slug: offices-of-christ
+      children:
+        - name: Prophetic office
+          slug: prophetic-office
+        - name: Priestly office
+          slug: priestly-office
+          children:
+            - name: Atonement
+              slug: atonement
+        - name: Kingly office
+          slug: kingly-office
+
+- name: Salvation
+  slug: salvation
+  children:
+    - name: Union with Christ
+      slug: union-with-christ
+    - name: Calling
+      slug: calling
+      children:
+        - name: External calling
+          slug: external-calling
+        - name: Effectual calling
+          slug: effectual-calling
+    - name: Faith
+      slug: faith
+    - name: Repentance
+      slug: repentance
+    - name: Justification
+      slug: justification
+    - name: Sanctification
+      slug: sanctification
+    - name: Good works
+      slug: good-works
+    - name: Glorification
+      slug: glorification
+
+- name: Church
+  slug: church
+  children:
+    - name: Nature of the church
+      slug: nature-of-the-church
+      children:
+        - name: Unity of the church
+          slug: unity-of-the-church
+        - name: True church
+          slug: true-church
+    - name: Government of the church
+      slug: government-of-the-church
+      children:
+        - name: Papacy
+          slug: papacy
+        - name: Ordination
+          slug: ordination
+        - name: Church discipline
+          slug: church-discipline
+    - name: Power of the church
+      slug: power-of-the-church
+    - name: Means of grace
+      slug: means-of-grace
+      children:
+        - name: Word of God
+          slug: word-of-god
+        - name: Sacraments
+          slug: sacraments
+          children:
+            - name: Baptism
+              slug: baptism
+            - name: Lord's supper
+              slug: lords-supper
+            - name: Penance
+              slug: penance
+              children:
+                - name: Indulgences
+                  slug: indulgences
+            - name: Confirmation
+              slug: confirmation
+            - name: Extreme unction
+              slug: extreme-unction
+        - name: Prayer
+          slug: prayer
+    - name: Marriage
+      slug: marriage
+    - name: Civil government
+      slug: civil-government
+
+- name: Last things
+  slug: last-things
+  children:
+    - name: Death
+      slug: death
+    - name: Intermediate state
+      slug: intermediate-state
+      children:
+        - name: Purgatory
+          slug: purgatory
+    - name: Second coming
+      slug: second-coming
+    - name: Millennium
+      slug: millennium
+    - name: Resurrection of the dead
+      slug: resurrection-of-the-dead
+    - name: Final judgement
+      slug: final-judgement
+    - name: Final state
+      slug: final-state

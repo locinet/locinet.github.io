@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ pageTitle | default("Locinet") }}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="/">Loci Index</a>
+    {{ navExtra | safe }}
+  </nav>
+  <main>
+    {{ content | safe }}
+  </main>
+  <script src="/assets/filter.js"></script>
+</body>
+</html>

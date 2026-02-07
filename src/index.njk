@@ -1,0 +1,91 @@
+---
+layout: layout.njk
+pageTitle: "Locinet — Loci Theologici"
+---
+
+<h1>Loci Theologici</h1>
+
+<div class="filter-box">
+  <label for="loci-filter">Filter by locus:</label>
+  <input type="text" id="loci-filter" placeholder="Type to filter..." autocomplete="off">
+</div>
+
+<div id="loci-tree" class="loci-tree">
+{% macro renderNode(node, depth) %}
+  {% set lociEntry = site.lociIndex[node.slug] %}
+  {% set authorList = [] %}
+  {% if lociEntry %}
+    {% for qid, authorData in lociEntry %}
+      {% set authorList = (authorList.push(authorData), authorList) %}
+    {% endfor %}
+  {% endif %}
+
+  <div class="loci-node" data-slug="{{ node.slug }}" data-depth="{{ depth }}">
+    <span class="loci-name">{{ node.name }}</span>
+    <span class="loci-slug-label">({{ node.slug }})</span>
+    {% if authorList.length > 0 %}
+      <span class="loci-authors">
+        — {% for author in authorList %}<a href="/authors/{{ author.slug }}/?locus={{ node.slug }}"
+             class="author-link"
+             data-entries="{{ author.entries | dump | escape }}">{{ author.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+      </span>
+    {% endif %}
+
+    {% if node.children %}
+      <div class="loci-children">
+        {% for child in node.children %}
+          {{ renderNode(child, depth + 1) }}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+{% endmacro %}
+
+{% for node in site.lociTree %}
+  {{ renderNode(node, 0) }}
+{% endfor %}
+</div>
+
+<div class="author-tooltip" id="author-tooltip" style="display:none;"></div>
+
+<script>
+  const lociFlat = {{ site.lociFlat | dump | safe }};
+</script>
+<script>
+  // Tooltip for author mouseover
+  (function() {
+    const tooltip = document.getElementById('author-tooltip');
+    document.querySelectorAll('.author-link').forEach(link => {
+      link.addEventListener('mouseenter', function(e) {
+        try {
+          const entries = JSON.parse(this.dataset.entries);
+          let html = '<ul>';
+          for (const entry of entries) {
+            html += '<li>' + escapeHtml(entry.workTitle);
+            if (entry.sectionTitle) html += ' — ' + escapeHtml(entry.sectionTitle);
+            html += '</li>';
+          }
+          html += '</ul>';
+          tooltip.innerHTML = html;
+          tooltip.style.display = 'block';
+          positionTooltip(e);
+        } catch(err) {}
+      });
+      link.addEventListener('mousemove', positionTooltip);
+      link.addEventListener('mouseleave', function() {
+        tooltip.style.display = 'none';
+      });
+    });
+
+    function positionTooltip(e) {
+      tooltip.style.left = (e.pageX + 12) + 'px';
+      tooltip.style.top = (e.pageY + 12) + 'px';
+    }
+
+    function escapeHtml(s) {
+      const d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+  })();
+</script>

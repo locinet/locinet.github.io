@@ -1,0 +1,32 @@
+alting-elenctic:
+  author: Q1971867
+  la:
+    title: Theologia elenctica nova
+    orig_lang: true
+    editions:
+      - year: 1654
+  en:
+    title: New Elentic Theology
+    sections:
+      - prooemium: On Elenctic Theology
+        loci: theology
+      - 10: "THE TENTH TOPIC: On the LAW of GOD"
+        loci: law
+      - 11: "THE ELEVENTH TOPIC: On the GOSPEL, or the COVENANT OF GRACE"
+        loci: covenant-of-grace
+    translations:
+      - translator: Unknown AI (2026)
+        AI: true
+        sites:
+          - site: Confessionally Reformed
+            url: https://confessionallyreformed.wordpress.com/2026/02/04/johann-heinrich-alting-c-1583-1644-on-elenctic-theology/
+            section_urls:
+              - prooemium: https://confessionallyreformed.wordpress.com/2026/02/04/johann-heinrich-alting-c-1583-1644-on-elenctic-theology/
+      - translator: Nosferatu (AI assisted?)
+        AI: true
+        sites:
+          - site: RBO
+            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Alting-On-the-Law-and-Gospel-in-Elenctics-and-Problematics.pdf
+            section_urls:
+              - 10: https://reformedbooksonline.com/wp-content/uploads/2026/02/Alting-On-the-Law-and-Gospel-in-Elenctics-and-Problematics.pdf#page=7
+              - 11: https://reformedbooksonline.com/wp-content/uploads/2026/02/Alting-On-the-Law-and-Gospel-in-Elenctics-and-Problematics.pdf#page=52
