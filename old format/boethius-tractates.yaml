@@ -1,0 +1,40 @@
+metadata:
+  id: boethius-tractates
+  title: The Theological Tractates
+  short_title: Tractates
+  author_id: boethius
+  year: 522
+  original_lanuage: la
+structure:
+  levels:
+  - treatise
+  root:
+    id: boethiustractates
+    level: 0
+    children:
+    - id: boethiustractates1
+      title: The Trinity is One God Not Three Gods
+      links: 
+        ccel: https://ccel.org/ccel/boethius/tracts/tracts.iv.i.html
+      topics:
+      - unity-of-god
+    - id: boethiustractates2
+      title: Whether Father, Son, and Holy Spirit may be Substantially Predicated of the Divinity
+      links: 
+        ccel: https://ccel.org/ccel/boethius/tracts/tracts.iv.ii.html
+      topics:
+      - trinity-persons
+    - id: boethiustractates3
+      title: How Substances can be Good in Virtue of their Existence Without Being Absolute Goods
+      links: 
+        ccel: https://ccel.org/ccel/boethius/tracts/tracts.iv.iii.html
+      topics:
+      - creation-goodness
+    - id: boethiustractates4
+      title: On the Catholic Faith
+      links: 
+        ccel: https://ccel.org/ccel/boethius/tracts/tracts.iv.iv.html
+    - id: boethiustractates5
+      title: A Treatise Against Eutyches and Nestorius
+      links: 
+        ccel: https://ccel.org/ccel/boethius/tracts/tracts.iv.v.html

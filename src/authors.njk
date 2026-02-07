@@ -7,28 +7,32 @@ permalink: "/authors/{{ authorPage.slug }}/"
 layout: layout.njk
 eleventyComputed:
   pageTitle: "{{ authorPage.name }} — Locinet"
-  navExtra: '<a href="#" class="contribute-link" id="contribute-btn" data-author-name="{{ authorPage.name }}" data-author-qid="{{ authorPage.qid }}">Add a work</a>'
+  navExtra: '<div class="add-work-container"><a href="#" class="contribute-link" id="contribute-btn" data-author-name="{{ authorPage.name }}" data-author-qid="{{ authorPage.qid }}">Add a work</a><div class="add-work-panel" id="add-work-panel" style="display:none;"></div></div>'
 ---
 
-<div class="author-header">
-  {% if authorPage.imageUrl %}
+{% if authorPage.imageUrl %}
+  <a href="{{ authorPage.commonsUrl }}" class="author-image-link">
     <img class="author-image" src="{{ authorPage.imageUrl }}?width=300" alt="{{ authorPage.name }}">
-  {% endif %}
-  <div class="author-info">
-    <h1>{{ authorPage.name }}</h1>
-    {% for al in authorPage.authorLabels %}
-      <p class="author-label">{{ al.label }}</p>
-    {% endfor %}
-    <p class="author-dates">
-      {% if authorPage.birthYear %}{{ authorPage.birthYear }}{% endif %}{% if authorPage.deathYear %}–{{ authorPage.deathYear }}{% endif %}
-    </p>
+  </a>
+{% endif %}
+
+<div class="author-header">
+  <h1>{{ authorPage.name }}</h1>
+  {% for al in authorPage.authorLabels %}
+    <p class="author-label">{{ al.label }}</p>
+  {% endfor %}
+  <p class="author-dates">
+    {% if authorPage.birthYear %}{{ authorPage.birthYear }}{% endif %}{% if authorPage.deathYear %}–{{ authorPage.deathYear }}{% endif %}
+  </p>
+  <p class="author-ext-links">
     {% if authorPage.wikipediaUrl %}
-      <p class="author-ext-link"><a href="{{ authorPage.wikipediaUrl }}">Wikipedia</a></p>
+      <a href="{{ authorPage.wikipediaUrl }}">Wikipedia</a> ·
     {% endif %}
     {% if authorPage.prdlId %}
-      <p class="author-ext-link"><a href="https://www.prdl.org/author_view.php?a_id={{ authorPage.prdlId }}">PRDL</a></p>
+      <a href="https://www.prdl.org/author_view.php?a_id={{ authorPage.prdlId }}">PRDL</a> ·
     {% endif %}
-  </div>
+    <a href="https://www.wikidata.org/wiki/{{ authorPage.qid }}">Wikidata</a>
+  </p>
 </div>
 
 <div class="filter-box">
@@ -40,12 +44,12 @@ eleventyComputed:
 <div id="works-list">
 {% for work in authorPage.works %}
   {% set allLociJson %}{{ work.allLoci | dump | safe }}{% endset %}
-  <div class="work" data-loci="{{ allLociJson }}">
+  <div class="work" id="{{ work.id }}" data-loci="{{ allLociJson }}">
     <div class="work-header">
       <h2 class="work-title">{{ work.title }}
         <a href="#" class="edit-link" data-work-id="{{ work.id }}" data-yaml-filename="{{ work.yamlFilename }}">[Edit]</a>
       </h2>
-      {% if work.origTitle %}
+      {% if work.origTitle and work.origTitle != work.title %}
         <p class="work-title-orig"><em>{{ work.origTitle }}</em></p>
       {% endif %}
 
@@ -62,23 +66,26 @@ eleventyComputed:
       {# Full text line #}
       {% if work.translations.length > 0 %}
         <p class="translations-summary">
-          Full text in English:
-          {% for t in work.translations %}
-            {% for s in t.sites %}
-              {% if s.url %}
+          {%- for t in work.translations %}
+            Full text in English translated by {{ t.translator }}
+            {%- if t.year %} ({{ t.year }}){% endif -%}
+            :
+            {%- for s in t.sites %}
+              {%- if s.url %}
                 <a href="{{ s.url }}">{{ s.siteName }}</a>
-              {% elif s.volumes %}
+              {%- elif s.volumes %}
                 {{ s.siteName }}
-                {% for volNum, volUrl in s.volumes %}
-                  <a href="{{ volUrl }}">Vol. {{ volNum }}</a>{% if not loop.last %}, {% endif %}
-                {% endfor %}
-              {% else %}
+                {%- for volNum, volUrl in s.volumes %}
+                  <a href="{{ volUrl }}">Vol. {{ volNum }}</a>
+                  {%- if not loop.last %}, {% endif -%}
+                {%- endfor %}
+              {%- else %}
                 {{ s.siteName }}
-              {% endif %}
-              ({{ t.translator }}{% if t.year %}, {{ t.year }}{% endif %}){% if not loop.last %}; {% endif %}
-            {% endfor %}
-            {% if not loop.last %}; {% endif %}
-          {% endfor %}
+              {%- endif -%}
+              {%- if not loop.last %}, {% endif -%}
+            {%- endfor -%}
+            {%- if not loop.last -%}. {% endif -%}
+          {%- endfor %}
         </p>
       {% endif %}
 
@@ -99,16 +106,24 @@ eleventyComputed:
           {% set sectionLociJson %}{{ section.loci | dump | safe }}{% endset %}
           <li class="section-item depth-{{ section.depth }}" data-loci="{{ sectionLociJson }}"
               style="margin-left: {{ section.depth * 1.5 }}em;">
-            <span class="section-title">{{ section.title }}</span>
-            {# Links from each translation #}
+            {# Collect all section URLs for this section #}
+            {% set sectionLinks = [] %}
             {% for t in work.translations %}
               {% for s in t.sites %}
                 {% set sUrl = s.sectionUrls[section.id] %}
                 {% if sUrl %}
-                  <a href="{{ sUrl }}" class="section-link">[{{ s.siteName }}]</a>
+                  {% set sectionLinks = (sectionLinks.push({url: sUrl, siteName: s.siteName}), sectionLinks) %}
                 {% endif %}
               {% endfor %}
             {% endfor %}
+            {% if sectionLinks.length == 1 %}
+              <a href="{{ sectionLinks[0].url }}" class="section-title">{{ section.title }}</a>
+            {% else %}
+              <span class="section-title">{{ section.title }}</span>
+              {% for link in sectionLinks %}
+                <a href="{{ link.url }}" class="section-link">[{{ link.siteName }}]</a>
+              {% endfor %}
+            {% endif %}
             {# Loci tags #}
             {% if section.loci.length > 0 %}
               <span class="loci-tags">
@@ -129,4 +144,6 @@ eleventyComputed:
   const lociFlat = {{ site.lociFlat | dump | safe }};
   const authorName = {{ authorPage.name | dump | safe }};
   const authorQid = {{ authorPage.qid | dump | safe }};
+  const authorOlId = {{ authorPage.openLibraryId | dump | safe }};
+  const authorOrigName = {{ authorPage.origLangName | dump | safe }};
 </script>

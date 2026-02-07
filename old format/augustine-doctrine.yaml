@@ -1,0 +1,1024 @@
+metadata:
+  id: augustine-doctrine
+  title: On Christian Doctrine, in Four Books
+  short_title: On Christian Doctrine, in Four Books
+  author_id: augustine
+  year: 397
+  original_language: Latin
+structure:
+  levels:
+  - section
+  - subsection
+  - subsubsection
+  root:
+    id: augustinedoctrine
+    title: augustine-doctrine
+    level: 0
+    children:
+    - id: augustinedoctrine_i
+      title: Title Page
+      level: 1
+      children: []
+      links:
+        ccel: https://ccel.org/ccel/a/augustine/doctrine.i.html
+    - id: augustinedoctrine_ii
+      title: Introductory Note by the Editior
+      level: 1
+      children: []
+      links:
+        ccel: https://ccel.org/ccel/a/augustine/doctrine.ii.html
+    - id: augustinedoctrine_iii
+      title: Contents of Christian Doctrine
+      level: 1
+      children: []
+      links:
+        ccel: https://ccel.org/ccel/a/augustine/doctrine.iii.html
+    - id: augustinedoctrine_iv
+      title: On Christian Doctrine
+      level: 1
+      children:
+      - id: augustinedoctrine_iv_i
+        title: Preface
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.i.html
+      - id: augustinedoctrine_iv_ii
+        title: Book I. Containing a General View of the Subjects Treated in Holy Scripture
+        level: 2
+        children:
+        - id: augustinedoctrine_iv_ii_iv.ii.i
+          title: Chap. 1. The interpretation of Scripture depends on the discovery and enunciation of the meaning, and is
+            to be undertaken in dependence on God's aid.
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.iv.ii.i.html
+        - id: augustinedoctrine_iv_ii_iv.ii.ii
+          title: Chap. 2. What a thing is, and what a sign
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.iv.ii.ii.html
+        - id: augustinedoctrine_iv_ii_iv.ii.iii
+          title: Chap. 3. Some things are for use, some for enjoyment
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.iv.ii.iii.html
+        - id: augustinedoctrine_iv_ii_iv.ii.iv
+          title: Chap. 4. Difference of use and enjoyment
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.iv.ii.iv.html
+        - id: augustinedoctrine_iv_ii_v
+          title: Chap. 5. The Trinity the true object of enjoyment
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.v.html
+        - id: augustinedoctrine_iv_ii_vi
+          title: Chap. 6. In what sense God is ineffable
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.vi.html
+        - id: augustinedoctrine_iv_ii_vii
+          title: Chap. 7. What all men understand by the term God
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.vii.html
+        - id: augustinedoctrine_iv_ii_viii
+          title: Chap. 8. God to be esteemed above all else because He is unchangeable Wisdom
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.viii.html
+        - id: augustinedoctrine_iv_ii_ix
+          title: 'Chap. 9. All acknowledge the superiority of unchangeable: wisdom to that which is variable'
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.ix.html
+        - id: augustinedoctrine_iv_ii_x
+          title: Chap. 10. To see God, the soul must be purified
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.x.html
+        - id: augustinedoctrine_iv_ii_xi
+          title: Chap. 11. Wisdom becoming incarnate, a pattern to us of purification
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xi.html
+        - id: augustinedoctrine_iv_ii_xii
+          title: Chap. 12. In what sense the Wisdom of God came to us
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xii.html
+        - id: augustinedoctrine_iv_ii_xiii
+          title: Chap. 13. The Word was made flesh
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xiii.html
+        - id: augustinedoctrine_iv_ii_xiv
+          title: Chap. 14. How the wisdom of God healed man
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xiv.html
+        - id: augustinedoctrine_iv_ii_xv
+          title: Chap. 15. Faith is buttressed by the resurrection and ascension of Christ, and is stimulated by His coming
+            to judgment
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xv.html
+        - id: augustinedoctrine_iv_ii_xvi
+          title: Chap. 16. Christ purges His church by medicinal afflictions
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xvi.html
+        - id: augustinedoctrine_iv_ii_xvii
+          title: Chap. 17. Christ, by forgiving our sins, opened the way to our home
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xvii.html
+        - id: augustinedoctrine_iv_ii_xviii
+          title: Chap. 18. The keys given to the Church
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xviii.html
+        - id: augustinedoctrine_iv_ii_xix
+          title: Chap. 19. Bodily and spiritual death and resurrection
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xix.html
+        - id: augustinedoctrine_iv_ii_xx
+          title: Chap. 20. The resurrection to damnation
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xx.html
+        - id: augustinedoctrine_iv_ii_xxi
+          title: Chap. 21. Neither body nor soul extinguished at death
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxi.html
+        - id: augustinedoctrine_iv_ii_xxii
+          title: Chap. 22. God alone to be enjoyed
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxii.html
+        - id: augustinedoctrine_iv_ii_xxiii
+          title: Chap. 23. Man needs no injunction to love himself and his own body
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxiii.html
+        - id: augustinedoctrine_iv_ii_xxiv
+          title: Chap. 24. No man hates his own flesh, not even those who abuse it
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxiv.html
+        - id: augustinedoctrine_iv_ii_xxv
+          title: Chap. 25. A man may love something more than his body, but does not therefore hate his body
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxv.html
+        - id: augustinedoctrine_iv_ii_xxvi
+          title: Chap. 26. The command to love God and our neighbour includes a command to love ourselves
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxvi.html
+        - id: augustinedoctrine_iv_ii_xxvii
+          title: Chap. 27. The order of love
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxvii.html
+        - id: augustinedoctrine_iv_ii_xxviii
+          title: Chap. 28. How we are to decide whom to aid
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxviii.html
+        - id: augustinedoctrine_iv_ii_xxix
+          title: Chap. 29. We are to desire and endeavour that all men may love God
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxix.html
+        - id: augustinedoctrine_iv_ii_xxx
+          title: Chap. 30. Whether angels are to be reckoned our neighbours
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxx.html
+        - id: augustinedoctrine_iv_ii_xxxi
+          title: Chap. 31. God uses rather than enjoys us
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxi.html
+        - id: augustinedoctrine_iv_ii_xxxii
+          title: Chap. 32. In what way God uses man
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxii.html
+        - id: augustinedoctrine_iv_ii_xxxiii
+          title: Chap. 33. In what way man should be enjoyed
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxiii.html
+        - id: augustinedoctrine_iv_ii_xxxiv
+          title: Chap. 34. Christ the first way to God
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxiv.html
+        - id: augustinedoctrine_iv_ii_xxxv
+          title: Chap. 35. The fulfilment and end of Scripture is the love of God and our neighbour
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxv.html
+        - id: augustinedoctrine_iv_ii_xxxvi
+          title: Chap. 36. That interpretation of Scripture which builds us up  in love is not perniciously deceptive nor
+            mendacious, even though it be  faulty. The interpreter, however should be corrected
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxvi.html
+        - id: augustinedoctrine_iv_ii_xxxvii
+          title: Chap. 37. Dangers of mistaken interpretation
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxvii.html
+        - id: augustinedoctrine_iv_ii_xxxviii
+          title: Chap. 38. Love never faileth
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxviii.html
+        - id: augustinedoctrine_iv_ii_xxxix
+          title: Chap. 39. He who is mature in faith hope and love, needs Scripture no longer
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xxxix.html
+        - id: augustinedoctrine_iv_ii_xl
+          title: Chap. 40. What manner of reader Scripture demands
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.xl.html
+        links:
+          ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.html
+      - id: augustinedoctrine_iv_iii
+        title: Book II.
+        level: 2
+        children:
+        - id: augustinedoctrine_iv_iii_iv.iii.i
+          title: Argument
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.iv.iii.i.html
+        - id: augustinedoctrine_iv_iii_iv.iii.ii
+          title: Chap. 1. Signs, their nature and variety
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.iv.iii.ii.html
+        - id: augustinedoctrine_iv_iii_iv.iii.iii
+          title: Chap. 2. Of the kind of signs we are now concerned with
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.iv.iii.iii.html
+        - id: augustinedoctrine_iv_iii_iv.iii.iv
+          title: Chap. 3. Among signs, words hold the chief place
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.iv.iii.iv.html
+        - id: augustinedoctrine_iv_iii_v_1
+          title: Chap. 4. Origin of writing
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.v_1.html
+        - id: augustinedoctrine_iv_iii_vi_1
+          title: Chap. 5. Scripture translated into various languages
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.vi_1.html
+        - id: augustinedoctrine_iv_iii_vii_1
+          title: Chap. 6. Use of the obscurities in Scripture which arise from its figurative language
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.vii_1.html
+        - id: augustinedoctrine_iv_iii_viii_1
+          title: 'Chap. 7. Steps to wisdom: first, fear; second, piety; third,  knowledge; fourth, resolution; fifth, counsel;
+            sixth, purification of heart;  seventh, stop or termination, wisdom'
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.viii_1.html
+        - id: augustinedoctrine_iv_iii_ix_1
+          title: Chap. 8. The canonical books
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.ix_1.html
+        - id: augustinedoctrine_iv_iii_x_1
+          title: Chap. 9. How we should proceed in studying Scripture
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.x_1.html
+        - id: augustinedoctrine_iv_iii_xi_1
+          title: Chap. 10. Unknown or ambiguous signs prevent Scripture from being understood
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xi_1.html
+        - id: augustinedoctrine_iv_iii_xii_1
+          title: Chap. 11. Knowledge of languages especially of Greek and  Hebrew, necessary to remove ignorance of signs
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xii_1.html
+        - id: augustinedoctrine_iv_iii_xiii_1
+          title: Chap. 12. A diversity of interpretations is useful. Errors arising from ambiguous words
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xiii_1.html
+        - id: augustinedoctrine_iv_iii_xiv_1
+          title: Chap. 13. How faulty interpretations can be emended
+          level: 3
+          children: []
+          bible_refs:
+          - Num.13.19
+          - Ps.132.18
+          - 1Cor.1.25
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xiv_1.html
+        - id: augustinedoctrine_iv_iii_xv_1
+          title: Chap. 14. How the meaning of unknown words and idioms is to be discovered
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xv_1.html
+        - id: augustinedoctrine_iv_iii_xvi_1
+          title: Chap. 15. Among versions a preference is given to the Septuagint and the Itala
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xvi_1.html
+        - id: augustinedoctrine_iv_iii_xvii_1
+          title: Chap. 16. The knowledge both of language and things is helpful for the understanding of figurative expressions
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xvii_1.html
+        - id: augustinedoctrine_iv_iii_xviii_1
+          title: Chap. 17. Origin of the legend of the nine Muses
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xviii_1.html
+        - id: augustinedoctrine_iv_iii_xix_1
+          title: Chap. 18. No help is to be despised even though it come from a profane source
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xix_1.html
+        - id: augustinedoctrine_iv_iii_xx_1
+          title: Chap. 19. Two kinds of heathen knowledge
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xx_1.html
+        - id: augustinedoctrine_iv_iii_xxi_1
+          title: Chap. 20. The superstitious nature of human institutions
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxi_1.html
+        - id: augustinedoctrine_iv_iii_xxii_1
+          title: Chap. 21. Superstition of astrologers
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxii_1.html
+        - id: augustinedoctrine_iv_iii_xxiii_1
+          title: Chap. 22. The folly of observing the stars in order to predict  the events of a life
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxiii_1.html
+        - id: augustinedoctrine_iv_iii_xxiv_1
+          title: Chap. 23. Why we repudiate arts of divination
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxiv_1.html
+        - id: augustinedoctrine_iv_iii_xxv_1
+          title: Chap. 24. The intercourse and agreement with demons which superstitious observances maintain
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxv_1.html
+        - id: augustinedoctrine_iv_iii_xxvi_1
+          title: Chap. 25. In human institutions which are not superstitious,  there are some things superfluous and some
+            convenient and necessary
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxvi_1.html
+        - id: augustinedoctrine_iv_iii_xxvii_1
+          title: Chap. 26. What human contrivances we are to adopt, and what we are to avoid
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxvii_1.html
+        - id: augustinedoctrine_iv_iii_xxviii_1
+          title: Chap. 27. Some departments of knowledge, not of mere human invention, aid us in interpreting Scripture
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxviii_1.html
+        - id: augustinedoctrine_iv_iii_xxix_1
+          title: Chap. 28. To what extent history is an aid
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxix_1.html
+        - id: augustinedoctrine_iv_iii_xxx_1
+          title: Chap. 29. To what extent natural science is an exegetical aid
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxx_1.html
+        - id: augustinedoctrine_iv_iii_xxxi_1
+          title: Chap. 30. What the mechanical arts contribute to exegetics
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxi_1.html
+        - id: augustinedoctrine_iv_iii_xxxii_1
+          title: Chap. 31. Use of dialectics. Of fallacies
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxii_1.html
+        - id: augustinedoctrine_iv_iii_xxxiii_1
+          title: Chap. 32. Valid logical sequence is not devised but only observed by man
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxiii_1.html
+        - id: augustinedoctrine_iv_iii_xxxiv_1
+          title: Chap. 33. False inferences may be drawn from valid seasonings, and vice versa
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxiv_1.html
+        - id: augustinedoctrine_iv_iii_xxxv_1
+          title: Chap. 34. It is one thing to know the laws of inference, another to know the truth of opinions
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxv_1.html
+        - id: augustinedoctrine_iv_iii_xxxvi_1
+          title: Chap. 35. The science of definition is not false, though it may be applied to falsities
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxvi_1.html
+        - id: augustinedoctrine_iv_iii_xxxvii_1
+          title: Chap. 36. The rules of eloquence are true, though sometimes  used to persuade men of what is false
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxvii_1.html
+        - id: augustinedoctrine_iv_iii_xxxviii_1
+          title: Chap. 37. Use of rhetoric and dialectic
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxviii_1.html
+        - id: augustinedoctrine_iv_iii_xxxix_1
+          title: Chap. 38. The science of numbers not created, but only discovered, by man
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xxxix_1.html
+        - id: augustinedoctrine_iv_iii_xl_1
+          title: Chap. 39. To which of the above-mentioned studies attention should be given, and in what spirit
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xl_1.html
+        - id: augustinedoctrine_iv_iii_xli
+          title: Chap. 40. Whatever has been rightly said by the heathen, we must appropriate to our uses
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xli.html
+        - id: augustinedoctrine_iv_iii_xlii
+          title: Chap. 41. What kind of spirit is required for the study of Holy Scripture
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xlii.html
+        - id: augustinedoctrine_iv_iii_xliii
+          title: Chap. 42. Sacred Scripture compared with profane authors
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.xliii.html
+        bible_refs:
+        - Num.13.19
+        - Ps.132.18
+        - 1Cor.1.25
+        links:
+          ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.html
+      - id: augustinedoctrine_iv_iv
+        title: Book III.
+        level: 2
+        children:
+        - id: augustinedoctrine_iv_iv_iv.i
+          title: Argument.
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.iv.i.html
+        - id: augustinedoctrine_iv_iv_iv.ii
+          title: Chap. 1. Summary of the foregoing books, and scope of that which follows
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.iv.ii.html
+        - id: augustinedoctrine_iv_iv_iv.iii
+          title: Chap. 2. Rule for removing ambiguity by attending to punctuation
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.iv.iii.html
+        - id: augustinedoctrine_iv_iv_iv.iv
+          title: Chap. 3. How pronunciation serves to remove ambiguity—different kinds of interrogation
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.iv.iv.html
+        - id: augustinedoctrine_iv_iv_v_2
+          title: Chap. 4. How ambiguities may be solved
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.v_2.html
+        - id: augustinedoctrine_iv_iv_vi_2
+          title: Chap. 5. It is a wretched slavery which takes the figurative expressions of Scripture in a literal sense
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.vi_2.html
+        - id: augustinedoctrine_iv_iv_vii_2
+          title: Chap. 6. Utility of the bondage of the Jews
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.vii_2.html
+        - id: augustinedoctrine_iv_iv_viii_2
+          title: Chap. 7. The useless bondage of the gentiles
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.viii_2.html
+        - id: augustinedoctrine_iv_iv_ix_2
+          title: Chap. 8. The Jews liberated from their bondage in one way, the gentiles in another
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.ix_2.html
+        - id: augustinedoctrine_iv_iv_x_2
+          title: Chap. 9. Who is in bondage to signs, and who not
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.x_2.html
+        - id: augustinedoctrine_iv_iv_xi_2
+          title: Chap. 10. How we are to discern whether a phrase is figurative
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xi_2.html
+        - id: augustinedoctrine_iv_iv_xii_2
+          title: Chap. 11. Rule for interpreting phrases which seem to ascribe severity to God and the saints
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xii_2.html
+        - id: augustinedoctrine_iv_iv_xiii_2
+          title: Chap. 12. Rule for interpreting those sayings and actions which  are ascribed to God and the saints and which
+            yet seem to the unskilful to be  wicked
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xiii_2.html
+        - id: augustinedoctrine_iv_iv_xiv_2
+          title: Chap. 13. Same subject, continued
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xiv_2.html
+        - id: augustinedoctrine_iv_iv_xv_2
+          title: Chap. 14. Error of those who think that there is no absolute right and wrong
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xv_2.html
+        - id: augustinedoctrine_iv_iv_xvi_2
+          title: Chap. 15. Rule for interpreting figurative expressions
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xvi_2.html
+        - id: augustinedoctrine_iv_iv_xvii_2
+          title: Chap. 16. Rule for interpreting commands and prohibitions
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xvii_2.html
+        - id: augustinedoctrine_iv_iv_xviii_2
+          title: Chap. 17. Some commands are given to all in common, others to particular classes
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xviii_2.html
+        - id: augustinedoctrine_iv_iv_xix_2
+          title: Chap. 18. We must take into consideration the time at which anything was enjoyed or allowed
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xix_2.html
+        - id: augustinedoctrine_iv_iv_xx_2
+          title: Chap. 19. Wicked men judge others by themselves
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xx_2.html
+        - id: augustinedoctrine_iv_iv_xxi_2
+          title: Chap. 20. Consistency of good men in all outward circumstances
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxi_2.html
+        - id: augustinedoctrine_iv_iv_xxii_2
+          title: Chap. 21. David not lustful, though he fell into adultery
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxii_2.html
+        - id: augustinedoctrine_iv_iv_xxiii_2
+          title: Chap. 22. Rule regarding passages of Scripture in which approval is expressed of actions which are now condemned
+            by good men
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxiii_2.html
+        - id: augustinedoctrine_iv_iv_xxiv_2
+          title: Chap. 23. Rule regarding the narrative of sins of great men
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxiv_2.html
+        - id: augustinedoctrine_iv_iv_xxv_2
+          title: Chap. 24. The character of the expressions used is above all to have weight
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxv_2.html
+        - id: augustinedoctrine_iv_iv_xxvi_2
+          title: Chap. 25. The same word does not always signify the same thing
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxvi_2.html
+        - id: augustinedoctrine_iv_iv_xxvii_2
+          title: Chap. 26. Obscure passages are to be interpreted by those which are clearer
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxvii_2.html
+        - id: augustinedoctrine_iv_iv_xxviii_2
+          title: Chap. 27. One passage susceptible of various interpretations
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxviii_2.html
+        - id: augustinedoctrine_iv_iv_xxix_2
+          title: Chap. 28. It is safer to explain a doubtful passage by other passages of Scripture than by reason
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxix_2.html
+        - id: augustinedoctrine_iv_iv_xxx_2
+          title: Chap. 29. The knowledge of tropes is necessary
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxx_2.html
+        - id: augustinedoctrine_iv_iv_xxxi_2
+          title: Chap. 30. The rules of Tichonius the Donatist examined
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxxi_2.html
+        - id: augustinedoctrine_iv_iv_xxxii_2
+          title: Chap. 31. The first rule of Tichonius
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxxii_2.html
+        - id: augustinedoctrine_iv_iv_xxxiii_2
+          title: Chap. 32. The second rule of Tichonius
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxxiii_2.html
+        - id: augustinedoctrine_iv_iv_xxxiv_2
+          title: Chap. 33. The third rule of Tichonius
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxxiv_2.html
+        - id: augustinedoctrine_iv_iv_xxxv_2
+          title: Chap. 34. The fourth rule of Tichonius
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxxv_2.html
+        - id: augustinedoctrine_iv_iv_xxxvi_2
+          title: Chap. 35. The fifth rule of Tichonius
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxxvi_2.html
+        - id: augustinedoctrine_iv_iv_xxxvii_2
+          title: Chap. 36. The sixth rule of Tichonius
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxxvii_2.html
+        - id: augustinedoctrine_iv_iv_xxxviii_2
+          title: Chap. 37. The seventh rule of Tichonius
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.xxxviii_2.html
+        links:
+          ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.html
+      - id: augustinedoctrine_iv_v
+        title: Book IV. Containing a General View of the Subjects Treated in Holy Scripture
+        level: 2
+        children:
+        - id: augustinedoctrine_iv_v_iv.v.i
+          title: Argument.
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.iv.v.i.html
+        - id: augustinedoctrine_iv_v_iv.v.ii
+          title: Chap. 1.This work not intended as a treatise on rhetoric
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.iv.v.ii.html
+        - id: augustinedoctrine_iv_v_iv.v.iii
+          title: Chap. 2. It is lawful for a Christian teacher to use the art of rhetoric
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.iv.v.iii.html
+        - id: augustinedoctrine_iv_v_iv.v.iv
+          title: Chap. 3. The proper age and the proper means for acquiring  rhetorical skill
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.iv.v.iv.html
+        - id: augustinedoctrine_iv_v_v_3
+          title: Chap. 4. The duty of the Christian teacher
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.v_3.html
+        - id: augustinedoctrine_iv_v_vi_3
+          title: Chap. 5. Wisdom of more importance than eloquence to the Christian teacher
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.vi_3.html
+        - id: augustinedoctrine_iv_v_vii_3
+          title: Chap. 6. The sacred writers unite eloquence with  wisdom
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.vii_3.html
+        - id: augustinedoctrine_iv_v_viii_3
+          title: Chap. 7. Examples of true eloquence drawn from the epistles of Paul and the prophecies of Amos
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.viii_3.html
+        - id: augustinedoctrine_iv_v_ix_3
+          title: Chap. 8. The obscurity of the sacred writers, though compatible with eloquence, not to be imitated by Christian
+            teachers
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.ix_3.html
+        - id: augustinedoctrine_iv_v_x_3
+          title: Chap. 9. How, and with whom, difficult passages are to be discussed
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.x_3.html
+        - id: augustinedoctrine_iv_v_xi_3
+          title: Chap. 10. The necessity for perspicuity of style
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xi_3.html
+        - id: augustinedoctrine_iv_v_xii_3
+          title: Chap. 11. The Christian teacher must speak clearly, but not inelegantly
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xii_3.html
+        - id: augustinedoctrine_iv_v_xiii_3
+          title: Chap. 12. The aim of the orator, according to Cicero, is to  teach, to delight, and to move. Of these, teaching
+            is the most  essential
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xiii_3.html
+        - id: augustinedoctrine_iv_v_xiv_3
+          title: Chap. 13. The hearer must be moved as well as instructed
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xiv_3.html
+        - id: augustinedoctrine_iv_v_xv_3
+          title: Chap. 14. Beauty of diction to be in keeping with the matter
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xv_3.html
+        - id: augustinedoctrine_iv_v_xvi_3
+          title: Chap. 15. The Christian teacher should pray before preaching
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xvi_3.html
+        - id: augustinedoctrine_iv_v_xvii_3
+          title: Chap. 16. Human directions not to be despised though God makes the true teacher
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xvii_3.html
+        - id: augustinedoctrine_iv_v_xviii_3
+          title: Chap. 17. Threefold division of the various styles of speech
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xviii_3.html
+        - id: augustinedoctrine_iv_v_xix_3
+          title: Chap. 18. The Christian orator is constantly dealing with great matters
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xix_3.html
+        - id: augustinedoctrine_iv_v_xx_3
+          title: Chap. 19. The Christian teacher must use different styles on different occasions
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xx_3.html
+        - id: augustinedoctrine_iv_v_xxi_3
+          title: Chap. 20. Examples of the various styles drawn from Scripture
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxi_3.html
+        - id: augustinedoctrine_iv_v_xxii_3
+          title: Chap. 21. Examples of the various styles, drawn from the  teachers of the church, especially Ambrose and
+            Cyprian
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxii_3.html
+        - id: augustinedoctrine_iv_v_xxiii_3
+          title: Chap. 22. The necessity of variety in style
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxiii_3.html
+        - id: augustinedoctrine_iv_v_xxiv_3
+          title: Chap. 23. How the various styles should be mingled
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxiv_3.html
+        - id: augustinedoctrine_iv_v_xxv_3
+          title: Chap. 24. The effects produced by the majestic style
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxv_3.html
+        - id: augustinedoctrine_iv_v_xxvi_3
+          title: Chap. 25. How the temperate style is to be used
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxvi_3.html
+        - id: augustinedoctrine_iv_v_xxvii_3
+          title: Chap. 26. In every style the orator should aim at perspicuity, beauty, and persuasiveness
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxvii_3.html
+        - id: augustinedoctrine_iv_v_xxviii_3
+          title: Chap. 27. The man whose life is in harmony with his teaching  will teach with greater effect
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxviii_3.html
+        - id: augustinedoctrine_iv_v_xxix_3
+          title: Chap. 28. Truth is more important than expression. What is meant by strife about words
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxix_3.html
+        - id: augustinedoctrine_iv_v_xxx_3
+          title: Chap. 29. It is permissible for a preacher to deliver to the people what has been written by a more eloquent
+            man than himself
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxx_3.html
+        - id: augustinedoctrine_iv_v_xxxi_3
+          title: Chap. 30. The preacher should commence his discourse with prayer to God
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxxi_3.html
+        - id: augustinedoctrine_iv_v_xxxii_3
+          title: Chap. 31. Apology for the length of the work
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.xxxii_3.html
+        links:
+          ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.v.html
+      bible_refs:
+      - Num.13.19
+      - Ps.132.18
+      - 1Cor.1.25
+      links:
+        ccel: https://ccel.org/ccel/a/augustine/doctrine.iv.html
+    - id: augustinedoctrine_xliv
+      title: Indexes
+      level: 1
+      children:
+      - id: augustinedoctrine_xliv_i
+        title: Latin Words and Phrases
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/augustine/doctrine.xliv.i.html
+      links:
+        ccel: https://ccel.org/ccel/a/augustine/doctrine.xliv.html

@@ -1,0 +1,2046 @@
+metadata:
+  id: luther-bondage
+  title: De Servo Arbitrio “On the Enslaved Will” or The Bondage of Will
+  short_title: De Servo Arbitrio “On the Enslaved Will” or The Bondage of Will
+  author_id: luther
+  year: 1525
+  original_language: Latin
+structure:
+  levels:
+  - section
+  - subsection
+  root:
+    id: lutherbondage
+    title: luther-bondage
+    level: 0
+    children:
+    - id: lutherbondage_i
+      title: Title Page
+      level: 1
+      children: []
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.i.html
+    - id: lutherbondage_iii
+      title: Preface by Henry Atherton
+      level: 1
+      children: []
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.iii.html
+    - id: lutherbondage_iv
+      title: Preface by the Translator
+      level: 1
+      children: []
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.iv.html
+    - id: lutherbondage_v
+      title: Introduction
+      level: 1
+      children: []
+      bible_refs:
+      - 2Tim.4.2
+      - 1Cor.12.4
+      - Gal.6.2
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.v.html
+    - id: lutherbondage_vi
+      title: Erasmus’ Preface Reviewed
+      level: 1
+      children:
+      - id: lutherbondage_vi_i
+        title: Section I.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.10.10
+        - Matt.10.32
+        - 1Pet.3.15
+        - John.16.8
+        - 2Tim.4.2
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.vi.i.html
+      bible_refs:
+      - Rom.10.10
+      - Matt.10.32
+      - 1Pet.3.15
+      - John.16.8
+      - 2Tim.4.2
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.vi.html
+    - id: lutherbondage_vii
+      title: Erasmus’ Scepticism
+      level: 1
+      children:
+      - id: lutherbondage_vii_i
+        title: Section II.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.14.29
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.vii.i.html
+      - id: lutherbondage_vii_ii
+        title: Section III.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.11.33
+        - Isa.40.13
+        - Matt.24.36
+        - Acts.1.7
+        - John.13.18
+        - 2Tim.2.19
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.vii.ii.html
+      - id: lutherbondage_vii_iii
+        title: Section IV.
+        level: 2
+        children: []
+        bible_refs:
+        - Luke.24.45
+        - Mark.16.15
+        - Col.1.23
+        - Ps.19.4
+        - Rom.15.4
+        - 2Tim.3.16
+        - 2Cor.3.15
+        - 2Cor.4.3-4
+        - Isa.40.13
+        - 1Cor.2.10
+        - Ps.14.1
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.vii.iii.html
+      - id: lutherbondage_vii_iv
+        title: Section V.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.vii.iv.html
+      - id: lutherbondage_vii_v
+        title: Section VI.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.vii.v.html
+      bible_refs:
+      - 1Cor.14.29
+      - Rom.11.33
+      - Isa.40.13
+      - Matt.24.36
+      - Acts.1.7
+      - John.13.18
+      - 2Tim.2.19
+      - Luke.24.45
+      - Mark.16.15
+      - Col.1.23
+      - Ps.19.4
+      - Rom.15.4
+      - 2Tim.3.16
+      - 2Cor.3.15
+      - 2Cor.4.3-4
+      - 1Cor.2.10
+      - Ps.14.1
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.vii.html
+    - id: lutherbondage_viii
+      title: The Necessity of Knowing God and His Power
+      level: 1
+      children:
+      - id: lutherbondage_viii_i
+        title: Section VII.
+        level: 2
+        children: []
+        bible_refs:
+        - Luke.14.28-32
+        - Gal.6.7
+        - 1Cor.12.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.viii.i.html
+      - id: lutherbondage_viii_ii
+        title: Section VIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.viii.ii.html
+      bible_refs:
+      - Luke.14.28-32
+      - Gal.6.7
+      - 1Cor.12.6
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.viii.html
+    - id: lutherbondage_ix
+      title: The Sovereignty of God
+      level: 1
+      children:
+      - id: lutherbondage_ix_i
+        title: Section IX.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.i.html
+      - id: lutherbondage_ix_ii
+        title: Section X.
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.46.10
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.ii.html
+      - id: lutherbondage_ix_iii
+        title: Section XI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.1.21-22
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.iii.html
+      - id: lutherbondage_ix_iv
+        title: Section XII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.4
+        - Rom.9.6
+        - 2Tim.2.19
+        - Titus.1.2
+        - Heb.11.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.iv.html
+      - id: lutherbondage_ix_v
+        title: Section XIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Jas.2.10
+        - Lam.4.1
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.v.html
+      - id: lutherbondage_ix_vi
+        title: Section XIV.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.vi.html
+      - id: lutherbondage_ix_vii
+        title: Section XV.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.vii.html
+      - id: lutherbondage_ix_viii
+        title: Section XVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Col.2.9
+        - Ps.16.10
+        - Ps.139.8
+        - 1Kgs.8.27
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.viii.html
+      - id: lutherbondage_ix_ix
+        title: Section XVII.
+        level: 2
+        children: []
+        bible_refs:
+        - Ezek.13.18
+        - Rom.13.1-4
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.ix.html
+      - id: lutherbondage_ix_x
+        title: Section XVIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.x.html
+      - id: lutherbondage_ix_xi
+        title: Section XIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.10.34
+        - Luke.12.49
+        - 2Cor.6.5
+        - Acts.17.6
+        - 1Kgs.18.17
+        - 2Cor.4.4
+        - Matt.24.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xi.html
+      - id: lutherbondage_ix_xii
+        title: Section XX.
+        level: 2
+        children: []
+        bible_refs:
+        - Luke.11.23
+        - Mic.7.4
+        - Gal.5.13
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xii.html
+      - id: lutherbondage_ix_xiii
+        title: Section XXI.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.6.12
+        - Phil.1.15-18
+        - 2Tim.2.9
+        - Mark.16.15
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xiii.html
+      - id: lutherbondage_ix_xiv
+        title: Section XXII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xiv.html
+      - id: lutherbondage_ix_xv
+        title: Section XXIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.9.18
+        - Rom.9.22
+        - Matt.22.14
+        - John.13.18
+        - Hab.2.20
+        - Rom.9.20
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xv.html
+      - id: lutherbondage_ix_xvi
+        title: Section XXIV.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Sam.2.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xvi.html
+      - id: lutherbondage_ix_xvii
+        title: Section XXV.
+        level: 2
+        children: []
+        bible_refs:
+        - 2Tim.2.26
+        - Ps.73.22-23
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xvii.html
+      - id: lutherbondage_ix_xviii
+        title: Section XXVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Ps.135.6
+        - Titus.2.7-8
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xviii.html
+      - id: lutherbondage_ix_xix
+        title: Section XXVII.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.2
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.ix.xix.html
+      bible_refs:
+      - Isa.46.10
+      - Rom.1.21-22
+      - Rom.3.4
+      - Rom.9.6
+      - 2Tim.2.19
+      - Titus.1.2
+      - Heb.11.6
+      - Jas.2.10
+      - Lam.4.1
+      - Col.2.9
+      - Ps.16.10
+      - Ps.139.8
+      - 1Kgs.8.27
+      - Ezek.13.18
+      - Rom.13.1-4
+      - Matt.10.34
+      - Luke.12.49
+      - 2Cor.6.5
+      - Acts.17.6
+      - 1Kgs.18.17
+      - 2Cor.4.4
+      - Matt.24.6
+      - Luke.11.23
+      - Mic.7.4
+      - Gal.5.13
+      - 1Cor.6.12
+      - Phil.1.15-18
+      - 2Tim.2.9
+      - Mark.16.15
+      - Rom.9.18
+      - Rom.9.22
+      - Matt.22.14
+      - John.13.18
+      - Hab.2.20
+      - Rom.9.20
+      - 1Sam.2.6
+      - 2Tim.2.26
+      - Ps.73.22-23
+      - Ps.135.6
+      - Titus.2.7-8
+      - 1Cor.2
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.ix.html
+    - id: lutherbondage_x
+      title: Exordium
+      level: 1
+      children:
+      - id: lutherbondage_x_i
+        title: Section XXVIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.i.html
+      - id: lutherbondage_x_ii
+        title: Section XXIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Deut.18.15-22
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.ii.html
+      - id: lutherbondage_x_iii
+        title: Section XXX.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.iii.html
+      - id: lutherbondage_x_iv
+        title: Section XXXI.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.16.22
+        - Luke.5.8
+        - John.8.48
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.iv.html
+      - id: lutherbondage_x_v
+        title: Section XXXII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.8.14
+        - Matt.28.20
+        - 1Tim.3.15
+        - John.10.28
+        - Rom.11.4
+        - Ps.78.31
+        - Isa.1.9
+        - Isa.10.20-22
+        - Isa.11.11-16
+        - Luke.16.8
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.v.html
+      - id: lutherbondage_x_vi
+        title: Section XXXIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Acts.14.16
+        - 1Cor.2.8
+        - 2Thess.2.4
+        - Lev.11.3
+        - Deut.14.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.vi.html
+      - id: lutherbondage_x_vii
+        title: Section XXXIV.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.2.15
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.vii.html
+      - id: lutherbondage_x_viii
+        title: Section XXXV.
+        level: 2
+        children: []
+        bible_refs:
+        - Deut.17.8
+        - Matt.6.30
+        - Ps.19.8
+        - Ps.119.130
+        - Isa.8.20
+        - Mal.2.7
+        - Ps.119
+        - Ps.119.105
+        - Ps.143.10
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.viii.html
+      - id: lutherbondage_x_ix
+        title: Section XXXVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.1.2
+        - Rom.3.21
+        - 2Cor.3
+        - 2Cor.4
+        - 2Pet.1.19
+        - John.8.12
+        - John.9.5
+        - John.5.35
+        - Phil.2.15
+        - Phil.2.16
+        - John.5.39
+        - Acts.17.11
+        - Gen.1.1
+        - John.1.14
+        - 2Tim.3.16
+        - Titus.1.9
+        - Luke.21.15
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.ix.html
+      - id: lutherbondage_x_x
+        title: Section XXXVII.
+        level: 2
+        children: []
+        bible_refs:
+        - 2Pet.1.19
+        - 1Tim.4.7
+        - Matt.22.23-32
+        - Exod.3.6
+        - Acts.6.10
+        - Isa.66.1
+        - Acts.7.51
+        - Matt.16.18
+        - Luke.21.15
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.x.html
+      - id: lutherbondage_x_xi
+        title: Section XXXVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.6.9
+        - John.1.5
+        - 1Cor.2.8
+        - 1Cor.3.20
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.xi.html
+      - id: lutherbondage_x_xii
+        title: Section XXXIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.12.37
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.xii.html
+      - id: lutherbondage_x_xiii
+        title: Section XL.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.x.xiii.html
+      bible_refs:
+      - Deut.18.15-22
+      - Matt.16.22
+      - Luke.5.8
+      - John.8.48
+      - Rom.8.14
+      - Matt.28.20
+      - 1Tim.3.15
+      - John.10.28
+      - Rom.11.4
+      - Ps.78.31
+      - Isa.1.9
+      - Isa.10.20-22
+      - Isa.11.11-16
+      - Luke.16.8
+      - Acts.14.16
+      - 1Cor.2.8
+      - 2Thess.2.4
+      - Lev.11.3
+      - Deut.14.6
+      - 1Cor.2.15
+      - Deut.17.8
+      - Matt.6.30
+      - Ps.19.8
+      - Ps.119.130
+      - Isa.8.20
+      - Mal.2.7
+      - Ps.119
+      - Ps.119.105
+      - Ps.143.10
+      - Rom.1.2
+      - Rom.3.21
+      - 2Cor.3
+      - 2Cor.4
+      - 2Pet.1.19
+      - John.8.12
+      - John.9.5
+      - John.5.35
+      - Phil.2.15
+      - Phil.2.16
+      - John.5.39
+      - Acts.17.11
+      - Gen.1.1
+      - John.1.14
+      - 2Tim.3.16
+      - Titus.1.9
+      - Luke.21.15
+      - 1Tim.4.7
+      - Matt.22.23-32
+      - Exod.3.6
+      - Acts.6.10
+      - Isa.66.1
+      - Acts.7.51
+      - Matt.16.18
+      - Isa.6.9
+      - John.1.5
+      - 1Cor.3.20
+      - Matt.12.37
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.x.html
+    - id: lutherbondage_xi
+      title: 'Discussion: First Part'
+      level: 1
+      children:
+      - id: lutherbondage_xi_i
+        title: Section XLI.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.i.html
+      - id: lutherbondage_xi_ii
+        title: Section XLII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.ii.html
+      - id: lutherbondage_xi_iii
+        title: Section XLIII.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.2.9
+        - 1Cor.2.10
+        - Acts.17.18
+        - Acts.26.24
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.iii.html
+      - id: lutherbondage_xi_iv
+        title: Section XLIV.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.iv.html
+      - id: lutherbondage_xi_v
+        title: Section XLV.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.v.html
+      - id: lutherbondage_xi_vi
+        title: Section XLVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Ps.4.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.vi.html
+      - id: lutherbondage_xi_vii
+        title: Section XLVII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.vii.html
+      - id: lutherbondage_xi_viii
+        title: Section XLVIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.viii.html
+      - id: lutherbondage_xi_ix
+        title: Section XLIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.12.30
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.ix.html
+      - id: lutherbondage_xi_x
+        title: Section L.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.x.html
+      - id: lutherbondage_xi_xi
+        title: Section LI.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xi.html
+      - id: lutherbondage_xi_xii
+        title: Section LII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.20
+        - Gal.3.19
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xii.html
+      - id: lutherbondage_xi_xiii
+        title: Section LIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xiii.html
+      - id: lutherbondage_xi_xiv
+        title: Section LIV.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xiv.html
+      - id: lutherbondage_xi_xv
+        title: Section LV.
+        level: 2
+        children: []
+        bible_refs:
+        - Gen.4.7
+        - Exod.20.1-17
+        - Gen.3.16
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xv.html
+      - id: lutherbondage_xi_xvi
+        title: Section LVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Deut.30.19
+        - Rom.3.20
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xvi.html
+      - id: lutherbondage_xi_xvii
+        title: Section LVII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xvii.html
+      - id: lutherbondage_xi_xviii
+        title: Section LVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.61.1-3
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xviii.html
+      - id: lutherbondage_xi_xix
+        title: Section LIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.1.19
+        - Isa.30.21
+        - Isa.45.20
+        - Isa.52.1-2
+        - Jer.15.19
+        - Mal.3.7
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xix.html
+      - id: lutherbondage_xi_xx
+        title: Section LX.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xx.html
+      - id: lutherbondage_xi_xxi
+        title: Section LXI.
+        level: 2
+        children: []
+        bible_refs:
+        - Mal.3.7
+        - Jer.15.19
+        - Ps.126.1
+        - Ps.116.7
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxi.html
+      - id: lutherbondage_xi_xxii
+        title: Section LXII.
+        level: 2
+        children: []
+        bible_refs:
+        - Ezek.18.23
+        - Ps.30.5
+        - Ps.36.7
+        - Matt.11.28
+        - Exod.20.6
+        - Rom.3.20
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxii.html
+      - id: lutherbondage_xi_xxiii
+        title: Section LXIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxiii.html
+      - id: lutherbondage_xi_xxiv
+        title: Section LXIV.
+        level: 2
+        children: []
+        bible_refs:
+        - 2Thess.2.4
+        - Ps.107.20
+        - Matt.23.37
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxiv.html
+      - id: lutherbondage_xi_xxv
+        title: Section LXV.
+        level: 2
+        children: []
+        bible_refs:
+        - Deut.30.11-14
+        - Rom.10.5-11
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxv.html
+      - id: lutherbondage_xi_xxvi
+        title: Section LXVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.23.37-39
+        - 1Tim.6.16
+        - John.1.5
+        - John.1.11
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxvi.html
+      - id: lutherbondage_xi_xxvii
+        title: Section LXVII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.9.19
+        - Isa.58.2
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxvii.html
+      - id: lutherbondage_xi_xxviii
+        title: Section LXVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.19.17
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxviii.html
+      - id: lutherbondage_xi_xxix
+        title: Section LXIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.5.12
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxix.html
+      - id: lutherbondage_xi_xxx
+        title: Section LXX.
+        level: 2
+        children: []
+        bible_refs:
+        - Prov.24.12
+        - 2Pet.2.10-14
+        - Matt.25.34
+        - Matt.25.41
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxx.html
+      - id: lutherbondage_xi_xxxi
+        title: Section LXXI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.2.6
+        - Rom.3.20
+        - 1Cor.15.58
+        - Gen.15.1
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxxi.html
+      - id: lutherbondage_xi_xxxii
+        title: Section LXXII.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.11.25-26
+        - Matt.4.4
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxxii.html
+      - id: lutherbondage_xi_xxxiii
+        title: Section LXXIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.7.16
+        - 1Cor.4.7
+        - Luke.23.34
+        - Gen.1.2
+        - Gen.2.2
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxxiii.html
+      - id: lutherbondage_xi_xxxiv
+        title: Section LXXIV.
+        level: 2
+        children: []
+        bible_refs:
+        - John.1.12
+        - 1Cor.1.17-31
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxxiv.html
+      - id: lutherbondage_xi_xxxv
+        title: Section LXXV.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.2.4
+        - Rom.8.14
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xi.xxxv.html
+      bible_refs:
+      - 1Cor.2.9
+      - 1Cor.2.10
+      - Acts.17.18
+      - Acts.26.24
+      - Ps.4.6
+      - Matt.12.30
+      - Rom.3.20
+      - Gal.3.19
+      - Gen.4.7
+      - Exod.20.1-17
+      - Gen.3.16
+      - Deut.30.19
+      - Isa.61.1-3
+      - Isa.1.19
+      - Isa.30.21
+      - Isa.45.20
+      - Isa.52.1-2
+      - Jer.15.19
+      - Mal.3.7
+      - Ps.126.1
+      - Ps.116.7
+      - Ezek.18.23
+      - Ps.30.5
+      - Ps.36.7
+      - Matt.11.28
+      - Exod.20.6
+      - 2Thess.2.4
+      - Ps.107.20
+      - Matt.23.37
+      - Deut.30.11-14
+      - Rom.10.5-11
+      - Matt.23.37-39
+      - 1Tim.6.16
+      - John.1.5
+      - John.1.11
+      - Rom.9.19
+      - Isa.58.2
+      - Matt.19.17
+      - Matt.5.12
+      - Prov.24.12
+      - 2Pet.2.10-14
+      - Matt.25.34
+      - Matt.25.41
+      - Rom.2.6
+      - 1Cor.15.58
+      - Gen.15.1
+      - Matt.11.25-26
+      - Matt.4.4
+      - Matt.7.16
+      - 1Cor.4.7
+      - Luke.23.34
+      - Gen.1.2
+      - Gen.2.2
+      - John.1.12
+      - 1Cor.1.17-31
+      - Rom.2.4
+      - Rom.8.14
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.xi.html
+    - id: lutherbondage_xii
+      title: 'Discussion: Second Part'
+      level: 1
+      children:
+      - id: lutherbondage_xii_i
+        title: Section LXXVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Exod.9.13
+        - Mal.1.2-3
+        - Rom.9.11-17
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.i.html
+      - id: lutherbondage_xii_ii
+        title: Section LXXVII.
+        level: 2
+        children: []
+        bible_refs:
+        - Exod.8.5
+        - Ezek.18.31
+        - Exod.4.21
+        - Rom.9.17-18
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.ii.html
+      - id: lutherbondage_xii_iii
+        title: Section LXXVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.9.18
+        - Isa.63.17
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.iii.html
+      - id: lutherbondage_xii_iv
+        title: Section LXXIX.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.iv.html
+      - id: lutherbondage_xii_v
+        title: Section LXXX.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.v.html
+      - id: lutherbondage_xii_vi
+        title: Section LXXXI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.9.21
+        - Ps.19
+        - Heb.6.7
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.vi.html
+      - id: lutherbondage_xii_vii
+        title: Section LXXXII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.vii.html
+      - id: lutherbondage_xii_viii
+        title: Section LXXXIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Eph.2.8
+        - Prov.16.4
+        - Ps.51.5
+        - Job.14.4
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.viii.html
+      - id: lutherbondage_xii_ix
+        title: Section LXXXIV.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.ix.html
+      - id: lutherbondage_xii_x
+        title: Section LXXXV.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.x.html
+      - id: lutherbondage_xii_xi
+        title: Section LXXXVI.
+        level: 2
+        children: []
+        bible_refs:
+        - 2Sam.16.10
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xi.html
+      - id: lutherbondage_xii_xii
+        title: Section LXXXVII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xii.html
+      - id: lutherbondage_xii_xiii
+        title: Section LXXXVIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xiii.html
+      - id: lutherbondage_xii_xiv
+        title: Section LXXXIX.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xiv.html
+      - id: lutherbondage_xii_xv
+        title: Section XC.
+        level: 2
+        children: []
+        bible_refs:
+        - Exod.6.1
+        - Exod.9.16
+        - Rom.9.17
+        - Exod.7.13
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xv.html
+      - id: lutherbondage_xii_xvi
+        title: Section XCI.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xvi.html
+      - id: lutherbondage_xii_xvii
+        title: Section XCII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.9.20
+        - Rom.9.15-16
+        - Rom.9.19
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xvii.html
+      - id: lutherbondage_xii_xviii
+        title: Section XCIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Matt.6.10
+        - Rom.9.19
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xviii.html
+      - id: lutherbondage_xii_xix
+        title: Section XCIV.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xix.html
+      - id: lutherbondage_xii_xx
+        title: Section XCV.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.9
+        - Rom.9.21
+        - Rom.9.20
+        - Rom.9.30-31
+        - Rom.11.20
+        - Rom.11.23
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xx.html
+      - id: lutherbondage_xii_xxi
+        title: Section XCVI.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxi.html
+      - id: lutherbondage_xii_xxii
+        title: Section XCVII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.9.11
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxii.html
+      - id: lutherbondage_xii_xxiii
+        title: Section XCVIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxiii.html
+      - id: lutherbondage_xii_xxiv
+        title: Section XCIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Gen.25.21-23
+        - Rom.9.11-16
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxiv.html
+      - id: lutherbondage_xii_xxv
+        title: Section C.
+        level: 2
+        children: []
+        bible_refs:
+        - Gen.25.23
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxv.html
+      - id: lutherbondage_xii_xxvi
+        title: Section CI.
+        level: 2
+        children: []
+        bible_refs:
+        - Mal.1.2-3
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxvi.html
+      - id: lutherbondage_xii_xxvii
+        title: Section CII.
+        level: 2
+        children: []
+        bible_refs:
+        - Mal.1.6
+        - Gen.25.21-28
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxvii.html
+      - id: lutherbondage_xii_xxviii
+        title: Section CIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxviii.html
+      - id: lutherbondage_xii_xxix
+        title: Section CIV.
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.45.9
+        - Jer.18.6
+        - 1Cor.5.6
+        - Gal.5.9
+        - Mark.8.15
+        - Matt.16.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxix.html
+      - id: lutherbondage_xii_xxx
+        title: Section CV.
+        level: 2
+        children: []
+        bible_refs:
+        - 2Tim.2.20
+        - 2Tim.2.21
+        - Rom.9.11-23
+        - 2Tim.2.19
+        - Rom.9.21
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxx.html
+      - id: lutherbondage_xii_xxxi
+        title: Section CVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.9.19
+        - Rom.9.18
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxi.html
+      - id: lutherbondage_xii_xxxii
+        title: Section CVII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxii.html
+      - id: lutherbondage_xii_xxxiii
+        title: Section CVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.12.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxiii.html
+      - id: lutherbondage_xii_xxxiv
+        title: Section CIX.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.12.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxiv.html
+      - id: lutherbondage_xii_xxxv
+        title: Section CX.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxv.html
+      - id: lutherbondage_xii_xxxvi
+        title: Section CXI.
+        level: 2
+        children: []
+        bible_refs:
+        - Gen.6.3
+        - 1Cor.3.3
+        - 1Cor.5.7
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxvi.html
+      - id: lutherbondage_xii_xxxvii
+        title: Section CXII.
+        level: 2
+        children: []
+        bible_refs:
+        - Gen.6.1-3
+        - John.3.19
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxvii.html
+      - id: lutherbondage_xii_xxxviii
+        title: Section CXIII.
+        level: 2
+        children: []
+        bible_refs:
+        - John.3.6
+        - 1Cor.3.3
+        - John.6.63
+        - Matt.19.5
+        - John.6.55
+        - John.1.14
+        - Rom.8.5-8
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxviii.html
+      - id: lutherbondage_xii_xxxix
+        title: Section CXIV.
+        level: 2
+        children: []
+        bible_refs:
+        - Gen.8.21
+        - Gen.6.5
+        - Matt.7.17-18
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xxxix.html
+      - id: lutherbondage_xii_xl
+        title: Section CXV.
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.40.2
+        - Isa.40.1-2
+        - Gen.34.3
+        - Job.7.1
+        - 2Tim.2.3
+        - 1Cor.9.24
+        - 2Tim.4.7
+        - 1Sam.2.22
+        - Acts.15.7-10
+        - Hos.12.12
+        - Ps.59.3
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xl.html
+      - id: lutherbondage_xii_xli
+        title: Section CXVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Acts.10.31
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xli.html
+      - id: lutherbondage_xii_xlii
+        title: Section CXVII.
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.40.6-7
+        - Luke.1.51-53
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xlii.html
+      - id: lutherbondage_xii_xliii
+        title: Section CXVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.2
+        - Rom.3
+        - Rom.9
+        - John.3.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xliii.html
+      - id: lutherbondage_xii_xliv
+        title: Section CXIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.23
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xliv.html
+      - id: lutherbondage_xii_xlv
+        title: Section CXX.
+        level: 2
+        children: []
+        bible_refs:
+        - John.3.3-6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xlv.html
+      - id: lutherbondage_xii_xlvi
+        title: Section CXXI.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xlvi.html
+      - id: lutherbondage_xii_xlvii
+        title: Section CXXII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xlvii.html
+      - id: lutherbondage_xii_xlviii
+        title: Section CXXIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Jer.10.23
+        - Gen.1.26-30
+        - Rom.8.26-27
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xlviii.html
+      - id: lutherbondage_xii_xlix
+        title: Section CXXIV.
+        level: 2
+        children: []
+        bible_refs:
+        - Prov.16.1
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.xlix.html
+      - id: lutherbondage_xii_l
+        title: Section CXXV.
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.41.10
+        - Luke.7.50
+        - Prov.16.4
+        - Prov.21.1
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.l.html
+      - id: lutherbondage_xii_li
+        title: Section CXXVI.
+        level: 2
+        children: []
+        bible_refs:
+        - John.15.5
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.li.html
+      - id: lutherbondage_xii_lii
+        title: Section CXXVII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.lii.html
+      - id: lutherbondage_xii_liii
+        title: Section CXXVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - John.15.6
+        - 1Cor.3.7
+        - 2Cor.3.6-9
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.liii.html
+      - id: lutherbondage_xii_liv
+        title: Section CXXX.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.13.2
+        - John.3.27
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.liv.html
+      - id: lutherbondage_xii_lv
+        title: Section CXXXI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.8.14
+        - Jas.1.18
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.lv.html
+      - id: lutherbondage_xii_lvi
+        title: Section CXXXII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.lvi.html
+      - id: lutherbondage_xii_lvii
+        title: Section CXXXIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.lvii.html
+      - id: lutherbondage_xii_lviii
+        title: Section CXXXIV.
+        level: 2
+        children: []
+        bible_refs:
+        - Jer.48.10
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xii.lviii.html
+      bible_refs:
+      - Exod.9.13
+      - Mal.1.2-3
+      - Rom.9.11-17
+      - Exod.8.5
+      - Ezek.18.31
+      - Exod.4.21
+      - Rom.9.17-18
+      - Rom.9.18
+      - Isa.63.17
+      - Rom.9.21
+      - Ps.19
+      - Heb.6.7
+      - Eph.2.8
+      - Prov.16.4
+      - Ps.51.5
+      - Job.14.4
+      - 2Sam.16.10
+      - Exod.6.1
+      - Exod.9.16
+      - Rom.9.17
+      - Exod.7.13
+      - Rom.9.20
+      - Rom.9.15-16
+      - Rom.9.19
+      - Matt.6.10
+      - Rom.9
+      - Rom.9.30-31
+      - Rom.11.20
+      - Rom.11.23
+      - Rom.9.11
+      - Gen.25.21-23
+      - Rom.9.11-16
+      - Gen.25.23
+      - Mal.1.6
+      - Gen.25.21-28
+      - Isa.45.9
+      - Jer.18.6
+      - 1Cor.5.6
+      - Gal.5.9
+      - Mark.8.15
+      - Matt.16.6
+      - 2Tim.2.20
+      - 2Tim.2.21
+      - Rom.9.11-23
+      - 2Tim.2.19
+      - 1Cor.12.6
+      - Gen.6.3
+      - 1Cor.3.3
+      - 1Cor.5.7
+      - Gen.6.1-3
+      - John.3.19
+      - John.3.6
+      - John.6.63
+      - Matt.19.5
+      - John.6.55
+      - John.1.14
+      - Rom.8.5-8
+      - Gen.8.21
+      - Gen.6.5
+      - Matt.7.17-18
+      - Isa.40.2
+      - Isa.40.1-2
+      - Gen.34.3
+      - Job.7.1
+      - 2Tim.2.3
+      - 1Cor.9.24
+      - 2Tim.4.7
+      - 1Sam.2.22
+      - Acts.15.7-10
+      - Hos.12.12
+      - Ps.59.3
+      - Acts.10.31
+      - Isa.40.6-7
+      - Luke.1.51-53
+      - Rom.2
+      - Rom.3
+      - Rom.3.23
+      - John.3.3-6
+      - Jer.10.23
+      - Gen.1.26-30
+      - Rom.8.26-27
+      - Prov.16.1
+      - Isa.41.10
+      - Luke.7.50
+      - Prov.21.1
+      - John.15.5
+      - John.15.6
+      - 1Cor.3.7
+      - 2Cor.3.6-9
+      - 1Cor.13.2
+      - John.3.27
+      - Rom.8.14
+      - Jas.1.18
+      - Jer.48.10
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.xii.html
+    - id: lutherbondage_xiii
+      title: 'Discussion: Third Part'
+      level: 1
+      children:
+      - id: lutherbondage_xiii_i
+        title: Section CXXXV.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.1.18
+        - Rom.1.16
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.i.html
+      - id: lutherbondage_xiii_ii
+        title: Section CXXXVI.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.ii.html
+      - id: lutherbondage_xiii_iii
+        title: Section CXXXVII.
+        level: 2
+        children: []
+        bible_refs:
+        - 1Cor.1.23
+        - 1Cor.1.24
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.iii.html
+      - id: lutherbondage_xiii_iv
+        title: Section CXXXVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.1.21
+        - Rom.1.27-29
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.iv.html
+      - id: lutherbondage_xiii_v
+        title: Section CXXXIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.9
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.v.html
+      - id: lutherbondage_xiii_vi
+        title: Section CXI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.10-23
+        - Ps.14.2-3
+        - Rom.3.19
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.vi.html
+      - id: lutherbondage_xiii_vii
+        title: Section CXLI.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.vii.html
+      - id: lutherbondage_xiii_viii
+        title: Section CXLII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.19-20
+        - Mal.1.4
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.viii.html
+      - id: lutherbondage_xiii_ix
+        title: Section CXLIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Gal.3.10
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.ix.html
+      - id: lutherbondage_xiii_x
+        title: Section CXLIV.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.20
+        - Gal.3.2
+        - Rom.3.21
+        - Rom.3.28
+        - John.3.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.x.html
+      - id: lutherbondage_xiii_xi
+        title: Section CXLV.
+        level: 2
+        children: []
+        bible_refs:
+        - Gal.3.19
+        - Rom.5.20
+        - Rom.7.7-8
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xi.html
+      - id: lutherbondage_xiii_xii
+        title: Section CXLVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.22-26
+        - Rom.3.28
+        - Rom.3.20
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xii.html
+      - id: lutherbondage_xiii_xiii
+        title: Section CXLVII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.21-22
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xiii.html
+      - id: lutherbondage_xiii_xiv
+        title: Section CXLVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.3.23
+        - Rom.3.24
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xiv.html
+      - id: lutherbondage_xiii_xv
+        title: Section CXLIX.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.11.6
+        - Rom.4.4
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xv.html
+      - id: lutherbondage_xiii_xvi
+        title: Section CL.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xvi.html
+      - id: lutherbondage_xiii_xvii
+        title: Section CLI.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.4.2-3
+        - Rom.4.4-5
+        - Rom.4.6-8
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xvii.html
+      - id: lutherbondage_xiii_xviii
+        title: Section CLII.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.4.15
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xviii.html
+      - id: lutherbondage_xiii_xix
+        title: Section CLIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xix.html
+      - id: lutherbondage_xiii_xx
+        title: Section CLIV.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.8.5
+        - John.3.6
+        - Rom.8.9
+        - Rom.8.5-8
+        - Rom.8.3
+        - Matt.7.17
+        - Matt.12.34
+        - Matt.6.11
+        - Rom.1.17
+        - Rom.14.23
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xx.html
+      - id: lutherbondage_xiii_xxi
+        title: Section CLV.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.10.24
+        - Rom.9.30-31
+        - Rom.10.2
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxi.html
+      - id: lutherbondage_xiii_xxii
+        title: Section CLVI.
+        level: 2
+        children: []
+        bible_refs:
+        - John.1.5
+        - John.1.10-11
+        - John.15.16
+        - John.1.12-13
+        - Rom.9.8
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxii.html
+      - id: lutherbondage_xiii_xxiii
+        title: Section CLVII.
+        level: 2
+        children: []
+        bible_refs:
+        - John.1.16
+        - Rom.5.15
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxiii.html
+      - id: lutherbondage_xiii_xxiv
+        title: Section CLVIII.
+        level: 2
+        children: []
+        bible_refs:
+        - John.3.9
+        - John.3.5
+        - John.3.15
+        - Isa.5.20
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxiv.html
+      - id: lutherbondage_xiii_xxv
+        title: Section CLIX.
+        level: 2
+        children: []
+        bible_refs:
+        - John.14.6
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxv.html
+      - id: lutherbondage_xiii_xxvi
+        title: Section CLX.
+        level: 2
+        children: []
+        bible_refs:
+        - John.3.18
+        - 1John.5.10
+        - John.3.36
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxvi.html
+      - id: lutherbondage_xiii_xxvii
+        title: Section CLXI.
+        level: 2
+        children: []
+        bible_refs:
+        - John.3.27
+        - John.3.31
+        - John.8.23
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxvii.html
+      - id: lutherbondage_xiii_xxviii
+        title: Section CLXII.
+        level: 2
+        children: []
+        bible_refs:
+        - John.6.44
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxviii.html
+      - id: lutherbondage_xiii_xxix
+        title: Section CLXIII.
+        level: 2
+        children: []
+        bible_refs:
+        - John.16.9
+        - John.12.31
+        - 2Cor.4.4
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxix.html
+      - id: lutherbondage_xiii_xxx
+        title: Section CLXIV.
+        level: 2
+        children: []
+        bible_refs:
+        - Rom.7
+        - Gal.5
+        - Rom.8.7
+        - John.10.27-28
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxx.html
+      - id: lutherbondage_xiii_xxxi
+        title: Section CLXV.
+        level: 2
+        children: []
+        bible_refs:
+        - Eph.2.3
+        - Rom.11.33
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxxi.html
+      - id: lutherbondage_xiii_xxxii
+        title: Section CLXVI.
+        level: 2
+        children: []
+        bible_refs:
+        - Ps.73.12
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiii.xxxii.html
+      bible_refs:
+      - Rom.1.18
+      - Rom.1.16
+      - 1Cor.1.23
+      - 1Cor.1.24
+      - Rom.1.21
+      - Rom.1.27-29
+      - Rom.3.9
+      - Rom.3.10-23
+      - Ps.14.2-3
+      - Rom.3.19
+      - Rom.3.19-20
+      - Mal.1.4
+      - Gal.3.10
+      - Rom.3.20
+      - Gal.3.2
+      - Rom.3.21
+      - Rom.3.28
+      - John.3.6
+      - Gal.3.19
+      - Rom.5.20
+      - Rom.7.7-8
+      - Rom.3.22-26
+      - Rom.3.21-22
+      - Rom.3.23
+      - Rom.3.24
+      - Rom.11.6
+      - Rom.4.4
+      - Rom.4.2-3
+      - Rom.4.4-5
+      - Rom.4.6-8
+      - Rom.4.15
+      - Rom.8.5
+      - Rom.8.9
+      - Rom.8.5-8
+      - Rom.8.3
+      - Matt.7.17
+      - Matt.12.34
+      - Matt.6.11
+      - Rom.1.17
+      - Rom.14.23
+      - Rom.10.24
+      - Rom.9.30-31
+      - Rom.10.2
+      - John.1.5
+      - John.1.10-11
+      - John.15.16
+      - John.1.12-13
+      - Rom.9.8
+      - John.1.16
+      - Rom.5.15
+      - John.3.9
+      - John.3.5
+      - John.3.15
+      - Isa.5.20
+      - John.14.6
+      - John.3.18
+      - 1John.5.10
+      - John.3.36
+      - John.3.27
+      - John.3.31
+      - John.8.23
+      - John.6.44
+      - John.16.9
+      - John.12.31
+      - 2Cor.4.4
+      - Rom.7
+      - Gal.5
+      - Rom.8.7
+      - John.10.27-28
+      - Eph.2.3
+      - Rom.11.33
+      - Ps.73.12
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.xiii.html
+    - id: lutherbondage_xiv
+      title: Conclusion
+      level: 1
+      children:
+      - id: lutherbondage_xiv_i
+        title: Section CLXVII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiv.i.html
+      - id: lutherbondage_xiv_ii
+        title: Section CLXVIII.
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xiv.ii.html
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.xiv.html
+    - id: lutherbondage_xv
+      title: Martin Luther’s Judgment of Erasmus of Rotterdam. To A Certain Friend
+      level: 1
+      children: []
+      bible_refs:
+      - 1Cor.1.25
+      - Ps.8.2
+      - Matt.21.16
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.xv.html
+    - id: lutherbondage_xvi
+      title: Martin Luther to Nicolas Armsdoff Concerning Erasmus of Rotterdam
+      level: 1
+      children: []
+      bible_refs:
+      - Matt.13.24-30
+      - Prov.30.20
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.xvi.html
+    - id: lutherbondage_xvii
+      title: Indexes
+      level: 1
+      children:
+      - id: lutherbondage_xvii_i
+        title: Index of Scripture References
+        level: 2
+        children: []
+        bible_refs:
+        - 1Sam.2.6
+        - 2Sam.16.10
+        - 1Kgs.8.27
+        - Job.7.1
+        - Ps.4.6
+        - Prov.16.1
+        - Eccl.11.6
+        - Isa.1.9
+        - Lam.4.1
+        - Ezek.13.18
+        - Hos.12.12
+        - Mic.7.4
+        - Hab.2.20
+        - Mal.1.2-3
+        - Matt.4.4
+        - Mark.8.15
+        - Luke.1.51-53
+        - John.1.5
+        - Acts.1.7
+        - 1Cor.1.17-31
+        - 2Cor.3
+        - Eph.2.3
+        - Phil.1.15-18
+        - Col.1.23
+        - 2Thess.2.4
+        - 1Tim.3.15
+        - 2Tim.2.3
+        - Titus.1.2
+        - Heb.6.7
+        - Jas.1.18
+        - 1Pet.3.15
+        - 2Pet.1.19
+        - 1John.5.10
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xvii.i.html
+      - id: lutherbondage_xvii_ii
+        title: Latin Words and Phrases
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/l/luther/bondage.xvii.ii.html
+      bible_refs:
+      - 1Sam.2.6
+      - 2Sam.16.10
+      - 1Kgs.8.27
+      - Job.7.1
+      - Ps.4.6
+      - Prov.16.1
+      - Eccl.11.6
+      - Isa.1.9
+      - Lam.4.1
+      - Ezek.13.18
+      - Hos.12.12
+      - Mic.7.4
+      - Hab.2.20
+      - Mal.1.2-3
+      - Matt.4.4
+      - Mark.8.15
+      - Luke.1.51-53
+      - John.1.5
+      - Acts.1.7
+      - 1Cor.1.17-31
+      - 2Cor.3
+      - Eph.2.3
+      - Phil.1.15-18
+      - Col.1.23
+      - 2Thess.2.4
+      - 1Tim.3.15
+      - 2Tim.2.3
+      - Titus.1.2
+      - Heb.6.7
+      - Jas.1.18
+      - 1Pet.3.15
+      - 2Pet.1.19
+      - 1John.5.10
+      links:
+        ccel: https://ccel.org/ccel/l/luther/bondage.xvii.html

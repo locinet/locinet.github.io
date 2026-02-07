@@ -174,48 +174,281 @@
     }
   }
 
-  // --- Add a work (opens GitHub new-file editor) ---
+  // --- Add a work (multi-step panel) ---
 
   const contributeBtn = document.getElementById("contribute-btn");
-  if (contributeBtn) {
+  const addWorkPanel = document.getElementById("add-work-panel");
+
+  if (contributeBtn && addWorkPanel) {
+    var workData = { origTitle: "", year: "", place: "", enTitle: "", workId: "" };
+    var currentStep = 1;
+
     contributeBtn.addEventListener("click", function (e) {
       e.preventDefault();
-      const name = this.dataset.authorName;
-      const qid = this.dataset.authorQid;
-      const repo =
-        typeof repoUrl !== "undefined" ? repoUrl : "https://github.com/locinet/locinet";
-
-      const skeleton = `# New work for ${name}
-# Fill in the fields below, then click "Commit changes" and open a pull request.
-# For valid loci tags, see the Tagging Reference page on the site.
-# For more examples, see other files in the works/ folder.
-
-CHANGE-THIS-ID:
-  author: ${qid}  # ${name} — do not change
-  # category: systematic  # Optional: systematic, monograph, sermons
-  # loci: tag  # Optional: work-level loci tag
-  la:  # Original language (use la, fr, de, nl, etc.)
-    title:  # REQUIRED
-    orig_lang: true
-    editions:
-      - year:  # REQUIRED
-        # place:  # Optional
-  en:
-    title:  # REQUIRED: English title
-    sections:  # Optional
-      - section-id: Section Title
-        loci: tag  # Optional
-    translations:
-      - translator:  # Name of translator
-        # AI: true  # Set if AI-translated
-        sites:
-          - site:  # Hosting website name
-            url:  # URL to full text
-`;
-      const filename = slugify(name) + "-WORK.yaml";
-      const url = `${repo}/new/main/works?filename=${encodeURIComponent(filename)}&value=${encodeURIComponent(skeleton)}`;
-      window.open(url, "_blank");
+      var open = addWorkPanel.style.display !== "none";
+      addWorkPanel.style.display = open ? "none" : "";
+      if (!open) {
+        currentStep = 1;
+        workData = { origTitle: "", year: "", place: "", enTitle: "", workId: "" };
+        renderStep();
+      }
     });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && addWorkPanel.style.display !== "none") {
+        addWorkPanel.style.display = "none";
+      }
+    });
+
+    document.addEventListener("click", function (e) {
+      if (
+        addWorkPanel.style.display !== "none" &&
+        !addWorkPanel.contains(e.target) &&
+        e.target !== contributeBtn
+      ) {
+        addWorkPanel.style.display = "none";
+      }
+    });
+
+    function renderStep() {
+      if (currentStep === 1) renderStep1();
+      else if (currentStep === 2) renderStep2();
+    }
+
+    // Step 1: Original edition — search-as-you-type via Open Library
+    var olSearchTimer = null;
+    var olAbortController = null;
+
+    function renderStep1() {
+      addWorkPanel.innerHTML =
+        '<h3>Step 1: Original edition</h3>' +
+        '<div class="panel-field-group"><label for="orig-title-input">Original title</label>' +
+        '<input type="text" id="orig-title-input" value="' + escapeAttr(workData.origTitle) + '"></div>' +
+        '<div class="panel-field-group"><label for="orig-year-input">Year</label>' +
+        '<input type="text" id="orig-year-input" value="' + escapeAttr(workData.year) + '" placeholder="e.g. 1559"></div>' +
+        '<div class="panel-status" id="ol-status"></div>' +
+        '<ul class="ol-search-results" id="ol-results"></ul>' +
+        '<div class="panel-field-group" id="place-group" style="display:none;">' +
+          '<label for="orig-place-input">Place of publication</label>' +
+          '<input type="text" id="orig-place-input" value="' + escapeAttr(workData.place) + '"></div>' +
+        '<div class="panel-buttons">' +
+          '<button type="button" class="panel-btn" id="skip-step1-btn">Skip</button>' +
+          '<button type="button" class="panel-btn panel-btn-primary" id="next-step1-btn">Next</button>' +
+        '</div>';
+
+      var titleInput = document.getElementById("orig-title-input");
+      var yearInput = document.getElementById("orig-year-input");
+      var statusEl = document.getElementById("ol-status");
+      var resultsEl = document.getElementById("ol-results");
+      var placeGroup = document.getElementById("place-group");
+
+      // Get the author's English name for Open Library queries
+      var olAuthorName = contributeBtn.dataset.authorName || "";
+
+      function doSearch() {
+        var title = titleInput.value.trim();
+        if (title.length < 3) {
+          resultsEl.innerHTML = "";
+          statusEl.textContent = title.length > 0 ? "Type at least 3 characters..." : "";
+          return;
+        }
+
+        if (olAbortController) olAbortController.abort();
+        olAbortController = new AbortController();
+        var signal = olAbortController.signal;
+
+        statusEl.textContent = "Searching...";
+        resultsEl.innerHTML = "";
+
+        var params = "title=" + encodeURIComponent(title);
+        if (olAuthorName) params += "&author=" + encodeURIComponent(olAuthorName);
+        var year = yearInput.value.trim();
+        if (year) params += "&first_publish_year=" + encodeURIComponent(year);
+        params += "&limit=6&fields=title,first_publish_year,publish_place,key";
+
+        fetch("https://openlibrary.org/search.json?" + params, { signal: signal })
+          .then(function (res) { return res.json(); })
+          .then(function (data) {
+            var docs = data.docs || [];
+            if (docs.length === 0) {
+              statusEl.textContent = "No results found.";
+              return;
+            }
+            statusEl.textContent = "Select a result:";
+            resultsEl.innerHTML = "";
+            docs.forEach(function (doc) {
+              var li = document.createElement("li");
+              var place = doc.publish_place ? doc.publish_place[0] : "";
+              var yr = doc.first_publish_year || "";
+              li.innerHTML =
+                '<span class="ol-result-title">' + escapeHtml(doc.title || "") + '</span>' +
+                (yr ? ' <span class="ol-result-year">(' + escapeHtml(String(yr)) + ')</span>' : "") +
+                (place ? '<br><span class="ol-result-place">' + escapeHtml(place) + '</span>' : "");
+              li.addEventListener("click", function (e) {
+                e.stopPropagation();
+                titleInput.value = doc.title || titleInput.value;
+                yearInput.value = yr || yearInput.value;
+                if (place) {
+                  document.getElementById("orig-place-input").value = place;
+                  placeGroup.style.display = "";
+                }
+                resultsEl.innerHTML = "";
+                statusEl.textContent = "Selected. Edit if needed, then click Next.";
+              });
+              resultsEl.appendChild(li);
+            });
+          })
+          .catch(function (err) {
+            if (err.name === "AbortError") return;
+            statusEl.textContent = "Search failed.";
+          });
+      }
+
+      function scheduleSearch() {
+        clearTimeout(olSearchTimer);
+        olSearchTimer = setTimeout(doSearch, 400);
+      }
+
+      titleInput.addEventListener("input", scheduleSearch);
+      yearInput.addEventListener("input", scheduleSearch);
+
+      document.getElementById("skip-step1-btn").addEventListener("click", function (e) {
+        e.stopPropagation();
+        workData.origTitle = "";
+        workData.year = "";
+        workData.place = "";
+        currentStep = 2;
+        renderStep();
+      });
+
+      document.getElementById("next-step1-btn").addEventListener("click", function (e) {
+        e.stopPropagation();
+        workData.origTitle = titleInput.value.trim();
+        workData.year = yearInput.value.trim();
+        workData.place = document.getElementById("orig-place-input").value.trim();
+        currentStep = 2;
+        renderStep();
+      });
+
+      titleInput.focus();
+
+      // Trigger search if returning to step 1 with existing data
+      if (workData.origTitle) scheduleSearch();
+    }
+
+    // Step 2: English title + work ID → generate & open GitHub
+    function renderStep2() {
+      addWorkPanel.innerHTML =
+        '<h3>Step 2: Work details</h3>' +
+        '<div class="panel-field-group"><label for="en-title-input">English title (required)</label>' +
+        '<input type="text" id="en-title-input" value="' + escapeAttr(workData.enTitle) + '"></div>' +
+        '<div class="panel-field-group"><label for="work-id-input">Work ID (slug)</label>' +
+        '<input type="text" id="work-id-input" value="' + escapeAttr(workData.workId) + '" placeholder="auto-generated from title"></div>' +
+        '<div class="panel-buttons">' +
+          '<button type="button" class="panel-btn" id="back-step2-btn">Back</button>' +
+          '<button type="button" class="panel-btn panel-btn-primary" id="generate-btn">Open in GitHub</button>' +
+        '</div>';
+
+      var enTitleInput = document.getElementById("en-title-input");
+      var workIdInput = document.getElementById("work-id-input");
+
+      enTitleInput.addEventListener("input", function () {
+        if (!workIdInput.dataset.edited) {
+          workIdInput.value = slugify(enTitleInput.value);
+        }
+      });
+
+      workIdInput.addEventListener("input", function () {
+        workIdInput.dataset.edited = "true";
+      });
+
+      document.getElementById("back-step2-btn").addEventListener("click", function (e) {
+        e.stopPropagation();
+        workData.enTitle = enTitleInput.value.trim();
+        workData.workId = workIdInput.value.trim();
+        currentStep = 1;
+        renderStep();
+      });
+
+      document.getElementById("generate-btn").addEventListener("click", function (e) {
+        e.stopPropagation();
+        var enTitle = enTitleInput.value.trim();
+        if (!enTitle) { enTitleInput.style.borderColor = "red"; enTitleInput.focus(); return; }
+        var wid = workIdInput.value.trim() || slugify(enTitle);
+        generateAndOpen(wid, enTitle);
+      });
+
+      enTitleInput.focus();
+    }
+
+    function generateAndOpen(wid, enTitle) {
+      var name = contributeBtn.dataset.authorName;
+      var qid = contributeBtn.dataset.authorQid;
+      var repo = typeof repoUrl !== "undefined" ? repoUrl : "https://github.com/locinet/locinet";
+
+      var origTitle = workData.origTitle;
+      var year = workData.year;
+      var place = workData.place;
+
+      // Build original-language block
+      var origBlock;
+      if (origTitle || year || place) {
+        origBlock =
+          "  la:  # Original language (use la, fr, de, nl, etc.)\n" +
+          "    title: " + yamlQuote(origTitle || "") + "\n" +
+          "    orig_lang: true\n" +
+          "    editions:\n" +
+          "      - year: " + (year || "") + "\n" +
+          (place ? "        place: " + yamlQuote(place) + "\n" : "");
+      } else {
+        origBlock =
+          "  la:  # Original language (use la, fr, de, nl, etc.)\n" +
+          "    title:  # REQUIRED\n" +
+          "    orig_lang: true\n" +
+          "    editions:\n" +
+          "      - year:  # REQUIRED\n" +
+          "        # place:  # Optional\n";
+      }
+
+      var skeleton =
+        "# New work for " + name + "\n" +
+        '# Fill in the fields below, then click "Commit changes" and open a pull request.\n' +
+        "# For valid loci tags, see the Tagging Reference page on the site.\n" +
+        "# For more examples, see other files in the works/ folder.\n\n" +
+        wid + ":\n" +
+        "  author: " + qid + "  # " + name + " \u2014 do not change\n" +
+        "  # category: systematic  # Optional: systematic, monograph, sermons\n" +
+        "  # loci: tag  # Optional: work-level loci tag\n" +
+        origBlock +
+        "  en:\n" +
+        "    title: " + yamlQuote(enTitle) + "\n" +
+        "    sections:  # Optional\n" +
+        "      - section-id: Section Title\n" +
+        "        loci: tag  # Optional\n" +
+        "    translations:\n" +
+        "      - translator:  # Name of translator\n" +
+        "        # AI: true  # Set if AI-translated\n" +
+        "        sites:\n" +
+        "          - site:  # Hosting website name\n" +
+        "            url:  # URL to full text\n";
+
+      var filename = slugify(name) + "-" + wid + ".yaml";
+      var url = repo + "/new/main/works?filename=" + encodeURIComponent(filename) + "&value=" + encodeURIComponent(skeleton);
+      window.open(url, "_blank");
+      addWorkPanel.style.display = "none";
+    }
+
+    function yamlQuote(val) {
+      if (!val) return '""';
+      if (val.indexOf(":") !== -1 || val.indexOf("#") !== -1 || val.indexOf("'") !== -1) {
+        return '"' + val.replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"';
+      }
+      return val;
+    }
+
+    function escapeAttr(val) {
+      return val.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+    }
   }
 
   // --- Edit (opens GitHub file editor) ---
@@ -368,12 +601,6 @@ CHANGE-THIS-ID:
       return match ? match[1].replace(/^\+/, "") : "";
     }
 
-    function escapeHtml(str) {
-      var div = document.createElement("div");
-      div.appendChild(document.createTextNode(str));
-      return div.innerHTML;
-    }
-
     function openNewWorkFile(qid, label) {
       var repo =
         typeof repoUrl !== "undefined"
@@ -417,6 +644,12 @@ CHANGE-THIS-ID:
   }
 
   // --- Helpers ---
+
+  function escapeHtml(str) {
+    var div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
 
   function slugify(name) {
     return name

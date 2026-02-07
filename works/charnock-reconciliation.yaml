@@ -1,0 +1,26 @@
+charnock-reconciliation:
+  author: Q1765666
+  en:
+    title: "A Discourse of God's being the Author of Reconciliation"
+    orig_lang: true
+    editions:
+      - year: 1680
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/c/charnock/reconcil
+            section_urls:
+              - introduction: https://ccel.org/ccel/c/charnock/reconcil.ii.html
+              - what-reconciliation-is: https://ccel.org/ccel/c/charnock/reconcil.iii.html
+              - god-father-author: https://ccel.org/ccel/c/charnock/reconcil.iv.html
+              - agency-of-father: https://ccel.org/ccel/c/charnock/reconcil.v.html
+              - general-use: https://ccel.org/ccel/c/charnock/reconcil.vi.html
+    sections:
+      - introduction: Introduction
+      - what-reconciliation-is: "1. First, What reconciliation is."
+        loci: [attributes-of-god, atonement]
+      - god-father-author: "2. Second thing. That God the Father must needs be, and is, the author of this reconciliation."
+        loci: [attributes-of-god, providence]
+      - agency-of-father: "3. Third thing. Wherein the agency of the Father in this affair does appear."
+        loci: [priestly-office, faith]
+      - general-use: General use of the doctrine.
+        loci: faith

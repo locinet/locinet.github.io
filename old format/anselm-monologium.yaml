@@ -1,0 +1,539 @@
+metadata:
+  id: anselm-monologium
+  title: Monologium
+  short_title: Monologium
+  author_id: anselm
+  year: 1076
+  original_language: Latin
+  editions:
+  - translator: Sidney Norton Deane
+    year: 1909
+    source: CCEL
+    base_url: https://ccel.org/ccel/a/anselm/basic_works
+structure:
+  levels:
+  - section
+  - subsection
+  root:
+    id: anselmmonologium
+    title: Monologium
+    level: 0
+    children:
+    - id: anselmmonologium_iv
+      title: Monologium
+      level: 1
+      children:
+      - id: anselmmonologium_iv_i
+        title: Preface. In this book Anselm discusses, under the form of a meditation, the Being of God, basing his argument
+          not on the authority of Scripture, but on the force of reason. It contains nothing that is inconsistent with the
+          writings of the Holy Fathers, and especially nothing that is inconsistent with those of St. Augustine . —The Greek
+          terminology is employed in Chapter LXXVIII., where it is stated that the Trinity may be said to consist of three
+          substances, that is, three persons
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.i.html
+      - id: anselmmonologium_iv_ii
+        title: Chapter I. There is a being which is best, and greatest, and highest of all existing beings
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.ii.html
+      - id: anselmmonologium_iv_iii
+        title: Chapter II. The same subject continued
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.iii.html
+      - id: anselmmonologium_iv_iv
+        title: Chapter III. There is a certain Nature through which whatever is exists, and which exists through itself, and
+          is the highest of all existing beings
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.iv.html
+      - id: anselmmonologium_iv_v
+        title: Chapter IV. The same subject continued
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.v.html
+      - id: anselmmonologium_iv_vi
+        title: Chapter V. Just as this Nature exists through itself, and other beings through it, so it derives existence
+          from itself, and other beings from it
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.vi.html
+      - id: anselmmonologium_iv_vii
+        title: Chapter VI. This Nature was not brought into existence with the help of any external cause, yet it does not
+          exist through nothing, or derive existence from nothing.—How existence through self, and derived from self, is conceivable
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.vii.html
+      - id: anselmmonologium_iv_viii
+        title: Chapter VII. In what way all other beings exist through this Nature and derive existence from it
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.viii.html
+      - id: anselmmonologium_iv_ix
+        title: Chapter VIII. How it is to be understood that this Nature created all things from nothing
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.ix.html
+      - id: anselmmonologium_iv_x
+        title: Chapter IX. Those things which were created from nothing had an existence before their creation in the thought
+          of the Creator
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.x.html
+      - id: anselmmonologium_iv_xi
+        title: Chapter X. This thought is a kind of expression of the objects created ( locutio rerum ), like the expression
+          which an artisan forms in his mind for what he intends to make
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xi.html
+      - id: anselmmonologium_iv_xii
+        title: Chapter XI. The analogy, however, between the expression of the Creator and the expression of the artisan is
+          very incomplete
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xii.html
+      - id: anselmmonologium_iv_xiii
+        title: Chapter XII. This expression of the supreme Being is the supreme Being
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xiii.html
+      - id: anselmmonologium_iv_xiv
+        title: Chapter XIII. As all things were created through the supreme Being, so all live through it
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xiv.html
+      - id: anselmmonologium_iv_xv
+        title: Chapter XIV. This Being is in all things, and throughout all; and all derive existence from it and exist through
+          and in it
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xv.html
+      - id: anselmmonologium_iv_xvi
+        title: Chapter XV. What can or cannot be stated concerning the substance of this Being
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xvi.html
+      - id: anselmmonologium_iv_xvii
+        title: 'Chapter XVI. For this Being it is the same to be just that it is to be justice; and so with regard to attributes
+          that can be expressed in the same way: and none of these shows of what character, or how great, but what this Being
+          is'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xvii.html
+      - id: anselmmonologium_iv_xviii
+        title: 'Chapter XVII. It is simple in such a way that all things that can be said of its essence are one and the same
+          in it: and nothing can be said of its substance except in terms of what it is'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xviii.html
+      - id: anselmmonologium_iv_xix
+        title: Chapter XVIII. It is without beginning and without end
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xix.html
+      - id: anselmmonologium_iv_xx
+        title: Chapter XIX. In what sense nothing existed before or will exist after this Being
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xx.html
+      - id: anselmmonologium_iv_xxi
+        title: Chapter XX. It exists in every place and at every time
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxi.html
+      - id: anselmmonologium_iv_xxii
+        title: Chapter XXI. It exists in no place or time
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxii.html
+      - id: anselmmonologium_iv_xxiii
+        title: Chapter XXII. How it exists in every place and time, and in none
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxiii.html
+      - id: anselmmonologium_iv_xxiv
+        title: Chapter XXIII. How it is better conceived to exist everywhere than in every place
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxiv.html
+      - id: anselmmonologium_iv_xxv
+        title: 'Chapter XXIV. How it is better understood to exist always than at every time '
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxv.html
+      - id: anselmmonologium_iv_xxvi
+        title: Chapter XXV. It cannot suffer change by any accidents [Accidents, as Anselm uses the term, are facts external
+          to the essence of a being, which may yet be conceived to produce changes in a mutable being.]
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxvi.html
+      - id: anselmmonologium_iv_xxvii
+        title: 'Chapter XXVI. How this Being is said to be substance: it transcends all substance and is individually whatever
+          it is'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxvii.html
+      - id: anselmmonologium_iv_xxviii
+        title: Chapter XXVII. It is not included among substances as commonly treated, yet it is a substance and an indivisible
+          spirit
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxviii.html
+      - id: anselmmonologium_iv_xxix
+        title: Chapter XXVIII. This Spirit exists simply, and created beings are not comparable with him
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxix.html
+      - id: anselmmonologium_iv_xxx
+        title: Chapter XXIX. His expression is identical with himself, and consubstantial with him, since there are not two
+          spirits, but one
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxx.html
+      - id: anselmmonologium_iv_xxxi
+        title: Chapter XXX. This expression does not consist of more words than one, but is one Word
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxi.html
+      - id: anselmmonologium_iv_xxxii
+        title: Chapter XXXI. This Word itself is not the likeness of created beings, but the reality of their being, while
+          created beings are a kind of likeness of reality.—What natures are greater and more excellent than others
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxii.html
+      - id: anselmmonologium_iv_xxxiii
+        title: Chapter XXXII. The supreme Spirit expresses himself by a coeternal Word
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxiii.html
+      - id: anselmmonologium_iv_xxxiv
+        title: Chapter XXXIII. He utters himself and what he creates by a single consubstantial Word
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxiv.html
+      - id: anselmmonologium_iv_xxxv
+        title: Chapter XXXIV. How he can express the created world by his Word
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxv.html
+      - id: anselmmonologium_iv_xxxvi
+        title: Chapter XXXV. Whatever has been created is in his Word and knowledge, life and truth
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxvi.html
+      - id: anselmmonologium_iv_xxxvii
+        title: Chapter XXXVI. In how incomprehensible a way he expresses or knows the objects created by him
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxvii.html
+      - id: anselmmonologium_iv_xxxviii
+        title: 'Chapter XXXVII. Whatever his relation to his creatures, this relation his Word also sustains: yet both do
+          not simultaneously sustain this relation as more than one being'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxviii.html
+      - id: anselmmonologium_iv_xxxix
+        title: Chapter XXXVIII. It cannot be explained why they are two, although they must be so
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xxxix.html
+      - id: anselmmonologium_iv_xl
+        title: Chapter XXXIX. This Word derives existence from the supreme Spirit by birth
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xl.html
+      - id: anselmmonologium_iv_xli
+        title: Chapter XL. He is most truly a parent, and that Word his offspring
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xli.html
+      - id: anselmmonologium_iv_xlii
+        title: Chapter XLI. He most truly begets, and it is most truly begotten
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xlii.html
+      - id: anselmmonologium_iv_xliii
+        title: Chapter XLII. It is the property of the one to be most truly progenitor and Father, and of the other to be
+          the begotten and Son
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xliii.html
+      - id: anselmmonologium_iv_xliv
+        title: Chapter XLIII. Consideration of the common attributes of both and the individual properties of each
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xliv.html
+      - id: anselmmonologium_iv_xlv
+        title: Chapter XLIV. How one is the essence of the other
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xlv.html
+      - id: anselmmonologium_iv_xlvi
+        title: 'Chapter XLV. The Son may more appropriately be called the essence of the Father, than the Father the essence
+          of the Son: and in like manner the Son is the virtue, wisdom, etc., of the Father'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xlvi.html
+      - id: anselmmonologium_iv_xlvii
+        title: Chapter XLVI. How some of these truths which are thus expounded may also be conceived of in another way
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xlvii.html
+      - id: anselmmonologium_iv_xlviii
+        title: Chapter XLVII. The Son is the intelligence of intelligence and the Truth of truth
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xlviii.html
+      - id: anselmmonologium_iv_xlix
+        title: Chapter XLVIII. How the Son is the intelligence or wisdom of memory or the memory of the Father and of memory
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.xlix.html
+      - id: anselmmonologium_iv_l
+        title: Chapter XLIX. The supreme Spirit loves himself
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.l.html
+      - id: anselmmonologium_iv_li
+        title: Chapter L. The same love proceeds equally from Father and Son
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.li.html
+      - id: anselmmonologium_iv_lii
+        title: Chapter LI. Each loves himself and the other with equal love
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lii.html
+      - id: anselmmonologium_iv_liii
+        title: Chapter LII. This love is as great as the supreme Spirit himself
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.liii.html
+      - id: anselmmonologium_iv_liv
+        title: Chapter LIII. This love is identical with the supreme Spirit, and yet it is itself with the Father and the
+          Son one spirit
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.liv.html
+      - id: anselmmonologium_iv_lv
+        title: 'Chapter LIV. It proceeds as a whole from the Father, and as a whole from the Son, and yet does not exist except
+          as one love '
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lv.html
+      - id: anselmmonologium_iv_lvi
+        title: Chapter LV. This love is not their Son
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lvi.html
+      - id: anselmmonologium_iv_lvii
+        title: Chapter LVI. Only the Father begets and is unbegotten; only the son is begotten; only love neither begotten
+          nor unbegotten
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lvii.html
+      - id: anselmmonologium_iv_lviii
+        title: Chapter LVII. This love is uncreated and creator, as are Father and Son; and yet it is with them not three,
+          but one uncreated and creative being. And it may be called the Spirit of Father and Son
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lviii.html
+      - id: anselmmonologium_iv_lix
+        title: 'Chapter LVIII. As the Son is the essence or wisdom of the Father in the sense that he has the same essence
+          or wisdom that the Father has: so likewise the Spirit is the essence and wisdom etc. of Father and Son'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lix.html
+      - id: anselmmonologium_iv_lx
+        title: Chapter LIX. The Father and the Son and their Spirit exist equally the one in the other
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lx.html
+      - id: anselmmonologium_iv_lxi
+        title: 'Chapter LX. To none of these is another necessary that he may remember, conceive, or love: since each taken
+          by himself is memory and intelligence and love and all that is necessarily inherent in the supreme Being'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxi.html
+      - id: anselmmonologium_iv_lxii
+        title: Chapter LXI. Yet there are not three, but one Father and one Son and one Spirit
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxii.html
+      - id: anselmmonologium_iv_lxiii
+        title: Chapter LXII. How it seems that of these three more sons than one are born
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxiii.html
+      - id: anselmmonologium_iv_lxiv
+        title: Chapter LXIII. How among them there is only one Son of one Father, that is, one Word, and that from the Father
+          alone
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxiv.html
+      - id: anselmmonologium_iv_lxv
+        title: Chapter LXIV. Though this truth is inexplicable, it demands belief
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxv.html
+      - id: anselmmonologium_iv_lxvi
+        title: Chapter LXV. How real truth may be reached in the discussion of an ineffable subject
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxvi.html
+      - id: anselmmonologium_iv_lxvii
+        title: Chapter LXVI. Through the rational mind is the nearest approach to the supreme Being
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxvii.html
+      - id: anselmmonologium_iv_lxviii
+        title: Chapter LXVII. The mind itself is the mirror and image of that Being
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxviii.html
+      - id: anselmmonologium_iv_lxix
+        title: Chapter LXVIII. The rational creature was created in order that it might love this Being
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxix.html
+      - id: anselmmonologium_iv_lxx
+        title: Chapter LXIX. The soul that ever loves this Essence lives at some time in true blessedness
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxx.html
+      - id: anselmmonologium_iv_lxxi
+        title: Chapter LXX. This Being gives itself in return to the creature that loves it, that that creature may be eternally
+          blessed
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxi.html
+      - id: anselmmonologium_iv_lxxii
+        title: Chapter LXXI. The soul that despises this being will be eternally miserable
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxii.html
+      - id: anselmmonologium_iv_lxxiii
+        title: Chapter LXXII. Every human soul is immortal. And it is either forever miserable, or at some time truly blessed
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxiii.html
+      - id: anselmmonologium_iv_lxxiv
+        title: Chapter LXXIII. No soul is unjustly deprived of the supreme good, and every effort must be directed toward
+          that good
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxiv.html
+      - id: anselmmonologium_iv_lxxv
+        title: Chapter LXXIV. The supreme Being is to be hoped for
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxv.html
+      - id: anselmmonologium_iv_lxxvi
+        title: Chapter LXXV. We must believe in this Being, that is, by believing we must reach out for it
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxvi.html
+      - id: anselmmonologium_iv_lxxvii
+        title: Chapter LXXVI. We should believe in Father and Son and in their Spirit equally, and in each separately, and
+          in the three at once
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxvii.html
+      - id: anselmmonologium_iv_lxxviii
+        title: Chapter LXXVII. What is living, and what dead faith
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxviii.html
+      - id: anselmmonologium_iv_lxxix
+        title: Chapter LXXVIII. The supreme Being may in some sort be called Three
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxix.html
+      - id: anselmmonologium_iv_lxxx
+        title: Chapter LXXIX. This Essence itself is God, who alone is lord and ruler of all
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.lxxx.html
+      links:
+        ccel: https://ccel.org/ccel/a/anselm/basic_works.iv.html

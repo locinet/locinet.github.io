@@ -1,4 +1,5 @@
 {
+  "_cacheVersion": 2,
   "qid": "Q37577",
   "name": "John Calvin",
   "slug": "john-calvin",
@@ -6,7 +7,10 @@
   "deathYear": 1564,
   "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Calvin%20Museum%20Catharijneconvent%20RMCC%20s84%20cropped.png",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Calvin",
-  "prdlId": null,
+  "prdlId": "1",
+  "familyName": "Calvin",
+  "givenName": "Jean",
+  "openLibraryId": "OL79696A",
   "labels": {
     "sv": "Jean Calvin",
     "szy": "Ye-han.ke-al-wen",

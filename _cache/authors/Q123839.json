@@ -1,4 +1,5 @@
 {
+  "_cacheVersion": 2,
   "qid": "Q123839",
   "name": "Heinrich Bullinger",
   "slug": "heinrich-bullinger",
@@ -6,7 +7,10 @@
   "deathYear": 1575,
   "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Heinrich%20Bullinger.jpg",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Heinrich_Bullinger",
-  "prdlId": null,
+  "prdlId": "175",
+  "familyName": "Bullinger",
+  "givenName": "Johann",
+  "openLibraryId": "OL1105415A",
   "labels": {
     "de": "Heinrich Bullinger",
     "en": "Heinrich Bullinger",

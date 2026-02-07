@@ -1,0 +1,29 @@
+boethius-tractates:
+  author: Q102851
+  la:
+    title: Opuscula Sacra
+    orig_lang: true
+    editions:
+      - year: 522
+  en:
+    title: The Theological Tractates
+    sections:
+      - trinity-is-one-god: The Trinity is One God Not Three Gods
+        loci: unity-of-god
+      - father-son-holy-spirit: "Whether Father, Son, and Holy Spirit may be Substantially Predicated of the Divinity"
+        loci: trinity
+      - substances-good: How Substances can be Good in Virtue of their Existence Without Being Absolute Goods
+        loci: creation
+      - catholic-faith: On the Catholic Faith
+      - against-eutyches-nestorius: A Treatise Against Eutyches and Nestorius
+    translations:
+      - translator: H.F. Stewart and E.K. Rand
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/boethius/tracts/tracts
+            section_urls:
+              - trinity-is-one-god: https://ccel.org/ccel/boethius/tracts/tracts.iv.i.html
+              - father-son-holy-spirit: https://ccel.org/ccel/boethius/tracts/tracts.iv.ii.html
+              - substances-good: https://ccel.org/ccel/boethius/tracts/tracts.iv.iii.html
+              - catholic-faith: https://ccel.org/ccel/boethius/tracts/tracts.iv.iv.html
+              - against-eutyches-nestorius: https://ccel.org/ccel/boethius/tracts/tracts.iv.v.html

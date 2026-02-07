@@ -1,0 +1,15 @@
+anselm-proslogium:
+  author: Q43939
+  la:
+    title: Proslogion
+    orig_lang: true
+    editions:
+      - year: 1078
+  en:
+    title: Proslogium
+    translations:
+      - translator: Sidney Norton Deane
+        year: 1909
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/a/anselm/basic_works.iii.html

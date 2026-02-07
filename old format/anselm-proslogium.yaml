@@ -1,0 +1,273 @@
+metadata:
+  id: anselm-proslogium
+  title: Proslogium
+  short_title: Proslogium
+  author_id: anselm
+  year: 1078
+  original_language: Latin
+  editions:
+  - translator: Sidney Norton Deane
+    year: 1909
+    source: CCEL
+    base_url: https://ccel.org/ccel/a/anselm/basic_works
+structure:
+  levels:
+  - section
+  - subsection
+  root:
+    id: anselmproslogium
+    title: Proslogium
+    level: 0
+    children:
+    - id: anselmproslogium_iii
+      title: Proslogium
+      level: 1
+      children:
+      - id: anselmproslogium_iii_i
+        title: 'Preface. In this brief work the author aims at proving in a single argument the existence of God, and whatsoever
+          we believe of God.—The difficulty of the task.—The author writes in the person of one who contemplates God, and
+          seeks to understand what he believes. To this work he had given this title: Faith Seeking Understanding. He finally
+          named it Proslogium,—that is, A Discourse'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.i.html
+      - id: anselmproslogium_iii_ii
+        title: 'Chapter I. Exhortation of the mind to the contemplation of God.—It casts aside cares, and excludes all thoughts
+          save that of God, that it may seek Him. Man was created to see God. Man by sin lost the blessedness for which he
+          was made, and found the misery for which he was not made. He did not keep this good when he could keep it easily.
+          Without God it is ill with us. Our labors and attempts are in vain without God. Man cannot seek God, unless God
+          himself teaches him; nor find him, unless he reveals himself. God created man in his image, that he might be mindful
+          of him, think of him, and love him. The believer does not seek to understand, that he may believe, but he believes
+          that he may understand: for unless he believed he would not understand'
+        level: 2
+        children: []
+        bible_refs:
+        - Ps.27.8
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.ii.html
+      - id: anselmproslogium_iii_iii
+        title: Chapter II. Truly there is a God, although the fool hath said in his heart, There is no God
+        level: 2
+        children: []
+        bible_refs:
+        - Ps.14.1
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.iii.html
+      - id: anselmproslogium_iii_iv
+        title: Chapter III. God cannot be conceived not to exist.—God is that, than which nothing greater can be conceived.—That
+          which can be conceived not to exist is not God
+        level: 2
+        children: []
+        bible_refs:
+        - Ps.14.1
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.iv.html
+      - id: anselmproslogium_iii_v
+        title: 'Chapter IV. How the fool has said in his heart what cannot be conceived.—A thing may be conceived in two ways:
+          (1) when the word signifying it is conceived; (2) when the thing itself is understood As far as the word goes, God
+          can be conceived not to exist; in reality he cannot'
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.v.html
+      - id: anselmproslogium_iii_vi
+        title: Chapter V. God is whatever it is better to be than not to be; and he, as the only self-existent being, creates
+          all things from nothing
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.vi.html
+      - id: anselmproslogium_iii_vii
+        title: Chapter VI. How God is sensible ( sensibilis ) although he is not a body.—God is sensible, omnipotent, compassionate,
+          passionless; for it is better to be these than not be. He who in any way knows, is not improperly said in some sort
+          to feel
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.vii.html
+      - id: anselmproslogium_iii_viii
+        title: Chapter VII. How he is omnipotent, although there are many things of which he is not capable.—To be capable
+          of being corrupted, or of lying, is not power, but impotence. God can do nothing by virtue of impotence, and nothing
+          has power against him
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.viii.html
+      - id: anselmproslogium_iii_ix
+        title: Chapter VIII. How he is compassionate and passionless. God is compassionate, in terms of our experience, because
+          we experience the effect of compassion. God is not compassionate, in terms of his own being, because he does not
+          experience the feeling ( affectus ) of compassion
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.ix.html
+      - id: anselmproslogium_iii_x
+        title: Chapter IX. How the all-just and supremely just God spares the wicked, and justly pities the wicked. He is
+          better who is good to the righteous and the wicked than he who is good to the righteous alone. Although God is supremely
+          just, the source of his compassion is hidden. God is supremely compassionate, because he is supremely just. He saveth
+          the just, because justice goes with them; he frees sinners by the authority of justice. God spares the wicked out
+          of justice; for it is just that God, than whom none is better or more powerful, should be good even to the wicked,
+          and should make the wicked good. If God ought not to pity, he pities unjustly. But this it is impious to suppose.
+          Therefore, God justly pities
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.x.html
+      - id: anselmproslogium_iii_xi
+        title: Chapter X. How he justly punishes and justly spares the wicked.—God, in sparing the wicked, is just, according
+          to his own nature because he does what is consistent with his goodness; but he is not just, according to our nature,
+          because he does not inflict the punishment deserved
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xi.html
+      - id: anselmproslogium_iii_xii
+        title: 'Chapter XI. How all the ways of God are compassion and truth; and yet God is just in all his ways.—We cannot
+          comprehend why, of the wicked, he saves these rather than those, through his supreme goodness: and condemns those
+          rather than these, through his supreme justice'
+        level: 2
+        children: []
+        bible_refs:
+        - Ps.25.10
+        - Ps.145.17
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xii.html
+      - id: anselmproslogium_iii_xiii
+        title: Chapter XII. God is the very life whereby he lives; and so of other like attributes
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xiii.html
+      - id: anselmproslogium_iii_xiv
+        title: Chapter XIII. How he alone is uncircumscribed and eternal, although other spirits are uncircumscribed and eternal.—No
+          place and time contain God. But he is himself everywhere and always. He alone not only does not cease to be, but
+          also does not begin to be
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xiv.html
+      - id: anselmproslogium_iii_xv
+        title: Chapter XIV. How and why God is seen and yet not seen by those who seek him
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xv.html
+      - id: anselmproslogium_iii_xvi
+        title: Chapter XV. He is greater than can be conceived
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xvi.html
+      - id: anselmproslogium_iii_xvii
+        title: Chapter XVI. This is the unapproachable light wherein he dwells
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xvii.html
+      - id: anselmproslogium_iii_xviii
+        title: Chapter XVII. In God is harmony, fragrance, sweetness, pleasantness to the touch, beauty, after his ineffable
+          manner
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xviii.html
+      - id: anselmproslogium_iii_xix
+        title: Chapter XVIII. God is life, wisdom, eternity, and every true good.—Whatever is composed of parts is not wholly
+          one; it is capable, either in fact or in concept, of dissolution. In God wisdom, eternity, etc., are not parts,
+          but one, and the very whole which God is, or unity itself, not even in concept divisible
+        level: 2
+        children: []
+        bible_refs:
+        - Ps.27.8
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xix.html
+      - id: anselmproslogium_iii_xx
+        title: Chapter XIX. He does not exist in place or time, but all things exist in him
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xx.html
+      - id: anselmproslogium_iii_xxi
+        title: Chapter XX. He exists before all things and transcends all things, even the eternal things.—The eternity of
+          God is present as a whole with him; while other things have not yet that part of their eternity which is still to
+          be, and have no longer that part which is past
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xxi.html
+      - id: anselmproslogium_iii_xxii
+        title: Chapter XXI. Is this the age of the age, or ages of ages?—The eternity of God contains the ages of time themselves,
+          and can be called the age of the age or ages of ages
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xxii.html
+      - id: anselmproslogium_iii_xxiii
+        title: Chapter XXII. He alone is what he is and who he is.—All things need God for their being and their well-being
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xxiii.html
+      - id: anselmproslogium_iii_xxiv
+        title: Chapter XXIII. This good is equally Father, and Son, and Holy Spirit. And this is a single, necessary Being,
+          which is every good, and wholly good, and the only good.—Since the Word is true, and is truth itself, there is nothing
+          in the Father, who utters it, which is not accomplished in the Word by which he expresses himself. Neither is the
+          love which proceeds from Father and Son unequal to the Father or the Son, for Father and Son love themselves and
+          one another in the same degree in which what they are is good. Of supreme simplicity nothing can be born, and from
+          it nothing can proceed, except that which is this, of which it is born, or from which it proceeds
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xxiv.html
+      - id: anselmproslogium_iii_xxv
+        title: Chapter XXIV. Conjecture as to the character and the magnitude of this good.—If the created life is good, how
+          good is the creative life!
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xxv.html
+      - id: anselmproslogium_iii_xxvi
+        title: Chapter XXV. What goods and how great, belong to those who enjoy this good.—Joy is multiplied in the blessed
+          from the blessedness and joy of others
+        level: 2
+        children: []
+        bible_refs:
+        - Isa.64.4
+        - 1Cor.2.9
+        - Matt.13.43
+        - 1Cor.15.44
+        - Ps.37.39
+        - Ps.17.15
+        - Ps.36.8
+        - Luke.12.42
+        - Rom.8.17
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xxvi.html
+      - id: anselmproslogium_iii_xxvii
+        title: Chapter XXVI. Is this joy which the Lord promises made full?—The blessed shall rejoice according as they shall
+          love; and they shall love according as they shall know
+        level: 2
+        children: []
+        bible_refs:
+        - John.16.24
+        - Isa.64.4
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.xxvii.html
+      bible_refs:
+      - Ps.27.8
+      - Ps.14.1
+      - Ps.25.10
+      - Ps.145.17
+      - Isa.64.4
+      - 1Cor.2.9
+      - Matt.13.43
+      - 1Cor.15.44
+      - Ps.37.39
+      - Ps.17.15
+      - Ps.36.8
+      - Luke.12.42
+      - Rom.8.17
+      - John.16.24
+      links:
+        ccel: https://ccel.org/ccel/a/anselm/basic_works.iii.html

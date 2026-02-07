@@ -1,0 +1,15 @@
+anselm-monologium:
+  author: Q43939
+  la:
+    title: Monologion
+    orig_lang: true
+    editions:
+      - year: 1076
+  en:
+    title: Monologium
+    translations:
+      - translator: Sidney Norton Deane
+        year: 1909
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/a/anselm/basic_works.iv.html

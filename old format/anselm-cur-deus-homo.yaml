@@ -1,0 +1,352 @@
+metadata:
+  id: anselm-cur-deus-homo
+  title: Cur Deus Homo
+  short_title: Cur Deus Homo
+  author_id: anselm
+  year: 1098
+  original_language: Latin
+  editions:
+  - translator: Sidney Norton Deane
+    year: 1909
+    source: CCEL
+    base_url: https://ccel.org/ccel/a/anselm/basic_works
+structure:
+  levels:
+  - section
+  - subsection
+  - subsubsection
+  root:
+    id: anselmcurdeushomo
+    title: Anselm's Cur Deus Homo
+    level: 0
+    children:
+    - id: anselmcurdeushomo_vi
+      title: Anselm's Cur Deus Homo
+      level: 1
+      children:
+      - id: anselmcurdeushomo_vi_i
+        title: Preface
+        level: 2
+        children: []
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.i.html
+      - id: anselmcurdeushomo_vi_ii
+        title: Book First
+        level: 2
+        children:
+        - id: anselmcurdeushomo_vi_ii_vi.ii.i
+          title: Chapter I. The question on which the whole work rests
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.i.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.ii
+          title: Chapter II. How those things which are to be said should be received
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.ii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.iii
+          title: Chapter III. Objections of infidels and replies of believers
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.iii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.iv
+          title: Chapter IV. How these things appear not decisive to infidels, and merely like so many pictures
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.iv.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.v
+          title: Chapter V. How the redemption of man could not be effected by any other being but God
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.v.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.vi
+          title: Chapter VI. How infidels find fault with us for saying that God has redeemed us by his death, and thus has
+            shown his love towards us, and that he came to overcome the devil for us
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.vi.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.vii
+          title: Chapter VII. How the devil had no justice on his side against man; and why it was, that he seemed to have
+            had it, and why God could have freed man in this way
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.vii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.viii
+          title: Chapter VIII. How, although the acts of Christ’s condescension which we speak of do not belong to his divinity,
+            it yet seems improper to infidels that these things should be said of him even as a man; and why it appears to
+            them that this man did not suffer death of his own will
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.viii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.ix
+          title: 'Chapter IX. How it was of his own accord that he died, and what this means: “he was made obedient even unto
+            death; ” and: “for which cause God hath highly exalted him;” and: “I came not to do my own will; ” and: “he spared
+            not his own Son;” and: “not as I will, but as thou wilt.”'
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.ix.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.x
+          title: Chapter X. Likewise on the same topics; and how otherwise they can be correctly explained
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.x.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xi
+          title: Chapter XI. What it is to sin, and to make satisfaction for sin
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xi.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xii
+          title: Chapter XII. Whether it were proper for God to put away sins by compassion alone, without any payment of
+            debt
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xiii
+          title: Chapter XIII. How nothing less was to be endured, in the order of things, than that the creature should take
+            away the honor due the Creator and not restore what he takes away
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xiii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xiv
+          title: Chapter XIV. How the honor of God exists in the punishment of the wicked
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xiv.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xv
+          title: Chapter XV. Whether God suffers his honor to be violated even in the least degree
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xv.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xvi
+          title: Chapter XVI. The reason why the number of angels who fell must be made up from men
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xvi.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xvii
+          title: Chapter XVII. How other angels cannot take the place of those who fell
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xvii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xviii
+          title: Chapter XVIII. Whether there will be more holy men than evil angels
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xviii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xix
+          title: Chapter XIX. How man cannot be saved without satisfaction for sin
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xix.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xx
+          title: Chapter XX. That satisfaction ought to be proportionate to guilt; and that man is of himself unable to accomplish
+            this
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xx.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xxi
+          title: Chapter XXI. How great a burden sin is
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxi.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xxii
+          title: Chapter XXII. What contempt man brought upon God, when he allowed himself to be conquered by the devil; for
+            which he can make no satisfaction
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xxiii
+          title: Chapter XXIII. What man took from God by his sin, which he has no power to repay
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxiii.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xxiv
+          title: Chapter XXIV. How, as long as man does not restore what he owes God, he cannot be happy, nor is he excused
+            by want of power
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxiv.html
+        - id: anselmcurdeushomo_vi_ii_vi.ii.xxv
+          title: Chapter XXV. How man’s salvation by Christ is necessarily possible
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxv.html
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.html
+      - id: anselmcurdeushomo_vi_iii
+        title: Book Second
+        level: 2
+        children:
+        - id: anselmcurdeushomo_vi_iii_vi.iii.i
+          title: Chapter I. How man was made holy by God, so as to be happy in the enjoyment of God
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.i.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.ii
+          title: Chapter II. How man would never have died, unless he had sinned
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.ii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.iii
+          title: Chapter III. How man will rise with the same body which he has in this world
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.iii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.iv
+          title: Chapter IV. How God will complete, in respect to human nature, what he has begun
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.iv.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.v
+          title: Chapter V. How, although the thing may be necessary, God may not do it by a compulsory necessity; and what
+            is the nature of that necessity which removes or lessens gratitude, and what necessity increases it
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.v.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.vi
+          title: Chapter VI. How no being, except the God-man, can make the atonement by which man is saved
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.vi.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.vii
+          title: Chapter VII. How necessary it is for the same being to be perfect God and perfect man
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.vii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.viii
+          title: Chapter VIII. How it behoved God to take a man of the race of Adam, and born of a woman
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.viii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.ix
+          title: Chapter IX. How of necessity the Word only can unite in one person with man
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.ix.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.x
+          title: Chapter X. How this man dies not of debt; and in what sense he can or cannot sin; and how neither he nor
+            an angel deserves praise for their holiness, if it is impossible for them to sin
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.x.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xi
+          title: Chapter XI. How Christ dies of his own power, and how mortality does not inhere in the essential nature of
+            man
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xi.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xii
+          title: Chapter XII. How, though he share in our weakness, he is not therefore miserable
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xiii
+          title: Chapter XIII. How, along with our other weaknesses, he does not partake of our ignorance
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xiii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xiv
+          title: Chapter XIV. How his death outweighs the number and greatness of our sins
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xiv.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xv
+          title: Chapter XV. How this death removes even the sins of his murderers
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xv.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xvi
+          title: Chapter XVI. How God took that man from a sinful substance, and yet without sin; and of the salvation of
+            Adam and Eve
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xvi.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xvii
+          title: Chapter XVII. How he did not die of necessity, though he could not be born, except as destined to suffer
+            death
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xvii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xviii
+          title: Chapter XVIII (a). How, with God there is neither necessity nor impossibility, and what is a coercive necessity,
+            and what one that is not so
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xviii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xix
+          title: Chapter XVIII (b.). How Christ’s life is paid to God for the sins of men, and in what sense Christ ought,
+            and in what sense he ought not, or was not bound, to suffer
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xix.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xx
+          title: Chapter XIX. How human salvation follows upon his death
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xx.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xxi
+          title: Chapter XX. How great and how just is God’s compassion
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xxi.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xxii
+          title: Chapter XXI. How it is impossible for the devil to be reconciled
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xxii.html
+        - id: anselmcurdeushomo_vi_iii_vi.iii.xxiii
+          title: Chapter XXII. How the truth of the Old and New Testament is shown in the things which have been said
+          level: 3
+          children: []
+          links:
+            ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xxiii.html
+        links:
+          ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.html
+      links:
+        ccel: https://ccel.org/ccel/a/anselm/basic_works.vi.html

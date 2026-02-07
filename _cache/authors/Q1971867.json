@@ -1,12 +1,16 @@
 {
+  "_cacheVersion": 2,
   "qid": "Q1971867",
   "name": "Johann Heinrich Alting",
   "slug": "johann-heinrich-alting",
   "birthYear": 1583,
   "deathYear": 1644,
-  "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Heinrich%20Alting.jpg",
+  "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Burgerbibliothek%20Bern%20M%201.jpg",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Johann_Heinrich_Alting",
-  "prdlId": null,
+  "prdlId": "109",
+  "familyName": "Alting",
+  "givenName": "Johann",
+  "openLibraryId": "OL5488552A",
   "labels": {
     "arz": "چوهان هينريخ التينج",
     "ast": "Johann Heinrich Alting",

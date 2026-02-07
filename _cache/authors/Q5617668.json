@@ -1,4 +1,5 @@
 {
+  "_cacheVersion": 2,
   "qid": "Q5617668",
   "name": "Gulielmus Bucanus",
   "slug": "gulielmus-bucanus",
@@ -6,7 +7,10 @@
   "deathYear": 1603,
   "imageUrl": null,
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Gulielmus_Bucanus",
-  "prdlId": null,
+  "prdlId": "172",
+  "familyName": null,
+  "givenName": "Guillaume",
+  "openLibraryId": null,
   "labels": {
     "arz": "جوليلموس بوكانوس",
     "ca": "Guillaume Du Buc",

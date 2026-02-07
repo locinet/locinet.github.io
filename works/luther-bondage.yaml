@@ -1,0 +1,37 @@
+luther-bondage:
+  author: Q9554
+  la:
+    title: De Servo Arbitrio
+    orig_lang: true
+    editions:
+      - year: 1525
+  en:
+    title: The Bondage of the Will
+    sections:
+      - introduction: Introduction
+      - erasmus-preface-reviewed: "Erasmus' Preface Reviewed"
+      - erasmus-scepticism: "Erasmus' Scepticism"
+      - necessity-of-knowing-god: The Necessity of Knowing God and His Power
+      - sovereignty-of-god: The Sovereignty of God
+      - exordium: Exordium
+      - discussion-first-part: "Discussion: First Part"
+      - discussion-second-part: "Discussion: Second Part"
+      - discussion-third-part: "Discussion: Third Part"
+      - conclusion: Conclusion
+    translations:
+      - translator: Henry Cole
+        year: 1823
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/l/luther/bondage
+            section_urls:
+              - introduction: https://ccel.org/ccel/l/luther/bondage.v.html
+              - erasmus-preface-reviewed: https://ccel.org/ccel/l/luther/bondage.vi.html
+              - erasmus-scepticism: https://ccel.org/ccel/l/luther/bondage.vii.html
+              - necessity-of-knowing-god: https://ccel.org/ccel/l/luther/bondage.viii.html
+              - sovereignty-of-god: https://ccel.org/ccel/l/luther/bondage.ix.html
+              - exordium: https://ccel.org/ccel/l/luther/bondage.x.html
+              - discussion-first-part: https://ccel.org/ccel/l/luther/bondage.xi.html
+              - discussion-second-part: https://ccel.org/ccel/l/luther/bondage.xii.html
+              - discussion-third-part: https://ccel.org/ccel/l/luther/bondage.xiii.html
+              - conclusion: https://ccel.org/ccel/l/luther/bondage.xiv.html

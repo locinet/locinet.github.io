@@ -25,7 +25,7 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
     <ul class="works-index-list">
       {% for work in author.works %}
         <li>
-          {% if work.year %}<span class="work-year">{{ work.year }}.</span> {% endif %}<span class="work-title-inline">{{ work.title }}</span>{% if work.origTitle and work.origTitle != work.title %} <em class="work-orig-inline">({{ work.origTitle }})</em>{% endif %}
+          {% if work.year %}<span class="work-year">{{ work.year }}.</span> {% endif %}<a href="/authors/{{ author.slug }}/#{{ work.id }}" class="work-title-inline">{{ work.title }}</a>{% if work.origTitle and work.origTitle != work.title %} <em class="work-orig-inline">({{ work.origTitle }})</em>{% endif %}
         </li>
       {% endfor %}
     </ul>

@@ -29,13 +29,16 @@ function slugify(name) {
 
 async function fetchAuthor(qid) {
   const sparql = `
-    SELECT ?label ?birthYear ?deathYear ?image ?enwiki ?prdl WHERE {
+    SELECT ?label ?birthYear ?deathYear ?image ?enwiki ?prdl ?familyName ?givenName ?openLibrary WHERE {
       wd:${qid} rdfs:label ?label . FILTER(LANG(?label) = "en")
       OPTIONAL { wd:${qid} wdt:P569 ?birth . BIND(YEAR(?birth) AS ?birthYear) }
       OPTIONAL { wd:${qid} wdt:P570 ?death . BIND(YEAR(?death) AS ?deathYear) }
       OPTIONAL { wd:${qid} wdt:P18 ?image . }
       OPTIONAL { ?enwiki schema:about wd:${qid} ; schema:isPartOf <https://en.wikipedia.org/> . }
-      OPTIONAL { wd:${qid} wdt:P5765 ?prdl . }
+      OPTIONAL { wd:${qid} wdt:P1463 ?prdl . }
+      OPTIONAL { wd:${qid} wdt:P734 ?familyNameItem . ?familyNameItem rdfs:label ?familyName . FILTER(LANG(?familyName) = "en") }
+      OPTIONAL { wd:${qid} wdt:P735 ?givenNameItem . ?givenNameItem rdfs:label ?givenName . FILTER(LANG(?givenName) = "en") }
+      OPTIONAL { wd:${qid} wdt:P648 ?openLibrary . }
     } LIMIT 1
   `;
   const url =
@@ -73,6 +76,7 @@ async function fetchAuthor(qid) {
   }
 
   return {
+    _cacheVersion: 2,
     qid,
     name,
     slug: slugify(name),
@@ -81,6 +85,9 @@ async function fetchAuthor(qid) {
     imageUrl: row.image ? row.image.value : null,
     wikipediaUrl: row.enwiki ? row.enwiki.value : null,
     prdlId: row.prdl ? row.prdl.value : null,
+    familyName: row.familyName ? row.familyName.value : null,
+    givenName: row.givenName ? row.givenName.value : null,
+    openLibraryId: row.openLibrary ? row.openLibrary.value : null,
     labels,
   };
 }
@@ -96,7 +103,7 @@ async function main() {
     if (fs.existsSync(cachePath)) {
       // Check if cache has the new fields; if not, re-fetch
       const cached = JSON.parse(fs.readFileSync(cachePath, "utf8"));
-      if (cached.labels && cached.hasOwnProperty("wikipediaUrl")) {
+      if (cached._cacheVersion >= 2) {
         console.log(`  ${qid} — cached`);
         continue;
       }

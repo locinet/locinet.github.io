@@ -1,4 +1,5 @@
 {
+  "_cacheVersion": 2,
   "qid": "Q10320226",
   "name": "Lucas Trelcatius",
   "slug": "lucas-trelcatius",
@@ -7,6 +8,9 @@
   "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Hendrik%20Hondius%20-%20Lucas%20Trelcatius%20P.%20RP-P-1907-3140.jpg",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Lucas_Trelcatius",
   "prdlId": null,
+  "familyName": "Trelcatius",
+  "givenName": "Lucas",
+  "openLibraryId": null,
   "labels": {
     "en": "Lucas Trelcatius",
     "af": "Lucas Trelcatius",

@@ -1,0 +1,26 @@
+augustine-doctrine:
+  author: Q8018
+  la:
+    title: De Doctrina Christiana
+    orig_lang: true
+    editions:
+      - year: 397
+  en:
+    title: On Christian Doctrine
+    sections:
+      - preface: Preface
+      - book-i: "Book I. Containing a General View of the Subjects Treated in Holy Scripture"
+      - book-ii: Book II.
+      - book-iii: Book III.
+      - book-iv: "Book IV. Containing a General View of the Subjects Treated in Holy Scripture"
+    translations:
+      - translator: J.F. Shaw
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/a/augustine/doctrine
+            section_urls:
+              - preface: https://ccel.org/ccel/a/augustine/doctrine.iv.i.html
+              - book-i: https://ccel.org/ccel/a/augustine/doctrine.iv.ii.html
+              - book-ii: https://ccel.org/ccel/a/augustine/doctrine.iv.iii.html
+              - book-iii: https://ccel.org/ccel/a/augustine/doctrine.iv.iv.html
+              - book-iv: https://ccel.org/ccel/a/augustine/doctrine.iv.v.html

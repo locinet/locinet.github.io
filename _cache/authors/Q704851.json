@@ -1,12 +1,16 @@
 {
+  "_cacheVersion": 2,
   "qid": "Q704851",
   "name": "Wolfgang Musculus",
   "slug": "wolfgang-musculus",
   "birthYear": 1497,
   "deathYear": 1563,
-  "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangMusculus.jpg",
+  "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Burgerbibliothek%20Bern%20M%20130.jpg",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Wolfgang_Musculus",
-  "prdlId": null,
+  "prdlId": "430",
+  "familyName": null,
+  "givenName": "Wolfgang",
+  "openLibraryId": "OL1423349A",
   "labels": {
     "ast": "Wolfgang Musculus",
     "ca": "Wolfgang Musculus",

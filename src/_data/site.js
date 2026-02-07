@@ -127,7 +127,7 @@ function parseWork(fileId, data) {
   const en = work.en || {};
   const origLangs = [];
   for (const langCode of Object.keys(work)) {
-    if (langCode === "author" || langCode === "category" || langCode === "loci" || langCode === "en") continue;
+    if (langCode === "author" || langCode === "category" || langCode === "loci") continue;
     const langData = work[langCode];
     if (langData && typeof langData === "object" && langData.orig_lang) {
       origLangs.push({ lang: langCode, ...langData });
@@ -135,11 +135,22 @@ function parseWork(fileId, data) {
   }
   const origLang = origLangs[0] || null;
 
-  // Get year from original language editions
+  // Get year from original language editions, falling back to any language's editions
   let year = null;
   if (origLang && origLang.editions) {
     for (const ed of origLang.editions) {
       if (ed.year && (year === null || ed.year < year)) year = ed.year;
+    }
+  }
+  if (year === null) {
+    for (const langCode of Object.keys(work)) {
+      if (langCode === "author" || langCode === "category" || langCode === "loci") continue;
+      const langData = work[langCode];
+      if (langData && typeof langData === "object" && langData.editions) {
+        for (const ed of langData.editions) {
+          if (ed.year && (year === null || ed.year < year)) year = ed.year;
+        }
+      }
     }
   }
 
@@ -275,6 +286,11 @@ function buildAuthorPages(works, authors) {
         }
       }
 
+      // Pick the original-language author name (first orig lang label, or English)
+      const origLangName = origLangCodes.length > 0 && (meta.labels || {})[origLangCodes[0]]
+        ? (meta.labels || {})[origLangCodes[0]]
+        : meta.name;
+
       return {
         qid,
         name: meta.name,
@@ -282,8 +298,13 @@ function buildAuthorPages(works, authors) {
         birthYear: meta.birthYear,
         deathYear: meta.deathYear,
         imageUrl: meta.imageUrl,
+        commonsUrl: meta.imageUrl
+          ? meta.imageUrl.replace('http://', 'https://').replace('Special:FilePath/', 'File:')
+          : null,
         wikipediaUrl: meta.wikipediaUrl || null,
         prdlId: meta.prdlId || null,
+        openLibraryId: meta.openLibraryId || null,
+        origLangName,
         authorLabels,
         works: authorWorks,
       };
@@ -327,10 +348,14 @@ function addToLociIndex(index, slug, authorMeta, work, section) {
   if (!index[slug]) index[slug] = {};
   const authorKey = authorMeta.qid;
   if (!index[slug][authorKey]) {
+    const nameParts = authorMeta.name.split(/\s+/);
     index[slug][authorKey] = {
       name: authorMeta.name,
       slug: authorMeta.slug,
       qid: authorMeta.qid,
+      familyName: authorMeta.familyName || nameParts[nameParts.length - 1],
+      givenName: authorMeta.givenName || nameParts[0],
+      birthYear: authorMeta.birthYear || null,
       entries: [],
     };
   }
@@ -342,6 +367,43 @@ function addToLociIndex(index, slug, authorMeta, work, section) {
   });
 }
 
+function computeDisplayNames(index) {
+  for (const slug of Object.keys(index)) {
+    const authors = Object.values(index[slug]);
+
+    // Group by family name to detect collisions
+    const byFamily = {};
+    for (const a of authors) {
+      const fam = a.familyName;
+      if (!byFamily[fam]) byFamily[fam] = [];
+      byFamily[fam].push(a);
+    }
+
+    for (const a of authors) {
+      const fam = a.familyName;
+      const peers = byFamily[fam];
+      if (peers.length === 1) {
+        // Unique family name
+        a.displayName = fam;
+      } else {
+        // Collision on family name — add initial
+        const initial = a.givenName ? a.givenName[0] + "." : "";
+        const key = initial + " " + fam;
+        // Check if initial + family name is also ambiguous
+        const sameInitial = peers.filter(
+          (p) => p.givenName && p.givenName[0] === (a.givenName ? a.givenName[0] : "")
+        );
+        if (sameInitial.length > 1) {
+          // Same initial + family — add birth year
+          a.displayName = initial + " " + fam + (a.birthYear ? " (b. " + a.birthYear + ")" : "");
+        } else {
+          a.displayName = initial + " " + fam;
+        }
+      }
+    }
+  }
+}
+
 // --- Main export ---
 
 module.exports = function () {
@@ -351,6 +413,7 @@ module.exports = function () {
   const works = loadAllWorks();
   const authorPages = buildAuthorPages(works, authors);
   const lociIndex = buildLociIndex(lociFlat, works, authors);
+  computeDisplayNames(lociIndex);
 
   // Works index: authors sorted by first published work year
   const worksIndex = [...authorPages].sort((a, b) => {

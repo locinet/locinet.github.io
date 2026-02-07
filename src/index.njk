@@ -10,6 +10,34 @@ pageTitle: "Locinet — Loci Theologici"
   <input type="text" id="loci-filter" placeholder="Type to filter..." autocomplete="off">
 </div>
 
+<div class="loci-page">
+
+<nav class="loci-sidebar">
+{% macro renderSidebarChildren(nodes, depth) %}
+<ul class="stree{% if depth >= 2 %} stree-collapsed{% endif %}">
+  {% for node in nodes %}
+  <li>
+    {% if node.children and depth >= 1 %}
+    <a href="#locus-{{ node.slug }}" class="stree-toggle">{{ node.name }}</a>
+    {% else %}
+    <a href="#locus-{{ node.slug }}">{{ node.name }}</a>
+    {% endif %}
+    {% if node.children %}{{ renderSidebarChildren(node.children, depth + 1) }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+<ul class="stree stree-root">
+  {% for node in site.lociTree %}
+  <li>
+    <a href="#locus-{{ node.slug }}" class="stree-top">{{ node.name }}</a>
+    {% if node.children %}{{ renderSidebarChildren(node.children, 1) }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+</nav>
+
+<div class="loci-main">
 <div id="loci-tree" class="loci-tree">
 {% macro renderNode(node, depth) %}
   {% set lociEntry = site.lociIndex[node.slug] %}
@@ -20,14 +48,14 @@ pageTitle: "Locinet — Loci Theologici"
     {% endfor %}
   {% endif %}
 
-  <div class="loci-node" data-slug="{{ node.slug }}" data-depth="{{ depth }}">
+  <div class="loci-node" id="locus-{{ node.slug }}" data-slug="{{ node.slug }}" data-depth="{{ depth }}">
     <span class="loci-name">{{ node.name }}</span>
     <span class="loci-slug-label">({{ node.slug }})</span>
     {% if authorList.length > 0 %}
       <span class="loci-authors">
         — {% for author in authorList %}<a href="/authors/{{ author.slug }}/?locus={{ node.slug }}"
              class="author-link"
-             data-entries="{{ author.entries | dump | escape }}">{{ author.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+             data-entries="{{ author.entries | dump | escape }}">{{ author.displayName }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
       </span>
     {% endif %}
 
@@ -44,6 +72,9 @@ pageTitle: "Locinet — Loci Theologici"
 {% for node in site.lociTree %}
   {{ renderNode(node, 0) }}
 {% endfor %}
+</div>
+</div>
+
 </div>
 
 <div class="author-tooltip" id="author-tooltip" style="display:none;"></div>
@@ -88,4 +119,19 @@ pageTitle: "Locinet — Loci Theologici"
       return d.innerHTML;
     }
   })();
+</script>
+<script>
+  // Sidebar tree expand/collapse
+  document.querySelectorAll('.stree-toggle').forEach(function(toggle) {
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      var children = this.nextElementSibling;
+      if (children && children.classList.contains('stree')) {
+        children.classList.toggle('stree-collapsed');
+        this.classList.toggle('expanded');
+      }
+      var target = document.querySelector(this.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
 </script>

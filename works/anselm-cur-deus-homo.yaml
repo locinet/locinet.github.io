@@ -1,0 +1,121 @@
+anselm-cur-deus-homo:
+  author: Q43939
+  la:
+    title: Cur Deus Homo
+    orig_lang: true
+    editions:
+      - year: 1098
+  en:
+    title: Why God Became Man
+    sections:
+      - preface: Preface
+      - book-first: Book First
+        sections:
+          - b1ch1: "Chapter I. The question on which the whole work rests"
+          - b1ch2: "Chapter II. How those things which are to be said should be received"
+          - b1ch3: "Chapter III. Objections of infidels and replies of believers"
+          - b1ch4: "Chapter IV. How these things appear not decisive to infidels, and merely like so many pictures"
+          - b1ch5: "Chapter V. How the redemption of man could not be effected by any other being but God"
+          - b1ch6: "Chapter VI. How infidels find fault with us for saying that God has redeemed us by his death"
+          - b1ch7: "Chapter VII. How the devil had no justice on his side against man"
+          - b1ch8: "Chapter VIII. How the acts of Christ's condescension do not belong to his divinity"
+          - b1ch9: "Chapter IX. How it was of his own accord that he died"
+          - b1ch10: "Chapter X. Likewise on the same topics"
+          - b1ch11: "Chapter XI. What it is to sin, and to make satisfaction for sin"
+          - b1ch12: "Chapter XII. Whether it were proper for God to put away sins by compassion alone"
+          - b1ch13: "Chapter XIII. How nothing less was to be endured than that the creature should take away the honor due the Creator"
+          - b1ch14: "Chapter XIV. How the honor of God exists in the punishment of the wicked"
+          - b1ch15: "Chapter XV. Whether God suffers his honor to be violated even in the least degree"
+          - b1ch16: "Chapter XVI. The reason why the number of angels who fell must be made up from men"
+          - b1ch17: "Chapter XVII. How other angels cannot take the place of those who fell"
+          - b1ch18: "Chapter XVIII. Whether there will be more holy men than evil angels"
+          - b1ch19: "Chapter XIX. How man cannot be saved without satisfaction for sin"
+          - b1ch20: "Chapter XX. That satisfaction ought to be proportionate to guilt"
+          - b1ch21: "Chapter XXI. How great a burden sin is"
+          - b1ch22: "Chapter XXII. What contempt man brought upon God"
+          - b1ch23: "Chapter XXIII. What man took from God by his sin"
+          - b1ch24: "Chapter XXIV. How man cannot be happy as long as he does not restore what he owes God"
+          - b1ch25: "Chapter XXV. How man's salvation by Christ is necessarily possible"
+      - book-second: Book Second
+        sections:
+          - b2ch1: "Chapter I. How man was made holy by God, so as to be happy in the enjoyment of God"
+          - b2ch2: "Chapter II. How man would never have died, unless he had sinned"
+          - b2ch3: "Chapter III. How man will rise with the same body which he has in this world"
+          - b2ch4: "Chapter IV. How God will complete, in respect to human nature, what he has begun"
+          - b2ch5: "Chapter V. How, although the thing may be necessary, God may not do it by a compulsory necessity"
+          - b2ch6: "Chapter VI. How no being, except the God-man, can make the atonement by which man is saved"
+          - b2ch7: "Chapter VII. How necessary it is for the same being to be perfect God and perfect man"
+          - b2ch8: "Chapter VIII. How it behoved God to take a man of the race of Adam"
+          - b2ch9: "Chapter IX. How of necessity the Word only can unite in one person with man"
+          - b2ch10: "Chapter X. How this man dies not of debt"
+          - b2ch11: "Chapter XI. How Christ dies of his own power"
+          - b2ch12: "Chapter XII. How, though he share in our weakness, he is not therefore miserable"
+          - b2ch13: "Chapter XIII. How he does not partake of our ignorance"
+          - b2ch14: "Chapter XIV. How his death outweighs the number and greatness of our sins"
+          - b2ch15: "Chapter XV. How this death removes even the sins of his murderers"
+          - b2ch16: "Chapter XVI. How God took that man from a sinful substance, and yet without sin"
+          - b2ch17: "Chapter XVII. How he did not die of necessity"
+          - b2ch18a: "Chapter XVIII (a). How with God there is neither necessity nor impossibility"
+          - b2ch18b: "Chapter XVIII (b). How Christ's life is paid to God for the sins of men"
+          - b2ch19: "Chapter XIX. How human salvation follows upon his death"
+          - b2ch20: "Chapter XX. How great and how just is God's compassion"
+          - b2ch21: "Chapter XXI. How it is impossible for the devil to be reconciled"
+          - b2ch22: "Chapter XXII. How the truth of the Old and New Testament is shown"
+    translations:
+      - translator: Sidney Norton Deane
+        year: 1909
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/a/anselm/basic_works.vi.html
+            section_urls:
+              - preface: https://ccel.org/ccel/a/anselm/basic_works.vi.i.html
+              - book-first: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.html
+              - b1ch1: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.i.html
+              - b1ch2: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.ii.html
+              - b1ch3: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.iii.html
+              - b1ch4: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.iv.html
+              - b1ch5: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.v.html
+              - b1ch6: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.vi.html
+              - b1ch7: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.vii.html
+              - b1ch8: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.viii.html
+              - b1ch9: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.ix.html
+              - b1ch10: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.x.html
+              - b1ch11: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xi.html
+              - b1ch12: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xii.html
+              - b1ch13: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xiii.html
+              - b1ch14: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xiv.html
+              - b1ch15: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xv.html
+              - b1ch16: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xvi.html
+              - b1ch17: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xvii.html
+              - b1ch18: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xviii.html
+              - b1ch19: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xix.html
+              - b1ch20: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xx.html
+              - b1ch21: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxi.html
+              - b1ch22: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxii.html
+              - b1ch23: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxiii.html
+              - b1ch24: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxiv.html
+              - b1ch25: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.vi.ii.xxv.html
+              - book-second: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.html
+              - b2ch1: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.i.html
+              - b2ch2: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.ii.html
+              - b2ch3: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.iii.html
+              - b2ch4: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.iv.html
+              - b2ch5: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.v.html
+              - b2ch6: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.vi.html
+              - b2ch7: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.vii.html
+              - b2ch8: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.viii.html
+              - b2ch9: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.ix.html
+              - b2ch10: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.x.html
+              - b2ch11: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xi.html
+              - b2ch12: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xii.html
+              - b2ch13: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xiii.html
+              - b2ch14: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xiv.html
+              - b2ch15: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xv.html
+              - b2ch16: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xvi.html
+              - b2ch17: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xvii.html
+              - b2ch18a: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xviii.html
+              - b2ch18b: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xix.html
+              - b2ch19: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xx.html
+              - b2ch20: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xxi.html
+              - b2ch21: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xxii.html
+              - b2ch22: https://ccel.org/ccel/a/anselm/basic_works.vi.iii.vi.iii.xxiii.html
