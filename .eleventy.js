@@ -1,4 +1,7 @@
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPassthroughCopy("src/assets");
 
   // Copy raw YAML work files so the Edit download feature can fetch them
@@ -16,6 +19,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: process.env.PATH_PREFIX || "/",
     dir: {
       input: "src",
       output: "_site",

@@ -90,5 +90,4 @@ work-id:
 - Wikidata results are cached in repo so builds don't fail if Wikidata is down
 
 ## Known issues / TODOs
-- `site.repoUrl` in `src/_data/site.js` needs to be set to the actual GitHub repo URL
-- GitHub Pages needs to be enabled (Settings > Pages > Source: GitHub Actions)
+

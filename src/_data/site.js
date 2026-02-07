@@ -357,6 +357,6 @@ module.exports = function () {
     lociFlat,
     authorPages,
     lociIndex,
-    repoUrl: "https://locinet.github.io/locinet/",
+    repoUrl: "https://github.com/locinet/locinet",
   };
 };

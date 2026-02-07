@@ -130,4 +130,5 @@ eleventyComputed:
   const authorName = {{ authorPage.name | dump | safe }};
   const authorQid = {{ authorPage.qid | dump | safe }};
   const repoUrl = {{ site.repoUrl | dump | safe }};
+  const sitePathPrefix = {{ "/" | url | dump | safe }};
 </script>

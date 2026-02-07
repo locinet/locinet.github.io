@@ -211,7 +211,8 @@ CHANGE-THIS-ID:
         typeof repoUrl !== "undefined" ? repoUrl : "https://github.com/YOUR_USERNAME/locinet";
 
       // Fetch the actual YAML file
-      fetch(`/works-raw/${filename}`)
+      const base = typeof sitePathPrefix !== "undefined" ? sitePathPrefix : "/";
+      fetch(`${base}works-raw/${filename}`)
         .then((r) => {
           if (r.ok) return r.text();
           throw new Error("Could not load file");

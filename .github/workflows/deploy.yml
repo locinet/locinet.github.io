@@ -26,6 +26,8 @@ jobs:
       - run: node scripts/fetch-wikidata.js
       - run: node scripts/validate.js
       - run: npx @11ty/eleventy
+        env:
+          PATH_PREFIX: /locinet/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
