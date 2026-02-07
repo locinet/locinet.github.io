@@ -352,10 +352,18 @@ module.exports = function () {
   const authorPages = buildAuthorPages(works, authors);
   const lociIndex = buildLociIndex(lociFlat, works, authors);
 
+  // Works index: authors sorted by first published work year
+  const worksIndex = [...authorPages].sort((a, b) => {
+    const aYear = a.works[0]?.year || 9999;
+    const bYear = b.works[0]?.year || 9999;
+    return aYear - bYear;
+  });
+
   return {
     lociTree,
     lociFlat,
     authorPages,
+    worksIndex,
     lociIndex,
     repoUrl: "https://github.com/locinet/locinet",
   };

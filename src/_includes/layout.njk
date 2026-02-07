@@ -9,11 +9,13 @@
 <body>
   <nav class="site-nav">
     <a href="/">Loci Index</a>
+    <a href="/works/">Works Index</a>
     {{ navExtra | safe }}
   </nav>
   <main>
     {{ content | safe }}
   </main>
+  <script>var repoUrl = {{ site.repoUrl | dump | safe }};</script>
   <script src="/assets/filter.js"></script>
 </body>
 </html>

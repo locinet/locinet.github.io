@@ -7,12 +7,12 @@ permalink: "/authors/{{ authorPage.slug }}/"
 layout: layout.njk
 eleventyComputed:
   pageTitle: "{{ authorPage.name }} — Locinet"
-  navExtra: '<a href="#" class="contribute-link" id="contribute-btn" data-author-name="{{ authorPage.name }}" data-author-qid="{{ authorPage.qid }}">Contribute</a>'
+  navExtra: '<a href="#" class="contribute-link" id="contribute-btn" data-author-name="{{ authorPage.name }}" data-author-qid="{{ authorPage.qid }}">Add a work</a>'
 ---
 
 <div class="author-header">
   {% if authorPage.imageUrl %}
-    <img class="author-image" src="{{ authorPage.imageUrl }}" alt="{{ authorPage.name }}">
+    <img class="author-image" src="{{ authorPage.imageUrl }}?width=300" alt="{{ authorPage.name }}">
   {% endif %}
   <div class="author-info">
     <h1>{{ authorPage.name }}</h1>
@@ -129,6 +129,4 @@ eleventyComputed:
   const lociFlat = {{ site.lociFlat | dump | safe }};
   const authorName = {{ authorPage.name | dump | safe }};
   const authorQid = {{ authorPage.qid | dump | safe }};
-  const repoUrl = {{ site.repoUrl | dump | safe }};
-  const sitePathPrefix = {{ "/" | url | dump | safe }};
 </script>

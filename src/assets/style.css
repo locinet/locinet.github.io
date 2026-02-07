@@ -182,6 +182,63 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   font-size: 1.1em;
 }
 
+/* Works index */
+.works-index-author { margin-bottom: 1.5em; }
+.works-index-author h2 { font-size: 1.2em; margin-bottom: 0.2em; }
+.author-dates-inline { font-weight: normal; font-size: 0.85em; color: var(--muted); }
+.works-index-list { list-style: none; margin-left: 1em; }
+.works-index-list li { padding: 0.15em 0; font-size: 0.95em; }
+.work-year { color: var(--muted); }
+.work-orig-inline { font-size: 0.9em; color: var(--muted); }
+
+/* Add author dropdown */
+.add-author-container {
+  position: relative;
+  display: inline-flex;
+  margin-left: auto;
+}
+.add-author-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 360px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 200;
+  padding: 0.5em;
+  margin-top: 0.3em;
+}
+.add-author-dropdown input {
+  font-family: inherit;
+  font-size: 0.9em;
+  padding: 0.4em 0.5em;
+  border: 1px solid var(--border);
+  width: 100%;
+}
+.author-search-status {
+  font-size: 0.85em;
+  color: var(--muted);
+  padding: 0.3em 0;
+}
+.author-search-results {
+  list-style: none;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.author-search-results li {
+  padding: 0.4em 0.5em;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+}
+.author-search-results li:last-child { border-bottom: none; }
+.author-search-results li:hover {
+  background: var(--tag-bg);
+}
+.author-result-name { font-weight: bold; }
+.author-result-dates { color: var(--muted); font-size: 0.9em; }
+.author-result-desc { font-style: italic; color: var(--muted); font-size: 0.85em; }
+
 /* Hidden elements during filtering */
 .filtered-hidden { display: none; }
 
@@ -190,4 +247,5 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   body { font-size: 14px; padding: 0.5em; }
   .author-image { max-width: 160px; }
   .filter-box input { width: 100%; }
+  .add-author-dropdown { width: calc(100vw - 1em); right: -0.5em; }
 }

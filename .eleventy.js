@@ -4,9 +4,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPassthroughCopy("src/assets");
 
-  // Copy raw YAML work files so the Edit download feature can fetch them
-  eleventyConfig.addPassthroughCopy({ "works": "works-raw" });
-
   eleventyConfig.addWatchTarget("./works/");
   eleventyConfig.addWatchTarget("./loci.yaml");
   eleventyConfig.addWatchTarget("./_cache/");
