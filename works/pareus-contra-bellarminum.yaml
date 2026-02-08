@@ -1,0 +1,29 @@
+pareus-contra-bellarminum:
+  author: Q95721
+  category: monograph
+  la:
+    title: De Amissione Gratiae et Statu Peccati Libri Sex R. Bellarmini Explicati et Castigati
+    orig_lang: true
+    editions:
+      - year: 1613
+        place: Heidelberg
+  en:
+    title: "Bellarmine's Six Books on the Loss of Grace and the State of Sin, Explained and Corrected"
+    sections:
+      - b1: Book 1
+        sections:
+          - b1c7: "Chapter 7: On the Loss of Grace"
+            loci: sin
+      - b2: Book 2
+      - b3: Book 3
+      - b4: Book 4
+      - b5: Book 5
+      - b6: Book 6
+    translations:
+      - AI: true
+        sites:
+          - site: RBO
+            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Pareus-David-On-the-Loss-of-Grace-Bk-1-Ch-7.pdf
+            pdf: true
+            section_urls:
+              - b1c7: https://reformedbooksonline.com/wp-content/uploads/2026/02/Pareus-David-On-the-Loss-of-Grace-Bk-1-Ch-7.pdf

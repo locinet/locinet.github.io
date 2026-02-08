@@ -1,0 +1,21 @@
+rivet-catholicus-orthodoxus:
+  author: Q2848543
+  category: systematic
+  la:
+    title: Catholicus Orthodoxus Oppositus Catholico Papistae
+    editions:
+      - year: 1630
+        place: Leiden
+  en:
+    title: The Orthodox Catholic Opposed to the Papist Catholic
+    sections:
+      - q14: "Question 14: On Concupiscence"
+        loci: nature-of-sin
+    translations:
+      - AI: true
+        sites:
+          - site: RBO
+            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Rivet-Andrew-Catholicus-Orthodoxus-Q-14-On-Concupiscence.pdf
+            pdf: true
+            section_urls:
+              - q14: https://reformedbooksonline.com/wp-content/uploads/2026/02/Rivet-Andrew-Catholicus-Orthodoxus-Q-14-On-Concupiscence.pdf

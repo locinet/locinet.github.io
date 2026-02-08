@@ -1,0 +1,18 @@
+placeus-imputation:
+  author: Q3186122
+  category: monograph
+  loci: [original-sin, transmission-of-sin]
+  la:
+    title: De Imputatione Primi Peccati Adami Disputatio
+    orig_lang: true
+    editions:
+      - year: 1655
+        place: Saumur
+  en:
+    title: A Disputation on the Imputation of the First Sin of Adam
+    translations:
+      - AI: true
+        sites:
+          - site: RBO
+            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Placeus-Joshua-Works-vol.-1-ch-12-On-the-Imputation-of-the-First-Sin-of-Adam.pdf
+            pdf: true
