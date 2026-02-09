@@ -610,15 +610,6 @@ function buildTranslatorIndex(works, authorPages) {
       const translatorName = t.translator;
       const translatorKey = translatorName.toLowerCase();
 
-      const workEntry = {
-        title: work.title,
-        workId: work.id,
-        authorName,
-        authorSlug,
-        year: t.year,
-        AI: t.AI,
-      };
-
       for (const s of t.sites) {
         const siteName = s.siteName;
         const siteKey = siteName.toLowerCase();
@@ -626,9 +617,18 @@ function buildTranslatorIndex(works, authorPages) {
           bySite[siteKey] = { name: siteName, translators: {} };
         }
         if (!bySite[siteKey].translators[translatorKey]) {
-          bySite[siteKey].translators[translatorKey] = { name: translatorName, works: [] };
+          bySite[siteKey].translators[translatorKey] = { name: translatorName, slug: slugify(translatorName), works: [] };
         }
-        bySite[siteKey].translators[translatorKey].works.push(workEntry);
+        bySite[siteKey].translators[translatorKey].works.push({
+          title: work.title,
+          workId: work.id,
+          authorName,
+          authorSlug,
+          year: t.year,
+          AI: t.AI,
+          url: s.url,
+          volumes: s.volumes,
+        });
       }
     }
   }

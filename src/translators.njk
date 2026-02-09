@@ -17,12 +17,12 @@ permalink: "/translators/"
   <div class="translator-site" data-site-name="{{ siteEntry.name | lower }}">
     <h2>{{ siteEntry.name }}</h2>
     {% for translator in siteEntry.translators %}
-      <div class="translator-entry" data-translator-name="{{ translator.name | lower }}">
-        <h3>{{ translator.name }}</h3>
+      <div class="translator-entry" id="{{ translator.slug }}" data-translator-name="{{ translator.name | lower }}">
+        <h3>{{ translator.name }} <a href="#{{ translator.slug }}" class="anchor-link">#</a></h3>
         <ul class="translator-works-list">
           {% for work in translator.works %}
             <li>
-              <a href="/authors/{{ work.authorSlug }}/">{{ work.authorName }}</a>, <a href="/authors/{{ work.authorSlug }}/#{{ work.workId }}" class="work-title-inline">{{ work.title }}</a>{% if work.year %} <span class="work-year">({{ work.year }})</span>{% endif %}{% if work.AI %} <span class="ai-label">AI</span>{% endif %}
+              <a href="/authors/{{ work.authorSlug }}/">{{ work.authorName }}</a>, <a href="/authors/{{ work.authorSlug }}/#{{ work.workId }}" class="work-title-inline">{{ work.title }}</a>{% if work.year %} <span class="work-year">({{ work.year }})</span>{% endif %}{% if work.AI %} <span class="ai-label">AI</span>{% endif %}{% if work.url %} <a href="{{ work.url }}" class="external-link" target="_blank" rel="noopener">↗</a>{% elif work.volumes %} {% for vol, volUrl in work.volumes %}<a href="{{ volUrl }}" class="external-link" target="_blank" rel="noopener">vol. {{ vol }} ↗</a> {% endfor %}{% endif %}
             </li>
           {% endfor %}
         </ul>
