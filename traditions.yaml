@@ -5,10 +5,13 @@ traditions:
     slug: lutheran
   - name: Anglican
     slug: anglican
+  - name: Medieval Scholastic
+    slug: medieval-scholastic
   - name: Patristic
     slug: patristic
 
 authors:
+  Q9438: medieval-scholastic # Thomas Aquinas
   Q8018: patristic          # Augustine of Hippo
   Q43939: patristic         # Anselm of Canterbury
   Q102851: patristic        # Boethius

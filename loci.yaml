@@ -41,10 +41,20 @@
         - name: Attributes of God
           slug: attributes-of-god
           children:
+            - name: Divine Simplicity
+              slug: divine-simplicity
+            - name: Goodness of God
+              slug: goodness-of-god
             - name: Invisibility of God
               slug: invisibility-of-god
+            - name: Power of God
+              slug: power-of-god
             - name: Unity of God
               slug: unity-of-god
+        - name: Knowledge of God
+          slug: knowledge-of-god
+        - name: Will of God
+          slug: will-of-god
         - name: Names of God
           slug: names-of-god
         - name: Trinity
@@ -71,6 +81,10 @@
     - name: Nature of man
       slug: nature-of-man
       children:
+        - name: Soul
+          slug: soul
+        - name: Conscience
+          slug: conscience
         - name: Image of God
           slug: image-of-god
         - name: Free will
@@ -112,6 +126,8 @@
 - name: Law
   slug: law
   children:
+    - name: Natural law
+      slug: natural-law
     - name: Moral law
       slug: moral-law
       children:
@@ -183,6 +199,8 @@
           slug: effectual-calling
     - name: Faith
       slug: faith
+    - name: Hope
+      slug: hope
     - name: Repentance
       slug: repentance
     - name: Justification
@@ -191,6 +209,8 @@
       slug: sanctification
     - name: Good works
       slug: good-works
+    - name: Merit
+      slug: merit
     - name: Glorification
       slug: glorification
 
@@ -261,5 +281,7 @@
       slug: resurrection-of-the-dead
     - name: Final judgement
       slug: final-judgement
+    - name: Beatific vision
+      slug: beatific-vision
     - name: Final state
       slug: final-state

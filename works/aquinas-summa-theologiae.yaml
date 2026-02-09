@@ -1,0 +1,1547 @@
+aquinas-summa-theologiae:
+  author: Q9438
+  category: systematic
+  la:
+    title: Summa Theologiae
+    orig_lang: true
+    editions:
+      - year: 1274
+  en:
+    title: Summa Theologiae
+    sections:
+      - prima-pars: Prima Pars (I)
+        sections:
+          - i-q1: Q1. The Nature and Extent of Sacred Doctrine
+            loci: nature-of-theology
+          - i-q2: Q2. The Existence of God
+            loci: existence-of-god
+          - i-q3: Q3. The Simplicity of God
+            loci: divine-simplicity
+          - i-q4: Q4. The Perfection of God
+            loci: attributes-of-god
+          - i-q5: Q5. Goodness in General
+            loci: goodness-of-god
+          - i-q6: Q6. The Goodness of God
+            loci: goodness-of-god
+          - i-q7: Q7. The Infinity of God
+            loci: attributes-of-god
+          - i-q8: Q8. The Existence of God in Things
+            loci: attributes-of-god
+          - i-q9: Q9. The Immutability of God
+            loci: attributes-of-god
+          - i-q10: Q10. The Eternity of God
+            loci: attributes-of-god
+          - i-q11: Q11. The Unity of God
+            loci: unity-of-god
+          - i-q12: Q12. How God Is Known by Us
+            loci: knowability-of-god
+          - i-q13: Q13. The Names of God
+            loci: names-of-god
+          - i-q14: Q14. The Knowledge of God
+            loci: knowledge-of-god
+          - i-q15: Q15. Ideas
+            loci: knowledge-of-god
+          - i-q16: Q16. Truth
+            loci: knowledge-of-god
+          - i-q17: Q17. Falsity
+            loci: knowledge-of-god
+          - i-q18: Q18. The Life of God
+            loci: knowledge-of-god
+          - i-q19: Q19. The Will of God
+            loci: will-of-god
+          - i-q20: Q20. God's Love
+            loci: will-of-god
+          - i-q21: Q21. The Justice and Mercy of God
+            loci: attributes-of-god
+          - i-q22: Q22. The Providence of God
+            loci: providence
+          - i-q23: Q23. Predestination
+            loci: predestination
+          - i-q24: Q24. The Book of Life
+            loci: predestination
+          - i-q25: Q25. The Power of God
+            loci: power-of-god
+          - i-q26: Q26. The Beatitude of God
+          - i-q27: Q27. The Procession of the Divine Persons
+            loci: trinity
+          - i-q28: Q28. The Divine Relations
+            loci: trinity
+          - i-q29: Q29. The Divine Persons
+            loci: trinity
+          - i-q30: Q30. The Plurality of Persons in God
+            loci: trinity
+          - i-q31: Q31. What Belongs to the Unity or Plurality in God
+            loci: trinity
+          - i-q32: Q32. The Knowledge of the Divine Persons
+            loci: trinity
+          - i-q33: Q33. The Person of the Father
+            loci: trinity
+          - i-q34: Q34. The Person of the Son
+            loci: trinity
+          - i-q35: Q35. Image
+            loci: trinity
+          - i-q36: Q36. The Person of the Holy Ghost
+            loci: trinity
+          - i-q37: "Q37. The Name of the Holy Ghost — Love"
+            loci: trinity
+          - i-q38: "Q38. The Name of the Holy Ghost — Gift"
+            loci: trinity
+          - i-q39: Q39. The Persons in Relation to the Essence
+            loci: trinity
+          - i-q40: Q40. The Persons in Comparison to the Relations or Properties
+            loci: trinity
+          - i-q41: Q41. The Persons in Relation to the Notional Acts
+            loci: trinity
+          - i-q42: Q42. Equality and Likeness Among the Divine Persons
+            loci: trinity
+          - i-q43: Q43. The Mission of the Divine Persons
+            loci: trinity
+          - i-q44: Q44. The Procession of Creatures From God, and the First Cause of All Things
+            loci: creation
+          - i-q45: Q45. The Mode of Emanation of Things From the First Principle
+            loci: creation
+          - i-q46: Q46. The Beginning of the Duration of Creatures
+            loci: creation
+          - i-q47: Q47. The Distinction of Things in General
+            loci: creation
+          - i-q48: Q48. The Distinction of Things in Particular
+          - i-q49: Q49. The Cause of Evil
+            loci: [creation, origin-of-sin]
+          - i-q50: Q50. The Substance of the Angels Absolutely Considered
+            loci: angels
+          - i-q51: Q51. The Angels in Comparison With Bodies
+            loci: angels
+          - i-q52: Q52. The Angels in Relation to Place
+            loci: angels
+          - i-q53: Q53. The Local Movement of the Angels
+            loci: angels
+          - i-q54: Q54. The Knowledge of the Angels
+            loci: angels
+          - i-q55: Q55. The Medium of the Angelic Knowledge
+            loci: angels
+          - i-q56: Q56. The Angels' Knowledge of Immaterial Things
+            loci: angels
+          - i-q57: Q57. The Angels' Knowledge of Material Things
+            loci: angels
+          - i-q58: Q58. The Mode of Angelic Knowledge
+            loci: angels
+          - i-q59: Q59. The Will of the Angels
+            loci: angels
+          - i-q60: Q60. The Love or Dilection of the Angels
+            loci: angels
+          - i-q61: Q61. The Production of the Angels in the Order of Natural Being
+            loci: angels
+          - i-q62: Q62. The Perfection of the Angels in the Order of Grace and of Glory
+            loci: angels
+          - i-q63: Q63. The Malice of the Angels With Regard to Sin
+            loci: angels
+          - i-q64: Q64. The Punishment of the Demons
+            loci: angels
+          - i-q65: Q65. The Work of Creation of Corporeal Creatures
+          - i-q66: Q66. The Order of Creation Towards Distinction
+          - i-q67: Q67. The Work of Distinction in Itself
+          - i-q68: Q68. The Work of the Second Day
+          - i-q69: Q69. The Work of the Third Day
+          - i-q70: Q70. The Work of Adornment, as Regards the Fourth Day
+          - i-q71: Q71. The Work of the Fifth Day
+          - i-q72: Q72. The Work of the Sixth Day
+          - i-q73: Q73. The Things That Belong to the Seventh Day
+          - i-q74: Q74. All the Seven Days in Common
+          - i-q75: "Q75. Man Who Is Composed of a Spiritual and a Corporeal Substance, and First as Regards the Soul"
+            loci: [man, soul]
+          - i-q76: Q76. The Union of Body and Soul
+            loci: [man, soul]
+          - i-q77: Q77. Those Things Which Pertain to the Powers of the Soul in General
+            loci: soul
+          - i-q78: Q78. The Specific Powers of the Soul
+            loci: soul
+          - i-q79: Q79. The Intellectual Powers
+            loci: soul
+          - i-q80: Q80. The Appetitive Powers in General
+            loci: soul
+          - i-q81: Q81. The Power of Sensuality
+            loci: soul
+          - i-q82: Q82. The Will
+            loci: free-will
+          - i-q83: Q83. Free Will
+            loci: free-will
+          - i-q84: Q84. How the Soul While United to the Body Understands Corporeal Things Beneath It
+          - i-q85: Q85. The Mode and Order of Understanding
+          - i-q86: Q86. What Our Intellect Knows in Material Things
+          - i-q87: Q87. How the Intellectual Soul Knows Itself and All Within Itself
+          - i-q88: Q88. How the Human Soul Knows What Is Above It
+          - i-q89: Q89. The Knowledge of the Separated Soul
+          - i-q90: Q90. The First Production of Man's Soul
+          - i-q91: Q91. The Production of the First Man's Body
+          - i-q92: Q92. The Production of the Woman
+          - i-q93: Q93. The End or Term of the Production of Man
+            loci: image-of-god
+          - i-q94: Q94. The State of the First Man as Regards His Intellect
+          - i-q95: "Q95. Things Pertaining to the First Man's Will — Grace and Righteousness"
+            loci: original-righteousness
+          - i-q96: Q96. The Mastership Belonging to Man in the State of Innocence
+          - i-q97: Q97. The Preservation of the Individual in the Primitive State
+          - i-q98: Q98. The Preservation of the Species
+          - i-q99: Q99. The Condition of the Offspring as to the Body
+          - i-q100: Q100. The Condition of the Offspring as Regards Righteousness
+          - i-q101: Q101. The Condition of the Offspring as to Knowledge
+          - i-q102: Q102. Man's Abode, Which Is Paradise
+          - i-q103: Q103. The Government of Things in General
+            loci: providence
+          - i-q104: Q104. The Special Effects of the Divine Government
+            loci: providence
+          - i-q105: Q105. The Change of Creatures by God
+            loci: providence
+          - i-q106: Q106. How One Creature Moves Another
+          - i-q107: Q107. The Speech of the Angels
+          - i-q108: Q108. The Angelic Degrees of Hierarchies and Orders
+          - i-q109: Q109. The Ordering of the Bad Angels
+          - i-q110: Q110. How Angels Act on Bodies
+          - i-q111: Q111. The Action of the Angels on Man
+          - i-q112: Q112. The Mission of the Angels
+          - i-q113: Q113. The Guardianship of the Good Angels
+          - i-q114: Q114. The Assaults of the Demons
+          - i-q115: Q115. The Action of the Corporeal Creature
+          - i-q116: Q116. Fate
+          - i-q117: Q117. Things Pertaining to the Action of Man
+          - i-q118: Q118. The Production of Man From Man as to the Soul
+          - i-q119: Q119. The Propagation of Man as to the Body
+      - prima-secundae: Prima Secundae (I-II)
+        sections:
+          - i-ii-q1: Q1. Man's Last End
+          - i-ii-q2: Q2. Those Things in Which Man's Happiness Consists
+          - i-ii-q3: Q3. What Is Happiness
+          - i-ii-q4: Q4. Those Things That Are Required for Happiness
+          - i-ii-q5: Q5. The Attainment of Happiness
+          - i-ii-q6: Q6. The Voluntary and the Involuntary
+          - i-ii-q7: Q7. The Circumstances of Human Acts
+          - i-ii-q8: Q8. The Will, in Regard to What It Wills
+          - i-ii-q9: Q9. That Which Moves the Will
+          - i-ii-q10: Q10. The Manner in Which the Will Is Moved
+          - i-ii-q11: "Q11. Enjoyment, Which Is an Act of the Will"
+          - i-ii-q12: Q12. Intention
+          - i-ii-q13: "Q13. Choice, Which Is an Act of the Will in Regard to the Means"
+          - i-ii-q14: "Q14. Counsel, Which Precedes Choice"
+          - i-ii-q15: "Q15. Consent, Which Is an Act of the Will in Regard to the Means"
+          - i-ii-q16: "Q16. Use, Which Is an Act of the Will in Regard to the Means"
+          - i-ii-q17: Q17. The Acts Commanded by the Will
+          - i-ii-q18: "Q18. The Good and Evil of Human Acts, in General"
+          - i-ii-q19: Q19. The Goodness and Malice of the Interior Act of the Will
+          - i-ii-q20: Q20. Goodness and Malice in External Human Actions
+          - i-ii-q21: Q21. The Consequences of Human Actions by Reason of Their Goodness and Malice
+          - i-ii-q22: Q22. The Subject of the Soul's Passions
+          - i-ii-q23: Q23. How the Passions Differ From One Another
+          - i-ii-q24: Q24. Good and Evil in the Passions of the Soul
+          - i-ii-q25: Q25. The Order of the Passions to One Another
+          - i-ii-q26: "Q26. The Passions of the Soul in Particular, and First, of Love"
+          - i-ii-q27: Q27. The Cause of Love
+          - i-ii-q28: Q28. The Effects of Love
+          - i-ii-q29: Q29. Hatred
+          - i-ii-q30: Q30. Concupiscence
+          - i-ii-q31: Q31. Delight Considered in Itself
+          - i-ii-q32: Q32. The Cause of Pleasure
+          - i-ii-q33: Q33. The Effects of Pleasure
+          - i-ii-q34: Q34. The Goodness and Malice of Pleasures
+          - i-ii-q35: "Q35. Pain, or Sorrow, in Itself"
+          - i-ii-q36: Q36. The Causes of Sorrow or Pain
+          - i-ii-q37: Q37. The Effects of Pain or Sorrow
+          - i-ii-q38: Q38. The Remedies of Sorrow or Pain
+          - i-ii-q39: Q39. The Goodness and Malice of Sorrow or Pain
+          - i-ii-q40: "Q40. The Irascible Passions, and First, of Hope and Despair"
+          - i-ii-q41: "Q41. Fear, in Itself"
+          - i-ii-q42: Q42. The Object of Fear
+          - i-ii-q43: Q43. The Cause of Fear
+          - i-ii-q44: Q44. The Effects of Fear
+          - i-ii-q45: Q45. Daring
+          - i-ii-q46: "Q46. Anger, in Itself"
+          - i-ii-q47: "Q47. The Cause That Provokes Anger, and the Remedies of Anger"
+          - i-ii-q48: Q48. The Effects of Anger
+          - i-ii-q49: "Q49. Habits in General, as to Their Substance"
+          - i-ii-q50: Q50. The Subject of Habits
+          - i-ii-q51: "Q51. The Cause of Habits, as to Their Formation"
+          - i-ii-q52: Q52. The Increase of Habits
+          - i-ii-q53: Q53. The Corruption and Diminution of Habits
+          - i-ii-q54: Q54. The Distinction of Habits
+          - i-ii-q55: "Q55. The Virtues, as to Their Essence"
+          - i-ii-q56: Q56. The Subject of Virtue
+          - i-ii-q57: Q57. The Intellectual Virtues
+          - i-ii-q58: Q58. The Distinction Between Moral and Intellectual Virtues
+          - i-ii-q59: Q59. Moral Virtues in Relation to the Passions
+          - i-ii-q60: Q60. The Distinction of Moral Virtues From One Another
+          - i-ii-q61: Q61. The Cardinal Virtues
+          - i-ii-q62: Q62. The Theological Virtues
+            loci: faith
+          - i-ii-q63: Q63. The Cause of Virtues
+          - i-ii-q64: Q64. The Mean of Virtue
+          - i-ii-q65: Q65. The Connection of Virtues
+          - i-ii-q66: Q66. Equality Among the Virtues
+          - i-ii-q67: Q67. The Duration of Virtues After This Life
+          - i-ii-q68: Q68. The Gifts of the Holy Ghost
+          - i-ii-q69: Q69. The Beatitudes
+          - i-ii-q70: Q70. The Fruits of the Holy Ghost
+          - i-ii-q71: "Q71. Vice and Sin, Considered in Themselves"
+            loci: sin
+          - i-ii-q72: Q72. The Distinction of Sins
+            loci: sin
+          - i-ii-q73: Q73. The Comparison of Sins With One Another
+            loci: sin
+          - i-ii-q74: Q74. The Subject of Sin
+            loci: sin
+          - i-ii-q75: "Q75. The Causes of Sin, in General"
+            loci: sin
+          - i-ii-q76: "Q76. The Causes of Sin, in Particular"
+            loci: sin
+          - i-ii-q77: "Q77. The Cause of Sin, on the Part of the Sensitive Appetite"
+            loci: sin
+          - i-ii-q78: Q78. That Cause of Sin Which Is Malice
+            loci: sin
+          - i-ii-q79: Q79. The External Causes of Sin
+            loci: sin
+          - i-ii-q80: "Q80. The Cause of Sin, as Regards the Devil"
+            loci: sin
+          - i-ii-q81: Q81. The Cause of Sin on the Part of Man
+            loci: original-sin
+          - i-ii-q82: "Q82. Original Sin, as to Its Essence"
+            loci: original-sin
+          - i-ii-q83: Q83. The Subject of Original Sin
+            loci: original-sin
+          - i-ii-q84: "Q84. The Cause of Sin, in Respect of One Sin Being the Cause of Another"
+            loci: sin
+          - i-ii-q85: "Q85. The Effects of Sin, and, First, the Corruption of the Good of Nature"
+            loci: sin
+          - i-ii-q86: Q86. The Stain of Sin
+            loci: sin
+          - i-ii-q87: Q87. The Debt of Punishment
+            loci: punishment-of-sin
+          - i-ii-q88: Q88. Mortal and Venial Sin
+            loci: sin
+          - i-ii-q89: Q89. Venial Sin in Itself
+            loci: sin
+          - i-ii-q90: Q90. The Essence of Law
+            loci: law
+          - i-ii-q91: Q91. The Various Kinds of Law
+            loci: law
+          - i-ii-q92: Q92. The Effects of Law
+            loci: law
+          - i-ii-q93: Q93. The Eternal Law
+            loci: law
+          - i-ii-q94: Q94. The Natural Law
+            loci: natural-law
+          - i-ii-q95: Q95. Human Law
+            loci: law
+          - i-ii-q96: Q96. The Power of Human Law
+            loci: law
+          - i-ii-q97: Q97. Change in Laws
+            loci: law
+          - i-ii-q98: Q98. The Old Law
+            loci: [old-covenant, law]
+          - i-ii-q99: Q99. The Precepts of the Old Law
+            loci: [old-covenant, law]
+          - i-ii-q100: Q100. The Moral Precepts of the Old Law
+            loci: moral-law
+          - i-ii-q101: Q101. The Ceremonial Precepts in Themselves
+          - i-ii-q102: Q102. The Causes of the Ceremonial Precepts
+          - i-ii-q103: Q103. The Duration of the Ceremonial Precepts
+          - i-ii-q104: Q104. The Judicial Precepts
+          - i-ii-q105: Q105. The Reason for the Judicial Precepts
+          - i-ii-q106: "Q106. The Law of the Gospel, Called the New Law, Considered in Itself"
+            loci: [new-covenant, gospel]
+          - i-ii-q107: Q107. The New Law as Compared to the Old
+            loci: [old-covenant, new-covenant]
+          - i-ii-q108: Q108. Those Things That Are Contained in the New Law
+            loci: new-covenant
+          - i-ii-q109: Q109. The Necessity of Grace
+            loci: grace
+          - i-ii-q110: Q110. The Grace of God as Regards Its Essence
+            loci: grace
+          - i-ii-q111: Q111. The Division of Grace
+            loci: grace
+          - i-ii-q112: Q112. The Cause of Grace
+            loci: grace
+          - i-ii-q113: Q113. The Effects of Grace
+            loci: [grace, justification]
+          - i-ii-q114: Q114. Merit
+            loci: merit
+      - secunda-secundae: Secunda Secundae (II-II)
+        sections:
+          - ii-ii-q1: Q1. Faith
+            loci: faith
+          - ii-ii-q2: Q2. The Act of Faith
+            loci: faith
+          - ii-ii-q3: Q3. The Outward Act of Faith
+            loci: faith
+          - ii-ii-q4: Q4. The Virtue Itself of Faith
+            loci: faith
+          - ii-ii-q5: Q5. Those Who Have Faith
+            loci: faith
+          - ii-ii-q6: Q6. The Cause of Faith
+            loci: faith
+          - ii-ii-q7: Q7. The Effects of Faith
+            loci: faith
+          - ii-ii-q8: Q8. The Gift of Understanding
+          - ii-ii-q9: Q9. The Gift of Knowledge
+          - ii-ii-q10: Q10. Unbelief in General
+            loci: faith
+          - ii-ii-q11: Q11. Heresy
+            loci: faith
+          - ii-ii-q12: Q12. Apostasy
+          - ii-ii-q13: "Q13. The Sin of Blasphemy, in General"
+          - ii-ii-q14: Q14. Blasphemy Against the Holy Ghost
+          - ii-ii-q15: Q15. The Vices Opposed to Knowledge and Understanding
+          - ii-ii-q16: "Q16. The Precepts of Faith, Knowledge, and Understanding"
+          - ii-ii-q17: "Q17. Hope, Considered in Itself"
+            loci: hope
+          - ii-ii-q18: Q18. The Subject of Hope
+            loci: hope
+          - ii-ii-q19: Q19. The Gift of Fear
+            loci: hope
+          - ii-ii-q20: Q20. Despair
+            loci: hope
+          - ii-ii-q21: Q21. Presumption
+            loci: hope
+          - ii-ii-q22: Q22. The Precepts Relating to Hope and Fear
+            loci: hope
+          - ii-ii-q23: "Q23. Charity, Considered in Itself"
+            loci: salvation
+          - ii-ii-q24: Q24. The Subject of Charity
+            loci: salvation
+          - ii-ii-q25: Q25. The Object of Charity
+            loci: salvation
+          - ii-ii-q26: Q26. The Order of Charity
+            loci: salvation
+          - ii-ii-q27: "Q27. The Principal Act of Charity, Which Is to Love"
+          - ii-ii-q28: Q28. Joy
+          - ii-ii-q29: Q29. Peace
+          - ii-ii-q30: Q30. Mercy
+          - ii-ii-q31: Q31. Beneficence
+          - ii-ii-q32: Q32. Almsdeeds
+          - ii-ii-q33: Q33. Fraternal Correction
+          - ii-ii-q34: Q34. Hatred
+          - ii-ii-q35: Q35. Sloth
+          - ii-ii-q36: Q36. Envy
+          - ii-ii-q37: Q37. Discord
+          - ii-ii-q38: Q38. Contention
+          - ii-ii-q39: Q39. Schism
+          - ii-ii-q40: Q40. War
+            loci: war
+          - ii-ii-q41: Q41. Strife
+          - ii-ii-q42: Q42. Sedition
+          - ii-ii-q43: Q43. Scandal
+          - ii-ii-q44: Q44. The Precepts of Charity
+          - ii-ii-q45: Q45. The Gift of Wisdom
+          - ii-ii-q46: Q46. Folly Which Is Opposed to Wisdom
+          - ii-ii-q47: "Q47. Prudence, Considered in Itself"
+          - ii-ii-q48: Q48. The Parts of Prudence
+          - ii-ii-q49: Q49. Each Quasi-Integral Part of Prudence
+          - ii-ii-q50: Q50. The Subjective Parts of Prudence
+          - ii-ii-q51: Q51. The Virtues Which Are Connected With Prudence
+          - ii-ii-q52: Q52. The Gift of Counsel
+          - ii-ii-q53: Q53. Imprudence
+          - ii-ii-q54: Q54. Negligence
+          - ii-ii-q55: Q55. Vices Opposed to Prudence by Way of Resemblance
+          - ii-ii-q56: Q56. Comparison of the Precepts of Prudence
+          - ii-ii-q57: Q57. Right
+            loci: moral-law
+          - ii-ii-q58: Q58. Justice
+            loci: moral-law
+          - ii-ii-q59: Q59. Injustice
+          - ii-ii-q60: Q60. Judgment
+          - ii-ii-q61: Q61. The Parts of Justice
+          - ii-ii-q62: Q62. Restitution
+          - ii-ii-q63: Q63. Respect of Persons
+          - ii-ii-q64: Q64. Murder
+          - ii-ii-q65: Q65. Other Injuries Committed on the Person
+          - ii-ii-q66: Q66. Theft and Robbery
+            loci: property
+          - ii-ii-q67: "Q67. The Injustice of a Judge, in Judging"
+          - ii-ii-q68: Q68. Those Things Which Concern Unjust Accusation
+          - ii-ii-q69: "Q69. Sins Committed Against Justice, on the Part of the Defendant"
+          - ii-ii-q70: Q70. The Injustice of a Witness
+          - ii-ii-q71: Q71. Injustice in Judgment on the Part of Counsel
+          - ii-ii-q72: Q72. Reviling
+          - ii-ii-q73: Q73. Backbiting
+          - ii-ii-q74: Q74. Tale-Bearing
+          - ii-ii-q75: Q75. Derision
+          - ii-ii-q76: Q76. Cursing
+          - ii-ii-q77: "Q77. Cheating, Which Is Committed in Buying and Selling"
+          - ii-ii-q78: Q78. The Sin of Usury
+            loci: property
+          - ii-ii-q79: Q79. The Quasi-Integral Parts of Justice
+          - ii-ii-q80: Q80. The Potential Parts of Justice
+          - ii-ii-q81: Q81. Religion
+            loci: worship
+          - ii-ii-q82: Q82. Devotion
+          - ii-ii-q83: Q83. Prayer
+            loci: prayer
+          - ii-ii-q84: Q84. Adoration
+          - ii-ii-q85: Q85. Sacrifice
+          - ii-ii-q86: Q86. Oblations and First-Fruits
+          - ii-ii-q87: Q87. Tithes
+          - ii-ii-q88: Q88. Vows
+            loci: oaths
+          - ii-ii-q89: Q89. Oaths
+            loci: oaths
+          - ii-ii-q90: Q90. The Taking of God's Name by Way of Adjuration
+          - ii-ii-q91: Q91. The Use of the Divine Name by Way of Praise
+          - ii-ii-q92: Q92. Superstition
+            loci: idolatry
+          - ii-ii-q93: Q93. Superstition Consisting in Undue Worship of the True God
+          - ii-ii-q94: Q94. Idolatry
+            loci: idolatry
+          - ii-ii-q95: Q95. Superstition in Divinations
+          - ii-ii-q96: Q96. Superstition in Observances
+          - ii-ii-q97: Q97. Tempting God
+          - ii-ii-q98: Q98. Perjury
+          - ii-ii-q99: Q99. Sacrilege
+          - ii-ii-q100: Q100. Simony
+          - ii-ii-q101: Q101. Piety
+          - ii-ii-q102: "Q102. Observance, Considered as a Special Virtue, and Its Parts"
+          - ii-ii-q103: Q103. Dulia
+          - ii-ii-q104: Q104. Obedience
+          - ii-ii-q105: Q105. Disobedience
+          - ii-ii-q106: Q106. Gratitude or Thankfulness
+          - ii-ii-q107: Q107. Ingratitude
+          - ii-ii-q108: Q108. Vengeance
+          - ii-ii-q109: Q109. Truth
+            loci: truth
+          - ii-ii-q110: "Q110. The Vices Opposed to Truth, and First of Lying"
+          - ii-ii-q111: Q111. Dissimulation and Hypocrisy
+          - ii-ii-q112: Q112. Boasting
+          - ii-ii-q113: Q113. Irony
+          - ii-ii-q114: Q114. Friendliness or Affability
+          - ii-ii-q115: Q115. Flattery
+          - ii-ii-q116: Quarreling
+          - ii-ii-q117: Q117. Liberality
+          - ii-ii-q118: "Q118. The Vices Opposed to Liberality, and in the First Place, of Covetousness"
+          - ii-ii-q119: Q119. Prodigality
+          - ii-ii-q120: Q120. Epikeia or Equity
+          - ii-ii-q121: Q121. The Gift of Piety
+          - ii-ii-q122: Q122. The Precepts of Justice
+          - ii-ii-q123: Q123. Fortitude
+          - ii-ii-q124: Q124. Martyrdom
+          - ii-ii-q125: Q125. Fear
+          - ii-ii-q126: Q126. Fearlessness
+          - ii-ii-q127: Q127. Daring
+          - ii-ii-q128: Q128. The Parts of Fortitude
+          - ii-ii-q129: Q129. Magnanimity
+          - ii-ii-q130: Q130. Presumption
+          - ii-ii-q131: Q131. Ambition
+          - ii-ii-q132: Q132. Vainglory
+          - ii-ii-q133: Q133. Pusillanimity
+          - ii-ii-q134: Q134. Magnificence
+          - ii-ii-q135: Q135. Meanness
+          - ii-ii-q136: Q136. Patience
+          - ii-ii-q137: Q137. Perseverance
+          - ii-ii-q138: Q138. The Vices Opposed to Perseverance
+          - ii-ii-q139: Q139. The Gift of Fortitude
+          - ii-ii-q140: Q140. The Precepts of Fortitude
+          - ii-ii-q141: Q141. Temperance
+          - ii-ii-q142: Q142. The Vices Opposed to Temperance
+          - ii-ii-q143: Q143. The Parts of Temperance
+          - ii-ii-q144: Q144. Shamefacedness
+          - ii-ii-q145: Q145. Honesty
+          - ii-ii-q146: Q146. Abstinence
+          - ii-ii-q147: Q147. Fasting
+          - ii-ii-q148: Q148. Gluttony
+          - ii-ii-q149: Q149. Sobriety
+          - ii-ii-q150: Q150. Drunkenness
+          - ii-ii-q151: Q151. Chastity
+            loci: chastity
+          - ii-ii-q152: Q152. Virginity
+            loci: chastity
+          - ii-ii-q153: Q153. Lust
+            loci: chastity
+          - ii-ii-q154: Q154. The Parts of Lust
+            loci: chastity
+          - ii-ii-q155: Q155. Continence
+          - ii-ii-q156: Q156. Incontinence
+          - ii-ii-q157: Q157. Clemency and Meekness
+          - ii-ii-q158: Q158. Anger
+          - ii-ii-q159: Q159. Cruelty
+          - ii-ii-q160: Q160. Modesty
+          - ii-ii-q161: Q161. Humility
+          - ii-ii-q162: Q162. Pride
+          - ii-ii-q163: Q163. The Sin of the First Man
+          - ii-ii-q164: Q164. The Punishments of the First Man's Sin
+          - ii-ii-q165: Q165. The Temptation of Our First Parents
+          - ii-ii-q166: Q166. Studiousness
+          - ii-ii-q167: Q167. Curiosity
+          - ii-ii-q168: Q168. Modesty as Consisting in the Outward Movements of the Body
+          - ii-ii-q169: Q169. Modesty in the Outward Apparel
+          - ii-ii-q170: Q170. The Precepts of Temperance
+          - ii-ii-q171: Q171. Prophecy
+          - ii-ii-q172: Q172. The Cause of Prophecy
+          - ii-ii-q173: Q173. The Manner in Which Prophetic Knowledge Is Conveyed
+          - ii-ii-q174: Q174. The Division of Prophecy
+          - ii-ii-q175: Q175. Rapture
+          - ii-ii-q176: Q176. The Grace of Tongues
+          - ii-ii-q177: Q177. The Gratuitous Grace Consisting in Words
+          - ii-ii-q178: Q178. The Grace of Miracles
+          - ii-ii-q179: Q179. The Division of Life Into Active and Contemplative
+          - ii-ii-q180: Q180. The Contemplative Life
+          - ii-ii-q181: Q181. The Active Life
+          - ii-ii-q182: Q182. The Active Life in Comparison With the Contemplative Life
+          - ii-ii-q183: Q183. Man's Various Duties and States in General
+          - ii-ii-q184: Q184. The State of Perfection in General
+          - ii-ii-q185: Q185. Things Pertaining to the Episcopal State
+          - ii-ii-q186: Q186. Those Things in Which the Religious State Properly Consists
+          - ii-ii-q187: Q187. Those Things That Are Competent to Religious
+          - ii-ii-q188: Q188. The Different Kinds of Religious Life
+          - ii-ii-q189: Q189. The Entrance Into Religious Life
+      - tertia-pars: Tertia Pars (III)
+        sections:
+          - iii-q1: Q1. The Fitness of the Incarnation
+            loci: incarnation
+          - iii-q2: Q2. The Mode of Union of the Word Incarnate
+            loci: [incarnation, natures-of-christ]
+          - iii-q3: Q3. The Mode of Union on the Part of the Person Assuming
+            loci: [incarnation, person-of-christ]
+          - iii-q4: Q4. The Mode of Union on the Part of the Human Nature
+            loci: natures-of-christ
+          - iii-q5: Q5. The Parts of Human Nature Which Were Assumed
+            loci: natures-of-christ
+          - iii-q6: Q6. The Order of Assumption
+            loci: natures-of-christ
+          - iii-q7: Q7. The Grace of Christ as an Individual Man
+            loci: grace
+          - iii-q8: "Q8. The Grace of Christ, as He Is the Head of the Church"
+            loci: christ
+          - iii-q9: Q9. Christ's Knowledge in General
+            loci: christ
+          - iii-q10: Q10. The Beatific Knowledge of Christ's Soul
+          - iii-q11: Q11. The Imprinted or Infused Knowledge of Christ's Soul
+          - iii-q12: Q12. The Acquired or Empiric Knowledge of Christ's Soul
+          - iii-q13: Q13. The Power of Christ's Soul
+          - iii-q14: Q14. The Defects of Body Assumed by the Son of God
+            loci: state-of-humiliation
+          - iii-q15: Q15. The Defects of Soul Assumed by Christ
+            loci: state-of-humiliation
+          - iii-q16: Q16. Those Things Which Belong to Christ in His Being and Becoming
+            loci: person-of-christ
+          - iii-q17: Q17. Christ's Unity of Being
+            loci: person-of-christ
+          - iii-q18: Q18. Christ's Unity of Will
+            loci: natures-of-christ
+          - iii-q19: Q19. The Unity of Christ's Operation
+            loci: natures-of-christ
+          - iii-q20: Q20. Christ's Subjection to the Father
+          - iii-q21: Q21. Christ's Prayer
+          - iii-q22: Q22. The Priesthood of Christ
+            loci: priestly-office
+          - iii-q23: Q23. Adoption as Befitting to Christ
+          - iii-q24: Q24. The Predestination of Christ
+            loci: predestination
+          - iii-q25: Q25. The Adoration of Christ
+          - iii-q26: Q26. Christ as Called the Mediator of God and Man
+            loci: christ
+          - iii-q27: Q27. The Sanctification of the Blessed Virgin
+          - iii-q28: Q28. The Virginity of the Mother of God
+          - iii-q29: Q29. The Espousals of the Mother of God
+          - iii-q30: Q30. The Annunciation of the Blessed Virgin
+          - iii-q31: Q31. The Matter From Which the Savior's Body Was Conceived
+          - iii-q32: Q32. The Active Principle in Christ's Conception
+          - iii-q33: Q33. The Mode and Order of Christ's Conception
+          - iii-q34: Q34. The Perfection of the Child Conceived
+          - iii-q35: Q35. The Nativity of Christ
+          - iii-q36: Q36. The Manifestation of the Newly Born Christ
+          - iii-q37: Q37. The Circumcision and Other Legal Observances Practiced on the Infant Christ
+          - iii-q38: Q38. The Baptism of John
+          - iii-q39: Q39. The Baptizing of Christ
+          - iii-q40: Q40. Christ's Manner of Life
+          - iii-q41: Q41. Christ's Temptation
+          - iii-q42: Q42. Christ's Doctrine
+          - iii-q43: "Q43. The Miracles Worked by Christ, in General"
+          - iii-q44: Q44. The Miracles in Particular
+          - iii-q45: Q45. The Transfiguration of Christ
+          - iii-q46: Q46. The Passion of Christ
+            loci: atonement
+          - iii-q47: Q47. The Efficient Cause of Christ's Passion
+            loci: atonement
+          - iii-q48: Q48. The Efficiency of Christ's Passion
+            loci: atonement
+          - iii-q49: Q49. The Effects of Christ's Passion
+            loci: atonement
+          - iii-q50: Q50. The Death of Christ
+            loci: state-of-humiliation
+          - iii-q51: Q51. Christ's Burial
+          - iii-q52: Q52. The Descent of Christ Into Hell
+            loci: state-of-humiliation
+          - iii-q53: Q53. The Resurrection of Christ
+            loci: state-of-exaltation
+          - iii-q54: Q54. The Quality of Christ's Risen Body
+          - iii-q55: Q55. The Manifestation of the Resurrection
+          - iii-q56: Q56. The Causality of Christ's Resurrection
+          - iii-q57: Q57. The Ascension of Christ
+            loci: state-of-exaltation
+          - iii-q58: Q58. Christ's Sitting at the Right Hand of the Father
+            loci: state-of-exaltation
+          - iii-q59: Q59. Christ's Judiciary Power
+            loci: kingly-office
+          - iii-q60: Q60. What Is a Sacrament?
+            loci: sacraments
+          - iii-q61: Q61. The Necessity of the Sacraments
+            loci: sacraments
+          - iii-q62: "Q62. The Principal Effect of the Sacraments, Which Is Grace"
+            loci: sacraments
+          - iii-q63: "Q63. The Other Effect of the Sacraments, Which Is a Character"
+            loci: sacraments
+          - iii-q64: Q64. The Causes of the Sacraments
+            loci: sacraments
+          - iii-q65: Q65. The Number of the Sacraments
+            loci: sacraments
+          - iii-q66: Q66. The Sacrament of Baptism
+            loci: baptism
+          - iii-q67: Q67. The Ministers of Baptism
+            loci: baptism
+          - iii-q68: Q68. Those Who Receive Baptism
+            loci: baptism
+          - iii-q69: Q69. The Effects of Baptism
+            loci: baptism
+          - iii-q70: Q70. Circumcision
+            loci: baptism
+          - iii-q71: Q71. Preparatory Rites of Baptism
+            loci: baptism
+          - iii-q72: Q72. The Sacrament of Confirmation
+            loci: confirmation
+          - iii-q73: Q73. The Sacrament of the Eucharist
+            loci: lords-supper
+          - iii-q74: Q74. The Matter of This Sacrament
+            loci: lords-supper
+          - iii-q75: Q75. The Change of Bread and Wine Into the Body and Blood of Christ
+            loci: lords-supper
+          - iii-q76: Q76. The Way in Which Christ Is in This Sacrament
+            loci: lords-supper
+          - iii-q77: Q77. The Accidents Which Remain in This Sacrament
+            loci: lords-supper
+          - iii-q78: Q78. The Form of This Sacrament
+            loci: lords-supper
+          - iii-q79: Q79. The Effects of This Sacrament
+            loci: lords-supper
+          - iii-q80: Q80. The Use or Receiving of This Sacrament in General
+            loci: lords-supper
+          - iii-q81: Q81. The Use Which Christ Made of This Sacrament at Its Institution
+            loci: lords-supper
+          - iii-q82: Q82. The Minister of This Sacrament
+            loci: lords-supper
+          - iii-q83: Q83. The Rite of This Sacrament
+            loci: lords-supper
+          - iii-q84: Q84. The Sacrament of Penance
+            loci: penance
+          - iii-q85: Q85. Penance as a Virtue
+            loci: penance
+          - iii-q86: "Q86. The Effect of Penance, as Regards the Pardon of Mortal Sin"
+            loci: penance
+          - iii-q87: Q87. The Remission of Venial Sin
+            loci: penance
+          - iii-q88: Q88. The Return of Sins Which Have Been Taken Away by Penance
+            loci: penance
+          - iii-q89: Q89. The Recovery of Virtue by Means of Penance
+            loci: penance
+          - iii-q90: "Q90. The Parts of Penance, in General"
+            loci: penance
+      - supplement: Supplement (Suppl.)
+        sections:
+          - sup-q1: "Q1. The Parts of Penance, in Particular"
+            loci: penance
+          - sup-q2: Q2. Confession
+            loci: penance
+          - sup-q3: Q3. The Seal of Confession
+            loci: penance
+          - sup-q4: Q4. The Nature of the Keys
+            loci: penance
+          - sup-q5: Q5. The Effect of the Keys
+            loci: penance
+          - sup-q6: Q6. Those to Whom the Use of the Keys Is Given
+            loci: penance
+          - sup-q7: Q7. Excommunication
+            loci: church-discipline
+          - sup-q8: Q8. Those Who Can Excommunicate and Be Excommunicated
+            loci: church-discipline
+          - sup-q9: Q9. Absolution From Excommunication
+            loci: church-discipline
+          - sup-q10: Q10. Indulgences
+            loci: indulgences
+          - sup-q11: Q11. Solemn Rite of Penance
+            loci: penance
+          - sup-q12: Q12. The Recipients of This Sacrament
+            loci: penance
+          - sup-q13: Q13. The Possibility of Satisfaction
+            loci: penance
+          - sup-q14: Q14. The Quality of Satisfaction
+            loci: penance
+          - sup-q15: Q15. The Means of Making Satisfaction
+            loci: penance
+          - sup-q16: Q16. Those Who Receive the Sacrament of Penance
+            loci: penance
+          - sup-q17: Q17. The Power of the Keys With Regard to Excommunication
+            loci: church-discipline
+          - sup-q18: Q18. Indulgences
+            loci: indulgences
+          - sup-q19: Q19. The Sacrament of Extreme Unction
+            loci: extreme-unction
+          - sup-q20: "Q20. The Sacrament of Extreme Unction, as Regards Its Matter"
+            loci: extreme-unction
+          - sup-q21: "Q21. The Sacrament of Extreme Unction, as Regards Its Form"
+            loci: extreme-unction
+          - sup-q22: "Q22. The Sacrament of Extreme Unction, as Regards Its Subject"
+            loci: extreme-unction
+          - sup-q23: "Q23. The Sacrament of Extreme Unction, as Regards Its Effect"
+            loci: extreme-unction
+          - sup-q24: Q24. The Sacrament of Order
+            loci: ordination
+          - sup-q25: Q25. The Effect of This Sacrament
+            loci: ordination
+          - sup-q26: Q26. Those Who Can Confer This Sacrament
+            loci: ordination
+          - sup-q27: Q27. Those Who Can Receive This Sacrament
+            loci: ordination
+          - sup-q28: "Q28. The Distinction of Orders, Their Acts, and the Imprinting of the Character"
+            loci: ordination
+          - sup-q29: Q29. The Impediment of Bigamy
+          - sup-q30: Q30. The Impediment of Illegitimacy
+          - sup-q31: Q31. The Impediment That Supervenes to Orders After Their Reception
+          - sup-q32: Q32. The Things Annexed to the Sacrament of Order
+          - sup-q33: Q33. The Impediment to the Sacrament Which Occurs Through a Solemn Vow
+          - sup-q34: Q34. The Marriage Contract
+            loci: marriage
+          - sup-q35: Q35. The Consent of Marriage
+            loci: marriage
+          - sup-q36: Q36. Matrimonial Consent
+            loci: marriage
+          - sup-q37: Q37. The Nuptial Blessing
+            loci: marriage
+          - sup-q38: Q38. Bigamy
+            loci: marriage
+          - sup-q39: Q39. The Impediments of Marriage
+            loci: marriage
+          - sup-q40: Q40. The Impediment of Servile Condition
+            loci: marriage
+          - sup-q41: Q41. The Impediment of Vows and Orders
+            loci: marriage
+          - sup-q42: Q42. The Impediment of Consanguinity
+            loci: marriage
+          - sup-q43: Q43. The Impediment of Affinity
+            loci: marriage
+          - sup-q44: Q44. The Impediment of Spiritual Relationship
+            loci: marriage
+          - sup-q45: Q45. The Impediment of Legal Relationship
+            loci: marriage
+          - sup-q46: Q46. The Impediment of Lack of Age
+            loci: marriage
+          - sup-q47: Q47. The Impediment of Impotence
+            loci: marriage
+          - sup-q48: Q48. The Impediment of Disparity of Worship
+            loci: marriage
+          - sup-q49: Q49. The Marriage Goods
+            loci: marriage
+          - sup-q50: Q50. The Marriage Act
+            loci: marriage
+          - sup-q51: Q51. Virginity
+            loci: marriage
+          - sup-q52: Q52. The Vice of Lust
+            loci: marriage
+          - sup-q53: Q53. The Impediment of Frigidity
+          - sup-q54: Q54. The Impediment of Sorcery
+          - sup-q55: Q55. The Impediment of Madness
+          - sup-q56: Q56. Mutual Consent as Expressed in Words of the Present
+          - sup-q57: Q57. A Betrothal
+          - sup-q58: Q58. The Marriage of Slaves
+          - sup-q59: Q59. Marriage With Second Partners
+          - sup-q60: Q60. The Resurrection
+            loci: resurrection-of-the-dead
+          - sup-q61: Q61. The Quality of Those Who Rise Again
+            loci: resurrection-of-the-dead
+          - sup-q62: Q62. The Conditions Under Which the Risen Shall Rise
+            loci: resurrection-of-the-dead
+          - sup-q63: Q63. The Condition of the Risen as Regards Knowledge
+            loci: resurrection-of-the-dead
+          - sup-q64: Q64. The Condition of the Risen in Relation to Others
+            loci: resurrection-of-the-dead
+          - sup-q65: Q65. The Condition of the Risen in Relation to the Heavenly Bodies
+            loci: resurrection-of-the-dead
+          - sup-q66: Q66. The Condition of the Risen in Relation to the Earthly Bodies
+            loci: resurrection-of-the-dead
+          - sup-q67: Q67. The General Judgment and the Signs That Will Precede It
+            loci: [last-things, final-judgement]
+          - sup-q68: Q68. The Manner in Which the Judge Will Come
+            loci: [last-things, second-coming]
+          - sup-q69: Q69. Things Pertaining to the General Judgment
+            loci: final-judgement
+          - sup-q70: Q70. The Fire of the Final Conflagration
+            loci: last-things
+          - sup-q71: Q71. The Resurrection of the Body
+            loci: resurrection-of-the-dead
+          - sup-q72: Q72. The Quality of the World After the Judgment
+            loci: last-things
+          - sup-q73: Q73. The Condition of the Blessed After the Judgment
+            loci: beatific-vision
+          - sup-q74: Q74. The Condition of the Damned After the Judgment
+            loci: final-state
+          - sup-q75: Q75. The General Judgment
+            loci: final-judgement
+          - sup-q76: Q76. The Fire of Hell
+            loci: final-state
+          - sup-q77: Q77. Suffrages
+            loci: intermediate-state
+          - sup-q78: Q78. Suffrages for the Dead
+            loci: intermediate-state
+          - sup-q79: Q79. The Conditions of the Children Who Have Died With Original Sin Only
+            loci: intermediate-state
+          - sup-q80: Q80. The Form of the Risen Body
+            loci: resurrection-of-the-dead
+          - sup-q81: Q81. The Impassibility of the Bodies of the Blessed
+            loci: resurrection-of-the-dead
+          - sup-q82: Q82. The Subtlety of the Bodies of the Blessed
+            loci: resurrection-of-the-dead
+          - sup-q83: Q83. The Agility of the Bodies of the Blessed
+            loci: resurrection-of-the-dead
+          - sup-q84: Q84. The Clarity of the Bodies of the Blessed
+            loci: resurrection-of-the-dead
+          - sup-q85: Q85. The Condition of the Bodies of the Damned
+            loci: final-state
+          - sup-q86: Q86. The Condition of the Bodies of the Damned
+            loci: final-state
+          - sup-q87: Q87. The Knowledge of the Separated Soul
+          - sup-q88: Q88. The Knowledge of the Separated Soul in Regard to the Things of This World
+          - sup-q89: Q89. The Punishment of the Damned
+            loci: final-state
+          - sup-q90: Q90. Purgatory
+            loci: purgatory
+          - sup-q91: Q91. The Punishment of Souls in Purgatory
+            loci: purgatory
+          - sup-q92: Q92. Prayer With Regard to the Saints in Heaven
+            loci: intermediate-state
+          - sup-q93: Q93. The Aureolae
+          - sup-q94: Q94. The Relations of the Saints Towards the Damned
+            loci: final-state
+          - sup-q95: Q95. The Gifts of the Blessed
+            loci: beatific-vision
+          - sup-q96: Q96. The Aureolae of the Blessed
+          - sup-q97: Q97. The Punishment of the Damned in General
+            loci: final-state
+          - sup-q98: Q98. The Will and the Intellect of the Damned
+            loci: final-state
+          - sup-q99: Q99. God's Mercy and Justice Towards the Damned
+            loci: final-state
+    translations:
+      - translator: Fathers of the English Dominican Province
+        sites:
+          - site: aquinas.cc
+            url: https://aquinas.cc/la/en/~ST.I
+            section_urls:
+              - prima-pars: https://aquinas.cc/la/en/~ST.I
+              - i-q1: Q1. https://aquinas.cc/la/en/~ST.I.Q1
+              - i-q2: Q2. https://aquinas.cc/la/en/~ST.I.Q2
+              - i-q3: Q3. https://aquinas.cc/la/en/~ST.I.Q3
+              - i-q4: Q4. https://aquinas.cc/la/en/~ST.I.Q4
+              - i-q5: Q5. https://aquinas.cc/la/en/~ST.I.Q5
+              - i-q6: Q6. https://aquinas.cc/la/en/~ST.I.Q6
+              - i-q7: Q7. https://aquinas.cc/la/en/~ST.I.Q7
+              - i-q8: Q8. https://aquinas.cc/la/en/~ST.I.Q8
+              - i-q9: Q9. https://aquinas.cc/la/en/~ST.I.Q9
+              - i-q10: Q10. https://aquinas.cc/la/en/~ST.I.Q10
+              - i-q11: Q11. https://aquinas.cc/la/en/~ST.I.Q11
+              - i-q12: Q12. https://aquinas.cc/la/en/~ST.I.Q12
+              - i-q13: Q13. https://aquinas.cc/la/en/~ST.I.Q13
+              - i-q14: Q14. https://aquinas.cc/la/en/~ST.I.Q14
+              - i-q15: Q15. https://aquinas.cc/la/en/~ST.I.Q15
+              - i-q16: Q16. https://aquinas.cc/la/en/~ST.I.Q16
+              - i-q17: Q17. https://aquinas.cc/la/en/~ST.I.Q17
+              - i-q18: Q18. https://aquinas.cc/la/en/~ST.I.Q18
+              - i-q19: Q19. https://aquinas.cc/la/en/~ST.I.Q19
+              - i-q20: Q20. https://aquinas.cc/la/en/~ST.I.Q20
+              - i-q21: Q21. https://aquinas.cc/la/en/~ST.I.Q21
+              - i-q22: Q22. https://aquinas.cc/la/en/~ST.I.Q22
+              - i-q23: Q23. https://aquinas.cc/la/en/~ST.I.Q23
+              - i-q24: Q24. https://aquinas.cc/la/en/~ST.I.Q24
+              - i-q25: Q25. https://aquinas.cc/la/en/~ST.I.Q25
+              - i-q26: Q26. https://aquinas.cc/la/en/~ST.I.Q26
+              - i-q27: Q27. https://aquinas.cc/la/en/~ST.I.Q27
+              - i-q28: Q28. https://aquinas.cc/la/en/~ST.I.Q28
+              - i-q29: Q29. https://aquinas.cc/la/en/~ST.I.Q29
+              - i-q30: Q30. https://aquinas.cc/la/en/~ST.I.Q30
+              - i-q31: Q31. https://aquinas.cc/la/en/~ST.I.Q31
+              - i-q32: Q32. https://aquinas.cc/la/en/~ST.I.Q32
+              - i-q33: Q33. https://aquinas.cc/la/en/~ST.I.Q33
+              - i-q34: Q34. https://aquinas.cc/la/en/~ST.I.Q34
+              - i-q35: Q35. https://aquinas.cc/la/en/~ST.I.Q35
+              - i-q36: Q36. https://aquinas.cc/la/en/~ST.I.Q36
+              - i-q37: Q37. https://aquinas.cc/la/en/~ST.I.Q37
+              - i-q38: Q38. https://aquinas.cc/la/en/~ST.I.Q38
+              - i-q39: Q39. https://aquinas.cc/la/en/~ST.I.Q39
+              - i-q40: Q40. https://aquinas.cc/la/en/~ST.I.Q40
+              - i-q41: Q41. https://aquinas.cc/la/en/~ST.I.Q41
+              - i-q42: Q42. https://aquinas.cc/la/en/~ST.I.Q42
+              - i-q43: Q43. https://aquinas.cc/la/en/~ST.I.Q43
+              - i-q44: Q44. https://aquinas.cc/la/en/~ST.I.Q44
+              - i-q45: Q45. https://aquinas.cc/la/en/~ST.I.Q45
+              - i-q46: Q46. https://aquinas.cc/la/en/~ST.I.Q46
+              - i-q47: Q47. https://aquinas.cc/la/en/~ST.I.Q47
+              - i-q48: Q48. https://aquinas.cc/la/en/~ST.I.Q48
+              - i-q49: Q49. https://aquinas.cc/la/en/~ST.I.Q49
+              - i-q50: Q50. https://aquinas.cc/la/en/~ST.I.Q50
+              - i-q51: Q51. https://aquinas.cc/la/en/~ST.I.Q51
+              - i-q52: Q52. https://aquinas.cc/la/en/~ST.I.Q52
+              - i-q53: Q53. https://aquinas.cc/la/en/~ST.I.Q53
+              - i-q54: Q54. https://aquinas.cc/la/en/~ST.I.Q54
+              - i-q55: Q55. https://aquinas.cc/la/en/~ST.I.Q55
+              - i-q56: Q56. https://aquinas.cc/la/en/~ST.I.Q56
+              - i-q57: Q57. https://aquinas.cc/la/en/~ST.I.Q57
+              - i-q58: Q58. https://aquinas.cc/la/en/~ST.I.Q58
+              - i-q59: Q59. https://aquinas.cc/la/en/~ST.I.Q59
+              - i-q60: Q60. https://aquinas.cc/la/en/~ST.I.Q60
+              - i-q61: Q61. https://aquinas.cc/la/en/~ST.I.Q61
+              - i-q62: Q62. https://aquinas.cc/la/en/~ST.I.Q62
+              - i-q63: Q63. https://aquinas.cc/la/en/~ST.I.Q63
+              - i-q64: Q64. https://aquinas.cc/la/en/~ST.I.Q64
+              - i-q65: Q65. https://aquinas.cc/la/en/~ST.I.Q65
+              - i-q66: Q66. https://aquinas.cc/la/en/~ST.I.Q66
+              - i-q67: Q67. https://aquinas.cc/la/en/~ST.I.Q67
+              - i-q68: Q68. https://aquinas.cc/la/en/~ST.I.Q68
+              - i-q69: Q69. https://aquinas.cc/la/en/~ST.I.Q69
+              - i-q70: Q70. https://aquinas.cc/la/en/~ST.I.Q70
+              - i-q71: Q71. https://aquinas.cc/la/en/~ST.I.Q71
+              - i-q72: Q72. https://aquinas.cc/la/en/~ST.I.Q72
+              - i-q73: Q73. https://aquinas.cc/la/en/~ST.I.Q73
+              - i-q74: Q74. https://aquinas.cc/la/en/~ST.I.Q74
+              - i-q75: Q75. https://aquinas.cc/la/en/~ST.I.Q75
+              - i-q76: Q76. https://aquinas.cc/la/en/~ST.I.Q76
+              - i-q77: Q77. https://aquinas.cc/la/en/~ST.I.Q77
+              - i-q78: Q78. https://aquinas.cc/la/en/~ST.I.Q78
+              - i-q79: Q79. https://aquinas.cc/la/en/~ST.I.Q79
+              - i-q80: Q80. https://aquinas.cc/la/en/~ST.I.Q80
+              - i-q81: Q81. https://aquinas.cc/la/en/~ST.I.Q81
+              - i-q82: Q82. https://aquinas.cc/la/en/~ST.I.Q82
+              - i-q83: Q83. https://aquinas.cc/la/en/~ST.I.Q83
+              - i-q84: Q84. https://aquinas.cc/la/en/~ST.I.Q84
+              - i-q85: Q85. https://aquinas.cc/la/en/~ST.I.Q85
+              - i-q86: Q86. https://aquinas.cc/la/en/~ST.I.Q86
+              - i-q87: Q87. https://aquinas.cc/la/en/~ST.I.Q87
+              - i-q88: Q88. https://aquinas.cc/la/en/~ST.I.Q88
+              - i-q89: Q89. https://aquinas.cc/la/en/~ST.I.Q89
+              - i-q90: Q90. https://aquinas.cc/la/en/~ST.I.Q90
+              - i-q91: Q91. https://aquinas.cc/la/en/~ST.I.Q91
+              - i-q92: Q92. https://aquinas.cc/la/en/~ST.I.Q92
+              - i-q93: Q93. https://aquinas.cc/la/en/~ST.I.Q93
+              - i-q94: Q94. https://aquinas.cc/la/en/~ST.I.Q94
+              - i-q95: Q95. https://aquinas.cc/la/en/~ST.I.Q95
+              - i-q96: Q96. https://aquinas.cc/la/en/~ST.I.Q96
+              - i-q97: Q97. https://aquinas.cc/la/en/~ST.I.Q97
+              - i-q98: Q98. https://aquinas.cc/la/en/~ST.I.Q98
+              - i-q99: Q99. https://aquinas.cc/la/en/~ST.I.Q99
+              - i-q100: Q100. https://aquinas.cc/la/en/~ST.I.Q100
+              - i-q101: Q101. https://aquinas.cc/la/en/~ST.I.Q101
+              - i-q102: Q102. https://aquinas.cc/la/en/~ST.I.Q102
+              - i-q103: Q103. https://aquinas.cc/la/en/~ST.I.Q103
+              - i-q104: Q104. https://aquinas.cc/la/en/~ST.I.Q104
+              - i-q105: Q105. https://aquinas.cc/la/en/~ST.I.Q105
+              - i-q106: Q106. https://aquinas.cc/la/en/~ST.I.Q106
+              - i-q107: Q107. https://aquinas.cc/la/en/~ST.I.Q107
+              - i-q108: Q108. https://aquinas.cc/la/en/~ST.I.Q108
+              - i-q109: Q109. https://aquinas.cc/la/en/~ST.I.Q109
+              - i-q110: Q110. https://aquinas.cc/la/en/~ST.I.Q110
+              - i-q111: Q111. https://aquinas.cc/la/en/~ST.I.Q111
+              - i-q112: Q112. https://aquinas.cc/la/en/~ST.I.Q112
+              - i-q113: Q113. https://aquinas.cc/la/en/~ST.I.Q113
+              - i-q114: Q114. https://aquinas.cc/la/en/~ST.I.Q114
+              - i-q115: Q115. https://aquinas.cc/la/en/~ST.I.Q115
+              - i-q116: Q116. https://aquinas.cc/la/en/~ST.I.Q116
+              - i-q117: Q117. https://aquinas.cc/la/en/~ST.I.Q117
+              - i-q118: Q118. https://aquinas.cc/la/en/~ST.I.Q118
+              - i-q119: Q119. https://aquinas.cc/la/en/~ST.I.Q119
+              - prima-secundae: https://aquinas.cc/la/en/~ST.I-II
+              - i-ii-q1: Q1. https://aquinas.cc/la/en/~ST.I-II.Q1
+              - i-ii-q2: Q2. https://aquinas.cc/la/en/~ST.I-II.Q2
+              - i-ii-q3: Q3. https://aquinas.cc/la/en/~ST.I-II.Q3
+              - i-ii-q4: Q4. https://aquinas.cc/la/en/~ST.I-II.Q4
+              - i-ii-q5: Q5. https://aquinas.cc/la/en/~ST.I-II.Q5
+              - i-ii-q6: Q6. https://aquinas.cc/la/en/~ST.I-II.Q6
+              - i-ii-q7: Q7. https://aquinas.cc/la/en/~ST.I-II.Q7
+              - i-ii-q8: Q8. https://aquinas.cc/la/en/~ST.I-II.Q8
+              - i-ii-q9: Q9. https://aquinas.cc/la/en/~ST.I-II.Q9
+              - i-ii-q10: Q10. https://aquinas.cc/la/en/~ST.I-II.Q10
+              - i-ii-q11: Q11. https://aquinas.cc/la/en/~ST.I-II.Q11
+              - i-ii-q12: Q12. https://aquinas.cc/la/en/~ST.I-II.Q12
+              - i-ii-q13: Q13. https://aquinas.cc/la/en/~ST.I-II.Q13
+              - i-ii-q14: Q14. https://aquinas.cc/la/en/~ST.I-II.Q14
+              - i-ii-q15: Q15. https://aquinas.cc/la/en/~ST.I-II.Q15
+              - i-ii-q16: Q16. https://aquinas.cc/la/en/~ST.I-II.Q16
+              - i-ii-q17: Q17. https://aquinas.cc/la/en/~ST.I-II.Q17
+              - i-ii-q18: Q18. https://aquinas.cc/la/en/~ST.I-II.Q18
+              - i-ii-q19: Q19. https://aquinas.cc/la/en/~ST.I-II.Q19
+              - i-ii-q20: Q20. https://aquinas.cc/la/en/~ST.I-II.Q20
+              - i-ii-q21: Q21. https://aquinas.cc/la/en/~ST.I-II.Q21
+              - i-ii-q22: Q22. https://aquinas.cc/la/en/~ST.I-II.Q22
+              - i-ii-q23: Q23. https://aquinas.cc/la/en/~ST.I-II.Q23
+              - i-ii-q24: Q24. https://aquinas.cc/la/en/~ST.I-II.Q24
+              - i-ii-q25: Q25. https://aquinas.cc/la/en/~ST.I-II.Q25
+              - i-ii-q26: Q26. https://aquinas.cc/la/en/~ST.I-II.Q26
+              - i-ii-q27: Q27. https://aquinas.cc/la/en/~ST.I-II.Q27
+              - i-ii-q28: Q28. https://aquinas.cc/la/en/~ST.I-II.Q28
+              - i-ii-q29: Q29. https://aquinas.cc/la/en/~ST.I-II.Q29
+              - i-ii-q30: Q30. https://aquinas.cc/la/en/~ST.I-II.Q30
+              - i-ii-q31: Q31. https://aquinas.cc/la/en/~ST.I-II.Q31
+              - i-ii-q32: Q32. https://aquinas.cc/la/en/~ST.I-II.Q32
+              - i-ii-q33: Q33. https://aquinas.cc/la/en/~ST.I-II.Q33
+              - i-ii-q34: Q34. https://aquinas.cc/la/en/~ST.I-II.Q34
+              - i-ii-q35: Q35. https://aquinas.cc/la/en/~ST.I-II.Q35
+              - i-ii-q36: Q36. https://aquinas.cc/la/en/~ST.I-II.Q36
+              - i-ii-q37: Q37. https://aquinas.cc/la/en/~ST.I-II.Q37
+              - i-ii-q38: Q38. https://aquinas.cc/la/en/~ST.I-II.Q38
+              - i-ii-q39: Q39. https://aquinas.cc/la/en/~ST.I-II.Q39
+              - i-ii-q40: Q40. https://aquinas.cc/la/en/~ST.I-II.Q40
+              - i-ii-q41: Q41. https://aquinas.cc/la/en/~ST.I-II.Q41
+              - i-ii-q42: Q42. https://aquinas.cc/la/en/~ST.I-II.Q42
+              - i-ii-q43: Q43. https://aquinas.cc/la/en/~ST.I-II.Q43
+              - i-ii-q44: Q44. https://aquinas.cc/la/en/~ST.I-II.Q44
+              - i-ii-q45: Q45. https://aquinas.cc/la/en/~ST.I-II.Q45
+              - i-ii-q46: Q46. https://aquinas.cc/la/en/~ST.I-II.Q46
+              - i-ii-q47: Q47. https://aquinas.cc/la/en/~ST.I-II.Q47
+              - i-ii-q48: Q48. https://aquinas.cc/la/en/~ST.I-II.Q48
+              - i-ii-q49: Q49. https://aquinas.cc/la/en/~ST.I-II.Q49
+              - i-ii-q50: Q50. https://aquinas.cc/la/en/~ST.I-II.Q50
+              - i-ii-q51: Q51. https://aquinas.cc/la/en/~ST.I-II.Q51
+              - i-ii-q52: Q52. https://aquinas.cc/la/en/~ST.I-II.Q52
+              - i-ii-q53: Q53. https://aquinas.cc/la/en/~ST.I-II.Q53
+              - i-ii-q54: Q54. https://aquinas.cc/la/en/~ST.I-II.Q54
+              - i-ii-q55: Q55. https://aquinas.cc/la/en/~ST.I-II.Q55
+              - i-ii-q56: Q56. https://aquinas.cc/la/en/~ST.I-II.Q56
+              - i-ii-q57: Q57. https://aquinas.cc/la/en/~ST.I-II.Q57
+              - i-ii-q58: Q58. https://aquinas.cc/la/en/~ST.I-II.Q58
+              - i-ii-q59: Q59. https://aquinas.cc/la/en/~ST.I-II.Q59
+              - i-ii-q60: Q60. https://aquinas.cc/la/en/~ST.I-II.Q60
+              - i-ii-q61: Q61. https://aquinas.cc/la/en/~ST.I-II.Q61
+              - i-ii-q62: Q62. https://aquinas.cc/la/en/~ST.I-II.Q62
+              - i-ii-q63: Q63. https://aquinas.cc/la/en/~ST.I-II.Q63
+              - i-ii-q64: Q64. https://aquinas.cc/la/en/~ST.I-II.Q64
+              - i-ii-q65: Q65. https://aquinas.cc/la/en/~ST.I-II.Q65
+              - i-ii-q66: Q66. https://aquinas.cc/la/en/~ST.I-II.Q66
+              - i-ii-q67: Q67. https://aquinas.cc/la/en/~ST.I-II.Q67
+              - i-ii-q68: Q68. https://aquinas.cc/la/en/~ST.I-II.Q68
+              - i-ii-q69: Q69. https://aquinas.cc/la/en/~ST.I-II.Q69
+              - i-ii-q70: Q70. https://aquinas.cc/la/en/~ST.I-II.Q70
+              - i-ii-q71: Q71. https://aquinas.cc/la/en/~ST.I-II.Q71
+              - i-ii-q72: Q72. https://aquinas.cc/la/en/~ST.I-II.Q72
+              - i-ii-q73: Q73. https://aquinas.cc/la/en/~ST.I-II.Q73
+              - i-ii-q74: Q74. https://aquinas.cc/la/en/~ST.I-II.Q74
+              - i-ii-q75: Q75. https://aquinas.cc/la/en/~ST.I-II.Q75
+              - i-ii-q76: Q76. https://aquinas.cc/la/en/~ST.I-II.Q76
+              - i-ii-q77: Q77. https://aquinas.cc/la/en/~ST.I-II.Q77
+              - i-ii-q78: Q78. https://aquinas.cc/la/en/~ST.I-II.Q78
+              - i-ii-q79: Q79. https://aquinas.cc/la/en/~ST.I-II.Q79
+              - i-ii-q80: Q80. https://aquinas.cc/la/en/~ST.I-II.Q80
+              - i-ii-q81: Q81. https://aquinas.cc/la/en/~ST.I-II.Q81
+              - i-ii-q82: Q82. https://aquinas.cc/la/en/~ST.I-II.Q82
+              - i-ii-q83: Q83. https://aquinas.cc/la/en/~ST.I-II.Q83
+              - i-ii-q84: Q84. https://aquinas.cc/la/en/~ST.I-II.Q84
+              - i-ii-q85: Q85. https://aquinas.cc/la/en/~ST.I-II.Q85
+              - i-ii-q86: Q86. https://aquinas.cc/la/en/~ST.I-II.Q86
+              - i-ii-q87: Q87. https://aquinas.cc/la/en/~ST.I-II.Q87
+              - i-ii-q88: Q88. https://aquinas.cc/la/en/~ST.I-II.Q88
+              - i-ii-q89: Q89. https://aquinas.cc/la/en/~ST.I-II.Q89
+              - i-ii-q90: Q90. https://aquinas.cc/la/en/~ST.I-II.Q90
+              - i-ii-q91: Q91. https://aquinas.cc/la/en/~ST.I-II.Q91
+              - i-ii-q92: Q92. https://aquinas.cc/la/en/~ST.I-II.Q92
+              - i-ii-q93: Q93. https://aquinas.cc/la/en/~ST.I-II.Q93
+              - i-ii-q94: Q94. https://aquinas.cc/la/en/~ST.I-II.Q94
+              - i-ii-q95: Q95. https://aquinas.cc/la/en/~ST.I-II.Q95
+              - i-ii-q96: Q96. https://aquinas.cc/la/en/~ST.I-II.Q96
+              - i-ii-q97: Q97. https://aquinas.cc/la/en/~ST.I-II.Q97
+              - i-ii-q98: Q98. https://aquinas.cc/la/en/~ST.I-II.Q98
+              - i-ii-q99: Q99. https://aquinas.cc/la/en/~ST.I-II.Q99
+              - i-ii-q100: Q100. https://aquinas.cc/la/en/~ST.I-II.Q100
+              - i-ii-q101: Q101. https://aquinas.cc/la/en/~ST.I-II.Q101
+              - i-ii-q102: Q102. https://aquinas.cc/la/en/~ST.I-II.Q102
+              - i-ii-q103: Q103. https://aquinas.cc/la/en/~ST.I-II.Q103
+              - i-ii-q104: Q104. https://aquinas.cc/la/en/~ST.I-II.Q104
+              - i-ii-q105: Q105. https://aquinas.cc/la/en/~ST.I-II.Q105
+              - i-ii-q106: Q106. https://aquinas.cc/la/en/~ST.I-II.Q106
+              - i-ii-q107: Q107. https://aquinas.cc/la/en/~ST.I-II.Q107
+              - i-ii-q108: Q108. https://aquinas.cc/la/en/~ST.I-II.Q108
+              - i-ii-q109: Q109. https://aquinas.cc/la/en/~ST.I-II.Q109
+              - i-ii-q110: Q110. https://aquinas.cc/la/en/~ST.I-II.Q110
+              - i-ii-q111: Q111. https://aquinas.cc/la/en/~ST.I-II.Q111
+              - i-ii-q112: Q112. https://aquinas.cc/la/en/~ST.I-II.Q112
+              - i-ii-q113: Q113. https://aquinas.cc/la/en/~ST.I-II.Q113
+              - i-ii-q114: Q114. https://aquinas.cc/la/en/~ST.I-II.Q114
+              - secunda-secundae: https://aquinas.cc/la/en/~ST.II-II
+              - ii-ii-q1: Q1. https://aquinas.cc/la/en/~ST.II-II.Q1
+              - ii-ii-q2: Q2. https://aquinas.cc/la/en/~ST.II-II.Q2
+              - ii-ii-q3: Q3. https://aquinas.cc/la/en/~ST.II-II.Q3
+              - ii-ii-q4: Q4. https://aquinas.cc/la/en/~ST.II-II.Q4
+              - ii-ii-q5: Q5. https://aquinas.cc/la/en/~ST.II-II.Q5
+              - ii-ii-q6: Q6. https://aquinas.cc/la/en/~ST.II-II.Q6
+              - ii-ii-q7: Q7. https://aquinas.cc/la/en/~ST.II-II.Q7
+              - ii-ii-q8: Q8. https://aquinas.cc/la/en/~ST.II-II.Q8
+              - ii-ii-q9: Q9. https://aquinas.cc/la/en/~ST.II-II.Q9
+              - ii-ii-q10: Q10. https://aquinas.cc/la/en/~ST.II-II.Q10
+              - ii-ii-q11: Q11. https://aquinas.cc/la/en/~ST.II-II.Q11
+              - ii-ii-q12: Q12. https://aquinas.cc/la/en/~ST.II-II.Q12
+              - ii-ii-q13: Q13. https://aquinas.cc/la/en/~ST.II-II.Q13
+              - ii-ii-q14: Q14. https://aquinas.cc/la/en/~ST.II-II.Q14
+              - ii-ii-q15: Q15. https://aquinas.cc/la/en/~ST.II-II.Q15
+              - ii-ii-q16: Q16. https://aquinas.cc/la/en/~ST.II-II.Q16
+              - ii-ii-q17: Q17. https://aquinas.cc/la/en/~ST.II-II.Q17
+              - ii-ii-q18: Q18. https://aquinas.cc/la/en/~ST.II-II.Q18
+              - ii-ii-q19: Q19. https://aquinas.cc/la/en/~ST.II-II.Q19
+              - ii-ii-q20: Q20. https://aquinas.cc/la/en/~ST.II-II.Q20
+              - ii-ii-q21: Q21. https://aquinas.cc/la/en/~ST.II-II.Q21
+              - ii-ii-q22: Q22. https://aquinas.cc/la/en/~ST.II-II.Q22
+              - ii-ii-q23: Q23. https://aquinas.cc/la/en/~ST.II-II.Q23
+              - ii-ii-q24: Q24. https://aquinas.cc/la/en/~ST.II-II.Q24
+              - ii-ii-q25: Q25. https://aquinas.cc/la/en/~ST.II-II.Q25
+              - ii-ii-q26: Q26. https://aquinas.cc/la/en/~ST.II-II.Q26
+              - ii-ii-q27: Q27. https://aquinas.cc/la/en/~ST.II-II.Q27
+              - ii-ii-q28: Q28. https://aquinas.cc/la/en/~ST.II-II.Q28
+              - ii-ii-q29: Q29. https://aquinas.cc/la/en/~ST.II-II.Q29
+              - ii-ii-q30: Q30. https://aquinas.cc/la/en/~ST.II-II.Q30
+              - ii-ii-q31: Q31. https://aquinas.cc/la/en/~ST.II-II.Q31
+              - ii-ii-q32: Q32. https://aquinas.cc/la/en/~ST.II-II.Q32
+              - ii-ii-q33: Q33. https://aquinas.cc/la/en/~ST.II-II.Q33
+              - ii-ii-q34: Q34. https://aquinas.cc/la/en/~ST.II-II.Q34
+              - ii-ii-q35: Q35. https://aquinas.cc/la/en/~ST.II-II.Q35
+              - ii-ii-q36: Q36. https://aquinas.cc/la/en/~ST.II-II.Q36
+              - ii-ii-q37: Q37. https://aquinas.cc/la/en/~ST.II-II.Q37
+              - ii-ii-q38: Q38. https://aquinas.cc/la/en/~ST.II-II.Q38
+              - ii-ii-q39: Q39. https://aquinas.cc/la/en/~ST.II-II.Q39
+              - ii-ii-q40: Q40. https://aquinas.cc/la/en/~ST.II-II.Q40
+              - ii-ii-q41: Q41. https://aquinas.cc/la/en/~ST.II-II.Q41
+              - ii-ii-q42: Q42. https://aquinas.cc/la/en/~ST.II-II.Q42
+              - ii-ii-q43: Q43. https://aquinas.cc/la/en/~ST.II-II.Q43
+              - ii-ii-q44: Q44. https://aquinas.cc/la/en/~ST.II-II.Q44
+              - ii-ii-q45: Q45. https://aquinas.cc/la/en/~ST.II-II.Q45
+              - ii-ii-q46: Q46. https://aquinas.cc/la/en/~ST.II-II.Q46
+              - ii-ii-q47: Q47. https://aquinas.cc/la/en/~ST.II-II.Q47
+              - ii-ii-q48: Q48. https://aquinas.cc/la/en/~ST.II-II.Q48
+              - ii-ii-q49: Q49. https://aquinas.cc/la/en/~ST.II-II.Q49
+              - ii-ii-q50: Q50. https://aquinas.cc/la/en/~ST.II-II.Q50
+              - ii-ii-q51: Q51. https://aquinas.cc/la/en/~ST.II-II.Q51
+              - ii-ii-q52: Q52. https://aquinas.cc/la/en/~ST.II-II.Q52
+              - ii-ii-q53: Q53. https://aquinas.cc/la/en/~ST.II-II.Q53
+              - ii-ii-q54: Q54. https://aquinas.cc/la/en/~ST.II-II.Q54
+              - ii-ii-q55: Q55. https://aquinas.cc/la/en/~ST.II-II.Q55
+              - ii-ii-q56: Q56. https://aquinas.cc/la/en/~ST.II-II.Q56
+              - ii-ii-q57: Q57. https://aquinas.cc/la/en/~ST.II-II.Q57
+              - ii-ii-q58: Q58. https://aquinas.cc/la/en/~ST.II-II.Q58
+              - ii-ii-q59: Q59. https://aquinas.cc/la/en/~ST.II-II.Q59
+              - ii-ii-q60: Q60. https://aquinas.cc/la/en/~ST.II-II.Q60
+              - ii-ii-q61: Q61. https://aquinas.cc/la/en/~ST.II-II.Q61
+              - ii-ii-q62: Q62. https://aquinas.cc/la/en/~ST.II-II.Q62
+              - ii-ii-q63: Q63. https://aquinas.cc/la/en/~ST.II-II.Q63
+              - ii-ii-q64: Q64. https://aquinas.cc/la/en/~ST.II-II.Q64
+              - ii-ii-q65: Q65. https://aquinas.cc/la/en/~ST.II-II.Q65
+              - ii-ii-q66: Q66. https://aquinas.cc/la/en/~ST.II-II.Q66
+              - ii-ii-q67: Q67. https://aquinas.cc/la/en/~ST.II-II.Q67
+              - ii-ii-q68: Q68. https://aquinas.cc/la/en/~ST.II-II.Q68
+              - ii-ii-q69: Q69. https://aquinas.cc/la/en/~ST.II-II.Q69
+              - ii-ii-q70: Q70. https://aquinas.cc/la/en/~ST.II-II.Q70
+              - ii-ii-q71: Q71. https://aquinas.cc/la/en/~ST.II-II.Q71
+              - ii-ii-q72: Q72. https://aquinas.cc/la/en/~ST.II-II.Q72
+              - ii-ii-q73: Q73. https://aquinas.cc/la/en/~ST.II-II.Q73
+              - ii-ii-q74: Q74. https://aquinas.cc/la/en/~ST.II-II.Q74
+              - ii-ii-q75: Q75. https://aquinas.cc/la/en/~ST.II-II.Q75
+              - ii-ii-q76: Q76. https://aquinas.cc/la/en/~ST.II-II.Q76
+              - ii-ii-q77: Q77. https://aquinas.cc/la/en/~ST.II-II.Q77
+              - ii-ii-q78: Q78. https://aquinas.cc/la/en/~ST.II-II.Q78
+              - ii-ii-q79: Q79. https://aquinas.cc/la/en/~ST.II-II.Q79
+              - ii-ii-q80: Q80. https://aquinas.cc/la/en/~ST.II-II.Q80
+              - ii-ii-q81: Q81. https://aquinas.cc/la/en/~ST.II-II.Q81
+              - ii-ii-q82: Q82. https://aquinas.cc/la/en/~ST.II-II.Q82
+              - ii-ii-q83: Q83. https://aquinas.cc/la/en/~ST.II-II.Q83
+              - ii-ii-q84: Q84. https://aquinas.cc/la/en/~ST.II-II.Q84
+              - ii-ii-q85: Q85. https://aquinas.cc/la/en/~ST.II-II.Q85
+              - ii-ii-q86: Q86. https://aquinas.cc/la/en/~ST.II-II.Q86
+              - ii-ii-q87: Q87. https://aquinas.cc/la/en/~ST.II-II.Q87
+              - ii-ii-q88: Q88. https://aquinas.cc/la/en/~ST.II-II.Q88
+              - ii-ii-q89: Q89. https://aquinas.cc/la/en/~ST.II-II.Q89
+              - ii-ii-q90: Q90. https://aquinas.cc/la/en/~ST.II-II.Q90
+              - ii-ii-q91: Q91. https://aquinas.cc/la/en/~ST.II-II.Q91
+              - ii-ii-q92: Q92. https://aquinas.cc/la/en/~ST.II-II.Q92
+              - ii-ii-q93: Q93. https://aquinas.cc/la/en/~ST.II-II.Q93
+              - ii-ii-q94: Q94. https://aquinas.cc/la/en/~ST.II-II.Q94
+              - ii-ii-q95: Q95. https://aquinas.cc/la/en/~ST.II-II.Q95
+              - ii-ii-q96: Q96. https://aquinas.cc/la/en/~ST.II-II.Q96
+              - ii-ii-q97: Q97. https://aquinas.cc/la/en/~ST.II-II.Q97
+              - ii-ii-q98: Q98. https://aquinas.cc/la/en/~ST.II-II.Q98
+              - ii-ii-q99: Q99. https://aquinas.cc/la/en/~ST.II-II.Q99
+              - ii-ii-q100: Q100. https://aquinas.cc/la/en/~ST.II-II.Q100
+              - ii-ii-q101: Q101. https://aquinas.cc/la/en/~ST.II-II.Q101
+              - ii-ii-q102: Q102. https://aquinas.cc/la/en/~ST.II-II.Q102
+              - ii-ii-q103: Q103. https://aquinas.cc/la/en/~ST.II-II.Q103
+              - ii-ii-q104: Q104. https://aquinas.cc/la/en/~ST.II-II.Q104
+              - ii-ii-q105: Q105. https://aquinas.cc/la/en/~ST.II-II.Q105
+              - ii-ii-q106: Q106. https://aquinas.cc/la/en/~ST.II-II.Q106
+              - ii-ii-q107: Q107. https://aquinas.cc/la/en/~ST.II-II.Q107
+              - ii-ii-q108: Q108. https://aquinas.cc/la/en/~ST.II-II.Q108
+              - ii-ii-q109: Q109. https://aquinas.cc/la/en/~ST.II-II.Q109
+              - ii-ii-q110: Q110. https://aquinas.cc/la/en/~ST.II-II.Q110
+              - ii-ii-q111: Q111. https://aquinas.cc/la/en/~ST.II-II.Q111
+              - ii-ii-q112: Q112. https://aquinas.cc/la/en/~ST.II-II.Q112
+              - ii-ii-q113: Q113. https://aquinas.cc/la/en/~ST.II-II.Q113
+              - ii-ii-q114: Q114. https://aquinas.cc/la/en/~ST.II-II.Q114
+              - ii-ii-q115: Q115. https://aquinas.cc/la/en/~ST.II-II.Q115
+              - ii-ii-q116: Q116. https://aquinas.cc/la/en/~ST.II-II.Q116
+              - ii-ii-q117: Q117. https://aquinas.cc/la/en/~ST.II-II.Q117
+              - ii-ii-q118: Q118. https://aquinas.cc/la/en/~ST.II-II.Q118
+              - ii-ii-q119: Q119. https://aquinas.cc/la/en/~ST.II-II.Q119
+              - ii-ii-q120: Q120. https://aquinas.cc/la/en/~ST.II-II.Q120
+              - ii-ii-q121: Q121. https://aquinas.cc/la/en/~ST.II-II.Q121
+              - ii-ii-q122: Q122. https://aquinas.cc/la/en/~ST.II-II.Q122
+              - ii-ii-q123: Q123. https://aquinas.cc/la/en/~ST.II-II.Q123
+              - ii-ii-q124: Q124. https://aquinas.cc/la/en/~ST.II-II.Q124
+              - ii-ii-q125: Q125. https://aquinas.cc/la/en/~ST.II-II.Q125
+              - ii-ii-q126: Q126. https://aquinas.cc/la/en/~ST.II-II.Q126
+              - ii-ii-q127: Q127. https://aquinas.cc/la/en/~ST.II-II.Q127
+              - ii-ii-q128: Q128. https://aquinas.cc/la/en/~ST.II-II.Q128
+              - ii-ii-q129: Q129. https://aquinas.cc/la/en/~ST.II-II.Q129
+              - ii-ii-q130: Q130. https://aquinas.cc/la/en/~ST.II-II.Q130
+              - ii-ii-q131: Q131. https://aquinas.cc/la/en/~ST.II-II.Q131
+              - ii-ii-q132: Q132. https://aquinas.cc/la/en/~ST.II-II.Q132
+              - ii-ii-q133: Q133. https://aquinas.cc/la/en/~ST.II-II.Q133
+              - ii-ii-q134: Q134. https://aquinas.cc/la/en/~ST.II-II.Q134
+              - ii-ii-q135: Q135. https://aquinas.cc/la/en/~ST.II-II.Q135
+              - ii-ii-q136: Q136. https://aquinas.cc/la/en/~ST.II-II.Q136
+              - ii-ii-q137: Q137. https://aquinas.cc/la/en/~ST.II-II.Q137
+              - ii-ii-q138: Q138. https://aquinas.cc/la/en/~ST.II-II.Q138
+              - ii-ii-q139: Q139. https://aquinas.cc/la/en/~ST.II-II.Q139
+              - ii-ii-q140: Q140. https://aquinas.cc/la/en/~ST.II-II.Q140
+              - ii-ii-q141: Q141. https://aquinas.cc/la/en/~ST.II-II.Q141
+              - ii-ii-q142: Q142. https://aquinas.cc/la/en/~ST.II-II.Q142
+              - ii-ii-q143: Q143. https://aquinas.cc/la/en/~ST.II-II.Q143
+              - ii-ii-q144: Q144. https://aquinas.cc/la/en/~ST.II-II.Q144
+              - ii-ii-q145: Q145. https://aquinas.cc/la/en/~ST.II-II.Q145
+              - ii-ii-q146: Q146. https://aquinas.cc/la/en/~ST.II-II.Q146
+              - ii-ii-q147: Q147. https://aquinas.cc/la/en/~ST.II-II.Q147
+              - ii-ii-q148: Q148. https://aquinas.cc/la/en/~ST.II-II.Q148
+              - ii-ii-q149: Q149. https://aquinas.cc/la/en/~ST.II-II.Q149
+              - ii-ii-q150: Q150. https://aquinas.cc/la/en/~ST.II-II.Q150
+              - ii-ii-q151: Q151. https://aquinas.cc/la/en/~ST.II-II.Q151
+              - ii-ii-q152: Q152. https://aquinas.cc/la/en/~ST.II-II.Q152
+              - ii-ii-q153: Q153. https://aquinas.cc/la/en/~ST.II-II.Q153
+              - ii-ii-q154: Q154. https://aquinas.cc/la/en/~ST.II-II.Q154
+              - ii-ii-q155: Q155. https://aquinas.cc/la/en/~ST.II-II.Q155
+              - ii-ii-q156: Q156. https://aquinas.cc/la/en/~ST.II-II.Q156
+              - ii-ii-q157: Q157. https://aquinas.cc/la/en/~ST.II-II.Q157
+              - ii-ii-q158: Q158. https://aquinas.cc/la/en/~ST.II-II.Q158
+              - ii-ii-q159: Q159. https://aquinas.cc/la/en/~ST.II-II.Q159
+              - ii-ii-q160: Q160. https://aquinas.cc/la/en/~ST.II-II.Q160
+              - ii-ii-q161: Q161. https://aquinas.cc/la/en/~ST.II-II.Q161
+              - ii-ii-q162: Q162. https://aquinas.cc/la/en/~ST.II-II.Q162
+              - ii-ii-q163: Q163. https://aquinas.cc/la/en/~ST.II-II.Q163
+              - ii-ii-q164: Q164. https://aquinas.cc/la/en/~ST.II-II.Q164
+              - ii-ii-q165: Q165. https://aquinas.cc/la/en/~ST.II-II.Q165
+              - ii-ii-q166: Q166. https://aquinas.cc/la/en/~ST.II-II.Q166
+              - ii-ii-q167: Q167. https://aquinas.cc/la/en/~ST.II-II.Q167
+              - ii-ii-q168: Q168. https://aquinas.cc/la/en/~ST.II-II.Q168
+              - ii-ii-q169: Q169. https://aquinas.cc/la/en/~ST.II-II.Q169
+              - ii-ii-q170: Q170. https://aquinas.cc/la/en/~ST.II-II.Q170
+              - ii-ii-q171: Q171. https://aquinas.cc/la/en/~ST.II-II.Q171
+              - ii-ii-q172: Q172. https://aquinas.cc/la/en/~ST.II-II.Q172
+              - ii-ii-q173: Q173. https://aquinas.cc/la/en/~ST.II-II.Q173
+              - ii-ii-q174: Q174. https://aquinas.cc/la/en/~ST.II-II.Q174
+              - ii-ii-q175: Q175. https://aquinas.cc/la/en/~ST.II-II.Q175
+              - ii-ii-q176: Q176. https://aquinas.cc/la/en/~ST.II-II.Q176
+              - ii-ii-q177: Q177. https://aquinas.cc/la/en/~ST.II-II.Q177
+              - ii-ii-q178: Q178. https://aquinas.cc/la/en/~ST.II-II.Q178
+              - ii-ii-q179: Q179. https://aquinas.cc/la/en/~ST.II-II.Q179
+              - ii-ii-q180: Q180. https://aquinas.cc/la/en/~ST.II-II.Q180
+              - ii-ii-q181: Q181. https://aquinas.cc/la/en/~ST.II-II.Q181
+              - ii-ii-q182: Q182. https://aquinas.cc/la/en/~ST.II-II.Q182
+              - ii-ii-q183: Q183. https://aquinas.cc/la/en/~ST.II-II.Q183
+              - ii-ii-q184: Q184. https://aquinas.cc/la/en/~ST.II-II.Q184
+              - ii-ii-q185: Q185. https://aquinas.cc/la/en/~ST.II-II.Q185
+              - ii-ii-q186: Q186. https://aquinas.cc/la/en/~ST.II-II.Q186
+              - ii-ii-q187: Q187. https://aquinas.cc/la/en/~ST.II-II.Q187
+              - ii-ii-q188: Q188. https://aquinas.cc/la/en/~ST.II-II.Q188
+              - ii-ii-q189: Q189. https://aquinas.cc/la/en/~ST.II-II.Q189
+              - tertia-pars: https://aquinas.cc/la/en/~ST.III
+              - iii-q1: Q1. https://aquinas.cc/la/en/~ST.III.Q1
+              - iii-q2: Q2. https://aquinas.cc/la/en/~ST.III.Q2
+              - iii-q3: Q3. https://aquinas.cc/la/en/~ST.III.Q3
+              - iii-q4: Q4. https://aquinas.cc/la/en/~ST.III.Q4
+              - iii-q5: Q5. https://aquinas.cc/la/en/~ST.III.Q5
+              - iii-q6: Q6. https://aquinas.cc/la/en/~ST.III.Q6
+              - iii-q7: Q7. https://aquinas.cc/la/en/~ST.III.Q7
+              - iii-q8: Q8. https://aquinas.cc/la/en/~ST.III.Q8
+              - iii-q9: Q9. https://aquinas.cc/la/en/~ST.III.Q9
+              - iii-q10: Q10. https://aquinas.cc/la/en/~ST.III.Q10
+              - iii-q11: Q11. https://aquinas.cc/la/en/~ST.III.Q11
+              - iii-q12: Q12. https://aquinas.cc/la/en/~ST.III.Q12
+              - iii-q13: Q13. https://aquinas.cc/la/en/~ST.III.Q13
+              - iii-q14: Q14. https://aquinas.cc/la/en/~ST.III.Q14
+              - iii-q15: Q15. https://aquinas.cc/la/en/~ST.III.Q15
+              - iii-q16: Q16. https://aquinas.cc/la/en/~ST.III.Q16
+              - iii-q17: Q17. https://aquinas.cc/la/en/~ST.III.Q17
+              - iii-q18: Q18. https://aquinas.cc/la/en/~ST.III.Q18
+              - iii-q19: Q19. https://aquinas.cc/la/en/~ST.III.Q19
+              - iii-q20: Q20. https://aquinas.cc/la/en/~ST.III.Q20
+              - iii-q21: Q21. https://aquinas.cc/la/en/~ST.III.Q21
+              - iii-q22: Q22. https://aquinas.cc/la/en/~ST.III.Q22
+              - iii-q23: Q23. https://aquinas.cc/la/en/~ST.III.Q23
+              - iii-q24: Q24. https://aquinas.cc/la/en/~ST.III.Q24
+              - iii-q25: Q25. https://aquinas.cc/la/en/~ST.III.Q25
+              - iii-q26: Q26. https://aquinas.cc/la/en/~ST.III.Q26
+              - iii-q27: Q27. https://aquinas.cc/la/en/~ST.III.Q27
+              - iii-q28: Q28. https://aquinas.cc/la/en/~ST.III.Q28
+              - iii-q29: Q29. https://aquinas.cc/la/en/~ST.III.Q29
+              - iii-q30: Q30. https://aquinas.cc/la/en/~ST.III.Q30
+              - iii-q31: Q31. https://aquinas.cc/la/en/~ST.III.Q31
+              - iii-q32: Q32. https://aquinas.cc/la/en/~ST.III.Q32
+              - iii-q33: Q33. https://aquinas.cc/la/en/~ST.III.Q33
+              - iii-q34: Q34. https://aquinas.cc/la/en/~ST.III.Q34
+              - iii-q35: Q35. https://aquinas.cc/la/en/~ST.III.Q35
+              - iii-q36: Q36. https://aquinas.cc/la/en/~ST.III.Q36
+              - iii-q37: Q37. https://aquinas.cc/la/en/~ST.III.Q37
+              - iii-q38: Q38. https://aquinas.cc/la/en/~ST.III.Q38
+              - iii-q39: Q39. https://aquinas.cc/la/en/~ST.III.Q39
+              - iii-q40: Q40. https://aquinas.cc/la/en/~ST.III.Q40
+              - iii-q41: Q41. https://aquinas.cc/la/en/~ST.III.Q41
+              - iii-q42: Q42. https://aquinas.cc/la/en/~ST.III.Q42
+              - iii-q43: Q43. https://aquinas.cc/la/en/~ST.III.Q43
+              - iii-q44: Q44. https://aquinas.cc/la/en/~ST.III.Q44
+              - iii-q45: Q45. https://aquinas.cc/la/en/~ST.III.Q45
+              - iii-q46: Q46. https://aquinas.cc/la/en/~ST.III.Q46
+              - iii-q47: Q47. https://aquinas.cc/la/en/~ST.III.Q47
+              - iii-q48: Q48. https://aquinas.cc/la/en/~ST.III.Q48
+              - iii-q49: Q49. https://aquinas.cc/la/en/~ST.III.Q49
+              - iii-q50: Q50. https://aquinas.cc/la/en/~ST.III.Q50
+              - iii-q51: Q51. https://aquinas.cc/la/en/~ST.III.Q51
+              - iii-q52: Q52. https://aquinas.cc/la/en/~ST.III.Q52
+              - iii-q53: Q53. https://aquinas.cc/la/en/~ST.III.Q53
+              - iii-q54: Q54. https://aquinas.cc/la/en/~ST.III.Q54
+              - iii-q55: Q55. https://aquinas.cc/la/en/~ST.III.Q55
+              - iii-q56: Q56. https://aquinas.cc/la/en/~ST.III.Q56
+              - iii-q57: Q57. https://aquinas.cc/la/en/~ST.III.Q57
+              - iii-q58: Q58. https://aquinas.cc/la/en/~ST.III.Q58
+              - iii-q59: Q59. https://aquinas.cc/la/en/~ST.III.Q59
+              - iii-q60: Q60. https://aquinas.cc/la/en/~ST.III.Q60
+              - iii-q61: Q61. https://aquinas.cc/la/en/~ST.III.Q61
+              - iii-q62: Q62. https://aquinas.cc/la/en/~ST.III.Q62
+              - iii-q63: Q63. https://aquinas.cc/la/en/~ST.III.Q63
+              - iii-q64: Q64. https://aquinas.cc/la/en/~ST.III.Q64
+              - iii-q65: Q65. https://aquinas.cc/la/en/~ST.III.Q65
+              - iii-q66: Q66. https://aquinas.cc/la/en/~ST.III.Q66
+              - iii-q67: Q67. https://aquinas.cc/la/en/~ST.III.Q67
+              - iii-q68: Q68. https://aquinas.cc/la/en/~ST.III.Q68
+              - iii-q69: Q69. https://aquinas.cc/la/en/~ST.III.Q69
+              - iii-q70: Q70. https://aquinas.cc/la/en/~ST.III.Q70
+              - iii-q71: Q71. https://aquinas.cc/la/en/~ST.III.Q71
+              - iii-q72: Q72. https://aquinas.cc/la/en/~ST.III.Q72
+              - iii-q73: Q73. https://aquinas.cc/la/en/~ST.III.Q73
+              - iii-q74: Q74. https://aquinas.cc/la/en/~ST.III.Q74
+              - iii-q75: Q75. https://aquinas.cc/la/en/~ST.III.Q75
+              - iii-q76: Q76. https://aquinas.cc/la/en/~ST.III.Q76
+              - iii-q77: Q77. https://aquinas.cc/la/en/~ST.III.Q77
+              - iii-q78: Q78. https://aquinas.cc/la/en/~ST.III.Q78
+              - iii-q79: Q79. https://aquinas.cc/la/en/~ST.III.Q79
+              - iii-q80: Q80. https://aquinas.cc/la/en/~ST.III.Q80
+              - iii-q81: Q81. https://aquinas.cc/la/en/~ST.III.Q81
+              - iii-q82: Q82. https://aquinas.cc/la/en/~ST.III.Q82
+              - iii-q83: Q83. https://aquinas.cc/la/en/~ST.III.Q83
+              - iii-q84: Q84. https://aquinas.cc/la/en/~ST.III.Q84
+              - iii-q85: Q85. https://aquinas.cc/la/en/~ST.III.Q85
+              - iii-q86: Q86. https://aquinas.cc/la/en/~ST.III.Q86
+              - iii-q87: Q87. https://aquinas.cc/la/en/~ST.III.Q87
+              - iii-q88: Q88. https://aquinas.cc/la/en/~ST.III.Q88
+              - iii-q89: Q89. https://aquinas.cc/la/en/~ST.III.Q89
+              - iii-q90: Q90. https://aquinas.cc/la/en/~ST.III.Q90
+              - supplement: https://aquinas.cc/la/en/~ST.IIISup
+              - sup-q1: Q1. https://aquinas.cc/la/en/~ST.IIISup.Q1
+              - sup-q2: Q2. https://aquinas.cc/la/en/~ST.IIISup.Q2
+              - sup-q3: Q3. https://aquinas.cc/la/en/~ST.IIISup.Q3
+              - sup-q4: Q4. https://aquinas.cc/la/en/~ST.IIISup.Q4
+              - sup-q5: Q5. https://aquinas.cc/la/en/~ST.IIISup.Q5
+              - sup-q6: Q6. https://aquinas.cc/la/en/~ST.IIISup.Q6
+              - sup-q7: Q7. https://aquinas.cc/la/en/~ST.IIISup.Q7
+              - sup-q8: Q8. https://aquinas.cc/la/en/~ST.IIISup.Q8
+              - sup-q9: Q9. https://aquinas.cc/la/en/~ST.IIISup.Q9
+              - sup-q10: Q10. https://aquinas.cc/la/en/~ST.IIISup.Q10
+              - sup-q11: Q11. https://aquinas.cc/la/en/~ST.IIISup.Q11
+              - sup-q12: Q12. https://aquinas.cc/la/en/~ST.IIISup.Q12
+              - sup-q13: Q13. https://aquinas.cc/la/en/~ST.IIISup.Q13
+              - sup-q14: Q14. https://aquinas.cc/la/en/~ST.IIISup.Q14
+              - sup-q15: Q15. https://aquinas.cc/la/en/~ST.IIISup.Q15
+              - sup-q16: Q16. https://aquinas.cc/la/en/~ST.IIISup.Q16
+              - sup-q17: Q17. https://aquinas.cc/la/en/~ST.IIISup.Q17
+              - sup-q18: Q18. https://aquinas.cc/la/en/~ST.IIISup.Q18
+              - sup-q19: Q19. https://aquinas.cc/la/en/~ST.IIISup.Q19
+              - sup-q20: Q20. https://aquinas.cc/la/en/~ST.IIISup.Q20
+              - sup-q21: Q21. https://aquinas.cc/la/en/~ST.IIISup.Q21
+              - sup-q22: Q22. https://aquinas.cc/la/en/~ST.IIISup.Q22
+              - sup-q23: Q23. https://aquinas.cc/la/en/~ST.IIISup.Q23
+              - sup-q24: Q24. https://aquinas.cc/la/en/~ST.IIISup.Q24
+              - sup-q25: Q25. https://aquinas.cc/la/en/~ST.IIISup.Q25
+              - sup-q26: Q26. https://aquinas.cc/la/en/~ST.IIISup.Q26
+              - sup-q27: Q27. https://aquinas.cc/la/en/~ST.IIISup.Q27
+              - sup-q28: Q28. https://aquinas.cc/la/en/~ST.IIISup.Q28
+              - sup-q29: Q29. https://aquinas.cc/la/en/~ST.IIISup.Q29
+              - sup-q30: Q30. https://aquinas.cc/la/en/~ST.IIISup.Q30
+              - sup-q31: Q31. https://aquinas.cc/la/en/~ST.IIISup.Q31
+              - sup-q32: Q32. https://aquinas.cc/la/en/~ST.IIISup.Q32
+              - sup-q33: Q33. https://aquinas.cc/la/en/~ST.IIISup.Q33
+              - sup-q34: Q34. https://aquinas.cc/la/en/~ST.IIISup.Q34
+              - sup-q35: Q35. https://aquinas.cc/la/en/~ST.IIISup.Q35
+              - sup-q36: Q36. https://aquinas.cc/la/en/~ST.IIISup.Q36
+              - sup-q37: Q37. https://aquinas.cc/la/en/~ST.IIISup.Q37
+              - sup-q38: Q38. https://aquinas.cc/la/en/~ST.IIISup.Q38
+              - sup-q39: Q39. https://aquinas.cc/la/en/~ST.IIISup.Q39
+              - sup-q40: Q40. https://aquinas.cc/la/en/~ST.IIISup.Q40
+              - sup-q41: Q41. https://aquinas.cc/la/en/~ST.IIISup.Q41
+              - sup-q42: Q42. https://aquinas.cc/la/en/~ST.IIISup.Q42
+              - sup-q43: Q43. https://aquinas.cc/la/en/~ST.IIISup.Q43
+              - sup-q44: Q44. https://aquinas.cc/la/en/~ST.IIISup.Q44
+              - sup-q45: Q45. https://aquinas.cc/la/en/~ST.IIISup.Q45
+              - sup-q46: Q46. https://aquinas.cc/la/en/~ST.IIISup.Q46
+              - sup-q47: Q47. https://aquinas.cc/la/en/~ST.IIISup.Q47
+              - sup-q48: Q48. https://aquinas.cc/la/en/~ST.IIISup.Q48
+              - sup-q49: Q49. https://aquinas.cc/la/en/~ST.IIISup.Q49
+              - sup-q50: Q50. https://aquinas.cc/la/en/~ST.IIISup.Q50
+              - sup-q51: Q51. https://aquinas.cc/la/en/~ST.IIISup.Q51
+              - sup-q52: Q52. https://aquinas.cc/la/en/~ST.IIISup.Q52
+              - sup-q53: Q53. https://aquinas.cc/la/en/~ST.IIISup.Q53
+              - sup-q54: Q54. https://aquinas.cc/la/en/~ST.IIISup.Q54
+              - sup-q55: Q55. https://aquinas.cc/la/en/~ST.IIISup.Q55
+              - sup-q56: Q56. https://aquinas.cc/la/en/~ST.IIISup.Q56
+              - sup-q57: Q57. https://aquinas.cc/la/en/~ST.IIISup.Q57
+              - sup-q58: Q58. https://aquinas.cc/la/en/~ST.IIISup.Q58
+              - sup-q59: Q59. https://aquinas.cc/la/en/~ST.IIISup.Q59
+              - sup-q60: Q60. https://aquinas.cc/la/en/~ST.IIISup.Q60
+              - sup-q61: Q61. https://aquinas.cc/la/en/~ST.IIISup.Q61
+              - sup-q62: Q62. https://aquinas.cc/la/en/~ST.IIISup.Q62
+              - sup-q63: Q63. https://aquinas.cc/la/en/~ST.IIISup.Q63
+              - sup-q64: Q64. https://aquinas.cc/la/en/~ST.IIISup.Q64
+              - sup-q65: Q65. https://aquinas.cc/la/en/~ST.IIISup.Q65
+              - sup-q66: Q66. https://aquinas.cc/la/en/~ST.IIISup.Q66
+              - sup-q67: Q67. https://aquinas.cc/la/en/~ST.IIISup.Q67
+              - sup-q68: Q68. https://aquinas.cc/la/en/~ST.IIISup.Q68
+              - sup-q69: Q69. https://aquinas.cc/la/en/~ST.IIISup.Q69
+              - sup-q70: Q70. https://aquinas.cc/la/en/~ST.IIISup.Q70
+              - sup-q71: Q71. https://aquinas.cc/la/en/~ST.IIISup.Q71
+              - sup-q72: Q72. https://aquinas.cc/la/en/~ST.IIISup.Q72
+              - sup-q73: Q73. https://aquinas.cc/la/en/~ST.IIISup.Q73
+              - sup-q74: Q74. https://aquinas.cc/la/en/~ST.IIISup.Q74
+              - sup-q75: Q75. https://aquinas.cc/la/en/~ST.IIISup.Q75
+              - sup-q76: Q76. https://aquinas.cc/la/en/~ST.IIISup.Q76
+              - sup-q77: Q77. https://aquinas.cc/la/en/~ST.IIISup.Q77
+              - sup-q78: Q78. https://aquinas.cc/la/en/~ST.IIISup.Q78
+              - sup-q79: Q79. https://aquinas.cc/la/en/~ST.IIISup.Q79
+              - sup-q80: Q80. https://aquinas.cc/la/en/~ST.IIISup.Q80
+              - sup-q81: Q81. https://aquinas.cc/la/en/~ST.IIISup.Q81
+              - sup-q82: Q82. https://aquinas.cc/la/en/~ST.IIISup.Q82
+              - sup-q83: Q83. https://aquinas.cc/la/en/~ST.IIISup.Q83
+              - sup-q84: Q84. https://aquinas.cc/la/en/~ST.IIISup.Q84
+              - sup-q85: Q85. https://aquinas.cc/la/en/~ST.IIISup.Q85
+              - sup-q86: Q86. https://aquinas.cc/la/en/~ST.IIISup.Q86
+              - sup-q87: Q87. https://aquinas.cc/la/en/~ST.IIISup.Q87
+              - sup-q88: Q88. https://aquinas.cc/la/en/~ST.IIISup.Q88
+              - sup-q89: Q89. https://aquinas.cc/la/en/~ST.IIISup.Q89
+              - sup-q90: Q90. https://aquinas.cc/la/en/~ST.IIISup.Q90
+              - sup-q91: Q91. https://aquinas.cc/la/en/~ST.IIISup.Q91
+              - sup-q92: Q92. https://aquinas.cc/la/en/~ST.IIISup.Q92
+              - sup-q93: Q93. https://aquinas.cc/la/en/~ST.IIISup.Q93
+              - sup-q94: Q94. https://aquinas.cc/la/en/~ST.IIISup.Q94
+              - sup-q95: Q95. https://aquinas.cc/la/en/~ST.IIISup.Q95
+              - sup-q96: Q96. https://aquinas.cc/la/en/~ST.IIISup.Q96
+              - sup-q97: Q97. https://aquinas.cc/la/en/~ST.IIISup.Q97
+              - sup-q98: Q98. https://aquinas.cc/la/en/~ST.IIISup.Q98
+              - sup-q99: Q99. https://aquinas.cc/la/en/~ST.IIISup.Q99

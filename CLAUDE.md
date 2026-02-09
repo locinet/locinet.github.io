@@ -76,6 +76,7 @@ work-id:
 - Colons in YAML values need quoting: `"THE TENTH TOPIC: On the LAW of GOD"`
 - Loci slugs: lowercase, hyphens for spaces, no apostrophes (e.g., `lords-supper`)
 - Section titles should be in title case (e.g., `Section I. On the Name` not `SECTION I. ON THE NAME`)
+- Section titles should include their numbering from the source (e.g., `Q1. The Nature and Extent of Sacred Doctrine`, `Chapter 1. Of God`)
 - Don't repeat a locus on a section if the same locus is already on the work or a parent section
 
 ### Loci tree (loci.yaml)
