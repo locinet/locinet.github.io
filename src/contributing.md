@@ -230,4 +230,4 @@ Wrong (sections indented under title):
 
 ## Questions?
 
-If you run into problems, [open an issue on GitHub](https://github.com/locinet/locinet/issues) and describe what you're trying to do. We're happy to help.
+If you run into problems, [open an issue on GitHub](https://github.com/locinet/locinet.github.io/issues) and describe what you're trying to do. We're happy to help.

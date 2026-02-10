@@ -778,6 +778,6 @@ module.exports = function () {
     translatorIndex,
     whatsNew,
     traditions: traditionsData.traditions || [],
-    repoUrl: "https://github.com/locinet/locinet",
+    repoUrl: "https://github.com/locinet/locinet.github.io",
   };
 };

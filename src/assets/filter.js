@@ -698,7 +698,7 @@
     function generateAndOpen(wid, enTitle) {
       var name = contributeBtn.dataset.authorName;
       var qid = contributeBtn.dataset.authorQid;
-      var repo = typeof repoUrl !== "undefined" ? repoUrl : "https://github.com/locinet/locinet";
+      var repo = typeof repoUrl !== "undefined" ? repoUrl : "https://github.com/locinet/locinet.github.io";
 
       var origTitle = workData.origTitle;
       var year = workData.year;
@@ -772,7 +772,7 @@
       e.preventDefault();
       const filename = this.dataset.yamlFilename;
       const repo =
-        typeof repoUrl !== "undefined" ? repoUrl : "https://github.com/locinet/locinet";
+        typeof repoUrl !== "undefined" ? repoUrl : "https://github.com/locinet/locinet.github.io";
       window.open(`${repo}/edit/main/works/${filename}`, "_blank");
     });
   });
@@ -922,7 +922,7 @@
       var repo =
         typeof repoUrl !== "undefined"
           ? repoUrl
-          : "https://github.com/locinet/locinet";
+          : "https://github.com/locinet/locinet.github.io";
       var guideUrl = "https://locinet.github.io/locinet/contributing/";
       var skeleton =
         "# New work for " + label + "\n" +
