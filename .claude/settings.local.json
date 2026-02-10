@@ -92,7 +92,15 @@
       "Bash(ls -la \"C:\\\\Users\\\\jfhut\\\\locinet\\\\_cache\\\\authors\"\" | grep -i \"q9438|aquinas \")",
       "WebFetch(domain:www.newadvent.org)",
       "WebFetch(domain:confessionallyreformed.wordpress.com)",
-      "WebFetch(domain:theologicalmeditations.blogspot.com)"
+      "WebFetch(domain:theologicalmeditations.blogspot.com)",
+      "Bash(for:*)",
+      "Bash(do if ! grep -q \"date_added:\" \"$f\")",
+      "Bash(then echo \"$f\")",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(do sed -i '1a\\\\  date_added: 2026-02-10' \"$f\")",
+      "Bash(echo:*)",
+      "Bash(grep:*)"
     ]
   }
 }

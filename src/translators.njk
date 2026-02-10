@@ -18,7 +18,7 @@ permalink: "/translators/"
     <h2>{{ siteEntry.name }}</h2>
     {% for translator in siteEntry.translators %}
       <div class="translator-entry" id="{{ translator.slug }}" data-translator-name="{{ translator.name | lower }}">
-        <h3>{{ translator.name }} <a href="#{{ translator.slug }}" class="anchor-link">#</a></h3>
+        <h3>{% if translator.translatorInfo and translator.translatorInfo.website %}<a href="{{ translator.translatorInfo.website }}">{{ translator.name }}</a>{% else %}{{ translator.name }}{% endif %}{% if translator.translatorInfo and translator.translatorInfo.support %} (<a href="{{ translator.translatorInfo.support }}">support</a>){% endif %}{% if translator.translatorInfo and translator.translatorInfo.paypal %} (<a href="https://www.paypal.com/us/home">PayPal</a> {{ translator.translatorInfo.paypal }}){% endif %} <a href="#{{ translator.slug }}" class="anchor-link">#</a></h3>
         <ul class="translator-works-list">
           {% for work in translator.works %}
             <li>

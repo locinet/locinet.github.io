@@ -175,7 +175,6 @@ body:has(.loci-page) { max-width: 1200px; }
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 0.85em;
 }
 .stree .stree {
   padding-left: 1.1em;
@@ -575,6 +574,11 @@ body:has(.loci-page) { max-width: 1200px; }
 
 /* Hidden elements during filtering */
 .filtered-hidden { display: none; }
+
+/* What's new */
+.whats-new-subtitle { color: var(--muted); margin-bottom: 1em; }
+.whats-new-date { font-size: 1.1em; margin-top: 1.2em; margin-bottom: 0.3em; border-bottom: 1px solid var(--border); padding-bottom: 0.2em; }
+.whats-new-entry { padding: 0.15em 0; font-size: 0.95em; margin-left: 1em; }
 
 /* Responsive */
 @media (max-width: 900px) {

@@ -113,6 +113,11 @@
 - name: Angels
   slug: angels
   desc: "The nature, orders, and activities of angels and demons"
+  children:
+    - name: Nature of angels
+      slug: nature-of-angels
+    - name: Fall of angels
+      slug: fall-of-angels      
 
 - name: Man
   slug: man

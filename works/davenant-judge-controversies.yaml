@@ -1,4 +1,5 @@
 davenant-judge-controversies:
+  date_added: 2026-02-10
   author: Q6228619
   loci: scripture
   la:
@@ -10,7 +11,7 @@ davenant-judge-controversies:
   en:
     title: On the Judge of Controversies
     translations:
-      - translator: Josue (Catolicismo Reformado)
+      - translator: Josue
         AI: true
         sites:
           - site: Dropbox

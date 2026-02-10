@@ -93,7 +93,9 @@ eleventyComputed:
       {% if work.translations.length > 0 %}
         <p class="translations-summary">
           {%- for t in work.translations %}
-            Full text in English translated by {{ t.translator }}
+            Full text in English translated by {% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}
+            {%- if t.translatorInfo and t.translatorInfo.support %} (<a href="{{ t.translatorInfo.support }}">support</a>){% endif %}
+            {%- if t.translatorInfo and t.translatorInfo.paypal %} (<a href="https://www.paypal.com/us/home">PayPal</a> {{ t.translatorInfo.paypal }}){% endif %}
             {%- if t.year %} ({{ t.year }}){% endif -%}
             :
             {%- for s in t.sites %}

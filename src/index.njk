@@ -41,7 +41,7 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
 
 <nav class="loci-sidebar">
 {% macro renderSidebarChildren(nodes, depth) %}
-<ul class="stree{% if depth >= 2 %} stree-collapsed{% endif %}">
+<ul class="stree{% if depth >= 1 %} stree-collapsed{% endif %}">
   {% for node in nodes %}
   <li>
     {% if node.children and depth >= 1 %}
@@ -57,7 +57,7 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
 <ul class="stree stree-root">
   {% for node in site.lociTree %}
   <li>
-    <a href="#locus-{{ node.slug }}" class="stree-top" data-slug="{{ node.slug }}">{{ node.name }}</a>
+    <a href="#locus-{{ node.slug }}" class="stree-top{% if node.children %} stree-toggle{% endif %}" data-slug="{{ node.slug }}">{{ node.name }}</a>
     {% if node.children %}{{ renderSidebarChildren(node.children, 1) }}{% endif %}
   </li>
   {% endfor %}

@@ -1,4 +1,5 @@
 cappel-election:
+  date_added: 2026-02-10
   author: Q705309
   category: disputations
   loci:
@@ -16,7 +17,7 @@ cappel-election:
   en:
     title: Thesis on Election and Reprobation
     translations:
-      - translator: Oz (Reformed Retrieval)
+      - translator: Oz
         AI: true
         sites:
           - site: Dropbox

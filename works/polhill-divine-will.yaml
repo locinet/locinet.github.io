@@ -1,4 +1,5 @@
 polhill-divine-will:
+  date_added: 2026-02-10
   author: Q18528344
   en:
     title: The Divine Will Considered
@@ -15,7 +16,7 @@ polhill-divine-will:
       - extent-death-of-christ: The Extent of the Death of Christ
         loci: atonement
     translations:
-      - translator: Oz (Reformed Retrieval)
+      - translator: Oz
         AI: true
         sites:
           - site: Dropbox

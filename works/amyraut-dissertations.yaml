@@ -1,4 +1,5 @@
 amyraut-dissertations:
+  date_added: 2026-02-10
   author: Q1236249
   category: disputations
   la:
@@ -13,7 +14,7 @@ amyraut-dissertations:
   en:
     title: Six Theological Dissertations
     translations:
-      - translator: Nos (Colloquia Scholastica)
+      - translator: Nos
         AI: true
         sites:
           - site: Dropbox

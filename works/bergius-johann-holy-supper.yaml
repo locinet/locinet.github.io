@@ -1,4 +1,5 @@
 bergius-johann-holy-supper:
+  date_added: 2026-02-10
   author: Q1692675
   loci: lords-supper
   de:
@@ -13,7 +14,7 @@ bergius-johann-holy-supper:
   en:
     title: "The Holy Supper: Healing the Reformed and Lutheran Divide"
     translations:
-      - translator: Oz (Reformed Retrieval)
+      - translator: Oz
         AI: true
         sites:
           - site: Dropbox

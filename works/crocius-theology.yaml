@@ -1,4 +1,5 @@
 crocius-theology:
+  date_added: 2026-02-10
   author: Q101080
   category: systematic
   la:
@@ -16,7 +17,7 @@ crocius-theology:
       - knowledge-of-god: The Knowledge of God
         loci: knowledge-of-god
     translations:
-      - translator: Oz (Reformed Retrieval)
+      - translator: Oz
         AI: true
         sites:
           - site: Dropbox

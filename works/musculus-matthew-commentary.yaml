@@ -1,4 +1,5 @@
 musculus-matthew-commentary:
+  date_added: 2026-02-10
   author: Q704851
   la:
     title: Commentarii in Matthaeum evangelistam
@@ -15,7 +16,7 @@ musculus-matthew-commentary:
       - matt-5-43-48: "Loving Thy Neighbor: Commentary on Matthew 5:43\u201348"
         loci: charity
     translations:
-      - translator: Oz (Reformed Retrieval)
+      - translator: Oz
         AI: true
         sites:
           - site: Dropbox

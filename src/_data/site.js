@@ -6,6 +6,7 @@ const WORKS_DIR = path.resolve(__dirname, "../../works");
 const LOCI_PATH = path.resolve(__dirname, "../../loci.yaml");
 const AUTHORS_DIR = path.resolve(__dirname, "../../_cache/authors");
 const TRADITIONS_PATH = path.resolve(__dirname, "../../traditions.yaml");
+const TRANSLATORS_PATH = path.resolve(__dirname, "../../translators.yaml");
 
 // --- Loci processing ---
 
@@ -59,6 +60,14 @@ function loadTraditions() {
   if (!fs.existsSync(TRADITIONS_PATH)) return { traditions: [], authors: {} };
   const raw = fs.readFileSync(TRADITIONS_PATH, "utf8");
   return yaml.load(raw) || { traditions: [], authors: {} };
+}
+
+// --- Translators ---
+
+function loadTranslators() {
+  if (!fs.existsSync(TRANSLATORS_PATH)) return {};
+  const raw = fs.readFileSync(TRANSLATORS_PATH, "utf8");
+  return yaml.load(raw) || {};
 }
 
 // --- Section parsing ---
@@ -140,9 +149,9 @@ function slugify(name) {
 
 // --- Work parsing ---
 
-const WORK_META_KEYS = new Set(["author", "category", "loci", "corporate_author"]);
+const WORK_META_KEYS = new Set(["author", "category", "loci", "corporate_author", "date_added"]);
 
-function parseWork(fileId, data) {
+function parseWork(fileId, data, translatorsMap) {
   const work = data[fileId];
   if (!work) return null;
 
@@ -211,8 +220,10 @@ function parseWork(fileId, data) {
         sectionUrls: buildSectionUrlMap(s.section_urls),
       };
     });
+    const translatorName = t.translator || "Unknown";
     return {
-      translator: t.translator || "Unknown",
+      translator: translatorName,
+      translatorInfo: translatorsMap[translatorName] || null,
       year: t.year || null,
       AI: t.AI || false,
       sites,
@@ -272,6 +283,11 @@ function parseWork(fileId, data) {
     authors,
     corporateAuthor,
     category: work.category || null,
+    dateAdded: work.date_added
+      ? (work.date_added instanceof Date
+          ? work.date_added.toISOString().slice(0, 10)
+          : String(work.date_added))
+      : null,
     workLoci,
     allLoci: [...new Set(allLoci)],
     year,
@@ -288,7 +304,7 @@ function parseWork(fileId, data) {
   };
 }
 
-function loadAllWorks() {
+function loadAllWorks(translatorsMap) {
   const works = [];
   for (const file of fs.readdirSync(WORKS_DIR).sort()) {
     if (!file.endsWith(".yaml")) continue;
@@ -296,7 +312,7 @@ function loadAllWorks() {
       const raw = fs.readFileSync(path.join(WORKS_DIR, file), "utf8");
       const data = yaml.load(raw);
       const fileId = Object.keys(data)[0];
-      const work = parseWork(fileId, data);
+      const work = parseWork(fileId, data, translatorsMap);
       if (work) works.push(work);
     } catch (err) {
       console.error(`Error parsing ${file}: ${err.message}`);
@@ -617,7 +633,7 @@ function buildTranslatorIndex(works, authorPages) {
           bySite[siteKey] = { name: siteName, translators: {} };
         }
         if (!bySite[siteKey].translators[translatorKey]) {
-          bySite[siteKey].translators[translatorKey] = { name: translatorName, slug: slugify(translatorName), works: [] };
+          bySite[siteKey].translators[translatorKey] = { name: translatorName, slug: slugify(translatorName), translatorInfo: t.translatorInfo || null, works: [] };
         }
         bySite[siteKey].translators[translatorKey].works.push({
           title: work.title,
@@ -654,7 +670,8 @@ module.exports = function () {
   const lociTree = loadLociTree();
   const lociFlat = buildLociFlat(lociTree);
   const authors = loadAuthors();
-  const works = loadAllWorks();
+  const translatorsMap = loadTranslators();
+  const works = loadAllWorks(translatorsMap);
   const traditionsData = loadTraditions();
   const traditionAuthors = traditionsData.authors || {};
   const authorPages = buildAuthorPages(works, authors, traditionAuthors);
@@ -677,6 +694,53 @@ module.exports = function () {
 
   const translatorIndex = buildTranslatorIndex(works, authorPages);
 
+  // Build a lookup from QID to author page for whatsNew
+  const authorByQid = {};
+  for (const ap of authorPages) {
+    if (ap.qid && String(ap.qid).startsWith("Q")) {
+      authorByQid[ap.qid] = ap;
+    }
+  }
+
+  // What's New: works sorted by date_added descending, limit 100
+  const whatsNew = works
+    .filter((w) => w.dateAdded)
+    .sort((a, b) => (b.dateAdded > a.dateAdded ? 1 : b.dateAdded < a.dateAdded ? -1 : 0))
+    .slice(0, 100)
+    .map((w) => {
+      let authorName, authorSlug;
+      if (w.corporateAuthor) {
+        authorName = w.corporateAuthor.label;
+        authorSlug = w.corporateAuthor.slug;
+      } else {
+        const ap = authorByQid[w.author];
+        authorName = ap ? ap.name : w.author;
+        authorSlug = ap ? ap.slug : slugify(w.author);
+      }
+      // Flatten translations to translator + site pairs
+      const translations = [];
+      for (const t of w.translations) {
+        for (const s of t.sites) {
+          translations.push({
+            translator: t.translator,
+            translatorInfo: t.translatorInfo || null,
+            siteName: s.siteName,
+            url: s.url,
+            volumes: s.volumes,
+          });
+        }
+      }
+      return {
+        id: w.id,
+        title: w.title,
+        year: w.year,
+        dateAdded: w.dateAdded,
+        authorName,
+        authorSlug,
+        translations,
+      };
+    });
+
   return {
     lociTree,
     lociFlat,
@@ -684,6 +748,7 @@ module.exports = function () {
     worksIndex,
     lociIndex,
     translatorIndex,
+    whatsNew,
     traditions: traditionsData.traditions || [],
     repoUrl: "https://github.com/locinet/locinet",
   };

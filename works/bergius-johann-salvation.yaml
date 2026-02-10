@@ -1,4 +1,5 @@
 bergius-johann-salvation:
+  date_added: 2026-02-10
   author: Q1692675
   loci: will-of-god
   de:
@@ -13,7 +14,7 @@ bergius-johann-salvation:
   en:
     title: On the Will of God Concerning the Salvation of All Men
     translations:
-      - translator: Oz (Reformed Retrieval)
+      - translator: Oz
         AI: true
         sites:
           - site: Dropbox

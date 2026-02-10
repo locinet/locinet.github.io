@@ -1,4 +1,5 @@
 calvin-institutes:
+  date_added: 2026-02-06
   author: Q37577
   category: systematic
   la:
@@ -13,179 +14,179 @@ calvin-institutes:
   en:
     title: Institutes of the Christian Religion
     sections:
-      - p: PREFATORY MATERIAL
+      - p: Prefatory Material
         sections:
-          - prefatory-address: PREFATORY ADDRESS
-          - epistle-to-reader: THE EPISTLE TO THE READER
-          - subject-of-work: SUBJECT OF THE PRESENT WORK
-          - epistle-to-reader2: EPISTLE TO THE READER
-      - b1: BOOK FIRST. OF THE KNOWLEDGE OF GOD THE CREATOR.
+          - prefatory-address: Prefatory Address
+          - epistle-to-reader: The Epistle to the Reader
+          - subject-of-work: Subject of the Present Work
+          - epistle-to-reader2: Epistle to the Reader
+      - b1: Book First. Of the Knowledge of God the Creator.
         sections:
-          - b1c1: CHAPTER 1. THE KNOWLEDGE OF GOD AND OF OURSELVES MUTUALLY CONNECTED. NATURE OF THE CONNECTION.
+          - b1c1: Chapter 1. The Knowledge of God and of Ourselves Mutually Connected. Nature of the Connection.
             loci: nature-of-theology
-          - b1c2: CHAPTER 2. WHAT IT IS TO KNOW GOD. TENDENCY OF THIS KNOWLEDGE.
+          - b1c2: Chapter 2. What It Is to Know God. Tendency of This Knowledge.
             loci: nature-of-theology
-          - b1c3: CHAPTER 3. THE KNOWLEDGE OF GOD NATURALLY IMPLANTED IN THE HUMAN MIND.
+          - b1c3: Chapter 3. The Knowledge of God Naturally Implanted in the Human Mind.
             loci: natural-theology
-          - b1c4: CHAPTER 4. THE KNOWLEDGE OF GOD STIFLED OR CORRUPTED, IGNORANTLY OR MALICIOUSLY.
+          - b1c4: Chapter 4. The Knowledge of God Stifled or Corrupted, Ignorantly or Maliciously.
             loci: natural-theology
-          - b1c5: CHAPTER 5. THE KNOWLEDGE OF GOD CONSPICUOUS IN THE CREATION, AND CONTINUAL GOVERNMENT OF THE WORLD.
+          - b1c5: Chapter 5. The Knowledge of God Conspicuous in the Creation, and Continual Government of the World.
             loci: natural-theology
-          - b1c6: CHAPTER 6. THE NEED OF SCRIPTURE, AS A GUIDE AND TEACHER, IN COMING TO GOD AS A CREATOR.
+          - b1c6: Chapter 6. The Need of Scripture, as a Guide and Teacher, in Coming to God as a Creator.
             loci: scripture
-          - b1c7: CHAPTER 7. THE TESTIMONY OF THE SPIRIT NECESSARY TO GIVE FULL AUTHORITY TO SCRIPTURE.
+          - b1c7: Chapter 7. The Testimony of the Spirit Necessary to Give Full Authority to Scripture.
             loci: illumination
-          - b1c8: CHAPTER 8. THE CREDIBILITY OF SCRIPTURE SUFFICIENTLY PROVED IN SO FAR AS NATURAL REASON ADMITS.
+          - b1c8: Chapter 8. The Credibility of Scripture Sufficiently Proved in So Far as Natural Reason Admits.
             loci: credibility-of-scripture
-          - b1c9: CHAPTER 9. ALL THE PRINCIPLES OF PIETY SUBVERTED BY FANATICS, WHO SUBSTITUTE REVELATIONS FOR SCRIPTURE.
+          - b1c9: Chapter 9. All the Principles of Piety Subverted by Fanatics, Who Substitute Revelations for Scripture.
             loci: sufficiency-of-scripture
-          - b1c10: CHAPTER 10. IN SCRIPTURE, THE TRUE GOD OPPOSED, EXCLUSIVELY, TO ALL THE GODS OF THE HEATHEN.
+          - b1c10: Chapter 10. In Scripture, the True God Opposed, Exclusively, to All the Gods of the Heathen.
             loci: scripture
-          - b1c11: CHAPTER 11. IMPIETY OF ATTRIBUTING A VISIBLE FORM TO GOD. THE SETTING UP OF IDOLS A DEFECTION FROM THE TRUE GOD.
+          - b1c11: Chapter 11. Impiety of Attributing a Visible Form to God. The Setting Up of Idols a Defection from the True God.
             loci: invisibility-of-god
-          - b1c12: CHAPTER 12. GOD DISTINGUISHED FROM IDOLS, THAT HE MAY BE THE EXCLUSIVE OBJECT OF WORSHIP.
+          - b1c12: Chapter 12. God Distinguished from Idols, That He May Be the Exclusive Object of Worship.
             loci: idolatry
-          - b1c13: CHAPTER 13. THE UNITY OF THE DIVINE ESSENCE IN THREE PERSONS TAUGHT, IN SCRIPTURE, FROM THE FOUNDATION OF THE WORLD.
+          - b1c13: Chapter 13. The Unity of the Divine Essence in Three Persons Taught, in Scripture, from the Foundation of the World.
             loci: unity-of-god
-          - b1c14: CHAPTER 14. IN THE CREATION OF THE WORLD, AND ALL THINGS IN IT, THE TRUE GOD DISTINGUISHED BY CERTAIN MARKS FROM FICTITIOUS GODS.
+          - b1c14: Chapter 14. In the Creation of the World, and All Things in It, the True God Distinguished by Certain Marks from Fictitious Gods.
             loci: idolatry
-          - b1c15: CHAPTER 15. STATE IN WHICH MAN WAS CREATED. THE FACULTIES OF THE SOUL. THE IMAGE OF GOD. FREE WILL. ORIGINAL RIGHTEOUSNESS.
+          - b1c15: Chapter 15. State in Which Man Was Created. The Faculties of the Soul. The Image of God. Free Will. Original Righteousness.
             loci: [image-of-god, free-will, original-righteousness]
-          - b1c16: CHAPTER 16. THE WORLD, CREATED BY GOD, STILL CHERISHED AND PROTECTED BY HIM. EACH AND ALL OF ITS PARTS GOVERNED BY HIS PROVIDENCE.
+          - b1c16: Chapter 16. The World, Created by God, Still Cherished and Protected by Him. Each and All of Its Parts Governed by His Providence.
             loci: providence
-          - b1c17: CHAPTER 17. USE TO BE MADE OF THE DOCTRINE OF PROVIDENCE.
+          - b1c17: Chapter 17. Use to Be Made of the Doctrine of Providence.
             loci: providence
-          - b1c18: CHAPTER 18. THE INSTRUMENTALITY OF THE WICKED EMPLOYED BY GOD, WHILE HE CONTINUES FREE FROM EVERY TAINT.
+          - b1c18: Chapter 18. The Instrumentality of the Wicked Employed by God, While He Continues Free from Every Taint.
             loci: reprobation
-      - b2: BOOK SECOND. OF THE KNOWLEDGE OF GOD THE REDEEMER, IN CHRIST, AS FIRST MANIFESTED TO THE FATHERS, UNDER THE LAW, AND THEREAFTER TO US UNDER THE GOSPEL.
+      - b2: Book Second. Of the Knowledge of God the Redeemer, in Christ, as First Manifested to the Fathers, under the Law, and Thereafter to Us under the Gospel.
         sections:
-          - b2c1: CHAPTER 1. THROUGH THE FALL AND REVOLT OF ADAM, THE WHOLE HUMAN RACE MADE ACCURSED AND DEGENERATE. OF ORIGINAL SIN.
+          - b2c1: Chapter 1. Through the Fall and Revolt of Adam, the Whole Human Race Made Accursed and Degenerate. Of Original Sin.
             loci: original-sin
-          - b2c2: CHAPTER 2. MAN NOW DEPRIVED OF FREEDOM OF WILL, AND MISERABLY ENSLAVED.
+          - b2c2: Chapter 2. Man Now Deprived of Freedom of Will, and Miserably Enslaved.
             loci: free-will
-          - b2c3: CHAPTER 3. EVERY THING PROCEEDING FROM THE CORRUPT NATURE OF MAN DAMNABLE.
+          - b2c3: Chapter 3. Every Thing Proceeding from the Corrupt Nature of Man Damnable.
             loci: original-sin
-          - b2c4: CHAPTER 4. HOW GOD WORKS IN THE HEARTS OF MEN.
+          - b2c4: Chapter 4. How God Works in the Hearts of Men.
             loci: free-will
-          - b2c5: CHAPTER 5. THE ARGUMENTS USUALLY ALLEGED IN SUPPORT OF FREE WILL REFUTED.
+          - b2c5: Chapter 5. The Arguments Usually Alleged in Support of Free Will Refuted.
             loci: free-will
-          - b2c6: CHAPTER 6. REDEMPTION FOR MAN LOST TO BE SOUGHT IN CHRIST.
+          - b2c6: Chapter 6. Redemption for Man Lost to Be Sought in Christ.
             loci: covenant-of-grace
-          - b2c7: CHAPTER 7. THE LAW GIVEN, NOT TO RETAIN A PEOPLE FOR ITSELF, BUT TO KEEP ALIVE THE HOPE OF SALVATION IN CHRIST UNTIL HIS ADVENT.
+          - b2c7: Chapter 7. The Law Given, Not to Retain a People for Itself, but to Keep Alive the Hope of Salvation in Christ until His Advent.
             loci: purpose-of-law
-          - b2c8: CHAPTER 8. EXPOSITION OF THE MORAL LAW.
+          - b2c8: Chapter 8. Exposition of the Moral Law.
             loci: moral-law
-          - b2c9: CHAPTER 9. CHRIST, THOUGH KNOWN TO THE JEWS UNDER THE LAW, YET ONLY MANIFESTED UNDER THE GOSPEL.
+          - b2c9: Chapter 9. Christ, Though Known to the Jews under the Law, Yet Only Manifested under the Gospel.
             loci: new-covenant
-          - b2c10: CHAPTER 10. THE RESEMBLANCE BETWEEN THE OLD TESTAMENT AND THE NEW.
+          - b2c10: Chapter 10. The Resemblance between the Old Testament and the New.
             loci: [old-covenant, new-covenant]
-          - b2c11: CHAPTER 11. THE DIFFERENCE BETWEEN THE TWO TESTAMENTS.
+          - b2c11: Chapter 11. The Difference between the Two Testaments.
             loci: [old-covenant, new-covenant]
-          - b2c12: CHAPTER 12. CHRIST, TO PERFORM THE OFFICE OF MEDIATOR, BEHOVED TO BECOME MAN.
+          - b2c12: Chapter 12. Christ, to Perform the Office of Mediator, Behoved to Become Man.
             loci: incarnation
-          - b2c13: CHAPTER 13. CHRIST CLOTHED WITH THE TRUE SUBSTANCE OF HUMAN NATURE.
+          - b2c13: Chapter 13. Christ Clothed with the True Substance of Human Nature.
             loci: natures-of-christ
-          - b2c14: CHAPTER 14. HOW TWO NATURES CONSTITUTE THE PERSON OF THE MEDIATOR.
+          - b2c14: Chapter 14. How Two Natures Constitute the Person of the Mediator.
             loci: natures-of-christ
-          - b2c15: CHAPTER 15. THREE THINGS BRIEFLY TO BE REGARDED IN CHRIST. HIS OFFICES OF PROPHET, KING, AND PRIEST.
+          - b2c15: Chapter 15. Three Things Briefly to Be Regarded in Christ. His Offices of Prophet, King, and Priest.
             loci: offices-of-christ
-          - b2c16: CHAPTER 16. HOW CHRIST PERFORMED THE OFFICE OF REDEEMER IN PROCURING OUR SALVATION. THE DEATH, RESURRECTION, AND ASCENSION OF CHRIST.
+          - b2c16: Chapter 16. How Christ Performed the Office of Redeemer in Procuring Our Salvation. The Death, Resurrection, and Ascension of Christ.
             loci: atonement
-          - b2c17: CHAPTER 17. CHRIST RIGHTLY AND PROPERLY SAID TO HAVE MERITED GRACE AND SALVATION FOR US.
+          - b2c17: Chapter 17. Christ Rightly and Properly Said to Have Merited Grace and Salvation for Us.
             loci: atonement
-      - b3: BOOK THIRD. THE MODE OF OBTAINING THE GRACE OF CHRIST. THE BENEFITS IT CONFERS, AND THE EFFECTS RESULTING FROM IT.
+      - b3: Book Third. The Mode of Obtaining the Grace of Christ. The Benefits It Confers, and the Effects Resulting from It.
         sections:
-          - b3c1: CHAPTER 1. THE BENEFITS OF CHRIST MADE AVAILABLE TO US BY THE SECRET OPERATION OF THE SPIRIT.
+          - b3c1: Chapter 1. The Benefits of Christ Made Available to Us by the Secret Operation of the Spirit.
             loci: calling
-          - b3c2: CHAPTER 2. OF FAITH. THE DEFINITION OF IT. ITS PECULIAR PROPERTIES.
+          - b3c2: Chapter 2. Of Faith. The Definition of It. Its Peculiar Properties.
             loci: faith
-          - b3c3: CHAPTER 3. REGENERATION BY FAITH. OF REPENTANCE.
+          - b3c3: Chapter 3. Regeneration by Faith. Of Repentance.
             loci: faith
-          - b3c4: CHAPTER 4. PENITENCE, AS EXPLAINED IN THE SOPHISTICAL JARGON OF THE SCHOOLMEN, WIDELY DIFFERENT FROM THE PURITY REQUIRED BY THE GOSPEL. OF CONFESSION AND SATISFACTION.
+          - b3c4: Chapter 4. Penitence, as Explained in the Sophistical Jargon of the Schoolmen, Widely Different from the Purity Required by the Gospel. Of Confession and Satisfaction.
             loci: penance
-          - b3c5: CHAPTER 5. OF THE MODES OF SUPPLEMENTING SATISFACTION. INDULGENCES AND PURGATORY.
+          - b3c5: Chapter 5. Of the Modes of Supplementing Satisfaction. Indulgences and Purgatory.
             loci: [indulgences, purgatory]
-          - b3c6: CHAPTER 6. THE LIFE OF A CHRISTIAN MAN. SCRIPTURAL ARGUMENTS EXHORTING TO IT.
+          - b3c6: Chapter 6. The Life of a Christian Man. Scriptural Arguments Exhorting to It.
             loci: sanctification
-          - b3c7: CHAPTER 7. A SUMMARY OF THE CHRISTIAN LIFE. OF SELF-DENIAL.
+          - b3c7: Chapter 7. A Summary of the Christian Life. Of Self-Denial.
             loci: sanctification
-          - b3c8: CHAPTER 8. OF BEARING THE CROSS. ONE BRANCH OF SELF-DENIAL.
+          - b3c8: Chapter 8. Of Bearing the Cross. One Branch of Self-Denial.
             loci: sanctification
-          - b3c9: CHAPTER 9. OF MEDITATING ON THE FUTURE LIFE.
+          - b3c9: Chapter 9. Of Meditating on the Future Life.
             loci: sanctification
-          - b3c10: CHAPTER 10. HOW TO USE THE PRESENT LIFE, AND THE COMFORTS OF IT.
+          - b3c10: Chapter 10. How to Use the Present Life, and the Comforts of It.
             loci: sanctification
-          - b3c11: CHAPTER 11. OF JUSTIFICATION BY FAITH. BOTH THE NAME AND THE REALITY DEFINED.
+          - b3c11: Chapter 11. Of Justification by Faith. Both the Name and the Reality Defined.
             loci: justification
-          - b3c12: CHAPTER 12. NECESSITY OF CONTEMPLATING THE JUDGMENT-SEAT OF GOD, IN ORDER TO BE SERIOUSLY CONVINCED OF THE DOCTRINE OF GRATUITOUS JUSTIFICATION.
+          - b3c12: Chapter 12. Necessity of Contemplating the Judgment-Seat of God, in Order to Be Seriously Convinced of the Doctrine of Gratuitous Justification.
             loci: justification
-          - b3c13: CHAPTER 13. TWO THINGS TO BE OBSERVED IN GRATUITOUS JUSTIFICATION.
+          - b3c13: Chapter 13. Two Things to Be Observed in Gratuitous Justification.
             loci: justification
-          - b3c14: CHAPTER 14. THE BEGINNING OF JUSTIFICATION. IN WHAT SENSE PROGRESSIVE.
+          - b3c14: Chapter 14. The Beginning of Justification. In What Sense Progressive.
             loci: justification
-          - b3c15: CHAPTER 15. THE BOASTED MERIT OF WORKS SUBVERSIVE BOTH OF THE GLORY OF GOD, IN BESTOWING RIGHTEOUSNESS, AND OF THE CERTAINTY OF SALVATION.
+          - b3c15: Chapter 15. The Boasted Merit of Works Subversive Both of the Glory of God, in Bestowing Righteousness, and of the Certainty of Salvation.
             loci: good-works
-          - b3c16: CHAPTER 16. REFUTATION OF THE CALUMNIES BY WHICH IT IS ATTEMPTED TO THROW ODIUM ON THIS DOCTRINE.
+          - b3c16: Chapter 16. Refutation of the Calumnies by Which It Is Attempted to Throw Odium on This Doctrine.
             loci: good-works
-          - b3c17: CHAPTER 17. THE PROMISES OF THE LAW AND THE GOSPEL RECONCILED.
+          - b3c17: Chapter 17. The Promises of the Law and the Gospel Reconciled.
             loci: [law, gospel]
-          - b3c18: CHAPTER 18. THE RIGHTEOUSNESS OF WORKS IMPROPERLY INFERRED FROM REWARDS.
+          - b3c18: Chapter 18. The Righteousness of Works Improperly Inferred from Rewards.
             loci: good-works
-          - b3c19: CHAPTER 19. OF CHRISTIAN LIBERTY.
+          - b3c19: Chapter 19. Of Christian Liberty.
             loci: christian-liberty
-          - b3c20: CHAPTER 20. OF PRAYER. A PERPETUAL EXERCISE OF FAITH. THE DAILY BENEFITS DERIVED FROM IT.
+          - b3c20: Chapter 20. Of Prayer. A Perpetual Exercise of Faith. The Daily Benefits Derived from It.
             loci: prayer
-          - b3c21: CHAPTER 21. OF THE ETERNAL ELECTION, BY WHICH GOD HAS PREDESTINATED SOME TO SALVATION, AND OTHERS TO DESTRUCTION.
+          - b3c21: Chapter 21. Of the Eternal Election, by Which God Has Predestinated Some to Salvation, and Others to Destruction.
             loci: predestination
-          - b3c22: CHAPTER 22. THIS DOCTRINE CONFIRMED BY PROOFS FROM SCRIPTURE.
+          - b3c22: Chapter 22. This Doctrine Confirmed by Proofs from Scripture.
             loci: predestination
-          - b3c23: CHAPTER 23. REFUTATION OF THE CALUMNIES BY WHICH THIS DOCTRINE IS ALWAYS UNJUSTLY ASSAILED.
+          - b3c23: Chapter 23. Refutation of the Calumnies by Which This Doctrine Is Always Unjustly Assailed.
             loci: predestination
-          - b3c24: CHAPTER 24. ELECTION CONFIRMED BY THE CALLING OF GOD. THE REPROBATE BRING UPON THEMSELVES THE RIGHTEOUS DESTRUCTION TO WHICH THEY ARE DOOMED.
+          - b3c24: Chapter 24. Election Confirmed by the Calling of God. The Reprobate Bring upon Themselves the Righteous Destruction to Which They Are Doomed.
             loci: [predestination, reprobation]
-          - b3c25: CHAPTER 25. OF THE LAST RESURRECTION.
+          - b3c25: Chapter 25. Of the Last Resurrection.
             loci: resurrection-of-the-dead
-      - b4: BOOK FOURTH. OF THE HOLY CATHOLIC CHURCH.
+      - b4: Book Fourth. Of the Holy Catholic Church.
         sections:
-          - b4c1: CHAPTER 1. OF THE TRUE CHURCH. DUTY OF CULTIVATING UNITY WITH HER, AS THE MOTHER OF ALL THE GODLY.
+          - b4c1: Chapter 1. Of the True Church. Duty of Cultivating Unity with Her, as the Mother of All the Godly.
             loci: unity-of-the-church
-          - b4c2: CHAPTER 2. COMPARISON BETWEEN THE FALSE CHURCH AND THE TRUE.
+          - b4c2: Chapter 2. Comparison between the False Church and the True.
             loci: true-church
-          - b4c3: CHAPTER 3. OF THE TEACHERS AND MINISTERS OF THE CHURCH. THEIR ELECTION AND OFFICE.
+          - b4c3: Chapter 3. Of the Teachers and Ministers of the Church. Their Election and Office.
             loci: government-of-the-church
-          - b4c4: CHAPTER 4. OF THE STATE OF THE PRIMITIVE CHURCH, AND THE MODE OF GOVERNMENT IN USE BEFORE THE PAPACY.
+          - b4c4: Chapter 4. Of the State of the Primitive Church, and the Mode of Government in Use before the Papacy.
             loci: government-of-the-church
-          - b4c5: CHAPTER 5. THE ANCIENT FORM OF GOVERNMENT UTTERLY CORRUPTED BY THE TYRANNY OF THE PAPACY.
+          - b4c5: Chapter 5. The Ancient Form of Government Utterly Corrupted by the Tyranny of the Papacy.
             loci: papacy
-          - b4c6: CHAPTER 6. OF THE PRIMACY OF THE ROMISH SEE.
+          - b4c6: Chapter 6. Of the Primacy of the Romish See.
             loci: papacy
-          - b4c7: CHAPTER 7. OF THE BEGINNING AND RISE OF THE ROMISH PAPACY.
+          - b4c7: Chapter 7. Of the Beginning and Rise of the Romish Papacy.
             loci: papacy
-          - b4c8: CHAPTER 8. OF THE POWER OF THE CHURCH IN ARTICLES OF FAITH.
+          - b4c8: Chapter 8. Of the Power of the Church in Articles of Faith.
             loci: power-of-the-church
-          - b4c9: CHAPTER 9. OF COUNCILS AND THEIR AUTHORITY.
+          - b4c9: Chapter 9. Of Councils and Their Authority.
             loci: power-of-the-church
-          - b4c10: CHAPTER 10. OF THE POWER OF MAKING LAWS.
+          - b4c10: Chapter 10. Of the Power of Making Laws.
             loci: power-of-the-church
-          - b4c11: CHAPTER 11. OF THE JURISDICTION OF THE CHURCH, AND THE ABUSES OF IT, AS EXEMPLIFIED IN THE PAPACY.
+          - b4c11: Chapter 11. Of the Jurisdiction of the Church, and the Abuses of It, as Exemplified in the Papacy.
             loci: [power-of-the-church, papacy]
-          - b4c12: CHAPTER 12. OF THE DISCIPLINE OF THE CHURCH, AND ITS PRINCIPAL USE IN CENSURES AND EXCOMMUNICATION.
+          - b4c12: Chapter 12. Of the Discipline of the Church, and Its Principal Use in Censures and Excommunication.
             loci: power-of-the-church
-          - b4c13: CHAPTER 13. OF VOWS. THE MISERABLE ENTANGLEMENTS CAUSED BY VOWING RASHLY.
+          - b4c13: Chapter 13. Of Vows. The Miserable Entanglements Caused by Vowing Rashly.
             loci: oaths
-          - b4c14: CHAPTER 14. OF THE SACRAMENTS.
+          - b4c14: Chapter 14. Of the Sacraments.
             loci: sacraments
-          - b4c15: CHAPTER 15. OF BAPTISM.
+          - b4c15: Chapter 15. Of Baptism.
             loci: baptism
-          - b4c16: CHAPTER 16. PAEDOBAPTISM. ITS ACCORDANCE WITH THE INSTITUTION OF CHRIST, AND THE NATURE OF THE SIGN.
+          - b4c16: Chapter 16. Paedobaptism. Its Accordance with the Institution of Christ, and the Nature of the Sign.
             loci: baptism
-          - b4c17: CHAPTER 17. OF THE LORD'S SUPPER, AND THE BENEFITS CONFERRED BY IT.
+          - b4c17: Chapter 17. Of the Lord's Supper, and the Benefits Conferred by It.
             loci: lords-supper
-          - b4c18: CHAPTER 18. OF THE POPISH MASS. HOW IT NOT ONLY PROFANES, BUT ANNIHILATES THE LORD'S SUPPER.
+          - b4c18: Chapter 18. Of the Popish Mass. How It Not Only Profanes, but Annihilates the Lord's Supper.
             loci: lords-supper
-          - b4c19: CHAPTER 19. OF THE FIVE SACRAMENTS, FALSELY SO CALLED.
+          - b4c19: Chapter 19. Of the Five Sacraments, Falsely So Called.
             loci: [confirmation, penance, extreme-unction, marriage]
-          - b4c20: CHAPTER 20. OF CIVIL GOVERNMENT.
+          - b4c20: Chapter 20. Of Civil Government.
             loci: civil-government
     translations:
       - translator: Henry Beveridge

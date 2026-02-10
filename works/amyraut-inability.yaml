@@ -1,4 +1,5 @@
 amyraut-inability:
+  date_added: 2026-02-10
   author: Q1236249
   loci: free-will
   la:
@@ -10,7 +11,7 @@ amyraut-inability:
   en:
     title: In Defense of the Natural & Moral Inability Distinction
     translations:
-      - translator: Oz (Reformed Retrieval)
+      - translator: Oz
         AI: true
         sites:
           - site: Dropbox

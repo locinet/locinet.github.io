@@ -1,4 +1,5 @@
 daille-apologia:
+  date_added: 2026-02-10
   author: Q3171523
   loci: government-of-the-church
   la:
@@ -14,7 +15,7 @@ daille-apologia:
       - vol-2-testimonies: "Volume 2: Testimonies"
       - vindication: Vindication of the Apology
     translations:
-      - translator: IrenicalProt (Colloquia Scholastica)
+      - translator: IrenicalProt
         AI: true
         sites:
           - site: Dropbox
@@ -23,7 +24,7 @@ daille-apologia:
                 1: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/ADXagW6h0xzz660OIBxeCrc/%5BJean%20Daill%C3%A9%5D%20Apologia%20Vol%201..pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
                 2: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AOcbhFjdaQqYete9RkepFQI/%5BJean%20Daill%C3%A9%5D%20Apologia%20Vol%202.%20Testimonies.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
             pdf: true
-      - translator: Nos (Colloquia Scholastica)
+      - translator: Nos
         AI: true
         sites:
           - site: Dropbox

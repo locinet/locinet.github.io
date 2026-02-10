@@ -1,4 +1,5 @@
 grebenitz-regeneration:
+  date_added: 2026-02-10
   author: Q90150404
   category: disputations
   la:
@@ -13,7 +14,7 @@ grebenitz-regeneration:
   en:
     title: Three Disputations on Regeneration
     translations:
-      - translator: Nos (Colloquia Scholastica)
+      - translator: Nos
         AI: true
         sites:
           - site: Dropbox

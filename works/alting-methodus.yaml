@@ -1,4 +1,5 @@
 alting-methodus: # Every work should have its own YAML file, which should start with a unique identifier in the format authorid-shorttitle. Use one word identifiers where possible. A work is a distinct creation , not an individual expression of that work. For example, Calvin's Institutes is a work with multiple editions. The editions would be represented within the same work file under the editions level of the tree.
+  date_added: 2026-02-06
   author: Q1971867 # Use the wikidata Q id for the author. wikidata.org
   la: # Optionally, start with the original language info. Other information, such as section titles can also be defined the same was as in English.
     title: Methodus theologiae didacticae

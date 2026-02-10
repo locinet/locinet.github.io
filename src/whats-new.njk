@@ -1,0 +1,20 @@
+---
+layout: layout.njk
+pageTitle: "What's New — Locinet"
+permalink: "/whats-new/"
+---
+
+<h1>What's New</h1>
+<p class="whats-new-subtitle">Recently added works</p>
+
+{% set currentDate = "" %}
+{% for entry in site.whatsNew %}
+  {% if entry.dateAdded != currentDate %}
+    {% set currentDate = entry.dateAdded %}
+    <h2 class="whats-new-date">{{ entry.dateAdded }}</h2>
+  {% endif %}
+  <div class="whats-new-entry">
+    <a href="/authors/{{ entry.authorSlug }}/">{{ entry.authorName }}</a>,
+    <a href="/authors/{{ entry.authorSlug }}/#{{ entry.id }}" class="work-title-inline">{{ entry.title }}</a>{% if entry.year %} <span class="work-year">({{ entry.year }})</span>{% endif %}{% for t in entry.translations %}<span class="whats-new-translation"> — translated by {% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}{% if t.translatorInfo and t.translatorInfo.support %} (<a href="{{ t.translatorInfo.support }}">support</a>){% endif %}{% if t.translatorInfo and t.translatorInfo.paypal %} (<a href="https://www.paypal.com/us/home">PayPal</a> {{ t.translatorInfo.paypal }}){% endif %}: {% if t.url %}<a href="{{ t.url }}">{{ t.siteName }}</a>{% elif t.volumes %}{% for vol, volUrl in t.volumes %}<a href="{{ volUrl }}">{{ t.siteName }} vol. {{ vol }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% else %}{{ t.siteName }}{% endif %}</span>{% endfor %}
+  </div>
+{% endfor %}
