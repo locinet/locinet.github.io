@@ -10,7 +10,7 @@ alting-methodus: # Every work should have its own YAML file, which should start 
     title: Method of Didactic Theology
     sections:
       - nature-of-theology: On the Nature of Theology
-        loci: theology
+        loci: nature-of-theology
       - methodus-god: On God
         loci: god
       - methodus-church: "Locus 13: On the Church"
