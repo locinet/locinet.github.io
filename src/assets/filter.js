@@ -923,7 +923,7 @@
         typeof repoUrl !== "undefined"
           ? repoUrl
           : "https://github.com/locinet/locinet.github.io";
-      var guideUrl = "https://locinet.github.io/locinet/contributing/";
+      var guideUrl = "https://locinet.github.io/contributing/";
       var skeleton =
         "# New work for " + label + "\n" +
         "# Guide: " + guideUrl + "\n" +
