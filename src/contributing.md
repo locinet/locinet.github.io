@@ -3,15 +3,22 @@ layout: layout.njk
 pageTitle: "Contributing — Locinet"
 ---
 
+# What is Locinet?
+
+Locinet is an online directory of *loci*, or topics (literally "places"), of theology. The 
+website includes links to a growing set of theological works on the Internet tagged according to the *loci* discussed therein. The works are also categorized by theological tradition and genre (such as systematic theology, disputations, popular theological works, or sermons), so that users interested in particular tradition and/or genre of material can quickly find it.
+
+While Locinet may currently be dominated by scholastic Reformed Christian theology, it is the hope of the site's founder that it will come to include many works of theology, even non-Christian. As long as the work is theology—reflection on the divine—and is clearly tagged by tradition, genre, and loci, it is welcome. 
+
 # How to Add a Work to Locinet
 
-Locinet is a directory of theological works hosted on the internet. Anyone can contribute by adding works using the steps below. No programming knowledge is needed.
+Anyone can contribute by adding works using the steps below. No programming knowledge is needed. Don't worry that your contribution could mess up the site. An administrator will review it and correct it before it is added.
 
 ## What you need
 
 - A free [GitHub account](https://github.com/signup) (for submitting your contribution)
 - A theological work that is available to read online in English
-- Access to any AI chatbot (ChatGPT, Claude, Gemini, etc.) — to help fill in the file
+- Access to any AI chatbot (ChatGPT, Claude, Gemini, etc.) — to help fill in the file (or fill it out yourself)
 
 ## Overview
 
