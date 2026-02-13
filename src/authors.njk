@@ -33,14 +33,21 @@ eleventyComputed:
     </p>
   {% endif %}
   <p class="author-ext-links">
+    {% set hasLink = false %}
     {% if authorPage.wikipediaUrl %}
-      <a href="{{ authorPage.wikipediaUrl }}">Wikipedia</a> ·
+      <a href="{{ authorPage.wikipediaUrl }}">Wikipedia</a>
+      {% set hasLink = true %}
     {% endif %}
+    {% for ref in authorPage.referenceWorks.all %}
+      {% if hasLink %} · {% endif %}<a href="{{ ref.url }}">{{ ref.linkText }}</a>
+      {% set hasLink = true %}
+    {% endfor %}
     {% if authorPage.prdlId %}
-      <a href="https://www.prdl.org/author_view.php?a_id={{ authorPage.prdlId }}">PRDL</a> ·
+      {% if hasLink %} · {% endif %}<a href="https://www.prdl.org/author_view.php?a_id={{ authorPage.prdlId }}">PRDL</a>
+      {% set hasLink = true %}
     {% endif %}
     {% if authorPage.qid and authorPage.qid.startsWith("Q") %}
-      <a href="https://www.wikidata.org/wiki/{{ authorPage.qid }}">Wikidata</a>
+      {% if hasLink %} · {% endif %}<a href="https://www.wikidata.org/wiki/{{ authorPage.qid }}">Wikidata</a>
     {% endif %}
   </p>
 </div>

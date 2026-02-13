@@ -341,6 +341,40 @@ function loadAllWorks(translatorsMap) {
 
 // --- Build author pages ---
 
+function normalizeReferenceWorks(meta) {
+  const referenceWorks = Array.isArray(meta.referenceWorks) ? meta.referenceWorks : [];
+  const uniqueByUrl = new Map();
+
+  for (const item of referenceWorks) {
+    if (!item || !item.url) continue;
+    if (!uniqueByUrl.has(item.url)) {
+      uniqueByUrl.set(item.url, {
+        property: item.property || null,
+        propertyIri: item.propertyIri || null,
+        type: item.type || null,
+        typeIri: item.typeIri || null,
+        identifier: item.identifier || null,
+        shortAlias: item.shortAlias || null,
+        linkText: item.shortAlias || item.property || item.type || "Reference",
+        url: item.url,
+      });
+    }
+  }
+
+  const sorted = [...uniqueByUrl.values()].sort((a, b) => {
+    const aProp = a.property || "";
+    const bProp = b.property || "";
+    if (aProp !== bProp) return aProp.localeCompare(bProp);
+    return a.url.localeCompare(b.url);
+  });
+
+  return {
+    all: sorted,
+    biographicalDictionaries: sorted.filter((item) => item.typeIri === "http://www.wikidata.org/entity/Q97584729"),
+    encyclopedias: sorted.filter((item) => item.typeIri === "http://www.wikidata.org/entity/Q55452870"),
+  };
+}
+
 function getAuthorMeta(qid, authors) {
   return authors[qid] || {
     qid,
@@ -351,6 +385,7 @@ function getAuthorMeta(qid, authors) {
     imageUrl: null,
     wikipediaUrl: null,
     prdlId: null,
+    referenceWorks: [],
     labels: {},
   };
 }
@@ -447,6 +482,7 @@ function buildAuthorPages(works, authors, traditionAuthors) {
         wikipediaUrl: meta.wikipediaUrl || null,
         prdlId: meta.prdlId || null,
         openLibraryId: meta.openLibraryId || null,
+        referenceWorks: normalizeReferenceWorks(meta),
         origLangName,
         authorLabels,
         tradition: traditionAuthors[qid] || null,
@@ -477,6 +513,7 @@ function buildAuthorPages(works, authors, traditionAuthors) {
       wikipediaUrl: caMeta?.wikipediaUrl || null,
       prdlId: caMeta?.prdlId || null,
       openLibraryId: caMeta?.openLibraryId || null,
+      referenceWorks: normalizeReferenceWorks(caMeta || {}),
       origLangName: ca.label,
       authorLabels: [],
       tradition: ca.qid ? (traditionAuthors[ca.qid] || null) : null,
