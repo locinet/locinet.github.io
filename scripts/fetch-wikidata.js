@@ -92,8 +92,10 @@ async function fetchAuthor(qid) {
     }
   }
 
+  const referenceWorks = await fetchReferenceWorks(qid);
+
   return {
-    _cacheVersion: 2,
+    _cacheVersion: 5,
     qid,
     name,
     slug: slugify(name),
@@ -105,8 +107,65 @@ async function fetchAuthor(qid) {
     familyName: row.familyName ? row.familyName.value : null,
     givenName: row.givenName ? row.givenName.value : null,
     openLibraryId: row.openLibrary ? row.openLibrary.value : null,
+    referenceWorks,
     labels,
   };
+}
+
+async function fetchReferenceWorks(qid) {
+  const sparql = `
+    SELECT DISTINCT ?prop ?propLabel ?type ?typeLabel ?identifier ?resolvedUrl ?shortAlias WHERE {
+      VALUES ?type { wd:Q97584729 wd:Q55452870 }
+
+      wd:${qid} ?prop ?identifier .
+      FILTER(isLiteral(?identifier))
+
+      ?property wikibase:directClaim ?prop .
+      ?property wdt:P31/wdt:P279* ?type .
+
+      ?property p:P1630 ?formatterStmt .
+      ?formatterStmt ps:P1630 ?formatterUrl .
+      ?formatterStmt pq:P407 wd:Q1860 .
+
+      OPTIONAL {
+        ?property wdt:P9073 ?referenceWorkItem .
+        ?referenceWorkItem skos:altLabel ?shortAlias .
+        FILTER(LANG(?shortAlias) = "en")
+        FILTER NOT EXISTS {
+          ?referenceWorkItem skos:altLabel ?alias2 .
+          FILTER(LANG(?alias2) = "en")
+          FILTER(STRLEN(STR(?alias2)) < STRLEN(STR(?shortAlias)))
+        }
+      }
+
+
+      BIND(IRI(REPLACE(STR(?formatterUrl), "\\$1", ENCODE_FOR_URI(STR(?identifier)))) AS ?resolvedUrl)
+
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+    }
+  `;
+  const url =
+    "https://query.wikidata.org/sparql?format=json&query=" +
+    encodeURIComponent(sparql);
+
+  const res = await fetch(url, {
+    headers: { "User-Agent": "Locinet/1.0 (theological directory)" },
+  });
+
+  if (!res.ok) {
+    throw new Error(`Wikidata reference query failed for ${qid}: ${res.status}`);
+  }
+
+  const json = await res.json();
+  return json.results.bindings.map((row) => ({
+    property: row.propLabel ? row.propLabel.value : row.prop.value,
+    propertyIri: row.prop.value,
+    type: row.typeLabel ? row.typeLabel.value : row.type.value,
+    typeIri: row.type.value,
+    identifier: row.identifier.value,
+    url: row.resolvedUrl.value,
+    shortAlias: row.shortAlias ? row.shortAlias.value : null,
+  }));
 }
 
 async function main() {
@@ -120,7 +179,7 @@ async function main() {
     if (fs.existsSync(cachePath)) {
       // Check if cache has the new fields; if not, re-fetch
       const cached = JSON.parse(fs.readFileSync(cachePath, "utf8"));
-      if (cached._cacheVersion >= 2) {
+      if (cached._cacheVersion >= 5) {
         console.log(`  ${qid} — cached`);
         continue;
       }
