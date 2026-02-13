@@ -35,7 +35,7 @@ This opens a new file on GitHub with a template that looks like this:
 
 ```yaml
 # New work for Thomas Aquinas
-# Guide: https://locinet.github.io/locinet/contributing/
+# Guide: https://locinet.github.io/contributing/
 #
 # Instructions:
 #   1. Change the work ID below (e.g. calvin-institutes)

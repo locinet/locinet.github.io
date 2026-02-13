@@ -95,7 +95,7 @@ async function fetchAuthor(qid) {
   const referenceWorks = await fetchReferenceWorks(qid);
 
   return {
-    _cacheVersion: 5,
+    _cacheVersion: 4,
     qid,
     name,
     slug: slugify(name),
@@ -121,7 +121,7 @@ async function fetchReferenceWorks(qid) {
       FILTER(isLiteral(?identifier))
 
       ?property wikibase:directClaim ?prop .
-      ?property wdt:P31/wdt:P279* ?type .
+      ?property wdt:P31 ?type .
 
       ?property p:P1630 ?formatterStmt .
       ?formatterStmt ps:P1630 ?formatterUrl .
@@ -179,7 +179,7 @@ async function main() {
     if (fs.existsSync(cachePath)) {
       // Check if cache has the new fields; if not, re-fetch
       const cached = JSON.parse(fs.readFileSync(cachePath, "utf8"));
-      if (cached._cacheVersion >= 5) {
+      if (cached._cacheVersion >= 4) {
         console.log(`  ${qid} — cached`);
         continue;
       }
