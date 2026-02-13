@@ -132,16 +132,54 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .edition-info { font-size: 0.9em; color: var(--muted); margin-bottom: 0.2em; }
 .translations-summary { font-size: 0.9em; margin-bottom: 0.5em; }
 
+/* Sections toggle (clickable translations-summary) */
+.translations-summary.sections-toggle { cursor: pointer; }
+.translations-summary.sections-toggle::before {
+  content: '\25b8 ';
+  font-size: 0.7em;
+}
+.translations-summary.sections-toggle.sections-open::before {
+  content: '\25be ';
+}
+
+/* Inline download links */
+.download-link { font-size: 0.9em; }
+
+/* Expand/collapse all */
+.expand-all-toggle {
+  font-size: 0.85em;
+  margin: 0.3em 0 0 0;
+}
+
 /* Sections list */
 .sections-list {
   list-style: none;
   margin-top: 0.5em;
 }
+.sections-list.sections-collapsed { display: none; }
 .section-item {
   padding: 0.15em 0;
   font-size: 0.9em;
 }
 .section-title { }
+.section-item.has-text { cursor: pointer; }
+.section-item.has-text > .section-title::before {
+  content: '\25b8 ';
+  font-size: 0.7em;
+}
+.section-item.has-text.expanded > .section-title::before {
+  content: '\25be ';
+}
+.section-text {
+  display: none;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0.5em 1em;
+  border-left: 2px solid var(--border);
+  font-size: 0.95em;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+.section-item.expanded > .section-text { display: block; }
 .section-link {
   font-size: 0.8em;
   margin-left: 0.3em;

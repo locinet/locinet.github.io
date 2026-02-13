@@ -765,6 +765,459 @@
     }
   }
 
+  // --- Sections collapse/expand toggle ---
+
+  document.querySelectorAll(".sections-toggle").forEach(function (toggle) {
+    toggle.addEventListener("click", function (e) {
+      // Don't toggle when clicking links inside
+      if (e.target.closest("a")) return;
+      var work = this.closest(".work");
+      if (!work) return;
+      var list = work.querySelector(".sections-list");
+      var expandToggle = work.querySelector(".expand-all-toggle");
+      if (list) {
+        var opening = list.classList.contains("sections-collapsed");
+        list.classList.toggle("sections-collapsed");
+        this.classList.toggle("sections-open", opening);
+        if (expandToggle) expandToggle.style.display = opening ? "" : "none";
+      }
+    });
+  });
+
+  // --- Expandable section text ---
+
+  document.querySelectorAll(".section-item.has-text").forEach(function (li) {
+    li.addEventListener("click", function (e) {
+      if (e.target.closest("a")) return;
+      this.classList.toggle("expanded");
+    });
+    var title = li.querySelector(".section-title[role='button']");
+    if (title) {
+      title.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          li.classList.toggle("expanded");
+        }
+      });
+    }
+  });
+
+  // --- Expand all / Collapse all ---
+
+  document.querySelectorAll(".expand-all-link").forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var work = this.closest(".work");
+      if (!work) return;
+      var items = work.querySelectorAll(".section-item.has-text");
+      var allExpanded = true;
+      items.forEach(function (li) { if (!li.classList.contains("expanded")) allExpanded = false; });
+      if (allExpanded) {
+        items.forEach(function (li) { li.classList.remove("expanded"); });
+        this.textContent = "Expand all";
+      } else {
+        items.forEach(function (li) { li.classList.add("expanded"); });
+        this.textContent = "Collapse all";
+      }
+    });
+  });
+
+  // --- Download links (PDF / EPUB) ---
+
+  document.querySelectorAll(".download-link").forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var self = this;
+      var format = self.dataset.format;
+      var work = self.closest(".work");
+      if (!work || !work.dataset.hasText) return;
+
+      var meta = {
+        workId: work.id,
+        workTitle: work.dataset.workTitle,
+        origTitle: work.dataset.workOrigTitle,
+        authorName: work.dataset.workAuthor,
+        authorOrigName: work.dataset.authorOrigName,
+        authorDates: work.dataset.authorDates,
+        authorImage: work.dataset.authorImage,
+        editionInfo: work.dataset.editionInfo,
+        translationInfo: work.dataset.translationInfo
+      };
+
+      var items = work.querySelectorAll(".section-item.has-text");
+      var sections = [];
+      items.forEach(function (li) {
+        var titleEl = li.querySelector(".section-title");
+        var textEl = li.querySelector(".section-text");
+        if (titleEl && textEl) {
+          sections.push({ title: titleEl.textContent.trim(), text: textEl.textContent.trim() });
+        }
+      });
+      if (sections.length === 0) return;
+
+      var origText = self.textContent;
+      self.textContent = "...";
+      var libUrl = format === "pdf"
+        ? "https://unpkg.com/jspdf@2.5.1/dist/jspdf.umd.min.js"
+        : "https://unpkg.com/jszip@3.10.1/dist/jszip.min.js";
+      var checkLoaded = format === "pdf"
+        ? function () { return typeof window.jspdf !== "undefined"; }
+        : function () { return typeof window.JSZip !== "undefined"; };
+      loadScript(libUrl, checkLoaded, function () {
+        self.textContent = origText;
+        if (format === "pdf") generatePdf(meta, sections);
+        else generateEpub(meta, sections);
+      });
+    });
+  });
+
+  function loadScript(url, checkLoaded, callback) {
+    if (checkLoaded()) { callback(); return; }
+    var script = document.createElement("script");
+    script.src = url;
+    script.onload = function () { callback(); };
+    script.onerror = function () { alert("Failed to load library from " + url); };
+    document.head.appendChild(script);
+  }
+
+  // Cache for loaded font data
+  var _fontCache = null;
+  var _fontBoldCache = null;
+  var FONT_URLS = [
+    "https://cdn.jsdelivr.net/gh/google/fonts@main/apache/tinos/Tinos-Regular.ttf",
+    "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notoserif/NotoSerif-Regular.ttf"
+  ];
+  var FONT_BOLD_URLS = [
+    "https://cdn.jsdelivr.net/gh/google/fonts@main/apache/tinos/Tinos-Bold.ttf",
+    "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notoserif/NotoSerif-Bold.ttf"
+  ];
+
+  function fetchFontWithFallback(urls, idx) {
+    if (idx >= urls.length) return Promise.resolve(null);
+    return fetch(urls[idx])
+      .then(function (r) { return r.ok ? r.arrayBuffer() : fetchFontWithFallback(urls, idx + 1); })
+      .catch(function () { return fetchFontWithFallback(urls, idx + 1); });
+  }
+
+  function loadFonts(callback) {
+    if (_fontCache !== undefined && _fontCache !== null) {
+      callback(_fontCache, _fontBoldCache);
+      return;
+    }
+    Promise.all([
+      fetchFontWithFallback(FONT_URLS, 0),
+      fetchFontWithFallback(FONT_BOLD_URLS, 0)
+    ]).then(function (results) {
+      _fontCache = results[0];
+      _fontBoldCache = results[1];
+      callback(_fontCache, _fontBoldCache);
+    });
+  }
+
+  function generatePdf(meta, sections) {
+    loadFonts(function (fontData, fontBoldData) {
+      buildPdf(meta, sections, fontData, fontBoldData);
+    });
+  }
+
+  function buildPdf(meta, sections, fontData, fontBoldData) {
+    var jsPDF = window.jspdf.jsPDF;
+    var doc = new jsPDF({ unit: "mm", format: "a4" });
+    var pageWidth = doc.internal.pageSize.getWidth();
+    var pageHeight = doc.internal.pageSize.getHeight();
+    var margin = 20;
+    var usable = pageWidth - 2 * margin;
+    var fontName = "times"; // fallback
+
+    // Register custom Unicode font if loaded
+    if (fontData) {
+      var fontBytes = new Uint8Array(fontData);
+      var fontStr = "";
+      for (var ci = 0; ci < fontBytes.length; ci++) fontStr += String.fromCharCode(fontBytes[ci]);
+      doc.addFileToVFS("CustomSerif-Regular.ttf", btoa(fontStr));
+      doc.addFont("CustomSerif-Regular.ttf", "CustomSerif", "normal");
+      fontName = "CustomSerif";
+    }
+    if (fontBoldData) {
+      var boldBytes = new Uint8Array(fontBoldData);
+      var boldStr = "";
+      for (var bi = 0; bi < boldBytes.length; bi++) boldStr += String.fromCharCode(boldBytes[bi]);
+      doc.addFileToVFS("CustomSerif-Bold.ttf", btoa(boldStr));
+      doc.addFont("CustomSerif-Bold.ttf", "CustomSerif", "bold");
+    }
+    doc.setFont(fontName, "normal");
+
+    function addImageAndFinish(imgData) {
+      // --- Title page ---
+      var y = 40;
+      if (imgData) {
+        var imgW = 40;
+        var imgH = 50;
+        doc.addImage(imgData, "JPEG", (pageWidth - imgW) / 2, y, imgW, imgH);
+        y += imgH + 8;
+      }
+      doc.setFontSize(20);
+      doc.setFont(fontName, fontBoldData ? "bold" : "normal");
+      var titleLines = doc.splitTextToSize(meta.workTitle || meta.workId, usable);
+      doc.text(titleLines, pageWidth / 2, y, { align: "center" });
+      y += titleLines.length * 8 + 3;
+      if (meta.origTitle && meta.origTitle !== meta.workTitle) {
+        doc.setFontSize(13);
+        doc.setFont(fontName, "normal");
+        var origLines = doc.splitTextToSize(meta.origTitle, usable);
+        doc.text(origLines, pageWidth / 2, y, { align: "center" });
+        y += origLines.length * 6 + 3;
+      }
+      doc.setFont(fontName, "normal");
+      doc.setFontSize(14);
+      if (meta.authorName) {
+        doc.text(meta.authorName, pageWidth / 2, y, { align: "center" });
+        y += 6;
+      }
+      if (meta.authorOrigName && meta.authorOrigName !== meta.authorName) {
+        doc.setFontSize(12);
+        doc.text(meta.authorOrigName, pageWidth / 2, y, { align: "center" });
+        y += 6;
+      }
+      if (meta.authorDates) {
+        doc.setFontSize(11);
+        doc.text(meta.authorDates, pageWidth / 2, y, { align: "center" });
+        y += 8;
+      }
+      doc.setFontSize(10);
+      if (meta.editionInfo) {
+        doc.text(meta.editionInfo, pageWidth / 2, y, { align: "center" });
+        y += 5;
+      }
+      if (meta.translationInfo) {
+        var transLines = doc.splitTextToSize(meta.translationInfo, usable);
+        doc.text(transLines, pageWidth / 2, y, { align: "center" });
+      }
+
+      // --- Content (continuous flow) ---
+      doc.addPage();
+      y = margin;
+      var lineHeight = 5;
+      for (var i = 0; i < sections.length; i++) {
+        doc.setFontSize(12);
+        doc.setFont(fontName, fontBoldData ? "bold" : "normal");
+        var secTitleLines = doc.splitTextToSize(sections[i].title, usable);
+        var headingHeight = secTitleLines.length * 6 + 4;
+        if (y + headingHeight > pageHeight - margin) {
+          doc.addPage();
+          y = margin;
+        }
+        if (i > 0) y += 4;
+        doc.text(secTitleLines, margin, y);
+        y += secTitleLines.length * 6 + 2;
+
+        doc.setFontSize(11);
+        doc.setFont(fontName, "normal");
+        var bodyLines = doc.splitTextToSize(sections[i].text, usable);
+        for (var j = 0; j < bodyLines.length; j++) {
+          if (y > pageHeight - margin) {
+            doc.addPage();
+            y = margin;
+          }
+          doc.text(bodyLines[j], margin, y);
+          y += lineHeight;
+        }
+      }
+
+      doc.save(meta.workId + ".pdf");
+    }
+
+    // Try to load the author image
+    if (meta.authorImage) {
+      var img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload = function () {
+        var canvas = document.createElement("canvas");
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
+        canvas.getContext("2d").drawImage(img, 0, 0);
+        try {
+          var data = canvas.toDataURL("image/jpeg", 0.85);
+          addImageAndFinish(data);
+        } catch (e) {
+          addImageAndFinish(null);
+        }
+      };
+      img.onerror = function () { addImageAndFinish(null); };
+      img.src = meta.authorImage + "?width=200";
+    } else {
+      addImageAndFinish(null);
+    }
+  }
+
+  function generateEpub(meta, sections) {
+    function buildEpub(imgArrayBuffer) {
+      var zip = new JSZip();
+      var hasImage = !!imgArrayBuffer;
+
+      // mimetype (must be first, uncompressed)
+      zip.file("mimetype", "application/epub+zip", { compression: "STORE" });
+
+      // META-INF/container.xml
+      zip.file("META-INF/container.xml",
+        '<?xml version="1.0" encoding="UTF-8"?>\n' +
+        '<container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">\n' +
+        '  <rootfiles>\n' +
+        '    <rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/>\n' +
+        '  </rootfiles>\n' +
+        '</container>'
+      );
+
+      if (hasImage) {
+        zip.file("OEBPS/images/author.jpg", imgArrayBuffer);
+      }
+
+      // Build chapter XHTML
+      var css = 'body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; }\n' +
+        '.title-page { text-align: center; margin-bottom: 2em; }\n' +
+        '.title-page h1 { margin-bottom: 0.2em; }\n' +
+        '.title-page .orig-title { font-style: italic; color: #555; }\n' +
+        '.title-page .author-image { max-width: 200px; margin: 0 auto 0.5em; display: block; }\n' +
+        '.title-page .dates { color: #777; }\n' +
+        '.title-page .edition-info, .title-page .translation-info { font-size: 0.9em; color: #777; }\n' +
+        'h2 { margin-top: 1.5em; margin-bottom: 0.3em; font-size: 1.1em; }\n';
+
+      var body = '<div class="title-page">\n';
+      if (hasImage) {
+        body += '  <img class="author-image" src="images/author.jpg" alt="' + escapeHtml(meta.authorName) + '"/>\n';
+      }
+      body += '  <h1>' + escapeHtml(meta.workTitle || meta.workId) + '</h1>\n';
+      if (meta.origTitle && meta.origTitle !== meta.workTitle) {
+        body += '  <p class="orig-title">' + escapeHtml(meta.origTitle) + '</p>\n';
+      }
+      if (meta.authorName) {
+        body += '  <p><strong>' + escapeHtml(meta.authorName) + '</strong></p>\n';
+      }
+      if (meta.authorOrigName && meta.authorOrigName !== meta.authorName) {
+        body += '  <p class="orig-title">' + escapeHtml(meta.authorOrigName) + '</p>\n';
+      }
+      if (meta.authorDates) {
+        body += '  <p class="dates">' + escapeHtml(meta.authorDates) + '</p>\n';
+      }
+      if (meta.editionInfo) {
+        body += '  <p class="edition-info">' + escapeHtml(meta.editionInfo) + '</p>\n';
+      }
+      if (meta.translationInfo) {
+        body += '  <p class="translation-info">' + escapeHtml(meta.translationInfo) + '</p>\n';
+      }
+      body += '</div>\n<hr/>\n';
+
+      var tocItems = [];
+      for (var i = 0; i < sections.length; i++) {
+        var anchorId = "sec-" + i;
+        tocItems.push({ id: anchorId, title: sections[i].title });
+        body += '<h2 id="' + anchorId + '">' + escapeHtml(sections[i].title) + '</h2>\n';
+        var paras = sections[i].text.split(/\n\n+/);
+        for (var p = 0; p < paras.length; p++) {
+          if (paras[p].trim()) {
+            body += '<p>' + escapeHtml(paras[p].trim()) + '</p>\n';
+          }
+        }
+      }
+
+      var chapterXhtml =
+        '<?xml version="1.0" encoding="UTF-8"?>\n' +
+        '<!DOCTYPE html>\n' +
+        '<html xmlns="http://www.w3.org/1999/xhtml">\n' +
+        '<head><title>' + escapeHtml(meta.workTitle || meta.workId) + '</title>\n' +
+        '<style type="text/css">\n' + css + '</style>\n' +
+        '</head>\n' +
+        '<body>\n' + body + '</body>\n</html>';
+      zip.file("OEBPS/chapter.xhtml", chapterXhtml);
+
+      // content.opf
+      var manifestExtra = '';
+      if (hasImage) {
+        manifestExtra = '    <item id="author-img" href="images/author.jpg" media-type="image/jpeg"/>\n';
+      }
+      var opf =
+        '<?xml version="1.0" encoding="UTF-8"?>\n' +
+        '<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="3.0">\n' +
+        '  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">\n' +
+        '    <dc:identifier id="bookid">urn:locinet:' + escapeHtml(meta.workId) + '</dc:identifier>\n' +
+        '    <dc:title>' + escapeHtml(meta.workTitle || meta.workId) + '</dc:title>\n' +
+        '    <dc:creator>' + escapeHtml(meta.authorName || "Unknown") + '</dc:creator>\n' +
+        '    <dc:language>en</dc:language>\n' +
+        '    <meta property="dcterms:modified">' + new Date().toISOString().replace(/\.\d+Z/, "Z") + '</meta>\n' +
+        '  </metadata>\n' +
+        '  <manifest>\n' +
+        '    <item id="chapter" href="chapter.xhtml" media-type="application/xhtml+xml"/>\n' +
+        '    <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>\n' +
+        '    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>\n' +
+        manifestExtra +
+        '  </manifest>\n' +
+        '  <spine toc="toc">\n' +
+        '    <itemref idref="chapter"/>\n' +
+        '  </spine>\n' +
+        '</package>';
+      zip.file("OEBPS/content.opf", opf);
+
+      // toc.ncx
+      var ncxPoints = '';
+      for (var k = 0; k < tocItems.length; k++) {
+        ncxPoints +=
+          '    <navPoint id="np-' + k + '" playOrder="' + (k + 1) + '">\n' +
+          '      <navLabel><text>' + escapeHtml(tocItems[k].title) + '</text></navLabel>\n' +
+          '      <content src="chapter.xhtml#' + tocItems[k].id + '"/>\n' +
+          '    </navPoint>\n';
+      }
+      var ncx =
+        '<?xml version="1.0" encoding="UTF-8"?>\n' +
+        '<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">\n' +
+        '  <head><meta name="dtb:uid" content="urn:locinet:' + escapeHtml(meta.workId) + '"/></head>\n' +
+        '  <docTitle><text>' + escapeHtml(meta.workTitle || meta.workId) + '</text></docTitle>\n' +
+        '  <navMap>\n' + ncxPoints + '  </navMap>\n' +
+        '</ncx>';
+      zip.file("OEBPS/toc.ncx", ncx);
+
+      // nav.xhtml
+      var navItems = '';
+      for (var m = 0; m < tocItems.length; m++) {
+        navItems += '      <li><a href="chapter.xhtml#' + tocItems[m].id + '">' + escapeHtml(tocItems[m].title) + '</a></li>\n';
+      }
+      var navXhtml =
+        '<?xml version="1.0" encoding="UTF-8"?>\n' +
+        '<!DOCTYPE html>\n' +
+        '<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">\n' +
+        '<head><title>Table of Contents</title></head>\n' +
+        '<body>\n' +
+        '  <nav epub:type="toc">\n' +
+        '    <h1>Table of Contents</h1>\n' +
+        '    <ol>\n' + navItems + '    </ol>\n' +
+        '  </nav>\n' +
+        '</body>\n</html>';
+      zip.file("OEBPS/nav.xhtml", navXhtml);
+
+      zip.generateAsync({ type: "blob", mimeType: "application/epub+zip" }).then(function (blob) {
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = meta.workId + ".epub";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
+    }
+
+    // Try to fetch the author image as binary for embedding
+    if (meta.authorImage) {
+      fetch(meta.authorImage + "?width=200")
+        .then(function (r) { return r.arrayBuffer(); })
+        .then(function (buf) { buildEpub(buf); })
+        .catch(function () { buildEpub(null); });
+    } else {
+      buildEpub(null);
+    }
+  }
+
   // --- Edit (opens GitHub file editor) ---
 
   document.querySelectorAll(".edit-link").forEach((link) => {

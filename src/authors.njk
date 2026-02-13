@@ -38,10 +38,6 @@ eleventyComputed:
       <a href="{{ authorPage.wikipediaUrl }}">Wikipedia</a>
       {% set hasLink = true %}
     {% endif %}
-    {% for ref in authorPage.referenceWorks.all %}
-      {% if hasLink %} · {% endif %}<a href="{{ ref.url }}">{{ ref.linkText }}</a>
-      {% set hasLink = true %}
-    {% endfor %}
     {% if authorPage.prdlId %}
       {% if hasLink %} · {% endif %}<a href="https://www.prdl.org/author_view.php?a_id={{ authorPage.prdlId }}">PRDL</a>
       {% set hasLink = true %}
@@ -61,7 +57,12 @@ eleventyComputed:
 <div id="works-list">
 {% for work in authorPage.works %}
   {% set allLociJson %}{{ work.allLoci | dump | safe }}{% endset %}
-  <div class="work" id="{{ work.id }}" data-loci="{{ allLociJson }}">
+  {% set hasText = work.sectionTexts and (work.sectionTexts | length > 0) %}
+  {% set editionInfo %}{% for ed in work.origEditions %}{% if ed.place %}{{ ed.place }}, {% endif %}{% if ed.year %}{{ ed.year }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}{% endset %}
+  {% set translationInfo %}{% for t in work.translations %}Translated by {{ t.translator }}{% if t.year %} ({{ t.year }}){% endif %}{% if t.AI %} [AI]{% endif %}{% if not loop.last %}. {% endif %}{% endfor %}{% endset %}
+  {% set authorDates %}{% if authorPage.birthYear %}{{ authorPage.birthYear }}{% endif %}{% if authorPage.deathYear %}–{{ authorPage.deathYear }}{% endif %}{% endset %}
+  <div class="work" id="{{ work.id }}" data-loci="{{ allLociJson }}"
+       {% if hasText %}data-has-text="1" data-work-title="{{ work.title }}" data-work-orig-title="{{ work.origTitle }}" data-work-author="{{ authorPage.name }}" data-author-orig-name="{{ authorPage.origLangName }}" data-author-dates="{{ authorDates | trim }}" data-author-image="{{ authorPage.imageUrl }}" data-edition-info="{{ editionInfo | trim }}" data-translation-info="{{ translationInfo | trim }}"{% endif %}>
     <div class="work-header">
       <h2 class="work-title">{{ work.title }}
         <a href="#" class="edit-link" data-work-id="{{ work.id }}" data-yaml-filename="{{ work.yamlFilename }}">[Edit]</a>
@@ -98,27 +99,39 @@ eleventyComputed:
 
       {# Full text line #}
       {% if work.translations.length > 0 %}
-        <p class="translations-summary">
+        <p class="translations-summary{% if work.flatSections.length > 0 %} sections-toggle{% endif %}">
           {%- for t in work.translations %}
             Full text in English translated by {% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}
             {%- if t.translatorInfo and t.translatorInfo.support %} (<a href="{{ t.translatorInfo.support }}">support</a>){% endif %}
             {%- if t.translatorInfo and t.translatorInfo.paypal %} (<a href="https://www.paypal.com/us/home">PayPal</a> {{ t.translatorInfo.paypal }}){% endif %}
             {%- if t.year %} ({{ t.year }}){% endif -%}
             :
+            {%- set hasSiteLink = false -%}
             {%- for s in t.sites %}
-              {%- if s.url %}
+              {%- if s.sectionTexts | length > 0 %}
+                {# Local/text site — skip site name, show download links below #}
+              {%- elif s.url %}
+                {%- if hasSiteLink %}, {% endif -%}
                 <a href="{{ s.url }}">{{ s.siteName }}</a>
+                {%- set hasSiteLink = true -%}
               {%- elif s.volumes %}
+                {%- if hasSiteLink %}, {% endif -%}
                 {{ s.siteName }}
                 {%- for volNum, volUrl in s.volumes %}
                   <a href="{{ volUrl }}">Vol. {{ volNum }}</a>
                   {%- if not loop.last %}, {% endif -%}
                 {%- endfor %}
+                {%- set hasSiteLink = true -%}
               {%- else %}
+                {%- if hasSiteLink %}, {% endif -%}
                 {{ s.siteName }}
+                {%- set hasSiteLink = true -%}
               {%- endif -%}
-              {%- if not loop.last %}, {% endif -%}
             {%- endfor -%}
+            {%- if hasText -%}
+              {%- if hasSiteLink %}, {% endif -%}
+              <a href="#" class="download-link" data-format="pdf">PDF</a> · <a href="#" class="download-link" data-format="epub">EPUB</a>
+            {%- endif -%}
             {%- if not loop.last -%}. {% endif -%}
           {%- endfor %}
         </p>
@@ -132,14 +145,19 @@ eleventyComputed:
           {% endfor %}
         </span>
       {% endif %}
+
     </div>
 
     {# Sections #}
     {% if work.flatSections.length > 0 %}
-      <ul class="sections-list">
+      {% if hasText %}
+        <p class="expand-all-toggle" style="display:none"><a href="#" class="expand-all-link">Expand all</a></p>
+      {% endif %}
+      <ul class="sections-list sections-collapsed">
         {% for section in work.flatSections %}
           {% set sectionLociJson %}{{ section.loci | dump | safe }}{% endset %}
-          <li class="section-item depth-{{ section.depth }}" data-loci="{{ sectionLociJson }}"
+          {% set sText = work.sectionTexts[section.id] if work.sectionTexts else null %}
+          <li class="section-item depth-{{ section.depth }}{% if sText %} has-text{% endif %}" data-loci="{{ sectionLociJson }}"
               style="margin-left: {{ section.depth * 1.5 }}em;">
             {# Collect all section URLs for this section #}
             {% set sectionLinks = [] %}
@@ -153,6 +171,8 @@ eleventyComputed:
             {% endfor %}
             {% if sectionLinks.length == 1 %}
               <a href="{{ sectionLinks[0].url }}" class="section-title">{{ section.title }}</a>
+            {% elif sText %}
+              <span class="section-title" role="button" tabindex="0">{{ section.title }}</span>
             {% else %}
               <span class="section-title">{{ section.title }}</span>
               {% for link in sectionLinks %}
@@ -166,6 +186,10 @@ eleventyComputed:
                   <a class="loci-tag" href="/?locus={{ tag }}" data-slug="{{ tag }}">{{ site.lociFlat[tag].name if site.lociFlat[tag] else tag }}</a>
                 {% endfor %}
               </span>
+            {% endif %}
+            {# Expandable text #}
+            {% if sText %}
+              <div class="section-text">{{ sText }}</div>
             {% endif %}
           </li>
         {% endfor %}
@@ -182,3 +206,6 @@ eleventyComputed:
   const authorOlId = {{ authorPage.openLibraryId | dump | safe }};
   const authorOrigName = {{ authorPage.origLangName | dump | safe }};
 </script>
+
+
+
