@@ -140,6 +140,8 @@
 
     const toggleTopicBtn = document.getElementById("toggle-topic");
     const toggleAuthorBtn = document.getElementById("toggle-author");
+    const toggleChronologicalBtn = document.getElementById("toggle-chronological");
+    const toggleAlphabeticalBtn = document.getElementById("toggle-alphabetical");
     const lociMain = document.querySelector(".loci-main");
     const worksMain = document.querySelector(".works-main");
     const filterBoxTopic = document.getElementById("filter-box-topic");
@@ -229,14 +231,91 @@
       }
     }
 
-    if (toggleTopicBtn && toggleAuthorBtn && lociMain && worksMain) {
+    if (toggleTopicBtn && toggleAuthorBtn && toggleChronologicalBtn && toggleAlphabeticalBtn && lociMain && worksMain) {
       let currentMode = "topic";
+      let currentSort = "chronological";
       let activeLocusSlug = null;
+      const worksIndex = document.getElementById("works-index");
+
+      document.querySelectorAll(".loci-authors").forEach(function (container) {
+        container.querySelectorAll(".loci-author-item").forEach(function (item, index) {
+          item.dataset.origIndex = String(index);
+        });
+      });
+      if (worksIndex) {
+        Array.from(worksIndex.children).forEach(function (author, index) {
+          author.dataset.origIndex = String(index);
+        });
+      }
 
       // Active locus indicator elements
       const activeLociIndicator = document.getElementById("active-locus-indicator");
       const activeLocusName = document.getElementById("active-locus-name");
       const clearLocusBtn = document.getElementById("clear-locus-filter");
+
+      function updateHomeUrl() {
+        var params = new URLSearchParams(window.location.search);
+        if (currentMode === "author") {
+          params.set("view", "author");
+        } else {
+          params.delete("view");
+        }
+        if (currentSort === "alphabetical") {
+          params.set("sort", "alpha");
+        } else {
+          params.delete("sort");
+        }
+        var newUrl = window.location.pathname;
+        var qs = params.toString();
+        if (qs) newUrl += "?" + qs;
+        history.replaceState(null, "", newUrl);
+      }
+
+      function sortLociAuthors() {
+        var containers = document.querySelectorAll(".loci-authors");
+        for (var container of containers) {
+          var items = Array.from(container.querySelectorAll(".loci-author-item"));
+          items.sort(function (a, b) {
+            if (currentSort === "alphabetical") {
+              var aName = (a.textContent || "").trim();
+              var bName = (b.textContent || "").trim();
+              return aName.localeCompare(bName);
+            }
+            return Number(a.dataset.origIndex || 0) - Number(b.dataset.origIndex || 0);
+          });
+          for (var item of items) {
+            container.appendChild(item);
+          }
+        }
+      }
+
+      function sortAuthorIndex() {
+        if (!worksIndex) return;
+        var items = Array.from(worksIndex.querySelectorAll(":scope > .works-index-author"));
+        items.sort(function (a, b) {
+          if (currentSort === "alphabetical") {
+            var aKey = a.dataset.authorAlphaKey || a.dataset.authorName || "";
+            var bKey = b.dataset.authorAlphaKey || b.dataset.authorName || "";
+            if (aKey !== bKey) return aKey.localeCompare(bKey);
+            var aName = a.dataset.authorName || "";
+            var bName = b.dataset.authorName || "";
+            return aName.localeCompare(bName);
+          }
+          return Number(a.dataset.origIndex || 0) - Number(b.dataset.origIndex || 0);
+        });
+        for (var item of items) {
+          worksIndex.appendChild(item);
+        }
+      }
+
+      function setSortMode(mode) {
+        currentSort = mode;
+        toggleChronologicalBtn.classList.toggle("active", mode === "chronological");
+        toggleAlphabeticalBtn.classList.toggle("active", mode === "alphabetical");
+        sortLociAuthors();
+        sortAuthorIndex();
+        updateHomeUrl();
+      }
 
       function setMode(mode) {
         currentMode = mode;
@@ -263,21 +342,13 @@
           applyFilter();
         }
 
-        // Update URL
-        var params = new URLSearchParams(window.location.search);
-        if (mode === "author") {
-          params.set("view", "author");
-        } else {
-          params.delete("view");
-        }
-        var newUrl = window.location.pathname;
-        var qs = params.toString();
-        if (qs) newUrl += "?" + qs;
-        history.replaceState(null, "", newUrl);
+        updateHomeUrl();
       }
 
       toggleTopicBtn.addEventListener("click", function () { setMode("topic"); });
       toggleAuthorBtn.addEventListener("click", function () { setMode("author"); });
+      toggleChronologicalBtn.addEventListener("click", function () { setSortMode("chronological"); });
+      toggleAlphabeticalBtn.addEventListener("click", function () { setSortMode("alphabetical"); });
 
       // --- Sidebar behavior ---
 
@@ -435,7 +506,14 @@
 
       var params = new URLSearchParams(window.location.search);
       var viewParam = params.get("view");
+      var sortParam = params.get("sort");
       var locusParam = params.get("locus");
+
+      if (sortParam === "alpha" || sortParam === "alphabetical") {
+        setSortMode("alphabetical");
+      } else {
+        setSortMode("chronological");
+      }
 
       if (viewParam === "author") {
         setMode("author");

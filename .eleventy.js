@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./traditions.yaml");
   eleventyConfig.addWatchTarget("./translators.yaml");
   eleventyConfig.addWatchTarget("./display_names.yaml");
+  eleventyConfig.addWatchTarget("./earlyprint.yaml");
   eleventyConfig.addWatchTarget("./_cache/");
 
   // Nunjucks filter: pad string to a given length

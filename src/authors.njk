@@ -186,6 +186,16 @@ eleventyComputed:
                 {% endif %}
               {% endfor %}
             {% endfor %}
+            {% for ed in work.origEditions %}
+              {% for s in ed.sites %}
+                {% if s.sectionUrls %}
+                  {% set sUrl = s.sectionUrls[section.id] %}
+                  {% if sUrl %}
+                    {% set sectionLinks = (sectionLinks.push({url: sUrl, siteName: s.siteName}), sectionLinks) %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
             {% if sectionLinks.length == 1 %}
               <a href="{{ sectionLinks[0].url }}" class="section-title">{{ section.title }}</a>
             {% elif sText %}

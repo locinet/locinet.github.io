@@ -10,10 +10,12 @@
     "pdf-toc": "node scripts/extract-pdf-toc.js",
     "wikidata-search": "node scripts/wikidata-search.js",
     "oclc-search": "node scripts/oclc-search.js",
-    "import-work": "node scripts/import-work.js"
+    "import-work": "node scripts/import-work.js",
+    "import-earlyprint": "node scripts/import-earlyprint.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@xmldom/xmldom": "^0.8.11",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {

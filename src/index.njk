@@ -13,6 +13,10 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
 <div class="view-toggle">
   <button type="button" class="toggle-btn active" id="toggle-topic">By Topic</button>
   <button type="button" class="toggle-btn" id="toggle-author">By Author</button>
+  <div class="sort-toggle" role="group" aria-label="Author ordering">
+    <button type="button" class="toggle-btn active" id="toggle-chronological">Chronological</button>
+    <button type="button" class="toggle-btn" id="toggle-alphabetical">Alphabetical</button>
+  </div>
   <div class="tradition-dropdown" id="tradition-dropdown">
     <button type="button" class="tradition-dropdown-btn" id="tradition-dropdown-btn">All traditions</button>
     <div class="tradition-dropdown-menu" id="tradition-dropdown-menu" style="display:none;">
@@ -109,7 +113,7 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
 <div class="works-main" style="display:none;">
 <div id="works-index">
 {% for author in site.worksIndex %}
-  <div class="works-index-author" data-author-name="{{ author.name | lower }}" data-tradition="{{ author.tradition }}">
+  <div class="works-index-author" data-author-name="{{ author.name | lower }}" data-author-alpha-key="{{ author.alphaSortKey }}" data-tradition="{{ author.tradition }}">
     <h2>
       <a href="/authors/{{ author.slug }}/">{{ author.name }}</a>
       {% if author.birthYear or author.deathYear %}

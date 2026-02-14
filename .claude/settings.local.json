@@ -101,7 +101,16 @@
       "Bash(do sed -i '1a\\\\  date_added: 2026-02-10' \"$f\")",
       "Bash(echo:*)",
       "Bash(grep:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "WebFetch(domain:bitbucket.org)",
+      "WebFetch(domain:texts.earlyprint.org)",
+      "WebFetch(domain:earlyprint.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:schemata.earlyprint.org)",
+      "WebFetch(domain:tei-c.org)",
+      "WebFetch(domain:www.tei-c.org)",
+      "WebFetch(domain:api.bitbucket.org)"
     ]
   }
 }

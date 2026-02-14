@@ -279,7 +279,11 @@ function parseWork(fileId, data, translatorsMap) {
       const entry = { year: ed.year, place: ed.place || null, title: ed.title || null, collection: ed.collection || false, sites: [] };
       if (ed.sites) {
         for (const s of ed.sites) {
-          entry.sites.push({ siteName: s.site, url: s.url });
+          entry.sites.push({
+            siteName: s.site,
+            url: s.url,
+            sectionUrls: buildSectionUrlMap(s.section_urls),
+          });
         }
       }
       if (ed.oclc && !oclc) oclc = String(ed.oclc);
@@ -464,6 +468,7 @@ function buildAuthorPages(works, authors, traditionAuthors) {
         qid,
         name: meta.name,
         slug: meta.slug,
+        alphaSortKey: `${deriveFamilyName(meta.name)} ${meta.name}`.toLowerCase(),
         birthYear: meta.birthYear,
         deathYear: meta.deathYear,
         imageUrl: meta.imageUrl,
@@ -494,6 +499,7 @@ function buildAuthorPages(works, authors, traditionAuthors) {
       qid: ca.qid || ca.slug,
       name: ca.label,
       slug: ca.slug,
+      alphaSortKey: ca.label.toLowerCase(),
       birthYear: caMeta?.birthYear || null,
       deathYear: caMeta?.deathYear || null,
       imageUrl: caMeta?.imageUrl || null,

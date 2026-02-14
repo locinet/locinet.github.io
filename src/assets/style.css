@@ -527,8 +527,13 @@ body:has(.loci-page) { max-width: 1200px; }
 /* View toggle buttons */
 .view-toggle {
   display: flex;
-  gap: 0;
+  gap: 0.7em;
   margin: 0.5em 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sort-toggle {
+  display: inline-flex;
 }
 .toggle-btn {
   font-family: inherit;
@@ -539,10 +544,17 @@ body:has(.loci-page) { max-width: 1200px; }
   color: var(--muted);
   cursor: pointer;
 }
-.toggle-btn:first-child {
+.view-toggle > .toggle-btn:first-child {
   border-radius: 3px 0 0 3px;
 }
-.toggle-btn:last-child {
+.view-toggle > .toggle-btn:nth-child(2) {
+  border-radius: 0 3px 3px 0;
+  border-left: none;
+}
+.sort-toggle .toggle-btn:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.sort-toggle .toggle-btn:last-child {
   border-radius: 0 3px 3px 0;
   border-left: none;
 }
@@ -592,7 +604,7 @@ body:has(.loci-page) { max-width: 1200px; }
 
 /* Tradition filter */
 .view-toggle .tradition-dropdown {
-  margin-left: 0.7em;
+  margin-left: 0;
 }
 .tradition-dropdown {
   position: relative;
@@ -658,7 +670,7 @@ body:has(.loci-page) { max-width: 1200px; }
   .filter-box input { width: 100%; }
   .add-author-dropdown { width: calc(100vw - 1em); right: -0.5em; }
   .add-work-panel { width: calc(100vw - 1em); right: -0.5em; }
-  .view-toggle { flex-wrap: wrap; gap: 0.3em; }
+  .view-toggle { gap: 0.3em; }
   .tradition-dropdown-menu { left: auto; right: 0; }
   .tradition-option { padding: 0.5em 0.6em; }
 }

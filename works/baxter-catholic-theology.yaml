@@ -1,0 +1,84 @@
+baxter-catholic-theology:
+  author: Q680070
+  # loci:
+  en:
+    title: "Richard Baxter's Catholick Theologie Plain, Pure, Peaceable, for Pacification of the Dogmatical Word-warriours Who, 1. by Contending About Things Unrevealed or Not Understood, 2. and by Taking Verbal Differences for Real,"
+    orig_lang: true
+    editions:
+      - year: 1675
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A26883.xml
+            section_urls:
+              - sect-i-of-our-knowledge-of-god-as-here-attainable: https://texts.earlyprint.org/works/A26883.xml?page=026-a
+              - sect-iii-the-several-inadequate-conceptions-which-in-order-m: https://texts.earlyprint.org/works/A26883.xml?page=027-a
+              - sect-iv-of-gods-relations-to-the-creature-and-denominations-: https://texts.earlyprint.org/works/A26883.xml?page=028-b
+              - sect-v-of-futurity-and-its-pretended-causes: https://texts.earlyprint.org/works/A26883.xml?page=029-b
+              - sect-vi-of-gods-knowledge-and-the-coexistence-of-the-creatur: https://texts.earlyprint.org/works/A26883.xml?page=032-a
+              - sect-vii-of-school-curiosities-and-uncertainties-about-gods-: https://texts.earlyprint.org/works/A26883.xml?page=033-a
+              - sect-viii-more-of-gods-foreknowledge-and-of-permission-of-si: https://texts.earlyprint.org/works/A26883.xml?page=037-a
+              - sect-ix-of-predestination-and-freewill-of-which-see-more-sec: https://texts.earlyprint.org/works/A26883.xml?page=038-b
+              - sect-x-of-natural-and-moral-power-as-fore-seen: https://texts.earlyprint.org/works/A26883.xml?page=043-b
+              - sect-xi-whether-god-bind-men-to-impossibilities: https://texts.earlyprint.org/works/A26883.xml?page=045-a
+              - sect-xii-of-scientia-media: https://texts.earlyprint.org/works/A26883.xml?page=046-a
+              - sect-xiii-of-gods-will-and-decrees-in-general: https://texts.earlyprint.org/works/A26883.xml?page=047-b
+              - sect-xiv-of-several-distinctions-of-gods-will: https://texts.earlyprint.org/works/A26883.xml?page=050-a
+              - sect-xv-of-the-order-of-gods-decrees-by-way-of-intention-and: https://texts.earlyprint.org/works/A26883.xml?page=054-a
+              - sect-xvi-of-the-order-of-the-decrees-called-reprobation-and-: https://texts.earlyprint.org/works/A26883.xml?page=058-a
+              - sect-xvii-of-gods-causing-and-decreeing-sin: https://texts.earlyprint.org/works/A26883.xml?page=067-a
+              - sect-xviii-a-confutation-of-dr-twisse-s-digr-5-l-2-sect-1-vi: https://texts.earlyprint.org/works/A26883.xml?page=071-a
+              - sect-xix-the-same-doctrine-in-rutherford-de-providentia-conf: https://texts.earlyprint.org/works/A26883.xml?page=078-a
+              - sect-xx-the-old-reconciling-doctrine-of-augustine-prosper-an: https://texts.earlyprint.org/works/A26883.xml?page=082-b
+              - sect-xxi-prosper-s-answers-ad-object-vincent: https://texts.earlyprint.org/works/A26883.xml?page=084-a
+              - sect-xxii-the-words-of-fulgentius-to-the-same-sense: https://texts.earlyprint.org/works/A26883.xml?page=086-a
+              - sect-xxiii-healing-principles-and-concessions-of-the-synod-o: https://texts.earlyprint.org/works/A26883.xml?page=087-a
+              - sect-xxiv-on-the-other-side: https://texts.earlyprint.org/works/A26883.xml?page=088-b
+    sections:
+      - sect-i-of-our-knowledge-of-god-as-here-attainable: "Sect. I. of Our Knowledge of God , as Here Attainable ."
+        # loci:
+      - sect-ii-of-mans-soul-as-the-glass-in-which-we-must-see-god: "Sect. Ii. of Man's Soul as the Glass in Which We Must See God ."
+        # loci:
+      - sect-iii-the-several-inadequate-conceptions-which-in-order-m: Sect. Iii. the Several Inadequate Conceptions Which in Order Make up Our Knowledge of God .
+        # loci:
+      - sect-iv-of-gods-relations-to-the-creature-and-denominations-: "Sect. Iv of God's Relations to the Creature and Denominations ( Thereupon ) in His Power , Knowledge and Will ."
+        # loci:
+      - sect-v-of-futurity-and-its-pretended-causes: Sect. V of Futurity and Its Pretended Causes .
+        # loci:
+      - sect-vi-of-gods-knowledge-and-the-coexistence-of-the-creatur: "Sect. Vi of God's Knowledge , and the Coexistence of the Creature ."
+        # loci:
+      - sect-vii-of-school-curiosities-and-uncertainties-about-gods-: "Sect. Vii . of School Curiosities and Uncertainties About God's Knowledge ."
+        # loci:
+      - sect-viii-more-of-gods-foreknowledge-and-of-permission-of-si: "Sect. Viii . More of God's Foreknowledge , and of Permission of Sin ."
+        # loci:
+      - sect-ix-of-predestination-and-freewill-of-which-see-more-sec: Sect. Ix . of Predestination and Freewill ( of Which See More Sect. 20. Against Mr. Rutherford . )
+        # loci:
+      - sect-x-of-natural-and-moral-power-as-fore-seen: Sect. X. of Natural and Moral Power as Fore-seen .
+        # loci:
+      - sect-xi-whether-god-bind-men-to-impossibilities: Sect. Xi . Whether God Bind Men to Impossibilities .
+        # loci:
+      - sect-xii-of-scientia-media: Sect. Xii . of Scientia Media .
+        # loci:
+      - sect-xiii-of-gods-will-and-decrees-in-general: "Sect. Xiii . of God's Will and Decrees in General ."
+        # loci:
+      - sect-xiv-of-several-distinctions-of-gods-will: Sect. Xiv . of Several Distinctions of Gods Will .
+        # loci:
+      - sect-xv-of-the-order-of-gods-decrees-by-way-of-intention-and: "Sect. Xv. of the Order of God's Decrees by Way of Intention and Execution ."
+        # loci:
+      - sect-xvi-of-the-order-of-the-decrees-called-reprobation-and-: Sect. Xvi . of the Order of the Decrees Called Reprobation . and of Election and Reprobation in Themselves .
+        # loci:
+      - sect-xvii-of-gods-causing-and-decreeing-sin: "Sect. Xvii . of God's Causing , and Decreeing Sin ."
+        # loci:
+      - sect-xviii-a-confutation-of-dr-twisse-s-digr-5-l-2-sect-1-vi: "Sect. Xviii . a Confutation of Dr. Twisse 's Digr. 5. L. 2. Sect. 1. Vind. Grat."
+        # loci:
+      - sect-xix-the-same-doctrine-in-rutherford-de-providentia-conf: Sect. Xix . the Same Doctrine in Rutherford De Providentia Confuted .
+        # loci:
+      - sect-xx-the-old-reconciling-doctrine-of-augustine-prosper-an: "Sect. Xx. the Old Reconciling Doctrine of Augustine , Prosper and Fulgentius . and First Prosper Ad Gallorum Qu."
+        # loci:
+      - sect-xxi-prosper-s-answers-ad-object-vincent: "Sect. Xxi . Prosper 's Answers Ad Object . Vincent ."
+        # loci:
+      - sect-xxii-the-words-of-fulgentius-to-the-same-sense: Sect. Xxii . the Words of Fulgentius to the Same Sense .
+        # loci:
+      - sect-xxiii-healing-principles-and-concessions-of-the-synod-o: "Sect. Xxiii . Healing Principles and Concessions of the Synod of Dort , Etc."
+        # loci:
+      - sect-xxiv-on-the-other-side: Sect. Xxiv . on the Other Side .
+        # loci:

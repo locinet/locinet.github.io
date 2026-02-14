@@ -1,0 +1,9 @@
+# EarlyPrint Library works to import
+# - tcp_id: TCP identifier (e.g. A14461)
+#   author: Wikidata QID (e.g. Q564637)
+#   work_id: Locinet work ID / YAML filename
+#   lang: original language code (optional, default: en)
+- tcp_id: A26883
+  author: Q680070
+  work_id: baxter-catholic-theology
+  lang: en
