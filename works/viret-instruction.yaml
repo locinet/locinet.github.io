@@ -1,0 +1,1238 @@
+viret-instruction:
+  author: Q123337
+  # loci:
+  fr:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: "A Christian Instruction, Conteyning the Law and the Gospell Also a Summarie of the Principall Poyntes of the Christian Fayth and Religion, and of the Abuses and Errors Contrary to the Same. Done in Certayne Dialogues in French"
+    sections:
+      - the-sum-of-the-principal-points-of-the-christian-faith-and-r: "The Sum of the Principal Points of the Christian Faith and Religion, and of the Abuses and Errors Contrary to the Same."
+        # loci:
+        sections:
+          - how-needful-it-is-that-all-christians-do-well-know-what-fait: "How Needful it Is, That All Christians Do Well Know What Faith Is, Whereby They Are Made Christians, & What Things She Doth Comprehend. Chap. 1."
+            # loci:
+          - of-the-summaries-of-the-faith-of-the-christian-church-named-: Of the Summaries of the Faith of the Christian Church Named Symbols. Chap 2.
+            # loci:
+          - of-the-understanding-of-the-matters-contained-in-these-summa: "Of the Understanding of the Matters Contained in These Summaries, and How Necessary it Is. Chap. 3."
+            # loci:
+          - of-the-principal-points-whereupon-the-true-christian-faith-i: "Of the Principal Points Whereupon the True Christian Faith is Builded: and First of the Unity of God. Chap. 4."
+            loci: unity-of-god
+          - of-the-trinity-of-persons-in-the-unity-of-the-divine-essence: "Of the Trinity of Persons, in the Unity of the Divine Essence, and of Their Proprieties, and of the Creation of the World. Chap. 5."
+            loci: [trinity, creation]
+          - of-the-providence-of-god-chap-6: Of the Providence of God. Chap. 6.
+            loci: providence
+          - of-the-eternal-predestination-of-god-and-of-the-manifesting-: "Of the Eternal Predestination of God, and of the Manifesting of the Same, and Where We Aught to Seek It. Chapter. 7."
+            loci: predestination
+          - of-the-author-of-sin-and-of-the-incomprehensible-wisdom-of-g: "Of the Author of Sin, and of the Incomprehensible Wisdom of God, Which is in His Eternal Ordinance. Chap. 8."
+            loci: origin-of-sin
+          - of-man-and-of-the-creation-and-fall-of-him-by-sin-chap-9: "Of Man, and of the Creation and Fall of Him by Sin. Chap 9"
+            loci: fall-of-man
+          - of-the-redemption-and-restoring-of-man-and-of-the-only-media: "Of the Redemption and Restoring of Man, and of the Only Mediator Jesus Christ. Chap. 10."
+            loci: atonement
+          - of-the-true-invocation-and-prayer-towards-god-chapter-11: Of the True Invocation and Prayer Towards God. Chapter. 11.
+            loci: prayer
+          - of-the-order-of-prayer-which-jesus-gave-to-his-church-chap-1: Of the Order of Prayer Which Jesus Gave to His Church. Chap. 12.
+            loci: prayer
+          - of-the-principal-faults-which-we-must-avoid-when-we-pray-cha: Of the Principal Faults Which We Must Avoid When We Pray. Chap. 13.
+            loci: prayer
+          - of-the-mean-by-the-which-men-may-be-heard-of-god-in-their-pr: Of the Mean by the Which Men May Be Heard of God in Their Prayers. Chapter. 14.
+            loci: prayer
+          - of-the-nature-of-the-true-mediator-and-of-the-union-of-god-a: "Of the Nature of the True Mediator, and of the Union of God and Man in Him, in One Self Person. Chap. 15."
+            loci: natures-of-christ
+          - of-the-divine-and-humane-nature-of-jesus-christ-and-of-the-s: "Of the Divine and Humane Nature of Jesus Christ, and of the Sanctification Made by Him. Chap. 16."
+            loci: natures-of-christ
+          - of-the-error-touching-the-invocation-of-saints-chap-17: Of the Error Touching the Invocation of Saints Chap. 17.
+            # loci:
+          - of-the-virtue-of-the-death-and-passion-of-of-jesus-christ-an: "Of the Virtue of the Death and Passion of of Jesus Christ, and of the True Purgatory of the Christians. Chap. 18."
+            loci: atonement
+          - of-the-purgatory-and-satisfaction-of-the-papists-chap-19: Of the Purgatory and Satisfaction of the Papists. Chap. 19
+            loci: purgatory
+          - of-the-communication-in-the-benefits-of-jesus-christ-chap-20: Of the Communication in the Benefits of Jesus Christ. Chap. 20.
+            loci: union-with-christ
+          - of-the-faith-in-jesus-christ-chap-21: Of the Faith in Jesus Christ. Chap. 21.
+            loci: faith
+          - of-the-justification-by-faith-chapter-22: Of the Justification by Faith. Chapter. 22.
+            loci: justification
+          - of-the-mean-by-the-which-god-giveth-faith-to-men-and-of-the-: "Of the Mean by the Which God Giveth Faith to Men, and of the Manifestation of the Word of God, and of the True Use of the Same. Chap. 23."
+            loci: word-of-god
+          - of-the-declaration-of-the-will-of-god-by-the-law-the-which-h: "Of the Declaration of the Will of God by the Law, the Which He Hath Given to Men Concerning the Obedience and the Service That He Requireth of Them. Chapter. 24."
+            loci: moral-law
+          - of-the-law-of-god-containing-a-summary-of-the-declaration-of: Of the Law of God Containing a Summary of the Declaration of His William. Chapter. 25.
+            loci: moral-law
+            sections:
+              - the-first-commandment: The First Commandment.
+                # loci:
+              - the-second: The Second
+                # loci:
+              - the-third: The Third.
+                # loci:
+              - the-fourth: The Fourth.
+                # loci:
+              - the-second-table: The Second Table.
+                # loci:
+              - the-sixth: The Sixth
+                # loci:
+              - the-seventh: The Seventh.
+                # loci:
+              - the-eight: The Eight.
+                # loci:
+              - the-ninth: The Ninth.
+                # loci:
+              - the-tenth: The Tenth.
+                # loci:
+          - of-the-summarie-that-jesus-christ-hath-made-of-the-law-of-go: Of the Summarie That Jesus Christ Hath Made of the Law of God. Chap. 25.
+            # loci:
+          - of-the-true-fulfilling-of-the-law-of-god-chap-27: Of the True Fulfilling of the Law of God. Chap. 27.
+            loci: purpose-of-law
+          - of-good-works-which-are-the-fruits-of-true-faith-chap-28: Of Good Works Which Are the Fruits of True Faith. Chap. 28.
+            loci: good-works
+          - of-the-principal-points-contained-in-the-holy-scriptures-whi: "Of the Principal Points Contained in the Holy Scriptures, Which Do Summarily Comprehend All That Which is Required in the True Service of God. Chapter. 29."
+            # loci:
+          - of-the-true-service-of-god-which-is-spiritual-chap-30: Of the True Service of God Which is Spiritual. Chap. 30.
+            loci: worship
+          - of-the-ministery-of-the-gospel-and-of-the-principal-parts-of: "Of the Ministery of the Gospel, and of the Principal Parts of the Same, and of the True Use of the Sacraments. Chapter. 31."
+            loci: [means-of-grace, sacraments]
+          - of-the-obedience-that-all-men-do-own-to-the-ministery-of-the: "Of the Obedience That All Men Do Own to the Ministery of the Gospel: and of Those Which Do Despise It, and of the Protestation and Profession of the Christian Doctrine, Whereunto Every One is Bound. Chap. 32."
+            # loci:
+          - of-the-number-of-sacraments-of-the-true-christian-church-cha: Of the Number of Sacraments of the True Christian Church. Chap. 33.
+            loci: sacraments
+          - of-baptism-and-of-the-true-use-of-the-same-chap-34: "Of Baptism, and of the True Use of the Same. Chap. 34"
+            loci: baptism
+          - of-the-baptism-of-young-children-chap-35: Of the Baptism of Young Children. Chap. 35.
+            loci: baptism
+          - of-the-children-that-are-borne-dead-and-of-the-true-foundati: "Of the Children That Are Borne Dead, and of the True Foundation of the Salvation of All Men. Chap. 36."
+            # loci:
+          - of-the-administration-of-the-sacraments-and-to-whom-it-belon: Of the Administration of the Sacraments and to Whom it Belongeth. Cham 37.
+            # loci:
+          - of-the-baptism-administered-by-women-and-of-the-error-that-t: "Of the Baptism Administered by Women, and of the Error That Therein Is. Chapter. 38."
+            loci: baptism
+          - of-the-supper-of-our-lord-and-of-the-true-use-thereof-chap-3: "Of the Supper of Our Lord, and of the True Use Thereof. Chap. 39"
+            loci: lords-supper
+          - of-the-signification-of-the-signs-of-bread-and-wine-in-the-s: "Of the Signification of the Signs of Bread and Wine in the Supper, and of the Agreement and Difference of Them, With the Things That They Signify, and of the Error of the Popish Transubstantiation. Chap. 40."
+            loci: lords-supper
+          - of-the-commemoration-of-the-sacrifice-of-jesus-christ-in-the: Of the Commemoration of the Sacrifice of Jesus Christ in the Supper. Chap. 41.
+            loci: lords-supper
+          - of-the-supper-and-of-the-mass-of-the-papists-and-of-the-prin: "Of the Supper, and of the Mass of the Papists, and of the Principal Points Wherein it is Different and Contrary to the True Supper. Chap. 42."
+            loci: lords-supper
+          - of-the-proof-that-every-man-ought-to-make-of-himself-to-comm: "Of the Proof That Every Man Ought to Make of Himself, to Communicate Worthily at the Supper, and of the Things Required in the Same. Chap. 43."
+            # loci:
+          - of-the-penance-and-sanctification-of-the-christians-and-of-t: "Of the Penance and Sanctification of the Christians, and of the True Original of the Same, & of All Good Works. Chap. 44."
+            loci: [repentance, sanctification]
+          - of-the-true-and-christian-confession-and-absolution-and-of-t: "Of the True and Christian Confession and Absolution, and of the Remission of Sins. Chap. 45."
+            loci: penance
+          - of-the-power-of-ministers-of-the-church-to-pardon-or-retain-: "Of the Power of Ministers of the Church, to Pardon or Retain Sins. Chap. 46"
+            loci: power-of-the-church
+          - of-brotherly-reconciliation-chap-47: Of Brotherly Reconciliation. Chap. 47.
+            # loci:
+          - of-the-satisfaction-toward-our-neighbour-chap-48: Of the Satisfaction Toward Our Neighbour. Chap. 48.
+            # loci:
+          - of-the-church-and-of-the-foundation-of-the-same-and-of-her-h: "Of the Church and of the Foundation of the Same, and of Her Head. Chap. 49."
+            loci: nature-of-the-church
+          - of-the-marks-whereby-to-know-in-this-world-which-is-the-true: "Of the Marks Whereby to Know in This World, Which is the True Church, and Who Are to Be Accounted for True Members of the Same. Chap. 50."
+            loci: true-church
+          - of-the-magistrate-chap-51: Of the Magistrate. Chap. 51.
+            loci: civil-government
+          - of-marriage-52: Of Marriage. 52.
+            loci: marriage
+          - of-the-doctrine-of-the-church-and-of-mans-traditions-and-of-: "Of the Doctrine of the Church, and of Man's Traditions, and of Those Which She Doth Acknowledge for True or False Ministers. Cham 53."
+            # loci:
+      - the-svmmarie-of-the-christian-doctrine-set-forth-in-form-of-: "The Svmmarie of the Christian Doctrine, Set Forth in Form of Dialogue and of Catechism. of the Principal Cause and End of the Creation of Man."
+        # loci:
+        sections:
+          - of-the-true-service-of-god: Of the True Service of God.
+            # loci:
+          - of-the-principal-points-whereunto-men-may-apply-all-the-doct: Of the Principal Points Whereunto Men May Apply All the Doctrine Contained in the Holy Scriptures.
+            # loci:
+          - of-the-difference-that-is-between-the-law-and-the-gospel: Of the Difference That is Between the Law and the Gospel.
+            loci: gospel
+          - the-law-of-god: The Law of God.
+            loci: moral-law
+            sections:
+              - the-first-commandment-2: The First Commandment.
+                # loci:
+              - the-second-2: The Second.
+                # loci:
+              - the-third-2: The Third.
+                # loci:
+              - the-fourth-2: The Fourth.
+                # loci:
+              - the-fifth: The Fifth.
+                # loci:
+              - the-sixth-2: The Sixth.
+                # loci:
+              - the-seventh-2: The Seventh.
+                # loci:
+              - the-eight-2: The Eight.
+                # loci:
+              - the-ninth-2: The Ninth.
+                # loci:
+              - the-tenth-2: The Tenth.
+                # loci:
+          - of-the-sum-of-the-law: Of the Sum of the Law.
+            # loci:
+          - of-the-corruption-of-man-and-how-hard-it-is-for-him-to-do-we: "Of the Corruption of Man, and How Hard it is for Him to Do Well."
+            loci: original-sin
+          - of-the-redemption-of-man: Of the Redemption of Man.
+            loci: atonement
+          - of-the-communication-or-partaking-of-the-benefit-of-christ: Of the Communication or Partaking of the Benefit of Christ.
+            loci: union-with-christ
+          - of-the-faith: Of the Faith.
+            loci: faith
+          - the-symbol-of-the-apostles: The Symbol of the Apostles.
+            # loci:
+          - division-of-the-matters-contained-in-the-symbol-of-the-apost: Division of the Matters Contained in the Symbol of the Apostles.
+            # loci:
+          - of-the-faith-towards-god: Of the Faith Towards God.
+            # loci:
+          - of-the-unity-and-trinity-in-the-divine-essence: Of the Unity and Trinity in the Divine Essence.
+            loci: trinity
+          - of-the-principal-works-of-god-by-the-which-he-hath-declared-: "Of the Principal Works of God, by the Which He Hath Declared Himself to Men."
+            # loci:
+          - of-the-creation-of-the-world-and-of-the-providence-of-god: "Of the Creation of the World, and of the Providence of God."
+            loci: [creation, providence]
+          - of-predestination: Of Predestination.
+            loci: predestination
+          - of-the-incarnation-of-jesus-christ-and-of-the-redemption-had: Of the Incarnation of Jesus Christ and of the Redemption Had by Him.
+            loci: incarnation
+          - of-the-union-of-the-divine-and-humane-nature-in-the-person-o: "Of the Union of the Divine and Humane Nature, in the Person of Jesus Christ, and of His Office."
+            loci: [natures-of-christ, offices-of-christ]
+          - of-the-works-of-vivification-and-sanctification: Of the Works of Vivification and Sanctification.
+            loci: sanctification
+          - of-the-church: Of the Church.
+            loci: nature-of-the-church
+          - of-the-things-which-we-aught-to-believe-of-the-church: Of the Things Which We Aught to Believe of the Church.
+            # loci:
+          - of-the-benefits-of-jesus-christ-towards-his-church: Of the Benefits of Jesus Christ Towards His Church.
+            # loci:
+          - of-the-possession-of-the-benefits-of-jesus-christ-in-the-chu: Of the Possession of the Benefits of Jesus Christ in the Church During This Life.
+            # loci:
+          - of-the-consummation-of-the-benefits-of-jesus-christ: Of the Consummation of the Benefits of Jesus Christ.
+            # loci:
+          - of-the-fruits-and-effects-of-the-law-and-of-good-works: "Of the Fruits and Effects of the Law, and of Good Works."
+            loci: good-works
+          - of-the-good-works-which-god-requireth-of-the-faithful: Of the Good Works Which God Requireth of the Faithful.
+            loci: good-works
+          - of-the-invocation-of-the-name-of-god: Of the Invocation of the Name of God.
+            # loci:
+          - of-the-sum-of-the-first-table-of-the-law: Of the Sum of the First Table of the Law.
+            # loci:
+          - of-the-sum-of-the-second-table: Of the Sum of the Second Table.
+            # loci:
+          - of-prayer: Of Prayer.
+            loci: prayer
+          - the-form-of-prayer-given-by-jesus-christ: The Form of Prayer Given by Jesus Christ.
+            loci: prayer
+          - division-of-the-matters-contained-in-the-lords-prayer: Division of the Matters Contained in the Lords Prayer.
+            # loci:
+          - of-the-address-of-the-christians-in-their-prayers-and-of-the: "Of the Address of the Christians in Their Prayers, and of Their True Advocate in the Same."
+            # loci:
+          - what-things-we-aught-to-demand-of-god-in-our-prayers: "What Things We Aught to Demand of God, in Our Prayers."
+            # loci:
+          - a-division-of-the-requests-contained-in-the-lord-his-prayer: A Division of the Requests Contained in the Lord His Prayer.
+            # loci:
+          - of-the-ministery-of-the-church-and-of-the-use-of-the-same: "Of the Ministery of the Church, and of the Use of the Same."
+            # loci:
+          - of-the-parts-of-the-ministery-of-the-church: Of the Parts of the Ministery of the Church.
+            # loci:
+          - of-the-discipline-of-the-church: Of the Discipline of the Church.
+            loci: church-discipline
+          - of-the-sacraments-that-are-in-christs-church-and-of-the-thin: "Of the Sacraments That Are in Christ's Church, and of the Things That Are to Be Considereed in Them."
+            loci: sacraments
+          - of-the-things-that-are-to-be-considered-in-the-word: Of the Things That Are to Be Considered in the Word.
+            # loci:
+          - of-the-use-of-the-signs: Of the Use of the Signs.
+            # loci:
+          - of-the-number-of-sacraments-which-are-in-the-chucrhe-of-chri: Of the Number of Sacraments Which Are in the Chucrhe of Christ.
+            loci: sacraments
+          - of-baptism: Of Baptism.
+            loci: baptism
+          - of-the-supper: Of the Supper.
+            loci: lords-supper
+          - to-wit-whether-the-bread-the-wine-be-converted-into-the-body: "To Wit Whether the Bread & the Wine Be Converted Into the Body and Blood of Jesus Christ in the Supper."
+            loci: lords-supper
+          - of-the-conjunction-of-the-signs-in-the-supper-with-the-thing: "Of the Conjunction of the Signs in the Supper, With the Things That They Signify."
+            loci: lords-supper
+          - of-the-presence-of-the-body-and-blood-of-jesus-christ-in-the: Of the Presence of the Body and Blood of Jesus Christ in the Supper.
+            loci: lords-supper
+          - of-them-to-whom-the-communion-of-sacraments-doth-belong: Of Them to Whom the Communion of Sacraments Doth Belong.
+            # loci:
+          - of-the-proof-that-is-required-of-every-man-in-the-supper: Of the Proof That is Required of Every Man in the Supper.
+            # loci:
+          - of-the-principal-points-upon-the-which-every-man-aught-to-ex: Of the Principal Points Upon the Which Every Man Aught to Examine and Prove Himself.
+            # loci:
+          - of-the-ministers-of-the-church-and-of-magistrates: "Of the Ministers of the Church, and of Magistrates."
+            loci: [government-of-the-church, civil-government]
+      - a-familiar-exposition-of-the-principal-points-of-the-catechi: "A Familiar Exposition of the Principal Points of the Catechism, and of the Christian Doctrine, Made in Form of Dialogue."
+        # loci:
+        sections:
+          - of-the-true-service-of-god-and-of-good-intents-the-first-dia: "Of the True Service of God, and of Good Intents. the First Dialogue."
+            loci: worship
+            sections:
+              - of-the-chief-felicity-of-man-and-of-the-end-for-the-which-he: "Of the Chief Felicity of Man, and of the End for the Which He Was Created of God."
+                loci: happiness
+              - of-the-true-honour-and-service-of-god: Of the True Honour and Service of God.
+                # loci:
+              - of-the-sum-of-all-the-doctrine-contained-in-the-holy-scriptu: Of the Sum of All the Doctrine Contained in the Holy Scriptures.
+                # loci:
+              - of-the-law-of-god-and-of-the-office-of-the-same: "Of the Law of God, and of the Office of the Same."
+                # loci:
+              - of-the-gospel-and-of-his-office: "Of the Gospel, and of His Office."
+                loci: gospel
+              - of-the-difference-that-is-to-be-considered-between-the-law-a: Of the Difference That is to Be Considered Between the Law and the Gospel.
+                loci: gospel
+              - of-the-covenant-and-agreement-of-the-law-and-the-gospel: Of the Covenant and Agreement of the Law and the Gospel.
+                loci: covenant-of-grace
+              - of-the-cause-for-the-which-god-would-himself-declare-his-wil: Of the Cause for the Which God Would Himself Declare His Will Unto Man by His Word.
+                # loci:
+              - of-the-good-intentes-of-men-that-are-not-governed-by-the-wor: Of the Good Intentes of Men That Are Not Governed by the Word of God.
+                # loci:
+              - of-humane-traditions: Of Humane Traditions.
+                # loci:
+              - of-the-service-of-god-according-to-the-traditions-of-men: Of the Service of God According to the Traditions of Men.
+                # loci:
+              - of-the-difference-of-the-true-and-false-faith: Of the Difference of the True and False Faith.
+                loci: faith
+              - of-the-assurance-of-the-conscience-by-the-word-of-god-and-wh: "Of the Assurance of the Conscience by the Word of God, and What Commodity Cometh Thereby to Man."
+                loci: conscience
+          - of-the-law-of-god-the-second-dialogue: Of the Law of God. the Second Dialogue.
+            loci: moral-law
+            sections:
+              - of-the-manifestation-of-the-will-of-god-by-the-law-of-the-tw: Of the Manifestation of the Will of God by the Law of the Two Tables.
+                # loci:
+              - of-the-number-of-the-commandments-contained-in-the-two-table: Of the Number of the Commandments Contained in the Two Tables.
+                # loci:
+              - the-first-table-of-the-law: The First Table of the Law.
+                # loci:
+              - the-second-table-2: The Second Table.
+                # loci:
+              - of-the-sum-of-the-law-2: Of the Sum of the Law.
+                # loci:
+              - of-the-division-of-the-matters-set-forth-in-the-law: Of the Division of the Matters Set Forth in the Law.
+                # loci:
+              - the-division-of-the-points-contained-in-the-first-table-and-: "The Division of the Points Contained in the First Table: and of the Principal Parts of the True Service of God."
+                # loci:
+              - of-the-faith-towards-god-2: Of the Faith Towards God.
+                loci: faith
+              - of-the-testifying-and-declaring-of-faith-and-of-the-parts-th: "Of the Testifying and Declaring of Faith, and of the Parts Thereof."
+                # loci:
+              - of-the-invocation-of-gods-name-and-of-the-true-worshipping-o: "Of the Invocation of God's Name, and of the True Worshipping of Him."
+                # loci:
+              - of-thanksgiving: Of Thanksgiving.
+                # loci:
+              - of-the-outward-testimony-of-faith-which-god-requireth-of-man: "Of the Outward Testimony of Faith, Which God Requireth of Man."
+                # loci:
+              - of-the-means-ordained-to-man-by-god-whereby-they-may-make-pr: "Of the Means Ordained to Man by God, Whereby They May Make Profession of Their Faith."
+                # loci:
+              - of-the-charity-towards-our-neighbour: Of the Charity Towards Our Neighbour.
+                loci: charity
+              - a-division-of-the-matters-contained-in-the-second-table: A Division of the Matters Contained in the Second Table.
+                # loci:
+              - of-the-points-wherein-every-one-is-bound-to-his-neighbour: Of the Points Wherein Every One is Bound to His Neighbour.
+                # loci:
+              - of-the-weakness-default-of-power-that-is-in-man-to-accomplis: "Of the Weakness & Default of Power That is in Man to Accomplish the Law of God."
+                # loci:
+          - of-the-fall-and-restoring-of-man-the-third-dialogue: Of the Fall and Restoring of Man. the Third Dialogue.
+            loci: fall-of-man
+            sections:
+              - rom-6-d-7-c-ephes-2-a-4-c-galath-5-c-john-3-d-of-mans-free-w: "Rom. 6. D. 7. C. Ephes. 2. A. 4. C. Galath. 5. C. John. 3. D. of Man's Free-will."
+                loci: free-will
+              - of-sin-and-of-the-nature-of-it-and-what-original-sin-is-prop: "Of Sin, and of the Nature of It, and What Original Sin is Properly."
+                loci: original-sin
+              - of-the-mean-whereby-man-may-be-delivered-from-sin-and-from-t: "Of the Mean Whereby Man May Be Delivered From Sin, and From the Wrath of God, Which Sin Bringeth to Him."
+                # loci:
+              - of-the-causes-for-the-which-there-is-neither-man-nor-angel-s: "Of the Causes for the Which There is Neither Man nor Angel Sufficient to the Office of Mediator Between God and Man, and of the Greatness of the Wrath of God Against Sin."
+                # loci:
+              - of-the-setting-forth-of-the-just-judgement-of-the-mercy-of-g: "Of the Setting Forth of the Just Judgement, & of the Mercy of God, in the Redemption of Man."
+                # loci:
+              - of-the-only-true-mediator-jesus-christ: "Of the Only & True Mediator Jesus Christ."
+                loci: priestly-office
+              - of-the-union-of-the-divine-and-humane-nature-in-the-person-o-2: "Of the Union of the Divine and Humane Nature in the Person of Jesus Chryst, and of the Causes of the Same."
+                loci: natures-of-christ
+              - of-the-sacrifice-and-satisfaction-of-jesus-christ-and-of-the: "Of the Sacrifice and Satisfaction of Jesus Christ, and of the Virtue Thereof."
+                loci: atonement
+              - of-the-communication-in-the-benefits-of-jesus-christ: Of the Communication in the Benefits of Jesus Christ.
+                loci: union-with-christ
+          - the-fourth-dialogue-is-of-the-justification-and-sanctificati: "The Fourth Dialogue, is of the Justification and Sanctification of Man."
+            loci: [justification, sanctification]
+            sections:
+              - of-the-faith-in-jesus-christ-and-of-the-justification-thereb: "Of the Faith in Jesus Christ, and of the Justification Thereby."
+                loci: justification
+              - of-the-justification-by-faith-by-works: "Of the Justification by Faith & by Works."
+                loci: justification
+              - of-the-satisfaction-towards-god-by-works: Of the Satisfaction Towards God by Works.
+                loci: merit
+              - of-the-works-whereby-man-may-satisfy-at-the-judgement-of-god: Of the Works Whereby Man May Satisfy at the Judgement of God.
+                # loci:
+              - of-the-causes-why-justification-is-attributed-to-faith-only: Of the Causes Why Justification is Attributed to Faith Only.
+                # loci:
+              - of-the-satisfaction-by-faith: Of the Satisfaction by Faith.
+                # loci:
+              - of-the-true-spring-of-good-works: Of the True Spring of Good Works.
+                loci: good-works
+              - of-the-accomplishing-of-the-law-in-jesus-christ-and-of-the-d: "Of the Accomplishing of the Law in Jesus Christ, and of the Difference That is Between the Justification and Sanctification of a Christian Man."
+                # loci:
+              - of-the-distinction-that-aught-to-be-had-between-the-cause-of: "Of the Distinction That Aught to Be Had Between the Cause of Our Salvation, and the Testimony of the Same."
+                # loci:
+              - of-the-difference-that-must-be-put-between-the-sanctificatio: "Of the Difference That Must Be Put Between the Sanctification by Christ, Which is Attributed Unto Us, and That Which is Joined to Our Person, as a Quality Sticking to the Same."
+                # loci:
+              - of-the-cause-of-the-difference-that-is-in-these-two-kinds-of: Of the Cause of the Difference That is in These Two Kinds of Sanctification.
+                # loci:
+              - of-the-cause-of-the-imperfection-that-is-in-the-sanctificati: "Of the Cause of the Imperfection That is in the Sanctification Joined to Our Person, and of the Works Which Proceed Thereof."
+                # loci:
+              - of-the-means-that-we-have-toward-god-in-recompense-of-the-im: "Of the Means That We Have Toward God, in Recompense of the Imperfections Which Always Devil in Us."
+                # loci:
+          - the-fifth-dialogue-is-of-the-faith-in-god: "The Fifth Dialogue, is of the Faith in God."
+            loci: faith
+            sections:
+              - of-the-true-foundation-of-faith-of-the-difference-that-it-ma: "Of the True Foundation of Faith, & of the Difference That it Maketh Between the Christian Religion, and All Other Religions."
+                # loci:
+              - how-that-all-religion-is-without-god-saving-the-christian-re: "How That All Religion is Without God, Saving the Christian Religion."
+                # loci:
+              - of-the-summary-of-the-christian-faith-and-for-what-cause-it-: "Of the Summary of the Christian Faith, and for What Cause it is Called the Symbol of the Apostles."
+                # loci:
+              - the-symbol-of-the-apostles-2: The Symbol of the Apostles.
+                # loci:
+              - of-the-general-division-of-the-principal-points-contained-in: Of the General Division of the Principal Points Contained in the Symbol of the Apostles.
+                # loci:
+              - of-the-faith-that-a-christian-man-ought-to-have-in-god: Of the Faith That a Christian Man Ought to Have in God.
+                # loci:
+              - of-the-unity-and-trinity-that-is-in-the-essence-of-god: Of the Unity and Trinity That is in the Essence of God.
+                loci: trinity
+              - of-the-difficulty-that-is-in-this-matter: Of the Difficulty That is in This Matter.
+                # loci:
+              - of-the-principal-works-of-god-whereof-mention-is-made-in-the: Of the Principal Works of God Whereof Mention is Made in the Symbol of the Apostles.
+                # loci:
+              - of-the-union-that-is-between-the-father-the-son-and-the-holy: "Of the Union That is Between the Father, the Son, and the Holy Ghost in Their Works."
+                # loci:
+              - of-the-moderation-and-measure-that-aught-to-be-holden-in-thi: Of the Moderation and Measure That Aught to Be Holden in This Matter.
+                # loci:
+          - the-sixth-dialogue-is-of-the-creation-and-of-the-providence-: "The Sixth Dialogue is of the Creation and of the Providence and Predestination of God, and of the Vocation of Man."
+            loci: [creation, providence, predestination]
+            sections:
+              - of-the-work-of-the-creation: Of the Work of the Creation.
+                loci: creation
+              - of-other-works-of-god-that-are-conjoined-to-the-work-of-the-: Of Other Works of God That Are Conjoined to the Work of the Creation.
+                # loci:
+              - of-the-providence-of-god: Of the Providence of God.
+                loci: providence
+              - of-the-eternal-predestination-of-god: Of the Eternal Predestination of God.
+                loci: predestination
+              - of-the-vocation-of-the-elect-and-of-the-degrees-whereby-god-: "Of the Vocation of the Elect, and of the Degrees Whereby God Bringeth Them to Salvation."
+                loci: calling
+              - of-the-outward-and-inward-vocation: Of the Outward and Inward Vocation.
+                loci: [external-calling, effectual-calling]
+              - of-the-effects-of-the-inward-and-outward-vocation-and-whereu: "Of the Effects of the Inward and Outward Vocation, and Whereunto They Serve."
+                # loci:
+              - of-the-cause-of-unbelief-and-of-faith: "Of the Cause of Unbelief, and of Faith."
+                # loci:
+              - of-the-renewing-of-man-and-of-the-gift-of-faith: "Of the Renewing of Man, and of the Gift of Faith."
+                # loci:
+              - of-the-causes-of-election-and-reprobation: Of the Causes of Election and Reprobation.
+                loci: [predestination, reprobation]
+          - the-seventh-dialogue-is-of-the-redemption-and-of-the-person-: The Seventh Dialogue is of the Redemption and of the Person of Jesus Christ.
+            loci: person-of-christ
+            sections:
+              - of-the-work-of-the-redemption-and-of-the-things-that-are-to-: "Of the Work of the Redemption, and of the Things That Are to Be Considered in the Person of Jesus Christ."
+                # loci:
+              - of-the-faith-of-the-christians-concerning-the-divine-and-hum: Of the Faith of the Christians Concerning the Divine and Human Natures of Jesus Christ.
+                loci: natures-of-christ
+              - how-the-divine-and-humane-natures-which-are-in-the-person-of: "How the Divine and Humane Natures Which Are in the Person of Jesus Christ, Do Not Make Two Jesus Christ's, but One Only."
+                # loci:
+              - whether-the-divine-nature-be-in-jesus-christ-in-stead-of-the: "Whether the Divine Nature Be in Jesus Christ in Stead of the Soul, or Else That He Hath a Very Human Soul."
+                # loci:
+              - how-the-eternal-word-of-god-become-fleshly: How the Eternal Word of God Become Fleshly.
+                loci: incarnation
+              - of-the-conception-of-jesus-christ-and-of-the-nature-of-his-f: "Of the Conception of Jesus Christ, and of the Nature of His Flesh."
+                # loci:
+              - whereunto-the-genealogy-of-jesus-christ-according-to-the-fle: "Whereunto the Genealogy of Jesus Christ, According to the Flesh, Doth Serve Us."
+                # loci:
+              - of-the-works-of-the-holy-ghost-in-the-conception-of-jesus-ch: Of the Works of the Holy Ghost in the Conception of Jesus Christ.
+                # loci:
+              - of-the-true-substance-of-the-body-of-jesus-christ: Of the True Substance of the Body of Jesus Christ.
+                # loci:
+          - the-eight-dialogue-is-of-the-communion-between-jesus-christ-: The Eight Dialogue is of the Communion Between Jesus Christ and Man.
+            loci: union-with-christ
+            sections:
+              - of-the-communion-of-the-nature-which-jesus-chryst-hath-with-: "Of the Communion of the Nature, Which Jesus Chryst Hath With Man, and Not With Angels, and How Necessary it is to Man's Salvation."
+                # loci:
+              - of-two-sorts-of-union-and-communion-which-jesus-christ-hath-: "Of Two Sorts of Union and Communion Which Jesus Christ Hath With Man, Without the Which No Man Can Obtain Salvation."
+                # loci:
+              - of-the-spiritual-marriage-between-jesus-christ-and-his-churc: "Of the Spiritual Marriage Between Jesus Christ and His Church, and First of the Union of Nature That is Required in This Marriage."
+                # loci:
+              - of-an-other-more-special-union-and-conjunction-which-is-prop: "Of an Other More Special Union and Conjunction Which is Proper to Marriage, Which is Between Jesus. Christ and His Church."
+                # loci:
+              - how-that-jesus-christ-can-not-be-the-saviour-of-mankind-unle: "How That Jesus Christ Can Not Be the Saviour of Mankind, Unless He Have as Well an Human Soul, as an Human Body."
+                # loci:
+          - the-ninth-dalogue-is-of-the-offices-of-jesus-christ: The Ninth Dalogue is of the Offices of Jesus Christ.
+            loci: offices-of-christ
+            sections:
+              - of-the-signification-and-exposition-of-the-name-of-christ-an: "Of the Signification and Exposition of the Name of Christ, and of His Offices, the Which That Name Doth Comprehend."
+                loci: names-of-christ
+              - of-the-office-of-a-prophet-of-jesus-christ-and-of-the-perfec: "Of the Office, of a Prophet of Jesus Christ, and of the Perfection of His Doctrine."
+                loci: prophetic-office
+              - of-the-power-and-efficacy-of-the-ministery-of-jesus-christ-a: "Of the Power and Efficacy of the Ministery of Jesus Christ, and of That Which He Giveth to the Ministery of Others."
+                # loci:
+              - of-the-office-of-king-of-jesus-christ: Of the Office of King of Jesus Christ.
+                loci: kingly-office
+              - of-the-office-of-sacrificer-of-jesus-chryst-and-of-the-parts: "Of the Office of Sacrificer of Jesus Chryst, and of the Parts Thereof."
+                loci: priestly-office
+              - of-the-office-to-teach: Of the Office to Teach.
+                # loci:
+              - of-two-most-principal-parts-of-the-preestly-office-of-jesus-: Of Two Most Principal Parts of the Preestly Office of Jesus Christ.
+                loci: priestly-office
+              - how-that-none-may-be-a-perfect-sacrificer-but-jesus-christ-o: How That None May Be a Perfect Sacrificer but Jesus Christ Only.
+                # loci:
+              - for-what-cause-no-sacrifice-nor-any-other-work-of-man-whatso: "For What Cause No Sacrifice nor Any Other Work of Man Whatsoever it Be, May Be Able to Make Satisfaction to God."
+                # loci:
+              - why-one-only-sin-maketh-a-man-guilty-of-all-the-law-and-of-d: Why One Only Sin Maketh a Man Guilty of All the Law and of Damnation.
+                # loci:
+              - if-those-which-have-most-sinned-shall-be-most-punished-by-go: "If Those Which Have Most Sinned Shall Be Most Punished by God's Judgement."
+                # loci:
+              - of-the-impurity-of-mens-works-and-how-god-judgeth-of-them: "Of the Impurity of Men's Works, and How God Judgeth of Them."
+                # loci:
+              - of-the-obligation-whereby-man-is-bound-to-god-and-for-what-c: "Of the Obligation Whereby Man is Bound to God, and for What Cause He Cannot Make Recompense by the Good Works Which He Doth, for the Evil Works Which He Hath Committed."
+                # loci:
+              - for-what-cause-there-is-nothing-but-the-only-sacrifice-of-je: "For What Cause There is Nothing but the Only Sacrifice of Jesus Christ, Which May Satisfy at the Judgement of God."
+                # loci:
+              - of-the-perfect-obedience-of-jesus-christ-which-maketh-his-of: "Of the Perfect Obedience of Jesus Christ, Which Maketh His Office so Perfect."
+                # loci:
+              - of-the-office-of-intercessor-and-of-advocate-of-jesus-chryst: "Of the Office of Intercessor, and of Advocate of Jesus Chryst, and of the Virtue of the Same."
+                loci: priestly-office
+              - of-the-two-comings-of-jesus-christ: Of the Two Comings of Jesus Christ.
+                loci: second-coming
+          - of-the-person-of-the-holy-ghost-the-tenth-dialogue: ¶ of the Person of the Holy Ghost. the Tenth Dialogue.
+            loci: trinity
+            sections:
+              - of-the-work-of-vivification-and-of-the-principal-points-to-b: "Of the Work of Vivification, and of the Principal Points to Be Considered Concerning the Holy Ghost."
+                # loci:
+              - of-the-divinity-of-the-holy-ghost-and-of-the-proprieties-asc: "Of the Divinity of the Holy Ghost, and of the Proprieties Ascribed to All the Persons of the Trinity."
+                # loci:
+              - if-there-be-any-beginning-in-the-divine-essence-and-how-the-: "If There Be Any Beginning in the Divine Essence, and How the Holy Ghost Proceedeth From the Father and From the Son."
+                # loci:
+              - how-we-aught-to-understand-the-order-which-is-in-the-persons: How We Aught to Understand the Order Which is in the Persons of the Trinity.
+                # loci:
+              - of-the-difference-that-must-be-put-between-the-essence-and-t: Of the Difference That Must Be Put Between the Essence and the Gifts of the Holy Ghost.
+                # loci:
+          - the-eleventh-dialogue-is-of-the-gifts-of-the-holy-ghost-belo: "The Eleventh Dialogue is of the Gifts of the Holy Ghost, Belonging to the Only Elect."
+            loci: spiritual-gifts
+            sections:
+              - of-the-number-of-the-gifts-of-the-holy-ghost-of-the-distribu: "Of the Number of the Gifts of the Holy Ghost, & of the Distribution of Them."
+                # loci:
+              - of-the-diversity-of-the-gifts-of-the-holy-ghost-and-of-the-d: "Of the Diversity of the Gifts of the Holy Ghost, and of the Difference of Them."
+                # loci:
+              - of-the-gifts-of-the-holy-ghost-necessary-for-every-man-to-ob: Of the Gifts of the Holy Ghost Necessary for Every Man to Obtain Salvation Thereby.
+                # loci:
+              - whether-charity-justify-with-faith-or-else-faith-only-and-wh: "Whether Charity Justify With Faith, or Else Faith Only, and What Difference There is Between Faith and Charity in Such a Case."
+                loci: justification
+              - in-what-sort-charity-is-necessary-to-salvation: In What Sort Charity is Necessary to Salvation.
+                # loci:
+              - of-the-regeneration-of-a-christian-man: Of the Regeneration of a Christian Man.
+                loci: sanctification
+              - of-the-life-of-the-regenerate-man: Of the Life of the Regenerate Man.
+                # loci:
+          - the-twelfth-dialogue-is-of-the-gifts-of-the-holy-ghost-which: "The Twelfth Dialogue is of the Gifts of the Holy Ghost, Which Are Common to the Elect, and to the Reprobates."
+            loci: spiritual-gifts
+            sections:
+              - of-the-gifts-of-the-holy-ghost-which-men-may-have-not-be-cho: "Of the Gifts of the Holy Ghost Which Men May Have & Not Be Chosen of God, and Without the Which the Elect May Be Saved Touching Themselves."
+                # loci:
+              - of-the-gifts-of-the-holy-ghost-given-to-the-wicked: Of the Gifts of the Holy Ghost Given to the Wicked.
+                # loci:
+              - for-what-cause-god-sometime-doth-communicate-to-the-wicked-o: "For What Cause God Sometime Doth Communicate to the Wicked of the Gifts of the Holy Ghost, the Which He Doth Not Communicate to the Elect."
+                # loci:
+              - of-the-gifts-of-god-which-are-most-excellent-and-most-to-be-: Of the Gifts of God Which Are Most Excellent and Most to Be Desired.
+                # loci:
+              - how-the-gift-of-prophecy-may-serve-to-the-salvation-of-those: "How the Gift of Prophecy May Serve to the Salvation of Those Which Have it Not, and Not of Them Which Have It."
+                # loci:
+              - of-the-true-knowledge-of-god-proper-only-to-his-elect-and-of: "Of the True Knowledge of God Proper Only to His Elect, and of the General Which is Common to All Men."
+                # loci:
+              - how-that-the-wicked-which-prophecy-do-understand-or-not-unde: "How That the Wicked Which Prophecy Do Understand or Not Understand, Their Own Very Prophecies."
+                # loci:
+              - how-that-the-true-knowledge-of-god-comprehendeth-both-the-un: How That the True Knowledge of God Comprehendeth Both the Understanding and the Will.
+                # loci:
+              - of-the-true-and-full-reformation-of-man-and-of-the-parts-the: "Of the True and Full Reformation of Man, and of the Parts Thereof."
+                # loci:
+              - how-that-ignorance-and-malice-are-contrary-to-true-regenerat: "How That Ignorance and Malice Are Contrary to True Regeneration and Reformation, and How There is Either More or Less Ignorance and Malice in Some Than in Other Some."
+                # loci:
+              - of-those-which-offend-more-thorough-malice-than-by-ignorance: Of Those Which Offend More Thorough Malice Than by Ignorance.
+                # loci:
+              - of-those-which-sin-more-through-ignorance-than-through-malic: Of Those Which Sin More Through Ignorance Than Through Malice.
+                # loci:
+              - of-the-comparison-between-those-which-offend-of-malice-and-t: "Of the Comparison Between Those Which Offend of Malice, and Those Which Offend Through Ignorance."
+                # loci:
+              - of-the-difference-which-god-useth-in-the-dispensation-of-his: Of the Difference Which God Useth in the Dispensation of His Gifts Between the Elect and the Reprobates and How the Wicked Corrupt and Abuse the Gifts of God.
+                # loci:
+              - what-cause-men-have-to-glory-of-the-gifts-of-god-and-of-what: "What Cause Men Have to Glory of the Gifts of God, and of What Quality, and Which Be Those Men That Aught to Be Most Esteemed."
+                # loci:
+          - the-thirteenth-dialogue-is-of-the-church-and-of-the-minister: "The Thirteenth Dialogue is of the Church, and of the Ministery of the Same."
+            loci: [nature-of-the-church, government-of-the-church]
+            sections:
+              - of-the-sanctifying-of-the-church-and-of-the-members-of-the-s: "Of the Sanctifying of the Church, and of the Members of the Same."
+                # loci:
+              - of-the-ministery-of-the-church-and-of-the-gifts-necessary-to: "Of the Ministery of the Church, and of the Gifts Necessary to the Same."
+                # loci:
+              - how-that-the-gift-of-preaching-is-at-all-times-necessary-in-: "How That the Gift of Preaching is at All Times Necessary in the Church, and of the Ordinary Ministery of the Same."
+                # loci:
+              - how-that-the-ministery-of-the-word-of-god-is-perpetually-nec: How That the Ministery of the Word of God is Perpetually Necessary to the Church in This World.
+                # loci:
+              - of-other-gifts-of-god-which-are-not-so-necessary-for-the-chu: Of Other Gifts of God Which Are Not so Necessary for the Church as the Gift of Preaching.
+                # loci:
+              - how-the-lord-taketh-the-ministers-of-his-church-of-his-very-: "How the Lord Taketh the Ministers of His Church of His Very People, and Not of a Strange People."
+                # loci:
+          - the-fourthtenth-dialogue-is-of-the-preaching-of-the-gospel: The Fourthtenth Dialogue is of the Preaching of the Gospel.
+            loci: word-of-god
+            sections:
+              - of-the-principal-parts-of-the-ministery-of-the-church: Of the Principal Parts of the Ministery of the Church.
+                # loci:
+              - of-the-administration-of-the-word-and-of-the-principal-point: "Of the Administration of the Word, and of the Principal Points That Therein Are to Be Considered."
+                # loci:
+              - of-the-points-that-are-required-to-set-forth-purely-the-word: Of the Points That Are Required to Set Forth Purely the Word of God.
+                # loci:
+              - of-the-principal-points-of-gods-word-which-ought-to-be-set-f: "Of the Principal Points of God's Word, Which Ought to Be Set Forth by the Preaching of the Same, & What Order There Aught to Be Observed in Setting of it Forth."
+                # loci:
+              - of-repentance-by-the-which-the-preaching-of-the-gospel-must-: Of Repentance by the Which the Preaching of the Gospel Must Be Begun.
+                loci: repentance
+              - how-that-true-repentance-cannot-be-well-preached-without-joi: How That True Repentance Cannot Be Well Preached Without Joining of the Doctrine of the Law and the Gospel Together.
+                # loci:
+              - how-that-true-repentance-can-not-be-without-faith: How That True Repentance Can Not Be Without Faith.
+                # loci:
+              - of-the-true-and-false-faith-and-repentance: Of the True and False Faith and Repentance.
+                # loci:
+              - of-the-forgiveness-of-sins-and-of-the-assurance-of-the-consc: "Of the Forgiveness of Sins, and of the Assurance of the Conscience by the Same."
+                # loci:
+              - of-the-communion-of-saints-how-the-church-entereth-into-the-: "Of the Communion of Saints, & How the Church Entereth Into the Same by Mean of the Ministery of the Gospel."
+                # loci:
+              - by-what-mean-men-attain-to-eternal-life-and-of-the-benefits-: "By What Mean Men Attain to Eternal Life, and of the Benefits Comprehended in the Communion of Saints."
+                # loci:
+              - of-the-excellency-of-the-ministery-and-of-the-other-two-part: "Of the Excellency of the Ministery, and of the Other Two Parts of the Same."
+                # loci:
+          - the-fifteenth-dialogue-is-of-the-sacraments-of-baptism-and-o: "The Fifteenth Dialogue is of the Sacraments of Baptism, and of the Lords Supper."
+            loci: sacraments
+            sections:
+              - of-the-sacraments-and-of-the-number-of-them: Of the Sacraments and of the Number of Them.
+                # loci:
+              - of-that-which-is-general-and-common-to-all-sacraments: Of That Which is General and Common to All Sacraments.
+                # loci:
+              - of-baptism-and-of-the-signification-of-it: "Of Baptism, and of the Signification of It."
+                loci: baptism
+              - of-the-agreement-and-difference-that-is-between-baptism-and-: Of the Agreement and Difference That is Between Baptism and the Supper.
+                # loci:
+              - of-the-propriety-of-the-water-of-baptism-to-represent-the-gr: Of the Propriety of the Water of Baptism to Represent the Graces of God Which Are Communicated Unto Us by the Same.
+                # loci:
+              - of-the-admonition-and-figure-that-the-faithful-have-of-a-chr: Of the Admonition and Figure That the Faithful Have of a Christian Life in Baptism.
+                # loci:
+              - of-the-supper-and-why-jesus-christ-did-ordain-two-signs-for-: "Of the Supper, and Why Jesus Christ Did Ordain Two Signs for the Same."
+                loci: lords-supper
+              - of-that-which-is-special-in-the-supper-wherein-it-differeth-: "Of That Which is Special in the Supper, Wherein it Differeth From Baptism, and How That All That is Very Well Represented in the Bread and the Wine."
+                # loci:
+              - how-we-must-eat-the-body-and-flesh-of-jesus-christ-and-drink: "How We Must Eat the Body and Flesh of Jesus Christ, and Drink His Blood in the Supper."
+                # loci:
+              - of-the-true-spiritual-eating-and-drinking: Of the True Spiritual Eating and Drinking.
+                # loci:
+          - the-sixteenth-dialogue-is-of-the-transubstantiation-consubst: "The Sixteenth Dialogue is of the Transubstantiation & Consubstantiation, and of the True Presence of Jesus Christ in the Supper."
+            loci: lords-supper
+            sections:
+              - of-the-error-of-transubstantiation-and-how-the-supper-cannot: "Of the Error of Transubstantiation, and How the Supper Cannot Be a Sacrament, If the Bread and the Wine Do Not There Remain in Their Proper Substance."
+                # loci:
+              - of-things-without-the-which-the-sacraments-cannot-be-sacrame: Of Things Without the Which the Sacraments Cannot Be Sacraments.
+                # loci:
+              - of-things-which-are-to-be-considered-in-the-word-of-god-in-a: "Of Things Which Are to Be Considered in the Word of God in All Sacraments, and in the Signification of the Same."
+                # loci:
+              - of-things-to-consider-in-the-signs-and-in-the-signification-: "Of Things to Consider in the Signs, and in the Signification of Them, in All Sacraments."
+                # loci:
+              - whether-hypocrites-and-infidels-do-as-well-communicate-in-th: "Whether Hypocrites and Infidels Do as Well Communicate in the Supper, of the Things Signified by the Signs as They Do of the Signs."
+                # loci:
+              - wherefore-are-the-bread-and-wine-called-by-the-name-of-the-b: "Wherefore Are the Bread and Wine Called by the Name of the Body and Blood of Jesus Christ, If They Be Not That Body and Blood."
+                # loci:
+              - of-the-manner-in-the-which-the-body-and-the-blood-of-jesus-c: "Of the Manner in the Which the Body and the Blood of Jesus Christ Are Present in the Supper, and Are Communicate to the Faithful as Well as the Signs Which Represent Them."
+                # loci:
+              - of-the-substantial-and-natural-conjunction-of-the-body-and-b: "Of the Substantial and Natural Conjunction of the Body and Blood of Jesus Christ, With the Bread and With the Wine of the Supper."
+                # loci:
+              - of-the-agreement-that-is-between-this-opinion-that-of-transu: "Of the Agreement That is Between This Opinion & That, of Transubstantiation."
+                # loci:
+          - the-seventeenth-dialogue-is-of-the-communication-of-jesus-ch: The Seventeenth Dialogue is of the Communication of Jesus Christ as Well in Baptism as in the Supper.
+            loci: [baptism, lords-supper]
+            sections:
+              - whereunto-baptism-and-the-signification-thereof-may-serve-to: Whereunto Baptism and the Signification Thereof May Serve to Give Us to Understand in What Sort it Behoveth Us to Be Nourished by the Body and Blood of Jesus Christ.
+                # loci:
+              - in-what-sort-we-do-communicate-of-the-body-blood-of-jesus-ch: "In What Sort We Do Communicate of the Body & Blood of Jesus Christ in Baptism."
+                # loci:
+              - what-difference-there-is-between-the-baptism-and-the-supper-: "What Difference There is Between the Baptism and the Supper, Touching the Communion of the Body and of the Blood of Jesus Christ."
+                # loci:
+              - in-what-sort-the-faithful-in-baptism-do-put-on-jesus-christ-: "In What Sort the Faithful in Baptism Do Put on Jesus Christ, and Are Washed With His Blood."
+                # loci:
+              - what-greater-reason-there-is-to-communicate-corporally-of-th: "What Greater Reason There is to Communicate Corporally of the Body and of the Blood of Jesus Christ in the Supper, Than in Baptism."
+                # loci:
+              - how-the-corporal-and-carnal-presence-of-the-body-and-of-the-: How the Corporal and Carnal Presence of the Body and of the Blood of Jesus Christ in the Supper Greeth Not With the True Nature of Them.
+                # loci:
+              - how-the-glorifying-of-the-body-of-jesus-chryst-doth-not-chan: "How the Glorifying of the Body of Jesus Chryst, Doth Not Change at All the Substantial Nature & Proper Substance of the Same."
+                # loci:
+              - of-the-contrariety-that-is-between-the-corporal-presence-of-: "Of the Contrariety That is Between the Corporal Presence of Jesus Chryst in the Supper, and His Ascension Into Heaven."
+                # loci:
+          - the-eighteenth-dialogue-is-of-the-presence-of-jesus-christ-i: "The Eighteenth Dialogue is of the Presence of Jesus Christ in Heaven, and in the Supper and in His Church."
+            loci: lords-supper
+            sections:
+              - whether-the-ascension-of-jesus-christ-be-a-true-ascension-or: "Whether the Ascension of Jesus Christ Be a True Ascension or Not, or Else If He Made Himself Only Invisible."
+                # loci:
+              - how-that-the-presence-corporal-of-jesus-christ-in-the-supper: "How That the Presence Corporal of Jesus Christ in the Supper May Have No Place Except He Have an Infinite Body, or Many."
+                # loci:
+              - of-the-invisible-coming-of-the-body-of-jesus-christ: Of the Invisible Coming of the Body of Jesus Christ.
+                # loci:
+              - of-the-spiritual-coming-of-jesus-christ: Of the Spiritual Coming of Jesus Christ.
+                # loci:
+              - how-that-the-corporal-presence-of-jesus-christ-in-the-supper: "How That the Corporal Presence of Jesus Christ in the Supper, is Contrary to the Divine Virtue That is in Him to Communicate His Gifts and Graces to His Church."
+                # loci:
+              - of-the-spiritual-and-divine-presence-of-jesus-christ-in-his-: "Of the Spiritual and Divine Presence of Jesus Christ in His Church, and of the Virtue of the Same."
+                # loci:
+              - how-that-the-corporal-presence-of-the-body-and-of-the-blood-: How That the Corporal Presence of the Body and of the Blood of Jesus Christ is Contrary to the True Communion of Them in the Supper.
+                # loci:
+              - whether-a-man-may-conclude-of-the-words-of-saint-paul-that-a: "Whether a Man May Conclude of the Words of Saint Paul, That a Man May Receive the Body and the Blood of Jesus Christ in the Supper, to Condemnation."
+                # loci:
+              - of-the-principal-difference-that-may-be-between-the-transubs: Of the Principal Difference That May Be Between the Transubstantiation of the Bread and of the Wine Into the Body and the Blood of Jesus Christ and the Bodily Conjunction of Them Together.
+                # loci:
+              - of-the-union-that-is-between-jesus-christ-and-his-members-si: "Of the Union That is Between Jesus Christ and His Members, Signified by the Bread and the Wine in the Supper."
+                # loci:
+              - how-the-supper-is-the-sacrament-of-union-and-of-charity-and-: "How the Supper is the Sacrament of Union and of Charity, and of the Admonition That We Have in the Same."
+                # loci:
+          - the-19-dialogue-is-of-the-proof-that-every-man-aught-to-make: The 19 Dialogue is of the Proof That Every Man Aught to Make of Himself Before the Supper.
+            loci: lords-supper
+            sections:
+              - of-the-principal-points-which-are-required-in-the-proof-that: Of the Principal Points Which Are Required in the Proof That is Required of Every Man Before He Go to the Supper.
+                # loci:
+              - whether-it-be-requisite-that-every-man-have-perfect-repentan: "Whether it Be Requisite That Every Man Have Perfect Repentance, Faith and Charity, Before He Go to the Supper."
+                # loci:
+              - what-difference-there-is-between-true-perfect-repentance-fai: "What Difference There is Between True & Perfect Repentance, Faith, & Charity."
+                # loci:
+              - how-greatly-necessary-the-ministery-of-the-church-and-prayer: How Greatly Necessary the Ministery of the Church and Prayer is for All Men During This Life.
+                # loci:
+              - of-the-discipline-of-the-church-and-of-the-principal-parts-o: "Of the Discipline of the Church, and of the Principal Parts of the Same."
+                loci: church-discipline
+          - the-20-dialogue-is-of-the-discipline-censures-and-consistori: "The. 20. Dialogue is of the Discipline, Censures and Consistories of the Church."
+            loci: church-discipline
+            sections:
+              - of-the-discipline-of-the-church-and-of-the-principal-parts-o-2: "Of the Discipline of the Church, and of the Principal Parts of the Same."
+                # loci:
+              - of-the-chief-things-whereupon-the-discipline-of-the-church-a: Of the Chief Things Whereupon the Discipline of the Church Aught to Watch.
+                # loci:
+              - of-the-censures-and-ancients-of-the-church-and-of-the-manner: "Of the Censures and Ancients of the Church, and of the Manner of the Policy of the Same."
+                # loci:
+              - of-the-true-head-of-the-church-and-of-the-power-given-to-the: "Of the True Head of the Church and of the Power Given to the Church by Jesus Christ to Choose Those Which Have Public Office in the Same, & How Requisite it is That That Order Be There Observed."
+                loci: power-of-the-church
+              - of-the-office-as-well-of-the-ministers-as-of-the-other-ancie: "Of the Office as Well of the Ministers as of the Other Ancients and Censures of the Church, and of the Regard That Chief Must Be Had Unto Them."
+                # loci:
+          - the-xxj-dialogue-is-of-brotherly-correction-of-excommunicati: "The.xxj. Dialogue is of Brotherly Correction, of Excommunication, & of Particular Instructions."
+            loci: church-discipline
+            sections:
+              - of-the-order-that-must-be-holden-in-the-correction-of-every-: "Of the Order That Must Be Holden in the Correction of Every Man's Faults, According to the Nature and Quality of the Same."
+                # loci:
+              - of-excommunication-and-of-the-greatest-rigour-of-the-same: "Of Excommunication, and of the Greatest Rigour of the Same."
+                # loci:
+              - of-the-force-of-lawful-excommunication-and-of-the-power-of-t: "Of the Force of Lawful Excommunication, and of the Power of the Keys Given to the Church."
+                # loci:
+              - if-excommunication-may-extend-further-than-to-the-disobedien: If Excommunication May Extend Further Than to the Disobedient.
+                # loci:
+              - of-the-difference-that-aught-to-be-had-between-excommunicati: "Of the Difference That Aught to Be Had Between Excommunication and Suspension From the Sacraments: and How That the Sacraments May Not Be Administered to All Those to Whom the Doctrine of the Same is Set Forth."
+                # loci:
+              - how-necessary-particular-instructions-are-in-the-church: How Necessary Particular Instructions Are in the Church.
+                # loci:
+              - in-what-sort-the-ministers-may-be-faulty-or-not-of-the-pollu: "In What Sort the Ministers May Be Faulty or Not, of the Pollution of the Sacraments, If They Do Administer Them to the Unworthy."
+                # loci:
+              - of-the-ecclesiastical-judgement-required-before-the-excommun: Of the Ecclesiastical Judgement Required Before the Excommunication.
+                # loci:
+              - of-the-means-that-the-ministers-aught-to-use-if-they-may-hav: "Of the Means That the Ministers Aught to Use, If They May Have No Discipline in the Church, nor yet Administer the Sacraments in the Same Without Profaning of Them."
+                # loci:
+              - of-the-difference-that-must-be-put-between-the-ignorant-and-: "Of the Difference That Must Be Put Between the Ignorant, and Which They Are of Them That Aught to Be Holden for Dogs and Swine."
+                # loci:
+              - of-those-that-declare-themselves-swine-and-dogs-in-their-liv: Of Those That Declare Themselves Swine and Dogs in Their Lives.
+                # loci:
+              - whether-the-discipline-ordained-by-jesus-christ-be-necessary: Whether the Discipline Ordained by Jesus Christ Be Necessary in the Church or No.
+                # loci:
+          - of-the-baptism-of-little-children-and-of-brotherly-confessio: "Of the Baptism of Little Children, and of Brotherly Confession and Reconciliation. The.xxij. Dialogue."
+            loci: baptism
+            sections:
+              - if-little-children-should-be-shut-out-from-baptism-because-t: "If Little Children Should Be Shut Out From Baptism Because They Be Not yet Instructed, and of the Difference That is Between Baptism and the Supper in That Point."
+                # loci:
+              - of-the-principal-foundation-of-the-baptism-of-little-childre: "Of the Principal Foundation of the Baptism of Little Children, and of the Virtue of the Alliance Whereupon it is Grounded."
+                # loci:
+              - if-it-be-lawful-to-baptize-the-children-of-infidels-and-what: "If it Be Lawful to Baptize the Children of Infidels, and What Conditions Are Required in Them Which Do Present Them."
+                # loci:
+              - of-confession-of-brotherly-reconciliation: "Of Confession & of Brotherly Reconciliation."
+                # loci:
+          - the-23-dialogue-is-of-supplication-of-christian-prayer: "The. 23. Dialogue is of Supplication & of Christian Prayer."
+            loci: prayer
+            sections:
+              - of-prayer-and-how-it-belongeth-to-none-but-to-the-faithful-a: "Of Prayer, and How it Belongeth to None but to the Faithful, and May Not Be Addressed but to God."
+                # loci:
+              - how-that-our-prayers-cannot-be-agreeable-unto-god-without-a-: "How That Our Prayers Cannot Be Agreeable Unto God Without a Mediator, and by What Mediator it Behoveth Us to Present Them."
+                # loci:
+              - how-that-none-other-advocate-nor-mediator-may-be-joined-to-j: "How That None Other Advocate nor Mediator May Be Joined to Jesus Christ, Without Greatly Dishonouring of Him."
+                # loci:
+              - of-the-commandment-which-the-faithful-have-to-pray-one-for-a: "Of the Commandment Which the Faithful Have to Pray One for Another, but Not to Address Themselves to Any Dead Saint."
+                # loci:
+              - what-regard-the-faithful-have-the-one-for-the-others-in-thei: What Regard the Faithful Have the One for the Others in Their Prayers.
+                # loci:
+              - for-what-cause-god-hath-commanded-us-to-pray-one-for-an-othe: For What Cause God Hath Commanded Us to Pray One for an Other.
+                # loci:
+              - of-the-form-of-prayer-which-christ-gave-to-the-church-and-of: "Of the Form of Prayer Which Christ Gave to the Church, and of the Parts Thereof."
+                # loci:
+              - of-the-points-of-the-doctrine-contained-in-the-preface-of-th: Of the Points of the Doctrine Contained in the Preface of the Lords Prayer.
+                # loci:
+              - of-the-content-of-the-three-first-requests-of-the-lords-pray: Of the Content of the Three First Requests of the Lords Prayer.
+                # loci:
+              - of-the-content-of-the-three-last-demands-and-what-things-we-: "Of the Content of the Three Last Demands, and What Things We Aught to Demand of God, and to What End."
+                # loci:
+              - of-the-division-of-the-things-which-we-ask-of-god-and-first-: Of the Division of the Things Which We Ask of God and First of Things Corporal.
+                # loci:
+              - of-spiritual-things-which-we-ask-of-god-for-us: Of Spiritual Things Which We Ask of God for Us.
+                # loci:
+          - the-printer-to-the-readers-greeting: "¶ the Printer to the Readers, Greeting."
+            # loci:
+            sections:
+              - the-prayer: The Prayer.
+                # loci:
+      - the-exposition-of-the-preface-of-the-law-set-forth-by-master: "The Exposition of the Preface of the Law, Set Forth by Master Peter Viret, Minister of God's Word."
+        loci: moral-law
+        sections:
+          - questions-concerning-the-presence-of-god-in-the-mountain-of-: "Questions Concerning the Presence of God in the Mountain of Sinai, and of His Voice, and of the Law Given by the Angels."
+            # loci:
+          - of-the-presence-of-god-in-general-which-is-common-to-all-men: "Of the Presence of God in General, Which is Common to All Men and Creatures, and of His Special Presence Towards His Servants."
+            # loci:
+          - of-the-voice-of-god-which-was-heard-by-men-and-of-his-law-gi: "Of the Voice of God Which Was Heard by Men, and of His Law Given by the Angels."
+            # loci:
+          - of-the-preface-of-god-in-his-law-and-of-the-titles-which-he-: "Of the Preface of God in His Law, and of the Titles Which He Giveth to Himself in the Same: and of the Point That is Chief Required in That Law."
+            # loci:
+          - of-the-name-eternal-which-is-jehova-in-hebrew-given-to-god: "Of the Name Eternal Which is Jehova in Hebrew, Given to God."
+            loci: names-of-god
+          - in-what-sort-god-is-generally-called-the-god-of-all-men-and-: "In What Sort God is Generally Called the God of All Men, and Chiefly the God of His Chosen People."
+            # loci:
+          - for-what-cause-god-doth-make-express-mention-in-the-preface-: "For What Cause God Doth Make Express Mention in the Preface of His Law, of the Deliverance of Israel Out of Egipte."
+            # loci:
+          - how-that-this-remembrance-of-the-going-forth-out-of-egypte-i: "How That This Remembrance of the Going Forth Out of Egypte, is a Mark to Separate the True God From the False Gods."
+            # loci:
+          - of-the-sundry-titles-which-have-been-given-to-god-in-the-hol: "Of the Sundry Titles Which Have Been Given to God in the Holy Scriptures, as Well Before the Going Forth Out of Egypt, as After, and Chiefly Sith the Coming of Christ in the Flesh, and for What Causes They Have Been Given."
+            loci: names-of-god
+          - of-the-true-knowledge-and-manifestation-of-god-and-to-what-e: "Of the True Knowledge and Manifestation of God, and to What End the Titles Serve Which Are Given to Him to Guide and Lead Us to the Same."
+            # loci:
+          - how-the-deliverance-of-the-people-of-israel-out-of-egypt-was: "How the Deliverance of the People of Israel Out of Egypt, Was a Shadow and Figure of the Deliverance Which is Made by Christ Jesus, and How the Christian People Are Comprehended in the People of Israel, and Their Deliverance Also in the Deliverance of That People."
+            # loci:
+          - of-the-order-and-mean-that-god-did-keep-in-giving-of-his-law: "Of the Order and Mean That God Did Keep in Giving of His Law, and of the Great Doctrine Contained Therein: and What Agreement it Hath With the Form of Prayer Which Was Given by Jesus Christ."
+            # loci:
+          - of-the-testimonies-that-god-in-his-law-giveth-unto-us-of-him: "Of the Testimonies That God in His Law Giveth Unto Us of Himself, and of His Nature, and of the Nature of Man, and of the Redemption of Him."
+            # loci:
+          - how-that-the-law-of-god-containeth-much-more-in-substance-th: "How That the Law of God Containeth Much More in Substance Than the Words Seem to Signify at the First Sight, and How They Aught to Be Understood According to the Nature of the Law Maker"
+            # loci:
+          - of-the-difference-that-is-between-the-law-of-god-and-the-law: "Of the Difference That is Between the Law of God and the Laws of Man, and the Things Required in These Same and of the Judgement of God, and the Judgement of Men Concerning the Same."
+            # loci:
+          - in-what-sort-the-words-of-the-law-of-god-aught-to-be-underst: "In What Sort the Words of the Law of God Aught to Be Understood: and How That God Doth Not Only Behold the Outward Works, but the Original of Them Also, & What Be the Things That God Doth Allow or Condemn in Man."
+            # loci:
+          - of-the-consideration-of-those-things-which-in-deed-displease: "Of the Consideration of Those Things Which in Deed Displease God in Man, and First of All in His Work: and in What Sort it Aught to Be Considered, as Commanded or Forbidden by God."
+            # loci:
+          - by-what-rule-the-works-of-men-aught-to-be-examined-and-how-d: "By What Rule the Works of Men Aught to Be Examined, and How Dangerous a Thing it is to Follow the Judgement of Man's Reason."
+            # loci:
+          - how-that-the-la-of-god-is-transgressed-not-only-in-doing-tha: "How That the La of God is Transgressed Not Only in Doing That Which is Forbidden by It, but Also in Leving That Undone Which is Therein Commanded, and How That Those Good Works Which We Do, Are Not Able to Satisfy for Them Which We Aught to Do, and Do Not, Ne yet for Those Which We Do Against the Will of God."
+            # loci:
+          - how-that-it-is-not-sufficient-to-do-outwardly-the-works-whic: "How That it is Not Sufficient to Do Outwardly the Works Which God Commandeth, If That They Be Not Done to the Intent and to the Very Same Purpose for the Which God Doth Command Them, & How Greatly Hypocrisy Displeaseth God."
+            # loci:
+          - what-good-or-hurt-the-work-doth-that-is-outwardly-done-not-w: "What Good or Hurt the Work Doth That is Outwardly Done, & Not With a Good Heart, & What it May Bring to the Worker of the Same, & Also to Others, and Whether it Be Better That it Be Done or Undone."
+            # loci:
+          - in-what-sort-the-heart-of-man-may-fulfil-the-law-of-god-or-n: "In What Sort the Heart of Man May Fulfil the Law of God or Not, and May Be Condemned, or Absolved by the Same, Without the Works Which God Requireth of Him in the Same."
+            # loci:
+          - how-that-men-do-glory-in-vain-of-their-good-heart-and-of-the: "How That Men Do Glory in Vain of Their Good Heart and of Their Faith, If Their Works Bear Not Witness of It, and for What Cause the Judgement Shall Be Given by God According to Their Works, and Why the Prophets Do so Earnestly Require Them, Exhorting the People of God to Repentance."
+            # loci:
+          - how-that-the-dissimulation-and-feigning-of-mans-heart-is-dec: "How That the Dissimulation and Feigning of Man's Heart is Declared by the Transgression of the Law of God: and How There is Neither Ignorance, nor Constraint, nor Any Reason, What so Ever it Be, No●…. That Can Excuse Him."
+            # loci:
+          - how-sin-can-not-be-but-voluntary-and-how-difference-must-be-: "How Sin Can Not Be but Voluntary, and How Difference Must Be Put in This Matter, Between Constraint and Necessity, and in What Signification They Aught to Be Taken in This Case."
+            # loci:
+          - examples-and-similitudes-for-declaration-of-the-difference-t: Examples and Similitudes for Declaration of the Difference That is Put Between Necessity and Constraint.
+            # loci:
+          - of-the-free-necessity-to-do-well-that-was-in-man-before-sin-: "Of the Free Necessity to Do Well, That Was in Man Before Sin: and of the Necessity to Do Evil, Unconstrained Notwithstanding, Into the Which He is Fallen Through the Same, and in What Meaning This Word of Necessity Aught to Be Taken, When it Hath Regard to Good Things."
+            loci: [original-righteousness, free-will]
+          - how-that-the-necessity-that-is-here-spoken-of-is-free-and-co: "How That the Necessity That is Here Spoken Of, is Free and Commendable in Good Things: and How it Aught to Be Otherwise Considered in God Than in Creatures."
+            # loci:
+          - of-the-creation-and-fall-of-the-angels-and-how-that-god-in-t: "Of the Creation and Fall of the Angels, and How That God in the Same Hath Declared the Difference That is Between the Creator and the Creature, and How it is Only He That is Perfect and Unchangeable."
+            loci: fall-of-angels
+          - of-the-marvelous-counsel-of-god-which-was-declared-in-the-fa: "Of the Marvelous Counsel of God Which Was Declared in the Fall of the Angels, Which Are Fallen From Their First Estate: and in the Preservation of Those Which Did Continued Firm and Steadfast, and How He Hath Declared the Justice of His Judgement Towards the One Sort, & the Riches of His Grace Towards the Others."
+            # loci:
+          - how-that-the-devil-may-not-impute-the-fault-and-fall-of-his-: "How That the Devil May Not Impute the Fault and Fall of His Damnation but to Himself, and How it is Manifest by That Fall That There is No Unchangeable Verity nor Constancy but in the Nature of God."
+            # loci:
+          - of-the-comparison-and-agreement-of-the-first-estate-and-of-t: "Of the Comparison and Agreement of the First Estate, and of the Fall of Man, With That of the Angels, and Their First Estate: and in to What Necessity Man Hath Brought Himself Through His Sin."
+            # loci:
+          - of-the-marvelous-counsel-of-god-which-is-declared-in-the-fal: "Of the Marvelous Counsel of God Which is Declared in the Fall and the Restoring of Man: and Wherein it is Different, or Like to That Which He Hath Declared in the Fall of the Evil Angels, and in the Conservation of the Good."
+            # loci:
+          - how-that-all-that-which-hath-been-done-as-well-in-the-fall-a: "How That All That Which Hath Been Done as Well in the Fall and Conservation of the Angels, as in the Fall and Restoring of Man, Tendeth to the Glory of God, and How That Same Only Reason Aught to Content Us in the Doctrine of Predestination."
+            # loci:
+          - how-that-the-will-of-man-cannot-by-any-means-be-constrained-: "How That the Will of Man Cannot by Any Means Be Constrained, Not, Not by the Devil Himself, but Only of His Own Wickedness."
+            loci: free-will
+          - of-the-contrariety-which-seemeth-sometime-to-be-among-the-co: "Of the Contrariety Which Seemeth Sometime to Be Among the Commandments of God, and What Consideration is Required in the Same, and of the Division of the Whole Law Into Two Tables, and of the Order of the Matters That Are Disposed & Contained in Them."
+            # loci:
+          - of-the-manner-how-to-accord-and-agree-the-passages-and-sente: "Of the Manner How to Accord and Agree the Passages and Sentences of the Law and of the Holy Scriptures, Which Seem to Disagree, Set Forth Upon the Commandment Given to Honour Father and Mother, and What Love or Hatred He Would That We Should Bear Them."
+            # loci:
+          - an-example-to-the-like-purpose-upon-the-commandment-given-of: "An Example to the Like Purpose, Upon the Commandment Given of the Obedience Due to Princes, and Upon the Commandment Given Against Murder."
+            # loci:
+          - of-the-hidden-sins-that-are-in-the-conscience-and-wicked-wil: "Of the Hidden Sins That Are in the Conscience and Wicked Will of Man and How That Concupiscence is a Sin Worthy of Damnation in the Sight of God, and How Greatly it Doth Displease Him, and for What Cause."
+            loci: concupiscence
+          - how-that-by-reason-of-that-concupiscence-we-are-justly-worth: "How That by Reason of That Concupiscence We Are Justly Worthy of Death and Damnation, Even From Our Mother's Womb."
+            loci: concupiscence
+          - of-divers-degrees-of-sin-and-of-the-root-and-fruits-and-of-t: "Of Divers Degrees of Sin, and of the Root and Fruits, and of Their Begetting and Consummation."
+            # loci:
+          - of-the-names-of-sins-according-to-their-degrees-and-proper-k: "Of the Names of Sins, According to Their Degrees and Proper Kinds, With Their Generation."
+            # loci:
+          - of-deadly-and-venial-sins-and-of-the-difference-of-them-and-: "Of Deadly and Venial Sins, and of the Difference of Them: and in What Meaning We Ought to Understand the Sins to Be Venial or Mortal."
+            loci: nature-of-sin
+          - of-the-opinion-of-those-which-say-that-none-shall-be-damned-: "Of the Opinion of Those Which Say, That None Shall Be Damned: and of the Abuse of the Mercy of God, and of the Greatness of Sin, and of the Pain Due to the Same, and of the Wrath of God Against It, Declared in the Death of Jesus Christ, and of the Mean Whereby to Be Deiluered From It, and in What Meaning We Aught to Understand That God Hath Made No Man to Destroy or Damn Him."
+            # loci:
+          - how-that-every-sin-is-of-his-own-nature-damnable-and-how-tha: "How That Every Sin is of His Own Nature Damnable, and How That Notwithstanding, it is Not Able to Damn the Faithful."
+            # loci:
+          - what-mean-it-behoveth-to-keep-to-fight-against-sin-and-to-re: "What Mean it Behoveth to Keep to Fight Against Sin and to Resist It, and to Be Delivered From It, and How Every Man Aught to Fear Lest He Should Be Hardened Therein, and Should Fight Against His Own Conscience, to the End That Sin Be Not to Death."
+            # loci:
+    translations:
+      - year: 1573
+        translator: I.s. Seene
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A14463.xml
+            section_urls:
+              - the-sum-of-the-principal-points-of-the-christian-faith-and-r: https://texts.earlyprint.org/works/A14463.xml?page=005-b
+              - how-needful-it-is-that-all-christians-do-well-know-what-fait: https://texts.earlyprint.org/works/A14463.xml?page=006-a
+              - of-the-summaries-of-the-faith-of-the-christian-church-named-: https://texts.earlyprint.org/works/A14463.xml?page=006-b
+              - of-the-understanding-of-the-matters-contained-in-these-summa: https://texts.earlyprint.org/works/A14463.xml?page=007-b
+              - of-the-principal-points-whereupon-the-true-christian-faith-i: https://texts.earlyprint.org/works/A14463.xml?page=008-a
+              - of-the-trinity-of-persons-in-the-unity-of-the-divine-essence: https://texts.earlyprint.org/works/A14463.xml?page=008-b
+              - of-the-providence-of-god-chap-6: https://texts.earlyprint.org/works/A14463.xml?page=009-a
+              - of-the-author-of-sin-and-of-the-incomprehensible-wisdom-of-g: https://texts.earlyprint.org/works/A14463.xml?page=009-b
+              - of-man-and-of-the-creation-and-fall-of-him-by-sin-chap-9: https://texts.earlyprint.org/works/A14463.xml?page=010-b
+              - of-the-true-invocation-and-prayer-towards-god-chapter-11: https://texts.earlyprint.org/works/A14463.xml?page=011-a
+              - of-the-order-of-prayer-which-jesus-gave-to-his-church-chap-1: https://texts.earlyprint.org/works/A14463.xml?page=011-b
+              - of-the-principal-faults-which-we-must-avoid-when-we-pray-cha: https://texts.earlyprint.org/works/A14463.xml?page=012-a
+              - of-the-nature-of-the-true-mediator-and-of-the-union-of-god-a: https://texts.earlyprint.org/works/A14463.xml?page=012-b
+              - of-the-divine-and-humane-nature-of-jesus-christ-and-of-the-s: https://texts.earlyprint.org/works/A14463.xml?page=013-a
+              - of-the-error-touching-the-invocation-of-saints-chap-17: https://texts.earlyprint.org/works/A14463.xml?page=013-b
+              - of-the-virtue-of-the-death-and-passion-of-of-jesus-christ-an: https://texts.earlyprint.org/works/A14463.xml?page=014-a
+              - of-the-purgatory-and-satisfaction-of-the-papists-chap-19: https://texts.earlyprint.org/works/A14463.xml?page=014-b
+              - of-the-justification-by-faith-chapter-22: https://texts.earlyprint.org/works/A14463.xml?page=015-a
+              - of-the-mean-by-the-which-god-giveth-faith-to-men-and-of-the-: https://texts.earlyprint.org/works/A14463.xml?page=015-b
+              - of-the-declaration-of-the-will-of-god-by-the-law-the-which-h: https://texts.earlyprint.org/works/A14463.xml?page=016-a
+              - of-the-law-of-god-containing-a-summary-of-the-declaration-of: https://texts.earlyprint.org/works/A14463.xml?page=016-b
+              - the-third: https://texts.earlyprint.org/works/A14463.xml?page=017-a
+              - the-eight: https://texts.earlyprint.org/works/A14463.xml?page=017-b
+              - of-the-summarie-that-jesus-christ-hath-made-of-the-law-of-go: https://texts.earlyprint.org/works/A14463.xml?page=018-a
+              - of-the-true-fulfilling-of-the-law-of-god-chap-27: https://texts.earlyprint.org/works/A14463.xml?page=018-b
+              - of-good-works-which-are-the-fruits-of-true-faith-chap-28: https://texts.earlyprint.org/works/A14463.xml?page=019-a
+              - of-the-principal-points-contained-in-the-holy-scriptures-whi: https://texts.earlyprint.org/works/A14463.xml?page=019-b
+              - of-the-true-service-of-god-which-is-spiritual-chap-30: https://texts.earlyprint.org/works/A14463.xml?page=020-a
+              - of-the-ministery-of-the-gospel-and-of-the-principal-parts-of: https://texts.earlyprint.org/works/A14463.xml?page=020-b
+              - of-the-obedience-that-all-men-do-own-to-the-ministery-of-the: https://texts.earlyprint.org/works/A14463.xml?page=021-a
+              - of-baptism-and-of-the-true-use-of-the-same-chap-34: https://texts.earlyprint.org/works/A14463.xml?page=022-a
+              - of-the-baptism-of-young-children-chap-35: https://texts.earlyprint.org/works/A14463.xml?page=022-b
+              - of-the-children-that-are-borne-dead-and-of-the-true-foundati: https://texts.earlyprint.org/works/A14463.xml?page=023-a
+              - of-the-administration-of-the-sacraments-and-to-whom-it-belon: https://texts.earlyprint.org/works/A14463.xml?page=023-b
+              - of-the-baptism-administered-by-women-and-of-the-error-that-t: https://texts.earlyprint.org/works/A14463.xml?page=024-a
+              - of-the-supper-of-our-lord-and-of-the-true-use-thereof-chap-3: https://texts.earlyprint.org/works/A14463.xml?page=024-b
+              - of-the-signification-of-the-signs-of-bread-and-wine-in-the-s: https://texts.earlyprint.org/works/A14463.xml?page=025-a
+              - of-the-supper-and-of-the-mass-of-the-papists-and-of-the-prin: https://texts.earlyprint.org/works/A14463.xml?page=026-a
+              - of-the-proof-that-every-man-ought-to-make-of-himself-to-comm: https://texts.earlyprint.org/works/A14463.xml?page=027-b
+              - of-the-penance-and-sanctification-of-the-christians-and-of-t: https://texts.earlyprint.org/works/A14463.xml?page=028-a
+              - of-the-power-of-ministers-of-the-church-to-pardon-or-retain-: https://texts.earlyprint.org/works/A14463.xml?page=029-a
+              - of-brotherly-reconciliation-chap-47: https://texts.earlyprint.org/works/A14463.xml?page=029-b
+              - of-the-satisfaction-toward-our-neighbour-chap-48: https://texts.earlyprint.org/works/A14463.xml?page=030-a
+              - of-the-church-and-of-the-foundation-of-the-same-and-of-her-h: https://texts.earlyprint.org/works/A14463.xml?page=030-b
+              - of-the-marks-whereby-to-know-in-this-world-which-is-the-true: https://texts.earlyprint.org/works/A14463.xml?page=031-a
+              - of-marriage-52: https://texts.earlyprint.org/works/A14463.xml?page=031-b
+              - of-the-doctrine-of-the-church-and-of-mans-traditions-and-of-: https://texts.earlyprint.org/works/A14463.xml?page=032-a
+              - the-svmmarie-of-the-christian-doctrine-set-forth-in-form-of-: https://texts.earlyprint.org/works/A14463.xml?page=032-b
+              - of-the-principal-points-whereunto-men-may-apply-all-the-doct: https://texts.earlyprint.org/works/A14463.xml?page=033-a
+              - of-the-difference-that-is-between-the-law-and-the-gospel: https://texts.earlyprint.org/works/A14463.xml?page=033-b
+              - the-second-2: https://texts.earlyprint.org/works/A14463.xml?page=034-a
+              - the-sixth-2: https://texts.earlyprint.org/works/A14463.xml?page=034-b
+              - of-the-sum-of-the-law: https://texts.earlyprint.org/works/A14463.xml?page=035-a
+              - of-the-redemption-of-man: https://texts.earlyprint.org/works/A14463.xml?page=035-b
+              - of-the-faith: https://texts.earlyprint.org/works/A14463.xml?page=036-a
+              - the-symbol-of-the-apostles: https://texts.earlyprint.org/works/A14463.xml?page=036-b
+              - of-the-unity-and-trinity-in-the-divine-essence: https://texts.earlyprint.org/works/A14463.xml?page=037-a
+              - of-the-creation-of-the-world-and-of-the-providence-of-god: https://texts.earlyprint.org/works/A14463.xml?page=037-b
+              - of-predestination: https://texts.earlyprint.org/works/A14463.xml?page=038-a
+              - of-the-union-of-the-divine-and-humane-nature-in-the-person-o: https://texts.earlyprint.org/works/A14463.xml?page=038-b
+              - of-the-church: https://texts.earlyprint.org/works/A14463.xml?page=039-a
+              - of-the-things-which-we-aught-to-believe-of-the-church: https://texts.earlyprint.org/works/A14463.xml?page=039-b
+              - of-the-possession-of-the-benefits-of-jesus-christ-in-the-chu: https://texts.earlyprint.org/works/A14463.xml?page=040-a
+              - of-the-fruits-and-effects-of-the-law-and-of-good-works: https://texts.earlyprint.org/works/A14463.xml?page=040-b
+              - of-the-good-works-which-god-requireth-of-the-faithful: https://texts.earlyprint.org/works/A14463.xml?page=041-a
+              - of-the-sum-of-the-first-table-of-the-law: https://texts.earlyprint.org/works/A14463.xml?page=041-b
+              - of-the-sum-of-the-second-table: https://texts.earlyprint.org/works/A14463.xml?page=042-a
+              - the-form-of-prayer-given-by-jesus-christ: https://texts.earlyprint.org/works/A14463.xml?page=042-b
+              - of-the-address-of-the-christians-in-their-prayers-and-of-the: https://texts.earlyprint.org/works/A14463.xml?page=043-a
+              - a-division-of-the-requests-contained-in-the-lord-his-prayer: https://texts.earlyprint.org/works/A14463.xml?page=043-b
+              - of-the-ministery-of-the-church-and-of-the-use-of-the-same: https://texts.earlyprint.org/works/A14463.xml?page=044-a
+              - of-the-sacraments-that-are-in-christs-church-and-of-the-thin: https://texts.earlyprint.org/works/A14463.xml?page=044-b
+              - of-the-use-of-the-signs: https://texts.earlyprint.org/works/A14463.xml?page=045-a
+              - of-the-number-of-sacraments-which-are-in-the-chucrhe-of-chri: https://texts.earlyprint.org/works/A14463.xml?page=045-b
+              - of-the-supper: https://texts.earlyprint.org/works/A14463.xml?page=046-a
+              - to-wit-whether-the-bread-the-wine-be-converted-into-the-body: https://texts.earlyprint.org/works/A14463.xml?page=046-b
+              - of-the-presence-of-the-body-and-blood-of-jesus-christ-in-the: https://texts.earlyprint.org/works/A14463.xml?page=047-a
+              - of-them-to-whom-the-communion-of-sacraments-doth-belong: https://texts.earlyprint.org/works/A14463.xml?page=047-b
+              - of-the-principal-points-upon-the-which-every-man-aught-to-ex: https://texts.earlyprint.org/works/A14463.xml?page=048-a
+              - of-the-ministers-of-the-church-and-of-magistrates: https://texts.earlyprint.org/works/A14463.xml?page=048-b
+              - a-familiar-exposition-of-the-principal-points-of-the-catechi: https://texts.earlyprint.org/works/A14463.xml?page=049-a
+              - of-the-chief-felicity-of-man-and-of-the-end-for-the-which-he: https://texts.earlyprint.org/works/A14463.xml?page=049-b
+              - of-the-sum-of-all-the-doctrine-contained-in-the-holy-scriptu: https://texts.earlyprint.org/works/A14463.xml?page=050-a
+              - of-the-law-of-god-and-of-the-office-of-the-same: https://texts.earlyprint.org/works/A14463.xml?page=050-b
+              - of-the-difference-that-is-to-be-considered-between-the-law-a: https://texts.earlyprint.org/works/A14463.xml?page=051-a
+              - of-the-covenant-and-agreement-of-the-law-and-the-gospel: https://texts.earlyprint.org/works/A14463.xml?page=052-a
+              - of-the-cause-for-the-which-god-would-himself-declare-his-wil: https://texts.earlyprint.org/works/A14463.xml?page=052-b
+              - of-the-good-intentes-of-men-that-are-not-governed-by-the-wor: https://texts.earlyprint.org/works/A14463.xml?page=053-a
+              - of-the-service-of-god-according-to-the-traditions-of-men: https://texts.earlyprint.org/works/A14463.xml?page=053-b
+              - of-the-difference-of-the-true-and-false-faith: https://texts.earlyprint.org/works/A14463.xml?page=054-a
+              - of-the-assurance-of-the-conscience-by-the-word-of-god-and-wh: https://texts.earlyprint.org/works/A14463.xml?page=054-b
+              - of-the-manifestation-of-the-will-of-god-by-the-law-of-the-tw: https://texts.earlyprint.org/works/A14463.xml?page=055-a
+              - the-first-table-of-the-law: https://texts.earlyprint.org/works/A14463.xml?page=055-b
+              - the-second-table-2: https://texts.earlyprint.org/works/A14463.xml?page=056-b
+              - of-the-sum-of-the-law-2: https://texts.earlyprint.org/works/A14463.xml?page=057-a
+              - the-division-of-the-points-contained-in-the-first-table-and-: https://texts.earlyprint.org/works/A14463.xml?page=057-b
+              - of-the-faith-towards-god-2: https://texts.earlyprint.org/works/A14463.xml?page=058-a
+              - of-the-testifying-and-declaring-of-faith-and-of-the-parts-th: https://texts.earlyprint.org/works/A14463.xml?page=058-b
+              - of-thanksgiving: https://texts.earlyprint.org/works/A14463.xml?page=059-a
+              - of-the-outward-testimony-of-faith-which-god-requireth-of-man: https://texts.earlyprint.org/works/A14463.xml?page=059-b
+              - of-the-means-ordained-to-man-by-god-whereby-they-may-make-pr: https://texts.earlyprint.org/works/A14463.xml?page=060-a
+              - of-the-charity-towards-our-neighbour: https://texts.earlyprint.org/works/A14463.xml?page=060-b
+              - a-division-of-the-matters-contained-in-the-second-table: https://texts.earlyprint.org/works/A14463.xml?page=061-a
+              - of-the-points-wherein-every-one-is-bound-to-his-neighbour: https://texts.earlyprint.org/works/A14463.xml?page=061-b
+              - of-the-fall-and-restoring-of-man-the-third-dialogue: https://texts.earlyprint.org/works/A14463.xml?page=062-a
+              - of-sin-and-of-the-nature-of-it-and-what-original-sin-is-prop: https://texts.earlyprint.org/works/A14463.xml?page=062-b
+              - of-the-mean-whereby-man-may-be-delivered-from-sin-and-from-t: https://texts.earlyprint.org/works/A14463.xml?page=063-a
+              - of-the-causes-for-the-which-there-is-neither-man-nor-angel-s: https://texts.earlyprint.org/works/A14463.xml?page=063-b
+              - of-the-setting-forth-of-the-just-judgement-of-the-mercy-of-g: https://texts.earlyprint.org/works/A14463.xml?page=064-a
+              - of-the-only-true-mediator-jesus-christ: https://texts.earlyprint.org/works/A14463.xml?page=064-b
+              - of-the-union-of-the-divine-and-humane-nature-in-the-person-o-2: https://texts.earlyprint.org/works/A14463.xml?page=065-a
+              - of-the-sacrifice-and-satisfaction-of-jesus-christ-and-of-the: https://texts.earlyprint.org/works/A14463.xml?page=065-b
+              - the-fourth-dialogue-is-of-the-justification-and-sanctificati: https://texts.earlyprint.org/works/A14463.xml?page=066-a
+              - of-the-faith-in-jesus-christ-and-of-the-justification-thereb: https://texts.earlyprint.org/works/A14463.xml?page=066-b
+              - of-the-satisfaction-towards-god-by-works: https://texts.earlyprint.org/works/A14463.xml?page=067-a
+              - of-the-causes-why-justification-is-attributed-to-faith-only: https://texts.earlyprint.org/works/A14463.xml?page=067-b
+              - of-the-satisfaction-by-faith: https://texts.earlyprint.org/works/A14463.xml?page=068-a
+              - of-the-accomplishing-of-the-law-in-jesus-christ-and-of-the-d: https://texts.earlyprint.org/works/A14463.xml?page=069-a
+              - of-the-distinction-that-aught-to-be-had-between-the-cause-of: https://texts.earlyprint.org/works/A14463.xml?page=070-b
+              - of-the-difference-that-must-be-put-between-the-sanctificatio: https://texts.earlyprint.org/works/A14463.xml?page=071-a
+              - of-the-cause-of-the-difference-that-is-in-these-two-kinds-of: https://texts.earlyprint.org/works/A14463.xml?page=072-a
+              - of-the-cause-of-the-imperfection-that-is-in-the-sanctificati: https://texts.earlyprint.org/works/A14463.xml?page=072-b
+              - of-the-means-that-we-have-toward-god-in-recompense-of-the-im: https://texts.earlyprint.org/works/A14463.xml?page=074-a
+              - the-fifth-dialogue-is-of-the-faith-in-god: https://texts.earlyprint.org/works/A14463.xml?page=074-b
+              - of-the-true-foundation-of-faith-of-the-difference-that-it-ma: https://texts.earlyprint.org/works/A14463.xml?page=075-a
+              - how-that-all-religion-is-without-god-saving-the-christian-re: https://texts.earlyprint.org/works/A14463.xml?page=075-b
+              - of-the-summary-of-the-christian-faith-and-for-what-cause-it-: https://texts.earlyprint.org/works/A14463.xml?page=076-b
+              - the-symbol-of-the-apostles-2: https://texts.earlyprint.org/works/A14463.xml?page=077-a
+              - of-the-general-division-of-the-principal-points-contained-in: https://texts.earlyprint.org/works/A14463.xml?page=077-b
+              - of-the-unity-and-trinity-that-is-in-the-essence-of-god: https://texts.earlyprint.org/works/A14463.xml?page=078-a
+              - of-the-difficulty-that-is-in-this-matter: https://texts.earlyprint.org/works/A14463.xml?page=078-b
+              - of-the-principal-works-of-god-whereof-mention-is-made-in-the: https://texts.earlyprint.org/works/A14463.xml?page=079-a
+              - of-the-union-that-is-between-the-father-the-son-and-the-holy: https://texts.earlyprint.org/works/A14463.xml?page=079-b
+              - of-the-moderation-and-measure-that-aught-to-be-holden-in-thi: https://texts.earlyprint.org/works/A14463.xml?page=080-a
+              - of-the-work-of-the-creation: https://texts.earlyprint.org/works/A14463.xml?page=080-b
+              - of-other-works-of-god-that-are-conjoined-to-the-work-of-the-: https://texts.earlyprint.org/works/A14463.xml?page=081-a
+              - of-the-eternal-predestination-of-god: https://texts.earlyprint.org/works/A14463.xml?page=081-b
+              - of-the-vocation-of-the-elect-and-of-the-degrees-whereby-god-: https://texts.earlyprint.org/works/A14463.xml?page=082-a
+              - of-the-outward-and-inward-vocation: https://texts.earlyprint.org/works/A14463.xml?page=082-b
+              - of-the-effects-of-the-inward-and-outward-vocation-and-whereu: https://texts.earlyprint.org/works/A14463.xml?page=083-a
+              - of-the-cause-of-unbelief-and-of-faith: https://texts.earlyprint.org/works/A14463.xml?page=084-a
+              - of-the-renewing-of-man-and-of-the-gift-of-faith: https://texts.earlyprint.org/works/A14463.xml?page=085-a
+              - of-the-causes-of-election-and-reprobation: https://texts.earlyprint.org/works/A14463.xml?page=085-b
+              - of-the-work-of-the-redemption-and-of-the-things-that-are-to-: https://texts.earlyprint.org/works/A14463.xml?page=086-b
+              - of-the-faith-of-the-christians-concerning-the-divine-and-hum: https://texts.earlyprint.org/works/A14463.xml?page=087-a
+              - how-the-divine-and-humane-natures-which-are-in-the-person-of: https://texts.earlyprint.org/works/A14463.xml?page=087-b
+              - how-the-eternal-word-of-god-become-fleshly: https://texts.earlyprint.org/works/A14463.xml?page=088-a
+              - of-the-conception-of-jesus-christ-and-of-the-nature-of-his-f: https://texts.earlyprint.org/works/A14463.xml?page=089-b
+              - whereunto-the-genealogy-of-jesus-christ-according-to-the-fle: https://texts.earlyprint.org/works/A14463.xml?page=090-a
+              - of-the-works-of-the-holy-ghost-in-the-conception-of-jesus-ch: https://texts.earlyprint.org/works/A14463.xml?page=090-b
+              - the-eight-dialogue-is-of-the-communion-between-jesus-christ-: https://texts.earlyprint.org/works/A14463.xml?page=091-a
+              - of-the-communion-of-the-nature-which-jesus-chryst-hath-with-: https://texts.earlyprint.org/works/A14463.xml?page=091-b
+              - of-two-sorts-of-union-and-communion-which-jesus-christ-hath-: https://texts.earlyprint.org/works/A14463.xml?page=092-b
+              - of-the-spiritual-marriage-between-jesus-christ-and-his-churc: https://texts.earlyprint.org/works/A14463.xml?page=093-a
+              - of-an-other-more-special-union-and-conjunction-which-is-prop: https://texts.earlyprint.org/works/A14463.xml?page=094-a
+              - how-that-jesus-christ-can-not-be-the-saviour-of-mankind-unle: https://texts.earlyprint.org/works/A14463.xml?page=096-a
+              - of-the-signification-and-exposition-of-the-name-of-christ-an: https://texts.earlyprint.org/works/A14463.xml?page=097-b
+              - of-the-office-of-a-prophet-of-jesus-christ-and-of-the-perfec: https://texts.earlyprint.org/works/A14463.xml?page=098-b
+              - of-the-power-and-efficacy-of-the-ministery-of-jesus-christ-a: https://texts.earlyprint.org/works/A14463.xml?page=099-a
+              - of-the-office-of-king-of-jesus-christ: https://texts.earlyprint.org/works/A14463.xml?page=100-b
+              - of-the-office-to-teach: https://texts.earlyprint.org/works/A14463.xml?page=101-a
+              - of-two-most-principal-parts-of-the-preestly-office-of-jesus-: https://texts.earlyprint.org/works/A14463.xml?page=101-b
+              - how-that-none-may-be-a-perfect-sacrificer-but-jesus-christ-o: https://texts.earlyprint.org/works/A14463.xml?page=102-a
+              - for-what-cause-no-sacrifice-nor-any-other-work-of-man-whatso: https://texts.earlyprint.org/works/A14463.xml?page=102-b
+              - why-one-only-sin-maketh-a-man-guilty-of-all-the-law-and-of-d: https://texts.earlyprint.org/works/A14463.xml?page=103-b
+              - if-those-which-have-most-sinned-shall-be-most-punished-by-go: https://texts.earlyprint.org/works/A14463.xml?page=104-a
+              - of-the-impurity-of-mens-works-and-how-god-judgeth-of-them: https://texts.earlyprint.org/works/A14463.xml?page=104-b
+              - of-the-obligation-whereby-man-is-bound-to-god-and-for-what-c: https://texts.earlyprint.org/works/A14463.xml?page=105-a
+              - for-what-cause-there-is-nothing-but-the-only-sacrifice-of-je: https://texts.earlyprint.org/works/A14463.xml?page=106-a
+              - of-the-perfect-obedience-of-jesus-christ-which-maketh-his-of: https://texts.earlyprint.org/works/A14463.xml?page=107-a
+              - of-the-office-of-intercessor-and-of-advocate-of-jesus-chryst: https://texts.earlyprint.org/works/A14463.xml?page=107-b
+              - of-the-two-comings-of-jesus-christ: https://texts.earlyprint.org/works/A14463.xml?page=108-b
+              - of-the-work-of-vivification-and-of-the-principal-points-to-b: https://texts.earlyprint.org/works/A14463.xml?page=109-a
+              - of-the-divinity-of-the-holy-ghost-and-of-the-proprieties-asc: https://texts.earlyprint.org/works/A14463.xml?page=109-b
+              - if-there-be-any-beginning-in-the-divine-essence-and-how-the-: https://texts.earlyprint.org/works/A14463.xml?page=110-a
+              - how-we-aught-to-understand-the-order-which-is-in-the-persons: https://texts.earlyprint.org/works/A14463.xml?page=110-b
+              - of-the-difference-that-must-be-put-between-the-essence-and-t: https://texts.earlyprint.org/works/A14463.xml?page=113-b
+              - of-the-number-of-the-gifts-of-the-holy-ghost-of-the-distribu: https://texts.earlyprint.org/works/A14463.xml?page=114-b
+              - of-the-diversity-of-the-gifts-of-the-holy-ghost-and-of-the-d: https://texts.earlyprint.org/works/A14463.xml?page=115-b
+              - of-the-gifts-of-the-holy-ghost-necessary-for-every-man-to-ob: https://texts.earlyprint.org/works/A14463.xml?page=116-a
+              - whether-charity-justify-with-faith-or-else-faith-only-and-wh: https://texts.earlyprint.org/works/A14463.xml?page=119-b
+              - in-what-sort-charity-is-necessary-to-salvation: https://texts.earlyprint.org/works/A14463.xml?page=121-b
+              - of-the-regeneration-of-a-christian-man: https://texts.earlyprint.org/works/A14463.xml?page=122-b
+              - of-the-life-of-the-regenerate-man: https://texts.earlyprint.org/works/A14463.xml?page=123-b
+              - of-the-gifts-of-the-holy-ghost-which-men-may-have-not-be-cho: https://texts.earlyprint.org/works/A14463.xml?page=124-b
+              - of-the-gifts-of-the-holy-ghost-given-to-the-wicked: https://texts.earlyprint.org/works/A14463.xml?page=126-a
+              - for-what-cause-god-sometime-doth-communicate-to-the-wicked-o: https://texts.earlyprint.org/works/A14463.xml?page=126-b
+              - of-the-gifts-of-god-which-are-most-excellent-and-most-to-be-: https://texts.earlyprint.org/works/A14463.xml?page=127-b
+              - how-the-gift-of-prophecy-may-serve-to-the-salvation-of-those: https://texts.earlyprint.org/works/A14463.xml?page=128-b
+              - of-the-true-knowledge-of-god-proper-only-to-his-elect-and-of: https://texts.earlyprint.org/works/A14463.xml?page=129-a
+              - how-that-the-wicked-which-prophecy-do-understand-or-not-unde: https://texts.earlyprint.org/works/A14463.xml?page=130-a
+              - how-that-the-true-knowledge-of-god-comprehendeth-both-the-un: https://texts.earlyprint.org/works/A14463.xml?page=131-a
+              - of-the-true-and-full-reformation-of-man-and-of-the-parts-the: https://texts.earlyprint.org/works/A14463.xml?page=131-b
+              - how-that-ignorance-and-malice-are-contrary-to-true-regenerat: https://texts.earlyprint.org/works/A14463.xml?page=132-a
+              - of-those-which-offend-more-thorough-malice-than-by-ignorance: https://texts.earlyprint.org/works/A14463.xml?page=132-b
+              - of-those-which-sin-more-through-ignorance-than-through-malic: https://texts.earlyprint.org/works/A14463.xml?page=133-b
+              - of-the-comparison-between-those-which-offend-of-malice-and-t: https://texts.earlyprint.org/works/A14463.xml?page=134-b
+              - of-the-difference-which-god-useth-in-the-dispensation-of-his: https://texts.earlyprint.org/works/A14463.xml?page=135-a
+              - what-cause-men-have-to-glory-of-the-gifts-of-god-and-of-what: https://texts.earlyprint.org/works/A14463.xml?page=136-b
+              - the-thirteenth-dialogue-is-of-the-church-and-of-the-minister: https://texts.earlyprint.org/works/A14463.xml?page=138-b
+              - of-the-sanctifying-of-the-church-and-of-the-members-of-the-s: https://texts.earlyprint.org/works/A14463.xml?page=139-b
+              - of-the-ministery-of-the-church-and-of-the-gifts-necessary-to: https://texts.earlyprint.org/works/A14463.xml?page=140-a
+              - how-that-the-gift-of-preaching-is-at-all-times-necessary-in-: https://texts.earlyprint.org/works/A14463.xml?page=141-a
+              - how-that-the-ministery-of-the-word-of-god-is-perpetually-nec: https://texts.earlyprint.org/works/A14463.xml?page=142-a
+              - of-other-gifts-of-god-which-are-not-so-necessary-for-the-chu: https://texts.earlyprint.org/works/A14463.xml?page=143-a
+              - how-the-lord-taketh-the-ministers-of-his-church-of-his-very-: https://texts.earlyprint.org/works/A14463.xml?page=143-b
+              - of-the-principal-parts-of-the-ministery-of-the-church: https://texts.earlyprint.org/works/A14463.xml?page=144-b
+              - of-the-points-that-are-required-to-set-forth-purely-the-word: https://texts.earlyprint.org/works/A14463.xml?page=145-a
+              - of-the-principal-points-of-gods-word-which-ought-to-be-set-f: https://texts.earlyprint.org/works/A14463.xml?page=146-a
+              - of-repentance-by-the-which-the-preaching-of-the-gospel-must-: https://texts.earlyprint.org/works/A14463.xml?page=146-b
+              - how-that-true-repentance-cannot-be-well-preached-without-joi: https://texts.earlyprint.org/works/A14463.xml?page=147-a
+              - how-that-true-repentance-can-not-be-without-faith: https://texts.earlyprint.org/works/A14463.xml?page=148-a
+              - of-the-true-and-false-faith-and-repentance: https://texts.earlyprint.org/works/A14463.xml?page=148-b
+              - of-the-forgiveness-of-sins-and-of-the-assurance-of-the-consc: https://texts.earlyprint.org/works/A14463.xml?page=149-b
+              - of-the-communion-of-saints-how-the-church-entereth-into-the-: https://texts.earlyprint.org/works/A14463.xml?page=150-b
+              - by-what-mean-men-attain-to-eternal-life-and-of-the-benefits-: https://texts.earlyprint.org/works/A14463.xml?page=152-a
+              - of-the-excellency-of-the-ministery-and-of-the-other-two-part: https://texts.earlyprint.org/works/A14463.xml?page=152-b
+              - of-the-sacraments-and-of-the-number-of-them: https://texts.earlyprint.org/works/A14463.xml?page=153-b
+              - of-that-which-is-general-and-common-to-all-sacraments: https://texts.earlyprint.org/works/A14463.xml?page=154-b
+              - of-baptism-and-of-the-signification-of-it: https://texts.earlyprint.org/works/A14463.xml?page=155-b
+              - of-the-agreement-and-difference-that-is-between-baptism-and-: https://texts.earlyprint.org/works/A14463.xml?page=156-a
+              - of-the-propriety-of-the-water-of-baptism-to-represent-the-gr: https://texts.earlyprint.org/works/A14463.xml?page=156-b
+              - of-the-supper-and-why-jesus-christ-did-ordain-two-signs-for-: https://texts.earlyprint.org/works/A14463.xml?page=159-a
+              - of-that-which-is-special-in-the-supper-wherein-it-differeth-: https://texts.earlyprint.org/works/A14463.xml?page=160-a
+              - how-we-must-eat-the-body-and-flesh-of-jesus-christ-and-drink: https://texts.earlyprint.org/works/A14463.xml?page=161-a
+              - of-the-true-spiritual-eating-and-drinking: https://texts.earlyprint.org/works/A14463.xml?page=162-a
+              - the-sixteenth-dialogue-is-of-the-transubstantiation-consubst: https://texts.earlyprint.org/works/A14463.xml?page=162-b
+              - of-the-error-of-transubstantiation-and-how-the-supper-cannot: https://texts.earlyprint.org/works/A14463.xml?page=163-a
+              - of-things-without-the-which-the-sacraments-cannot-be-sacrame: https://texts.earlyprint.org/works/A14463.xml?page=163-b
+              - of-things-which-are-to-be-considered-in-the-word-of-god-in-a: https://texts.earlyprint.org/works/A14463.xml?page=164-a
+              - of-things-to-consider-in-the-signs-and-in-the-signification-: https://texts.earlyprint.org/works/A14463.xml?page=164-b
+              - whether-hypocrites-and-infidels-do-as-well-communicate-in-th: https://texts.earlyprint.org/works/A14463.xml?page=165-a
+              - wherefore-are-the-bread-and-wine-called-by-the-name-of-the-b: https://texts.earlyprint.org/works/A14463.xml?page=166-b
+              - of-the-manner-in-the-which-the-body-and-the-blood-of-jesus-c: https://texts.earlyprint.org/works/A14463.xml?page=167-a
+              - of-the-substantial-and-natural-conjunction-of-the-body-and-b: https://texts.earlyprint.org/works/A14463.xml?page=167-b
+              - of-the-agreement-that-is-between-this-opinion-that-of-transu: https://texts.earlyprint.org/works/A14463.xml?page=168-b
+              - whereunto-baptism-and-the-signification-thereof-may-serve-to: https://texts.earlyprint.org/works/A14463.xml?page=169-a
+              - in-what-sort-we-do-communicate-of-the-body-blood-of-jesus-ch: https://texts.earlyprint.org/works/A14463.xml?page=170-a
+              - what-difference-there-is-between-the-baptism-and-the-supper-: https://texts.earlyprint.org/works/A14463.xml?page=170-b
+              - in-what-sort-the-faithful-in-baptism-do-put-on-jesus-christ-: https://texts.earlyprint.org/works/A14463.xml?page=171-a
+              - what-greater-reason-there-is-to-communicate-corporally-of-th: https://texts.earlyprint.org/works/A14463.xml?page=172-a
+              - how-the-corporal-and-carnal-presence-of-the-body-and-of-the-: https://texts.earlyprint.org/works/A14463.xml?page=173-a
+              - how-the-glorifying-of-the-body-of-jesus-chryst-doth-not-chan: https://texts.earlyprint.org/works/A14463.xml?page=173-b
+              - of-the-contrariety-that-is-between-the-corporal-presence-of-: https://texts.earlyprint.org/works/A14463.xml?page=174-a
+              - the-eighteenth-dialogue-is-of-the-presence-of-jesus-christ-i: https://texts.earlyprint.org/works/A14463.xml?page=174-b
+              - whether-the-ascension-of-jesus-christ-be-a-true-ascension-or: https://texts.earlyprint.org/works/A14463.xml?page=175-a
+              - how-that-the-presence-corporal-of-jesus-christ-in-the-supper: https://texts.earlyprint.org/works/A14463.xml?page=175-b
+              - of-the-spiritual-coming-of-jesus-christ: https://texts.earlyprint.org/works/A14463.xml?page=176-a
+              - how-that-the-corporal-presence-of-jesus-christ-in-the-supper: https://texts.earlyprint.org/works/A14463.xml?page=177-a
+              - of-the-spiritual-and-divine-presence-of-jesus-christ-in-his-: https://texts.earlyprint.org/works/A14463.xml?page=177-b
+              - how-that-the-corporal-presence-of-the-body-and-of-the-blood-: https://texts.earlyprint.org/works/A14463.xml?page=178-a
+              - whether-a-man-may-conclude-of-the-words-of-saint-paul-that-a: https://texts.earlyprint.org/works/A14463.xml?page=179-a
+              - of-the-principal-difference-that-may-be-between-the-transubs: https://texts.earlyprint.org/works/A14463.xml?page=179-b
+              - of-the-union-that-is-between-jesus-christ-and-his-members-si: https://texts.earlyprint.org/works/A14463.xml?page=180-b
+              - how-the-supper-is-the-sacrament-of-union-and-of-charity-and-: https://texts.earlyprint.org/works/A14463.xml?page=181-a
+              - of-the-principal-points-which-are-required-in-the-proof-that: https://texts.earlyprint.org/works/A14463.xml?page=181-b
+              - whether-it-be-requisite-that-every-man-have-perfect-repentan: https://texts.earlyprint.org/works/A14463.xml?page=183-a
+              - what-difference-there-is-between-true-perfect-repentance-fai: https://texts.earlyprint.org/works/A14463.xml?page=184-a
+              - how-greatly-necessary-the-ministery-of-the-church-and-prayer: https://texts.earlyprint.org/works/A14463.xml?page=185-a
+              - of-the-discipline-of-the-church-and-of-the-principal-parts-o: https://texts.earlyprint.org/works/A14463.xml?page=185-b
+              - of-the-discipline-of-the-church-and-of-the-principal-parts-o-2: https://texts.earlyprint.org/works/A14463.xml?page=186-a
+              - of-the-chief-things-whereupon-the-discipline-of-the-church-a: https://texts.earlyprint.org/works/A14463.xml?page=186-b
+              - of-the-censures-and-ancients-of-the-church-and-of-the-manner: https://texts.earlyprint.org/works/A14463.xml?page=187-a
+              - of-the-true-head-of-the-church-and-of-the-power-given-to-the: https://texts.earlyprint.org/works/A14463.xml?page=187-b
+              - of-the-office-as-well-of-the-ministers-as-of-the-other-ancie: https://texts.earlyprint.org/works/A14463.xml?page=188-b
+              - the-xxj-dialogue-is-of-brotherly-correction-of-excommunicati: https://texts.earlyprint.org/works/A14463.xml?page=190-a
+              - of-the-order-that-must-be-holden-in-the-correction-of-every-: https://texts.earlyprint.org/works/A14463.xml?page=190-b
+              - of-excommunication-and-of-the-greatest-rigour-of-the-same: https://texts.earlyprint.org/works/A14463.xml?page=191-a
+              - of-the-force-of-lawful-excommunication-and-of-the-power-of-t: https://texts.earlyprint.org/works/A14463.xml?page=192-a
+              - if-excommunication-may-extend-further-than-to-the-disobedien: https://texts.earlyprint.org/works/A14463.xml?page=193-a
+              - of-the-difference-that-aught-to-be-had-between-excommunicati: https://texts.earlyprint.org/works/A14463.xml?page=194-a
+              - how-necessary-particular-instructions-are-in-the-church: https://texts.earlyprint.org/works/A14463.xml?page=194-b
+              - in-what-sort-the-ministers-may-be-faulty-or-not-of-the-pollu: https://texts.earlyprint.org/works/A14463.xml?page=195-a
+              - of-the-ecclesiastical-judgement-required-before-the-excommun: https://texts.earlyprint.org/works/A14463.xml?page=196-a
+              - of-the-means-that-the-ministers-aught-to-use-if-they-may-hav: https://texts.earlyprint.org/works/A14463.xml?page=196-b
+              - of-the-difference-that-must-be-put-between-the-ignorant-and-: https://texts.earlyprint.org/works/A14463.xml?page=197-a
+              - of-those-that-declare-themselves-swine-and-dogs-in-their-liv: https://texts.earlyprint.org/works/A14463.xml?page=198-b
+              - whether-the-discipline-ordained-by-jesus-christ-be-necessary: https://texts.earlyprint.org/works/A14463.xml?page=199-a
+              - of-the-baptism-of-little-children-and-of-brotherly-confessio: https://texts.earlyprint.org/works/A14463.xml?page=200-a
+              - if-little-children-should-be-shut-out-from-baptism-because-t: https://texts.earlyprint.org/works/A14463.xml?page=200-b
+              - of-the-principal-foundation-of-the-baptism-of-little-childre: https://texts.earlyprint.org/works/A14463.xml?page=201-a
+              - if-it-be-lawful-to-baptize-the-children-of-infidels-and-what: https://texts.earlyprint.org/works/A14463.xml?page=202-b
+              - of-confession-of-brotherly-reconciliation: https://texts.earlyprint.org/works/A14463.xml?page=205-a
+              - of-prayer-and-how-it-belongeth-to-none-but-to-the-faithful-a: https://texts.earlyprint.org/works/A14463.xml?page=205-b
+              - how-that-our-prayers-cannot-be-agreeable-unto-god-without-a-: https://texts.earlyprint.org/works/A14463.xml?page=206-a
+              - how-that-none-other-advocate-nor-mediator-may-be-joined-to-j: https://texts.earlyprint.org/works/A14463.xml?page=206-b
+              - of-the-commandment-which-the-faithful-have-to-pray-one-for-a: https://texts.earlyprint.org/works/A14463.xml?page=207-b
+              - what-regard-the-faithful-have-the-one-for-the-others-in-thei: https://texts.earlyprint.org/works/A14463.xml?page=208-a
+              - for-what-cause-god-hath-commanded-us-to-pray-one-for-an-othe: https://texts.earlyprint.org/works/A14463.xml?page=209-a
+              - of-the-form-of-prayer-which-christ-gave-to-the-church-and-of: https://texts.earlyprint.org/works/A14463.xml?page=210-a
+              - of-the-points-of-the-doctrine-contained-in-the-preface-of-th: https://texts.earlyprint.org/works/A14463.xml?page=210-b
+              - of-the-content-of-the-three-first-requests-of-the-lords-pray: https://texts.earlyprint.org/works/A14463.xml?page=211-b
+              - of-the-content-of-the-three-last-demands-and-what-things-we-: https://texts.earlyprint.org/works/A14463.xml?page=212-a
+              - of-the-division-of-the-things-which-we-ask-of-god-and-first-: https://texts.earlyprint.org/works/A14463.xml?page=212-b
+              - of-spiritual-things-which-we-ask-of-god-for-us: https://texts.earlyprint.org/works/A14463.xml?page=213-b
+              - the-printer-to-the-readers-greeting: https://texts.earlyprint.org/works/A14463.xml?page=214-a
+              - the-prayer: https://texts.earlyprint.org/works/A14463.xml?page=214-b
+              - the-exposition-of-the-preface-of-the-law-set-forth-by-master: https://texts.earlyprint.org/works/A14463.xml?page=215-b
+              - questions-concerning-the-presence-of-god-in-the-mountain-of-: https://texts.earlyprint.org/works/A14463.xml?page=216-a
+              - of-the-presence-of-god-in-general-which-is-common-to-all-men: https://texts.earlyprint.org/works/A14463.xml?page=216-b
+              - of-the-voice-of-god-which-was-heard-by-men-and-of-his-law-gi: https://texts.earlyprint.org/works/A14463.xml?page=217-a
+              - of-the-preface-of-god-in-his-law-and-of-the-titles-which-he-: https://texts.earlyprint.org/works/A14463.xml?page=217-b
+              - of-the-name-eternal-which-is-jehova-in-hebrew-given-to-god: https://texts.earlyprint.org/works/A14463.xml?page=218-b
+              - in-what-sort-god-is-generally-called-the-god-of-all-men-and-: https://texts.earlyprint.org/works/A14463.xml?page=219-a
+              - for-what-cause-god-doth-make-express-mention-in-the-preface-: https://texts.earlyprint.org/works/A14463.xml?page=220-b
+              - how-that-this-remembrance-of-the-going-forth-out-of-egypte-i: https://texts.earlyprint.org/works/A14463.xml?page=221-a
+              - of-the-sundry-titles-which-have-been-given-to-god-in-the-hol: https://texts.earlyprint.org/works/A14463.xml?page=222-a
+              - of-the-true-knowledge-and-manifestation-of-god-and-to-what-e: https://texts.earlyprint.org/works/A14463.xml?page=223-b
+              - how-the-deliverance-of-the-people-of-israel-out-of-egypt-was: https://texts.earlyprint.org/works/A14463.xml?page=225-a
+              - of-the-order-and-mean-that-god-did-keep-in-giving-of-his-law: https://texts.earlyprint.org/works/A14463.xml?page=226-a
+              - of-the-testimonies-that-god-in-his-law-giveth-unto-us-of-him: https://texts.earlyprint.org/works/A14463.xml?page=228-a
+              - how-that-the-law-of-god-containeth-much-more-in-substance-th: https://texts.earlyprint.org/works/A14463.xml?page=229-a
+              - of-the-difference-that-is-between-the-law-of-god-and-the-law: https://texts.earlyprint.org/works/A14463.xml?page=229-b
+              - in-what-sort-the-words-of-the-law-of-god-aught-to-be-underst: https://texts.earlyprint.org/works/A14463.xml?page=231-a
+              - of-the-consideration-of-those-things-which-in-deed-displease: https://texts.earlyprint.org/works/A14463.xml?page=232-a
+              - by-what-rule-the-works-of-men-aught-to-be-examined-and-how-d: https://texts.earlyprint.org/works/A14463.xml?page=233-a
+              - how-that-the-la-of-god-is-transgressed-not-only-in-doing-tha: https://texts.earlyprint.org/works/A14463.xml?page=233-b
+              - how-that-it-is-not-sufficient-to-do-outwardly-the-works-whic: https://texts.earlyprint.org/works/A14463.xml?page=234-b
+              - what-good-or-hurt-the-work-doth-that-is-outwardly-done-not-w: https://texts.earlyprint.org/works/A14463.xml?page=236-a
+              - in-what-sort-the-heart-of-man-may-fulfil-the-law-of-god-or-n: https://texts.earlyprint.org/works/A14463.xml?page=237-b
+              - how-that-men-do-glory-in-vain-of-their-good-heart-and-of-the: https://texts.earlyprint.org/works/A14463.xml?page=239-a
+              - how-that-the-dissimulation-and-feigning-of-mans-heart-is-dec: https://texts.earlyprint.org/works/A14463.xml?page=241-a
+              - how-sin-can-not-be-but-voluntary-and-how-difference-must-be-: https://texts.earlyprint.org/works/A14463.xml?page=242-a
+              - examples-and-similitudes-for-declaration-of-the-difference-t: https://texts.earlyprint.org/works/A14463.xml?page=244-a
+              - of-the-free-necessity-to-do-well-that-was-in-man-before-sin-: https://texts.earlyprint.org/works/A14463.xml?page=245-b
+              - how-that-the-necessity-that-is-here-spoken-of-is-free-and-co: https://texts.earlyprint.org/works/A14463.xml?page=247-a
+              - of-the-creation-and-fall-of-the-angels-and-how-that-god-in-t: https://texts.earlyprint.org/works/A14463.xml?page=248-b
+              - of-the-marvelous-counsel-of-god-which-was-declared-in-the-fa: https://texts.earlyprint.org/works/A14463.xml?page=250-a
+              - how-that-the-devil-may-not-impute-the-fault-and-fall-of-his-: https://texts.earlyprint.org/works/A14463.xml?page=251-b
+              - of-the-comparison-and-agreement-of-the-first-estate-and-of-t: https://texts.earlyprint.org/works/A14463.xml?page=253-b
+              - of-the-marvelous-counsel-of-god-which-is-declared-in-the-fal: https://texts.earlyprint.org/works/A14463.xml?page=255-b
+              - how-that-all-that-which-hath-been-done-as-well-in-the-fall-a: https://texts.earlyprint.org/works/A14463.xml?page=258-a
+              - how-that-the-will-of-man-cannot-by-any-means-be-constrained-: https://texts.earlyprint.org/works/A14463.xml?page=260-a
+              - of-the-contrariety-which-seemeth-sometime-to-be-among-the-co: https://texts.earlyprint.org/works/A14463.xml?page=261-b
+              - of-the-manner-how-to-accord-and-agree-the-passages-and-sente: https://texts.earlyprint.org/works/A14463.xml?page=262-b
+              - an-example-to-the-like-purpose-upon-the-commandment-given-of: https://texts.earlyprint.org/works/A14463.xml?page=266-a
+              - of-the-hidden-sins-that-are-in-the-conscience-and-wicked-wil: https://texts.earlyprint.org/works/A14463.xml?page=267-a
+              - how-that-by-reason-of-that-concupiscence-we-are-justly-worth: https://texts.earlyprint.org/works/A14463.xml?page=268-a
+              - of-divers-degrees-of-sin-and-of-the-root-and-fruits-and-of-t: https://texts.earlyprint.org/works/A14463.xml?page=269-b
+              - of-the-names-of-sins-according-to-their-degrees-and-proper-k: https://texts.earlyprint.org/works/A14463.xml?page=270-b
+              - of-deadly-and-venial-sins-and-of-the-difference-of-them-and-: https://texts.earlyprint.org/works/A14463.xml?page=271-a
+              - of-the-opinion-of-those-which-say-that-none-shall-be-damned-: https://texts.earlyprint.org/works/A14463.xml?page=272-a
+              - how-that-every-sin-is-of-his-own-nature-damnable-and-how-tha: https://texts.earlyprint.org/works/A14463.xml?page=274-a
+              - what-mean-it-behoveth-to-keep-to-fight-against-sin-and-to-re: https://texts.earlyprint.org/works/A14463.xml?page=275-a

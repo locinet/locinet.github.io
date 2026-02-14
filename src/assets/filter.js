@@ -40,6 +40,19 @@
           work.querySelectorAll(".section-item").forEach((s) =>
             s.classList.remove("filtered-hidden")
           );
+          // Re-collapse sections when filter is cleared
+          const list = work.querySelector(".sections-list");
+          if (list) list.classList.add("sections-collapsed");
+          const toggle = work.querySelector(".sections-toggle");
+          if (toggle) toggle.classList.remove("sections-open");
+          // Reset tree state and hide expand toggle
+          resetTreeState(work);
+          var expandToggle = work.querySelector(".expand-all-toggle");
+          if (expandToggle) {
+            expandToggle.style.display = "none";
+            var expandLink = expandToggle.querySelector(".expand-all-link");
+            if (expandLink) expandLink.textContent = "Expand all";
+          }
           continue;
         }
 
@@ -60,6 +73,7 @@
         // Work matches — show it, but filter sections
         work.classList.remove("filtered-hidden");
         const sections = work.querySelectorAll(".section-item");
+        let anyMatchingSection = false;
         for (const section of sections) {
           let sectionLoci;
           try {
@@ -73,9 +87,25 @@
             section.classList.add("filtered-hidden");
           } else if (sectionLoci.some((l) => matchingSlugs.has(l))) {
             section.classList.remove("filtered-hidden");
+            anyMatchingSection = true;
           } else {
             section.classList.add("filtered-hidden");
           }
+        }
+
+        // Auto-expand sections list when filtering reveals matching sections
+        if (anyMatchingSection) {
+          const list = work.querySelector(".sections-list");
+          if (list) list.classList.remove("sections-collapsed");
+          const toggle = work.querySelector(".sections-toggle");
+          if (toggle) toggle.classList.add("sections-open");
+          // Remove tree-hidden so matching nested sections are visible
+          work.querySelectorAll(".section-item").forEach(function(s) {
+            s.classList.remove("tree-hidden");
+            if (s.classList.contains("section-parent")) s.classList.add("tree-expanded");
+          });
+          var expandToggle = work.querySelector(".expand-all-toggle");
+          if (expandToggle) expandToggle.style.display = "";
         }
       }
     }
@@ -843,6 +873,90 @@
     }
   }
 
+  // --- Section tree (progressive disclosure of nested sections) ---
+
+  function initSectionTrees() {
+    document.querySelectorAll('.work').forEach(function(work) {
+      var items = Array.from(work.querySelectorAll('.section-item'));
+      if (items.length === 0) return;
+      for (var i = 0; i < items.length; i++) {
+        var depth = parseInt(items[i].dataset.depth || '0', 10);
+        var nextDepth = (i + 1 < items.length) ? parseInt(items[i + 1].dataset.depth || '0', 10) : -1;
+        if (nextDepth > depth) {
+          items[i].classList.add('section-parent');
+        }
+        if (depth > 0) {
+          items[i].classList.add('tree-hidden');
+        }
+      }
+    });
+  }
+
+  function toggleSectionChildren(parentItem) {
+    var list = parentItem.closest('.sections-list');
+    if (!list) return;
+    var items = Array.from(list.querySelectorAll('.section-item'));
+    var parentIndex = items.indexOf(parentItem);
+    var parentDepth = parseInt(parentItem.dataset.depth || '0', 10);
+    var expanding = !parentItem.classList.contains('tree-expanded');
+    parentItem.classList.toggle('tree-expanded', expanding);
+    for (var i = parentIndex + 1; i < items.length; i++) {
+      var childDepth = parseInt(items[i].dataset.depth || '0', 10);
+      if (childDepth <= parentDepth) break;
+      if (expanding) {
+        if (childDepth === parentDepth + 1) {
+          items[i].classList.remove('tree-hidden');
+        }
+      } else {
+        items[i].classList.add('tree-hidden');
+        items[i].classList.remove('tree-expanded');
+      }
+    }
+    updateExpandAllLabel(parentItem.closest('.work'));
+  }
+
+  function expandAllTree(work) {
+    work.querySelectorAll('.section-item').forEach(function(item) {
+      item.classList.remove('tree-hidden');
+      if (item.classList.contains('section-parent')) {
+        item.classList.add('tree-expanded');
+      }
+    });
+    work.querySelectorAll('.section-item.has-text').forEach(function(li) {
+      li.classList.add('expanded');
+    });
+  }
+
+  function collapseAllTree(work) {
+    work.querySelectorAll('.section-item').forEach(function(item) {
+      if (parseInt(item.dataset.depth || '0', 10) > 0) {
+        item.classList.add('tree-hidden');
+      }
+      item.classList.remove('tree-expanded');
+    });
+    work.querySelectorAll('.section-item.has-text').forEach(function(li) {
+      li.classList.remove('expanded');
+    });
+  }
+
+  function resetTreeState(work) {
+    work.querySelectorAll('.section-item').forEach(function(item) {
+      if (parseInt(item.dataset.depth || '0', 10) > 0) {
+        item.classList.add('tree-hidden');
+      }
+      item.classList.remove('tree-expanded');
+    });
+  }
+
+  function updateExpandAllLabel(work) {
+    var link = work.querySelector('.expand-all-link');
+    if (!link) return;
+    var anyTreeHidden = work.querySelector('.section-item.tree-hidden') !== null;
+    link.textContent = anyTreeHidden ? 'Expand all' : 'Collapse all';
+  }
+
+  initSectionTrees();
+
   // --- Sections collapse/expand toggle ---
 
   document.querySelectorAll(".sections-toggle").forEach(function (toggle) {
@@ -869,16 +983,30 @@
     if (title) {
       title.addEventListener("click", function (e) {
         if (e.target.closest("a")) return;
+        if (li.classList.contains("section-parent")) return;
         li.classList.toggle("expanded");
       });
       if (title.getAttribute("role") === "button") {
         title.addEventListener("keydown", function (e) {
           if (e.key === "Enter" || e.key === " ") {
             e.preventDefault();
+            if (li.classList.contains("section-parent")) return;
             li.classList.toggle("expanded");
           }
         });
       }
+    }
+  });
+
+  // --- Section parent click handlers ---
+
+  document.querySelectorAll(".section-parent").forEach(function (li) {
+    var title = li.querySelector(".section-title");
+    if (title) {
+      title.addEventListener("click", function (e) {
+        if (e.target.closest("a")) return;
+        toggleSectionChildren(li);
+      });
     }
   });
 
@@ -890,15 +1018,13 @@
       e.stopPropagation();
       var work = this.closest(".work");
       if (!work) return;
-      var items = work.querySelectorAll(".section-item.has-text");
-      var allExpanded = true;
-      items.forEach(function (li) { if (!li.classList.contains("expanded")) allExpanded = false; });
-      if (allExpanded) {
-        items.forEach(function (li) { li.classList.remove("expanded"); });
-        this.textContent = "Expand all";
-      } else {
-        items.forEach(function (li) { li.classList.add("expanded"); });
+      var anyHidden = work.querySelector('.section-item.tree-hidden') !== null;
+      if (anyHidden) {
+        expandAllTree(work);
         this.textContent = "Collapse all";
+      } else {
+        collapseAllTree(work);
+        this.textContent = "Expand all";
       }
     });
   });

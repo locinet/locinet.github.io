@@ -2,8 +2,21 @@
 # - tcp_id: TCP identifier (e.g. A14461)
 #   author: Wikidata QID (e.g. Q564637)
 #   work_id: Locinet work ID / YAML filename
-#   lang: original language code (optional, default: en)
-- tcp_id: A26883
-  author: Q680070
-  work_id: baxter-catholic-theology
+#   lang: language code (optional, default: en)
+#   orig_lang: original language if this is a translation (optional; omit if not a translation)
+#   translator: translator name (optional)
+- tcp_id: A73348
+  author: Q123337
+  work_id: viret-holy-supper
   lang: en
+  orig_lang: fr
+- tcp_id: A14461
+  author: Q123337
+  work_id: viret-disputations
+  lang: en
+  orig_lang: fr
+- tcp_id: A14463
+  author: Q123337
+  work_id: viret-instruction
+  lang: en
+  orig_lang: fr

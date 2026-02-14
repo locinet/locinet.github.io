@@ -152,6 +152,21 @@ eleventyComputed:
             {%- if not loop.last -%}. {% endif -%}
           {%- endfor %}
         </p>
+      {% elif work.origLang == "en" and work.origEditions.length > 0 %}
+        {# Edition-only English works (e.g. EarlyPrint) #}
+        <p class="translations-summary{% if work.flatSections.length > 0 %} sections-toggle{% endif %}">
+          Full text in English:
+          {%- set hasSiteLink = false -%}
+          {%- for ed in work.origEditions %}
+            {%- for s in ed.sites %}
+              {%- if s.url %}
+                {%- if hasSiteLink %}, {% endif -%}
+                <a href="{{ s.url }}">{{ s.siteName }}</a>
+                {%- set hasSiteLink = true -%}
+              {%- endif -%}
+            {%- endfor %}
+          {%- endfor -%}
+        </p>
       {% endif %}
 
       {# Work-level loci #}
@@ -167,14 +182,12 @@ eleventyComputed:
 
     {# Sections #}
     {% if work.flatSections.length > 0 %}
-      {% if hasText %}
         <p class="expand-all-toggle" style="display:none"><a href="#" class="expand-all-link">Expand all</a></p>
-      {% endif %}
       <ul class="sections-list sections-collapsed">
         {% for section in work.flatSections %}
           {% set sectionLociJson %}{{ section.loci | dump | safe }}{% endset %}
           {% set sText = work.sectionTexts[section.id] if work.sectionTexts else null %}
-          <li class="section-item depth-{{ section.depth }}{% if sText %} has-text{% endif %}" data-loci="{{ sectionLociJson }}"
+          <li class="section-item depth-{{ section.depth }}{% if sText %} has-text{% endif %}" data-loci="{{ sectionLociJson }}" data-depth="{{ section.depth }}"
               style="margin-left: {{ section.depth * 1.5 }}em;">
             {# Collect all section URLs for this section #}
             {% set sectionLinks = [] %}
@@ -196,16 +209,10 @@ eleventyComputed:
                 {% endif %}
               {% endfor %}
             {% endfor %}
-            {% if sectionLinks.length == 1 %}
-              <a href="{{ sectionLinks[0].url }}" class="section-title">{{ section.title }}</a>
-            {% elif sText %}
-              <span class="section-title" role="button" tabindex="0">{{ section.title }}</span>
-            {% else %}
-              <span class="section-title">{{ section.title }}</span>
-              {% for link in sectionLinks %}
-                <a href="{{ link.url }}" class="section-link">[{{ link.siteName }}]</a>
-              {% endfor %}
-            {% endif %}
+            <span class="section-title"{% if sText %} role="button" tabindex="0"{% endif %}>{{ section.title }}</span>
+            {% for link in sectionLinks %}
+              <a href="{{ link.url }}" class="section-link" title="{{ link.siteName }}">&#x2197;</a>
+            {% endfor %}
             {# Loci tags #}
             {% if section.loci.length > 0 %}
               <span class="loci-tags">

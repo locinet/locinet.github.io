@@ -1,11 +1,11 @@
 {
-  "_cacheVersion": 2,
+  "_cacheVersion": 5,
   "qid": "Q809291",
   "name": "Barthold Holtzfus",
   "slug": "barthold-holtzfus",
   "birthYear": 1659,
   "deathYear": 1717,
-  "imageUrl": null,
+  "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Bartholdus%20Holtzfus.png",
   "wikipediaUrl": null,
   "prdlId": "1472",
   "familyName": "Holtzfus",
@@ -28,6 +28,7 @@
     "pt-br": "Barthold Holtzfus",
     "ru": "Barthold Holtzfus",
     "sl": "Barthold Holtzfus",
-    "sv": "Barthold Holtzfus"
+    "sv": "Barthold Holtzfus",
+    "la": "Bartholdus Holtzfus"
   }
 }

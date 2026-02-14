@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // Import works from EarlyPrint Library TEI XML into Locinet YAML.
-// Usage: node scripts/import-earlyprint.js <xml-dir> [--id work-id] [--force]
+// Usage: node scripts/import-earlyprint.js [xml-dir] [--id work-id] [--force]
+// When xml-dir is omitted, looks for XML files in _cache/earlyprint/.
+// Download XML from texts.earlyprint.org (XML dropdown) and save as <TCP_ID>.xml.
 
 const fs = require("fs");
 const path = require("path");
@@ -9,6 +11,7 @@ const { DOMParser } = require("@xmldom/xmldom");
 
 const WORKS_DIR = path.resolve(__dirname, "../works");
 const MANIFEST_PATH = path.resolve(__dirname, "../earlyprint.yaml");
+const CACHE_DIR = path.resolve(__dirname, "../_cache/earlyprint");
 
 function parseArgs(argv) {
   const args = { xmlDir: null, id: null, force: false };
@@ -25,6 +28,12 @@ function parseArgs(argv) {
     i++;
   }
   return args;
+}
+
+function findCachedXml(tcpId) {
+  const cachePath = path.join(CACHE_DIR, `${tcpId}.xml`);
+  if (fs.existsSync(cachePath)) return cachePath;
+  return null;
 }
 
 function slugify(text) {
@@ -59,7 +68,7 @@ function makeUniqueSlug(base, seen) {
 function extractText(el) {
   const words = [];
   walkWords(el, words);
-  return words.join(" ").replace(/\s+/g, " ").trim();
+  return words.join(" ").replace(/\s+/g, " ").replace(/ ([,;:.!?)\]])/g, "$1").trim();
 }
 
 function walkWords(node, words) {
@@ -186,55 +195,76 @@ function parseTeiXml(xmlPath, tcpId) {
     title = toTitleCase(title);
   }
 
-  // Walk <body> for div structure and page breaks
-  const body = getElementByPath(doc, teiNs, "text", "body");
-  if (!body) {
+  // Find ALL <body> elements — EarlyPrint XML can use <group> to nest
+  // multiple <text> elements, each with its own <body>
+  const allBodies = getElementsByTagNameNS(root, teiNs, "body");
+  if (!allBodies || allBodies.length === 0) {
     console.error(`  Warning: no <body> found in ${xmlPath}`);
     return { title, authorName, year, sections: [] };
   }
 
   const sections = [];
-  const divs = getElementsByTagNameNS(body, teiNs, "div");
+  for (let i = 0; i < allBodies.length; i++) {
+    const body = allBodies[i];
 
-  // Only process top-level divs (direct children of body)
-  for (let i = 0; i < divs.length; i++) {
-    const div = divs[i];
-    if (div.parentNode !== body) continue;
+    // Check if this body has a direct <head> (part/book title)
+    let bodyHeadText = null;
+    for (let j = 0; j < body.childNodes.length; j++) {
+      const c = body.childNodes[j];
+      if (c.nodeType === 1 && (c.localName || c.tagName) === "head") {
+        bodyHeadText = toTitleCase(extractText(c));
+        break;
+      }
+    }
 
-    const section = parseDivSection(div, teiNs, tcpId);
-    if (section) sections.push(section);
+    const bodySections = collectSections(body, teiNs, tcpId);
+
+    if (allBodies.length === 1 || !bodyHeadText) {
+      // Single body or no heading — promote sections directly
+      sections.push(...bodySections);
+    } else {
+      // Multiple bodies with headings — wrap as a parent section
+      const pageId = findFirstPb(body, teiNs, tcpId);
+      sections.push({ title: bodyHeadText, pageId, children: bodySections });
+    }
   }
 
   return { title, authorName, year, sections };
 }
 
-function parseDivSection(div, teiNs, tcpId) {
-  // Extract heading
-  const headEls = getElementsByTagNameNS(div, teiNs, "head");
-  let headText = null;
-  for (let i = 0; i < headEls.length; i++) {
-    if (headEls[i].parentNode === div) {
-      headText = extractText(headEls[i]);
-      break;
+// Returns an array of sections found in this element.
+// If the element has a <head>, it becomes one section with its child divs as children.
+// If it has no <head>, its child divs' sections are promoted to this level.
+function collectSections(el, teiNs, tcpId) {
+  const results = [];
+  const childDivs = getElementsByTagNameNS(el, teiNs, "div");
+  for (let i = 0; i < childDivs.length; i++) {
+    if (childDivs[i].parentNode !== el) continue;
+    const div = childDivs[i];
+
+    // Extract heading from direct <head> child
+    const headEls = getElementsByTagNameNS(div, teiNs, "head");
+    let headText = null;
+    for (let j = 0; j < headEls.length; j++) {
+      if (headEls[j].parentNode === div) {
+        headText = extractText(headEls[j]);
+        break;
+      }
+    }
+
+    // Recurse into child divs
+    const childSections = collectSections(div, teiNs, tcpId);
+
+    if (!headText) {
+      // No heading — promote child sections to this level
+      results.push(...childSections);
+    } else {
+      headText = toTitleCase(headText);
+      const pageId = findFirstPb(div, teiNs, tcpId);
+      results.push({ title: headText, pageId, children: childSections });
     }
   }
-  if (!headText) return null;
-
-  headText = toTitleCase(headText);
-
-  // Find the first <pb> in this div for page reference
-  let pageId = findFirstPb(div, teiNs, tcpId);
-
-  // Parse child divs
-  const children = [];
-  const childDivs = getElementsByTagNameNS(div, teiNs, "div");
-  for (let i = 0; i < childDivs.length; i++) {
-    if (childDivs[i].parentNode !== div) continue;
-    const child = parseDivSection(childDivs[i], teiNs, tcpId);
-    if (child) children.push(child);
-  }
-
-  return { title: headText, pageId, children };
+  return results;
 }
 
 function findFirstPb(el, teiNs, tcpId) {
@@ -270,7 +300,7 @@ function findFirstPb(el, teiNs, tcpId) {
 }
 
 function generateYaml(entry, metadata) {
-  const { work_id, author, lang } = entry;
+  const { work_id, author, lang, orig_lang, translator } = entry;
   const tcpId = entry.tcp_id;
   const langCode = lang || "en";
   const { title, year, sections } = metadata;
@@ -285,7 +315,32 @@ function generateYaml(entry, metadata) {
   out += `  author: ${author}\n`;
   out += `  # loci:\n`;
 
-  if (langCode === "en") {
+  if (orig_lang) {
+    // Translation — original language gets a stub, English gets the content
+    out += `  ${orig_lang}:\n`;
+    out += `    title: # FILL IN\n`;
+    out += `    orig_lang: true\n`;
+    out += `  en:\n`;
+    out += `    title: ${yamlQuote(title || "# FILL IN")}\n`;
+    if (sectionsYaml) {
+      out += `    sections:\n`;
+      out += sectionsYaml;
+    }
+    out += `    translations:\n`;
+    out += `      - year: ${year || "# FILL IN"}\n`;
+    if (translator) {
+      out += `        translator: ${yamlQuote(translator)}\n`;
+    }
+    out += `        sites:\n`;
+    out += `          - site: EarlyPrint\n`;
+    out += `            url: ${earlyPrintUrl}\n`;
+    if (urlList.length > 0) {
+      out += `            section_urls:\n`;
+      for (const { slug, pageId } of urlList) {
+        out += `              - ${slug}: ${earlyPrintUrl}?page=${pageId}\n`;
+      }
+    }
+  } else if (langCode === "en") {
     // English is both original and display language
     out += `  en:\n`;
     out += `    title: ${yamlQuote(title || "# FILL IN")}\n`;
@@ -356,14 +411,8 @@ function generateSections(sections, indent, slugSeen, urlList, tcpId) {
 
 function main() {
   const args = parseArgs(process.argv);
-  if (!args.xmlDir) {
-    console.error(
-      "Usage: npm run import-earlyprint -- <xml-dir> [--id work-id] [--force]"
-    );
-    process.exit(1);
-  }
 
-  if (!fs.existsSync(args.xmlDir)) {
+  if (args.xmlDir && !fs.existsSync(args.xmlDir)) {
     console.error(`XML directory not found: ${args.xmlDir}`);
     process.exit(1);
   }
@@ -401,13 +450,25 @@ function main() {
       continue;
     }
 
-    const xmlFile = findXmlFile(args.xmlDir, entry.tcp_id);
-    if (!xmlFile) {
-      console.error(`XML file not found for TCP ID ${entry.tcp_id} in ${args.xmlDir}`);
-      continue;
+    console.log(`Importing ${entry.work_id}...`);
+
+    let xmlFile;
+    if (args.xmlDir) {
+      xmlFile = findXmlFile(args.xmlDir, entry.tcp_id);
+      if (!xmlFile) {
+        console.error(`  XML file not found for TCP ID ${entry.tcp_id} in ${args.xmlDir}`);
+        continue;
+      }
+    } else {
+      xmlFile = findCachedXml(entry.tcp_id);
+      if (!xmlFile) {
+        console.error(`  XML not found for ${entry.tcp_id}. Download from:`);
+        console.error(`    https://texts.earlyprint.org/works/${entry.tcp_id}.xml`);
+        console.error(`  Save as: _cache/earlyprint/${entry.tcp_id}.xml`);
+        continue;
+      }
     }
 
-    console.log(`Importing ${entry.work_id} from ${xmlFile}...`);
     const metadata = parseTeiXml(xmlFile, entry.tcp_id);
     console.log(`  Title: ${metadata.title || "(none)"}`);
     console.log(`  Year: ${metadata.year || "(none)"}`);

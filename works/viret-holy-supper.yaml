@@ -1,0 +1,209 @@
+viret-holy-supper:
+  author: Q123337
+  loci: lords-supper
+  fr:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: "[the Principal Points Which Are at This Daye in Controuersie, Concerning the Holly Supper and of the Masse.]"
+    sections:
+      - of-the-principal-points-which-are-at-this-day-in-controversy: "Of the Principal Points Which Are at This Day in Controversy, Concerning the Holy Supper of Jesus Christ and the Mass of the Roman Church, and of the Resolution of Them."
+        # loci:
+        sections:
+          - the-first-book: ¶ the First Book.
+            # loci:
+            sections:
+              - chapter-1: Chapter. 1.
+                # loci:
+              - chapter-ii: Chapter Ii
+                # loci:
+              - chapter-iii: Chapter Iii
+                # loci:
+              - chapter-iiii: Chapter. Iiii.
+                # loci:
+              - chapter-u: Chapter. U
+                # loci:
+              - chapter-vi: Chapter. Vi.
+                # loci:
+              - chapter-vii: Chapter. Vii.
+                # loci:
+              - chapter-viii: Chapter. Viii.
+                # loci:
+              - chapter-ix: Chapter. Ix.
+                # loci:
+              - chapter-x: Chapter. X.
+                # loci:
+              - chapter-xi: Chapter. Xi.
+                # loci:
+              - chapter-xii: Chapter. Xii.
+                # loci:
+              - chapter-xiii: Chapter Xiii
+                # loci:
+              - chapter-xiiii: Chapter.xiiii.
+                # loci:
+              - chapter-xv: Chapter. Xv.
+                # loci:
+              - chapter-xuj: Chapter Xuj.
+                # loci:
+              - chapter-xvii: Chapter Xvii.
+                # loci:
+              - chapter-xviii: Chapter Xviii.
+                # loci:
+              - chapter-xix: Chapter Xix.
+                # loci:
+              - chapter-xx: Chapter Xx.
+                # loci:
+              - chapter-xxi: Chapter Xxi.
+                # loci:
+              - chapter-xxii: Chapter. Xxii.
+                # loci:
+              - chapter-xxiii: Chapter. Xxiii.
+                # loci:
+          - 2nd-book: "[Second Book?]"
+            # loci:
+            sections:
+              - chapter-two: Chapter Two.
+                # loci:
+              - chap-iii: Chap. Iii
+                # loci:
+              - chapter-iiii-2: Chapter Iiii.
+                # loci:
+              - chapter-v: Chapter V.
+                # loci:
+              - chapter-vi-2: Chapter Vi.
+                # loci:
+              - chapter-vii-2: Chapter. Vii.
+                # loci:
+              - chapter-viii-2: Chapter. Viii.
+                # loci:
+              - chapter-ix-2: Chapter. Ix.
+                # loci:
+              - chapter-x-2: Chapter. X.
+                # loci:
+              - chapter-xi-2: Chapter Xi
+                # loci:
+              - chapter-xii-2: Chapter Xii.
+                # loci:
+              - chapter-xiii-2: Chapter Xiii.
+                # loci:
+              - chapter-xiiii-2: Chapter Xiiii.
+                # loci:
+              - chapter-xu: Chapter Xu
+                # loci:
+              - chapter-xvi: Chapter.xvi.
+                # loci:
+              - chapter-xvii-2: Chapter. Xvii.
+                # loci:
+              - the-third-book: The Third Book.
+                # loci:
+          - third-book: The third Booke.
+            sections:
+              - chapter-1-2: Chapter. 1.
+                # loci:
+              - chapter-two-2: Chapter Two.
+                # loci:
+              - chapter-iii-2: Chapter Iii
+                # loci:
+              - chapter-iiii-3: Chapter Iiii.
+                # loci:
+              - chapter-v-2: Chapter V.
+                # loci:
+              - chapter-vi-3: Chapter Vi.
+                # loci:
+              - chapter-vii-3: Chapter Vii.
+                # loci:
+              - chapter-viii-3: Chapter Viii.
+                # loci:
+              - chapter-ix-3: Chapter Ix
+                # loci:
+              - chapter-ten: Chapter Ten
+                # loci:
+              - chapter-xi-3: Chapter Xi
+                # loci:
+              - chapter-xii-3: Chapter.xii.
+                # loci:
+              - chapter-xiii-3: Chapter Xiii
+                # loci:
+              - chapter-xiiii-3: Chapter.xiiii.
+                # loci:
+              - chapter-xv-2: Chapter Xv.
+                # loci:
+              - chapter-xuj-2: Chapter Xuj.
+                # loci:
+              - chapter-xvii-3: Chapter Xvii.
+                # loci:
+              - chapter-xviii-2: Chapter Xviii.
+                # loci:
+              - chapter-xix-2: Chapter Xix.
+                # loci:
+              - chapter-xx-2: Chapter Xx.
+                # loci:
+              - chapter-xxi-2: Chapter Xxi.
+                # loci:
+    translations:
+      - year: 1579
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A73348.xml
+            section_urls:
+              - of-the-principal-points-which-are-at-this-day-in-controversy: https://texts.earlyprint.org/works/A73348.xml?page=001-a
+              - chapter-1: https://texts.earlyprint.org/works/A73348.xml?page=002-a
+              - chapter-ii: https://texts.earlyprint.org/works/A73348.xml?page=003-a
+              - chapter-iii: https://texts.earlyprint.org/works/A73348.xml?page=003-b
+              - chapter-iiii: https://texts.earlyprint.org/works/A73348.xml?page=004-b
+              - chapter-u: https://texts.earlyprint.org/works/A73348.xml?page=006-a
+              - chapter-vi: https://texts.earlyprint.org/works/A73348.xml?page=007-a
+              - chapter-vii: https://texts.earlyprint.org/works/A73348.xml?page=007-b
+              - chapter-viii: https://texts.earlyprint.org/works/A73348.xml?page=008-b
+              - chapter-ix: https://texts.earlyprint.org/works/A73348.xml?page=010-a
+              - chapter-x: https://texts.earlyprint.org/works/A73348.xml?page=010-b
+              - chapter-xi: https://texts.earlyprint.org/works/A73348.xml?page=012-a
+              - chapter-xii: https://texts.earlyprint.org/works/A73348.xml?page=013-a
+              - chapter-xiii: https://texts.earlyprint.org/works/A73348.xml?page=014-b
+              - chapter-xiiii: https://texts.earlyprint.org/works/A73348.xml?page=016-a
+              - chapter-xv: https://texts.earlyprint.org/works/A73348.xml?page=017-a
+              - chapter-xuj: https://texts.earlyprint.org/works/A73348.xml?page=018-a
+              - chapter-xvii: https://texts.earlyprint.org/works/A73348.xml?page=019-a
+              - chapter-xviii: https://texts.earlyprint.org/works/A73348.xml?page=021-a
+              - chapter-xix: https://texts.earlyprint.org/works/A73348.xml?page=022-a
+              - chapter-xx: https://texts.earlyprint.org/works/A73348.xml?page=023-b
+              - chapter-xxi: https://texts.earlyprint.org/works/A73348.xml?page=025-b
+              - chapter-xxii: https://texts.earlyprint.org/works/A73348.xml?page=029-a
+              - chapter-xxiii: https://texts.earlyprint.org/works/A73348.xml?page=031-a
+              - chapter-two: https://texts.earlyprint.org/works/A73348.xml?page=034-a
+              - chap-iii: https://texts.earlyprint.org/works/A73348.xml?page=035-b
+              - chapter-iiii-2: https://texts.earlyprint.org/works/A73348.xml?page=037-a
+              - chapter-v: https://texts.earlyprint.org/works/A73348.xml?page=038-b
+              - chapter-vi-2: https://texts.earlyprint.org/works/A73348.xml?page=039-b
+              - chapter-vii-2: https://texts.earlyprint.org/works/A73348.xml?page=041-a
+              - chapter-viii-2: https://texts.earlyprint.org/works/A73348.xml?page=043-a
+              - chapter-ix-2: https://texts.earlyprint.org/works/A73348.xml?page=045-a
+              - chapter-x-2: https://texts.earlyprint.org/works/A73348.xml?page=046-b
+              - chapter-xi-2: https://texts.earlyprint.org/works/A73348.xml?page=047-b
+              - chapter-xii-2: https://texts.earlyprint.org/works/A73348.xml?page=049-b
+              - chapter-xiii-2: https://texts.earlyprint.org/works/A73348.xml?page=051-b
+              - chapter-xiiii-2: https://texts.earlyprint.org/works/A73348.xml?page=053-a
+              - chapter-xu: https://texts.earlyprint.org/works/A73348.xml?page=056-b
+              - chapter-xvi: https://texts.earlyprint.org/works/A73348.xml?page=058-a
+              - chapter-xvii-2: https://texts.earlyprint.org/works/A73348.xml?page=059-b
+              - chapter-1-2: https://texts.earlyprint.org/works/A73348.xml?page=062-a
+              - chapter-two-2: https://texts.earlyprint.org/works/A73348.xml?page=063-b
+              - chapter-iii-2: https://texts.earlyprint.org/works/A73348.xml?page=065-a
+              - chapter-iiii-3: https://texts.earlyprint.org/works/A73348.xml?page=066-b
+              - chapter-v-2: https://texts.earlyprint.org/works/A73348.xml?page=067-b
+              - chapter-vi-3: https://texts.earlyprint.org/works/A73348.xml?page=069-a
+              - chapter-vii-3: https://texts.earlyprint.org/works/A73348.xml?page=070-a
+              - chapter-viii-3: https://texts.earlyprint.org/works/A73348.xml?page=071-b
+              - chapter-ix-3: https://texts.earlyprint.org/works/A73348.xml?page=072-b
+              - chapter-ten: https://texts.earlyprint.org/works/A73348.xml?page=074-b
+              - chapter-xi-3: https://texts.earlyprint.org/works/A73348.xml?page=076-a
+              - chapter-xii-3: https://texts.earlyprint.org/works/A73348.xml?page=077-b
+              - chapter-xiii-3: https://texts.earlyprint.org/works/A73348.xml?page=078-a
+              - chapter-xiiii-3: https://texts.earlyprint.org/works/A73348.xml?page=079-a
+              - chapter-xv-2: https://texts.earlyprint.org/works/A73348.xml?page=080-a
+              - chapter-xuj-2: https://texts.earlyprint.org/works/A73348.xml?page=081-a
+              - chapter-xvii-3: https://texts.earlyprint.org/works/A73348.xml?page=082-b
+              - chapter-xviii-2: https://texts.earlyprint.org/works/A73348.xml?page=083-a
+              - chapter-xix-2: https://texts.earlyprint.org/works/A73348.xml?page=084-a
+              - chapter-xx-2: https://texts.earlyprint.org/works/A73348.xml?page=085-b
+              - chapter-xxi-2: https://texts.earlyprint.org/works/A73348.xml?page=086-b

@@ -1,5 +1,5 @@
 {
-  "_cacheVersion": 2,
+  "_cacheVersion": 5,
   "qid": "Q704851",
   "name": "Wolfgang Musculus",
   "slug": "wolfgang-musculus",
@@ -36,8 +36,8 @@
     "cs": "Wolfgang Meüßlin",
     "ee": "Wolfgang Musculus",
     "ko": "볼프강 무스쿠루스",
-    "la": "Wolfgangus Musculus",
     "sq": "Wolfgang Musculus",
-    "sv": "Wolfgang Meusslin"
+    "sv": "Wolfgang Meusslin",
+    "la": "Wolfgang Musculus Dusanus"
   }
 }

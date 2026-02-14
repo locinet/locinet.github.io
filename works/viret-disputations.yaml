@@ -1,0 +1,55 @@
+viret-disputations:
+  author: Q123337
+  loci: purgatory
+  fr:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: "The Christian Disputations, by Master Peter Viret. Deuided Into Three Partes, Dialogue Wise: Set Out With Such Grace, That it Cannot Be, but That a Man Shall Take Greate Pleasure in the Reading Thereoff."
+    sections:
+      - the-argument-and-sum-of-the-first-dialogue: ¶ the Argument and Sum of the First Dialogue.
+        # loci:
+      - the-first-dialogue-which-is-called-the-alchymee-of-purgatory: ¶ the First Dialogue Which is Called the Alchymee of Purgatory.
+        # loci:
+      - the-sum-of-the-second-book: The Sum of the Second Book.
+        # loci:
+      - the-second-dialogue-which-is-called-the-office-of-the-dead: The Second Dialogue Which is Called the Office of the Dead.
+        # loci:
+      - the-sum-of-the-third-dialogue: The Sum of the Third Dialogue.
+        # loci:
+      - the-third-dialogue-which-is-called-anniversaries-or-years-mi: The Third Dialogue Which is Called Anniversaries or Years Minds.
+        # loci:
+      - the-sum-of-the-fourth-dialogue: The Sum of the Fourth Dialogue.
+        # loci:
+      - the-fourth-dialogue-which-is-called-the-age-of-the-mass-and-: ¶ the Fourth Dialogue Which is Called the Age of the Mass and of Purgatory.
+        # loci:
+      - unto-the-reader: Unto the Reader.
+        # loci:
+      - the-argument-and-sum-of-the-fift-dialogue: The Argument and Sum of the Fift Dialogue.
+        # loci:
+      - the-fifth-dialogue-which-is-called-the-hells: ¶ the Fifth Dialogue Which is Called the Hells.
+        # loci:
+      - the-sum-of-the-sixt-and-last-dialogue: The Sum of the Sixt and Last Dialogue.
+        # loci:
+      - the-sixt-dialogue-which-is-called-the-requiescant-in-pace-of: "The Sixt Dialogue Which is Called the Requiescant in Pace, of Purgatory."
+        # loci:
+    translations:
+      - year: 1579
+        translator: Iohn Brooke of Ashe
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A14461.xml
+            section_urls:
+              - the-argument-and-sum-of-the-first-dialogue: https://texts.earlyprint.org/works/A14461.xml?page=028-a
+              - the-first-dialogue-which-is-called-the-alchymee-of-purgatory: https://texts.earlyprint.org/works/A14461.xml?page=029-a
+              - the-sum-of-the-second-book: https://texts.earlyprint.org/works/A14461.xml?page=067-b
+              - the-second-dialogue-which-is-called-the-office-of-the-dead: https://texts.earlyprint.org/works/A14461.xml?page=068-b
+              - the-sum-of-the-third-dialogue: https://texts.earlyprint.org/works/A14461.xml?page=120-b
+              - the-third-dialogue-which-is-called-anniversaries-or-years-mi: https://texts.earlyprint.org/works/A14461.xml?page=121-b
+              - the-sum-of-the-fourth-dialogue: https://texts.earlyprint.org/works/A14461.xml?page=181-a
+              - the-fourth-dialogue-which-is-called-the-age-of-the-mass-and-: https://texts.earlyprint.org/works/A14461.xml?page=181-b
+              - unto-the-reader: https://texts.earlyprint.org/works/A14461.xml?page=206-b
+              - the-argument-and-sum-of-the-fift-dialogue: https://texts.earlyprint.org/works/A14461.xml?page=212-a
+              - the-fifth-dialogue-which-is-called-the-hells: https://texts.earlyprint.org/works/A14461.xml?page=213-b
+              - the-sum-of-the-sixt-and-last-dialogue: https://texts.earlyprint.org/works/A14461.xml?page=267-b
+              - the-sixt-dialogue-which-is-called-the-requiescant-in-pace-of: https://texts.earlyprint.org/works/A14461.xml?page=271-a

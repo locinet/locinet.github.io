@@ -162,14 +162,24 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   font-size: 0.9em;
 }
 .section-title { }
-.section-item.has-text > .section-title { cursor: pointer; }
-.section-item.has-text > .section-title::before {
+.section-item.has-text:not(.section-parent) > .section-title { cursor: pointer; }
+.section-item.has-text:not(.section-parent) > .section-title::before {
   content: '\25b8 ';
   font-size: 0.7em;
 }
-.section-item.has-text.expanded > .section-title::before {
+.section-item.has-text:not(.section-parent).expanded > .section-title::before {
   content: '\25be ';
 }
+/* Section tree parent toggle */
+.section-item.section-parent > .section-title { cursor: pointer; }
+.section-item.section-parent > .section-title::before {
+  content: '\25b8 ';
+  font-size: 0.7em;
+}
+.section-item.section-parent.tree-expanded > .section-title::before {
+  content: '\25be ';
+}
+.tree-hidden { display: none; }
 .section-text {
   display: none;
   margin: 0.5em 0 0.5em 1em;
@@ -181,8 +191,12 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 .section-item.expanded > .section-text { display: block; }
 .section-link {
-  font-size: 0.8em;
-  margin-left: 0.3em;
+  font-size: 0.75em;
+  margin-left: 0.2em;
+  color: var(--muted);
+  text-decoration: none;
+}
+.section-link:hover {
   color: var(--link);
 }
 
