@@ -123,6 +123,15 @@ function collectAllSectionLoci(sections) {
   return all;
 }
 
+function countSections(sections) {
+  let total = 0;
+  for (const s of sections) {
+    total += 1;
+    if (s.children) total += countSections(s.children);
+  }
+  return total;
+}
+
 // --- Section URL lookup ---
 
 function buildSectionUrlMap(sectionUrls) {
@@ -738,6 +747,12 @@ module.exports = function () {
   });
 
   const translatorIndex = buildTranslatorIndex(works, authorPages);
+  const stats = {
+    lociCount: Object.keys(lociFlat).length,
+    sectionsMappedCount: works.reduce((sum, work) => sum + countSections(work.sections), 0),
+    worksCount: works.length,
+    authorsCount: authorPages.length,
+  };
 
   // Build a lookup from QID to author page for whatsNew
   const authorByQid = {};
@@ -793,6 +808,7 @@ module.exports = function () {
     worksIndex,
     lociIndex,
     translatorIndex,
+    stats,
     whatsNew,
     traditions: traditionsData.traditions || [],
     repoUrl: "https://github.com/locinet/locinet.github.io",
