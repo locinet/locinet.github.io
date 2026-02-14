@@ -235,6 +235,7 @@ function parseWork(fileId, data, translatorsMap) {
         url: mainUrl,
         volumes,
         pdf: s.pdf || false,
+        pdfUrl: s.pdf_url || null,
         sectionUrls: buildSectionUrlMap(s.section_urls),
         sectionTexts: buildSectionUrlMap(s.text),
       };
@@ -249,13 +250,15 @@ function parseWork(fileId, data, translatorsMap) {
     };
   });
 
-  // Merged section texts from all translation sites
+  // Merged section texts and pdf URL from all translation sites
   const sectionTexts = {};
+  let pdfUrl = null;
   for (const t of translations) {
     for (const s of t.sites) {
       for (const [k, v] of Object.entries(s.sectionTexts)) {
         if (!sectionTexts[k]) sectionTexts[k] = v;
       }
+      if (s.pdfUrl && !pdfUrl) pdfUrl = s.pdfUrl;
     }
   }
 
@@ -264,7 +267,7 @@ function parseWork(fileId, data, translatorsMap) {
   let oclc = null;
   if (origLang && origLang.editions) {
     for (const ed of origLang.editions) {
-      const entry = { year: ed.year, place: ed.place || null, sites: [] };
+      const entry = { year: ed.year, place: ed.place || null, title: ed.title || null, collection: ed.collection || false, sites: [] };
       if (ed.sites) {
         for (const s of ed.sites) {
           entry.sites.push({ siteName: s.site, url: s.url });
@@ -321,6 +324,7 @@ function parseWork(fileId, data, translatorsMap) {
     allLoci: [...new Set(allLoci)],
     year,
     origTitle: origLang ? origLang.title : null,
+    origYear: origLang ? origLang.year || null : null,
     origLang: origLang ? origLang.lang : null,
     origUrl,
     oclc,
@@ -330,6 +334,7 @@ function parseWork(fileId, data, translatorsMap) {
     flatSections,
     translations,
     sectionTexts,
+    pdfUrl,
     yamlFilename: fileId + ".yaml",
   };
 }

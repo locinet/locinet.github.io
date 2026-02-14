@@ -68,8 +68,19 @@ eleventyComputed:
         <a href="#" class="edit-link" data-work-id="{{ work.id }}" data-yaml-filename="{{ work.yamlFilename }}">[Edit]</a>
       </h2>
       {% if work.origTitle and work.origTitle != work.title %}
-        <p class="work-title-orig"><em>{% if work.origUrl %}<a href="{{ work.origUrl }}">{{ work.origTitle }}</a>{% else %}{{ work.origTitle }}{% endif %}</em></p>
+        {% set hasCollectionEdition = false %}
+        {% for ed in work.origEditions %}
+          {% if ed.collection %}{% set hasCollectionEdition = true %}{% endif %}
+        {% endfor %}
+        <p class="work-title-orig"><em>{% if work.origUrl and not hasCollectionEdition %}<a href="{{ work.origUrl }}">{{ work.origTitle }}</a>{% else %}{{ work.origTitle }}{% endif %}</em>{% if work.origYear %} ({{ work.origYear }}){% endif %}</p>
       {% endif %}
+
+      {# Collection edition info #}
+      {% for ed in work.origEditions %}
+        {% if ed.collection and ed.title %}
+          <p class="work-title-orig collection-info">from <em>{% if ed.sites.length > 0 and ed.sites[0].url %}<a href="{{ ed.sites[0].url }}">{{ ed.title }}</a>{% else %}{{ ed.title }}{% endif %}</em>{% if ed.place or ed.year %} ({% if ed.place %}{{ ed.place }}{% endif %}{% if ed.place and ed.year %}, {% endif %}{% if ed.year %}{{ ed.year }}{% endif %}){% endif %}</p>
+        {% endif %}
+      {% endfor %}
 
       {# Corporate authorship attribution on individual author pages #}
       {% if not authorPage.isCorporate and work.corporateAuthor %}
@@ -87,21 +98,23 @@ eleventyComputed:
           <a href="/authors/{{ work.corporateAuthor.slug }}/">{{ work.corporateAuthor.label }}</a>)</p>
       {% endif %}
 
-      {# Edition info #}
+      {# Edition info (non-collection only) #}
       {% for ed in work.origEditions %}
+        {% if not ed.collection %}
         <p class="edition-info">
           {% if ed.place %}{{ ed.place }}, {% endif %}{% if ed.year %}{{ ed.year }}.{% endif %}
           {% for s in ed.sites %}
             Original: <a href="{{ s.url }}">{{ s.siteName }}</a>
           {% endfor %}
         </p>
+        {% endif %}
       {% endfor %}
 
       {# Full text line #}
       {% if work.translations.length > 0 %}
         <p class="translations-summary{% if work.flatSections.length > 0 %} sections-toggle{% endif %}">
           {%- for t in work.translations %}
-            Full text in English translated by {% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}
+            Full text in English translated by {% if t.AI %}AI with thanks to {% endif %}{% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}
             {%- if t.translatorInfo and t.translatorInfo.support %} (<a href="{{ t.translatorInfo.support }}">support</a>){% endif %}
             {%- if t.translatorInfo and t.translatorInfo.paypal %} (<a href="https://www.paypal.com/us/home">PayPal</a> {{ t.translatorInfo.paypal }}){% endif %}
             {%- if t.year %} ({{ t.year }}){% endif -%}
@@ -130,7 +143,11 @@ eleventyComputed:
             {%- endfor -%}
             {%- if hasText -%}
               {%- if hasSiteLink %}, {% endif -%}
-              <a href="#" class="download-link" data-format="pdf">PDF</a> · <a href="#" class="download-link" data-format="epub">EPUB</a>
+              {% if work.pdfUrl -%}
+                <a href="{{ work.pdfUrl }}">PDF</a>
+              {%- else -%}
+                <a href="#" class="download-link" data-format="pdf">PDF</a>
+              {%- endif %} · <a href="#" class="download-link" data-format="epub">EPUB</a>
             {%- endif -%}
             {%- if not loop.last -%}. {% endif -%}
           {%- endfor %}

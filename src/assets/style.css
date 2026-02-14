@@ -162,7 +162,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   font-size: 0.9em;
 }
 .section-title { }
-.section-item.has-text { cursor: pointer; }
+.section-item.has-text > .section-title { cursor: pointer; }
 .section-item.has-text > .section-title::before {
   content: '\25b8 ';
   font-size: 0.7em;
@@ -175,8 +175,8 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   margin: 0.5em 0 0.5em 1em;
   padding: 0.5em 1em;
   border-left: 2px solid var(--border);
-  font-size: 0.95em;
-  line-height: 1.6;
+  font-size: 1em;
+  line-height: 1.7;
   white-space: pre-wrap;
 }
 .section-item.expanded > .section-text { display: block; }

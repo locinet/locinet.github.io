@@ -787,18 +787,20 @@
   // --- Expandable section text ---
 
   document.querySelectorAll(".section-item.has-text").forEach(function (li) {
-    li.addEventListener("click", function (e) {
-      if (e.target.closest("a")) return;
-      this.classList.toggle("expanded");
-    });
-    var title = li.querySelector(".section-title[role='button']");
+    var title = li.querySelector(".section-title");
     if (title) {
-      title.addEventListener("keydown", function (e) {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          li.classList.toggle("expanded");
-        }
+      title.addEventListener("click", function (e) {
+        if (e.target.closest("a")) return;
+        li.classList.toggle("expanded");
       });
+      if (title.getAttribute("role") === "button") {
+        title.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            li.classList.toggle("expanded");
+          }
+        });
+      }
     }
   });
 

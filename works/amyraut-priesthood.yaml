@@ -7,9 +7,10 @@ amyraut-priesthood:
   la:
     title: Theses Theologicae de Sacerdotio Christi
     orig_lang: true
-    year: 1663
+    year: 1664
     editions:
       - title: Syntagma Thesium, Pars Prima
+        collection: true
         year: 1664
         place: Saumur
         sites:
@@ -185,6 +186,7 @@ amyraut-priesthood:
         AI: true
         sites:
           - site: Local
+            pdf_url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AHhNFcCdY6zExeXAMWz54zs/%5BMoses%20Amyraut%5D%20Theses%20On%20The%20Priesthood%20of%20Christ.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&st=lzlzm8sn&dl=0
             text:
               - I: "The heavenly doctrine revealed in the word of God is indeed entirely Christian and may be so called. For whether it is set forth in the narration of past events—nothing was done or created without Christ—or whether in the prediction of things to come—the end of prophetic predictions is Christ—or whether in the declaration of the nature of the Godhead and of true religion, and of the virtues that flow from religion—it leads men to salvation, of which Christ is the sole cause and the only foundation. Yet that designation seems by a certain right to claim for itself the doctrine that properly concerns Christ himself."
               - II: "But the consideration of that doctrine which has Christ himself for its subject is not simple. For either the Person in Christ, consisting of two natures, is considered: the divine, according to which he is equal to the Father in all things; and the human, in respect of which he is said to have been made entirely like men, sin excepted. Or the office distinct from the person itself is considered, yet such as is nevertheless united and agreeing with it, so that neither would the person have had each nature in itself except for the sake of performing such an office, nor could such an office have fallen to any person who was not partaker of each nature."
