@@ -54,10 +54,42 @@ eleventyComputed:
   <button type="button" id="clear-filter" class="clear-btn">Clear</button>
 </div>
 
+{% macro renderAuthorSidebarChildren(nodes, depth) %}
+<ul class="stree{% if depth >= 1 %} stree-collapsed{% endif %}">
+  {% for node in nodes %}
+  <li>
+    {% if node.children and depth >= 1 %}
+    <a href="#" class="stree-toggle author-loci-link" data-slug="{{ node.slug }}">{{ node.name }}</a>
+    {% else %}
+    <a href="#" class="author-loci-link" data-slug="{{ node.slug }}">{{ node.name }}</a>
+    {% endif %}
+    {% if node.children %}{{ renderAuthorSidebarChildren(node.children, depth + 1) }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+
+{% if authorPage.authorLociTree.length > 0 %}
+<div class="author-page-layout">
+
+<nav class="loci-sidebar" id="author-loci-tree">
+<ul class="stree stree-root">
+  {% for node in authorPage.authorLociTree %}
+  <li>
+    <a href="#" class="stree-top author-loci-link{% if node.children %} stree-toggle{% endif %}" data-slug="{{ node.slug }}">{{ node.name }}</a>
+    {% if node.children %}{{ renderAuthorSidebarChildren(node.children, 1) }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+</nav>
+
+<div class="author-main">
+{% endif %}
+
 <div id="works-list">
 {% for work in authorPage.works %}
   {% set allLociJson %}{{ work.allLoci | dump | safe }}{% endset %}
-  {% set hasText = work.sectionTexts and (work.sectionTexts | length > 0) %}
+  {% set hasText = (work.sectionTexts and (work.sectionTexts | length > 0)) or work.workText %}
   {% set editionInfo %}{% for ed in work.origEditions %}{% if ed.place %}{{ ed.place }}, {% endif %}{% if ed.year %}{{ ed.year }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}{% endset %}
   {% set translationInfo %}{% for t in work.translations %}Translated by {{ t.translator }}{% if t.year %} ({{ t.year }}){% endif %}{% if t.AI %} [AI]{% endif %}{% if not loop.last %}. {% endif %}{% endfor %}{% endset %}
   {% set authorDates %}{% if authorPage.birthYear %}{{ authorPage.birthYear }}{% endif %}{% if authorPage.deathYear %}–{{ authorPage.deathYear }}{% endif %}{% endset %}
@@ -112,7 +144,7 @@ eleventyComputed:
 
       {# Full text line #}
       {% if work.translations.length > 0 %}
-        <p class="translations-summary{% if work.flatSections.length > 0 %} sections-toggle{% endif %}">
+        <p class="translations-summary{% if work.flatSections.length > 0 %} sections-toggle{% elif work.workText %} work-text-toggle{% endif %}">
           {%- for t in work.translations %}
             Full text in English translated by {% if t.AI %}AI with thanks to {% endif %}{% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}
             {%- if t.translatorInfo and t.translatorInfo.support %} (<a href="{{ t.translatorInfo.support }}">support</a>){% endif %}
@@ -121,7 +153,7 @@ eleventyComputed:
             :
             {%- set hasSiteLink = false -%}
             {%- for s in t.sites %}
-              {%- if s.sectionTexts | length > 0 %}
+              {%- if (s.sectionTexts | length > 0) or s.workText %}
                 {# Local/text site — skip site name, show download links below #}
               {%- elif s.url %}
                 {%- if hasSiteLink %}, {% endif -%}
@@ -180,6 +212,11 @@ eleventyComputed:
 
     </div>
 
+    {# Work-level text (no sections) #}
+    {% if work.workText %}
+      <div class="work-text work-text-collapsed">{{ work.workText }}</div>
+    {% endif %}
+
     {# Sections #}
     {% if work.flatSections.length > 0 %}
         <p class="expand-all-toggle" style="display:none"><a href="#" class="expand-all-link">Expand all</a></p>
@@ -232,6 +269,11 @@ eleventyComputed:
   </div>
 {% endfor %}
 </div>
+
+{% if authorPage.authorLociTree.length > 0 %}
+</div>{# .author-main #}
+</div>{# .author-page-layout #}
+{% endif %}
 
 <script>
   const lociFlat = {{ site.lociFlat | dump | safe }};

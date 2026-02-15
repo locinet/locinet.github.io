@@ -1,0 +1,24 @@
+athanasius-synodal-letter-to-the-bishops-of-africa-ad-afros-epistola-sy:
+  author: Q44024
+  date_added: 2026-02-15
+  loci: trinity
+  la:
+    title: Ad Afros Epistola Synodica.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Synodal Letter to the Bishops of Africa.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - synodal-letter-to-the-bishops-of-africa-ad-afros-epistola-sy: Synodal Letter to the Bishops of Africa. (Ad Afros Epistola Synodica.)
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xxiv.i.html
+              - synodal-letter-to-the-bishops-of-africa-ad-afros-epistola-sy: https://ccel.org/ccel/s/schaff/npnf204.xxiv.ii.html

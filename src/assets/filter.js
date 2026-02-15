@@ -162,8 +162,51 @@
       clearBtn.addEventListener("click", function () {
         filterInput.value = "";
         applyFilter();
+        clearAuthorTreeHighlight();
         filterInput.focus();
       });
+    }
+
+    // --- Author page loci sidebar click-to-filter ---
+
+    var authorLociTree = document.getElementById("author-loci-tree");
+    if (authorLociTree) {
+      authorLociTree.querySelectorAll(".author-loci-link").forEach(function (link) {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          var slug = this.dataset.slug;
+          if (!slug) return;
+
+          // Expand/collapse children if this is a stree-toggle
+          if (this.classList.contains("stree-toggle")) {
+            var children = this.nextElementSibling;
+            if (children && children.classList.contains("stree")) {
+              children.classList.toggle("stree-collapsed");
+              this.classList.toggle("expanded");
+            }
+          }
+
+          // Toggle: if clicking the already-active node, clear the filter
+          var wasActive = this.classList.contains("sidebar-active");
+          clearAuthorTreeHighlight();
+          if (wasActive) {
+            filterInput.value = "";
+            applyFilter();
+            return;
+          }
+
+          // Set filter and highlight
+          filterInput.value = slug;
+          applyFilter();
+          this.classList.add("sidebar-active");
+        });
+      });
+    }
+
+    function clearAuthorTreeHighlight() {
+      if (!authorLociTree) return;
+      var prev = authorLociTree.querySelector(".sidebar-active");
+      if (prev) prev.classList.remove("sidebar-active");
     }
 
     // --- View toggle (home page only) ---
@@ -563,6 +606,27 @@
       if (locusParam) {
         filterInput.value = locusParam;
         applyFilter();
+        // Highlight matching sidebar node and expand its parents
+        if (authorLociTree) {
+          var treeLink = authorLociTree.querySelector('.author-loci-link[data-slug="' + locusParam + '"]');
+          if (treeLink) {
+            treeLink.classList.add("sidebar-active");
+            // Expand ancestor nodes so the active link is visible
+            var entry = flat[locusParam];
+            if (entry && entry.ancestors) {
+              for (var ai = 0; ai < entry.ancestors.length; ai++) {
+                var ancLink = authorLociTree.querySelector('.author-loci-link[data-slug="' + entry.ancestors[ai] + '"]');
+                if (ancLink) {
+                  var sibling = ancLink.nextElementSibling;
+                  if (sibling && sibling.classList.contains("stree-collapsed")) {
+                    sibling.classList.remove("stree-collapsed");
+                    ancLink.classList.add("expanded");
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -976,6 +1040,20 @@
     });
   });
 
+  // --- Work-level text toggle ---
+
+  document.querySelectorAll(".work-text-toggle").forEach(function (toggle) {
+    toggle.addEventListener("click", function (e) {
+      if (e.target.closest("a")) return;
+      var work = this.closest(".work");
+      if (!work) return;
+      var textDiv = work.querySelector(".work-text");
+      if (textDiv) {
+        textDiv.classList.toggle("work-text-collapsed");
+      }
+    });
+  });
+
   // --- Expandable section text ---
 
   document.querySelectorAll(".section-item.has-text").forEach(function (li) {
@@ -1061,6 +1139,13 @@
           sections.push({ title: titleEl.textContent.trim(), text: textEl.textContent.trim() });
         }
       });
+      // Fall back to work-level text if no section texts
+      if (sections.length === 0) {
+        var workTextEl = work.querySelector(".work-text");
+        if (workTextEl) {
+          sections.push({ title: meta.workTitle, text: workTextEl.textContent.trim() });
+        }
+      }
       if (sections.length === 0) return;
 
       var origText = self.textContent;
@@ -1623,6 +1708,9 @@
 
   document.querySelectorAll('.stree-toggle').forEach(function(toggle) {
     toggle.addEventListener('click', function(e) {
+      // Author page sidebar handles its own expand/collapse
+      if (this.classList.contains("author-loci-link")) return;
+
       // Only handle expand/collapse in topic mode (author mode handles it separately)
       var toggleBtn = document.getElementById("toggle-topic");
       if (toggleBtn && !toggleBtn.classList.contains("active")) return;

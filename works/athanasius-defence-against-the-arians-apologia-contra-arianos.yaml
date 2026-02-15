@@ -1,0 +1,54 @@
+athanasius-defence-against-the-arians-apologia-contra-arianos:
+  author: Q44024
+  date_added: 2026-02-15
+  # loci:
+  la:
+    title: Apologia Contra Arianos.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Defence Against the Arians.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - apologia-contra-arianos-defence-against-the-arians: Apologia Contra Arianos. (Defence Against the Arians.)
+        # loci:
+        sections:
+          - part-i: Part I
+            # loci:
+            sections:
+              - introduction-2: Introduction.
+                # loci:
+              - letter-of-julius-to-the-eusebians-at-antioch: Letter of Julius to the Eusebians at Antioch.
+                # loci:
+              - letters-of-the-council-of-sardica-to-the-churches-of-egypt-a: "Letters of the Council of Sardica to the Churches of Egypt and of Alexandria, and to all Churches."
+                # loci:
+              - imperial-and-ecclesiastical-acts-in-consequence-of-the-decis: Imperial and Ecclesiastical Acts in Consequence of the Decision of the Council of Sardica.
+                # loci:
+          - part-ii: Part II
+            # loci:
+            sections:
+              - documents-connected-with-the-charges-of-the-meletians-agains: Documents connected with the charges of the Meletians against S. Athanasius.
+                # loci:
+              - documents-connected-with-the-council-of-tyre: Documents connected with the Council of Tyre.
+                # loci:
+      - additional-note-on-apol-c-arianos-50: "Additional Note on Apol. C. Arianos, §50."
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xiii.i.html
+              - apologia-contra-arianos-defence-against-the-arians: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.html
+              - part-i: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.i.html
+              - introduction-2: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.i.i.html
+              - letter-of-julius-to-the-eusebians-at-antioch: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.i.ii.html
+              - letters-of-the-council-of-sardica-to-the-churches-of-egypt-a: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.i.iii.html
+              - imperial-and-ecclesiastical-acts-in-consequence-of-the-decis: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.i.iv.html
+              - part-ii: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.ii.html
+              - documents-connected-with-the-charges-of-the-meletians-agains: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.ii.i.html
+              - documents-connected-with-the-council-of-tyre: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.ii.ii.html
+              - additional-note-on-apol-c-arianos-50: https://ccel.org/ccel/s/schaff/npnf204.xiii.iii.html

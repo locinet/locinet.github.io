@@ -1,0 +1,27 @@
+athanasius-synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos:
+  author: Q44024
+  date_added: 2026-02-15
+  # loci:
+  la:
+    title: Tomus ad Antiochenos.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Synodal Letter to the People of Antioch.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos: Synodal Letter to the People of Antioch. (Tomus ad Antiochenos.)
+        # loci:
+      - appendix-exile-of-athanasius-under-julian-362-363: "Appendix. Exile of Athanasius under Julian, 362-363."
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xxiii.i.html
+              - synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos: https://ccel.org/ccel/s/schaff/npnf204.xxiii.ii.html
+              - appendix-exile-of-athanasius-under-julian-362-363: https://ccel.org/ccel/s/schaff/npnf204.xxiii.iii.html

@@ -1,0 +1,46 @@
+athanasius-encyclical-letter-epistola-encyclica:
+  author: Q44024
+  date_added: 2026-02-15
+  # loci:
+  la:
+    title: Epistola Encyclica.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Encyclical Letter.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - epistola-encyclica-encyclical-letter: Epistola Encyclica. (Encyclical Letter.)
+        # loci:
+        sections:
+          - circular-letter: Circular Letter.
+            # loci:
+          - violent-and-uncanonical-intrusion-of-gregory: Violent and Uncanonical Intrusion of Gregory.
+            # loci:
+          - outrages-which-took-place-at-the-time-of-gregorys-arrival: "Outrages which took place at the time of Gregory's arrival."
+            # loci:
+          - outrages-on-good-friday-and-easter-day-339: "Outrages on Good Friday and Easter Day, 339."
+            # loci:
+          - retirement-of-athanasius-and-tyranny-of-gregory-and-philagri: "Retirement of Athanasius, and tyranny of Gregory and Philagrius."
+            # loci:
+          - all-the-above-illegalities-were-carried-on-in-the-interest-o: All the above illegalities were carried on in the interest of Arianism.
+            # loci:
+          - appeal-to-the-bishops-of-the-whole-church-to-unite-against-g: Appeal to the bishops of the whole Church to unite against Gregory.
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xii.i.html
+              - epistola-encyclica-encyclical-letter: https://ccel.org/ccel/s/schaff/npnf204.xii.ii.html
+              - circular-letter: https://ccel.org/ccel/s/schaff/npnf204.xii.ii.i.html
+              - violent-and-uncanonical-intrusion-of-gregory: https://ccel.org/ccel/s/schaff/npnf204.xii.ii.ii.html
+              - outrages-which-took-place-at-the-time-of-gregorys-arrival: https://ccel.org/ccel/s/schaff/npnf204.xii.ii.iii.html
+              - outrages-on-good-friday-and-easter-day-339: https://ccel.org/ccel/s/schaff/npnf204.xii.ii.iv.html
+              - retirement-of-athanasius-and-tyranny-of-gregory-and-philagri: https://ccel.org/ccel/s/schaff/npnf204.xii.ii.v.html
+              - all-the-above-illegalities-were-carried-on-in-the-interest-o: https://ccel.org/ccel/s/schaff/npnf204.xii.ii.vi.html
+              - appeal-to-the-bishops-of-the-whole-church-to-unite-against-g: https://ccel.org/ccel/s/schaff/npnf204.xii.ii.vii.html

@@ -1,0 +1,34 @@
+athanasius-on-the-councils-of-ariminum-and-seleucia-de-synodis:
+  author: Q44024
+  date_added: 2026-02-15
+  loci: trinity
+  la:
+    title: De Synodis.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On the Councils of Ariminum and Seleucia.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - on-the-councils-of-ariminum-and-seleucia-de-synodis: On the Councils of Ariminum and Seleucia. (De Synodis.)
+        # loci:
+        sections:
+          - history-of-the-councils: History of the Councils.
+            # loci:
+          - history-of-arian-opinions: History of Arian Opinions.
+            # loci:
+          - on-the-symbols-of-the-essence-and-coessential: "On the Symbols 'Of the Essence' And 'Coessential.'"
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xxii.i.html
+              - on-the-councils-of-ariminum-and-seleucia-de-synodis: https://ccel.org/ccel/s/schaff/npnf204.xxii.ii.html
+              - history-of-the-councils: https://ccel.org/ccel/s/schaff/npnf204.xxii.ii.i.html
+              - history-of-arian-opinions: https://ccel.org/ccel/s/schaff/npnf204.xxii.ii.ii.html
+              - on-the-symbols-of-the-essence-and-coessential: https://ccel.org/ccel/s/schaff/npnf204.xxii.ii.iii.html

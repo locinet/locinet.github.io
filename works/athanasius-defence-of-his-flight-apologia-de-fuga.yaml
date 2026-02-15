@@ -1,0 +1,106 @@
+athanasius-defence-of-his-flight-apologia-de-fuga:
+  author: Q44024
+  date_added: 2026-02-15
+  # loci:
+  la:
+    title: Apologia de Fuga.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Defence of His Flight.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - defence-of-his-flight-apologia-de-fuga: Defence of His Flight. (Apologia de Fuga.)
+        # loci:
+        sections:
+          - athanasius-charged-with-cowardice-for-escaping: Athanasius charged with cowardice for escaping.
+            # loci:
+          - insincerity-of-this-charge: Insincerity of this charge.
+            # loci:
+          - outrages-of-the-arians-against-the-bishops: Outrages of the Arians against the Bishops.
+            # loci:
+          - proceedings-after-the-council-of-milan: Proceedings after the Council of Milan.
+            # loci:
+          - in-praise-of-hosius: In praise of Hosius.
+            # loci:
+          - outrages-of-george-upon-the-alexandrians: Outrages of George upon the Alexandrians.
+            # loci:
+          - outrages-of-george: Outrages of George.
+            # loci:
+          - if-it-is-wrong-to-flee-it-is-worse-to-persecute: "If it is wrong to flee, it is worse to persecute."
+            # loci:
+          - the-accusation-shews-the-mind-of-the-accusers: The accusation shews the mind of the accusers.
+            # loci:
+          - their-real-grievance-is-not-that-athanasius-is-a-coward-but-: "Their real grievance is not that Athanasius is a coward, but that he is free."
+            # loci:
+          - examples-of-scripture-saints-in-defence-of-flight: Examples of Scripture Saints in defence of flight.
+            # loci:
+          - the-lord-an-example-of-timely-flight: The Lord an example of timely flight.
+            # loci:
+          - example-of-our-lord: Example of Our Lord.
+            # loci:
+          - an-hour-and-a-time-for-all-men: An hour and a time for all men.
+            # loci:
+          - the-lords-hour-and-time: "The Lord's hour and time."
+            # loci:
+          - the-lords-example-followed-by-the-saints: "The Lord's example followed by the Saints."
+            # loci:
+          - a-time-to-flee-and-a-time-to-stay: A time to flee and a time to stay.
+            # loci:
+          - the-saints-who-fled-were-no-cowards: The Saints who fled were no cowards.
+            # loci:
+          - the-saints-courageous-in-their-flight-and-divinely-favoured: "The Saints courageous in their flight, and divinely favoured."
+            # loci:
+          - same-subject-continued: Same Subject Continued.
+            # loci:
+          - the-saints-fled-for-our-sakes: The Saints fled for our sakes.
+            # loci:
+          - same-subject-concluded: Same subject concluded.
+            # loci:
+          - persecution-is-from-the-devil: Persecution is from the Devil.
+            # loci:
+          - irruption-of-syrianus: Irruption of Syrianus.
+            # loci:
+          - athanasiuss-wonderful-escape: "Athanasius's wonderful escape."
+            # loci:
+          - he-acted-according-to-the-example-of-the-saints-character-of: He acted according to the example of the Saints. Character of his accusers.
+            # loci:
+          - conclusion: Conclusion.
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xix.i.html
+              - defence-of-his-flight-apologia-de-fuga: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.html
+              - athanasius-charged-with-cowardice-for-escaping: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.i.html
+              - insincerity-of-this-charge: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.ii.html
+              - outrages-of-the-arians-against-the-bishops: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.iii.html
+              - proceedings-after-the-council-of-milan: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.iv.html
+              - in-praise-of-hosius: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.v.html
+              - outrages-of-george-upon-the-alexandrians: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.vi.html
+              - outrages-of-george: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.vii.html
+              - if-it-is-wrong-to-flee-it-is-worse-to-persecute: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.viii.html
+              - the-accusation-shews-the-mind-of-the-accusers: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.ix.html
+              - their-real-grievance-is-not-that-athanasius-is-a-coward-but-: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.x.html
+              - examples-of-scripture-saints-in-defence-of-flight: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xi.html
+              - the-lord-an-example-of-timely-flight: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xii.html
+              - example-of-our-lord: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xiii.html
+              - an-hour-and-a-time-for-all-men: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xiv.html
+              - the-lords-hour-and-time: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xv.html
+              - the-lords-example-followed-by-the-saints: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xvi.html
+              - a-time-to-flee-and-a-time-to-stay: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xvii.html
+              - the-saints-who-fled-were-no-cowards: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xviii.html
+              - the-saints-courageous-in-their-flight-and-divinely-favoured: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xix.html
+              - same-subject-continued: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xx.html
+              - the-saints-fled-for-our-sakes: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xxi.html
+              - same-subject-concluded: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xxii.html
+              - persecution-is-from-the-devil: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xxiii.html
+              - irruption-of-syrianus: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xxiv.html
+              - athanasiuss-wonderful-escape: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xxv.html
+              - he-acted-according-to-the-example-of-the-saints-character-of: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xxvi.html
+              - conclusion: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.xxvii.html

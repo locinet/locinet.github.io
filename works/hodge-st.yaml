@@ -1,0 +1,1151 @@
+hodge-st:
+  author: Q970981
+  date_added: 2026-02-15
+  category: systematic
+  year: 1871
+  # loci:
+  en:
+    title: Systematic Theology
+    orig_lang: true
+    editions:
+      - year: 1940
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/hodge/theology1
+            section_urls:
+              - introduction: https://ccel.org/ccel/hodge/theology1/theology1.iii.html
+              - chapter-i-on-method: https://ccel.org/ccel/hodge/theology1/theology1.iii.i.html
+              - 1-theology-a-science: https://ccel.org/ccel/hodge/theology1/theology1.iii.i.i.html
+              - 2-theological-method: https://ccel.org/ccel/hodge/theology1/theology1.iii.i.ii.html
+              - 3-the-speculative-method: https://ccel.org/ccel/hodge/theology1/theology1.iii.i.iii.html
+              - 4-the-mystical-method: https://ccel.org/ccel/hodge/theology1/theology1.iii.i.iv.html
+              - 5-the-inductive-method: https://ccel.org/ccel/hodge/theology1/theology1.iii.i.v.html
+              - 6-the-scriptures-contain-all-the-facts-of-theology: https://ccel.org/ccel/hodge/theology1/theology1.iii.i.vi.html
+              - chapter-ii-theology: https://ccel.org/ccel/hodge/theology1/theology1.iii.ii.html
+              - 1-its-nature: https://ccel.org/ccel/hodge/theology1/theology1.iii.ii.i.html
+              - 2-the-facts-of-nature-reveal-god: https://ccel.org/ccel/hodge/theology1/theology1.iii.ii.ii.html
+              - 3-insufficiency-of-natural-theology: https://ccel.org/ccel/hodge/theology1/theology1.iii.ii.iii.html
+              - 4-christian-theology: https://ccel.org/ccel/hodge/theology1/theology1.iii.ii.iv.html
+              - chapter-iii-rationalism: https://ccel.org/ccel/hodge/theology1/theology1.iii.iii.html
+              - 1-meaning-and-usage-of-the-word: https://ccel.org/ccel/hodge/theology1/theology1.iii.iii.i.html
+              - 2-deistical-rationalism: https://ccel.org/ccel/hodge/theology1/theology1.iii.iii.ii.html
+              - 3-the-second-form-of-rationalism: https://ccel.org/ccel/hodge/theology1/theology1.iii.iii.iii.html
+              - 4-dogmatism-or-the-third-form-of-rationalism: https://ccel.org/ccel/hodge/theology1/theology1.iii.iii.iv.html
+              - 5-proper-office-of-reason-in-matters-of-religion: https://ccel.org/ccel/hodge/theology1/theology1.iii.iii.v.html
+              - 6-relation-of-philosophy-and-revelation: https://ccel.org/ccel/hodge/theology1/theology1.iii.iii.vi.html
+              - 7-office-of-the-senses-in-matters-of-faith: https://ccel.org/ccel/hodge/theology1/theology1.iii.iii.vii.html
+              - chapter-iv-mysticism: https://ccel.org/ccel/hodge/theology1/theology1.iii.iv.html
+              - 1-meaning-of-the-words-enthusiasm-and-mysticism: https://ccel.org/ccel/hodge/theology1/theology1.iii.iv.i.html
+              - 2-mysticism-in-the-early-church: https://ccel.org/ccel/hodge/theology1/theology1.iii.iv.ii.html
+              - 3-mysticism-during-the-middle-ages: https://ccel.org/ccel/hodge/theology1/theology1.iii.iv.iii.html
+              - 4-mysticism-at-and-after-the-reformation: https://ccel.org/ccel/hodge/theology1/theology1.iii.iv.iv.html
+              - 5-quietism: https://ccel.org/ccel/hodge/theology1/theology1.iii.iv.v.html
+              - 6-the-quakers-or-friends: https://ccel.org/ccel/hodge/theology1/theology1.iii.iv.vi.html
+              - 7-objections-to-the-mystical-theory: https://ccel.org/ccel/hodge/theology1/theology1.iii.iv.vii.html
+              - chapter-v-roman-catholic-doctrine-concerning-the-rule-of-fai: https://ccel.org/ccel/hodge/theology1/theology1.iii.v.html
+              - 1-statement-of-the-doctrine: https://ccel.org/ccel/hodge/theology1/theology1.iii.v.i.html
+              - 2-roman-catholic-doctrine-concerning-the-scriptures: https://ccel.org/ccel/hodge/theology1/theology1.iii.v.ii.html
+              - 3-tradition: https://ccel.org/ccel/hodge/theology1/theology1.iii.v.iii.html
+              - 4-the-office-of-the-church-as-teacher: https://ccel.org/ccel/hodge/theology1/theology1.iii.v.iv.html
+              - 5-examination-of-the-romish-doctrine: https://ccel.org/ccel/hodge/theology1/theology1.iii.v.v.html
+              - 6-examination-of-the-doctrine-of-the-church-of-rome-on-tradi: https://ccel.org/ccel/hodge/theology1/theology1.iii.v.vi.html
+              - 7-office-of-the-church-as-a-teacher: https://ccel.org/ccel/hodge/theology1/theology1.iii.v.vii.html
+              - chapter-vi-the-protestant-rule-of-faith: https://ccel.org/ccel/hodge/theology1/theology1.iii.vi.html
+              - 1-statement-of-the-doctrine-2: https://ccel.org/ccel/hodge/theology1/theology1.iii.vi.i.html
+              - 2-the-scriptures-are-infallible-i-e-given-by-inspiration-of-: https://ccel.org/ccel/hodge/theology1/theology1.iii.vi.ii.html
+              - 3-adverse-theories: https://ccel.org/ccel/hodge/theology1/theology1.iii.vi.iii.html
+              - 4-the-completeness-of-the-scriptures: https://ccel.org/ccel/hodge/theology1/theology1.iii.vi.iv.html
+              - 5-perspicuity-of-the-scriptures-the-right-of-private-judgmen: https://ccel.org/ccel/hodge/theology1/theology1.iii.vi.v.html
+              - 6-rules-of-interpretation: https://ccel.org/ccel/hodge/theology1/theology1.iii.vi.v_1.html
+              - part-i-theology-proper: https://ccel.org/ccel/hodge/theology1/theology1.iv.html
+              - chapter-i-origin-of-the-idea-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.i.html
+              - 1-the-knowledge-of-god-is-innate: https://ccel.org/ccel/hodge/theology1/theology1.iv.i.i.html
+              - 2-the-knowledge-of-god-is-not-due-to-a-process-of-reasoning: https://ccel.org/ccel/hodge/theology1/theology1.iv.i.ii.html
+              - 3-knowledge-of-god-not-due-exclusively-to-tradition: https://ccel.org/ccel/hodge/theology1/theology1.iv.i.iii.html
+              - 4-can-the-existence-of-god-be-proved: https://ccel.org/ccel/hodge/theology1/theology1.iv.i.iv.html
+              - chapter-ii-theism: https://ccel.org/ccel/hodge/theology1/theology1.iv.ii.html
+              - 1-the-ontological-argument: https://ccel.org/ccel/hodge/theology1/theology1.iv.ii.i.html
+              - 2-the-cosmological-argument: https://ccel.org/ccel/hodge/theology1/theology1.iv.ii.ii.html
+              - 3-the-teleological-argument: https://ccel.org/ccel/hodge/theology1/theology1.iv.ii.iii.html
+              - 4-objections-to-the-argument-from-design: https://ccel.org/ccel/hodge/theology1/theology1.iv.ii.iv.html
+              - 5-the-moral-or-anthropological-argument: https://ccel.org/ccel/hodge/theology1/theology1.iv.ii.ii_1.html
+              - chapter-iii-anti-theistic-theories: https://ccel.org/ccel/hodge/theology1/theology1.iv.iii.html
+              - 1-what-is-meant-by-anti-theism: https://ccel.org/ccel/hodge/theology1/theology1.iv.iii.i.html
+              - 2-polytheism: https://ccel.org/ccel/hodge/theology1/theology1.iv.iii.ii.html
+              - 3-hylozoism: https://ccel.org/ccel/hodge/theology1/theology1.iv.iii.iii.html
+              - 4-materialism: https://ccel.org/ccel/hodge/theology1/theology1.iv.iii.iv.html
+              - 5-pantheism: https://ccel.org/ccel/hodge/theology1/theology1.iv.iii.v.html
+              - chapter-iv-the-knowledge-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.iv.html
+              - 1-god-can-be-known: https://ccel.org/ccel/hodge/theology1/theology1.iv.iv.i.html
+              - 2-god-cannot-be-fully-known: https://ccel.org/ccel/hodge/theology1/theology1.iv.iv.ii.html
+              - 3-hamilton-s-doctrine: https://ccel.org/ccel/hodge/theology1/theology1.iv.iv.iii.html
+              - chapter-v-nature-and-attributes-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.html
+              - 1-definitions-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.i.html
+              - 2-divine-attributes: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.ii.html
+              - 3-classification-of-the-divine-attributes: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.iii.html
+              - 4-spirituality-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.iv.html
+              - 5-infinity: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.v.html
+              - 6-eternity: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.vi.html
+              - 7-immutability: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.vii.html
+              - 8-knowledge: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.viii.html
+              - 9-the-will-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.ix.html
+              - 10-the-power-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.x.html
+              - 11-holiness-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.xi.html
+              - 12-justice: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.xii.html
+              - 13-the-goodness-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.xiii.html
+              - 14-the-truth-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.xiv.html
+              - 15-sovereignty: https://ccel.org/ccel/hodge/theology1/theology1.iv.v.xv.html
+              - chapter-vi-the-trinity: https://ccel.org/ccel/hodge/theology1/theology1.iv.vi.html
+              - 1-preliminary-remarks: https://ccel.org/ccel/hodge/theology1/theology1.iv.vi.i.html
+              - 2-biblical-form-of-the-doctrine: https://ccel.org/ccel/hodge/theology1/theology1.iv.vi.ii.html
+              - 3-the-transition-period: https://ccel.org/ccel/hodge/theology1/theology1.iv.vi.iii.html
+              - 4-the-church-doctrine-as-presented-by-the-council-of-nice: https://ccel.org/ccel/hodge/theology1/theology1.iv.vi.iv.html
+              - 5-points-decided-by-these-councils: https://ccel.org/ccel/hodge/theology1/theology1.iv.vi.v.html
+              - 6-examination-of-the-nicene-doctrine: https://ccel.org/ccel/hodge/theology1/theology1.iv.vi.vi.html
+              - 7-philosophical-form-of-the-doctrine-of-the-trinity: https://ccel.org/ccel/hodge/theology1/theology1.iv.vi.iii_1.html
+              - chapter-vii-the-divinity-of-christ: https://ccel.org/ccel/hodge/theology1/theology1.iv.vii.html
+              - 1-testimony-of-the-old-testament: https://ccel.org/ccel/hodge/theology1/theology1.iv.vii.i.html
+              - 2-general-characteristics-of-the-new-testament-teaching-conc: https://ccel.org/ccel/hodge/theology1/theology1.iv.vii.ii.html
+              - 3-particular-passages-which-teach-the-divinity-of-christ: https://ccel.org/ccel/hodge/theology1/theology1.iv.vii.iii.html
+              - chapter-viii-the-holy-spirit: https://ccel.org/ccel/hodge/theology1/theology1.iv.viii.html
+              - 1-his-nature: https://ccel.org/ccel/hodge/theology1/theology1.iv.viii.i.html
+              - 2-the-office-of-the-holy-spirit: https://ccel.org/ccel/hodge/theology1/theology1.iv.viii.ii.html
+              - 3-history-of-the-doctrine-concerning-the-holy-spirit: https://ccel.org/ccel/hodge/theology1/theology1.iv.viii.iii.html
+              - chapter-ix-the-decrees-of-god: https://ccel.org/ccel/hodge/theology1/theology1.iv.ix.html
+              - 1-the-nature-of-the-decrees: https://ccel.org/ccel/hodge/theology1/theology1.iv.ix.i.html
+              - 2-objections-to-the-doctrine-of-divine-decrees: https://ccel.org/ccel/hodge/theology1/theology1.iv.ix.ii.html
+              - chapter-x-creation: https://ccel.org/ccel/hodge/theology1/theology1.iv.x.html
+              - 1-different-theories-concerning-the-origin-of-the-universe: https://ccel.org/ccel/hodge/theology1/theology1.iv.x.i.html
+              - 2-mediate-and-immediate-creation: https://ccel.org/ccel/hodge/theology1/theology1.iv.x.ii.html
+              - 3-proof-of-the-doctrine: https://ccel.org/ccel/hodge/theology1/theology1.iv.x.iii.html
+              - 4-objections-to-the-doctrine: https://ccel.org/ccel/hodge/theology1/theology1.iv.x.iv.html
+              - 5-design-of-the-creation: https://ccel.org/ccel/hodge/theology1/theology1.iv.x.v.html
+              - 6-the-mosaic-account-of-the-creation: https://ccel.org/ccel/hodge/theology1/theology1.iv.x.vi.html
+              - chapter-xi-providence: https://ccel.org/ccel/hodge/theology1/theology1.iv.xi.html
+              - 1-preservation: https://ccel.org/ccel/hodge/theology1/theology1.iv.xi.i.html
+              - 2-government: https://ccel.org/ccel/hodge/theology1/theology1.iv.xi.ii.html
+              - 3-different-theories-of-the-divine-government: https://ccel.org/ccel/hodge/theology1/theology1.iv.xi.iii.html
+              - 4-principles-involved-in-the-scriptural-doctrine-of-providen: https://ccel.org/ccel/hodge/theology1/theology1.iv.xi.iv.html
+              - chapter-xii-miracles: https://ccel.org/ccel/hodge/theology1/theology1.iv.xii.html
+              - 1-their-nature-meaning-and-usage-of-the-word: https://ccel.org/ccel/hodge/theology1/theology1.iv.xii.i.html
+              - 2-the-possibility-of-miracles: https://ccel.org/ccel/hodge/theology1/theology1.iv.xii.ii.html
+              - 3-can-a-miracle-be-known-as-such: https://ccel.org/ccel/hodge/theology1/theology1.iv.xii.iii.html
+              - 4-the-value-of-miracles-as-a-proof-of-a-divine-revelation: https://ccel.org/ccel/hodge/theology1/theology1.iv.xii.iv.html
+              - chapter-xiii-angels: https://ccel.org/ccel/hodge/theology1/theology1.iv.xiii.html
+              - 1-their-nature: https://ccel.org/ccel/hodge/theology1/theology1.iv.xiii.i.html
+              - 2-their-state: https://ccel.org/ccel/hodge/theology1/theology1.iv.xiii.ii.html
+              - 3-their-employments: https://ccel.org/ccel/hodge/theology1/theology1.iv.xiii.iii.html
+              - 4-evil-angels: https://ccel.org/ccel/hodge/theology1/theology1.iv.xiii.iv.html
+              - part-ii-anthropology: https://ccel.org/ccel/h/hodge/theology2.iii.html
+              - chapter-i-origin-of-man: https://ccel.org/ccel/h/hodge/theology2.iii.i.html
+              - 1-scriptural-doctrine: https://ccel.org/ccel/h/hodge/theology2.iii.i.i.html
+              - 2-anti-scriptural-theories: https://ccel.org/ccel/h/hodge/theology2.iii.i.ii.html
+              - 3-antiquity-of-man: https://ccel.org/ccel/h/hodge/theology2.iii.i.iii.html
+              - chapter-ii-nature-of-man: https://ccel.org/ccel/h/hodge/theology2.iii.ii.html
+              - 1-scripture-doctrine: https://ccel.org/ccel/h/hodge/theology2.iii.ii.i.html
+              - 2-trichotomy: https://ccel.org/ccel/h/hodge/theology2.iii.ii.ii.html
+              - 3-realism: https://ccel.org/ccel/h/hodge/theology2.iii.ii.iii.html
+              - 4-another-form-of-the-realistic-theory: https://ccel.org/ccel/h/hodge/theology2.iii.ii.iv.html
+              - chapter-iii-the-origin-of-the-soul: https://ccel.org/ccel/h/hodge/theology2.iii.iii.html
+              - 1-theory-of-pre-xistence: https://ccel.org/ccel/h/hodge/theology2.iii.iii.i.html
+              - 2-traducianism: https://ccel.org/ccel/h/hodge/theology2.iii.iii.ii.html
+              - 3-creationism: https://ccel.org/ccel/h/hodge/theology2.iii.iii.iii.html
+              - 4-concluding-remarks: https://ccel.org/ccel/h/hodge/theology2.iii.iii.iv.html
+              - chapter-iv-unity-of-the-human-race: https://ccel.org/ccel/h/hodge/theology2.iii.iv.html
+              - 1-meaning-of-the-word-or-the-idea-of-species: https://ccel.org/ccel/h/hodge/theology2.iii.iv.i.html
+              - 2-evidence-of-identity-of-species: https://ccel.org/ccel/h/hodge/theology2.iii.iv.ii.html
+              - 3-application-of-these-criteria-to-man: https://ccel.org/ccel/h/hodge/theology2.iii.iv.iii.html
+              - 4-philological-and-moral-evidence: https://ccel.org/ccel/h/hodge/theology2.iii.iv.iv.html
+              - chapter-v-original-state-of-man: https://ccel.org/ccel/h/hodge/theology2.iii.v.html
+              - 1-the-scriptural-doctrine: https://ccel.org/ccel/h/hodge/theology2.iii.v.i.html
+              - 2-man-created-in-the-image-of-god: https://ccel.org/ccel/h/hodge/theology2.iii.v.ii.html
+              - 3-original-righteousness: https://ccel.org/ccel/h/hodge/theology2.iii.v.iii.html
+              - 4-dominion-over-the-creatures: https://ccel.org/ccel/h/hodge/theology2.iii.v.iv.html
+              - 5-the-doctrine-of-the-romish-church: https://ccel.org/ccel/h/hodge/theology2.iii.v.v.html
+              - 6-pelagian-and-rationalistic-doctrine: https://ccel.org/ccel/h/hodge/theology2.iii.v.vi.html
+              - chapter-vi-covenant-of-works: https://ccel.org/ccel/h/hodge/theology2.iii.vi.html
+              - 1-god-entered-into-covenant-with-adam: https://ccel.org/ccel/h/hodge/theology2.iii.vi.i.html
+              - 2-the-promise: https://ccel.org/ccel/h/hodge/theology2.iii.vi.ii.html
+              - 3-condition-of-the-covenant: https://ccel.org/ccel/h/hodge/theology2.iii.vi.iii.html
+              - 4-the-penalty: https://ccel.org/ccel/h/hodge/theology2.iii.vi.iv.html
+              - 5-the-parties-to-the-covenant-of-works: https://ccel.org/ccel/h/hodge/theology2.iii.vi.v.html
+              - 6-perpetuity-of-the-covenant-of-works: https://ccel.org/ccel/h/hodge/theology2.iii.vi.vi.html
+              - chapter-vii-the-fall: https://ccel.org/ccel/h/hodge/theology2.iii.vii.html
+              - chapter-viii-sin: https://ccel.org/ccel/h/hodge/theology2.iii.viii.html
+              - 1-the-nature-of-the-question-to-be-considered: https://ccel.org/ccel/h/hodge/theology2.iii.viii.i.html
+              - 2-philosophical-theories-of-the-nature-of-sin: https://ccel.org/ccel/h/hodge/theology2.iii.viii.ii.html
+              - 3-the-doctrine-of-the-early-church: https://ccel.org/ccel/h/hodge/theology2.iii.viii.iii.html
+              - 4-pelagian-theory: https://ccel.org/ccel/h/hodge/theology2.iii.viii.iv.html
+              - 5-augustinian-doctrine: https://ccel.org/ccel/h/hodge/theology2.iii.viii.v.html
+              - 6-doctrine-of-the-church-of-rome: https://ccel.org/ccel/h/hodge/theology2.iii.viii.vi.html
+              - 7-protestant-doctrine-of-sin: https://ccel.org/ccel/h/hodge/theology2.iii.viii.vii.html
+              - 8-the-effects-of-adam-s-sin-upon-his-posterity: https://ccel.org/ccel/h/hodge/theology2.iii.viii.viii.html
+              - 9-immediate-imputation: https://ccel.org/ccel/h/hodge/theology2.iii.viii.ix.html
+              - 10-mediate-imputation: https://ccel.org/ccel/h/hodge/theology2.iii.viii.x.html
+              - 11-pre-xistence: https://ccel.org/ccel/h/hodge/theology2.iii.viii.xi.html
+              - 12-realistic-theory: https://ccel.org/ccel/h/hodge/theology2.iii.viii.xii.html
+              - 13-original-sin: https://ccel.org/ccel/h/hodge/theology2.iii.viii.xiii.html
+              - 14-the-seat-of-original-sin: https://ccel.org/ccel/h/hodge/theology2.iii.viii.xiv.html
+              - 15-inability: https://ccel.org/ccel/h/hodge/theology2.iii.viii.xv.html
+              - chapter-ix-free-agency: https://ccel.org/ccel/h/hodge/theology2.iii.ix.html
+              - 1-different-theories-of-the-will: https://ccel.org/ccel/h/hodge/theology2.iii.ix.i.html
+              - 2-definition-of-terms: https://ccel.org/ccel/h/hodge/theology2.iii.ix.ii.html
+              - 3-certainty-consistent-with-liberty: https://ccel.org/ccel/h/hodge/theology2.iii.ix.iii.html
+              - part-iii-soteriology: https://ccel.org/ccel/h/hodge/theology2.iv.html
+              - chapter-i-the-plan-of-salvation: https://ccel.org/ccel/h/hodge/theology2.iv.i.html
+              - 1-god-has-such-a-plan: https://ccel.org/ccel/h/hodge/theology2.iv.i.i.html
+              - 2-supralapsarianism: https://ccel.org/ccel/h/hodge/theology2.iv.i.ii.html
+              - 3-infralapsarianism: https://ccel.org/ccel/h/hodge/theology2.iv.i.iii.html
+              - 4-hypothetical-redemption: https://ccel.org/ccel/h/hodge/theology2.iv.i.iv.html
+              - 5-the-lutheran-doctrine-as-to-the-plan-of-salvation: https://ccel.org/ccel/h/hodge/theology2.iv.i.v.html
+              - 6-the-remonstrant-doctrine: https://ccel.org/ccel/h/hodge/theology2.iv.i.vi.html
+              - 7-wesleyan-arminianism: https://ccel.org/ccel/h/hodge/theology2.iv.i.vii.html
+              - 8-the-augustinian-scheme: https://ccel.org/ccel/h/hodge/theology2.iv.i.viii.html
+              - 9-objections-to-the-augustinian-scheme: https://ccel.org/ccel/h/hodge/theology2.iv.i.ix.html
+              - chapter-ii-the-covenant-of-grace: https://ccel.org/ccel/h/hodge/theology2.iv.ii.html
+              - 1-the-plan-of-salvation-is-a-covenant: https://ccel.org/ccel/h/hodge/theology2.iv.ii.i.html
+              - 2-different-views-of-the-nature-of-this-covenant: https://ccel.org/ccel/h/hodge/theology2.iv.ii.ii.html
+              - 3-parties-to-the-covenant: https://ccel.org/ccel/h/hodge/theology2.iv.ii.iii.html
+              - 4-covenant-of-redemption: https://ccel.org/ccel/h/hodge/theology2.iv.ii.iv.html
+              - 5-the-covenant-of-grace: https://ccel.org/ccel/h/hodge/theology2.iv.ii.v.html
+              - 6-the-identity-of-the-covenant-of-grace-under-all-dispensati: https://ccel.org/ccel/h/hodge/theology2.iv.ii.vi.html
+              - 7-different-dispensations: https://ccel.org/ccel/h/hodge/theology2.iv.ii.vii.html
+              - chapter-iii-person-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.iii.html
+              - 1-preliminary-remarks: https://ccel.org/ccel/h/hodge/theology2.iv.iii.i.html
+              - 2-the-scriptural-facts-concerning-the-person-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.iii.ii.html
+              - 3-the-hypostatical-union: https://ccel.org/ccel/h/hodge/theology2.iv.iii.iii.html
+              - 4-consequences-of-the-hypostatical-union: https://ccel.org/ccel/h/hodge/theology2.iv.iii.iv.html
+              - 5-erroneous-and-heretical-doctrines-on-the-person-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.iii.v.html
+              - 6-doctrine-of-the-reformed-churches: https://ccel.org/ccel/h/hodge/theology2.iv.iii.vi.html
+              - 7-lutheran-doctrine: https://ccel.org/ccel/h/hodge/theology2.iv.iii.vii.html
+              - 8-later-forms-of-the-doctrine: https://ccel.org/ccel/h/hodge/theology2.iv.iii.viii.html
+              - 9-modern-forms-of-the-doctrine: https://ccel.org/ccel/h/hodge/theology2.iv.iii.ix.html
+              - chapter-iv-the-mediatorial-work-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.iv.html
+              - 1-christ-the-only-mediator: https://ccel.org/ccel/h/hodge/theology2.iv.iv.i.html
+              - 2-qualifications-for-the-work: https://ccel.org/ccel/h/hodge/theology2.iv.iv.ii.html
+              - 3-the-threefold-office-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.iv.iii.html
+              - chapter-v-prophetic-office: https://ccel.org/ccel/h/hodge/theology2.iv.v.html
+              - 1-nature-of-the-prophetic-office: https://ccel.org/ccel/h/hodge/theology2.iv.v.i.html
+              - 2-how-christ-executes-the-office-of-a-prophet: https://ccel.org/ccel/h/hodge/theology2.iv.v.ii.html
+              - chapter-vi-priestly-office: https://ccel.org/ccel/h/hodge/theology2.iv.vi.html
+              - 1-christ-is-truly-not-figuratively-a-priest: https://ccel.org/ccel/h/hodge/theology2.iv.vi.i.html
+              - 2-christ-our-only-priest: https://ccel.org/ccel/h/hodge/theology2.iv.vi.ii.html
+              - 3-definition-of-terms: https://ccel.org/ccel/h/hodge/theology2.iv.vi.iii.html
+              - chapter-vii-satisfaction-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.vii.html
+              - 1-statement-of-the-doctrine: https://ccel.org/ccel/h/hodge/theology2.iv.vii.i.html
+              - 2-the-intrinsic-worth-of-christ-s-satisfaction: https://ccel.org/ccel/h/hodge/theology2.iv.vii.ii.html
+              - 3-doctrine-of-the-scotists-and-remonstrants: https://ccel.org/ccel/h/hodge/theology2.iv.vii.iii.html
+              - 4-satisfaction-rendered-to-justice: https://ccel.org/ccel/h/hodge/theology2.iv.vii.iv.html
+              - 5-the-work-of-christ-satisfies-the-demands-of-the-law: https://ccel.org/ccel/h/hodge/theology2.iv.vii.v.html
+              - 6-proof-of-the-doctrine: https://ccel.org/ccel/h/hodge/theology2.iv.vii.vi.html
+              - 7-objections: https://ccel.org/ccel/h/hodge/theology2.iv.vii.vii.html
+              - chapter-viii-for-whom-did-christ-die: https://ccel.org/ccel/h/hodge/theology2.iv.viii.html
+              - 1-state-of-the-question: https://ccel.org/ccel/h/hodge/theology2.iv.viii.i.html
+              - 2-proof-of-the-augustinian-doctrine: https://ccel.org/ccel/h/hodge/theology2.iv.viii.ii.html
+              - chapter-ix-theories-of-the-atonement: https://ccel.org/ccel/h/hodge/theology2.iv.ix.html
+              - 1-the-orthodox-view: https://ccel.org/ccel/h/hodge/theology2.iv.ix.i.html
+              - 2-doctrine-of-some-of-the-fathers: https://ccel.org/ccel/h/hodge/theology2.iv.ix.ii.html
+              - 3-the-moral-theory: https://ccel.org/ccel/h/hodge/theology2.iv.ix.iii.html
+              - 4-the-governmental-theory: https://ccel.org/ccel/h/hodge/theology2.iv.ix.iv.html
+              - 5-the-mystical-theory: https://ccel.org/ccel/h/hodge/theology2.iv.ix.v.html
+              - 6-concluding-remarks: https://ccel.org/ccel/h/hodge/theology2.iv.ix.vi.html
+              - chapter-x-intercession-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.x.html
+              - 1-christ-our-intercessor: https://ccel.org/ccel/h/hodge/theology2.iv.x.i.html
+              - 2-its-nature: https://ccel.org/ccel/h/hodge/theology2.iv.x.ii.html
+              - 3-its-objects: https://ccel.org/ccel/h/hodge/theology2.iv.x.iii.html
+              - 4-intercession-of-saints: https://ccel.org/ccel/h/hodge/theology2.iv.x.iv.html
+              - chapter-xi-kingly-office-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.xi.html
+              - 1-the-church-god-s-kingdom: https://ccel.org/ccel/h/hodge/theology2.iv.xi.i.html
+              - 2-christ-is-truly-a-king: https://ccel.org/ccel/h/hodge/theology2.iv.xi.ii.html
+              - 3-nature-of-christ-s-kingdom: https://ccel.org/ccel/h/hodge/theology2.iv.xi.iii.html
+              - 4-the-kingdom-of-glory: https://ccel.org/ccel/h/hodge/theology2.iv.xi.iv.html
+              - chapter-xii-humiliation-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.xii.html
+              - 1-includes-his-incarnation: https://ccel.org/ccel/h/hodge/theology2.iv.xii.i.html
+              - 2-he-was-made-under-the-law: https://ccel.org/ccel/h/hodge/theology2.iv.xii.ii.html
+              - 3-his-sufferings-and-death: https://ccel.org/ccel/h/hodge/theology2.iv.xii.iii.html
+              - 4-he-endured-the-wrath-of-god: https://ccel.org/ccel/h/hodge/theology2.iv.xii.iv.html
+              - 5-his-death-and-burial: https://ccel.org/ccel/h/hodge/theology2.iv.xii.v.html
+              - chapter-xiii-the-exaltation-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.xiii.html
+              - 1-resurrection-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.xiii.i.html
+              - 2-ascension-of-christ: https://ccel.org/ccel/h/hodge/theology2.iv.xiii.ii.html
+              - 3-sitting-at-the-right-hand-of-god: https://ccel.org/ccel/h/hodge/theology2.iv.xiii.iii.html
+              - 4-christ-s-coming-to-judge-the-world: https://ccel.org/ccel/h/hodge/theology2.iv.xiii.iv.html
+              - chapter-xiv-vocation: https://ccel.org/ccel/h/hodge/theology2.iv.xiv.html
+              - 1-scriptural-usage-of-the-word: https://ccel.org/ccel/h/hodge/theology2.iv.xiv.i.html
+              - 3-common-grace: https://ccel.org/ccel/h/hodge/theology2.iv.xiv.ii.html
+              - 4-efficacious-grace: https://ccel.org/ccel/h/hodge/theology2.iv.xiv.iii.html
+              - 5-proof-of-the-doctrine: https://ccel.org/ccel/h/hodge/theology2.iv.xiv.iv.html
+              - 6-objections: https://ccel.org/ccel/h/hodge/theology2.iv.xiv.v.html
+              - 7-history-of-the-doctrine-of-grace: https://ccel.org/ccel/h/hodge/theology2.iv.xiv.vi.html
+              - part-iii-continued: https://ccel.org/ccel/h/hodge/theology3.iii.html
+              - chapter-xv-regeneration: https://ccel.org/ccel/h/hodge/theology3.iii.i.html
+              - 1-usage-of-the-word: https://ccel.org/ccel/h/hodge/theology3.iii.i.i.html
+              - 2-nature-of-regeneration: https://ccel.org/ccel/h/hodge/theology3.iii.i.ii.html
+              - 3-the-evangelical-doctrine: https://ccel.org/ccel/h/hodge/theology3.iii.i.iii.html
+              - 4-objection: https://ccel.org/ccel/h/hodge/theology3.iii.i.iv.html
+              - chapter-xvi-faith: https://ccel.org/ccel/h/hodge/theology3.iii.ii.html
+              - 1-preliminary-remarks: https://ccel.org/ccel/h/hodge/theology3.iii.ii.i.html
+              - 2-the-psychological-nature-of-faith: https://ccel.org/ccel/h/hodge/theology3.iii.ii.ii.html
+              - 3-different-kinds-of-faith: https://ccel.org/ccel/h/hodge/theology3.iii.ii.iii.html
+              - 4-faith-and-knowledge: https://ccel.org/ccel/h/hodge/theology3.iii.ii.iv.html
+              - 5-faith-and-feeling: https://ccel.org/ccel/h/hodge/theology3.iii.ii.v.html
+              - 6-faith-and-love: https://ccel.org/ccel/h/hodge/theology3.iii.ii.vi.html
+              - 7-the-object-of-saving-faith: https://ccel.org/ccel/h/hodge/theology3.iii.ii.vii.html
+              - 8-effects-of-faith: https://ccel.org/ccel/h/hodge/theology3.iii.ii.viii.html
+              - chapter-xvii-justification: https://ccel.org/ccel/h/hodge/theology3.iii.iii.html
+              - 1-symbolical-statement-of-the-doctrine: https://ccel.org/ccel/h/hodge/theology3.iii.iii.i.html
+              - 2-justification-is-a-forensic-act: https://ccel.org/ccel/h/hodge/theology3.iii.iii.ii.html
+              - 3-works-not-the-ground-of-justification: https://ccel.org/ccel/h/hodge/theology3.iii.iii.iii.html
+              - 4-the-righteousness-of-christ-the-ground-of-justification: https://ccel.org/ccel/h/hodge/theology3.iii.iii.iv.html
+              - 5-imputation-of-righteousness: https://ccel.org/ccel/h/hodge/theology3.iii.iii.v.html
+              - 6-proof-of-the-doctrine: https://ccel.org/ccel/h/hodge/theology3.iii.iii.vi.html
+              - 7-the-consequences-of-the-imputation-of-righteousness: https://ccel.org/ccel/h/hodge/theology3.iii.iii.vii.html
+              - 8-relation-of-faith-to-justification: https://ccel.org/ccel/h/hodge/theology3.iii.iii.viii.html
+              - 9-objections-to-the-protestant-doctrine-of-justification: https://ccel.org/ccel/h/hodge/theology3.iii.iii.ix.html
+              - 10-departures-from-the-protestant-doctrine: https://ccel.org/ccel/h/hodge/theology3.iii.iii.x.html
+              - 11-modern-views-on-justification: https://ccel.org/ccel/h/hodge/theology3.iii.iii.xi.html
+              - chapter-xviii-sanctification: https://ccel.org/ccel/h/hodge/theology3.iii.iv.html
+              - 1-its-nature: https://ccel.org/ccel/h/hodge/theology3.iii.iv.i.html
+              - 2-wherein-it-consists: https://ccel.org/ccel/h/hodge/theology3.iii.iv.ii.html
+              - 3-the-method-of-sanctification: https://ccel.org/ccel/h/hodge/theology3.iii.iv.iii.html
+              - 4-the-fruits-of-sanctification-or-good-works: https://ccel.org/ccel/h/hodge/theology3.iii.iv.iv.html
+              - 5-necessity-of-good-works: https://ccel.org/ccel/h/hodge/theology3.iii.iv.v.html
+              - 6-relation-of-good-works-to-reward: https://ccel.org/ccel/h/hodge/theology3.iii.iv.vi.html
+              - 7-perfectionism: https://ccel.org/ccel/h/hodge/theology3.iii.iv.vii.html
+              - 8-theories-of-perfectionism: https://ccel.org/ccel/h/hodge/theology3.iii.iv.viii.html
+              - chapter-xix-the-law: https://ccel.org/ccel/h/hodge/theology3.iii.v.html
+              - 1-preliminary-principles: https://ccel.org/ccel/h/hodge/theology3.iii.v.i.html
+              - 2-division-of-the-contents-of-the-decalogue: https://ccel.org/ccel/h/hodge/theology3.iii.v.ii.html
+              - 3-preface-to-the-ten-commandments: https://ccel.org/ccel/h/hodge/theology3.iii.v.iii.html
+              - 4-the-first-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.iv.html
+              - 5-the-invocation-of-saints-and-angels: https://ccel.org/ccel/h/hodge/theology3.iii.v.v.html
+              - 6-the-second-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.vi.html
+              - 7-the-third-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.vii.html
+              - 8-the-fourth-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.viii.html
+              - 9-the-fifth-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.ix.html
+              - 10-the-sixth-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.x.html
+              - 11-the-seventh-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.xi.html
+              - 12-the-eighth-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.xii.html
+              - 13-the-ninth-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.xiii.html
+              - 14-the-tenth-commandment: https://ccel.org/ccel/h/hodge/theology3.iii.v.xiv.html
+              - chapter-xx-the-means-of-grace: https://ccel.org/ccel/h/hodge/theology3.iii.vi.html
+              - 1-the-word: https://ccel.org/ccel/h/hodge/theology3.iii.vi.i.html
+              - 2-the-sacraments-their-nature: https://ccel.org/ccel/h/hodge/theology3.iii.vi.ii.html
+              - 3-nnmber-of-the-sacraments: https://ccel.org/ccel/h/hodge/theology3.iii.vi.iii.html
+              - 4-the-efficacy-of-the-sacraments: https://ccel.org/ccel/h/hodge/theology3.iii.vi.iv.html
+              - 5-the-necessity-of-the-sacraments: https://ccel.org/ccel/h/hodge/theology3.iii.vi.v.html
+              - 6-validity-of-the-sacraments: https://ccel.org/ccel/h/hodge/theology3.iii.vi.vi.html
+              - 7-baptism: https://ccel.org/ccel/h/hodge/theology3.iii.vi.vii.html
+              - 8-the-formula-of-baptism: https://ccel.org/ccel/h/hodge/theology3.iii.vi.viii.html
+              - 9-the-subjects-of-baptism: https://ccel.org/ccel/h/hodge/theology3.iii.vi.ix.html
+              - 10-infant-baptism: https://ccel.org/ccel/h/hodge/theology3.iii.vi.x.html
+              - 11-whose-children-are-entitled-to-baptism: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xi.html
+              - 12-efficacy-of-baptism: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xii.html
+              - 13-lutheran-doctrine-of-baptism: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xiii.html
+              - 14-doctrine-of-the-church-of-rome: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xiv.html
+              - 15-the-lord-s-supper: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xv.html
+              - 16-doctrine-of-the-reformed-church-on-the-lord-s-supper: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xvi.html
+              - 17-modern-views-concerning-the-lord-s-supper: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xvii.html
+              - 18-the-lutheran-doctrine-concerning-the-lord-s-supper: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xviii.html
+              - 19-doctrine-of-the-church-of-rome-on-the-lord-s-supper: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xix.html
+              - 20-prayer: https://ccel.org/ccel/h/hodge/theology3.iii.vi.xx.html
+              - part-iv-eschatology: https://ccel.org/ccel/h/hodge/theology3.iv.html
+              - chapter-i-state-of-the-soul-after-death: https://ccel.org/ccel/h/hodge/theology3.iv.i.html
+              - 1-protestant-doctrine: https://ccel.org/ccel/h/hodge/theology3.iv.i.i.html
+              - 2-the-sleep-of-the-soul: https://ccel.org/ccel/h/hodge/theology3.iv.i.ii.html
+              - 3-patristic-doctrine-of-the-intermediate-state: https://ccel.org/ccel/h/hodge/theology3.iv.i.iii.html
+              - 4-doctrine-of-the-church-of-rome: https://ccel.org/ccel/h/hodge/theology3.iv.i.iv.html
+              - the-resurrection: https://ccel.org/ccel/h/hodge/theology3.iv.ii.html
+              - 1-the-scriptural-doctrine: https://ccel.org/ccel/h/hodge/theology3.iv.ii.i.html
+              - 2-history-of-the-doctrine: https://ccel.org/ccel/h/hodge/theology3.iv.ii.ii.html
+              - second-advent: https://ccel.org/ccel/h/hodge/theology3.iv.iii.html
+              - 1-preliminary-remarks-2: https://ccel.org/ccel/h/hodge/theology3.iv.iii.i.html
+              - 2-the-common-church-doctrine: https://ccel.org/ccel/h/hodge/theology3.iv.iii.ii.html
+              - 3-the-personal-advent-of-christ: https://ccel.org/ccel/h/hodge/theology3.iv.iii.iii.html
+              - 4-the-calling-of-the-gentiles: https://ccel.org/ccel/h/hodge/theology3.iv.iii.iv.html
+              - 5-conversion-of-the-jews: https://ccel.org/ccel/h/hodge/theology3.iv.iii.v.html
+              - 6-antichrist: https://ccel.org/ccel/h/hodge/theology3.iv.iii.vi.html
+              - the-concomitants-of-the-second-advent: https://ccel.org/ccel/h/hodge/theology3.iv.iv.html
+              - 1-the-general-resurrection: https://ccel.org/ccel/h/hodge/theology3.iv.iv.i.html
+              - 2-the-final-judgment: https://ccel.org/ccel/h/hodge/theology3.iv.iv.ii.html
+              - 3-the-end-of-the-world: https://ccel.org/ccel/h/hodge/theology3.iv.iv.iii.html
+              - 4-the-kingdom-of-heaven: https://ccel.org/ccel/h/hodge/theology3.iv.iv.iv.html
+              - 5-the-theory-of-the-pre-millennial-advent: https://ccel.org/ccel/h/hodge/theology3.iv.iv.v.html
+              - 6-future-punishment: https://ccel.org/ccel/h/hodge/theology3.iv.iv.vi.html
+
+    sections:
+      - introduction: Introduction
+        # loci:
+        sections:
+          - chapter-i-on-method: Chapter I. On Method.
+            # loci:
+            sections:
+              - 1-theology-a-science: 1. Theology a Science.
+                # loci:
+              - 2-theological-method: 2. Theological Method.
+                # loci:
+              - 3-the-speculative-method: 3. The Speculative Method.
+                # loci:
+              - 4-the-mystical-method: 4. The Mystical Method.
+                # loci:
+              - 5-the-inductive-method: 5. The Inductive Method.
+                # loci:
+              - 6-the-scriptures-contain-all-the-facts-of-theology: 6. The Scriptures contain all the Facts of Theology.
+                # loci:
+          - chapter-ii-theology: Chapter II. Theology.
+            # loci:
+            sections:
+              - 1-its-nature: 1. Its Nature.
+                # loci:
+              - 2-the-facts-of-nature-reveal-god: 2. The Facts of Nature Reveal God.
+                # loci:
+              - 3-insufficiency-of-natural-theology: 3. Insufficiency of Natural Theology.
+                # loci:
+              - 4-christian-theology: 4. Christian Theology.
+                # loci:
+          - chapter-iii-rationalism: Chapter III. Rationalism.
+            # loci:
+            sections:
+              - 1-meaning-and-usage-of-the-word: 1. Meaning and Usage of the Word.
+                # loci:
+              - 2-deistical-rationalism: 2. Deistical Rationalism.
+                # loci:
+              - 3-the-second-form-of-rationalism: 3. The Second Form of Rationalism.
+                # loci:
+              - 4-dogmatism-or-the-third-form-of-rationalism: "4. Dogmatism, or the Third Form of Rationalism."
+                # loci:
+              - 5-proper-office-of-reason-in-matters-of-religion: 5. Proper Office of Reason in Matters of Religion.
+                # loci:
+              - 6-relation-of-philosophy-and-revelation: 6. Relation of Philosophy and Revelation.
+                # loci:
+              - 7-office-of-the-senses-in-matters-of-faith: 7. Office of the Senses in Matters of Faith.
+                # loci:
+          - chapter-iv-mysticism: Chapter IV. Mysticism.
+            # loci:
+            sections:
+              - 1-meaning-of-the-words-enthusiasm-and-mysticism: 1. Meaning of the Words Enthusiasm and Mysticism.
+                # loci:
+              - 2-mysticism-in-the-early-church: 2. Mysticism in the Early Church.
+                # loci:
+              - 3-mysticism-during-the-middle-ages: 3. Mysticism during the Middle Ages.
+                # loci:
+              - 4-mysticism-at-and-after-the-reformation: "4. Mysticism at, and after the Reformation."
+                # loci:
+              - 5-quietism: 5. Quietism.
+                # loci:
+              - 6-the-quakers-or-friends: 6. The Quakers or Friends.
+                # loci:
+              - 7-objections-to-the-mystical-theory: 7. Objections to the Mystical Theory.
+                # loci:
+          - chapter-v-roman-catholic-doctrine-concerning-the-rule-of-fai: Chapter V. Roman Catholic Doctrine Concerning the Rule of Faith.
+            # loci:
+            sections:
+              - 1-statement-of-the-doctrine: 1. Statement of the Doctrine.
+                # loci:
+              - 2-roman-catholic-doctrine-concerning-the-scriptures: 2. Roman Catholic Doctrine concerning the Scriptures.
+                # loci:
+              - 3-tradition: 3. Tradition.
+                # loci:
+              - 4-the-office-of-the-church-as-teacher: 4. The Office of the Church as Teacher.
+                # loci:
+              - 5-examination-of-the-romish-doctrine: 5. Examination of the Romish Doctrine.
+                # loci:
+              - 6-examination-of-the-doctrine-of-the-church-of-rome-on-tradi: 6. Examination of the Doctrine of the Church of Rome on Tradition
+                # loci:
+              - 7-office-of-the-church-as-a-teacher: 7. Office of the Church as a Teacher.
+                # loci:
+          - chapter-vi-the-protestant-rule-of-faith: Chapter VI. The Protestant Rule of Faith.
+            loci: scripture
+            sections:
+              - 1-statement-of-the-doctrine-2: 1. Statement of the Doctrine.
+                # loci:
+              - 2-the-scriptures-are-infallible-i-e-given-by-inspiration-of-: "2. The Scriptures are Infallible, i. e., given by Inspiration of God."
+                loci: credibility-of-scripture
+              - 3-adverse-theories: 3. Adverse Theories.
+                # loci:
+              - 4-the-completeness-of-the-scriptures: 4. The Completeness of the Scriptures.
+                loci: sufficiency-of-scripture
+              - 5-perspicuity-of-the-scriptures-the-right-of-private-judgmen: 5. Perspicuity of the Scriptures. The Right of Private Judgment.
+                # loci:
+              - 6-rules-of-interpretation: 6. Rules of interpretation.
+                # loci:
+      - part-i-theology-proper: Part I. Theology Proper.
+        # loci:
+        sections:
+          - chapter-i-origin-of-the-idea-of-god: Chapter I. Origin of the Idea of God.
+            loci: knowability-of-god
+            sections:
+              - 1-the-knowledge-of-god-is-innate: 1. The Knowledge of God is Innate.
+                # loci:
+              - 2-the-knowledge-of-god-is-not-due-to-a-process-of-reasoning: 2. The Knowledge of God is not due to a Process of Reasoning.
+                # loci:
+              - 3-knowledge-of-god-not-due-exclusively-to-tradition: 3. Knowledge of God not due exclusively to Tradition.
+                # loci:
+              - 4-can-the-existence-of-god-be-proved: "4. Can the Existence of God be proved?"
+                # loci:
+          - chapter-ii-theism: Chapter II. Theism.
+            loci: existence-of-god
+            sections:
+              - 1-the-ontological-argument: 1. The Ontological Argument.
+                # loci:
+              - 2-the-cosmological-argument: 2. The Cosmological Argument.
+                # loci:
+              - 3-the-teleological-argument: 3. The Teleological Argument.
+                # loci:
+              - 4-objections-to-the-argument-from-design: 4. Objections to the Argument from Design.
+                # loci:
+              - 5-the-moral-or-anthropological-argument: "5. The Moral, or Anthropological Argument."
+                # loci:
+          - chapter-iii-anti-theistic-theories: Chapter III. Anti-Theistic Theories
+            # loci:
+            sections:
+              - 1-what-is-meant-by-anti-theism: 1. What is meant by Anti-Theism.
+                # loci:
+              - 2-polytheism: 2. Polytheism.
+                # loci:
+              - 3-hylozoism: 3. Hylozoism.
+                # loci:
+              - 4-materialism: 4. Materialism.
+                # loci:
+              - 5-pantheism: 5. Pantheism.
+                # loci:
+          - chapter-iv-the-knowledge-of-god: Chapter IV. The Knowledge of God.
+            loci: knowability-of-god
+            sections:
+              - 1-god-can-be-known: 1. God can be known.
+                # loci:
+              - 2-god-cannot-be-fully-known: 2. God cannot be fully known.
+                # loci:
+              - 3-hamilton-s-doctrine: 3. Hamilton’s Doctrine.
+                # loci:
+          - chapter-v-nature-and-attributes-of-god: Chapter V. Nature and Attributes of God.
+            loci: attributes-of-god
+            sections:
+              - 1-definitions-of-god: 1. Definitions of God.
+                # loci:
+              - 2-divine-attributes: 2. Divine Attributes.
+                # loci:
+              - 3-classification-of-the-divine-attributes: 3. Classification of the Divine Attributes.
+                # loci:
+              - 4-spirituality-of-god: 4. Spirituality of God.
+                # loci:
+              - 5-infinity: 5. Infinity.
+                loci: divine-infinity
+              - 6-eternity: 6. Eternity.
+                loci: divine-eternity
+              - 7-immutability: 7. Immutability.
+                loci: divine-immutability
+              - 8-knowledge: 8. Knowledge.
+                loci: knowledge-of-god
+              - 9-the-will-of-god: 9. The Will of God
+                loci: will-of-god
+              - 10-the-power-of-god: 10. The Power of God.
+                loci: power-of-god
+              - 11-holiness-of-god: 11. Holiness of God.
+                # loci:
+              - 12-justice: 12. Justice.
+                loci: divine-justice
+              - 13-the-goodness-of-god: 13. The Goodness of God.
+                loci: goodness-of-god
+              - 14-the-truth-of-god: 14. The Truth of God.
+                # loci:
+              - 15-sovereignty: 15. Sovereignty
+                # loci:
+          - chapter-vi-the-trinity: Chapter VI. The Trinity.
+            loci: trinity
+            sections:
+              - 1-preliminary-remarks: 1. Preliminary Remarks.
+                # loci:
+              - 2-biblical-form-of-the-doctrine: 2. Biblical Form of the Doctrine.
+                # loci:
+              - 3-the-transition-period: 3. The Transition Period.
+                # loci:
+              - 4-the-church-doctrine-as-presented-by-the-council-of-nice: 4. The Church Doctrine as presented by the Council of Nice.
+                # loci:
+              - 5-points-decided-by-these-councils: 5. Points decided by these Councils.
+                # loci:
+              - 6-examination-of-the-nicene-doctrine: 6. Examination of the Nicene Doctrine.
+                # loci:
+              - 7-philosophical-form-of-the-doctrine-of-the-trinity: 7. Philosophical Form of the Doctrine of the Trinity.
+                # loci:
+          - chapter-vii-the-divinity-of-christ: Chapter VII. The Divinity of Christ.
+            loci: natures-of-christ
+            sections:
+              - 1-testimony-of-the-old-testament: 1. Testimony of the Old Testament.
+                # loci:
+              - 2-general-characteristics-of-the-new-testament-teaching-conc: 2. General Characteristics of the New Testament Teaching concerning Christ.
+                # loci:
+              - 3-particular-passages-which-teach-the-divinity-of-christ: 3. Particular Passages which Teach the Divinity of Christ
+                # loci:
+          - chapter-viii-the-holy-spirit: Chapter VIII. The Holy Spirit.
+            loci: trinity
+            sections:
+              - 1-his-nature: 1. His Nature.
+                # loci:
+              - 2-the-office-of-the-holy-spirit: 2. The Office of the Holy Spirit.
+                # loci:
+              - 3-history-of-the-doctrine-concerning-the-holy-spirit: 3. History of the Doctrine concerning the Holy Spirit.
+                # loci:
+          - chapter-ix-the-decrees-of-god: Chapter IX. The Decrees of God.
+            loci: predestination
+            sections:
+              - 1-the-nature-of-the-decrees: 1. The Nature of the Decrees
+                # loci:
+              - 2-objections-to-the-doctrine-of-divine-decrees: 2. Objections to the Doctrine of Divine Decrees
+                # loci:
+          - chapter-x-creation: Chapter X. Creation.
+            loci: creation
+            sections:
+              - 1-different-theories-concerning-the-origin-of-the-universe: 1. Different Theories concerning the Origin of the Universe.
+                # loci:
+              - 2-mediate-and-immediate-creation: 2. Mediate and Immediate Creation.
+                # loci:
+              - 3-proof-of-the-doctrine: 3. Proof of the Doctrine.
+                # loci:
+              - 4-objections-to-the-doctrine: 4. Objections to the Doctrine.
+                # loci:
+              - 5-design-of-the-creation: 5. Design of the Creation.
+                # loci:
+              - 6-the-mosaic-account-of-the-creation: 6. The Mosaic Account of the Creation.
+                # loci:
+          - chapter-xi-providence: Chapter XI. Providence.
+            loci: providence
+            sections:
+              - 1-preservation: 1. Preservation.
+                # loci:
+              - 2-government: 2. Government.
+                # loci:
+              - 3-different-theories-of-the-divine-government: 3. Different Theories of the Divine Government.
+                # loci:
+              - 4-principles-involved-in-the-scriptural-doctrine-of-providen: 4. Principles involved in the Scriptural Doctrine of Providence.
+                # loci:
+          - chapter-xii-miracles: Chapter XII. Miracles.
+            # loci:
+            sections:
+              - 1-their-nature-meaning-and-usage-of-the-word: 1. Their Nature. Meaning and Usage of the Word.
+                # loci:
+              - 2-the-possibility-of-miracles: 2. The Possibility of Miracles.
+                # loci:
+              - 3-can-a-miracle-be-known-as-such: "3. Can a Miracle be known as such?"
+                # loci:
+              - 4-the-value-of-miracles-as-a-proof-of-a-divine-revelation: 4. The Value of Miracles as a Proof of a Divine Revelation.
+                # loci:
+          - chapter-xiii-angels: Chapter XIII. Angels.
+            loci: nature-of-angels
+            sections:
+              - 1-their-nature: 1. Their Nature.
+                # loci:
+              - 2-their-state: 2. Their State.
+                # loci:
+              - 3-their-employments: 3. Their Employments
+                # loci:
+              - 4-evil-angels: 4. Evil Angels.
+                loci: fall-of-angels
+      - part-ii-anthropology: Part II. Anthropology
+        # loci:
+        sections:
+          - chapter-i-origin-of-man: Chapter I. Origin of Man.
+            # loci:
+            sections:
+              - 1-scriptural-doctrine: 1. Scriptural Doctrine.
+                # loci:
+              - 2-anti-scriptural-theories: 2. Anti-Scriptural Theories.
+                # loci:
+              - 3-antiquity-of-man: 3. Antiquity of Man.
+                # loci:
+          - chapter-ii-nature-of-man: Chapter II. Nature of Man.
+            loci: nature-of-man
+            sections:
+              - 1-scripture-doctrine: 1. Scripture Doctrine
+                # loci:
+              - 2-trichotomy: 2. Trichotomy.
+                loci: soul
+              - 3-realism: 3. Realism.
+                # loci:
+              - 4-another-form-of-the-realistic-theory: 4. Another form of the Realistic Theory.
+                # loci:
+          - chapter-iii-the-origin-of-the-soul: Chapter III. The Origin of the Soul.
+            loci: soul
+            sections:
+              - 1-theory-of-pre-xistence: 1. Theory of Preëxistence.
+                # loci:
+              - 2-traducianism: 2. Traducianism.
+                # loci:
+              - 3-creationism: 3. Creationism.
+                # loci:
+              - 4-concluding-remarks: 4. Concluding Remarks.
+                # loci:
+          - chapter-iv-unity-of-the-human-race: Chapter IV. Unity of the Human Race.
+            # loci:
+            sections:
+              - 1-meaning-of-the-word-or-the-idea-of-species: "1. Meaning of the Word, or the Idea of Species."
+                # loci:
+              - 2-evidence-of-identity-of-species: 2. Evidence of Identity of Species.
+                # loci:
+              - 3-application-of-these-criteria-to-man: 3. Application of these Criteria to Man.
+                # loci:
+              - 4-philological-and-moral-evidence: 4. Philological and Moral Evidence
+                # loci:
+          - chapter-v-original-state-of-man: Chapter V. Original State of Man.
+            loci: original-righteousness
+            sections:
+              - 1-the-scriptural-doctrine: 1. The Scriptural Doctrine.
+                # loci:
+              - 2-man-created-in-the-image-of-god: 2. Man Created in the Image of God.
+                loci: image-of-god
+              - 3-original-righteousness: 3. Original Righteousness.
+                # loci:
+              - 4-dominion-over-the-creatures: 4. Dominion over the Creatures.
+                # loci:
+              - 5-the-doctrine-of-the-romish-church: 5. The Doctrine of the Romish Church.
+                # loci:
+              - 6-pelagian-and-rationalistic-doctrine: 6. Pelagian and Rationalistic Doctrine.
+                # loci:
+          - chapter-vi-covenant-of-works: Chapter VI. Covenant of Works.
+            # loci:
+            sections:
+              - 1-god-entered-into-covenant-with-adam: 1. God entered into Covenant with Adam.
+                # loci:
+              - 2-the-promise: 2. The Promise.
+                # loci:
+              - 3-condition-of-the-covenant: 3. Condition of the Covenant.
+                # loci:
+              - 4-the-penalty: 4. The Penalty.
+                # loci:
+              - 5-the-parties-to-the-covenant-of-works: 5. The Parties to the Covenant of Works.
+                # loci:
+              - 6-perpetuity-of-the-covenant-of-works: 6. Perpetuity of the Covenant of Works
+                # loci:
+          - chapter-vii-the-fall: Chapter VII. The Fall.
+            loci: fall-of-man
+          - chapter-viii-sin: Chapter VIII. Sin.
+            loci: sin
+            sections:
+              - 1-the-nature-of-the-question-to-be-considered: 1. The Nature of the Question to be Considered.
+                # loci:
+              - 2-philosophical-theories-of-the-nature-of-sin: 2. Philosophical Theories of the Nature of Sin.
+                # loci:
+              - 3-the-doctrine-of-the-early-church: 3. The Doctrine of the Early Church.
+                # loci:
+              - 4-pelagian-theory: 4. Pelagian Theory.
+                # loci:
+              - 5-augustinian-doctrine: 5. Augustinian Doctrine.
+                # loci:
+              - 6-doctrine-of-the-church-of-rome: 6. Doctrine of the Church of Rome.
+                # loci:
+              - 7-protestant-doctrine-of-sin: 7. Protestant Doctrine of Sin.
+                # loci:
+              - 8-the-effects-of-adam-s-sin-upon-his-posterity: 8. The Effects of Adam’s Sin upon his Posterity.
+                # loci:
+              - 9-immediate-imputation: 9. Immediate Imputation.
+                loci: transmission-of-sin
+              - 10-mediate-imputation: 10. Mediate Imputation.
+                loci: transmission-of-sin
+              - 11-pre-xistence: 11. Preëxistence.
+                # loci:
+              - 12-realistic-theory: 12. Realistic Theory.
+                # loci:
+              - 13-original-sin: 13. Original Sin.
+                loci: original-sin
+              - 14-the-seat-of-original-sin: 14. The Seat of Original Sin.
+                # loci:
+              - 15-inability: 15. Inability.
+                loci: free-will
+          - chapter-ix-free-agency: Chapter IX. Free Agency.
+            loci: free-will
+            sections:
+              - 1-different-theories-of-the-will: 1. Different Theories of the Will.
+                # loci:
+              - 2-definition-of-terms: 2. Definition of Terms.
+                # loci:
+              - 3-certainty-consistent-with-liberty: 3. Certainty Consistent with Liberty.
+                # loci:
+      - part-iii-soteriology: Part III. Soteriology.
+        # loci:
+        sections:
+          - chapter-i-the-plan-of-salvation: Chapter I. The Plan of Salvation.
+            loci: predestination
+            sections:
+              - 1-god-has-such-a-plan: 1. God has such a Plan.
+                # loci:
+              - 2-supralapsarianism: 2. Supralapsarianism.
+                # loci:
+              - 3-infralapsarianism: 3. Infralapsarianism.
+                # loci:
+              - 4-hypothetical-redemption: 4. Hypothetical Redemption.
+                # loci:
+              - 5-the-lutheran-doctrine-as-to-the-plan-of-salvation: 5. The Lutheran Doctrine as to the Plan of Salvation.
+                # loci:
+              - 6-the-remonstrant-doctrine: 6. The Remonstrant Doctrine.
+                # loci:
+              - 7-wesleyan-arminianism: 7. Wesleyan Arminianism.
+                # loci:
+              - 8-the-augustinian-scheme: 8. The Augustinian Scheme.
+                # loci:
+              - 9-objections-to-the-augustinian-scheme: 9. Objections to the Augustinian Scheme.
+                # loci:
+          - chapter-ii-the-covenant-of-grace: Chapter II. The Covenant of Grace.
+            loci: covenant-of-grace
+            sections:
+              - 1-the-plan-of-salvation-is-a-covenant: 1. The Plan of Salvation is a Covenant.
+                # loci:
+              - 2-different-views-of-the-nature-of-this-covenant: 2. Different Views of the Nature of this Covenant.
+                # loci:
+              - 3-parties-to-the-covenant: 3. Parties to the Covenant.
+                # loci:
+              - 4-covenant-of-redemption: 4. Covenant of Redemption.
+                # loci:
+              - 5-the-covenant-of-grace: 5. The Covenant of Grace.
+                # loci:
+              - 6-the-identity-of-the-covenant-of-grace-under-all-dispensati: 6. The Identity of the Covenant of Grace under all Dispensations.
+                # loci:
+              - 7-different-dispensations: 7. Different Dispensations.
+                # loci:
+          - chapter-iii-person-of-christ: Chapter III. Person of Christ.
+            loci: person-of-christ
+            sections:
+              - 1-preliminary-remarks: 1. Preliminary Remarks.
+                # loci:
+              - 2-the-scriptural-facts-concerning-the-person-of-christ: 2. The Scriptural Facts concerning the Person of Christ.
+                # loci:
+              - 3-the-hypostatical-union: 3. The Hypostatical Union.
+                loci: natures-of-christ
+              - 4-consequences-of-the-hypostatical-union: 4. Consequences of the Hypostatical Union.
+                # loci:
+              - 5-erroneous-and-heretical-doctrines-on-the-person-of-christ: 5. Erroneous and Heretical Doctrines on the Person of Christ.
+                # loci:
+              - 6-doctrine-of-the-reformed-churches: 6. Doctrine of the Reformed Churches.
+                # loci:
+              - 7-lutheran-doctrine: 7. Lutheran Doctrine.
+                # loci:
+              - 8-later-forms-of-the-doctrine: 8. Later Forms of the Doctrine.
+                # loci:
+              - 9-modern-forms-of-the-doctrine: 9. Modern Forms of the Doctrine.
+                # loci:
+          - chapter-iv-the-mediatorial-work-of-christ: Chapter IV. The Mediatorial Work Of Christ.
+            loci: offices-of-christ
+            sections:
+              - 1-christ-the-only-mediator: 1. Christ the only Mediator.
+                # loci:
+              - 2-qualifications-for-the-work: 2. Qualifications for the Work.
+                # loci:
+              - 3-the-threefold-office-of-christ: 3. The Threefold Office of Christ.
+                # loci:
+          - chapter-v-prophetic-office: Chapter V. Prophetic Office.
+            loci: prophetic-office
+            sections:
+              - 1-nature-of-the-prophetic-office: 1. Nature of the Prophetic Office.
+                # loci:
+              - 2-how-christ-executes-the-office-of-a-prophet: 2. How Christ executes the Office of a Prophet.
+                # loci:
+          - chapter-vi-priestly-office: Chapter VI. Priestly Office.
+            loci: priestly-office
+            sections:
+              - 1-christ-is-truly-not-figuratively-a-priest: "1. Christ is truly, not figuratively, a Priest."
+                # loci:
+              - 2-christ-our-only-priest: 2. Christ our only Priest.
+                # loci:
+              - 3-definition-of-terms: 3. Definition of Terms
+                # loci:
+          - chapter-vii-satisfaction-of-christ: Chapter VII. Satisfaction of Christ.
+            loci: atonement
+            sections:
+              - 1-statement-of-the-doctrine: 1. Statement of the Doctrine.
+                # loci:
+              - 2-the-intrinsic-worth-of-christ-s-satisfaction: 2. The Intrinsic Worth of Christ’s Satisfaction.
+                # loci:
+              - 3-doctrine-of-the-scotists-and-remonstrants: 3. Doctrine of the Scotists and Remonstrants.
+                # loci:
+              - 4-satisfaction-rendered-to-justice: 4. Satisfaction rendered to Justice.
+                # loci:
+              - 5-the-work-of-christ-satisfies-the-demands-of-the-law: 5. The Work of Christ Satisfies the Demands of the Law.
+                # loci:
+              - 6-proof-of-the-doctrine: 6. Proof of the Doctrine.
+                # loci:
+              - 7-objections: 7. Objections.
+                # loci:
+          - chapter-viii-for-whom-did-christ-die: "Chapter VIII. For Whom Did Christ Die?"
+            loci: atonement
+            sections:
+              - 1-state-of-the-question: 1. State of the Question.
+                # loci:
+              - 2-proof-of-the-augustinian-doctrine: 2. Proof of the Augustinian Doctrine.
+                # loci:
+          - chapter-ix-theories-of-the-atonement: Chapter IX. Theories of the Atonement.
+            loci: atonement
+            sections:
+              - 1-the-orthodox-view: 1. The Orthodox View.
+                # loci:
+              - 2-doctrine-of-some-of-the-fathers: 2. Doctrine of some of the Fathers.
+                # loci:
+              - 3-the-moral-theory: 3. The Moral Theory.
+                # loci:
+              - 4-the-governmental-theory: 4. The Governmental Theory.
+                # loci:
+              - 5-the-mystical-theory: 5. The Mystical Theory.
+                # loci:
+              - 6-concluding-remarks: 6. Concluding Remarks.
+                # loci:
+          - chapter-x-intercession-of-christ: Chapter X. Intercession of Christ.
+            loci: priestly-office
+            sections:
+              - 1-christ-our-intercessor: 1. Christ our Intercessor.
+                # loci:
+              - 2-its-nature: 2. Its Nature.
+                # loci:
+              - 3-its-objects: 3. Its Objects.
+                # loci:
+              - 4-intercession-of-saints: 4. Intercession of Saints.
+                # loci:
+          - chapter-xi-kingly-office-of-christ: Chapter XI. Kingly Office of Christ.
+            loci: kingly-office
+            sections:
+              - 1-the-church-god-s-kingdom: 1. The Church God’s Kingdom.
+                # loci:
+              - 2-christ-is-truly-a-king: 2. Christ is truly a King.
+                # loci:
+              - 3-nature-of-christ-s-kingdom: 3. Nature of Christ’s Kingdom.
+                # loci:
+              - 4-the-kingdom-of-glory: 4. The Kingdom of Glory.
+                # loci:
+          - chapter-xii-humiliation-of-christ: Chapter XII. Humiliation of Christ.
+            loci: state-of-humiliation
+            sections:
+              - 1-includes-his-incarnation: 1. Includes his Incarnation.
+                loci: incarnation
+              - 2-he-was-made-under-the-law: 2. He was made under the Law.
+                # loci:
+              - 3-his-sufferings-and-death: 3. His Sufferings and Death.
+                # loci:
+              - 4-he-endured-the-wrath-of-god: 4. He endured the Wrath of God.
+                # loci:
+              - 5-his-death-and-burial: 5. His Death and Burial.
+                # loci:
+          - chapter-xiii-the-exaltation-of-christ: Chapter XIII. The Exaltation of Christ.
+            loci: state-of-exaltation
+            sections:
+              - 1-resurrection-of-christ: 1. Resurrection of Christ.
+                # loci:
+              - 2-ascension-of-christ: 2. Ascension of Christ.
+                # loci:
+              - 3-sitting-at-the-right-hand-of-god: 3. Sitting at the Right Hand of God.
+                # loci:
+              - 4-christ-s-coming-to-judge-the-world: 4. Christ’s coming to judge the World.
+                # loci:
+          - chapter-xiv-vocation: Chapter XIV. Vocation.
+            loci: calling
+            sections:
+              - 1-scriptural-usage-of-the-word: 1. Scriptural Usage of the Word.
+                # loci:
+              - 3-common-grace: 3. Common Grace.
+                # loci:
+              - 4-efficacious-grace: 4. Efficacious Grace.
+                loci: effectual-calling
+              - 5-proof-of-the-doctrine: 5. Proof of the Doctrine.
+                # loci:
+              - 6-objections: 6. Objections.
+                # loci:
+              - 7-history-of-the-doctrine-of-grace: 7. History of the Doctrine of Grace.
+                # loci:
+      - part-iii-continued: Part III. Continued.
+        # loci:
+        sections:
+          - chapter-xv-regeneration: Chapter XV. Regeneration.
+            loci: effectual-calling
+            sections:
+              - 1-usage-of-the-word: 1. Usage of the Word.
+                # loci:
+              - 2-nature-of-regeneration: 2. Nature of Regeneration.
+                # loci:
+              - 3-the-evangelical-doctrine: 3. The Evangelical Doctrine.
+                # loci:
+              - 4-objection: 4. Objection.
+                # loci:
+          - chapter-xvi-faith: Chapter XVI. Faith.
+            loci: faith
+            sections:
+              - 1-preliminary-remarks: 1. Preliminary Remarks.
+                # loci:
+              - 2-the-psychological-nature-of-faith: 2. The Psychological Nature of Faith.
+                # loci:
+              - 3-different-kinds-of-faith: 3. Different Kinds of Faith.
+                # loci:
+              - 4-faith-and-knowledge: 4. Faith and Knowledge.
+                # loci:
+              - 5-faith-and-feeling: 5. Faith and Feeling.
+                # loci:
+              - 6-faith-and-love: 6. Faith and Love.
+                # loci:
+              - 7-the-object-of-saving-faith: 7. The Object of Saving Faith.
+                # loci:
+              - 8-effects-of-faith: 8. Effects of Faith.
+                # loci:
+          - chapter-xvii-justification: Chapter XVII. Justification.
+            loci: justification
+            sections:
+              - 1-symbolical-statement-of-the-doctrine: 1. Symbolical Statement of the Doctrine.
+                # loci:
+              - 2-justification-is-a-forensic-act: 2. Justification is a Forensic Act.
+                # loci:
+              - 3-works-not-the-ground-of-justification: 3. Works not the Ground of Justification.
+                # loci:
+              - 4-the-righteousness-of-christ-the-ground-of-justification: 4. The Righteousness of Christ the Ground of Justification.
+                # loci:
+              - 5-imputation-of-righteousness: 5. Imputation of Righteousness.
+                # loci:
+              - 6-proof-of-the-doctrine: 6. Proof of the Doctrine.
+                # loci:
+              - 7-the-consequences-of-the-imputation-of-righteousness: 7. The Consequences of the Imputation of Righteousness.
+                # loci:
+              - 8-relation-of-faith-to-justification: 8. Relation of Faith to Justification.
+                # loci:
+              - 9-objections-to-the-protestant-doctrine-of-justification: 9. Objections to the Protestant Doctrine of Justification.
+                # loci:
+              - 10-departures-from-the-protestant-doctrine: 10. Departures from the Protestant Doctrine.
+                # loci:
+              - 11-modern-views-on-justification: 11. Modern Views on Justification.
+                # loci:
+          - chapter-xviii-sanctification: Chapter XVIII. Sanctification.
+            loci: sanctification
+            sections:
+              - 1-its-nature: 1. Its Nature.
+                # loci:
+              - 2-wherein-it-consists: 2. Wherein it consists.
+                # loci:
+              - 3-the-method-of-sanctification: 3. The Method of Sanctification.
+                # loci:
+              - 4-the-fruits-of-sanctification-or-good-works: "4. The Fruits of Sanctification, or Good Works."
+                loci: good-works
+              - 5-necessity-of-good-works: 5. Necessity of Good Works.
+                # loci:
+              - 6-relation-of-good-works-to-reward: 6. Relation of Good Works to Reward.
+                loci: merit
+              - 7-perfectionism: 7. Perfectionism.
+                # loci:
+              - 8-theories-of-perfectionism: 8. Theories of Perfectionism.
+                # loci:
+          - chapter-xix-the-law: Chapter XIX. The Law.
+            loci: moral-law
+            sections:
+              - 1-preliminary-principles: 1. Preliminary Principles.
+                # loci:
+              - 2-division-of-the-contents-of-the-decalogue: 2. Division of the Contents of the Decalogue.
+                # loci:
+              - 3-preface-to-the-ten-commandments: 3. Preface to the Ten Commandments.
+                # loci:
+              - 4-the-first-commandment: 4. The First Commandment.
+                loci: worship
+              - 5-the-invocation-of-saints-and-angels: 5. The Invocation of Saints and Angels.
+                # loci:
+              - 6-the-second-commandment: 6. The Second Commandment.
+                loci: idolatry
+              - 7-the-third-commandment: 7. The Third Commandment.
+                loci: oaths
+              - 8-the-fourth-commandment: 8. The Fourth Commandment.
+                loci: sabbath
+              - 9-the-fifth-commandment: 9. The Fifth Commandment.
+                # loci:
+              - 10-the-sixth-commandment: 10. The Sixth Commandment.
+                # loci:
+              - 11-the-seventh-commandment: 11. The Seventh Commandment.
+                loci: chastity
+              - 12-the-eighth-commandment: 12. The Eighth Commandment.
+                loci: property
+              - 13-the-ninth-commandment: 13. The Ninth Commandment.
+                loci: truth
+              - 14-the-tenth-commandment: 14. The Tenth Commandment.
+                # loci:
+          - chapter-xx-the-means-of-grace: Chapter XX. The Means of Grace.
+            loci: means-of-grace
+            sections:
+              - 1-the-word: 1. The Word.
+                loci: word-of-god
+              - 2-the-sacraments-their-nature: 2. The Sacraments. Their Nature.
+                loci: sacraments
+              - 3-nnmber-of-the-sacraments: 3. Nnmber of the Sacraments.
+                # loci:
+              - 4-the-efficacy-of-the-sacraments: 4. The Efficacy of the Sacraments.
+                # loci:
+              - 5-the-necessity-of-the-sacraments: 5. The Necessity of the Sacraments.
+                # loci:
+              - 6-validity-of-the-sacraments: 6. Validity of the Sacraments.
+                # loci:
+              - 7-baptism: 7. Baptism.
+                loci: baptism
+              - 8-the-formula-of-baptism: 8. The Formula of Baptism.
+                # loci:
+              - 9-the-subjects-of-baptism: 9. The Subjects of Baptism.
+                # loci:
+              - 10-infant-baptism: 10. Infant Baptism.
+                # loci:
+              - 11-whose-children-are-entitled-to-baptism: 11. Whose Children are entitled to Baptism.
+                # loci:
+              - 12-efficacy-of-baptism: 12. Efficacy of Baptism.
+                # loci:
+              - 13-lutheran-doctrine-of-baptism: 13. Lutheran Doctrine of Baptism.
+                # loci:
+              - 14-doctrine-of-the-church-of-rome: 14. Doctrine of the Church of Rome.
+                # loci:
+              - 15-the-lord-s-supper: 15. The Lord's Supper.
+                loci: lords-supper
+              - 16-doctrine-of-the-reformed-church-on-the-lord-s-supper: 16. Doctrine of the Reformed Church on the Lord’s Supper.
+                # loci:
+              - 17-modern-views-concerning-the-lord-s-supper: 17. Modern Views concerning the Lord’s Supper.
+                # loci:
+              - 18-the-lutheran-doctrine-concerning-the-lord-s-supper: 18. The Lutheran Doctrine concerning the Lord’s Supper.
+                # loci:
+              - 19-doctrine-of-the-church-of-rome-on-the-lord-s-supper: 19. Doctrine of the Church of Rome on the Lord’s Supper.
+                # loci:
+              - 20-prayer: 20. Prayer.
+                loci: prayer
+      - part-iv-eschatology: Part IV. Eschatology.
+        # loci:
+        sections:
+          - chapter-i-state-of-the-soul-after-death: Chapter I. State of the Soul After Death.
+            loci: intermediate-state
+            sections:
+              - 1-protestant-doctrine: 1. Protestant Doctrine.
+                # loci:
+              - 2-the-sleep-of-the-soul: 2. The Sleep of the Soul.
+                # loci:
+              - 3-patristic-doctrine-of-the-intermediate-state: 3. Patristic Doctrine of the Intermediate State.
+                # loci:
+              - 4-doctrine-of-the-church-of-rome: 4. Doctrine of the Church of Rome.
+                # loci:
+          - the-resurrection: The Resurrection.
+            loci: resurrection-of-the-dead
+            sections:
+              - 1-the-scriptural-doctrine: 1. The Scriptural Doctrine.
+                # loci:
+              - 2-history-of-the-doctrine: 2. History of the Doctrine.
+                # loci:
+          - second-advent: Second Advent.
+            loci: second-coming
+            sections:
+              - 1-preliminary-remarks-2: 1. Preliminary Remarks.
+                # loci:
+              - 2-the-common-church-doctrine: 2. The Common Church Doctrine.
+                # loci:
+              - 3-the-personal-advent-of-christ: 3. The Personal Advent of Christ.
+                # loci:
+              - 4-the-calling-of-the-gentiles: 4. The Calling of the Gentiles.
+                # loci:
+              - 5-conversion-of-the-jews: 5. Conversion of the Jews.
+                # loci:
+              - 6-antichrist: 6. Antichrist.
+                # loci:
+          - the-concomitants-of-the-second-advent: The Concomitants of the Second Advent.
+            # loci:
+            sections:
+              - 1-the-general-resurrection: 1. The General Resurrection.
+                # loci:
+              - 2-the-final-judgment: 2. The Final Judgment.
+                loci: final-judgement
+              - 3-the-end-of-the-world: 3. The End of the World.
+                # loci:
+              - 4-the-kingdom-of-heaven: 4. The Kingdom of Heaven.
+                # loci:
+              - 5-the-theory-of-the-pre-millennial-advent: 5. The Theory of the Pre-millennial Advent.
+                loci: millennium
+              - 6-future-punishment: 6. Future Punishment.
+                loci: final-state

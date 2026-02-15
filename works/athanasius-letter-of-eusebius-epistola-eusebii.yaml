@@ -1,0 +1,27 @@
+athanasius-letter-of-eusebius-epistola-eusebii:
+  author: Q44024
+  date_added: 2026-02-15
+  loci: trinity
+  la:
+    title: Epistola Eusebii.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Letter of Eusebius.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - letter-of-eusebius-epistola-eusebii: Letter of Eusebius. (Epistola Eusebii.)
+        # loci:
+      - excursus-a: Excursus A.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.ix.i.html
+              - letter-of-eusebius-epistola-eusebii: https://ccel.org/ccel/s/schaff/npnf204.ix.ii.html
+              - excursus-a: https://ccel.org/ccel/s/schaff/npnf204.ix.iii.html

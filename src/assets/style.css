@@ -190,6 +190,17 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   white-space: pre-wrap;
 }
 .section-item.expanded > .section-text { display: block; }
+/* Work-level text (works without sections) */
+.work-text {
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0.5em 1em;
+  border-left: 2px solid var(--border);
+  font-size: 0.9em;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+.work-text.work-text-collapsed { display: none; }
+.work-text-toggle { cursor: pointer; }
 .section-link {
   font-size: 0.75em;
   margin-left: 0.2em;
@@ -221,7 +232,7 @@ a.loci-tag:hover {
 /* Loci page layout (sidebar + main) */
 html { scroll-behavior: smooth; }
 
-body:has(.loci-page) { max-width: 1200px; }
+body:has(.loci-page), body:has(.author-page-layout) { max-width: 1200px; }
 
 .loci-page {
   display: flex;
@@ -663,6 +674,26 @@ body:has(.loci-page) { max-width: 1200px; }
   content: ", ";
 }
 
+/* Author page sidebar layout */
+.author-page-layout {
+  display: flex;
+  gap: 1.5em;
+}
+.author-page-layout > .loci-sidebar {
+  font-size: 0.9em;
+}
+.author-page-layout > .author-main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Active loci highlight in author sidebar */
+#author-loci-tree a.sidebar-active {
+  color: var(--link);
+  font-weight: bold;
+  background-color: #fffde0;
+}
+
 /* Hidden elements during filtering */
 .filtered-hidden { display: none; }
 
@@ -673,9 +704,11 @@ body:has(.loci-page) { max-width: 1200px; }
 
 /* Responsive */
 @media (max-width: 900px) {
-  body:has(.loci-page) { max-width: 900px; }
+  body:has(.loci-page), body:has(.author-page-layout) { max-width: 900px; }
   .loci-page { display: block; }
-  .loci-sidebar { display: none; }
+  .loci-page > .loci-sidebar { display: none; }
+  .author-page-layout { display: block; }
+  .author-page-layout > .loci-sidebar { display: none; }
 }
 @media (max-width: 600px) {
   body { font-size: 14px; padding: 0.5em; }

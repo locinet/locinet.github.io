@@ -1,0 +1,31 @@
+athanasius-circular-to-bishops-of-egypt-and-libya-ad-episcopos-gypti-et:
+  author: Q44024
+  date_added: 2026-02-15
+  # loci:
+  la:
+    title: Ad Episcopos Ægypti Et Libyæ Epistola Encyclica.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Circular to Bishops of Egypt and Libya.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - to-the-bishops-of-egypt: To the Bishops of Egypt.
+        # loci:
+        sections:
+          - chapter-i: Chapter I
+            # loci:
+          - chapter-ii: Chapter II
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xvii.i.html
+              - to-the-bishops-of-egypt: https://ccel.org/ccel/s/schaff/npnf204.xvii.ii.html
+              - chapter-i: https://ccel.org/ccel/s/schaff/npnf204.xvii.ii.i.html
+              - chapter-ii: https://ccel.org/ccel/s/schaff/npnf204.xvii.ii.ii.html

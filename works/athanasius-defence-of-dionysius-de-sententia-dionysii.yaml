@@ -1,0 +1,24 @@
+athanasius-defence-of-dionysius-de-sententia-dionysii:
+  author: Q44024
+  date_added: 2026-02-15
+  loci: trinity
+  la:
+    title: De Sententia Dionysii.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Defence of Dionysius.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - de-sententia-dionysii-defence-of-dionysius: De Sententia Dionysii. (Defence of Dionysius.)
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xv.i.html
+              - de-sententia-dionysii-defence-of-dionysius: https://ccel.org/ccel/s/schaff/npnf204.xv.ii.html

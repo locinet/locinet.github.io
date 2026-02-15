@@ -1,0 +1,49 @@
+athanasius-arian-history-historia-arianorum-ad-monachos:
+  author: Q44024
+  date_added: 2026-02-15
+  # loci:
+  la:
+    title: Historia Arianorum ad Monachos.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Arian History.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - arian-history-historia-arianorum-ad-monachos: Arian History. (Historia Arianorum ad Monachos.)
+        # loci:
+        sections:
+          - arian-persecution-under-constantine: Arian Persecution Under Constantine.
+            # loci:
+          - first-arian-persecution-under-constantius: First Arian Persecution under Constantius.
+            # loci:
+          - restoration-of-the-catholics-on-the-council-of-sardica: Restoration of the Catholics on the Council of Sardica.
+            # loci:
+          - second-arian-persecution-under-constantius: Second Arian Persecution under Constantius.
+            # loci:
+          - persecution-and-lapse-of-liberius: Persecution and Lapse of Liberius.
+            # loci:
+          - persecution-and-lapse-of-hosius: Persecution and Lapse of Hosius.
+            # loci:
+          - persecution-at-alexandria: Persecution at Alexandria.
+            # loci:
+          - persecution-in-egypt: Persecution in Egypt.
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xx.i.html
+              - arian-history-historia-arianorum-ad-monachos: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.html
+              - arian-persecution-under-constantine: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.i.html
+              - first-arian-persecution-under-constantius: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.ii.html
+              - restoration-of-the-catholics-on-the-council-of-sardica: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.iii.html
+              - second-arian-persecution-under-constantius: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.iv.html
+              - persecution-and-lapse-of-liberius: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.v.html
+              - persecution-and-lapse-of-hosius: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.vi.html
+              - persecution-at-alexandria: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.vii.html
+              - persecution-in-egypt: https://ccel.org/ccel/s/schaff/npnf204.xx.ii.viii.html

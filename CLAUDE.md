@@ -16,6 +16,7 @@ A directory of theological works hosted on the internet, built with 11ty and dep
 - `npm run wikidata-search -- "person name"` — search Wikidata for person entities, shows QID, name, dates, description
 - `npm run oclc-search -- "author" "title"` — search Open Library for OCLC numbers, prints WorldCat link
 - `npm run import-work -- <pdf-url> [--author Q123] [--id work-id] [--depth N] [--lang la]` — generate YAML skeleton from PDF outline
+- `npm run import-ccel -- [--id work-id] [--force]` — import works from CCEL ThML/XML (reads `ccel.yaml` manifest)
 
 ## Architecture
 

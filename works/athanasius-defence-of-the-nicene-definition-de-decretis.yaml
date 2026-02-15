@@ -1,0 +1,46 @@
+athanasius-defence-of-the-nicene-definition-de-decretis:
+  author: Q44024
+  date_added: 2026-02-15
+  loci: trinity
+  la:
+    title: De Decretis.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Defence of the Nicene Definition.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - de-decretis-defence-of-the-nicene-definition: De Decretis. (Defence of the Nicene Definition.)
+        # loci:
+        sections:
+          - introduction-the-complaint-of-the-arians-against-the-nicene-: Introduction. The complaint of the Arians against the Nicene Council; their fickleness; they are like Jews; their employment of force instead of reason.
+            # loci:
+          - conduct-of-the-arians-towards-the-nicene-council-ignorant-as: "Conduct of the Arians towards the Nicene Council. Ignorant as well as irreligious to attempt to reverse an Ecumenical Council: proceedings at Nicæa: Eusebians then signed what they now complain of: on the unanimity of true teachers and the process of tradition: changes of the Arians."
+            # loci:
+          - two-senses-of-the-word-son-1-adoptive-2-essential-attempts-o: "Two senses of the word Son, 1. adoptive; 2. essential; attempts of Arians to find a third meaning between these; e.g. that our Lord only was created immediately by God (Asterius's view), or that our Lord alone partakes the Father. The second and true sense; God begets as He makes, really; though His creation and generation are not like man's; His generation independent of time; generation implies an internal, and therefore an eternal, act in God; explanation of Prov. viii. 22."
+            # loci:
+          - proof-of-the-catholic-sense-of-the-word-son-power-word-or-re: "Proof of the Catholic Sense of the Word Son. Power, Word or Reason, and Wisdom, the names of the Son, imply eternity; as well as the Father's title of Fountain. The Arians reply, that these do not formally belong to the essence of the Son, but are names given Him; that God has many words, powers, &c. Why there is but one Son and Word, &c. All the titles of the Son coincide in Him."
+            # loci:
+          - defence-of-the-councils-phrases-from-the-essence-and-one-in-: "Defence of the Council's Phrases, “from the essence,” And “one in essence.” Objection that the phrases are not scriptural; we ought to look at the sense more than the wording; evasion of the Arians as to the phrase “of God” which is in Scripture; their evasion of all explanations but those which the Council selected, which were intended to negative the Arian formulæ; protest against their conveying any material sense."
+            # loci:
+          - authorities-in-support-of-the-council-theognostus-dionysius-: Authorities in Support of the Council. Theognostus; Dionysius of Alexandria; Dionysius of Rome; Origen.
+            # loci:
+          - on-the-arian-symbol-unoriginate-this-term-afterwards-adopted: "On the Arian Symbol “Unoriginate.” This term afterwards adopted by them; and why; three senses of it. A fourth sense. Unoriginate denotes God in contrast to His creatures, not to His Son; Father the scriptural title instead; Conclusion."
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xiv.i.html
+              - de-decretis-defence-of-the-nicene-definition: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.html
+              - introduction-the-complaint-of-the-arians-against-the-nicene-: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.i.html
+              - conduct-of-the-arians-towards-the-nicene-council-ignorant-as: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.ii.html
+              - two-senses-of-the-word-son-1-adoptive-2-essential-attempts-o: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.iii.html
+              - proof-of-the-catholic-sense-of-the-word-son-power-word-or-re: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.iv.html
+              - defence-of-the-councils-phrases-from-the-essence-and-one-in-: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.v.html
+              - authorities-in-support-of-the-council-theognostus-dionysius-: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.vi.html
+              - on-the-arian-symbol-unoriginate-this-term-afterwards-adopted: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.vii.html

@@ -11,7 +11,8 @@
     "wikidata-search": "node scripts/wikidata-search.js",
     "oclc-search": "node scripts/oclc-search.js",
     "import-work": "node scripts/import-work.js",
-    "import-earlyprint": "node scripts/import-earlyprint.js"
+    "import-earlyprint": "node scripts/import-earlyprint.js",
+    "import-ccel": "node scripts/import-ccel.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",

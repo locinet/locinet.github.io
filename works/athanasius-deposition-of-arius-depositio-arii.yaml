@@ -1,0 +1,24 @@
+athanasius-deposition-of-arius-depositio-arii:
+  author: Q44024
+  date_added: 2026-02-15
+  loci: trinity
+  la:
+    title: Depositio Arii.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Deposition of Arius.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - deposition-of-arius: Deposition of Arius.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.viii.i.html
+              - deposition-of-arius: https://ccel.org/ccel/s/schaff/npnf204.viii.ii.html

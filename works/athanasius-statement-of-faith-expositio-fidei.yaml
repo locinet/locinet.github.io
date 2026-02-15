@@ -1,0 +1,24 @@
+athanasius-statement-of-faith-expositio-fidei:
+  author: Q44024
+  date_added: 2026-02-15
+  loci: trinity
+  la:
+    title: Expositio Fidei.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Statement of Faith.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - expositio-fidei-statement-of-faith: Expositio Fidei. (Statement of Faith.)
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.x.i.html
+              - expositio-fidei-statement-of-faith: https://ccel.org/ccel/s/schaff/npnf204.x.ii.html

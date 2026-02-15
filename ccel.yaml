@@ -1,0 +1,22 @@
+# CCEL import manifest
+# Each entry specifies a CCEL work to import.
+# Fields:
+#   url:        direct URL to the CCEL ThML/XML file (required)
+#   author:     Wikidata QID (required)
+#   id:         work ID for the YAML filename (required)
+#   lang:       language code, default: en
+#   orig_lang:  original language code if different from lang (e.g., la, de)
+#   category:   optional (systematic, monograph, sermons)
+#   work_level: 0 = one work file (default), 1+ = split at that section depth
+#
+# Example:
+# - url: https://ccel.org/ccel/hodge/theology1/theology1.xml
+#   author: Q507025
+#   id: hodge-st
+#   category: systematic
+- url: https://ccel.org/ccel/s/schaff/npnf204.xml
+  author: Q44024
+  id: athanasius
+  work_level: 1
+  orig_lang: la
+  lang: en

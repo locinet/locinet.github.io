@@ -42,6 +42,34 @@ function collectDescendantSlugs(nodes, out) {
   }
 }
 
+// --- Filter loci tree for a specific set of slugs ---
+
+function filterLociTree(nodes, lociFlat, slugSet) {
+  const expanded = new Set(slugSet);
+  for (const slug of slugSet) {
+    const entry = lociFlat[slug];
+    if (entry && entry.ancestors) {
+      for (const anc of entry.ancestors) expanded.add(anc);
+    }
+  }
+
+  function prune(nodes) {
+    const result = [];
+    for (const node of nodes) {
+      if (!expanded.has(node.slug)) continue;
+      const copy = { name: node.name, slug: node.slug };
+      if (node.children) {
+        const pruned = prune(node.children);
+        if (pruned.length > 0) copy.children = pruned;
+      }
+      result.push(copy);
+    }
+    return result;
+  }
+
+  return prune(nodes);
+}
+
 // --- Author cache ---
 
 function loadAuthors() {
@@ -246,7 +274,8 @@ function parseWork(fileId, data, translatorsMap) {
         pdf: s.pdf || false,
         pdfUrl: s.pdf_url || null,
         sectionUrls: buildSectionUrlMap(s.section_urls),
-        sectionTexts: buildSectionUrlMap(s.text),
+        sectionTexts: typeof s.text === "string" ? {} : buildSectionUrlMap(s.text),
+        workText: typeof s.text === "string" ? s.text.trim() : null,
       };
     });
     const translatorName = t.translator || "Unknown";
@@ -259,14 +288,16 @@ function parseWork(fileId, data, translatorsMap) {
     };
   });
 
-  // Merged section texts and pdf URL from all translation sites
+  // Merged section texts, work-level text, and pdf URL from all translation sites
   const sectionTexts = {};
+  let workText = null;
   let pdfUrl = null;
   for (const t of translations) {
     for (const s of t.sites) {
       for (const [k, v] of Object.entries(s.sectionTexts)) {
         if (!sectionTexts[k]) sectionTexts[k] = v;
       }
+      if (s.workText && !workText) workText = s.workText;
       if (s.pdfUrl && !pdfUrl) pdfUrl = s.pdfUrl;
     }
   }
@@ -347,6 +378,7 @@ function parseWork(fileId, data, translatorsMap) {
     flatSections,
     translations,
     sectionTexts,
+    workText,
     pdfUrl,
     yamlFilename: fileId + ".yaml",
   };
@@ -385,7 +417,7 @@ function getAuthorMeta(qid, authors) {
   };
 }
 
-function buildAuthorPages(works, authors, traditionAuthors) {
+function buildAuthorPages(works, authors, traditionAuthors, lociTree, lociFlat) {
   const byAuthor = {};
   const corporateAuthors = {}; // keyed by slug
 
@@ -464,6 +496,13 @@ function buildAuthorPages(works, authors, traditionAuthors) {
         ? (meta.labels || {})[origLangCodes[0]]
         : meta.name;
 
+      // Build filtered loci tree for this author
+      const authorLociSlugs = new Set();
+      for (const w of authorWorks) {
+        for (const slug of w.allLoci) authorLociSlugs.add(slug);
+      }
+      const authorLociTree = filterLociTree(lociTree, lociFlat, authorLociSlugs);
+
       return {
         qid,
         name: meta.name,
@@ -482,6 +521,7 @@ function buildAuthorPages(works, authors, traditionAuthors) {
         authorLabels,
         tradition: traditionAuthors[qid] || null,
         works: authorWorks,
+        authorLociTree,
       };
     });
 
@@ -494,6 +534,13 @@ function buildAuthorPages(works, authors, traditionAuthors) {
     });
 
     ca.works.sort((a, b) => (a.year || 9999) - (b.year || 9999));
+
+    // Build filtered loci tree for corporate author
+    const caLociSlugs = new Set();
+    for (const w of ca.works) {
+      for (const slug of w.allLoci) caLociSlugs.add(slug);
+    }
+    const caLociTree = filterLociTree(lociTree, lociFlat, caLociSlugs);
 
     pages.push({
       qid: ca.qid || ca.slug,
@@ -515,6 +562,7 @@ function buildAuthorPages(works, authors, traditionAuthors) {
       isCorporate: true,
       members,
       works: ca.works,
+      authorLociTree: caLociTree,
     });
   }
 
@@ -734,7 +782,7 @@ module.exports = function () {
   const traditionsData = loadTraditions();
   const traditionAuthors = traditionsData.authors || {};
   const displayNames = loadDisplayNames();
-  const authorPages = buildAuthorPages(works, authors, traditionAuthors);
+  const authorPages = buildAuthorPages(works, authors, traditionAuthors, lociTree, lociFlat);
   const lociIndex = buildLociIndex(lociFlat, works, authors, displayNames.corporate_authors);
   computeDisplayNames(lociIndex);
 

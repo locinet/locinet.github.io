@@ -1,0 +1,43 @@
+athanasius-on-luke-x-22-illud-omnia-c:
+  author: Q44024
+  date_added: 2026-02-15
+  loci: natures-of-christ
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: "On Luke x. 22. (Illud Omnia, &c.)"
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - illud-omnia-c-on-luke-x-22: "Illud Omnia, &c. (On Luke x. 22.)"
+        # loci:
+        sections:
+          - this-text-refers-not-to-the-eternal-word-but-to-the-incarnat: This text refers not to the eternal Word but to the Incarnate.
+            # loci:
+          - sense-in-which-and-end-for-which-all-things-were-delivered-t: "Sense in which, and end for which all things were delivered to the Incarnate Son."
+            # loci:
+          - by-all-things-is-meant-the-redemptive-attributes-and-power-o: "By 'all things' is meant the redemptive attributes and power of Christ."
+            # loci:
+          - the-text-john-xvi-15-shews-clearly-the-essential-relation-of: "The text John xvi. 15, shews clearly the essential relation of the Son to the Father."
+            # loci:
+          - the-same-text-further-explained: The same text further explained.
+            # loci:
+          - the-trisagion-wrongly-explained-by-arians-its-true-significa: The Trisagion wrongly explained by Arians. Its true significance.
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xi.i.html
+              - illud-omnia-c-on-luke-x-22: https://ccel.org/ccel/s/schaff/npnf204.xi.ii.html
+              - this-text-refers-not-to-the-eternal-word-but-to-the-incarnat: https://ccel.org/ccel/s/schaff/npnf204.xi.ii.i.html
+              - sense-in-which-and-end-for-which-all-things-were-delivered-t: https://ccel.org/ccel/s/schaff/npnf204.xi.ii.ii.html
+              - by-all-things-is-meant-the-redemptive-attributes-and-power-o: https://ccel.org/ccel/s/schaff/npnf204.xi.ii.iii.html
+              - the-text-john-xvi-15-shews-clearly-the-essential-relation-of: https://ccel.org/ccel/s/schaff/npnf204.xi.ii.iv.html
+              - the-same-text-further-explained: https://ccel.org/ccel/s/schaff/npnf204.xi.ii.v.html
+              - the-trisagion-wrongly-explained-by-arians-its-true-significa: https://ccel.org/ccel/s/schaff/npnf204.xi.ii.vi.html

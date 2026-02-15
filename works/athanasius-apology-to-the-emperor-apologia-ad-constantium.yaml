@@ -1,0 +1,130 @@
+athanasius-apology-to-the-emperor-apologia-ad-constantium:
+  author: Q44024
+  date_added: 2026-02-15
+  # loci:
+  la:
+    title: Apologia Ad Constantium.
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Apology to the Emperor.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - apology-to-the-emperor-apologia-ad-constantium: Apology to the Emperor. (Apologia Ad Constantium.)
+        # loci:
+        sections:
+          - defence-before-constantius: Defence Before Constantius
+            # loci:
+          - the-first-charge-of-setting-constans-against-constantius: "The first charge, of setting Constans against Constantius."
+            # loci:
+          - he-never-saw-constans-alone: He never saw Constans alone.
+            # loci:
+          - the-movements-of-athanasius-refute-this-charge: The movements of Athanasius refute this charge.
+            # loci:
+          - no-possible-time-or-place-for-the-alleged-offence: No possible time or place for the alleged offence.
+            # loci:
+          - the-second-charge-of-corresponding-with-magnentius: "The second charge, of corresponding with Magnentius."
+            # loci:
+          - this-charge-utterly-incredible-and-absurd: This charge utterly incredible and absurd.
+            # loci:
+          - disproof-of-it: Disproof of It.
+            # loci:
+          - athanasius-could-not-write-to-one-who-did-not-even-know-him: Athanasius could not write to one who did not even know him.
+            # loci:
+          - his-loyalty-towards-constantius-and-his-brother: His loyalty towards Constantius and his brother.
+            # loci:
+          - challenge-to-the-accusers-as-to-the-alleged-letter: Challenge to the accusers as to the alleged letter.
+            # loci:
+          - truth-the-defence-of-thrones: Truth the defence of Thrones.
+            # loci:
+          - this-charge-rests-on-forgery: This charge rests on forgery.
+            # loci:
+          - the-third-charge-of-using-an-undedicated-church: "The third charge, of using an undedicated Church."
+            # loci:
+          - want-of-room-the-cause-precedent-the-justification: "Want of room the cause, precedent the justification."
+            # loci:
+          - better-to-pray-together-than-separately: Better to pray together than separately.
+            # loci:
+          - better-to-pray-in-a-building-than-in-the-desert: Better to pray in a building than in the desert.
+            # loci:
+          - prayers-first-do-not-interfere-with-dedication-afterwards: Prayers first do not interfere with dedication afterwards.
+            # loci:
+          - fourth-charge-of-having-disobeyed-an-imperial-order: "Fourth charge, of having disobeyed an Imperial order."
+            # loci:
+          - history-of-his-disobeying-it: History of his disobeying it.
+            # loci:
+          - section-21: Section 21
+            # loci:
+          - arrivals-of-diogenes-and-of-syrianus: Arrivals of Diogenes and of Syrianus.
+            # loci:
+          - a-copy-of-the-letter-as-follows: "A copy of the letter as follows:"
+            # loci:
+          - why-athanasius-did-not-obey-the-imperial-order: Why Athanasius did not obey the Imperial Order.
+            # loci:
+          - the-irruption-of-syrianus: The irruption of Syrianus.
+            # loci:
+          - how-athanasius-acted-when-this-took-place: How Athanasius acted when this took place.
+            # loci:
+          - athanasius-leaves-alexandria-to-go-to-constantius-but-is-sto: "Athanasius leaves Alexandria to go to Constantius, but is stopped by the news of the banishment of the Bishops."
+            # loci:
+          - the-news-of-the-intrusion-of-george: The news of the intrusion of George.
+            # loci:
+          - athanasius-has-heard-of-his-own-proscription: Athanasius has heard of his own proscription.
+            # loci:
+          - a-copy-of-the-letter-of-constantius-against-athanasius: A copy of the letter of Constantius against Athanasius.
+            # loci:
+          - letter-of-constantius-to-the-ethiopians-against-frumentius: Letter of Constantius to the Ethiopians against Frumentius.
+            # loci:
+          - he-defends-his-flight: He defends his Flight.
+            # loci:
+          - conduct-of-the-arians-towards-the-consecrated-virgins: Conduct of the Arians towards the consecrated Virgins.
+            # loci:
+          - he-expostulates-with-constantius: He expostulates with Constantius.
+            # loci:
+          - section-35: Section 35
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf204.xviii.i.html
+              - apology-to-the-emperor-apologia-ad-constantium: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.html
+              - defence-before-constantius: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.i.html
+              - the-first-charge-of-setting-constans-against-constantius: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.ii.html
+              - he-never-saw-constans-alone: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.iii.html
+              - the-movements-of-athanasius-refute-this-charge: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.iv.html
+              - no-possible-time-or-place-for-the-alleged-offence: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.v.html
+              - the-second-charge-of-corresponding-with-magnentius: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.vi.html
+              - this-charge-utterly-incredible-and-absurd: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.vii.html
+              - disproof-of-it: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.viii.html
+              - athanasius-could-not-write-to-one-who-did-not-even-know-him: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.ix.html
+              - his-loyalty-towards-constantius-and-his-brother: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.x.html
+              - challenge-to-the-accusers-as-to-the-alleged-letter: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xi.html
+              - truth-the-defence-of-thrones: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xii.html
+              - this-charge-rests-on-forgery: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xiii.html
+              - the-third-charge-of-using-an-undedicated-church: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xiv.html
+              - want-of-room-the-cause-precedent-the-justification: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xv.html
+              - better-to-pray-together-than-separately: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xvi.html
+              - better-to-pray-in-a-building-than-in-the-desert: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xvii.html
+              - prayers-first-do-not-interfere-with-dedication-afterwards: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xviii.html
+              - fourth-charge-of-having-disobeyed-an-imperial-order: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xix.html
+              - history-of-his-disobeying-it: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xx.html
+              - section-21: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxi.html
+              - arrivals-of-diogenes-and-of-syrianus: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxii.html
+              - a-copy-of-the-letter-as-follows: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxiii.html
+              - why-athanasius-did-not-obey-the-imperial-order: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxiv.html
+              - the-irruption-of-syrianus: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxv.html
+              - how-athanasius-acted-when-this-took-place: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxvi.html
+              - athanasius-leaves-alexandria-to-go-to-constantius-but-is-sto: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxvii.html
+              - the-news-of-the-intrusion-of-george: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxviii.html
+              - athanasius-has-heard-of-his-own-proscription: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxix.html
+              - a-copy-of-the-letter-of-constantius-against-athanasius: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxx.html
+              - letter-of-constantius-to-the-ethiopians-against-frumentius: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxxi.html
+              - he-defends-his-flight: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxxii.html
+              - conduct-of-the-arians-towards-the-consecrated-virgins: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxxiii.html
+              - he-expostulates-with-constantius: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxxiv.html
+              - section-35: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.xxxv.html
