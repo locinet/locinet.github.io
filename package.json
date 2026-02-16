@@ -12,7 +12,9 @@
     "oclc-search": "node scripts/oclc-search.js",
     "import-work": "node scripts/import-work.js",
     "import-earlyprint": "node scripts/import-earlyprint.js",
-    "import-ccel": "node scripts/import-ccel.js"
+    "import-ccel": "node scripts/import-ccel.js",
+    "list-sections": "node scripts/list-sections.js",
+    "tag": "node scripts/tag-sections.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",

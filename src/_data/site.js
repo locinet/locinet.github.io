@@ -380,7 +380,7 @@ function parseWork(fileId, data, translatorsMap) {
     sectionTexts,
     workText,
     pdfUrl,
-    yamlFilename: fileId + ".yaml",
+    yamlFilename: fileId + ".yaml", // default; overridden by loadAllWorks for multi-work files
   };
 }
 
@@ -391,9 +391,13 @@ function loadAllWorks(translatorsMap) {
     try {
       const raw = fs.readFileSync(path.join(WORKS_DIR, file), "utf8");
       const data = yaml.load(raw);
-      const fileId = Object.keys(data)[0];
-      const work = parseWork(fileId, data, translatorsMap);
-      if (work) works.push(work);
+      for (const fileId of Object.keys(data)) {
+        const work = parseWork(fileId, data, translatorsMap);
+        if (work) {
+          work.yamlFilename = file;
+          works.push(work);
+        }
+      }
     } catch (err) {
       console.error(`Error parsing ${file}: ${err.message}`);
     }

@@ -52,22 +52,22 @@ function main() {
       continue;
     }
 
-    const key = Object.keys(data)[0];
+    for (const key of Object.keys(data)) {
     const work = data[key];
 
     if (!work.author) {
-      console.error(`ERROR [${file}]: Missing author field`);
+      console.error(`ERROR [${file}/${key}]: Missing author field`);
       errors++;
     } else if (Array.isArray(work.author)) {
       if (work.author.length === 0) {
-        console.error(`ERROR [${file}]: author array is empty`);
+        console.error(`ERROR [${file}/${key}]: author array is empty`);
         errors++;
       }
     }
 
     if (work.corporate_author && typeof work.corporate_author === "object") {
       if (!work.corporate_author.label) {
-        console.error(`ERROR [${file}]: corporate_author object missing label field`);
+        console.error(`ERROR [${file}/${key}]: corporate_author object missing label field`);
         errors++;
       }
     }
@@ -77,7 +77,7 @@ function main() {
       const tags = Array.isArray(work.loci) ? work.loci : [work.loci];
       for (const tag of tags) {
         if (!validSlugs.has(String(tag))) {
-          console.warn(`WARN [${file}]: Unknown locus "${tag}" (work-level)`);
+          console.warn(`WARN [${file}/${key}]: Unknown locus "${tag}" (work-level)`);
           warnings++;
         }
       }
@@ -89,10 +89,11 @@ function main() {
       const tags = extractLoci(en.sections);
       for (const tag of tags) {
         if (!validSlugs.has(String(tag))) {
-          console.warn(`WARN [${file}]: Unknown locus "${tag}"`);
+          console.warn(`WARN [${file}/${key}]: Unknown locus "${tag}"`);
           warnings++;
         }
       }
+    }
     }
   }
 

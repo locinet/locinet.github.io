@@ -17,6 +17,8 @@ A directory of theological works hosted on the internet, built with 11ty and dep
 - `npm run oclc-search -- "author" "title"` — search Open Library for OCLC numbers, prints WorldCat link
 - `npm run import-work -- <pdf-url> [--author Q123] [--id work-id] [--depth N] [--lang la]` — generate YAML skeleton from PDF outline
 - `npm run import-ccel -- [--id work-id] [--force]` — import works from CCEL ThML/XML (reads `ccel.yaml` manifest)
+- `npm run list-sections -- <work-file.yaml>` — list all sections with current loci tags (tab-separated, indented)
+- `npm run tag -- <work-file.yaml> < mappings.txt` — apply loci tags from stdin (`section-id: locus` per line, `_work` for work-level, supports `[locus1, locus2]` arrays)
 
 ## Architecture
 

@@ -24,13 +24,15 @@ const MANIFEST_PATH = path.resolve(__dirname, "../ccel.yaml");
 const CACHE_DIR = path.resolve(__dirname, "../_cache/ccel");
 
 function parseArgs(argv) {
-  const args = { force: false, id: null };
+  const args = { force: false, id: null, file: null };
   let i = 2;
   while (i < argv.length) {
     if (argv[i] === "--force") {
       args.force = true;
     } else if (argv[i] === "--id" && argv[i + 1]) {
       args.id = argv[++i];
+    } else if (argv[i] === "--file" && argv[i + 1]) {
+      args.file = argv[++i];
     }
     i++;
   }
@@ -392,6 +394,15 @@ async function main() {
   // Ensure cache dir exists
   fs.mkdirSync(CACHE_DIR, { recursive: true });
 
+  // When --file is specified or multiple entries are being imported,
+  // combine all works into a single YAML file.
+  const combineIntoOne = args.file || entries.length > 1;
+  const combinedOutName = args.file
+    ? (args.file.endsWith(".yaml") ? args.file : args.file + ".yaml")
+    : `${entries[0].id}.yaml`;
+  const combinedOutPath = path.join(WORKS_DIR, combinedOutName);
+  let combinedYaml = "";
+
   let imported = 0;
   let skipped = 0;
 
@@ -402,12 +413,14 @@ async function main() {
     }
 
     const workLevel = entry.work_level || 0;
-    const outPath = path.join(WORKS_DIR, `${entry.id}.yaml`);
 
-    if (workLevel === 0 && fs.existsSync(outPath) && !args.force) {
-      console.log(`Skipping ${entry.id} — ${outPath} already exists (use --force to overwrite)`);
-      skipped++;
-      continue;
+    if (!combineIntoOne) {
+      const outPath = path.join(WORKS_DIR, `${entry.id}.yaml`);
+      if (workLevel === 0 && fs.existsSync(outPath) && !args.force) {
+        console.log(`Skipping ${entry.id} — ${outPath} already exists (use --force to overwrite)`);
+        skipped++;
+        continue;
+      }
     }
 
     console.log(`Importing ${entry.id}...`);
@@ -425,11 +438,16 @@ async function main() {
       console.log(`  Sections: ${metadata.sections.length}`);
 
       if (workLevel === 0) {
-        // Single work file
         const yamlContent = generateYaml(entry.id, metadata.title, metadata.sections, entry);
-        fs.writeFileSync(outPath, yamlContent, "utf8");
-        console.log(`  Wrote ${outPath}`);
-        imported++;
+        if (combineIntoOne) {
+          combinedYaml += (combinedYaml ? "\n" : "") + yamlContent;
+          imported++;
+        } else {
+          const outPath = path.join(WORKS_DIR, `${entry.id}.yaml`);
+          fs.writeFileSync(outPath, yamlContent, "utf8");
+          console.log(`  Wrote ${outPath}`);
+          imported++;
+        }
       } else {
         // Split at the given level: each top-level section becomes its own work
         const splitSections = getSectionsAtLevel(metadata.sections, workLevel);
@@ -437,22 +455,35 @@ async function main() {
         for (const section of splitSections) {
           const sectionSlug = makeUniqueSlug(slugify(section.title), idSeen);
           const splitWorkId = `${entry.id}-${sectionSlug}`;
-          const splitOutPath = path.join(WORKS_DIR, `${splitWorkId}.yaml`);
-
-          if (fs.existsSync(splitOutPath) && !args.force) {
-            console.log(`  Skipping ${splitWorkId} — already exists`);
-            skipped++;
-            continue;
-          }
-
           const yamlContent = generateYaml(splitWorkId, section.title, section.children, entry);
-          fs.writeFileSync(splitOutPath, yamlContent, "utf8");
-          console.log(`  Wrote ${splitOutPath}`);
-          imported++;
+
+          if (combineIntoOne) {
+            combinedYaml += (combinedYaml ? "\n" : "") + yamlContent;
+            imported++;
+          } else {
+            const splitOutPath = path.join(WORKS_DIR, `${splitWorkId}.yaml`);
+            if (fs.existsSync(splitOutPath) && !args.force) {
+              console.log(`  Skipping ${splitWorkId} — already exists`);
+              skipped++;
+              continue;
+            }
+            fs.writeFileSync(splitOutPath, yamlContent, "utf8");
+            console.log(`  Wrote ${splitOutPath}`);
+            imported++;
+          }
         }
       }
     } catch (err) {
       console.error(`  Error importing ${entry.id}: ${err.message}`);
+    }
+  }
+
+  if (combineIntoOne && combinedYaml) {
+    if (fs.existsSync(combinedOutPath) && !args.force) {
+      console.log(`Skipping write — ${combinedOutPath} already exists (use --force to overwrite)`);
+    } else {
+      fs.writeFileSync(combinedOutPath, combinedYaml, "utf8");
+      console.log(`  Wrote ${combinedOutPath}`);
     }
   }
 

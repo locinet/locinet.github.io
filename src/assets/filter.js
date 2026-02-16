@@ -73,23 +73,49 @@
         // Work matches — show it, but filter sections
         work.classList.remove("filtered-hidden");
         const sections = work.querySelectorAll(".section-item");
+        const sectionArr = Array.from(sections);
         let anyMatchingSection = false;
-        for (const section of sections) {
+
+        // First pass: determine which sections directly match
+        const directMatch = new Array(sectionArr.length);
+        for (let si = 0; si < sectionArr.length; si++) {
           let sectionLoci;
           try {
-            sectionLoci = JSON.parse(section.dataset.loci || "[]");
+            sectionLoci = JSON.parse(sectionArr[si].dataset.loci || "[]");
           } catch (e) {
             sectionLoci = [];
           }
+          directMatch[si] = sectionLoci.some((l) => matchingSlugs.has(l));
+        }
 
-          if (sectionLoci.length === 0) {
-            // Sections with no loci: hide when filtering
-            section.classList.add("filtered-hidden");
-          } else if (sectionLoci.some((l) => matchingSlugs.has(l))) {
-            section.classList.remove("filtered-hidden");
+        // Second pass: also show ancestor sections of any matching section
+        const visible = new Array(sectionArr.length).fill(false);
+        for (let si = 0; si < sectionArr.length; si++) {
+          if (directMatch[si]) {
+            visible[si] = true;
+            // Walk backwards to mark ancestor sections visible
+            const myDepth = parseInt(sectionArr[si].dataset.depth || "0", 10);
+            let needDepth = myDepth - 1;
+            for (let pi = si - 1; pi >= 0 && needDepth >= 0; pi--) {
+              const pd = parseInt(sectionArr[pi].dataset.depth || "0", 10);
+              if (pd === needDepth) {
+                visible[pi] = true;
+                needDepth--;
+              } else if (pd < needDepth) {
+                // Skipped a level, still mark as visible
+                visible[pi] = true;
+                needDepth = pd - 1;
+              }
+            }
+          }
+        }
+
+        for (let si = 0; si < sectionArr.length; si++) {
+          if (visible[si]) {
+            sectionArr[si].classList.remove("filtered-hidden");
             anyMatchingSection = true;
           } else {
-            section.classList.add("filtered-hidden");
+            sectionArr[si].classList.add("filtered-hidden");
           }
         }
 
