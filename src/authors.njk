@@ -158,6 +158,8 @@ eleventyComputed:
               {%- elif s.url %}
                 {%- if hasSiteLink %}, {% endif -%}
                 <a href="{{ s.url }}">{{ s.siteName }}</a>
+                {%- if s.pdfUrl %} (<a href="{{ s.pdfUrl }}">PDF</a>){% endif -%}
+                {%- if s.epubUrl %} (<a href="{{ s.epubUrl }}">EPUB</a>){% endif -%}
                 {%- set hasSiteLink = true -%}
               {%- elif s.volumes %}
                 {%- if hasSiteLink %}, {% endif -%}
@@ -194,6 +196,8 @@ eleventyComputed:
               {%- if s.url %}
                 {%- if hasSiteLink %}, {% endif -%}
                 <a href="{{ s.url }}">{{ s.siteName }}</a>
+                {%- if s.pdfUrl %} (<a href="{{ s.pdfUrl }}">PDF</a>){% endif -%}
+                {%- if s.epubUrl %} (<a href="{{ s.epubUrl }}">EPUB</a>){% endif -%}
                 {%- set hasSiteLink = true -%}
               {%- endif -%}
             {%- endfor %}

@@ -9,50 +9,258 @@ trelcatius-elder-commonplaces:
   en:
     title: Two Books of the Commonplaces of Sacred Theology
     sections:
-      - 1: "Preface: Of the Common Places"
-      - 2: Of Theology, Its Foundation, and Principle, the Holy Scripture
-        loci: theology
-      - 3: Of God
-        loci: god
-      - 4: Of the Works of God, by Which God Is Known
-        loci: works-of-god
-      - 5: Of the Creation of All Things
-        loci: creation
-      - 6: Of Angels in General
-        loci: angels
-      - 7: Of Man
-        loci: man
-      - 8: Of the Providence of God
-        loci: providence
-      - 9: Of the Fall of Man into Sin and Misery
-        loci: fall-of-man
-      - 10: Of the Free Will of Man
-        loci: free-will
-      - 11: "Of the Person & Office of Our Lord Jesus Christ, the Redeemer"
-        loci: person-of-christ
-      - 12: Of the Eternal Covenant of God
-        loci: covenant-of-grace
-      - 13: Of Divine Predestination
-        loci: predestination
-      - 14: Of Saving or Justifying Faith
-        loci: faith
-      - 15: Of Justification
-        loci: justification
-      - 16: "Of Sanctification, Wherein Also of Repentance"
-        loci: sanctification
-      - 17: Of the Manner of Attaining Glorification
-        loci: glorification
-      - 18: Of the Church
-        loci: church
-      - 19: "On the Ecclesiastical Ministry & the Lawful Calling Thereto"
-        loci: government-of-the-church
-      - 20: Synopsis of the Method of Sacred Theology
-        loci: nature-of-theology
+      - s1: "The First Locus: Concerning Theology"
+        sections:
+          - s1_1: "Question 1: Concerning the Canon:"
+          - s1_2: "Establishment Concerning the Second Question: Which Edition of the Holy Scripture Is Authentic:"
+          - s1_3: "The Third Question: Concerning the Authority of the Holy Scripture:"
+          - s1_4: "The Fourth Question: Concerning the Perspicuity of the Holy Scripture:"
+          - s1_5: "The Fifth Question: Concerning the Interpretation of the Holy Scripture:"
+          - s1_6: "The Sixth Question: Concerning the Perfection of the Holy Scripture:"
+      - s2: "Place II. Concerning God:"
+        sections:
+          - s2_1: "The First Part: Constructive:"
+            sections:
+              - s2_1_1: "Of the Essence:"
+                sections:
+                  - s2_1_1_1: "Definition of Terms:"
+                  - s2_1_1_2: "Concerning the Thing Itself:"
+              - s2_1_2: "Of the Attributes of God:"
+                sections:
+                  - s2_1_2_1: "The Attributes of the First Kind:"
+                  - s2_1_2_2: "The Simplicity of God:"
+                  - s2_1_2_3: "The Infinity & Immensity of God:"
+                  - s2_1_2_4: "Of the Attributes of the Second Kind:"
+                  - s2_1_2_5: "The Omnipotence of God:"
+                  - s2_1_2_6: "The Knowledge of God:"
+                  - s2_1_2_7: "The Will of God:"
+                  - s2_1_2_8: "The Remaining Attributes:"
+              - s2_1_3: "Of the Holy Trinity:"
+                sections:
+                  - s2_1_3_1: "The Sum of the Doctrine:"
+                  - s2_1_3_2: "Explanation of the Words:"
+                    sections:
+                      - s2_1_3_2_1: "“Three”:"
+                      - s2_1_3_2_2: "“Hypostasis”:"
+                      - s2_1_3_2_3: "“Homoousios”:"
+                  - s2_1_3_3: "Exposition of the Thing Itself:"
+                    sections:
+                      - s2_1_3_3_1: "Of the First: The Three Persons:"
+                      - s2_1_3_3_2: "Of the Second: The Distinction of the Persons:"
+                      - s2_1_3_3_3: "Of the Third: The Homoousia and Equality:"
+                        sections:
+                          - s2_1_3_3_3_1: "Of the Son:"
+                          - s2_1_3_3_3_2: "Of the Holy Ghost:"
+          - s2_2: "The Second Part of the Place Concerning God:"
+            sections:
+              - s2_2_1: "Four Principle Fountain of Errors:"
+                sections:
+                  - s2_2_1_1: "The First Fountain: False Interpretation of Scripture:"
+                  - s2_2_1_2: "The Second Fountain: Misapplication of Physical Principles:"
+                  - s2_2_1_3: "The Third Fountain: False Principles and Presuppositions:"
+                  - s2_2_1_4: "The Fourth Fountain: Inferring Inequality from Human Nature:"
+              - s2_2_2: "Arguments Against the Distinction of Persons:"
+                sections:
+                  - s2_2_2_1: "Errors in Form:"
+                  - s2_2_2_2: "Errors in Matter:"
+              - s2_2_3: "Arguments Against the Consubstantiality of Persons:"
+                sections:
+                  - s2_2_3_1: "Errors from Relative Statements:"
+                  - s2_2_3_2: "Errors in Form:"
+              - s2_2_4: "Arguments Specifically Against the Divinity of the Son:"
+                sections:
+                  - s2_2_4_1: "Errors from Homonymy:"
+                  - s2_2_4_2: "Errors from Relative Statements:"
+                  - s2_2_4_3: "Errors of Consequence:"
+              - s2_2_5: "Arguments Against the Consubstantiality of the Holy Spirit:"
+                sections:
+                  - s2_2_5_1: "Arguments from Scripture Perversion:"
+                  - s2_2_5_2: "Arguments from False Principles:"
+              - s2_2_6: "Against the Tritheists:"
+      - s10: "Locus X. Concerning the Eternal Covenant of God:"
+        sections:
+          - s10_1: "Explanation of Terms:"
+          - s10_2: "Definition and Exposition Thereof:"
+          - s10_3: "Exposition of Certain Matters in This Subject That Are More Difficult and Most Necessary to Know:"
+      - s13: "LOCUS XIII: ON JUSTIFICATION"
+        sections:
+          - s13_1: "I. INTRODUCTION"
+            sections:
+              - s13_1_1: "A. CONCERNING THE SIGNIFICATION OF THE WORD"
+                sections:
+                  - s13_1_1_1: "1. WHAT JUSTIFICATION SIGNIFIES"
+                  - s13_1_1_2: "2. WHAT THE WORD GRACE SIGNIFIES"
+                  - s13_1_1_3: "3. WHAT THE WORD FREELY SIGNIFIES"
+                  - s13_1_1_4: "4. WHAT THE WORD IMPUTATION SIGNIFIES"
+              - s13_1_2: "B. DEFINITION OF JUSTIFICATION"
+                sections:
+                  - s13_1_2_1: "1. ANALYSIS AND EXPLANATION OF THE DEFINITION"
+                    sections:
+                      - s13_1_2_1_1: "a. EFFICIENT CAUSE"
+                      - s13_1_2_1_2: "b. PROCATARCTIC CAUSE OF JUSTIFICATION"
+                        sections:
+                          - s13_1_2_1_2_1: "(1) THE JUSTICE OF CHRIST IS THE MERITORIOUS CAUSE OF OUR SALVATION"
+                          - s13_1_2_1_2_2: "(2) THE JUSTICE OF CHRIST CONSISTS IN FULL SATISFACTION FOR OUR SINS, AND ALL FULFILLMENT OF THE LAW"
+                      - s13_1_2_1_3: "c. INSTRUMENTAL CAUSE OF JUSTIFICATION"
+                      - s13_1_2_1_4: "d. MATTER OF JUSTIFICATION"
+                      - s13_1_2_1_5: "e. FORM OF JUSTIFICATION"
+                      - s13_1_2_1_6: "f. FINAL CAUSE OF JUSTIFICATION"
+                  - s13_1_2_2: "2. IN WHAT SENSE FAITH IS SAID TO JUSTIFY"
+                    sections:
+                      - s13_1_2_2_1: "a. EXPLANATION OF THE PHRASE"
+                      - s13_1_2_2_2: "b. DECLARATION OF THE ORTHODOX OPINION"
+                        sections:
+                          - s13_1_2_2_2_1: "(1) BY FAITH ALONE WE ARE JUSTIFIED"
+                          - s13_1_2_2_2_2: "(2) WE ARE NOT JUSTIFIED BY ANY WORKS"
+                  - s13_1_2_3: "3. EFFECTS OF JUSTIFICATION"
+          - s13_2: "II. SECOND PART: DESTRUCTIVE"
+            sections:
+              - s13_2_1: "A. THE OPINION OF THE PONTIFICALS CONCERNING JUSTIFICATION"
+                sections:
+                  - s13_2_1_1: "1. INHERENT JUSTICE"
+                  - s13_2_1_2: "2. DOUBLE JUSTIFICATION"
+                  - s13_2_1_3: "3. FORMAL CAUSE OF JUSTIFICATION"
+                  - s13_2_1_4: "4. THOSE JUSTIFIED CAN PERISH"
+                  - s13_2_1_5: "5. PERFECTION OF MAN JUSTIFIED IN THIS LIFE"
+                  - s13_2_1_6: "6. HOW FAITH JUSTIFIES US"
+                  - s13_2_1_7: "7. HOW WE ARE SAID TO BE JUSTIFIED FREELY"
+                  - s13_2_1_8: "8. WHAT IS THE MERCY AND JUSTICE OF THE GOSPEL?"
+              - s13_2_2: "B. ARGUMENTS OF THE PONTIFICALS"
+                sections:
+                  - s13_2_2_1: "1. FIRST CLASS OF ARGUMENTS: JUSTIFICATION IS FROM WORKS"
+                    sections:
+                      - s13_2_2_1_1: "a. THAT WE ARE SAID TO BE JUSTIFIED BY WORKS"
+                      - s13_2_2_1_2: "b. THAT GOOD WORKS PLEASE GOD AND ARE REWARDED"
+                      - s13_2_2_1_3: "c. EXAMPLES OF THE SAINTS"
+                      - s13_2_2_1_4: "d. REASONS"
+                  - s13_2_2_2: "2. SECOND CLASS OF ARGUMENTS"
+      - s14: "Locus XIV: Of Sanctification"
+        sections:
+          - s14_1: "The First Part: Constructive:"
+            sections:
+              - s14_1_1: "The Explication of the Words"
+              - s14_1_2: "The Explication of the Words"
+                sections:
+                  - s14_1_2_1: "What Agreement and What Difference There Be Betwixt Sanctification and Justification"
+                  - s14_1_2_2: "The Explication of the Thing, or Definition of Sanctification"
+                  - s14_1_2_3: "Sanctification’s Adjuncts, Opposites, and Effects:"
+              - s14_1_3: "OF REPENTANCE OR RESIPISCENCE:"
+                sections:
+                  - s14_1_3_1: "Declaration of the Thing, or Definition of Repentance:"
+                  - s14_1_3_2: "Causes of Repentance:"
+                  - s14_1_3_3: "Parts of Repentance:"
+                  - s14_1_3_4: "Effects of Repentance:"
+                  - s14_1_3_5: "Adjuncts of Repentance:"
+          - s14_2: "The Second Part: A Refutation of the Chief Errors of Those Who Impugn the Sound Doctrine of Sanctification & Repentance:"
+            sections:
+              - s14_2_1: "The First Error: Of Those Who Abolish Repentance:"
+              - s14_2_2: "The Second Error: Of Those Who Exalt Repentance Overmuch:"
+      - s16: "Locus XVI: Of the Church:"
+        sections:
+          - s16_1: "THE FIRST PART: CONSTRUCTING:"
+            sections:
+              - s16_1_1: "Necessity and Utility of this Locus:"
+              - s16_1_2: "Whether There Be a Church:"
+                sections:
+                  - s16_1_2_1: "Of the Name:"
+                  - s16_1_2_2: "Of the Multiple Signification of the Word:"
+                  - s16_1_2_3: "By What Names the Church Is Signified in Scripture:"
+                  - s16_1_2_4: "Definition of the Church:"
+              - s16_1_3: "What the Church Is Like:"
+              - s16_1_4: "Of the Invisible Church:"
+              - s16_1_5: "Of the Visible Church:"
+                sections:
+                  - s16_1_5_1: "Definition of the Visible Church:"
+                  - s16_1_5_2: "Marks of the Visible Church:"
+                  - s16_1_5_3: "Whether the Church Can Err:"
+                  - s16_1_5_4: "Whether the Church Can Fail:"
+                    sections:
+                      - s16_1_5_4_1: "That the Militant Church Doth Not Fail, But Is Often Constrained to Hide and Flee:"
+                      - s16_1_5_4_2: "That Any Particular Church Can Fail:"
+          - s16_2: "The Second Part: A Refutation of the Chief Errors of Those Who Impugn the Sound Doctrine of the Church:"
+            sections:
+              - s16_2_1: "The Definition of the Church:"
+              - s16_2_2: "The Nature of the Church:"
+              - s16_2_3: "The Qualities, Marks, & Accidents of the Church:"
+              - s16_2_4: "The Marks of the Visible Church:"
+                sections:
+                  - s16_2_4_1: "The Name Catholic and Christian:"
+                  - s16_2_4_2: "Antiquity:"
+                  - s16_2_4_3: "Long Duration:"
+                  - s16_2_4_4: "Amplitude:"
+                  - s16_2_4_5: "Succession of Bishops:"
+                  - s16_2_4_6: "Agreement in Doctrine with the Ancient Church:"
+                  - s16_2_4_7: "Union of Members Among Themselves and with the Head:"
+                  - s16_2_4_8: "Sanctity of Doctrine:"
+                  - s16_2_4_9: "Efficacy of Doctrine:"
+                  - s16_2_4_10: "Sanctity of Life:"
+                  - s16_2_4_11: "Glory of Miracles:"
+                  - s16_2_4_12: "Prophetic Light:"
+                  - s16_2_4_13: "Confession of Adversaries:"
+                  - s16_2_4_14: "Unhappy End of Persecutors:"
+                  - s16_2_4_15: "Temporal Happiness of Defenders of the Church:"
+              - s16_2_5: "Arguments That the Church Cannot Err:"
+              - s16_2_6: "Arguments That the Church Cannot Fail:"
+      - s17: "LOCUS XVII: ON THE ECCLESIASTICAL MINISTRY & THE LAWFUL CALLING THERETO:"
+        sections:
+          - s17_1: "THE FIRST PART CONFIRMING:"
+            sections:
+              - s17_1_1: "PART I: WHAT THE ECCLESIASTICAL MINISTRY IS:"
+                sections:
+                  - s17_1_1_1: "Definition of the Ecclesiastical Ministry:"
+                  - s17_1_1_2: "Explanation of the Definition:"
+                  - s17_1_1_3: "Attributes of the Ministry:"
+                  - s17_1_1_4: "Institution and Purpose of the Ministry:"
+              - s17_1_2: "PART II: HOW MANIFOLD THE ECCLESIASTICAL MINISTRY IS:"
+                sections:
+                  - s17_1_2_1: "Orders of the Ecclesiastical Ministry:"
+                  - s17_1_2_2: "Identity of Pastors, Presbyters, and Bishops:"
+                  - s17_1_2_3: "Distinction Between Presbyters and Bishops:"
+                  - s17_1_2_4: "Scriptural Proofs:"
+                  - s17_1_2_5: "Patristic Authority:"
+              - s17_1_3: "PART III: ON THE LAWFUL CALLING TO THE ECCLESIASTICAL MINISTRY:"
+                sections:
+                  - s17_1_3_1: "Definition and Division of Calling:"
+                  - s17_1_3_2: "Definition of Calling:"
+                  - s17_1_3_3: "Explanation of the Definition:"
+                  - s17_1_3_4: "Division of Calling:"
+                  - s17_1_3_5: "Who Ought to Call?"
+                  - s17_1_3_6: "Who Are to Be Called?"
+                  - s17_1_3_7: "How Ministers Are to Be Called?"
+                  - s17_1_3_8: "Signification of Imposition of Hands:"
+              - s17_1_4: "PART IV: HOW MANIFOLD THE MANNER OF CALLING IS:"
+                sections:
+                  - s17_1_4_1: "Ordinary and Extraordinary Calling:"
+                  - s17_1_4_2: "Proof of Extraordinary Calling:"
+              - s17_1_5: "PART V: THAT THE CALLING OF OUR MINISTERS IS LAWFUL, OF THE PAPISTS UNLAWFUL:"
+                sections:
+                  - s17_1_5_1: "Lawfulness of the Calling of the Reformers:"
+          - s17_2: "SECOND PART: Refutation of the Chief Errors Attacking the Sound Doctrine Concerning the Ecclesiastical Ministry and the Lawful Calling Thereto:"
+            sections:
+              - s17_2_1: "Introduction: Overview of the Refutation:"
+              - s17_2_2: "Peron’s Argument Summarized:"
+              - s17_2_3: "Response to the Major Proposition:"
+              - s17_2_4: "Response to the Second Support:"
+              - s17_2_5: "Response to the Third Support:"
+              - s17_2_6: "Refutation of the Minor Proposition: Our Ministers Lack Calling:"
+                sections:
+                  - s17_2_6_1: "Refutation of the Papists’ Arguments Against Our Extraordinary Calling:"
+                    sections:
+                      - s17_2_6_1_1: "First Papist Argument: From the Promises of God:"
+                        sections:
+                          - s17_2_6_1_1_1: "Objections and Responses:"
+                      - s17_2_6_1_2: "Second Papist Argument: From the Fathers:"
+                      - s17_2_6_1_3: "Third Papist Argument: From Reason:"
+                  - s17_2_6_2: "Refutation of the Papists’ Arguments Against Our Ordinary Calling:"
+                    sections:
+                      - s17_2_6_2_1: "First Argument: We Lack Personal Succession:"
+                      - s17_2_6_2_2: "Second Argument: Not Ordained by a Bishop:"
+                      - s17_2_6_2_3: "Third Argument: Loss of Right Due to Heresy:"
     translations:
       - translator: Unknown AI
         AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf
             pdf: true
             section_urls:
@@ -75,3 +283,200 @@ trelcatius-elder-commonplaces:
               - 17: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=181
               - 18: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=157
               - 19: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=190
+              - s1_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-theology-its-foundation-and-principle-the-holy-scripture/#question-1-concerning-the-canon
+              - s1_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-theology-its-foundation-and-principle-the-holy-scripture/#establishment-concerning-the-second-question-which-edition-of-the-holy-scripture-is-authentic
+              - s1_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-theology-its-foundation-and-principle-the-holy-scripture/#the-third-question-concerning-the-authority-of-the-holy-scripture
+              - s1_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-theology-its-foundation-and-principle-the-holy-scripture/#the-fourth-question-concerning-the-perspicuity-of-the-holy-scripture
+              - s1_5: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-theology-its-foundation-and-principle-the-holy-scripture/#the-fifth-question-concerning-the-interpretation-of-the-holy-scripture
+              - s1_6: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-theology-its-foundation-and-principle-the-holy-scripture/#the-sixth-question-concerning-the-perfection-of-the-holy-scripture
+              - s2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/
+              - s2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-first-part-constructive
+              - s2_1_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#i-of-the-essence
+              - s2_1_1_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#definition-of-terms
+              - s2_1_1_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#concerning-the-thing-itself
+              - s2_1_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#ii-of-the-attributes-of-god
+              - s2_1_2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-attributes-of-the-first-kind
+              - s2_1_2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-simplicity-of-god
+              - s2_1_2_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-infinity-immensity-of-god
+              - s2_1_2_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#of-the-attributes-of-the-second-kind
+              - s2_1_2_5: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-omnipotence-of-god
+              - s2_1_2_6: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-knowledge-of-god
+              - s2_1_2_7: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-will-of-god
+              - s2_1_2_8: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-remaining-attributes
+              - s2_1_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#iii-of-the-holy-trinity
+              - s2_1_3_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-sum-of-the-doctrine
+              - s2_1_3_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#explanation-of-the-words
+              - s2_1_3_2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#1-three
+              - s2_1_3_2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#2-hypostasis
+              - s2_1_3_2_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#3-homoousios
+              - s2_1_3_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#exposition-of-the-thing-itself
+              - s2_1_3_3_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#of-the-first-the-three-persons
+              - s2_1_3_3_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#of-the-second-the-distinction-of-the-persons
+              - s2_1_3_3_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#of-the-third-the-homoousia-and-equality
+              - s2_1_3_3_3_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#of-the-son
+              - s2_1_3_3_3_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#of-the-holy-ghost
+              - s2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-second-part-of-the-place-concerning-god
+              - s2_2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#four-principle-fountain-of-errors
+              - s2_2_1_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-first-fountain-false-interpretation-of-scripture
+              - s2_2_1_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-second-fountain-misapplication-of-physical-principles
+              - s2_2_1_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-third-fountain-false-principles-and-presuppositions
+              - s2_2_1_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#the-fourth-fountain-inferring-inequality-from-human-nature
+              - s2_2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#arguments-against-the-distinction-of-persons
+              - s2_2_2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#errors-in-form
+              - s2_2_2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#errors-in-matter
+              - s2_2_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#arguments-against-the-consubstantiality-of-persons
+              - s2_2_3_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#errors-from-relative-statements
+              - s2_2_3_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#errors-in-form-1
+              - s2_2_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#arguments-specifically-against-the-divinity-of-the-son
+              - s2_2_4_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#errors-from-homonymy
+              - s2_2_4_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#errors-from-relative-statements-1
+              - s2_2_4_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#errors-of-consequence
+              - s2_2_5: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#arguments-against-the-consubstantiality-of-the-holy-spirit
+              - s2_2_5_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#arguments-from-scripture-perversion
+              - s2_2_5_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#arguments-from-false-principles
+              - s2_2_6: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-god/#against-the-tritheists
+              - s10: https://confessionallyreformed.wordpress.com/2025/04/15/lucas-trelcatius-sr-c-1602-on-the-eternal-covenants/
+              - s10_1: https://confessionallyreformed.wordpress.com/2025/04/15/lucas-trelcatius-sr-c-1602-on-the-eternal-covenants/#i-explanation-of-terms
+              - s10_2: https://confessionallyreformed.wordpress.com/2025/04/15/lucas-trelcatius-sr-c-1602-on-the-eternal-covenants/#ii-definition-and-exposition-thereof
+              - s10_3: https://confessionallyreformed.wordpress.com/2025/04/15/lucas-trelcatius-sr-c-1602-on-the-eternal-covenants/#iii-exposition-of-certain-matters-in-this-subject-that-are-more-difficult-and-most-necessary-to-know
+              - s13: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#locus-xiii
+              - s13_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#i-introduction
+              - s13_1_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#a-concerning-the-signification-of-the-word
+              - s13_1_1_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#1-what-justification-signifies
+              - s13_1_1_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#2-what-the-word-grace-signifies
+              - s13_1_1_3: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#3-what-the-word-freely-signifies
+              - s13_1_1_4: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#4-what-the-word-imputation-signifies
+              - s13_1_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#b-definition-of-justification
+              - s13_1_2_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#1-analysis-and-explanation-of-the-definition
+              - s13_1_2_1_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#a-efficient-cause
+              - s13_1_2_1_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#b-procatarctic-cause-of-justification
+              - s13_1_2_1_2_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#1-the-justice-of-christ-is-the-meritorious-cause-of-our-salvation
+              - s13_1_2_1_2_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#2-the-justice-of-christ-consists-in-full-satisfaction-for-our-sins-and-all-fulfillment-of-the-law
+              - s13_1_2_1_3: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#c-instrumental-cause-of-justification
+              - s13_1_2_1_4: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#d-matter-of-justification
+              - s13_1_2_1_5: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#e-form-of-justification
+              - s13_1_2_1_6: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#f-final-cause-of-justification
+              - s13_1_2_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#2-in-what-sense-faith-is-said-to-justify
+              - s13_1_2_2_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#a-explanation-of-the-phrase
+              - s13_1_2_2_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#b-declaration-of-the-orthodox-opinion
+              - s13_1_2_2_2_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#1-by-faith-alone-we-are-justified
+              - s13_1_2_2_2_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#2-we-are-not-justified-by-any-works
+              - s13_1_2_3: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#3-effects-of-justification
+              - s13_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#ii-second-part-destructive
+              - s13_2_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#a-the-opinion-of-the-pontificals-concerning-justification
+              - s13_2_1_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#1-inherent-justice
+              - s13_2_1_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#2-double-justification
+              - s13_2_1_3: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#3-formal-cause-of-justification
+              - s13_2_1_4: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#4-those-justified-can-perish
+              - s13_2_1_5: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#5-perfection-of-man-justified-in-this-life
+              - s13_2_1_6: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#6-how-faith-justifies-us
+              - s13_2_1_7: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#7-how-we-are-said-to-be-justified-freely
+              - s13_2_1_8: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#8-what-is-the-mercy-and-justice-of-the-gospel
+              - s13_2_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#b-arguments-of-the-pontificals
+              - s13_2_2_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#1-first-class-of-arguments-justification-is-from-works
+              - s13_2_2_1_1: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#a-that-we-are-said-to-be-justified-by-works
+              - s13_2_2_1_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#b-that-good-works-please-god-and-are-rewarded
+              - s13_2_2_1_3: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#c-examples-of-the-saints
+              - s13_2_2_1_4: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#d-reasons
+              - s13_2_2_2: https://confessionallyreformed.wordpress.com/2025/07/20/lucas-trelcatius-sr-c-1542-1602-on-justification/#2-second-class-of-arguments
+              - s14_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#the-first-part-constructive
+              - s14_1_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#i-the-explication-of-the-words
+              - s14_1_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#ii-of-sanctification
+              - s14_1_2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#ii-what-agreement-and-what-difference-there-be-betwixt-sanctification-and-justification
+              - s14_1_2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#iii-the-explication-of-the-thing-or-definition-of-sanctification
+              - s14_1_2_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#iv-sanctification-s-adjuncts-opposites-and-effects
+              - s14_1_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#of-repentance-or-resipiscence
+              - s14_1_3_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#i-declaration-of-the-thing-or-definition-of-repentance
+              - s14_1_3_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#ii-causes-of-repentance
+              - s14_1_3_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#iii-parts-of-repentance
+              - s14_1_3_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#iv-effects-of-repentance
+              - s14_1_3_5: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#v-adjuncts-of-repentance
+              - s14_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#the-second-part-a-refutation-of-the-chief-errors-of-those-who-impugn-the-sound-doctrine-of-sanctification-repentance
+              - s14_2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#the-first-error-of-those-who-abolish-repentance
+              - s14_2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-sanctification-wherein-also-of-repentance/#the-second-error-of-those-who-exalt-repentance-overmuch
+              - s16: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/
+              - s16_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#the-first-part-constructing
+              - s16_1_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#necessity-and-utility-of-this-locus
+              - s16_1_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#i-whether-there-be-a-church
+              - s16_1_2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#1-of-the-name
+              - s16_1_2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#2-of-the-multiple-signification-of-the-word
+              - s16_1_2_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#3-by-what-names-the-church-is-signified-in-scripture
+              - s16_1_2_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#definition-of-the-church
+              - s16_1_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#iii-what-the-church-is-like
+              - s16_1_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#iv-of-the-invisible-church
+              - s16_1_5: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#v-of-the-visible-church
+              - s16_1_5_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#1-definition-of-the-visible-church
+              - s16_1_5_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#2-marks-of-the-visible-church
+              - s16_1_5_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#3-whether-the-church-can-err
+              - s16_1_5_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#4-whether-the-church-can-fail
+              - s16_1_5_4_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#1-that-the-militant-church-doth-not-fail-but-is-often-constrained-to-hide-and-flee
+              - s16_1_5_4_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#2-that-any-particular-church-can-fail
+              - s16_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#the-second-part-a-refutation-of-the-chief-errors-of-those-who-impugn-the-sound-doctrine-of-the-church
+              - s16_2_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#the-definition-of-the-church
+              - s16_2_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#the-nature-of-the-church
+              - s16_2_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#the-qualities-marks-accidents-of-the-church
+              - s16_2_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#the-marks-of-the-visible-church
+              - s16_2_4_1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#1-the-name-catholic-and-christian
+              - s16_2_4_2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#2-antiquity
+              - s16_2_4_3: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#3-long-duration
+              - s16_2_4_4: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#4-amplitude
+              - s16_2_4_5: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#5-succession-of-bishops
+              - s16_2_4_6: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#6-agreement-in-doctrine-with-the-ancient-church
+              - s16_2_4_7: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#7-union-of-members-among-themselves-and-with-the-head
+              - s16_2_4_8: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#8-sanctity-of-doctrine
+              - s16_2_4_9: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#9-efficacy-of-doctrine
+              - s16_2_4_10: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#10-sanctity-of-life
+              - s16_2_4_11: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#11-glory-of-miracles
+              - s16_2_4_12: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#12-prophetic-light
+              - s16_2_4_13: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#13-confession-of-adversaries
+              - s16_2_4_14: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#14-unhappy-end-of-persecutors
+              - s16_2_4_15: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#15-temporal-happiness-of-defenders-of-the-church
+              - s16_2_5: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#arguments-that-the-church-cannot-err
+              - s16_2_6: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-the-church/#arguments-that-the-church-cannot-fail
+              - s17: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/
+              - s17_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#the-first-part-confirming
+              - s17_1_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#part-i-what-the-ecclesiastical-ministry-is
+              - s17_1_1_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#definition-of-the-ecclesiastical-ministry
+              - s17_1_1_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#explanation-of-the-definition
+              - s17_1_1_3: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#attributes-of-the-ministry
+              - s17_1_1_4: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#institution-and-purpose-of-the-ministry
+              - s17_1_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#part-ii-how-manifold-the-ecclesiastical-ministry-is
+              - s17_1_2_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#orders-of-the-ecclesiastical-ministry
+              - s17_1_2_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#identity-of-pastors-presbyters-and-bishops
+              - s17_1_2_3: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#distinction-between-presbyters-and-bishops
+              - s17_1_2_4: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#scriptural-proofs
+              - s17_1_2_5: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#patristic-authority
+              - s17_1_3: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#part-iii-on-the-lawful-calling-to-the-ecclesiastical-ministry
+              - s17_1_3_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#definition-and-division-of-calling
+              - s17_1_3_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#definition-of-calling
+              - s17_1_3_3: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#explanation-of-the-definition-1
+              - s17_1_3_4: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#division-of-calling
+              - s17_1_3_5: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#who-ought-to-call
+              - s17_1_3_6: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#who-are-to-be-called
+              - s17_1_3_7: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#how-ministers-are-to-be-called
+              - s17_1_3_8: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#signification-of-imposition-of-hands
+              - s17_1_4: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#part-iv-how-manifold-the-manner-of-calling-is
+              - s17_1_4_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#ordinary-and-extraordinary-calling
+              - s17_1_4_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#proof-of-extraordinary-calling
+              - s17_1_5: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#part-v-that-the-calling-of-our-ministers-is-lawful-of-the-papists-unlawful
+              - s17_1_5_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#lawfulness-of-the-calling-of-the-reformers
+              - s17_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#second-part-refutation-of-the-chief-errors-attacking-the-sound-doctrine-concerning-the-ecclesiastical-ministry-and-the-lawful-calling-thereto
+              - s17_2_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#introduction-overview-of-the-refutation
+              - s17_2_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#peron-s-argument-summarized
+              - s17_2_3: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#response-to-the-major-proposition
+              - s17_2_4: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#response-to-the-second-support
+              - s17_2_5: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#response-to-the-third-support
+              - s17_2_6: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#refutation-of-the-minor-proposition-our-ministers-lack-calling
+              - s17_2_6_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#first-papist-argument-no-place-for-extraordinary-calling-now
+              - s17_2_6_1_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#first-papist-argument-from-the-promises-of-god
+              - s17_2_6_1_1_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#objections-and-responses
+              - s17_2_6_1_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#second-papist-argument-from-the-fathers
+              - s17_2_6_1_3: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#third-papist-argument-from-reason
+              - s17_2_6_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#refutation-of-the-papists-arguments-against-our-ordinary-calling
+              - s17_2_6_2_1: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#first-argument-we-lack-personal-succession
+              - s17_2_6_2_2: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#second-argument-not-ordained-by-a-bishop
+              - s17_2_6_2_3: https://confessionallyreformed.wordpress.com/2025/04/19/lucas-trelcatius-sr-c-1602-on-the-ecclesiastical-ministry-the-lawful-calling-thereto/#third-argument-loss-of-right-due-to-heresy
+              - s1: https://confessionallyreformed.wordpress.com/2025/04/15/lucas-trelcatius-sr-c-1602-on-justification/#the-part-constructing
+              - s2: https://confessionallyreformed.wordpress.com/2025/04/15/lucas-trelcatius-sr-c-1602-on-justification/#the-second-part-a-refutation-of-the-chief-errors-of-those-who-impugn-the-sound-doctrine-of-justification
+              - s1: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-saving-or-justifying-faith/#the-first-part-constructive
+              - s2: https://confessionallyreformed.wordpress.com/2025/04/16/lucas-trelcatius-sr-c-1602-on-saving-or-justifying-faith/#the-second-part-a-refutation-of-the-chief-errors-of-those-who-impugn-the-sound-doctrine-of-saving-faith

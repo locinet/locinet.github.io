@@ -11,18 +11,309 @@ coccejus-summa:
   en:
     title: A Summary of Theology Drawn from the Scriptures
     sections:
-      - ch6: "Chapter 6: On the Perspicuity and Interpretation of Scripture"
-        loci: scripture
-      - ch7: "Chapter 7: On the Foundation"
-        loci: theology
-      - satisfaction: "Chapter 61: Concerning the Satisfaction of Christ"
-        loci: atonement
+      - s6: "CHAPTER VI: ON THE PERSPICUITY AND INTERPRETATION OF SCRIPTURE"
+        sections:
+          - s6_1: "I. The Necessity of Scripture’s Perspicuity"
+            sections:
+              - s6_1_1: "A. The Purpose of Scripture Requires Clarity"
+              - s6_1_2: "B. Scripture’s Clarity Asserted in Scripture Itself"
+                sections:
+                  - s6_1_2_1: "1. Testimonies from the Psalms and Proverbs"
+                  - s6_1_2_2: "2. Moses on the Clarity of the Precept of Faith"
+                  - s6_1_2_3: "3. The Promise of the New Testament"
+              - s6_1_3: "C. Transition: The Nature and Extent of This Clarity"
+          - s6_2: "II. The Causes of Scripture’s Obscurity to Some Persons"
+            sections:
+              - s6_2_1: "A. Scripture May Be Clear Yet Man Remains Blind"
+                sections:
+                  - s6_2_1_1: "1. The General Principle Stated"
+                  - s6_2_1_2: "2. The Analogy of the Book of Nature"
+              - s6_2_2: "B. The Necessity of Spiritual Attention"
+                sections:
+                  - s6_2_2_1: "1. Neither Book Produces Understanding Without Attention"
+                  - s6_2_2_2: "2. Impediments to Proper Attention"
+              - s6_2_3: "C. Divine Judgment Upon the Unbelieving"
+                sections:
+                  - s6_2_3_1: "1. The Veil Upon the Hearts of the Jews"
+                  - s6_2_3_2: "2. The Gospel Veiled Only to Those Perishing"
+              - s6_2_4: "D. The Illuminated and Unilluminated Distinguished"
+                sections:
+                  - s6_2_4_1: "1. The Gospel Clear to Those with Illuminated Eyes"
+                  - s6_2_4_2: "2. The Blindness of Unbelievers"
+                  - s6_2_4_3: "3. Apostates Who Fall from the Truth"
+                  - s6_2_4_4: "4. The Root Cause: Self-Opinion and Evil Conscience"
+          - s6_3: "III. Against the Abuse of Scripture’s Perspicuity"
+            sections:
+              - s6_3_1: "A. Warning Against Those Who Deny the Need for Grace"
+              - s6_3_2: "B. Obscurities Remaining for Believers Who Must Grow"
+                sections:
+                  - s6_3_2_1: "1. Many Things Appear Obscure to the Faithful"
+                  - s6_3_2_2: "2. Believers Are Called Children Who Must Mature"
+                  - s6_3_2_3: "3. The Example of Apollos"
+                  - s6_3_2_4: "4. Peter’s Testimony Concerning Difficult Passages"
+                  - s6_3_2_5: "5. The Kinds of Difficult Matters in Scripture"
+                  - s6_3_2_6: "6. How the Godly Progress in Understanding"
+                  - s6_3_2_7: "7. The Unlearned Who Twist Scripture to Their Destruction"
+              - s6_3_3: "C. Against Two Opposite Errors"
+          - s6_4: "IV. The Nature and Grounds of Scripture’s Perspicuity"
+            sections:
+              - s6_4_1: "A. The Definition of Scripture’s Clarity"
+              - s6_4_2: "B. The Reasons for Scripture’s Perspicuity"
+                sections:
+                  - s6_4_2_1: "1. First Reason: No Statement Supports Falsehood Without Violence"
+                  - s6_4_2_2: "2. Second Reason: The Analogy of Faith"
+                  - s6_4_2_3: "3. Third Reason: Christ as the Key of Knowledge"
+                  - s6_4_2_4: "4. Fourth Reason: All Promises Center in the Mystery of Christ"
+                  - s6_4_2_5: "5. Fifth Reason: The Doctrine of Repentance Clearly Taught"
+                  - s6_4_2_6: "6. Sixth Reason: Prophecies Confirmed by Clear Fulfillments"
+                  - s6_4_2_7: "7. Seventh Reason: The Rule of Faith and Love Illustrated"
+                  - s6_4_2_8: "8. Eighth Reason: Scripture’s Self-Interpreting Repetition"
+                  - s6_4_2_9: "9. Ninth Reason: The Style and Expression of Scripture"
+          - s6_5: "V. Principles of Interpretation"
+            sections:
+              - s6_5_1: "A. The Interpreter Must Seek the True Sense, Not Merely a True Sense"
+                sections:
+                  - s6_5_1_1: "1. Augustine’s Testimony on Scripture’s Wisdom and Eloquence"
+                  - s6_5_1_2: "2. The Insufficiency of Offering Any True Meaning"
+                  - s6_5_1_3: "3. The Danger of Departing from the True Sense"
+                  - s6_5_1_4: "4. The Danger to Both Teacher and Hearer"
+              - s6_5_2: "B. The Goal of All Instruction"
+              - s6_5_3: "C. Every Scripture Has Power for Conscience"
+              - s6_5_4: "D. Determining the Signification of Words"
+                sections:
+                  - s6_5_4_1: "1. Words Signify What They Are Capable of Producing in the Mind"
+                  - s6_5_4_2: "2. Determining Broader or Narrower Senses"
+                  - s6_5_4_3: "3. Against the Objection of Diverse Interpretations"
+              - s6_5_5: "E. Allegory and Literal Sense"
+              - s6_5_6: "F. Tenth Reason: The Clarity of Histories and Chronologies"
+              - s6_5_7: "G. Eleventh Reason: Nothing Obscure Not Contained in Clear Passages"
+          - s6_6: "VI. Against Errors Concerning Interpretation"
+            sections:
+              - s6_6_1: "A. The First Error: The New Methodists"
+              - s6_6_2: "B. The Second Error: The Socinians"
+          - s6_7: "VII. The Usefulness and Power of Scripture"
+            sections:
+              - s6_7_1: "A. Scripture Profitable for All Good Works"
+              - s6_7_2: "B. Scripture Useful for Manifestation to Every Conscience"
+              - s6_7_3: "C. The Mighty in Scripture Can Demonstrate the Truth"
+          - s6_8: "VIII. Scripture’s Clarity Among Christians Having the Foundation"
+            sections:
+              - s6_8_1: "A. Scripture Clear Through Grace and Interpretation in the Church"
+              - s6_8_2: "B. The Catechesis Transmitted Despite Corruptions"
+              - s6_8_3: "C. Novelty Condemns False Doctrines"
+          - s6_9: "IX. The Translation of Scripture"
+            sections:
+              - s6_9_1: "A. The Lawfulness and Benefit of Translation"
+                sections:
+                  - s6_9_1_1: "1. The Church Has Recognized the Essential Passages"
+                  - s6_9_1_2: "2. The Gift of Interpretation Has Preserved Truth in Translations"
+                  - s6_9_1_3: "3. The Duty of Helping the Church to Fuller Understanding"
+                  - s6_9_1_4: "4. The Ongoing Progress in Understanding Scripture"
+              - s6_9_2: "B. Cautions for Translators"
+              - s6_9_3: "C. No Version Made by Men Is Authentic"
+              - s6_9_4: "D. Variant Readings Do Not Undermine Scripture’s Authority"
+          - s6_10: "X. Interpretation by Necessary Consequence"
+            sections:
+              - s6_10_1: "A. Against Walenburg’s Denial of Consequences Making Faith"
+              - s6_10_2: "B. Christ’s Example of Arguing from Scripture"
+              - s6_10_3: "C. Paul’s Example"
+              - s6_10_4: "D. The Analogy of Faith Requires Reasoning"
+          - s6_11: "XI. No Private Interpretation Belongs to Any Man"
+            sections:
+              - s6_11_1: "A. The Meaning of “No Private Interpretation”"
+              - s6_11_2: "B. A Necessary Interpreter Lacking Demonstration Is a False Prophet"
+              - s6_11_3: "C. No Example of Such an Interpreter in Any Age"
+              - s6_11_4: "D. The Situation in the Old Testament"
+              - s6_11_5: "E. Christ Himself Submitted His Doctrine to Examination"
+              - s6_11_6: "F. Concluding Exhortation"
+      - s7: "CHAPTER VII: ON THE FOUNDATION"
+        sections:
+          - s7_1: "I. Introduction: The Importance of the Doctrine of the Foundation"
+          - s7_2: "II. The First Sense of “Foundation”: Christ as the Person to Whom We Come"
+            sections:
+              - s7_2_1: "A. The Foundation Denotes Christ as the Living Stone"
+              - s7_2_2: "B. Scriptural Testimonies Concerning Christ as Foundation"
+              - s7_2_3: "C. The Foundation of Apostles and Prophets Explained"
+              - s7_2_4: "D. Christ as the Stone Set Forth for Beholding and Trust"
+              - s7_2_5: "E. The Unity of the Foundation in Old and New Testaments"
+              - s7_2_6: "F. Christ Distinguished from Other Pillars in the Church"
+          - s7_3: "III. The Second Sense of “Foundation”: The Fundamental Truth or Axiom"
+            sections:
+              - s7_3_1: "A. The Foundation Denotes Fundamental Truth"
+              - s7_3_2: "B. The Necessity of Explicit Knowledge of This Truth"
+              - s7_3_3: "C. The Foundation Contains All Theological Truths"
+              - s7_3_4: "D. Prophesying According to the Analogy of Faith"
+              - s7_3_5: "E. The Foundation as the Rule for Judging Doctrine"
+          - s7_4: "IV. The Identification of the Fundamental Axiom"
+            sections:
+              - s7_4_1: "A. The Fundamental Axiom Is That Which Shows Him by Whom We Have Life"
+              - s7_4_2: "B. The Foundation Is One Because God, Righteousness, and the End Are One"
+              - s7_4_3: "C. The Foundation Is One in Old and New Testaments"
+              - s7_4_4: "D. Various Expressions of the One Fundamental Axiom in Scripture"
+          - s7_5: "V. The Believer Who Holds the Foundation"
+            sections:
+              - s7_5_1: "A. He Who Holds the Foundation Is Himself a Foundation, Pillar, and Wall"
+              - s7_5_2: "B. The Necessity of Tasting the Foundation Before Seeking God"
+      - s61: "Christ’s Satisfaction Defined:"
+        sections:
+          - s61_2: "Rejection of False Doctrines:"
+          - s61_3: "Proof of Christ’s Satisfaction:"
+            sections:
+              - s61_3_1: "The Necessity of Satisfaction from God’s Justice:"
+              - s61_3_2: "The Necessity of Satisfaction from the Law:"
+              - s61_3_3: "The Impotence of the Law:"
+              - s61_3_4: "Proof from God’s Curse:"
+              - s61_3_5: "Proof from Types and Sacrifices:"
+              - s61_3_6: "Scriptural Terms Signifying Satisfaction:"
+              - s61_3_7: "Isaiah 53 as Testimony:"
+              - s61_3_8: "Addressing Objections:"
+          - s61_4: "The Price of Satisfaction:"
+          - s61_5: "The Nature of Christ’s Satisfaction:"
+          - s61_6: "For Whom Christ Satisfied:"
+            sections:
+              - s61_6_1: "Whether Christ Satisfied for All:"
+              - s61_6_2: "Understanding the Scriptural Phrase:"
+          - s61_7: "The Effects of Christ’s Satisfaction:"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - ch6: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/
               - ch7: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/
               - satisfaction: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/
+
+              - s6: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#chapter-vi-on-the-perspicuityand-interpretation-of-scripture
+              - s6_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#i-the-necessity-of-scripture-s-perspicuity
+              - s6_1_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-the-purpose-of-scripture-requires-clarity
+              - s6_1_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-scripture-s-clarity-asserted-in-scripture-itself
+              - s6_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-testimonies-from-the-psalms-and-proverbs
+              - s6_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-moses-on-the-clarity-of-the-precept-of-faith
+              - s6_1_2_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#3-the-promise-of-the-new-testament
+              - s6_1_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-transition-the-nature-and-extent-of-this-clarity
+              - s6_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#ii-the-causes-of-scripture-s-obscurity-to-some-persons
+              - s6_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-scripture-may-be-clear-yet-man-remains-blind
+              - s6_2_1_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-the-general-principle-stated
+              - s6_2_1_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-the-analogy-of-the-book-of-nature
+              - s6_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-the-necessity-of-spiritual-attention
+              - s6_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-neither-book-produces-understanding-without-attention
+              - s6_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-impediments-to-proper-attention
+              - s6_2_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-divine-judgment-upon-the-unbelieving
+              - s6_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-the-veil-upon-the-hearts-of-the-jews
+              - s6_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-the-gospel-veiled-only-to-those-perishing
+              - s6_2_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#d-the-illuminated-and-unilluminated-distinguished
+              - s6_2_4_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-the-gospel-clear-to-those-with-illuminated-eyes
+              - s6_2_4_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-the-blindness-of-unbelievers
+              - s6_2_4_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#3-apostates-who-fall-from-the-truth
+              - s6_2_4_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#4-the-root-cause-self-opinion-and-evil-conscience
+              - s6_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#iii-against-the-abuse-of-scripture-s-perspicuity
+              - s6_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-warning-against-those-who-deny-the-need-for-grace
+              - s6_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-obscurities-remaining-for-believers-who-must-grow
+              - s6_3_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-many-things-appear-obscure-to-the-faithful
+              - s6_3_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-believers-are-called-children-who-must-mature
+              - s6_3_2_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#3-the-example-of-apollos
+              - s6_3_2_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#4-peter-s-testimony-concerning-difficult-passages
+              - s6_3_2_5: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#5-the-kinds-of-difficult-matters-in-scripture
+              - s6_3_2_6: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#6-how-the-godly-progress-in-understanding
+              - s6_3_2_7: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#7-the-unlearned-who-twist-scripture-to-their-destruction
+              - s6_3_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-against-two-opposite-errors
+              - s6_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#iv-the-nature-and-grounds-of-scripture-s-perspicuity
+              - s6_4_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-the-definition-of-scripture-s-clarity
+              - s6_4_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-the-reasons-for-scripture-s-perspicuity
+              - s6_4_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-first-reason-no-statement-supports-falsehood-without-violence
+              - s6_4_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-second-reason-the-analogy-of-faith
+              - s6_4_2_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#3-third-reason-christ-as-the-key-of-knowledge
+              - s6_4_2_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#4-fourth-reason-all-promises-center-in-the-mystery-of-christ
+              - s6_4_2_5: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#5-fifth-reason-the-doctrine-of-repentance-clearly-taught
+              - s6_4_2_6: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#6-sixth-reason-prophecies-confirmed-by-clear-fulfillments
+              - s6_4_2_7: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#7-seventh-reason-the-rule-of-faith-and-love-illustrated
+              - s6_4_2_8: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#8-eighth-reason-scripture-s-self-interpreting-repetition
+              - s6_4_2_9: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#9-ninth-reason-the-style-and-expression-of-scripture
+              - s6_5: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#v-principles-of-interpretation
+              - s6_5_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-the-interpreter-must-seek-the-true-sense-not-merely-a-true-sense
+              - s6_5_1_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-augustine-s-testimony-on-scripture-s-wisdom-and-eloquence
+              - s6_5_1_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-the-insufficiency-of-offering-any-true-meaning
+              - s6_5_1_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#3-the-danger-of-departing-from-the-true-sense
+              - s6_5_1_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#4-the-danger-to-both-teacher-and-hearer
+              - s6_5_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-the-goal-of-all-instruction
+              - s6_5_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-every-scripture-has-power-for-conscience
+              - s6_5_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#d-determining-the-signification-of-words
+              - s6_5_4_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-words-signify-what-they-are-capable-of-producing-in-the-mind
+              - s6_5_4_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-determining-broader-or-narrower-senses
+              - s6_5_4_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#3-against-the-objection-of-diverse-interpretations
+              - s6_5_5: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#e-allegory-and-literal-sense
+              - s6_5_6: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#f-tenth-reason-the-clarity-of-histories-and-chronologies
+              - s6_5_7: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#g-eleventh-reason-nothing-obscure-not-contained-in-clear-passages
+              - s6_6: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#vi-against-errors-concerning-interpretation
+              - s6_6_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-the-first-error-the-new-methodists
+              - s6_6_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-the-second-error-the-socinians
+              - s6_7: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#vii-the-usefulness-and-power-of-scripture
+              - s6_7_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-scripture-profitable-for-all-good-works
+              - s6_7_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-scripture-useful-for-manifestation-to-every-conscience
+              - s6_7_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-the-mighty-in-scripture-can-demonstrate-the-truth
+              - s6_8: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#viii-scripture-s-clarity-among-christians-having-the-foundation
+              - s6_8_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-scripture-clear-through-grace-and-interpretation-in-the-church
+              - s6_8_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-the-catechesis-transmitted-despite-corruptions
+              - s6_8_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-novelty-condemns-false-doctrines
+              - s6_9: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#ix-the-translation-of-scripture
+              - s6_9_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-the-lawfulness-and-benefit-of-translation
+              - s6_9_1_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#1-the-church-has-recognized-the-essential-passages
+              - s6_9_1_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#2-the-gift-of-interpretation-has-preserved-truth-in-translations
+              - s6_9_1_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#3-the-duty-of-helping-the-church-to-fuller-understanding
+              - s6_9_1_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#4-the-ongoing-progress-in-understanding-scripture
+              - s6_9_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-cautions-for-translators
+              - s6_9_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-no-version-made-by-men-is-authentic
+              - s6_9_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#d-variant-readings-do-not-undermine-scripture-s-authority
+              - s6_10: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#x-interpretation-by-necessary-consequence
+              - s6_10_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-against-walenburg-s-denial-of-consequences-making-faith
+              - s6_10_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-christ-s-example-of-arguing-from-scripture
+              - s6_10_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-paul-s-example
+              - s6_10_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#d-the-analogy-of-faith-requires-reasoning
+              - s6_11: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#xi-no-private-interpretation-belongs-to-any-man
+              - s6_11_1: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#a-the-meaning-of-no-private-interpretation
+              - s6_11_2: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#b-a-necessary-interpreter-lacking-demonstration-is-a-false-prophet
+              - s6_11_3: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#c-no-example-of-such-an-interpreter-in-any-age
+              - s6_11_4: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#d-the-situation-in-the-old-testament
+              - s6_11_5: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#e-christ-himself-submitted-his-doctrine-to-examination
+              - s6_11_6: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/#f-concluding-exhortation
+              - s7: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#chapter-vii-on-the-foundation
+              - s7_1: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#i-introduction-the-importance-of-the-doctrine-of-the-foundation
+              - s7_2: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#ii-the-first-sense-of-foundation-christ-as-the-person-to-whom-we-come
+              - s7_2_1: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#a-the-foundation-denotes-christ-as-the-living-stone
+              - s7_2_2: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#b-scriptural-testimonies-concerning-christ-as-foundation
+              - s7_2_3: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#c-the-foundation-of-apostles-and-prophets-explained
+              - s7_2_4: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#d-christ-as-the-stone-set-forth-for-beholding-and-trust
+              - s7_2_5: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#e-the-unity-of-the-foundation-in-old-and-new-testaments
+              - s7_2_6: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#f-christ-distinguished-from-other-pillars-in-the-church
+              - s7_3: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#iii-the-second-sense-of-foundation-the-fundamental-truth-or-axiom
+              - s7_3_1: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#a-the-foundation-denotes-fundamental-truth
+              - s7_3_2: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#b-the-necessity-of-explicit-knowledge-of-this-truth
+              - s7_3_3: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#c-the-foundation-contains-all-theological-truths
+              - s7_3_4: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#d-prophesying-according-to-the-analogy-of-faith
+              - s7_3_5: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#e-the-foundation-as-the-rule-for-judging-doctrine
+              - s7_4: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#iv-the-identification-of-the-fundamental-axiom
+              - s7_4_1: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#a-the-fundamental-axiom-is-that-which-shows-him-by-whom-we-have-life
+              - s7_4_2: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#b-the-foundation-is-one-because-god-righteousness-and-the-end-are-one
+              - s7_4_3: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#c-the-foundation-is-one-in-old-and-new-testaments
+              - s7_4_4: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#d-various-expressions-of-the-one-fundamental-axiom-in-scripture
+              - s7_5: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#v-the-believer-who-holds-the-foundation
+              - s7_5_1: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#a-he-who-holds-the-foundation-is-himself-a-foundation-pillar-and-wall
+              - s7_5_2: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/#b-the-necessity-of-tasting-the-foundation-before-seeking-god
+              - s61: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#christ-s-satisfaction-defined
+              - s61_2: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#rejection-of-false-doctrines
+              - s61_3: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#proof-of-christ-s-satisfaction
+              - s61_3_1: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#the-necessity-of-satisfaction-from-god-s-justice
+              - s61_3_2: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#the-necessity-of-satisfaction-from-the-law
+              - s61_3_3: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#the-impotence-of-the-law
+              - s61_3_4: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#proof-from-god-s-curse
+              - s61_3_5: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#proof-from-types-and-sacrifices
+              - s61_3_6: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#scriptural-terms-signifying-satisfaction
+              - s61_3_7: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#isaiah-53-as-testimony
+              - s61_3_8: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#addressing-objections
+              - s61_4: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#the-price-of-satisfaction
+              - s61_5: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#the-nature-of-christ-s-satisfaction
+              - s61_6: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#for-whom-christ-satisfied
+              - s61_6_1: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#whether-christ-satisfied-for-all
+              - s61_6_2: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#understanding-the-scriptural-phrase
+              - s61_7: https://confessionallyreformed.wordpress.com/2025/04/21/johannes-cocceius-c-1669-on-the-satisfaction-of-christ/#the-effects-of-christ-s-satisfaction

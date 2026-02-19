@@ -11,7 +11,7 @@
     "wikidata-search": "node scripts/wikidata-search.js",
     "oclc-search": "node scripts/oclc-search.js",
     "import-work": "node scripts/import-work.js",
-    "import-earlyprint": "node scripts/import-earlyprint.js",
+    "import-earlyprint": "node --max-old-space-size=4096 scripts/import-earlyprint.js",
     "import-ccel": "node scripts/import-ccel.js",
     "list-sections": "node scripts/list-sections.js",
     "tag": "node scripts/tag-sections.js"

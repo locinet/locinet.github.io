@@ -18,14 +18,325 @@ leblanc-theses:
         loci: free-will
       - predestination: On the Eternal Election and Predestination of Men
         loci: predestination
+        sections:
+          - s1: "I. THE DOCTRINE OF THE ROMAN SCHOOL"
+            sections:
+              - s1_1: "A. The Various Acceptations of the Term “Predestination” in the Roman School"
+              - s1_2: "B. The Various Acceptations of the term “Election” in the Roman School"
+              - s1_3: "C. The Effects of Predestination According to the Roman School"
+                sections:
+                  - s1_3_1: "1. The First Opinion: Glory Alone Is the Effect"
+                  - s1_3_2: "2. The Second Opinion: The Means to Glory Alone Are the Effects"
+                  - s1_3_3: "3. The Third Opinion (Common Today): Both the Means and Glory Are Effects"
+                  - s1_3_4: "4. The Fourth Opinion: Creation and Permission of Sin Are Also Effects"
+                    sections:
+                      - s1_3_4_1: "a. The testimony of Alphonsus Mendoza"
+                        sections:
+                          - s1_3_4_1_1: "i. His first conclusion: First of all divine acts was predestination"
+                          - s1_3_4_1_2: "ii. His second conclusion: All things follow from predestination"
+                          - s1_3_4_1_3: "ii. His third conclusion: There is no providence antecedent to predestination"
+              - s1_4: "D. The Object of Predestination According to the Roman School"
+                sections:
+                  - s1_4_1: "1. The First Opinion: Man as Creatable (Supralapsarian)"
+                  - s1_4_2: "2. The Second Opinion (Common): Man as Fallen in Adam"
+          - s2: "II. THE DOCTRINE OF THE REFORMED SCHOOL"
+            sections:
+              - s2_1: "A. The Various Acceptations of “Predestination” Among the Reformed"
+                sections:
+                  - s2_1_1: "1. The Broader Sense: Including Both Election and Reprobation"
+                  - s2_1_2: "2. The Narrower Sense: Predestination to Life Only"
+              - s2_2: "B. The Various Acceptations of “Election” Among the Reformed"
+                sections:
+                  - s2_2_1: "1. Election as Synonymous with Predestination"
+                  - s2_2_2: "2. Election Restricted to the Decree of Giving Faith"
+              - s2_3: "C. The Object of Predestination According to the Reformed School"
+                sections:
+                  - s2_3_1: "1. The First Opinion: Man as Creatable (Supralapsarian)"
+                    sections:
+                      - s2_3_1_1: "a. Doctors holding this opinion"
+                  - s2_3_2: "2. The Second Opinion (Most Common): Man as Fallen"
+                    sections:
+                      - s2_3_2_1: "a. Conformity with the Canons of Dort"
+                  - s2_3_3: "3. The Third Opinion: Man as Fallen and Called by the Gospel"
+                    sections:
+                      - s2_3_3_1: "a. The view of George Sohnius"
+                      - s2_3_3_2: "b. Those following Cameron’s method"
+              - s2_4: "D. The Effects of Predestination According to the Reformed School"
+                sections:
+                  - s2_4_1: "1. According to the Supralapsarians: Creation and Permission of the Fall"
+                  - s2_4_2: "2. According to the Infralapsarians: The Means of Salvation Beginning with Christ"
+                  - s2_4_3: "3. According to Those Who Make the Called Man the Object: Faith as the First Effect"
+          - s3: "III. COMPARISON OF THE TWO SCHOOLS"
+            sections:
+              - s3_1: "A. The Diversity of Usage of the Terms"
+                sections:
+                  - s3_1_1: "1. Differences in the acceptation of “predestination” and “election”"
+              - s3_2: "B. The Diversity Concerning the Effects of Predestination"
+                sections:
+                  - s3_2_1: "1. Similar diversity exists in both schools"
+              - s3_3: "C. The Diversity Concerning the Object of Predestination"
+                sections:
+                  - s3_3_1: "1. Similar opinions exist in both schools"
+                  - s3_3_2: "2. The common opinion in both schools: man as fallen"
+          - s4: "IV. THE WEIGHT OF THESE QUESTIONS"
+            sections:
+              - s4_1: "A. Much Is Logomachy"
+                sections:
+                  - s4_1_1: "1. The dispute concerns the definition of predestination"
+              - s4_2: "B. The Rule to Be Observed"
+                sections:
+                  - s4_2_1: "1. Follow Scripture’s usage and common scholastic usage"
+              - s4_3: "C. The Reason for the Diversity"
+                sections:
+                  - s4_3_1: "1. Different views on what acts relate to God’s intended end"
+                  - s4_3_2: "2. The end of creation versus the end of predestination"
       - cause-predestination: On the Cause of Predestination
         loci: predestination
+        sections:
+          - s1: "I. THE QUESTION PROPOSED"
+            sections:
+              - s1_1: "1. The Various Acceptations of Predestination in the Roman School"
+              - s1_2: "2. The Threefold Consideration of Predestination"
+              - s1_3: "3. The Precise Question Stated"
+              - s1_4: "4. The Question Concerns Adults Only"
+          - s2: "II. THE VARIOUS OPINIONS IN THE ROMAN SCHOOL CONCERNING THE CAUSE OF PREDESTINATION"
+            sections:
+              - s2_1: "1. The First Opinion: Good Moral Works Preceding Grace"
+              - s2_2: "2. The Second Opinion: Merits Following Grace"
+              - s2_3: "3. The Third Opinion: The Consent of Free Will as Cause (Henry of Ghent)"
+              - s2_4: "4. The Fourth Opinion: A Negative Cause—Not Placing an Obstacle"
+          - s3: "III. THE COMMON DOCTRINE OF THE ROMAN SCHOOL TODAY"
+            sections:
+              - s3_1: "1. The Rejection of the Preceding Opinions"
+              - s3_2: "2. The Common Doctrine: No Cause in Man for All Effects of Predestination"
+                sections:
+                  - s3_2_1: "a. The testimony of Gabriel Vasquez"
+                  - s3_2_2: "b. The testimony of Peter of St. Joseph"
+                  - s3_2_3: "c. The testimony of Molina"
+          - s4: "IV. THE DISTINCTION BETWEEN COLLECTIVE EFFECTS AND INDIVIDUAL EFFECTS OF PREDESTINATION"
+            sections:
+              - s4_1: "1. One Effect Can Be the Cause of Another Effect"
+              - s4_2: "2. The Question of Election to Glory Considered Distinctly"
+          - s5: "V. THE CONTROVERSY CONCERNING ELECTION TO GLORY SPECIFICALLY"
+            sections:
+              - s5_1: "A. The First Opinion: Election to Glory Is Purely Gratuitous"
+                sections:
+                  - s5_1_1: "1. The Statement of the Opinion"
+                  - s5_1_2: "2. The Testimony of Bellarmine"
+                  - s5_1_3: "3. The Testimony of Peter of St. Joseph"
+                  - s5_1_4: "4. The Testimony of Other Thomist Doctors and Jansenists"
+                  - s5_1_5: "5. The Fundamental Argument: The Priority of the End over the Means"
+              - s5_2: "B. The Second Opinion: Election to Glory Is from Foreseen Merits"
+                sections:
+                  - s5_2_1: "1. The Statement of the Opinion"
+                  - s5_2_2: "2. The Testimony of Martin Becanus"
+                  - s5_2_3: "3. The Testimony of Gabriel Vasquez"
+                  - s5_2_4: "4. Other Doctors Holding This Opinion"
+          - s6: "VI. THE DOCTRINE OF THE REFORMED SCHOOL"
+            sections:
+              - s6_1: "A. The Common Reformed Doctrine: No Cause in Man for Predestination to Grace and Glory Collectively"
+              - s6_2: "B. Election to Glory Considered Separately"
+                sections:
+                  - s6_2_1: "1. The Majority Opinion: Election to Glory Is Gratuitous and Absolute"
+                  - s6_2_2: "2. The Minority Opinion: Election to Glory Is from Foreseen Faith"
+                    sections:
+                      - s6_2_2_1: "a. The testimony of Paul Testard"
+                      - s6_2_2_2: "b. The testimony of Louis Cappel"
+          - s7: "VII. CONCLUSION: THE POINTS OF AGREEMENT AND THE REMAINING CONTROVERSY"
+            sections:
+              - s7_1: "A. Agreement Between the Reformed and Roman Schools on the Collective Effects"
+              - s7_2: "B. The Remaining Question Concerning Election to Glory Considered Separately"
+                sections:
+                  - s7_2_1: "1. The state of the question in both schools"
+              - s7_3: "C. The Importance of the First Question Concerning All Effects of Predestination"
+              - s7_4: "D. The Lesser Importance of the Second Question Concerning Election to Glory Distinctly"
+                sections:
+                  - s7_4_1: "1. The remaining controversy is about method, not reality"
+                  - s7_4_2: "2. Both methods are permissible"
       - perspicuity: On the Perspicuity of Sacred Scripture
         loci: scripture
+        sections:
+          - s1: "I. THE PROTESTANT DOCTRINE OF SCRIPTURE’S PERSPICUITY EXPLAINED"
+            sections:
+              - s1_1: "A. A Misrepresentation of the Protestant Position Corrected"
+              - s1_2: "B. The Distinction Between Things Necessary and Not Necessary to Salvation"
+              - s1_3: "C. A Further Distinction Concerning Things Necessary to Salvation"
+              - s1_4: "D. The Perspicuity Affirmed of the Whole Body of Scripture, Not Every Particular Place"
+              - s1_5: "E. The Perspicuity Sufficient for a Pious Mind, Though Not for Curious Wits"
+          - s2: "II. THE THREE DEGREES OF PERSPICUITY AND OBSCURITY IN SCRIPTURE"
+            sections:
+              - s2_1: "A. The First Degree: Things Plainly and Evidently Set Forth"
+              - s2_2: "B. The Second Degree: Things Requiring Labor and Exercise to Understand"
+              - s2_3: "C. The Third Degree: Things Sublime and Hidden, Exceeding Human Capacity"
+          - s3: "III. THE DIVINE WISDOM IN TEMPERING SCRIPTURE’S CLARITY AND OBSCURITY"
+            sections:
+              - s3_1: "A. The First Reason: To Repress Human Pride"
+              - s3_2: "B. The Second Reason: To Stir Up Desire for the Blessed State to Come"
+              - s3_3: "C. The Third Reason: To Excite Diligent Study of the Scriptures"
+          - s4: "IV. THE ROLE OF PASTORS AND TEACHERS IN UNDERSTANDING SCRIPTURE"
+            sections:
+              - s4_1: "A. Labor and Diligence Required to Understand Scripture"
+              - s4_2: "B. The Office of Pastors in Expounding Scripture"
+              - s4_3: "C. The Faithful Receive the Sense of Scripture by the Light of Truth, Not Blind Obedience"
+              - s4_4: "D. The Distinction Between Finding the Sense and Recognizing the Sense Once Demonstrated"
+          - s5: "V. THE NECESSITY OF THE HOLY SPIRIT’S ILLUMINATION"
+            sections:
+              - s5_1: "A. The True Sense Cannot Be Perceived Without Divine Aid"
+              - s5_2: "B. Natural Understanding Distinguished from Saving Understanding"
+              - s5_3: "C. Even the Faithful Do Not Understand All Things Perfectly"
+          - s6: "VI. A SUMMARY OF THE PROTESTANT DOCTRINE"
+            sections:
+              - s6_1: "A. A Recapitulation of What the Protestants Teach"
+              - s6_2: "B. What the Protestants Do Not Teach"
+              - s6_3: "C. What the Protestants Positively Teach Concerning the Means of Understanding"
+          - s7: "VII. THE ROMAN DOCTRINE STATED AND THE TRUE POINT OF CONTROVERSY IDENTIFIED"
+            sections:
+              - s7_1: "A. What the Doctors of the Roman Church Concede"
+              - s7_2: "B. The Precise Point of Contention Between Protestants and Romanists"
+              - s7_3: "C. The Occasion and Origin of This Controversy"
+              - s7_4: "D. The Controversy Is Not About Whether Scripture Is Clear or Obscure, But About the Degree"
+              - s7_5: "E. The State of the Question Briefly Conceived"
+          - s8: "VIII. ARGUMENTS CONFIRMING THE PROTESTANT DOCTRINE"
+            sections:
+              - s8_1: "A. The First Argument: From God’s Purpose in Giving Scripture"
+              - s8_2: "B. The Second Argument: From God’s Purpose That All Should Learn from Scripture"
+              - s8_3: "C. The Third Argument: From Scripture Being a Rule of Faith"
+              - s8_4: "D. The Fourth Argument: From the Perpetual Practice of the Church in Convincing Heretics"
+              - s8_5: "E. The Fifth Argument: From the Testimony of Scripture Itself"
+                sections:
+                  - s8_5_1: "1. The testimony of Moses in Deuteronomy 30"
+                  - s8_5_2: "2. The first objection of the Romanists answered"
+                  - s8_5_3: "3. The second objection of the Romanists answered"
+                  - s8_5_4: "4. The testimony of Peter concerning the prophetic word as a light"
       - certainty-faith: On the Certainty Which Belongs to Faith
         loci: faith
+        sections:
+          - s1: "I. CERTAINTY CONSIDERED IN GENERAL"
+            sections:
+              - s1_1: "A. The Definition of Certainty"
+              - s1_2: "B. The Distinction Between Subjective and Objective Certainty"
+                sections:
+                  - s1_2_1: "1. The importance of this distinction"
+                  - s1_2_2: "2. Obstinate persuasion distinguished from true certainty"
+              - s1_3: "C. The Requirements for True Certainty"
+          - s2: "II. THE SPECIES OF CERTAINTY ENUMERATED AND EXPLAINED"
+            sections:
+              - s2_1: "A. Certainty of Perception"
+              - s2_2: "B. Certainty of Intelligence"
+              - s2_3: "C. Certainty of Science"
+              - s2_4: "D. Moral Certainty"
+                sections:
+                  - s2_4_1: "1. Certainty arising from signs and indications"
+                  - s2_4_2: "2. Certainty arising from constant report and human consensus"
+                  - s2_4_3: "3. The comparison of moral certainty with higher species"
+                  - s2_4_4: "4. Moral certainty is nevertheless true certainty"
+                  - s2_4_5: "5. Moral certainty suffices for the duties of life"
+                  - s2_4_6: "6. A further distinction: certainty of cognition and certainty of adhesion"
+                    sections:
+                      - s2_4_6_1: "a. The measure of the certainty of cognition"
+                      - s2_4_6_2: "b. The source of the certainty of adhesion"
+          - s3: "III. THE CERTAINTY PROPER TO FAITH FROM DIVINE TESTIMONY"
+            sections:
+              - s3_1: "A. Divine Testimony as the Foundation of Faith’s Certainty"
+              - s3_2: "B. The Twofold Consideration of Faith"
+              - s3_3: "C. Weak Faith Remains True and Saving Faith"
+              - s3_4: "D. The Objective Certainty of Faith Distinguished from Subjective Certainty"
+          - s4: "IV. THE PRINCIPAL DIFFICULTY CONCERNING FAITH’S CERTAINTY"
+            sections:
+              - s4_1: "A. The Theological Argument for Faith’s Supreme Certainty"
+              - s4_2: "B. The Two Requirements for Testimonial Certainty"
+              - s4_3: "C. The Self-Evidence of God’s Veracity"
+              - s4_4: "D. The Difficulty: How We Know Something Is Divine Revelation"
+              - s4_5: "E. The Impossibility of Infinite Regress in Divine Testimonies"
+          - s5: "V. THE INTERNAL TESTIMONY OF THE HOLY SPIRIT"
+            sections:
+              - s5_1: "A. The Common Acknowledgment of the Spirit’s Operation"
+              - s5_2: "B. The Moral Nature of the Arguments for Divine Revelation"
+              - s5_3: "C. The Objection: Faith Seems Reduced to Moral Certainty"
+              - s5_4: "D. The Relation of the Judgment Concerning Revelation to Faith"
+              - s5_5: "E. The Resolution: The Spirit Imparts Greater Certainty Than Arguments Alone Warrant"
+              - s5_6: "F. An Objection Concerning the Rationality of Such Certainty"
+          - s6: "VI. THE RESOLUTION BY THE DISTINCTION BETWEEN CERTAINTY OF COGNITION AND CERTAINTY OF ADHESION"
+            sections:
+              - s6_1: "A. Bonaventure’s Distinction Introduced"
+              - s6_2: "B. Faith Is Not More Certain Than Science by the Certainty of Cognition"
+                sections:
+                  - s6_2_1: "1. The argument from faith’s susceptibility to doubt"
+                  - s6_2_2: "2. An objection answered: subjective versus objective certainty"
+                  - s6_2_3: "3. The measure of cognitive certainty is evidence"
+              - s6_3: "C. Faith’s Moral Certainty Suffices"
+                sections:
+                  - s6_3_1: "1. Moral certainty is true certainty"
+                  - s6_3_2: "2. The moral evidence for divine revelation"
+              - s6_4: "D. Faith Exceeds All Science by the Certainty of Adhesion"
+                sections:
+                  - s6_4_1: "1. The gravity of God’s Word moves the will to tenacious adhesion"
+                  - s6_4_2: "2. The faithful mind embraces God’s Word more firmly than any other knowledge"
+                  - s6_4_3: "3. Faith perceives less clearly but adheres more firmly"
+                  - s6_4_4: "4. The source of faith’s firmness is the gravity of its object"
+          - s7: "VII. THE OPERATION OF THE HOLY SPIRIT IN FAITH’S CERTAINTY"
+            sections:
+              - s7_1: "A. The Spirit Imparts Greater Certainty Than Arguments Alone Warrant"
+              - s7_2: "B. The Spirit’s Operation in the Certainty of Adhesion"
+              - s7_3: "C. The Spirit Works in a Manner Congruous to Rational Nature"
+          - s8: "VIII. THE EXPERIMENTAL CERTAINTY OF FAITH"
+            sections:
+              - s8_1: "A. The Powerful Effects of God’s Word in the Soul"
+              - s8_2: "B. The Believer’s Perception of Divine Efficacy"
+              - s8_3: "C. The Experimental Testimony of the Holy Spirit"
+              - s8_4: "D. The Distinction Between the Spirit’s Twofold Testimony"
       - vernacular-scripture: On Vulgar and Vernacular Versions of the Scripture
         loci: scripture
+        sections:
+          - s1: "I. THE DIVERSE OPINIONS OF THE DOCTORS OF THE ROMAN CHURCH CONCERNING VERNACULAR TRANSLATIONS"
+            sections:
+              - s1_1: "A. The Rigid and Harsh Opinion: Vernacular Translations Absolutely Condemned"
+              - s1_2: "B. The Softer Opinion: Vernacular Translations Generally Expedient"
+              - s1_3: "C. The Common Opinion of the Roman School: Vernacular Translations Neither Simply Approved Nor Simply Prohibited"
+              - s1_4: "D. The Decree of the Council of Trent"
+              - s1_5: "E. The Practice of the Roman Church in Restricting the Decree"
+          - s2: "II. THE PROTESTANT DOCTRINE STATED"
+          - s3: "III. ARGUMENTS CONFIRMING THE PROTESTANT DOCTRINE"
+            sections:
+              - s3_1: "A. The First Argument: From the Example of the Sacred Writers and of God Himself"
+                sections:
+                  - s3_1_1: "1. The Old Testament written in Hebrew, the vernacular of the Israelites"
+                  - s3_1_2: "2. The New Testament written in Greek, understood by the common people"
+              - s3_2: "B. The Second Argument: From the Practice of the Church of the Old and New Testament"
+                sections:
+                  - s3_2_1: "1. The Septuagint translation for the Hellenist Jews"
+                  - s3_2_2: "2. The Chaldee paraphrase for the Hebrew-speaking Jews"
+                  - s3_2_3: "3. The Latin translations for the Latin Church"
+                  - s3_2_4: "4. The inference: Other churches ought likewise to have Scripture in their own languages"
+              - s3_3: "C. The Third Argument: From the Testimony of Ecclesiastical History"
+                sections:
+                  - s3_3_1: "1. The Gothic translation by Ulphilas"
+                  - s3_3_2: "2. The Dalmatian translation by Jerome"
+                  - s3_3_3: "3. The Armenian translation by Chrysostom"
+                  - s3_3_4: "4. The testimony of Theodoret and Augustine concerning translations into many languages"
+                  - s3_3_5: "5. The Ethiopian, Syriac, and Arabic versions"
+              - s3_4: "D. The Fourth Argument: From the Divine Ordinance in Deuteronomy 31"
+                sections:
+                  - s3_4_1: "1. The command for the public reading of the law to all the people"
+                  - s3_4_2: "2. The inference: The reading must have been in the vernacular tongue"
+                  - s3_4_3: "3. The application to Christians under the New Testament"
+              - s3_5: "E. The Fifth Argument: From the Divine Ordinance Concerning Private Reading"
+                sections:
+                  - s3_5_1: "1. The command to the King in Deuteronomy 17"
+                  - s3_5_2: "2. The command to all Israel in Deuteronomy 6"
+              - s3_6: "F. The Sixth Argument: From Examples Commended in the New Testament"
+                sections:
+                  - s3_6_1: "1. The example of Lois and Eunice teaching Timothy the Scriptures"
+                  - s3_6_2: "2. The example of the Bereans searching the Scriptures"
+              - s3_7: "G. The Seventh Argument: From the Exhortations of the Apostles"
+                sections:
+                  - s3_7_1: "1. Peter’s exhortation to attend to the prophetic word"
+                  - s3_7_2: "2. John’s beatitude upon those who read the words of the prophecy"
+              - s3_8: "H. The Eighth Argument: From the Words of Christ in John 5"
+                sections:
+                  - s3_8_1: "1. The command to search the Scriptures"
+                  - s3_8_2: "2. Stapleton’s evasions refuted"
+                  - s3_8_3: "3. The conclusion: The faithful cannot obey Christ’s command without Scripture in a known tongue"
     translations:
       - translator: Claude 3 Opus edited by Onku
         AI: true
@@ -42,7 +353,7 @@ leblanc-theses:
               - free-choice-catholic: https://michaellynch.substack.com/p/le-blanc-on-free-choice-in-general-557
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - predestination: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/
@@ -50,3 +361,242 @@ leblanc-theses:
               - perspicuity: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/
               - certainty-faith: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/
               - vernacular-scripture: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/
+
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#i-the-question-proposed
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-the-various-acceptations-of-predestination-in-the-roman-school
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#2-the-threefold-consideration-of-predestination
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#3-the-precise-question-stated
+              - s1_4: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#4-the-question-concerns-adults-only
+              - s2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#ii-the-various-opinions-in-the-roman-school-concerning-the-cause-of-predestination
+              - s2_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-the-first-opinion-good-moral-works-preceding-grace
+              - s2_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#2-the-second-opinion-merits-following-grace
+              - s2_3: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#3-the-third-opinion-the-consent-of-free-will-as-cause-henry-of-ghent
+              - s2_4: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#4-the-fourth-opinion-a-negative-cause-not-placing-an-obstacle
+              - s3: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#iii-the-common-doctrine-of-the-roman-school-today
+              - s3_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-the-rejection-of-the-preceding-opinions
+              - s3_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#2-the-common-doctrine-no-cause-in-man-for-all-effects-of-predestination
+              - s3_2_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#a-the-testimony-of-gabriel-vasquez
+              - s3_2_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#b-the-testimony-of-peter-of-st-joseph
+              - s3_2_3: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#c-the-testimony-of-molina
+              - s4: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#iv-the-distinction-between-collective-effects-and-individual-effects-of-predestination
+              - s4_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-one-effect-can-be-the-cause-of-another-effect
+              - s4_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#2-the-question-of-election-to-glory-considered-distinctly
+              - s5: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#v-the-controversy-concerning-election-to-glory-specifically
+              - s5_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#a-the-first-opinion-election-to-glory-is-purely-gratuitous
+              - s5_1_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-the-statement-of-the-opinion
+              - s5_1_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#2-the-testimony-of-bellarmine
+              - s5_1_3: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#3-the-testimony-of-peter-of-st-joseph
+              - s5_1_4: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#4-the-testimony-of-other-thomist-doctors-and-jansenists
+              - s5_1_5: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#5-the-fundamental-argument-the-priority-of-the-end-over-the-means
+              - s5_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#b-the-second-opinion-election-to-glory-is-from-foreseen-merits
+              - s5_2_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-the-statement-of-the-opinion
+              - s5_2_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#2-the-testimony-of-martin-becanus
+              - s5_2_3: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#3-the-testimony-of-gabriel-vasquez
+              - s5_2_4: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#4-other-doctors-holding-this-opinion
+              - s6: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#vi-the-doctrine-of-the-reformed-school
+              - s6_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#a-the-common-reformed-doctrine-no-cause-in-man-for-predestination-to-grace-and-glory-collectively
+              - s6_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#b-election-to-glory-considered-separately
+              - s6_2_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-the-majority-opinion-election-to-glory-is-gratuitous-and-absolute
+              - s6_2_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#2-the-minority-opinion-election-to-glory-is-from-foreseen-faith
+              - s6_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#a-the-testimony-of-paul-testard
+              - s6_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#b-the-testimony-of-louis-cappel
+              - s7: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#vii-conclusion-the-points-of-agreement-and-the-remaining-controversy
+              - s7_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#a-agreement-between-the-reformed-and-roman-schools-on-the-collective-effects
+              - s7_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#b-the-remaining-question-concerning-election-to-glory-considered-separately
+              - s7_2_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-the-state-of-the-question-in-both-schools
+              - s7_3: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#c-the-importance-of-the-first-question-concerning-all-effects-of-predestination
+              - s7_4: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#d-the-lesser-importance-of-the-second-question-concerning-election-to-glory-distinctly
+              - s7_4_1: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#1-the-remaining-controversy-is-about-method-not-reality
+              - s7_4_2: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/#2-both-methods-are-permissible
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#i-certainty-considered-in-general
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-the-definition-of-certainty
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-the-distinction-between-subjective-and-objective-certainty
+              - s1_2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#1-the-importance-of-this-distinction
+              - s1_2_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#2-obstinate-persuasion-distinguished-from-true-certainty
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#c-the-requirements-for-true-certainty
+              - s2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#ii-the-species-of-certainty-enumerated-and-explained
+              - s2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-certainty-of-perception
+              - s2_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-certainty-of-intelligence
+              - s2_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#c-certainty-of-science
+              - s2_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#d-moral-certainty
+              - s2_4_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#1-certainty-arising-from-signs-and-indications
+              - s2_4_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#2-certainty-arising-from-constant-report-and-human-consensus
+              - s2_4_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#3-the-comparison-of-moral-certainty-with-higher-species
+              - s2_4_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#4-moral-certainty-is-nevertheless-true-certainty
+              - s2_4_5: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#5-moral-certainty-suffices-for-the-duties-of-life
+              - s2_4_6: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#6-a-further-distinction-certainty-of-cognition-and-certainty-of-adhesion
+              - s2_4_6_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-the-measure-of-the-certainty-of-cognition
+              - s2_4_6_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-the-source-of-the-certainty-of-adhesion
+              - s3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#iii-the-certainty-proper-to-faith-from-divine-testimony
+              - s3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-divine-testimony-as-the-foundation-of-faith-s-certainty
+              - s3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-the-twofold-consideration-of-faith
+              - s3_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#c-weak-faith-remains-true-and-saving-faith
+              - s3_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#d-the-objective-certainty-of-faith-distinguished-from-subjective-certainty
+              - s4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#iv-the-principal-difficulty-concerning-faith-s-certainty
+              - s4_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-the-theological-argument-for-faith-s-supreme-certainty
+              - s4_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-the-two-requirements-for-testimonial-certainty
+              - s4_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#c-the-self-evidence-of-god-s-veracity
+              - s4_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#d-the-difficulty-how-we-know-something-is-divine-revelation
+              - s4_5: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#e-the-impossibility-of-infinite-regress-in-divine-testimonies
+              - s5: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#v-the-internal-testimony-of-the-holy-spirit
+              - s5_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-the-common-acknowledgment-of-the-spirit-s-operation
+              - s5_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-the-moral-nature-of-the-arguments-for-divine-revelation
+              - s5_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#c-the-objection-faith-seems-reduced-to-moral-certainty
+              - s5_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#d-the-relation-of-the-judgment-concerning-revelation-to-faith
+              - s5_5: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#e-the-resolution-the-spirit-imparts-greater-certainty-than-arguments-alone-warrant
+              - s5_6: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#f-an-objection-concerning-the-rationality-of-such-certainty
+              - s6: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#vi-the-resolution-by-the-distinction-between-certainty-of-cognition-and-certainty-of-adhesion
+              - s6_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-bonaventure-s-distinction-introduced
+              - s6_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-faith-is-not-more-certain-than-science-by-the-certainty-of-cognition
+              - s6_2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#1-the-argument-from-faith-s-susceptibility-to-doubt
+              - s6_2_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#2-an-objection-answered-subjective-versus-objective-certainty
+              - s6_2_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#3-the-measure-of-cognitive-certainty-is-evidence
+              - s6_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#c-faith-s-moral-certainty-suffices
+              - s6_3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#1-moral-certainty-is-true-certainty
+              - s6_3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#2-the-moral-evidence-for-divine-revelation
+              - s6_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#d-faith-exceeds-all-science-by-the-certainty-of-adhesion
+              - s6_4_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#1-the-gravity-of-god-s-word-moves-the-will-to-tenacious-adhesion
+              - s6_4_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#2-the-faithful-mind-embraces-god-s-word-more-firmly-than-any-other-knowledge
+              - s6_4_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#3-faith-perceives-less-clearly-but-adheres-more-firmly
+              - s6_4_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#4-the-source-of-faith-s-firmness-is-the-gravity-of-its-object
+              - s7: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#vii-the-operation-of-the-holy-spirit-in-faith-s-certainty
+              - s7_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-the-spirit-imparts-greater-certainty-than-arguments-alone-warrant
+              - s7_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-the-spirit-s-operation-in-the-certainty-of-adhesion
+              - s7_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#c-the-spirit-works-in-a-manner-congruous-to-rational-nature
+              - s8: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#viii-the-experimental-certainty-of-faith
+              - s8_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#a-the-powerful-effects-of-god-s-word-in-the-soul
+              - s8_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#b-the-believer-s-perception-of-divine-efficacy
+              - s8_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#c-the-experimental-testimony-of-the-holy-spirit
+              - s8_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-certainty-which-belongs-to-faith/#d-the-distinction-between-the-spirit-s-twofold-testimony
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#i-the-doctrine-of-the-roman-school
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#a-the-various-acceptations-of-the-term-predestination-in-the-roman-school
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#b-the-various-acceptations-of-the-term-election-in-the-roman-school
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#c-the-effects-of-predestination-according-to-the-roman-school
+              - s1_3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-the-first-opinion-glory-alone-is-the-effect
+              - s1_3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#2-the-second-opinion-the-means-to-glory-alone-are-the-effects
+              - s1_3_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#3-the-third-opinion-common-today-both-the-means-and-glory-are-effects
+              - s1_3_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#4-the-fourth-opinion-creation-and-permission-of-sin-are-also-effects
+              - s1_3_4_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#a-the-testimony-of-alphonsus-mendoza
+              - s1_3_4_1_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#i-his-first-conclusion-first-of-all-divine-acts-was-predestination
+              - s1_3_4_1_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#ii-his-second-conclusion-all-things-follow-from-predestination
+              - s1_3_4_1_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#ii-his-third-conclusion-there-is-no-providence-antecedent-to-predestination
+              - s1_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#d-the-object-of-predestination-according-to-the-roman-school
+              - s1_4_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-the-first-opinion-man-as-creatable-supralapsarian
+              - s1_4_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#2-the-second-opinion-common-man-as-fallen-in-adam
+              - s2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#ii-the-doctrine-of-the-reformed-school
+              - s2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#a-the-various-acceptations-of-predestination-among-the-reformed
+              - s2_1_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-the-broader-sense-including-both-election-and-reprobation
+              - s2_1_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#2-the-narrower-sense-predestination-to-life-only
+              - s2_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#b-the-various-acceptations-of-election-among-the-reformed
+              - s2_2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-election-as-synonymous-with-predestination
+              - s2_2_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#2-election-restricted-to-the-decree-of-giving-faith
+              - s2_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#c-the-object-of-predestination-according-to-the-reformed-school
+              - s2_3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-the-first-opinion-man-as-creatable-supralapsarian
+              - s2_3_1_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#a-doctors-holding-this-opinion
+              - s2_3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#2-the-second-opinion-most-common-man-as-fallen
+              - s2_3_2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#a-conformity-with-the-canons-of-dort
+              - s2_3_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#3-the-third-opinion-man-as-fallen-and-called-by-the-gospel
+              - s2_3_3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#a-the-view-of-george-sohnius
+              - s2_3_3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#b-those-following-cameron-s-method
+              - s2_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#d-the-effects-of-predestination-according-to-the-reformed-school
+              - s2_4_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-according-to-the-supralapsarians-creation-and-permission-of-the-fall
+              - s2_4_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#2-according-to-the-infralapsarians-the-means-of-salvation-beginning-with-christ
+              - s2_4_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#3-according-to-those-who-make-the-called-man-the-object-faith-as-the-first-effect
+              - s3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#iii-comparison-of-the-two-schools
+              - s3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#a-the-diversity-of-usage-of-the-terms
+              - s3_1_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-differences-in-the-acceptation-of-predestination-and-election
+              - s3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#b-the-diversity-concerning-the-effects-of-predestination
+              - s3_2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-similar-diversity-exists-in-both-schools
+              - s3_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#c-the-diversity-concerning-the-object-of-predestination
+              - s3_3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-similar-opinions-exist-in-both-schools
+              - s3_3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#2-the-common-opinion-in-both-schools-man-as-fallen
+              - s4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#iv-the-weight-of-these-questions
+              - s4_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#a-much-is-logomachy
+              - s4_1_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-the-dispute-concerns-the-definition-of-predestination
+              - s4_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#b-the-rule-to-be-observed
+              - s4_2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-follow-scripture-s-usage-and-common-scholastic-usage
+              - s4_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#c-the-reason-for-the-diversity
+              - s4_3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#1-different-views-on-what-acts-relate-to-god-s-intended-end
+              - s4_3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/#2-the-end-of-creation-versus-the-end-of-predestination
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#i-the-protestant-doctrine-of-scripture-s-perspicuity-explained
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#a-a-misrepresentation-of-the-protestant-position-corrected
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#b-the-distinction-between-things-necessary-and-not-necessary-to-salvation
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#c-a-further-distinction-concerning-things-necessary-to-salvation
+              - s1_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#d-the-perspicuity-affirmed-of-the-whole-body-of-scripture-not-every-particular-place
+              - s1_5: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#e-the-perspicuity-sufficient-for-a-pious-mind-though-not-for-curious-wits
+              - s2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#ii-the-three-degrees-of-perspicuity-and-obscurity-in-scripture
+              - s2_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#a-the-first-degree-things-plainly-and-evidently-set-forth
+              - s2_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#b-the-second-degree-things-requiring-labor-and-exercise-to-understand
+              - s2_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#c-the-third-degree-things-sublime-and-hidden-exceeding-human-capacity
+              - s3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#iii-the-divine-wisdom-in-tempering-scripture-s-clarity-and-obscurity
+              - s3_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#a-the-first-reason-to-repress-human-pride
+              - s3_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#b-the-second-reason-to-stir-up-desire-for-the-blessed-state-to-come
+              - s3_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#c-the-third-reason-to-excite-diligent-study-of-the-scriptures
+              - s4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#iv-the-role-of-pastors-and-teachers-in-understanding-scripture
+              - s4_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#a-labor-and-diligence-required-to-understand-scripture
+              - s4_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#b-the-office-of-pastors-in-expounding-scripture
+              - s4_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#c-the-faithful-receive-the-sense-of-scripture-by-the-light-of-truth-not-blind-obedience
+              - s4_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#d-the-distinction-between-finding-the-sense-and-recognizing-the-sense-once-demonstrated
+              - s5: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#v-the-necessity-of-the-holy-spirit-s-illumination
+              - s5_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#a-the-true-sense-cannot-be-perceived-without-divine-aid
+              - s5_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#b-natural-understanding-distinguished-from-saving-understanding
+              - s5_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#c-even-the-faithful-do-not-understand-all-things-perfectly
+              - s6: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#vi-a-summary-of-the-protestant-doctrine
+              - s6_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#a-a-recapitulation-of-what-the-protestants-teach
+              - s6_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#b-what-the-protestants-do-not-teach
+              - s6_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#c-what-the-protestants-positively-teach-concerning-the-means-of-understanding
+              - s7: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#vii-the-roman-doctrine-stated-and-the-true-point-of-controversy-identified
+              - s7_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#a-what-the-doctors-of-the-roman-church-concede
+              - s7_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#b-the-precise-point-of-contention-between-protestants-and-romanists
+              - s7_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#c-the-occasion-and-origin-of-this-controversy
+              - s7_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#d-the-controversy-is-not-about-whether-scripture-is-clear-or-obscure-but-about-the-degree
+              - s7_5: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#e-the-state-of-the-question-briefly-conceived
+              - s8: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#viii-arguments-confirming-the-protestant-doctrine
+              - s8_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#a-the-first-argument-from-god-s-purpose-in-giving-scripture
+              - s8_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#b-the-second-argument-from-god-s-purpose-that-all-should-learn-from-scripture
+              - s8_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#c-the-third-argument-from-scripture-being-a-rule-of-faith
+              - s8_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#d-the-fourth-argument-from-the-perpetual-practice-of-the-church-in-convincing-heretics
+              - s8_5: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#e-the-fifth-argument-from-the-testimony-of-scripture-itself
+              - s8_5_1: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#1-the-testimony-of-moses-in-deuteronomy-30
+              - s8_5_2: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#2-the-first-objection-of-the-romanists-answered
+              - s8_5_3: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#3-the-second-objection-of-the-romanists-answered
+              - s8_5_4: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-perspicuity-of-sacred-scripture/#4-the-testimony-of-peter-concerning-the-prophetic-word-as-a-light
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#i-the-diverse-opinions-of-the-doctors-of-the-roman-church-concerning-vernacular-translations
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#a-the-rigid-and-harsh-opinion-vernacular-translations-absolutely-condemned
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#b-the-softer-opinion-vernacular-translations-generally-expedient
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#c-the-common-opinion-of-the-roman-school-vernacular-translations-neither-simply-approved-nor-simply-prohibited
+              - s1_4: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#d-the-decree-of-the-council-of-trent
+              - s1_5: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#e-the-practice-of-the-roman-church-in-restricting-the-decree
+              - s2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#ii-the-protestant-doctrine-stated
+              - s3: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#iii-arguments-confirming-the-protestant-doctrine
+              - s3_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#a-the-first-argument-from-the-example-of-the-sacred-writers-and-of-god-himself
+              - s3_1_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#1-the-old-testament-written-in-hebrew-the-vernacular-of-the-israelites
+              - s3_1_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#2-the-new-testament-written-in-greek-understood-by-the-common-people
+              - s3_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#b-the-second-argument-from-the-practice-of-the-church-of-the-old-and-new-testament
+              - s3_2_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#1-the-septuagint-translation-for-the-hellenist-jews
+              - s3_2_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#2-the-chaldee-paraphrase-for-the-hebrew-speaking-jews
+              - s3_2_3: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#3-the-latin-translations-for-the-latin-church
+              - s3_2_4: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#4-the-inference-other-churches-ought-likewise-to-have-scripture-in-their-own-languages
+              - s3_3: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#c-the-third-argument-from-the-testimony-of-ecclesiastical-history
+              - s3_3_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#1-the-gothic-translation-by-ulphilas
+              - s3_3_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#2-the-dalmatian-translation-by-jerome
+              - s3_3_3: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#3-the-armenian-translation-by-chrysostom
+              - s3_3_4: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#4-the-testimony-of-theodoret-and-augustine-concerning-translations-into-many-languages
+              - s3_3_5: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#5-the-ethiopian-syriac-and-arabic-versions
+              - s3_4: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#d-the-fourth-argument-from-the-divine-ordinance-in-deuteronomy-31
+              - s3_4_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#1-the-command-for-the-public-reading-of-the-law-to-all-the-people
+              - s3_4_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#2-the-inference-the-reading-must-have-been-in-the-vernacular-tongue
+              - s3_4_3: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#3-the-application-to-christians-under-the-new-testament
+              - s3_5: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#e-the-fifth-argument-from-the-divine-ordinance-concerning-private-reading
+              - s3_5_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#1-the-command-to-the-king-in-deuteronomy-17
+              - s3_5_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#2-the-command-to-all-israel-in-deuteronomy-6
+              - s3_6: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#f-the-sixth-argument-from-examples-commended-in-the-new-testament
+              - s3_6_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#1-the-example-of-lois-and-eunice-teaching-timothy-the-scriptures
+              - s3_6_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#2-the-example-of-the-bereans-searching-the-scriptures
+              - s3_7: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#g-the-seventh-argument-from-the-exhortations-of-the-apostles
+              - s3_7_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#1-peter-s-exhortation-to-attend-to-the-prophetic-word
+              - s3_7_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#2-john-s-beatitude-upon-those-who-read-the-words-of-the-prophecy
+              - s3_8: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#h-the-eighth-argument-from-the-words-of-christ-in-john-5
+              - s3_8_1: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#1-the-command-to-search-the-scriptures
+              - s3_8_2: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#2-stapleton-s-evasions-refuted
+              - s3_8_3: https://confessionallyreformed.wordpress.com/2026/01/13/louis-le-blanc-de-beaulieu-c-1614-1675-on-vulgar-and-vernacular-versions-of-the-scripture/#3-the-conclusion-the-faithful-cannot-obey-christ-s-command-without-scripture-in-a-known-tongue

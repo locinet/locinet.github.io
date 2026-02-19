@@ -32,7 +32,7 @@ alsted-metaphysics:
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/by-author/the-17th-century/johann-heinrich-alsted-c-1588-1638/a-most-brief-delineation-of-metaphysics-1611/
             section_urls:
               - intro: https://confessionallyreformed.wordpress.com/2026/02/08/johann-heinrich-alsted-c-1588-1638-on-metaphysics-an-introduction/

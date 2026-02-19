@@ -10,12 +10,63 @@ daneau-contra-bellarminum:
   en:
     title: Response to Bellarmine's Controversies, Volume 2
     sections:
-      - baptism: On Baptism
-        loci: baptism
+      - s1: "To Chapter I. [On the Term and Definition of Baptism]"
+      - s2: "To Chapter II. [On the Matter of Baptism]"
+      - s3: "To Chapter III. [On the Form of Baptism]"
+      - s4: "To Chapter IV. [On the Necessity of Baptism]"
+      - s5: "To Chapter V. [On the Institution of Baptism]"
+      - s6: "To Chapter VI. [On the Kinds and Unity of Baptism]"
+      - s7: "To Chapter VII. [On the Ministers of Baptism]"
+      - s8: "To Chapter VIII. [On the Baptism of Infants]"
+      - s9: "To Chapter IX. [On the Arguments of the Anabaptists against the Baptism of Infants]"
+      - s10: "To Chapter X. [Whether Faith Is Required in Infants for Baptism]"
+      - s11: "To Chapter XI. [On the Faith of Infants in Baptism]"
+      - s12: "To Chapter XII. [On the Effects of Baptism]"
+      - s13: "To Chapter XIII. [On the Remission of Sins in Baptism]"
+      - s14: "To Chapter XIV. [On Sin after Baptism]"
+      - s15: "To Chapter XV. [On the Obligation to the Law of God after Baptism]"
+      - s16: "To Chapter XVI. [On Obedience to Human Laws after Baptism]"
+      - s17: "To Chapter XVII. [Whether Sins Committed after Baptism Are Remitted by the Same Grace of Christ Sealed in Baptism, or by a New and Distinct Justification through Penitence]"
+      - s18: "To Chapter XIX. [On the Disagreement of the Scholastics Regarding the Baptism of John and the Baptism of Christ, and on the Errors Ratified by the Tridentine Council]"
+      - s19: "To Chapter XX. [On Whether the Baptism of John the Baptist Differs in Substance from the Baptism of Christ, and in What Respect—if Any—They Are to Be Distinguished]"
+      - s20: "To Chapter XXI. [On the Equality of the Power and Efficacy of the Baptism of John and the Baptism of Christ]"
+      - s21: "To Chapter XXII. [Whether Those Once Baptized with the Baptism of John Were Bound to Receive Another Baptism of Christ]"
+      - s22: "To Chapter XXIII. [On the Complete Identity of the Baptism of John and the Baptism of Christ, Demonstrated from Their One Sign, One Doctrine, One Effect, and One Incorporation into the One Body of Christ]"
+      - s23: "To Chapter XXIV. [On the Superstitious Ceremonies and Sacramentals Added to Baptism by the Romanists, and the Refutation of Their Pretended Justification from Evangelical Practice and the Fathers]"
+      - s24: "To Chapter XXV. [On the Improper Confusion of Ceremonies Belonging to the Baptism of Adults with Those of Infants, and on the Superstitious Retention of Obsolete and Miraculous Rites by the Romanists]"
+      - s25: "To Chapter XXVI. [On the Ceremonies Practiced in Baptism Itself, Which Are Either Indifferent, Abused, or Superstitiously Corrupted by the Romanists]"
+      - s26: "To Chapter XXVII. [On the Ceremonies Formerly Observed after Baptism in Adults Alone, and Their Unwarranted and Superstitious Transfer to the Baptism of Infants]"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - baptism: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/
+
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-i-on-the-term-and-definition-of-baptism
+              - s2: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-ii-on-the-matter-of-baptism
+              - s3: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-iii-on-the-form-of-baptism
+              - s4: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-iv-on-the-necessity-of-baptism
+              - s5: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-v-on-the-institution-of-baptism
+              - s6: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-vi-on-the-kinds-and-unity-of-baptism
+              - s7: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-vii-on-the-ministers-of-baptism
+              - s8: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-viii-on-the-baptism-of-infants
+              - s9: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-ix-on-the-arguments-of-the-anabaptists-against-the-baptism-of-infants
+              - s10: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-x-whether-faith-is-required-in-infants-for-baptism
+              - s11: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xi-on-the-faith-of-infants-in-baptism
+              - s12: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xii-on-the-effects-of-baptism
+              - s13: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xiii-on-the-remission-of-sins-in-baptism
+              - s14: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xiv-on-sin-after-baptism
+              - s15: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xv-on-the-obligation-to-the-law-of-god-after-baptism
+              - s16: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xvi-on-obedience-to-human-laws-after-baptism
+              - s17: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xvii-whether-sins-committed-after-baptism-are-remitted-by-the-same-grace-of-christ-sealed-in-baptism-or-by-a-new-and-distinct-justification-through-penitence
+              - s18: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xix-on-the-disagreement-of-the-scholastics-regarding-the-baptism-of-john-and-the-baptism-of-christ-and-on-the-errors-ratified-by-the-tridentine-council
+              - s19: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xx-on-whether-the-baptism-of-john-the-baptist-differs-in-substance-from-the-baptism-of-christ-and-in-what-respect-if-any-they-are-to-be-distinguished
+              - s20: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xxi-on-the-equality-of-the-power-and-efficacy-of-the-baptism-of-john-and-the-baptism-of-christ
+              - s21: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xxii-whether-those-once-baptized-with-the-baptism-of-john-were-bound-to-receive-another-baptism-of-christ
+              - s22: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xxiii-on-the-complete-identity-of-the-baptism-of-john-and-the-baptism-of-christ-demonstrated-from-their-one-sign-one-doctrine-one-effect-and-one-incorporation-into-the-one-body-of-christ
+              - s23: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xxiv-on-the-superstitious-ceremonies-and-sacramentals-added-to-baptism-by-the-romanists-and-the-refutation-of-their-pretended-justification-from-evangelical-practice-and-the-fathers
+              - s24: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xxv-on-the-improper-confusion-of-ceremonies-belonging-to-the-baptism-of-adults-with-those-of-infants-and-on-the-superstitious-retention-of-obsolete-and-miraculous-rites-by-the-romanists
+              - s25: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xxvi-on-the-ceremonies-practiced-in-baptism-itself-which-are-either-indifferent-abused-or-superstitiously-corrupted-by-the-romanists
+              - s26: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/#to-chapter-xxvii-on-the-ceremonies-formerly-observed-after-baptism-in-adults-alone-and-their-unwarranted-and-superstitious-transfer-to-the-baptism-of-infants

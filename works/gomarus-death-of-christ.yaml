@@ -13,8 +13,130 @@ gomarus-death-of-christ:
             url: https://www.google.com/books/edition/Disputatio_theologica_de_morte_Iesu_Chri/Eu2wiJzfd5AC?hl=en&gbpv=0
   en:
     title: Theological Disputation on the Death of Jesus Christ
+    sections:
+      - s1: "I. Prolegomena: The Excellence and Necessity of the Doctrine of Christ’s Death"
+      - s2: "II. The Name of Death"
+        sections:
+          - s2_1: "A. Etymology of Death"
+            sections:
+              - s2_1_1: "1. The Hebrew and Greek Derivation"
+              - s2_1_2: "2. The First Reason for the Origin: Death as Common Lot"
+              - s2_1_3: "3. The Second Reason for the Origin: Death as Separation"
+          - s2_2: "B. Signification of Death"
+            sections:
+              - s2_2_1: "1. Proper Signification: Privation of Animal Life"
+                sections:
+                  - s2_2_1_1: "a. From the Form: Death as the End of Life"
+                  - s2_2_1_2: "b. From the Efficient: Death as Departure and Dissolution"
+              - s2_2_2: "2. Improper Signification"
+                sections:
+                  - s2_2_2_1: "a. Mere Improper Signification"
+                    sections:
+                      - s2_2_2_1_1: "(1) Synecdochical: Death for Enduring Death"
+                      - s2_2_2_1_2: "(2) Metonymical: Death for Cause or Subject"
+                      - s2_2_2_1_3: "(3) Metaphorical: Death for Things Similar to Death"
+                  - s2_2_2_2: "b. Mixed Improper Signification: Both First and Second Death"
+      - s3: "III. The Death of Christ Itself"
+        sections:
+          - s3_1: "A. The Description of Christ’s Death in Scripture"
+            sections:
+              - s3_1_1: "1. Simple Death"
+                sections:
+                  - s3_1_1_1: "a. Proper"
+                  - s3_1_1_2: "b. Improper"
+              - s3_1_2: "2. Composite Death"
+          - s3_2: "B. The Death of Christ Defined and Explained"
+            sections:
+              - s3_2_1: "1. The Death Treated: The First Death, Properly So Called"
+              - s3_2_2: "2. The Definition of Christ’s Death"
+      - s4: "IV. The Efficient Cause of Christ’s Death"
+        sections:
+          - s4_1: "A. The Primary Efficient Cause"
+            sections:
+              - s4_1_1: "1. The Moving Cause"
+                sections:
+                  - s4_1_1_1: "a. External Moving Cause: Our Sins"
+                  - s4_1_1_2: "b. Internal Moving Cause: The Twofold Virtue of God"
+                    sections:
+                      - s4_1_1_2_1: "(1) Vindicating Justice"
+                      - s4_1_1_2_2: "(2) Saving Love"
+              - s4_1_2: "2. The Moved Cause"
+                sections:
+                  - s4_1_2_1: "a. The Eternal Decree of God Concerning Christ’s Death"
+                  - s4_1_2_2: "b. The Temporal Execution of the Decree"
+                    sections:
+                      - s4_1_2_2_1: "(1) The Mandate"
+                      - s4_1_2_2_2: "(2) The Delivering Over"
+          - s4_2: "B. The Secondary Efficient Cause"
+            sections:
+              - s4_2_1: "1. The Pious Cause: Christ Alone According to His Human Nature"
+              - s4_2_2: "2. The Impious Cause: Satan and the World"
+                sections:
+                  - s4_2_2_1: "a. Satan"
+                  - s4_2_2_2: "b. The World"
+                    sections:
+                      - s4_2_2_2_1: "(1) The Jews"
+                      - s4_2_2_2_2: "(2) The Gentiles"
+              - s4_2_3: "3. The Concurrence of Multiple Causes Distinguished"
+                sections:
+                  - s4_2_3_1: "a. Distinguished by Origin"
+                  - s4_2_3_2: "b. Distinguished by Mode"
+                  - s4_2_3_3: "c. Distinguished by Scope and End"
+                  - s4_2_3_4: "4. Summary: God’s Justice Not Contaminated by the Enemies’ Injustice"
+      - s5: "V. The Material Subject of Christ’s Death"
+        sections:
+          - s5_1: "A. Not the Father (Against the Patripassians); But the Person of the Son Alone, According to His Human Nature"
+          - s5_2: "B. The Communication of Properties Explained"
+      - s6: "VI. The Form of Christ’s Death"
+        sections:
+          - s6_1: "A. The Form Itself: Privation of Life by Separation of Soul from Body"
+          - s6_2: "B. The Nature of the Separation: Relative, Not Absolute"
+          - s6_3: "C. Circumstances of the Form"
+            sections:
+              - s6_3_1: "1. That the Death Was Bloody"
+              - s6_3_2: "2. That the Death Occurred on the Cross"
+      - s7: "VII. The End and Fruit of Christ’s Death"
+        sections:
+          - s7_1: "A. The End “For Which” (Finis Cujus): The Utility"
+            sections:
+              - s7_1_1: "1. The Proximate End"
+                sections:
+                  - s7_1_1_1: "a. Satisfaction for Us"
+                  - s7_1_1_2: "b. Liberation Flowing from Satisfaction"
+                    sections:
+                      - s7_1_1_2_1: "(1) Liberation from the Penalty of Sin"
+                      - s7_1_1_2_2: "(2) Liberation from the Iniquity of Sin Inhering in Us"
+                  - s7_1_1_3: "c. The Proper End and Fruit: Justification and Sanctification"
+              - s7_1_2: "2. The Remote End"
+                sections:
+                  - s7_1_2_1: "a. Eternal Life for Those for Whom Christ Died"
+                  - s7_1_2_2: "b. The Glory of God the Redeemer"
+          - s7_2: "B. The End “For Whom” (Finis Cui): The Elect Alone"
+            sections:
+              - s7_2_1: "1. The Universality of the Elect: All the Elect"
+              - s7_2_2: "2. The Exclusivity of the Elect: The Elect Alone, Not the Reprobate"
+                sections:
+                  - s7_2_2_1: "a. Testimony from the Heavenly Church"
+                  - s7_2_2_2: "b. Testimony from Christ’s Own Words"
+                  - s7_2_2_3: "c. Demonstrations from the Efficient Cause"
+                    sections:
+                      - s7_2_2_3_1: "(1) From Vindicating Justice"
+                      - s7_2_2_3_2: "(2) From Eternal Love"
+                  - s7_2_2_4: "d. Demonstrations from the End and Fruit"
+                  - s7_2_2_5: "e. The Proper Adjunct: Christ’s Intercession"
+              - s7_2_3: "3. The Universal Terms Explained"
+                sections:
+                  - s7_2_3_1: "a. “All” Means All Kinds of Men"
+                  - s7_2_3_2: "b. The Gospel Command to Believe"
+                  - s7_2_3_3: "c. Particular Faith Distinguished from General Faith"
+              - s7_2_4: "4. Objections Answered"
+                sections:
+                  - s7_2_4_1: "a. Concerning 2 Peter 2:1"
+                  - s7_2_4_2: "b. Concerning Hebrews 10:29"
+      - s8: "VIII. Corollaries"
+      - s9: "Appendix: Questions to Be Asked of a Dying Sick Person"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/2026/01/31/franciscus-gomarus-c-1563-1641-on-the-death-of-jesus-christ/

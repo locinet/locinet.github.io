@@ -10,15 +10,550 @@ voet-regeneration:
   en:
     title: On Regeneration
     sections:
-      - part-1: "Part 1: On Regeneration"
-      - part-2: "Part 2: On Regeneration"
+      - s1: "ON REGENERATION"
+        sections:
+          - s1_1: "I. Introduction"
+          - s1_2: "II. Redemption Through Christ: Its General Division"
+            sections:
+              - s1_2_1: "A. Impetration and Application Distinguished"
+              - s1_2_2: "B. Application Defined as Translation from Darkness to Light"
+              - s1_2_3: "C. The Threefold Acts of Application"
+                sections:
+                  - s1_2_3_1: "1. Intentional or Relative Actions of God"
+                    sections:
+                      - s1_2_3_1_1: "a. Definition and Nature"
+                      - s1_2_3_1_2: "b. The Three Acts: Reconciliation, Justification, Adoption"
+                        sections:
+                          - s1_2_3_1_2_1: "(1) Reconciliation: Removing Evils and Enmity"
+                          - s1_2_3_1_2_2: "(2) Justification: Adjudicating Acquired Goods"
+                          - s1_2_3_1_2_3: "(3) Adoption: Declaring Sense of Mind"
+                      - s1_2_3_1_3: "c. How Adoption and Reconciliation Relate to Justification"
+                  - s1_2_3_2: "2. Moral Actions of God"
+                  - s1_2_3_3: "3. Real Actions Operating Physically"
+          - s1_3: "III. The Distinction of Regeneration According to Subjects"
+          - s1_4: "IV. The Name and Synonyms of Regeneration"
+            sections:
+              - s1_4_1: "A. The Name “Regeneration” Explained"
+              - s1_4_2: "B. Synonyms of Regeneration"
+                sections:
+                  - s1_4_2_1: "1. Metaphorical Synonyms"
+                  - s1_4_2_2: "2. More Proper Synonyms"
+                    sections:
+                      - s1_4_2_2_1: "a. Sanctification"
+                      - s1_4_2_2_2: "b. Conversion"
+                        sections:
+                          - s1_4_2_2_2_1: "(1) First Signification: Act of God Alone"
+                          - s1_4_2_2_2_2: "(2) Second Signification: Complete Act of God and Man"
+                          - s1_4_2_2_2_3: "(3) Third Signification: Formal Act of Man"
+                      - s1_4_2_2_3: "c. Drawing"
+                      - s1_4_2_2_4: "d. Translation into the Kingdom of God"
+                      - s1_4_2_2_5: "e. Renovation"
+                      - s1_4_2_2_6: "f. Transformation"
+                      - s1_4_2_2_7: "g. Liberation from Sin"
+              - s1_4_3: "C. Homonymy of Regeneration"
+                sections:
+                  - s1_4_3_1: "1. Metonymically: Glorification"
+                  - s1_4_3_2: "2. Four Senses of Regeneration Proper"
+                  - s1_4_3_3: "3. Active and Passive Regeneration Distinguished"
+          - s1_5: "V. The Definition of Regeneration"
+            sections:
+              - s1_5_1: "A. The Definition Stated"
+              - s1_5_2: "B. Explanation of the Definition"
+                sections:
+                  - s1_5_2_1: "1. The Genus: Action of God"
+                  - s1_5_2_2: "2. The Subject of Regeneration"
+                    sections:
+                      - s1_5_2_2_1: "a. Total Subject"
+                        sections:
+                          - s1_5_2_2_1_1: "(1) Remote: Man"
+                          - s1_5_2_2_1_2: "(2) Proximate: Elect Man"
+                          - s1_5_2_2_1_3: "(3) Closer: Elect Sinner"
+                          - s1_5_2_2_1_4: "(4) Proximate: Elect Sinner Given to Christ"
+                      - s1_5_2_2_2: "b. Partial Subject"
+                        sections:
+                          - s1_5_2_2_2_1: "(1) Formally and Per Se: Intellect and Will"
+                          - s1_5_2_2_2_2: "(2) Participatively and Consecutively: Sensuality and Lower Faculties"
+                      - s1_5_2_2_3: "c. Corollaries"
+                        sections:
+                          - s1_5_2_2_3_1: "(1) Rejection of Pelagian Error on Sensuality Alone"
+                          - s1_5_2_2_3_2: "(2) Rejection of Remonstrant Assertion on Pre-Fall Qualities"
+                          - s1_5_2_2_3_3: "(3) Rejection of Remonstrant Exclusion of Infants"
+                  - s1_5_2_3: "3. The Object of Regeneration"
+                    sections:
+                      - s1_5_2_3_1: "a. Immediate or First Object: Individual Elect"
+                      - s1_5_2_3_2: "b. Mediate or Second Object: Church of the Elect"
+                  - s1_5_2_4: "4. The Terminus A Quo: Sin or Corruption"
+                  - s1_5_2_5: "5. The Terminus Ad Quem"
+                    sections:
+                      - s1_5_2_5_1: "a. Proximate or Formal Terminus: Supernatural Qualities"
+                      - s1_5_2_5_2: "b. Ultimate or Completive Terminus: The Renewed Man"
+                      - s1_5_2_5_3: "c. Consecutive Terminus"
+                        sections:
+                          - s1_5_2_5_3_1: "(1) First: First Actual Conversion"
+                          - s1_5_2_5_3_2: "(2) Second: Conservation, Instauration, Augmentation"
+                          - s1_5_2_5_3_3: "(3) Final: Consummation"
+                      - s1_5_2_5_4: "d. Terminus Ad Quem Per Alterum: The Church"
+          - s1_6: "VI. The Causes of Regeneration"
+            sections:
+              - s1_6_1: "A. The Efficient Cause"
+                sections:
+                  - s1_6_1_1: "1. The First and Supreme Efficient Cause: The Triune God"
+                  - s1_6_1_2: "2. The Proëgumenal Immanent Cause: God’s Will and Good Pleasure"
+                  - s1_6_1_3: "3. The Emanant Cause: Regenerating Grace"
+                    sections:
+                      - s1_6_1_3_1: "a. Special, Efficacious, Invincible, Prevailing, and Persevering"
+                      - s1_6_1_3_2: "b. Distinction from Grace as Terminus of Regeneration"
+                      - s1_6_1_3_3: "c. Rejection of Enthusiast Deifications"
+                      - s1_6_1_3_4: "d. Rejection of Pelagianizing Fictions"
+                  - s1_6_1_4: "4. The Subordinate Principal Cause: Christ the Mediator"
+                  - s1_6_1_5: "5. The Procatarctic Cause: The Merit of Christ"
+                    sections:
+                      - s1_6_1_5_1: "a. Christ as Efficient Cause Directly and Physically (Theologically)"
+                      - s1_6_1_5_2: "b. Christ as Efficient Cause from Inferior Right (Economically)"
+                      - s1_6_1_5_3: "c. Christ as Subordinate Meritorious Cause"
+                      - s1_6_1_5_4: "d. Christ as Exemplary Cause"
+                      - s1_6_1_5_5: "e. The Proximate Procatarctic Cause: Christ’s Obedience"
+                      - s1_6_1_5_6: "f. Passive Obedience as Proximate, Dispositive, Consecutive Cause"
+                      - s1_6_1_5_7: "g. Active Obedience as Proximate, Immediate, Formal Cause"
+                      - s1_6_1_5_8: "h. The Material and Formal of Passive Obedience"
+                      - s1_6_1_5_9: "i. Application to Catechism Question 43"
+                      - s1_6_1_5_10: "j. Resurrection and Intercession as Proximately Impetrating Causes"
+                  - s1_6_1_6: "6. Procatarctic or Motive Cause with Respect to Us"
+                    sections:
+                      - s1_6_1_6_1: "a. None in First Regeneration"
+                      - s1_6_1_6_2: "b. Not in Second Moment of Regeneration as Such"
+                      - s1_6_1_6_3: "c. Only in the Effect: Actual Repentance and Piety"
+              - s1_6_2: "B. The Exemplary Causes"
+              - s1_6_3: "C. The Instrumental Causes"
+          - s1_7: "VII. Problems Concerning the Efficient Causes"
+            sections:
+              - s1_7_1: "A. Problem I: Whether Faith Is a Cause or Internal Instrument of Regeneration"
+              - s1_7_2: "B. Problem II: Whether Faith Precedes Regeneration or Repentance"
+              - s1_7_3: "C. Problem III: Whether Man’s Intellect and Will Concur to Regeneration"
+              - s1_7_4: "D. Problem IV: Whether There Are Preparatory Dispositions Concurring to Regeneration"
+              - s1_7_5: "E. Problem V: Whether Restraining Grace Through Common Ecclesiastical Aids Is a Disposition"
+              - s1_7_6: "F. Problem VI: Whether the Word of God Is Heard Savingly Before Conversion"
+              - s1_7_7: "G. Problem VII: Whether Unregenerate or Regenerate Man Sanctifies Himself"
+          - s1_8: "VIII. The Material and Formal Causes"
+            sections:
+              - s1_8_1: "A. Proper Material and Formal Causes Not Applicable to Accidents"
+              - s1_8_2: "B. Analogical Concepts Applied to Regeneration"
+              - s1_8_3: "C. Regeneration or Conversion in the Second Moment Analogically Conceived"
+              - s1_8_4: "D. Comparison with Creation and Resuscitation"
+              - s1_8_5: "E. Comparison with Physical Motion"
+          - s1_9: "IX. The End of Regeneration"
+          - s1_10: "X. Corollary: Rejection of Socinian Errors"
+      - s2: "ON REGENERATION"
+        sections:
+          - s2_1: "I. Introduction"
+          - s2_2: "II. Positive Antecedent Adjuncts of Regeneration"
+            sections:
+              - s2_2_1: "A. Adjuncts Anteceding Regeneration Itself"
+              - s2_2_2: "B. Antecedent Adjuncts Without Infallible Connection to Salvation"
+              - s2_2_3: "C. Antecedent Adjuncts Derived from Genus, Object, and Causes"
+              - s2_2_4: "D. Problems Concerning Antecedent Adjuncts"
+                sections:
+                  - s2_2_4_1: "1. Problem I: Whether Natural Man Can Use Natural Light to Obtain Salvific Grace"
+                  - s2_2_4_2: "2. Problem II: Whether Regeneration Occurs by Moral Persuasion Alone"
+                  - s2_2_4_3: "3. Problem III: Whether the Will Lost Something Through the Fall"
+                  - s2_2_4_4: "4. Problem IV: Whether the Will Is Determined Immediately or Mediately"
+                  - s2_2_4_5: "5. Problem V: Whether the Affirmative Opinion Favors Pelagianism"
+                  - s2_2_4_6: "6. Problem VI: Whether Truth Can Be More Easily Defended by This Reasoning"
+                  - s2_2_4_7: "7. Problem VII: Whether God Is Considered as Author of Grace in the First Moment and Author of Nature in the Second"
+                  - s2_2_4_8: "8. Problem VIII: Whether Merely External Calling Can Be Called Salvific"
+                  - s2_2_4_9: "9. Problem IX: Whether Efficacious Internal Drawing Is Properly Part of Salvific Calling"
+                  - s2_2_4_10: "10. Problem X: Whether Legal Sorrow and Servile Fear in the Elect Are from Regenerating Grace"
+          - s2_3: "III. Positive Absolute Concomitant Adjuncts"
+          - s2_4: "IV. Positive Absolute Consequent Adjuncts as Proper Affections"
+            sections:
+              - s2_4_1: "1. Problem I: Whether Regeneration Always Actually Grows in the Second Moment"
+              - s2_4_2: "2. Problem II: Whether the New Form Is the Death of Sin"
+          - s2_5: "V. Positive Absolute Consequent Adjuncts as Effects and Results"
+            sections:
+              - s2_5_1: "A. First Effects and Results Arising of Regeneration"
+              - s2_5_2: "B. Effects Arising from Faith Considered Organically"
+              - s2_5_3: "C. Problems Concerning Effects"
+                sections:
+                  - s2_5_3_1: "1. Problem I: Whether Illumination Differs in Species from Common Illumination"
+                  - s2_5_3_2: "2. Problem II: Whether Regeneration of Intellect Requires New Light Impressed Within"
+                  - s2_5_3_3: "3. Problem III: Cause of Apparent Contradictions in Dogmatic and Practical Writers"
+                  - s2_5_3_4: "4. Problem IV: Whether Acts 15:9 Refers to Habitual or Actual Faith"
+                  - s2_5_3_5: "5. Problem V: Whether Faith Is Considered Relatively or Absolutely in Acts 15:9"
+                  - s2_5_3_6: "6. Problem VI: Whether Faith in Habit Must Be Considered Materially and Formally"
+                  - s2_5_3_7: "7. Problem VII: Whether Adoption Can Be Called Prior or Posterior to Regeneration"
+          - s2_6: "VI. Positive Respective and Comparative Adjuncts"
+            sections:
+              - s2_6_1: "A. Arcane and Unknown as to Mode of Operating"
+              - s2_6_2: "B. Cognizable in the Individual with Direct and Indirect Certainty"
+              - s2_6_3: "C. Signs of Regeneration"
+              - s2_6_4: "D. External Signs: The Sacraments"
+                sections:
+                  - s2_6_4_1: "1. Problem: Whether the Lord’s Supper Directly Seals Regeneration"
+              - s2_6_5: "E. Prior or Not Prior to Justification, Adoption, and Calling"
+              - s2_6_6: "F. Equal to Creation as to Indisposition of Matter"
+              - s2_6_7: "G. Some Conversions with Greater External Apparatus"
+              - s2_6_8: "H. Actual Corruption of Some Elect Greater Than Many Reprobate"
+              - s2_6_9: "I. Preceding Corruption Sometimes Extending to End of Life"
+              - s2_6_10: "J. Problems Concerning Comparative Adjuncts"
+                sections:
+                  - s2_6_10_1: "1. Problem I: Whether Total Corruption Precedes Regeneration in Time"
+                  - s2_6_10_2: "2. Problem II: Whether Corruption and Grace Differ in Degree Among Regenerate Infants"
+              - s2_6_11: "K. Uniform Regeneration of Adults as to Essentials"
+                sections:
+                  - s2_6_11_1: "1. Problem I: Whether Equal Grace Is Impressed in the First Act"
+                  - s2_6_11_2: "2. Problem II: Whether It Differs in Degrees in the Second Moment"
+                  - s2_6_11_3: "3. Problem III: Whether Regeneration Can Occur Without External Calling"
+              - s2_6_12: "L. Cognizable A Posteriori from Ourselves"
+              - s2_6_13: "M. Primordial Effects Sometimes Greater or More Sensible"
+          - s2_7: "VII. Privative and Negative Adjuncts"
+            sections:
+              - s2_7_1: "A. Imperfection as to Terminus in First and Second Act"
+              - s2_7_2: "B. Spiritual Warfare Following Regeneration"
+              - s2_7_3: "C. Two Principles of Acting: Flesh and Spirit"
+              - s2_7_4: "D. Hypocrisy and Falsely Boasted Conversion"
+              - s2_7_5: "E. Regeneration Not Unwilling, Coerced, or Violent"
+              - s2_7_6: "F. Not a Miracle Strictly So Called"
+              - s2_7_7: "G. Never Repeated; Terminus Never Totally Abolished"
+                sections:
+                  - s2_7_7_1: "1. Problem: Whether Regeneration Occurs Once for Justification but Often for Repentance"
+          - s2_8: "VIII. Cognate Matters of Regeneration"
+            sections:
+              - s2_8_1: "A. Enumeration of Cognates"
+              - s2_8_2: "B. Distinctions from Cognates"
+          - s2_9: "IX. Opposites of Regeneration"
+            sections:
+              - s2_9_1: "A. Primary and Universal Opposites"
+              - s2_9_2: "B. Secondary and Particular Opposites"
+              - s2_9_3: "C. Formal and Subtle Hypocrisy"
+          - s2_10: "X. Division of Regeneration"
+            sections:
+              - s2_10_1: "A. By Reason of Effect: Mortification and Vivification"
+              - s2_10_2: "B. By Reason of Instants or Moments of Nature"
+              - s2_10_3: "C. By Reason of Origin and Instrumental Causes: Ordinary and Extraordinary"
+              - s2_10_4: "D. By Reason of Partial Subjects: Illumination and Sanctification of Will"
+              - s2_10_5: "E. By Reason of Event: Inactive and Active"
+          - s2_11: "XI. Appendix Concerning the Second Moment of Conversion"
+            sections:
+              - s2_11_1: "A. Conversion Considered According to the Acts of Second Regenerating Grace (On God’s Part)"
+                sections:
+                  - s2_11_1_1: "1. Conservation of the New Man"
+                  - s2_11_1_2: "2. Excitation and Motion"
+                  - s2_11_1_3: "3. Augmentation"
+                    sections:
+                      - s2_11_1_3_1: "a. Problem I: Whether Habits Are Augmented Through Actions or Infusion"
+                      - s2_11_1_3_2: "b. Problem II: Whether Spiritual Habits Are Acquired or Infused"
+                  - s2_11_1_4: "4. Confirmation of the New Man"
+                  - s2_11_1_5: "5. Restoration or Restitution"
+                    sections:
+                      - s2_11_1_5_1: "a. Problem I: Whether Habits Are Diminished or Acts Impeded in Lapse"
+                      - s2_11_1_5_2: "b. Problem II: Whether Restoration Occurs at Once or Gradually"
+                  - s2_11_1_6: "6. Consummation or Final Perfection"
+                    sections:
+                      - s2_11_1_6_1: "a. Problem 1: Interpretation of Romans 7:24"
+                      - s2_11_1_6_2: "b. Problem 2: Whether Bodily Death Is the Proximate Cause of Sin’s Abolition"
+                      - s2_11_1_6_3: "c. Problem 3: Whether Consummation Is a Work of the Regenerating Spirit Qua Talis"
+                      - s2_11_1_6_4: "d. Problem 4: Whether the Soul Is Passive or Active in Consummation"
+                      - s2_11_1_6_5: "e. Problem 5: Whether Augmentation Is Infused at Once"
+                      - s2_11_1_6_6: "f. Problem 6: Whether Sanctification and Excitation to Second Act Are Simultaneous"
+                      - s2_11_1_6_7: "g. Problem 7: Whether First Acts Belong to the Light of Grace or Glory"
+                      - s2_11_1_6_8: "h. Problem 8: The Timing of Perfect Sanctification Relative to Death"
+                      - s2_11_1_6_9: "i. Problem 9: Whether Perfection Increases Intensively at the Resurrection"
+              - s2_11_2: "B. Conversion Considered According to New and Spiritual Acts (On Our Part)"
+                sections:
+                  - s2_11_2_1: "1. Acts First in Order (First Actual Conversion)"
+                  - s2_11_2_2: "2. Distinction of First Acts"
+                  - s2_11_2_3: "3. Subsequent, Second, or Iterated Acts"
+                  - s2_11_2_4: "4. Practical Resources Commended"
       - appendix: "Appendix: On Some Questions Concerning the Deaf and the Mentally Incapacitated"
+        sections:
+          - a-s1: "A. The State of Salvation of the Deaf"
+            sections:
+              - a-s1_1: "1. The Deaf from Accident"
+              - a-s1_2: "2. The Deaf from Birth"
+                sections:
+                  - a-s1_2_1: "a. Born and Educated Outside the Church"
+                  - a-s1_2_2: "b. Born and Educated Within the Church"
+                    sections:
+                      - a-s1_2_2_1: "(1) Dying in Infancy"
+                      - a-s1_2_2_2: "(2) Adults Maintaining a Blameless Conscience"
+                      - a-s1_2_2_3: "(3) Adults Not Professing Impiety but Unable to Demonstrate Faith"
+          - a-s2: "B. The State of the Mentally Incapacitated (Amentes) Who Are Covenanted"
+            sections:
+              - a-s2_1: "1. Preliminary Definition of Mental Incapacity"
+                sections:
+                  - a-s2_1_1: "a. Medical Distinction Between Ablation/Diminution and Depravation"
+                  - a-s2_1_2: "b. Definition of Mental Incapacity (Amentia/Μώρωσις)"
+                  - a-s2_1_3: "c. Natural vs. Adventitious Mental Incapacity"
+              - a-s2_2: "2. Conclusions"
+                sections:
+                  - a-s2_2_1: "a. First Conclusion: Mentally Incapacitated from Birth Dying in Infancy"
+                  - a-s2_2_2: "b. Second Conclusion: Mentally Incapacitated from Birth Reaching Adulthood"
+                  - a-s2_2_3: "c. Third Conclusion: Adults Becoming Mentally Incapacitated by Disease or Accident"
+                  - a-s2_2_4: "d. Fourth Conclusion: Non-Covenanted Adults Becoming Mentally Incapacitated"
+                  - a-s2_2_5: "e. Fifth Conclusion: The Stupid and Semi-Foolish"
+                  - a-s2_2_6: "f. Sixth Conclusion: Covenanted Adults with Partially Impaired Reasoning"
+                  - a-s2_2_7: "g. Seventh Conclusion: Covenanted Adults Falling into Melancholic Deliria, Frenzy, Mania, or Lunacy"
+          - a-s3: "C. Practical Applications"
+            sections:
+              - a-s3_1: "1. Admission to Oaths, Marriage, Testimony, and Vows"
+              - a-s3_2: "2. Admission to the Lord's Supper"
+                sections:
+                  - a-s3_2_1: "a. Concerning the Mentally Incapacitated"
+                  - a-s3_2_2: "b. Concerning Phrenetics, Maniacs, Melancholics, Lunatics, and the Possessed"
+                  - a-s3_2_3: "c. Concerning the Semi-Foolish and Stupid"
+                  - a-s3_2_4: "d. Concerning the Deaf and Mute"
+              - a-s3_3: "3. Christian Burial of the Mentally Incapacitated"
+              - a-s3_4: "D. Resolution of Problems from the Syllabus"
+                sections:
+                  - a-s3_4_1: "1. On Reprobation of the Deaf and Mentally Incapacitated"
+                  - a-s3_4_2: "2. On Participation in the Covenant"
+                  - a-s3_4_3: "3. On the Salvation of All Fools, Phrenetics, and Deaf"
+                  - a-s3_4_4: "4. Response to Objections"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
-              - part-1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/
-              - part-2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/
               - appendix: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/
+              - a-s1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#a-the-state-of-salvation-of-the-deaf
+              - a-s1_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#1-the-deaf-from-accident
+              - a-s1_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#2-the-deaf-from-birth
+              - a-s1_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#a-born-and-educated-outside-the-church
+              - a-s1_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#b-born-and-educated-within-the-church
+              - a-s1_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#1-dying-in-infancy
+              - a-s1_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#2-adults-maintaining-a-blameless-conscience
+              - a-s1_2_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#3-adults-not-professing-impiety-but-unable-to-demonstrate-faith
+              - a-s2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#b-the-state-of-the-mentally-incapacitated-amentes-who-are-covenanted
+              - a-s2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#1-preliminary-definition-of-mental-incapacity
+              - a-s2_1_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#a-medical-distinction-between-ablation-diminution-and-depravation
+              - a-s2_1_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#b-definition-of-mental-incapacity-amentia-μώρωσις
+              - a-s2_1_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#c-natural-vs-adventitious-mental-incapacity
+              - a-s2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#2-conclusions
+              - a-s2_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#a-first-conclusion-mentally-incapacitated-from-birth-dying-in-infancy
+              - a-s2_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#b-second-conclusion-mentally-incapacitated-from-birth-reaching-adulthood
+              - a-s2_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#c-third-conclusion-adults-becoming-mentally-incapacitated-by-disease-or-accident
+              - a-s2_2_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#d-fourth-conclusion-non-covenanted-adults-becoming-mentally-incapacitated
+              - a-s2_2_5: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#e-fifth-conclusion-the-stupid-and-semi-foolish
+              - a-s2_2_6: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#f-sixth-conclusion-covenanted-adults-with-partially-impaired-reasoning
+              - a-s2_2_7: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#g-seventh-conclusion-covenanted-adults-falling-into-melancholic-deliria-frenzy-mania-or-lunacy
+              - a-s3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#c-practical-applications
+              - a-s3_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#1-admission-to-oaths-marriage-testimony-and-vows
+              - a-s3_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#2-admission-to-the-lord-s-supper
+              - a-s3_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#a-concerning-the-mentally-incapacitated
+              - a-s3_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#b-concerning-phrenetics-maniacs-melancholics-lunatics-and-the-possessed
+              - a-s3_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#c-concerning-the-semi-foolish-and-stupid
+              - a-s3_2_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#d-concerning-the-deaf-and-mute
+              - a-s3_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#3-christian-burial-of-the-mentally-incapacitated
+              - a-s3_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#d-resolution-of-problems-from-the-syllabus
+              - a-s3_4_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#1-on-reprobation-of-the-deaf-and-mentally-incapacitated
+              - a-s3_4_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#2-on-participation-in-the-covenant
+              - a-s3_4_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#3-on-the-salvation-of-all-fools-phrenetics-and-deaf
+              - a-s3_4_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#4-response-to-objections
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#on-regeneration
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#i-introduction
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#ii-redemption-through-christ-its-general-division
+              - s1_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-impetration-and-application-distinguished
+              - s1_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-application-defined-as-translation-from-darkness-to-light
+              - s1_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-the-threefold-acts-of-application
+              - s1_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-intentional-or-relative-actions-of-god
+              - s1_2_3_1_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-definition-and-nature
+              - s1_2_3_1_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-the-three-acts-reconciliation-justification-adoption
+              - s1_2_3_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-reconciliation-removing-evils-and-enmity
+              - s1_2_3_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-justification-adjudicating-acquired-goods
+              - s1_2_3_1_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-adoption-declaring-sense-of-mind
+              - s1_2_3_1_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-how-adoption-and-reconciliation-relate-to-justification
+              - s1_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-moral-actions-of-god
+              - s1_2_3_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-real-actions-operating-physically
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#iii-the-distinction-of-regeneration-according-to-subjects
+              - s1_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#iv-the-name-and-synonyms-of-regeneration
+              - s1_4_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-the-name-regeneration-explained
+              - s1_4_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-synonyms-of-regeneration
+              - s1_4_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-metaphorical-synonyms
+              - s1_4_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-more-proper-synonyms
+              - s1_4_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-sanctification
+              - s1_4_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-conversion
+              - s1_4_2_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-first-signification-act-of-god-alone
+              - s1_4_2_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-second-signification-complete-act-of-god-and-man
+              - s1_4_2_2_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-third-signification-formal-act-of-man
+              - s1_4_2_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-drawing
+              - s1_4_2_2_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#d-translation-into-the-kingdom-of-god
+              - s1_4_2_2_5: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#e-renovation
+              - s1_4_2_2_6: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#f-transformation
+              - s1_4_2_2_7: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#g-liberation-from-sin
+              - s1_4_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-homonymy-of-regeneration
+              - s1_4_3_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-metonymically-glorification
+              - s1_4_3_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-four-senses-of-regeneration-proper
+              - s1_4_3_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-active-and-passive-regeneration-distinguished
+              - s1_5: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#v-the-definition-of-regeneration
+              - s1_5_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-the-definition-stated
+              - s1_5_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-explanation-of-the-definition
+              - s1_5_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-the-genus-action-of-god
+              - s1_5_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-the-subject-of-regeneration
+              - s1_5_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-total-subject
+              - s1_5_2_2_1_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-remote-man
+              - s1_5_2_2_1_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-proximate-elect-man
+              - s1_5_2_2_1_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-closer-elect-sinner
+              - s1_5_2_2_1_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#4-proximate-elect-sinner-given-to-christ
+              - s1_5_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-partial-subject
+              - s1_5_2_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-formally-and-per-se-intellect-and-will
+              - s1_5_2_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-participatively-and-consecutively-sensuality-and-lower-faculties
+              - s1_5_2_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-corollaries
+              - s1_5_2_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-rejection-of-pelagian-error-on-sensuality-alone
+              - s1_5_2_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-rejection-of-remonstrant-assertion-on-pre-fall-qualities
+              - s1_5_2_2_3_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-rejection-of-remonstrant-exclusion-of-infants
+              - s1_5_2_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-the-object-of-regeneration
+              - s1_5_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-immediate-or-first-object-individual-elect
+              - s1_5_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-mediate-or-second-object-church-of-the-elect
+              - s1_5_2_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#4-the-terminus-a-quo-sin-or-corruption
+              - s1_5_2_5: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#5-the-terminus-ad-quem
+              - s1_5_2_5_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-proximate-or-formal-terminus-supernatural-qualities
+              - s1_5_2_5_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-ultimate-or-completive-terminus-the-renewed-man
+              - s1_5_2_5_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-consecutive-terminus
+              - s1_5_2_5_3_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-first-first-actual-conversion
+              - s1_5_2_5_3_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-second-conservation-instauration-augmentation
+              - s1_5_2_5_3_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-final-consummation
+              - s1_5_2_5_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#d-terminus-ad-quem-per-alterum-the-church
+              - s1_6: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#vi-the-causes-of-regeneration
+              - s1_6_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-the-efficient-cause
+              - s1_6_1_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#1-the-first-and-supreme-efficient-cause-the-triune-god
+              - s1_6_1_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#2-the-proegumenal-immanent-cause-god-s-will-and-good-pleasure
+              - s1_6_1_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#3-the-emanant-cause-regenerating-grace
+              - s1_6_1_3_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-special-efficacious-invincible-prevailing-and-persevering
+              - s1_6_1_3_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-distinction-from-grace-as-terminus-of-regeneration
+              - s1_6_1_3_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-rejection-of-enthusiast-deifications
+              - s1_6_1_3_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#d-rejection-of-pelagianizing-fictions
+              - s1_6_1_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#4-the-subordinate-principal-cause-christ-the-mediator
+              - s1_6_1_5: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#5-the-procatarctic-cause-the-merit-of-christ
+              - s1_6_1_5_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-christ-as-efficient-cause-directly-and-physically-theologically
+              - s1_6_1_5_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-christ-as-efficient-cause-from-inferior-right-economically
+              - s1_6_1_5_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-christ-as-subordinate-meritorious-cause
+              - s1_6_1_5_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#d-christ-as-exemplary-cause
+              - s1_6_1_5_5: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#e-the-proximate-procatarctic-cause-christ-s-obedience
+              - s1_6_1_5_6: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#f-passive-obedience-as-proximate-dispositive-consecutive-cause
+              - s1_6_1_5_7: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#g-active-obedience-as-proximate-immediate-formal-cause
+              - s1_6_1_5_8: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#h-the-material-and-formal-of-passive-obedience
+              - s1_6_1_5_9: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#i-application-to-catechism-question-43
+              - s1_6_1_5_10: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#j-resurrection-and-intercession-as-proximately-impetrating-causes
+              - s1_6_1_6: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#6-procatarctic-or-motive-cause-with-respect-to-us
+              - s1_6_1_6_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-none-in-first-regeneration
+              - s1_6_1_6_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-not-in-second-moment-of-regeneration-as-such
+              - s1_6_1_6_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-only-in-the-effect-actual-repentance-and-piety
+              - s1_6_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-the-exemplary-causes
+              - s1_6_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-the-instrumental-causes
+              - s1_7: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#vii-problems-concerning-the-efficient-causes
+              - s1_7_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-problem-i-whether-faith-is-a-cause-or-internal-instrument-of-regeneration
+              - s1_7_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-problem-ii-whether-faith-precedes-regeneration-or-repentance
+              - s1_7_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-problem-iii-whether-man-s-intellect-and-will-concur-to-regeneration
+              - s1_7_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#d-problem-iv-whether-there-are-preparatory-dispositions-concurring-to-regeneration
+              - s1_7_5: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#e-problem-v-whether-restraining-grace-through-common-ecclesiastical-aids-is-a-disposition
+              - s1_7_6: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#f-problem-vi-whether-the-word-of-god-is-heard-savingly-before-conversion
+              - s1_7_7: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#g-problem-vii-whether-unregenerate-or-regenerate-man-sanctifies-himself
+              - s1_8: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#viii-the-material-and-formal-causes
+              - s1_8_1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#a-proper-material-and-formal-causes-not-applicable-to-accidents
+              - s1_8_2: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#b-analogical-concepts-applied-to-regeneration
+              - s1_8_3: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#c-regeneration-or-conversion-in-the-second-moment-analogically-conceived
+              - s1_8_4: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#d-comparison-with-creation-and-resuscitation
+              - s1_8_5: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#e-comparison-with-physical-motion
+              - s1_9: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#ix-the-end-of-regeneration
+              - s1_10: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-regeneration-part-1/#x-corollary-rejection-of-socinian-errors
+              - s2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#on-regeneration
+              - s2_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#i-introduction
+              - s2_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#ii-positive-antecedent-adjuncts-of-regeneration
+              - s2_2_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-adjuncts-anteceding-regeneration-itself
+              - s2_2_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-antecedent-adjuncts-without-infallible-connection-to-salvation
+              - s2_2_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#c-antecedent-adjuncts-derived-from-genus-object-and-causes
+              - s2_2_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#d-problems-concerning-antecedent-adjuncts
+              - s2_2_4_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-problem-i-whether-natural-man-can-use-natural-light-to-obtain-salvific-grace
+              - s2_2_4_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#2-problem-ii-whether-regeneration-occurs-by-moral-persuasion-alone
+              - s2_2_4_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#3-problem-iii-whether-the-will-lost-something-through-the-fall
+              - s2_2_4_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#4-problem-iv-whether-the-will-is-determined-immediately-or-mediately
+              - s2_2_4_5: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#5-problem-v-whether-the-affirmative-opinion-favors-pelagianism
+              - s2_2_4_6: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#6-problem-vi-whether-truth-can-be-more-easily-defended-by-this-reasoning
+              - s2_2_4_7: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#7-problem-vii-whether-god-is-considered-as-author-of-grace-in-the-first-moment-and-author-of-nature-in-the-second
+              - s2_2_4_8: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#8-problem-viii-whether-merely-external-calling-can-be-called-salvific
+              - s2_2_4_9: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#9-problem-ix-whether-efficacious-internal-drawing-is-properly-part-of-salvific-calling
+              - s2_2_4_10: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#10-problem-x-whether-legal-sorrow-and-servile-fear-in-the-elect-are-from-regenerating-grace
+              - s2_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#iii-positive-absolute-concomitant-adjuncts
+              - s2_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#iv-positive-absolute-consequent-adjuncts-as-proper-affections
+              - s2_4_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-problem-i-whether-regeneration-always-actually-grows-in-the-second-moment
+              - s2_4_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#2-problem-ii-whether-the-new-form-is-the-death-of-sin
+              - s2_5: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#v-positive-absolute-consequent-adjuncts-as-effects-and-results
+              - s2_5_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-first-effects-and-results-arising-of-regeneration
+              - s2_5_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-effects-arising-from-faith-considered-organically
+              - s2_5_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#c-problems-concerning-effects
+              - s2_5_3_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-problem-i-whether-illumination-differs-in-species-from-common-illumination
+              - s2_5_3_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#2-problem-ii-whether-regeneration-of-intellect-requires-new-light-impressed-within
+              - s2_5_3_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#3-problem-iii-cause-of-apparent-contradictions-in-dogmatic-and-practical-writers
+              - s2_5_3_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#4-problem-iv-whether-acts-15-9-refers-to-habitual-or-actual-faith
+              - s2_5_3_5: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#5-problem-v-whether-faith-is-considered-relatively-or-absolutely-in-acts-15-9
+              - s2_5_3_6: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#6-problem-vi-whether-faith-in-habit-must-be-considered-materially-and-formally
+              - s2_5_3_7: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#7-problem-vii-whether-adoption-can-be-called-prior-or-posterior-to-regeneration
+              - s2_6: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#vi-positive-respective-and-comparative-adjuncts
+              - s2_6_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-arcane-and-unknown-as-to-mode-of-operating
+              - s2_6_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-cognizable-in-the-individual-with-direct-and-indirect-certainty
+              - s2_6_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#c-signs-of-regeneration
+              - s2_6_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#d-external-signs-the-sacraments
+              - s2_6_4_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-problem-whether-the-lord-s-supper-directly-seals-regeneration
+              - s2_6_5: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#e-prior-or-not-prior-to-justification-adoption-and-calling
+              - s2_6_6: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#f-equal-to-creation-as-to-indisposition-of-matter
+              - s2_6_7: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#g-some-conversions-with-greater-external-apparatus
+              - s2_6_8: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#h-actual-corruption-of-some-elect-greater-than-many-reprobate
+              - s2_6_9: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#i-preceding-corruption-sometimes-extending-to-end-of-life
+              - s2_6_10: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#j-problems-concerning-comparative-adjuncts
+              - s2_6_10_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-problem-i-whether-total-corruption-precedes-regeneration-in-time
+              - s2_6_10_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#2-problem-ii-whether-corruption-and-grace-differ-in-degree-among-regenerate-infants
+              - s2_6_11: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#k-uniform-regeneration-of-adults-as-to-essentials
+              - s2_6_11_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-problem-i-whether-equal-grace-is-impressed-in-the-first-act
+              - s2_6_11_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#2-problem-ii-whether-it-differs-in-degrees-in-the-second-moment
+              - s2_6_11_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#3-problem-iii-whether-regeneration-can-occur-without-external-calling
+              - s2_6_12: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#l-cognizable-a-posteriori-from-ourselves
+              - s2_6_13: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#m-primordial-effects-sometimes-greater-or-more-sensible
+              - s2_7: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#vii-privative-and-negative-adjuncts
+              - s2_7_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-imperfection-as-to-terminus-in-first-and-second-act
+              - s2_7_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-spiritual-warfare-following-regeneration
+              - s2_7_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#c-two-principles-of-acting-flesh-and-spirit
+              - s2_7_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#d-hypocrisy-and-falsely-boasted-conversion
+              - s2_7_5: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#e-regeneration-not-unwilling-coerced-or-violent
+              - s2_7_6: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#f-not-a-miracle-strictly-so-called
+              - s2_7_7: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#g-never-repeated-terminus-never-totally-abolished
+              - s2_7_7_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-problem-whether-regeneration-occurs-once-for-justification-but-often-for-repentance
+              - s2_8: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#viii-cognate-matters-of-regeneration
+              - s2_8_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-enumeration-of-cognates
+              - s2_8_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-distinctions-from-cognates
+              - s2_9: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#ix-opposites-of-regeneration
+              - s2_9_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-primary-and-universal-opposites
+              - s2_9_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-secondary-and-particular-opposites
+              - s2_9_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#c-formal-and-subtle-hypocrisy
+              - s2_10: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#x-division-of-regeneration
+              - s2_10_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-by-reason-of-effect-mortification-and-vivification
+              - s2_10_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-by-reason-of-instants-or-moments-of-nature
+              - s2_10_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#c-by-reason-of-origin-and-instrumental-causes-ordinary-and-extraordinary
+              - s2_10_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#d-by-reason-of-partial-subjects-illumination-and-sanctification-of-will
+              - s2_10_5: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#e-by-reason-of-event-inactive-and-active
+              - s2_11: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#xi-appendix-concerning-the-second-moment-of-conversion
+              - s2_11_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-conversion-considered-according-to-the-acts-of-second-regenerating-grace-on-god-s-part
+              - s2_11_1_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-conservation-of-the-new-man
+              - s2_11_1_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#2-excitation-and-motion
+              - s2_11_1_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#3-augmentation
+              - s2_11_1_3_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-problem-i-whether-habits-are-augmented-through-actions-or-infusion
+              - s2_11_1_3_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-problem-ii-whether-spiritual-habits-are-acquired-or-infused
+              - s2_11_1_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#4-confirmation-of-the-new-man
+              - s2_11_1_5: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#5-restoration-or-restitution
+              - s2_11_1_5_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-problem-i-whether-habits-are-diminished-or-acts-impeded-in-lapse
+              - s2_11_1_5_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-problem-ii-whether-restoration-occurs-at-once-or-gradually
+              - s2_11_1_6: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#6-consummation-or-final-perfection
+              - s2_11_1_6_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#a-problem-1-interpretation-of-romans-7-24
+              - s2_11_1_6_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-problem-2-whether-bodily-death-is-the-proximate-cause-of-sin-s-abolition
+              - s2_11_1_6_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#c-problem-3-whether-consummation-is-a-work-of-the-regenerating-spirit-qua-talis
+              - s2_11_1_6_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#d-problem-4-whether-the-soul-is-passive-or-active-in-consummation
+              - s2_11_1_6_5: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#e-problem-5-whether-augmentation-is-infused-at-once
+              - s2_11_1_6_6: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#f-problem-6-whether-sanctification-and-excitation-to-second-act-are-simultaneous
+              - s2_11_1_6_7: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#g-problem-7-whether-first-acts-belong-to-the-light-of-grace-or-glory
+              - s2_11_1_6_8: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#h-problem-8-the-timing-of-perfect-sanctification-relative-to-death
+              - s2_11_1_6_9: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#i-problem-9-whether-perfection-increases-intensively-at-the-resurrection
+              - s2_11_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#b-conversion-considered-according-to-new-and-spiritual-acts-on-our-part
+              - s2_11_2_1: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#1-acts-first-in-order-first-actual-conversion
+              - s2_11_2_2: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#2-distinction-of-first-acts
+              - s2_11_2_3: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#3-subsequent-second-or-iterated-acts
+              - s2_11_2_4: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-regeneration-part-2/#4-practical-resources-commended

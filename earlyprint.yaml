@@ -5,18 +5,18 @@
 #   lang: language code (optional, default: en)
 #   orig_lang: original language if this is a translation (optional; omit if not a translation)
 #   translator: translator name (optional)
-- tcp_id: A73348
-  author: Q123337
-  work_id: viret-holy-supper
+- tcp_id: A14350
+  author: Q598060
+  work_id: vermigli-lc
   lang: en
-  orig_lang: fr
-- tcp_id: A14461
-  author: Q123337
-  work_id: viret-disputations
+  orig_lang: la
+- tcp_id: A14347
+  author: Q598060
+  work_id: vermigli-lords-supper
   lang: en
-  orig_lang: fr
-- tcp_id: A14463
-  author: Q123337
-  work_id: viret-instruction
+  orig_lang: la
+- tcp_id: A26892
+  author: Q680070
+  work_id: baxter-directory
   lang: en
-  orig_lang: fr
+  orig_lang: en

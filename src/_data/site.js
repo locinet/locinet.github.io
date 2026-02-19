@@ -273,6 +273,7 @@ function parseWork(fileId, data, translatorsMap) {
         volumes,
         pdf: s.pdf || false,
         pdfUrl: s.pdf_url || null,
+        epubUrl: s.epub_url || null,
         sectionUrls: buildSectionUrlMap(s.section_urls),
         sectionTexts: typeof s.text === "string" ? {} : buildSectionUrlMap(s.text),
         workText: typeof s.text === "string" ? s.text.trim() : null,
@@ -313,6 +314,8 @@ function parseWork(fileId, data, translatorsMap) {
           entry.sites.push({
             siteName: s.site,
             url: s.url,
+            pdfUrl: s.pdf_url || null,
+            epubUrl: s.epub_url || null,
             sectionUrls: buildSectionUrlMap(s.section_urls),
           });
         }

@@ -11,23 +11,460 @@ musculus-commonplaces:
     sections:
       - god: Concerning God
         loci: god
+        sections:
+          - s1: "CONCERNING GOD"
+            sections:
+              - s1_1: "I. INTRODUCTION: THE DIFFICULTY AND NECESSITY OF KNOWING GOD"
+                sections:
+                  - s1_1_1: "A. The Twofold Restraint in Divine Knowledge"
+                  - s1_1_2: "B. The Proper Disposition Required"
+                  - s1_1_3: "C. Warning Against Curiosity and Temerity"
+              - s1_2: "II. WHETHER GOD EXISTS"
+                sections:
+                  - s1_2_1: "A. The Occasion and Rationale of This Question"
+                  - s1_2_2: "B. The Necessity of Establishing This Foundation"
+                  - s1_2_3: "C. The Three Modes by Which God Manifests Himself to Mortal Minds"
+                    sections:
+                      - s1_2_3_1: "1. First Mode: By Operating (General Manifestation)"
+                        sections:
+                          - s1_2_3_1_1: "a. The Universality of This Mode"
+                          - s1_2_3_1_2: "b. How Philosophers Knew God from His Works"
+                            sections:
+                              - s1_2_3_1_2_1: "i. From the Majesty and Order of Creation"
+                              - s1_2_3_1_2_2: "ii. From Divine Beneficence"
+                              - s1_2_3_1_2_3: "iii. From Terrifying Judgments"
+                              - s1_2_3_1_2_4: "iv. From Prophecies"
+                          - s1_2_3_1_3: "c. Response to Those Who Deny Invisible Things"
+                            sections:
+                              - s1_2_3_1_3_1: "i. The Analogy of Voice, Wind, and Odor"
+                              - s1_2_3_1_3_2: "ii. The Analogy of Soul, Mind, and Will"
+                              - s1_2_3_1_3_3: "iii. God Declared by His Operations"
+                      - s1_2_3_2: "2. Second Mode: By Speaking Through the Word (Special Manifestation)"
+                        sections:
+                          - s1_2_3_2_1: "a. The Special Grace to Israel"
+                          - s1_2_3_2_2: "b. Extension to the Gentiles in the Last Times"
+                      - s1_2_3_3: "3. Third Mode: By Breathing Through the Spirit (Most Special Manifestation)"
+                        sections:
+                          - s1_2_3_3_1: "a. Limited to the Elect"
+                          - s1_2_3_3_2: "b. The Elect’s Diligent Use of Works and Word"
+              - s1_3: "III. WHO GOD IS"
+                sections:
+                  - s1_3_1: "A. The Occasion of This Question"
+                  - s1_3_2: "B. Why This Question Is Not Properly Asked"
+                  - s1_3_3: "C. The Proper Method: Knowing Who God Is Not"
+                  - s1_3_4: "D. Biblical Testimonies to the Inexpressibility of God’s Name"
+                    sections:
+                      - s1_3_4_1: "1. Jacob’s Wrestling (Genesis 32)"
+                      - s1_3_4_2: "2. Moses at the Burning Bush (Exodus 3)"
+                  - s1_3_5: "E. How God Declares Who He Is: By Efficacy and Operation"
+              - s1_4: "IV. WHAT GOD IS"
+                sections:
+                  - s1_4_1: "A. The Occasion of This Question"
+                  - s1_4_2: "B. Three Considerations"
+                    sections:
+                      - s1_4_2_1: "1. Concerning the Word “God” (Deus)"
+                      - s1_4_2_2: "2. Concerning the Essence of God"
+                        sections:
+                          - s1_4_2_2_1: "a. The Consensus Against Definition"
+                          - s1_4_2_2_2: "b. The Finite Cannot Comprehend the Infinite"
+                          - s1_4_2_2_3: "c. Christ’s Statement That God Is Spirit (John 4)"
+                      - s1_4_2_3: "3. Concerning the Office and Work of God"
+                        sections:
+                          - s1_4_2_3_1: "a. The Utility of This Knowledge for Piety"
+                          - s1_4_2_3_2: "b. God’s Office as Creator and Preserver"
+                          - s1_4_2_3_3: "c. God’s Office as Governor"
+                          - s1_4_2_3_4: "d. Denial of Providence Is Denial of God"
+                          - s1_4_2_3_5: "e. Sufficient Knowledge for Piety"
+              - s1_5: "V. WHAT MANNER GOD IS, CONSIDERING ESSENCE"
+                sections:
+                  - s1_5_1: "A. Introduction: Qualities Exist in All Things"
+                  - s1_5_2: "B. What Is Predicated of God’s Essence"
+                    sections:
+                      - s1_5_2_1: "1. The Unity of the Essence"
+                        sections:
+                          - s1_5_2_1_1: "a. Testimony from Sacred Scripture"
+                          - s1_5_2_1_2: "b. Philosophers and Poets Acknowledged God’s Unity"
+                          - s1_5_2_1_3: "c. The Reasoning of the Wise"
+                          - s1_5_2_1_4: "d. The Folly of Those Who Establish Multiple Gods"
+                            sections:
+                              - s1_5_2_1_4_1: "i. The Creator Is Greater Than His Work"
+                              - s1_5_2_1_4_2: "ii. Divine Majesty Receives Neither Addition Nor Diminution"
+                              - s1_5_2_1_4_3: "iii. The Similitude of the Sun"
+                              - s1_5_2_1_4_4: "iv. The Similitude of the Soul"
+                      - s1_5_2_2: "2. Other Predicates of the Essence"
+                        sections:
+                          - s1_5_2_2_1: "a. Not Composite but Simple and Pure"
+                          - s1_5_2_2_2: "b. Spirit and Light"
+                          - s1_5_2_2_3: "c. Incorporeal, Invisible, Incomprehensible, Immutable, etc."
+              - s1_6: "VI. WHAT MANNER GOD IS, CONSIDERING HYPOSTASIS"
+                sections:
+                  - s1_6_1: "A. The Distinction Between Ousia and Hypostasis"
+                    sections:
+                      - s1_6_1_1: "1. Definition of Terms"
+                      - s1_6_1_2: "2. Common and Proper Attributes"
+                  - s1_6_2: "D. The Biblical Names of the Three Hypostases"
+                    sections:
+                      - s1_6_2_1: "1. Old Testament Terminology"
+                      - s1_6_2_2: "2. Greek and Latin Terminology"
+                  - s1_6_3: "E. The Revelation of the Sacred Trinity Through Christ"
+                  - s1_6_4: "F. Summary of Essential Truths"
+                    sections:
+                      - s1_6_4_1: "1. God Is One in Essence, Triune in Persons"
+                      - s1_6_4_2: "2. The Appellations of the Persons"
+                      - s1_6_4_3: "3. Not Three Gods but One God"
+                      - s1_6_4_4: "4. Illustrations of the Trinity"
+                        sections:
+                          - s1_6_4_4_1: "a. From the Nature of Man"
+                          - s1_6_4_4_2: "b. From the Sun"
+                          - s1_6_4_4_3: "c. From the Human Soul (Mind, Will, Affections)"
+                  - s1_6_5: "G. Secret Things Not to Be Scrutinized"
+                  - s1_6_6: "H. The Necessity of Scriptural Testimonies"
+                  - s1_6_7: "I. TESTIMONIES OF SACRED SCRIPTURE CONCERNING THE DIVINITY OF CHRIST"
+                    sections:
+                      - s1_6_7_1: "1. Christ as the Eternal Word"
+                      - s1_6_7_2: "2. Christ as the Only-Begotten Son of God"
+                      - s1_6_7_3: "3. Christ Expressly Named God"
+                      - s1_6_7_4: "4. Christ Ascribes to Himself Works of Divinity"
+                  - s1_6_8: "J. TESTIMONIES OF SACRED SCRIPTURE CONCERNING THE DIVINITY OF THE HOLY SPIRIT"
+                    sections:
+                      - s1_6_8_1: "1. The Holy Spirit Joined with the Father and Son in Baptism"
+                      - s1_6_8_2: "2. Additional Biblical Testimonies"
+              - s1_7: "VII. WHAT MANNER GOD IS, CONSIDERING NATURE"
+                sections:
+                  - s1_7_1: "A. The Use of the Term “Nature” Concerning God"
+                  - s1_7_2: "B. What Is Predicated Concerning God"
+                  - s1_7_3: "C. The Immutability of God’s Nature"
+              - s1_8: "VIII. HOW GREAT GOD IS"
+                sections:
+                  - s1_8_1: "A. Divine Majesty Rather Than Corporeal Quantity"
+                  - s1_8_2: "B. The Incomparable and Immense Excellence of God"
+                  - s1_8_3: "C. Where the Divine Excellence Is to Be Observed"
+                  - s1_8_4: "D. Conclusion"
+          - s3: "CONCERNING THE WORKS OF GOD"
+            sections:
+              - s3_1: "I. INTRODUCTION: THE NECESSITY OF CONSIDERING GOD’S WORKS"
+                sections:
+                  - s3_1_1: "A. Why We Must Study God’s Works"
+                    sections:
+                      - s3_1_1_1: "1. God’s Essence, Hypostases, and Nature Revealed in His Works"
+                      - s3_1_1_2: "2. Two Aids to Certain Knowledge of God"
+                        sections:
+                          - s3_1_1_2_1: "a. God Cannot Be Idle"
+                          - s3_1_1_2_2: "b. God Can Only Operate According to His Nature’s Quality"
+                  - s3_1_2: "B. The Fivefold Genus of Operation"
+                    sections:
+                      - s3_1_2_1: "1. First Genus: Natural Operation Without Intelligence or Will"
+                      - s3_1_2_2: "2. Second Genus: Natural Operation With Will But Without Reason"
+                      - s3_1_2_3: "3. Third Genus: Human Operation (With Reason and Will, But Corrupt)"
+                      - s3_1_2_4: "4. Fourth Genus: Operation of Good Spirits (Angels)"
+                      - s3_1_2_5: "5. Fifth Genus: Divine Operation (Supreme and Perfect)"
+              - s3_2: "II. THE GENERA OF GOD’S OPERATIONS"
+                sections:
+                  - s3_2_1: "A. The Infinite Multitude and Excellence of God’s Works"
+                  - s3_2_2: "B. The Extent to Which Man May Consider God’s Works"
+                  - s3_2_3: "C. Six Genera of God’s Operations Established"
+          - s4: "CONCERNING CREATION"
+            sections:
+              - s4_1: "I. WHY CREATION HOLDS FIRST PLACE AMONG GOD’S WORKS"
+              - s4_2: "II. WHAT GOD CREATED"
+                sections:
+                  - s4_2_1: "A. All Things Created by God Alone"
+                  - s4_2_2: "B. The Sacred Trinity Not Excluded"
+                  - s4_2_3: "B. Evil Things Not Included"
+              - s4_3: "III. FROM WHAT GOD CREATED ALL THINGS"
+              - s4_4: "IV. HOW GOD CREATED ALL THINGS"
+              - s4_5: "V. WHEN GOD CREATED ALL THINGS"
+              - s4_6: "VI. TO WHAT END GOD CREATED ALL THINGS"
+          - s5: "CONCERNING THE CREATION OF ANGELS"
+            sections:
+              - s5_1: "I. THE PRINCIPLE: AFFIRM NOTHING WITHOUT SCRIPTURE"
+              - s5_2: "II. THAT ANGELS EXIST"
+              - s5_3: "III. THAT THEY ARE SPIRITS BY NATURE, ANGELS BY OFFICE"
+              - s5_4: "IV. THAT THEY ARE NOT BEGOTTEN OF GOD, BUT CREATED"
+              - s5_5: "IV. WHEN ANGELS WERE CREATED NOT REVEALED"
+              - s5_6: "IV. CONCLUSION: THE SUFFICIENCY OF SCRIPTURES TESTIMONY"
+          - s6: "CONCERNING THE FALL OF ANGELS"
+            sections:
+              - s6_1: "I. THAT CERTAIN ANGELS FELL FROM THEIR ORDER"
+              - s6_2: "II. THAT THEY FELL THROUGH SIN"
+                sections:
+                  - s6_2_1: "A. The Sin of Pride Commonly Alleged"
+                  - s6_2_2: "B. The Mode Not Declared"
+              - s6_3: "III. WHY ANGELIC SIN IS NOT CLEARLY EXPRESSED IN SCRIPTURE"
+              - s6_4: "IV. THAT REPROBATE ANGELS SHALL NEVER BE SAVED"
+          - s7: "CONCERNING THE CREATION OF MAN"
+            sections:
+              - s7_1: "I. THE NECESSITY AND PROPRIETY OF KNOWING MAN’S CREATION"
+                sections:
+                  - s7_1_1: "A. After Knowing God, Man Should Know Himself"
+                  - s7_1_2: "B. Salvation Requires Self-Knowledge"
+                  - s7_1_3: "C. Scripture Expresses Man’s Creation More Diligently"
+              - s7_2: "II. THE MODE OF KNOWLEDGE TO BE OBSERVED"
+                sections:
+                  - s7_2_1: "A. Determine From Scripture, Not Human Cogitation"
+                  - s7_2_2: "B. Scripture’s Account Is Modest But Solid"
+              - s7_3: "III. WHAT SCRIPTURE TEACHES CONCERNING MAN’S CREATION"
+                sections:
+                  - s7_3_1: "A. That Man Is a Creature, Made in Time"
+                  - s7_3_2: "B. That God Is Man’s Maker"
+                    sections:
+                      - s7_3_2_1: "1. Not Prometheus, But the True God"
+                      - s7_3_2_2: "2. What This Faith Works in Us"
+                  - s7_3_3: "C. From What Man Was Made"
+                    sections:
+                      - s7_3_3_1: "1. From Dust of the Ground"
+                      - s7_3_3_2: "2. The Humility This Should Produce"
+                  - s7_3_4: "D. How Man Was Made"
+                    sections:
+                      - s7_3_4_1: "1. The Formation of Adam"
+                      - s7_3_4_2: "2. The Building of Eve"
+                  - s7_3_5: "E. What Manner Man Was Made"
+                    sections:
+                      - s7_3_5_1: "1. The Quality of Original Nature and Dignity"
+                      - s7_3_5_2: "2. Man’s Free Will Before the Fall"
+                      - s7_3_5_3: "3. The Dignity of Being Made in God’s Image"
+                        sections:
+                          - s7_3_5_3_1: "a. Interpretations of the Image of God"
+                          - s7_3_5_3_2: "b. The Apostle’s Distinction Between Man and Woman"
+                          - s7_3_5_3_3: "c. Adam’s Placement in Paradise and Naming of Animals"
+              - s7_4: "IV. EPILOGUE OF THIS PLACE"
+              - s7_5: "V. CONCERNING THE SOUL"
+                sections:
+                  - s7_5_1: "A. Why This Inquiry Should Be Avoided"
+                  - s7_5_2: "B. The Innumerable and Inextricable Questions Concerning the Soul"
+                  - s7_5_3: "C. The Difference between the Soul, Mind, and Spirit"
+          - s8: "CONCERNING THE FALL OF MAN"
+            sections:
+              - s8_1: "I. INTRODUCTION TO THE FALL OF MAN"
+                sections:
+                  - s8_1_1: "A. The Certainty of Man’s Fall"
+                  - s8_1_2: "B. Why the Fall of Man Should Be Considered"
+                  - s8_1_3: "C. Four Things to Be Examined Concerning the Fall"
+              - s8_2: "II. WHAT WAS THE FALL OF THE FIRST MAN?"
+                sections:
+                  - s8_2_1: "A. The History of Original Sin"
+                    sections:
+                      - s8_2_1_1: "1. The Divine Command (Genesis 2)"
+                      - s8_2_1_2: "2. The Transgression of the Command (Genesis 3)"
+                  - s8_2_2: "B. Two Parts of This History"
+                  - s8_2_3: "C. The Ease and Indulgence of the Divine Command"
+                  - s8_2_4: "D. The Mode of Transgression"
+              - s8_3: "III. WHAT IS THE FORCE, OPERATION, AND PUNISHMENT OF ORIGINAL SIN?"
+                sections:
+                  - s8_3_1: "A. Distinguishing Between the Efficacy and Punishment of Sin"
+                  - s8_3_2: "B. What Good This Sin of Adam Took Away"
+                    sections:
+                      - s8_3_2_1: "1. The Good of Innocence Lost"
+                      - s8_3_2_2: "2. The Good of Sincere Conscience Lost, and Fear Inflicted"
+                      - s8_3_2_3: "3. Integrity of Mind Corrupted"
+                      - s8_3_2_4: "4. Free Will Lost"
+                  - s8_3_3: "C. Concerning the Punishment of Sin Expressly Inflicted"
+                    sections:
+                      - s8_3_3_1: "1. The Curse Upon the Earth in Man’s Labor"
+                      - s8_3_3_2: "2. The Dignity of Primacy Lost"
+                      - s8_3_3_3: "3. Corruption and Death Inflicted"
+                  - s8_3_4: "D. Nature Itself Infected and Lost"
+                    sections:
+                      - s8_3_4_1: "1. Evil Transmitted to All Posterity"
+                      - s8_3_4_2: "2. Testimonies of Sacred Scripture"
+                  - s8_3_5: "E. Epilogue of This Place"
+              - s8_4: "IV. TO WHOM THE FALL OF THE HUMAN RACE SHOULD BE IMPUTED"
+                sections:
+                  - s8_4_1: "A. The Necessity of This Consideration"
+                  - s8_4_2: "B. Three Concurring Factors: Serpent, Eve, Adam"
+                  - s8_4_3: "C. Three Perspectives on Imputation"
+                    sections:
+                      - s8_4_3_1: "1. If Concerning the Principle of Sin in General: The Devil"
+                      - s8_4_3_2: "2. If Concerning Who First Sinned Among Humans: Eve"
+                      - s8_4_3_3: "3. If Concerning the Propagation of Sin: Adam"
+                        sections:
+                          - s8_4_3_3_1: "a. Why Propagation Is Through Adam, Not Eve"
+                          - s8_4_3_3_2: "b. How Adam Was Not Deceived"
+              - s8_5: "V. BY WHAT COUNSEL OF GOD THE HUMAN RACE FELL IN ADAM"
+                sections:
+                  - s8_5_1: "A. God Foreknew Man Would Fall"
+                  - s8_5_2: "B. God’s Foreknowledge Was Not Without Certain Counsel"
+                  - s8_5_3: "C. God Could Have Prevented Man’s Fall"
+                  - s8_5_4: "D. Therefore God Did Not Prevent It Because He Willed Not To"
+                  - s8_5_5: "E. God Willed Not to Prevent It for a Good Cause"
+                  - s8_5_6: "F. This Good Was Sought by Some Counsel and Predestination"
+                  - s8_5_7: "G. This Was God’s Counsel, Not the Serpent’s or Man’s"
+                  - s8_5_8: "H. By What Counsel God Permitted Man to Sin"
+                    sections:
+                      - s8_5_8_1: "1. Man Sinned and the Human Race Perished Without God’s Fault"
+                      - s8_5_8_2: "2. What Was That Good for Whose Prospect God So Disposed"
+                        sections:
+                          - s8_5_8_2_1: "a. The Imitation of Sin in Angels, Propagation in Humans"
+                          - s8_5_8_2_2: "b. Salvation of Man Destined in His Reparation, Not in His First Condition"
+                  - s8_5_9: "I. Epilogue of This Place"
       - works-of-god: Concerning the Works of God
         loci: works-of-god
+        sections:
+          - s3_1: "I. INTRODUCTION: THE NECESSITY OF CONSIDERING GOD'S WORKS"
+            sections:
+              - s3_1_1: "A. Why We Must Study God's Works"
+                sections:
+                  - s3_1_1_1: "1. God's Essence, Hypostases, and Nature Revealed in His Works"
+                  - s3_1_1_2: "2. Two Aids to Certain Knowledge of God"
+                    sections:
+                      - s3_1_1_2_1: "a. God Cannot Be Idle"
+                      - s3_1_1_2_2: "b. God Can Only Operate According to His Nature's Quality"
+              - s3_1_2: "B. The Fivefold Genus of Operation"
+                sections:
+                  - s3_1_2_1: "1. First Genus: Natural Operation Without Intelligence or Will"
+                  - s3_1_2_2: "2. Second Genus: Natural Operation With Will But Without Reason"
+                  - s3_1_2_3: "3. Third Genus: Human Operation (With Reason and Will, But Corrupt)"
+                  - s3_1_2_4: "4. Fourth Genus: Operation of Good Spirits (Angels)"
+                  - s3_1_2_5: "5. Fifth Genus: Divine Operation (Supreme and Perfect)"
+          - s3_2: "II. THE GENERA OF GOD'S OPERATIONS"
+            sections:
+              - s3_2_1: "A. The Infinite Multitude and Excellence of God's Works"
+              - s3_2_2: "B. The Extent to Which Man May Consider God's Works"
+              - s3_2_3: "C. Six Genera of God's Operations Established"
       - creation: Concerning Creation
         loci: creation
+        sections:
+          - s4_1: "I. WHY CREATION HOLDS FIRST PLACE AMONG GOD'S WORKS"
+          - s4_2: "II. WHAT GOD CREATED"
+            sections:
+              - s4_2_1: "A. All Things Created by God Alone"
+              - s4_2_2: "B. The Sacred Trinity Not Excluded"
+              - s4_2_3: "B. Evil Things Not Included"
+          - s4_3: "III. FROM WHAT GOD CREATED ALL THINGS"
+          - s4_4: "IV. HOW GOD CREATED ALL THINGS"
+          - s4_5: "V. WHEN GOD CREATED ALL THINGS"
+          - s4_6: "VI. TO WHAT END GOD CREATED ALL THINGS"
       - creation-of-angels: Concerning the Creation of Angels
         loci: angels
+        sections:
+          - s5_1: "I. THE PRINCIPLE: AFFIRM NOTHING WITHOUT SCRIPTURE"
+          - s5_2: "II. THAT ANGELS EXIST"
+          - s5_3: "III. THAT THEY ARE SPIRITS BY NATURE, ANGELS BY OFFICE"
+          - s5_4: "IV. THAT THEY ARE NOT BEGOTTEN OF GOD, BUT CREATED"
+          - s5_5: "IV. WHEN ANGELS WERE CREATED NOT REVEALED"
+          - s5_6: "IV. CONCLUSION: THE SUFFICIENCY OF SCRIPTURES TESTIMONY"
       - fall-of-angels: Concerning the Fall of the Angels
         loci: angels
+        sections:
+          - s6_1: "I. THAT CERTAIN ANGELS FELL FROM THEIR ORDER"
+          - s6_2: "II. THAT THEY FELL THROUGH SIN"
+            sections:
+              - s6_2_1: "A. The Sin of Pride Commonly Alleged"
+              - s6_2_2: "B. The Mode Not Declared"
+          - s6_3: "III. WHY ANGELIC SIN IS NOT CLEARLY EXPRESSED IN SCRIPTURE"
+          - s6_4: "IV. THAT REPROBATE ANGELS SHALL NEVER BE SAVED"
       - creation-of-man: Concerning the Creation of Man
         loci: man
+        sections:
+          - s7_1: "I. THE NECESSITY AND PROPRIETY OF KNOWING MAN'S CREATION"
+            sections:
+              - s7_1_1: "A. After Knowing God, Man Should Know Himself"
+              - s7_1_2: "B. Salvation Requires Self-Knowledge"
+              - s7_1_3: "C. Scripture Expresses Man's Creation More Diligently"
+          - s7_2: "II. THE MODE OF KNOWLEDGE TO BE OBSERVED"
+            sections:
+              - s7_2_1: "A. Determine From Scripture, Not Human Cogitation"
+              - s7_2_2: "B. Scripture's Account Is Modest But Solid"
+          - s7_3: "III. WHAT SCRIPTURE TEACHES CONCERNING MAN'S CREATION"
+            sections:
+              - s7_3_1: "A. That Man Is a Creature, Made in Time"
+              - s7_3_2: "B. That God Is Man's Maker"
+                sections:
+                  - s7_3_2_1: "1. Not Prometheus, But the True God"
+                  - s7_3_2_2: "2. What This Faith Works in Us"
+              - s7_3_3: "C. From What Man Was Made"
+                sections:
+                  - s7_3_3_1: "1. From Dust of the Ground"
+                  - s7_3_3_2: "2. The Humility This Should Produce"
+              - s7_3_4: "D. How Man Was Made"
+                sections:
+                  - s7_3_4_1: "1. The Formation of Adam"
+                  - s7_3_4_2: "2. The Building of Eve"
+              - s7_3_5: "E. What Manner Man Was Made"
+                sections:
+                  - s7_3_5_1: "1. The Quality of Original Nature and Dignity"
+                  - s7_3_5_2: "2. Man's Free Will Before the Fall"
+                  - s7_3_5_3: "3. The Dignity of Being Made in God's Image"
+                    sections:
+                      - s7_3_5_3_1: "a. Interpretations of the Image of God"
+                      - s7_3_5_3_2: "b. The Apostle's Distinction Between Man and Woman"
+                      - s7_3_5_3_3: "c. Adam's Placement in Paradise and Naming of Animals"
+          - s7_4: "IV. EPILOGUE OF THIS PLACE"
+          - s7_5: "V. CONCERNING THE SOUL"
+            sections:
+              - s7_5_1: "A. Why This Inquiry Should Be Avoided"
+              - s7_5_2: "B. The Innumerable and Inextricable Questions Concerning the Soul"
+              - s7_5_3: "C. The Difference between the Soul, Mind, and Spirit"
       - fall-of-man: Concerning the Fall of Man
         loci: fall-of-man
+        sections:
+          - s8_1: "I. INTRODUCTION TO THE FALL OF MAN"
+            sections:
+              - s8_1_1: "A. The Certainty of Man's Fall"
+              - s8_1_2: "B. Why the Fall of Man Should Be Considered"
+              - s8_1_3: "C. Four Things to Be Examined Concerning the Fall"
+          - s8_2: "II. WHAT WAS THE FALL OF THE FIRST MAN?"
+            sections:
+              - s8_2_1: "A. The History of Original Sin"
+                sections:
+                  - s8_2_1_1: "1. The Divine Command (Genesis 2)"
+                  - s8_2_1_2: "2. The Transgression of the Command (Genesis 3)"
+              - s8_2_2: "B. Two Parts of This History"
+              - s8_2_3: "C. The Ease and Indulgence of the Divine Command"
+              - s8_2_4: "D. The Mode of Transgression"
+          - s8_3: "III. WHAT IS THE FORCE, OPERATION, AND PUNISHMENT OF ORIGINAL SIN?"
+            sections:
+              - s8_3_1: "A. Distinguishing Between the Efficacy and Punishment of Sin"
+              - s8_3_2: "B. What Good This Sin of Adam Took Away"
+                sections:
+                  - s8_3_2_1: "1. The Good of Innocence Lost"
+                  - s8_3_2_2: "2. The Good of Sincere Conscience Lost, and Fear Inflicted"
+                  - s8_3_2_3: "3. Integrity of Mind Corrupted"
+                  - s8_3_2_4: "4. Free Will Lost"
+              - s8_3_3: "C. Concerning the Punishment of Sin Expressly Inflicted"
+                sections:
+                  - s8_3_3_1: "1. The Curse Upon the Earth in Man's Labor"
+                  - s8_3_3_2: "2. The Dignity of Primacy Lost"
+                  - s8_3_3_3: "3. Corruption and Death Inflicted"
+              - s8_3_4: "D. Nature Itself Infected and Lost"
+                sections:
+                  - s8_3_4_1: "1. Evil Transmitted to All Posterity"
+                  - s8_3_4_2: "2. Testimonies of Sacred Scripture"
+              - s8_3_5: "E. Epilogue of This Place"
+          - s8_4: "IV. TO WHOM THE FALL OF THE HUMAN RACE SHOULD BE IMPUTED"
+            sections:
+              - s8_4_1: "A. The Necessity of This Consideration"
+              - s8_4_2: "B. Three Concurring Factors: Serpent, Eve, Adam"
+              - s8_4_3: "C. Three Perspectives on Imputation"
+                sections:
+                  - s8_4_3_1: "1. If Concerning the Principle of Sin in General: The Devil"
+                  - s8_4_3_2: "2. If Concerning Who First Sinned Among Humans: Eve"
+                  - s8_4_3_3: "3. If Concerning the Propagation of Sin: Adam"
+                    sections:
+                      - s8_4_3_3_1: "a. Why Propagation Is Through Adam, Not Eve"
+                      - s8_4_3_3_2: "b. How Adam Was Not Deceived"
+          - s8_5: "V. BY WHAT COUNSEL OF GOD THE HUMAN RACE FELL IN ADAM"
+            sections:
+              - s8_5_1: "A. God Foreknew Man Would Fall"
+              - s8_5_2: "B. God's Foreknowledge Was Not Without Certain Counsel"
+              - s8_5_3: "C. God Could Have Prevented Man's Fall"
+              - s8_5_4: "D. Therefore God Did Not Prevent It Because He Willed Not To"
+              - s8_5_5: "E. God Willed Not to Prevent It for a Good Cause"
+              - s8_5_6: "F. This Good Was Sought by Some Counsel and Predestination"
+              - s8_5_7: "G. This Was God's Counsel, Not the Serpent's or Man's"
+              - s8_5_8: "H. By What Counsel God Permitted Man to Sin"
+                sections:
+                  - s8_5_8_1: "1. Man Sinned and the Human Race Perished Without God's Fault"
+                  - s8_5_8_2: "2. What Was That Good for Whose Prospect God So Disposed"
+                    sections:
+                      - s8_5_8_2_1: "a. The Imitation of Sin in Angels, Propagation in Humans"
+                      - s8_5_8_2_2: "b. Salvation of Man Destined in His Reparation, Not in His First Condition"
+              - s8_5_9: "I. Epilogue of This Place"
     translations:
       - translator: Unknown AI
         AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - god: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/
@@ -37,3 +474,225 @@ musculus-commonplaces:
               - fall-of-angels: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-the-angels/
               - creation-of-man: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/
               - fall-of-man: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/
+
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#concerning-god
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#i-introduction-the-difficulty-and-necessity-of-knowing-god
+              - s1_1_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-twofold-restraint-in-divine-knowledge
+              - s1_1_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-the-proper-disposition-required
+              - s1_1_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-warning-against-curiosity-and-temerity
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#ii-whether-god-exists
+              - s1_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-occasion-and-rationale-of-this-question
+              - s1_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-the-necessity-of-establishing-this-foundation
+              - s1_2_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-the-three-modes-by-which-god-manifests-himself-to-mortal-minds
+              - s1_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-first-mode-by-operating-general-manifestation
+              - s1_2_3_1_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-universality-of-this-mode
+              - s1_2_3_1_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-how-philosophers-knew-god-from-his-works
+              - s1_2_3_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#i-from-the-majesty-and-order-of-creation
+              - s1_2_3_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#ii-from-divine-beneficence
+              - s1_2_3_1_2_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#iii-from-terrifying-judgments
+              - s1_2_3_1_2_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#iv-from-prophecies
+              - s1_2_3_1_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-response-to-those-who-deny-invisible-things
+              - s1_2_3_1_3_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#i-the-analogy-of-voice-wind-and-odor
+              - s1_2_3_1_3_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#ii-the-analogy-of-soul-mind-and-will
+              - s1_2_3_1_3_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#iii-god-declared-by-his-operations
+              - s1_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-second-mode-by-speaking-through-the-word-special-manifestation
+              - s1_2_3_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-special-grace-to-israel
+              - s1_2_3_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-extension-to-the-gentiles-in-the-last-times
+              - s1_2_3_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#3-third-mode-by-breathing-through-the-spirit-most-special-manifestation
+              - s1_2_3_3_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-limited-to-the-elect
+              - s1_2_3_3_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-the-elect-s-diligent-use-of-works-and-word
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#iii-who-god-is
+              - s1_3_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-occasion-of-this-question
+              - s1_3_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-why-this-question-is-not-properly-asked
+              - s1_3_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-the-proper-method-knowing-who-god-is-not
+              - s1_3_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#d-biblical-testimonies-to-the-inexpressibility-of-god-s-name
+              - s1_3_4_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-jacob-s-wrestling-genesis-32
+              - s1_3_4_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-moses-at-the-burning-bush-exodus-3
+              - s1_3_5: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#e-how-god-declares-who-he-is-by-efficacy-and-operation
+              - s1_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#iv-what-god-is
+              - s1_4_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-occasion-of-this-question
+              - s1_4_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-three-considerations
+              - s1_4_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-concerning-the-word-god-deus
+              - s1_4_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-concerning-the-essence-of-god
+              - s1_4_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-consensus-against-definition
+              - s1_4_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-the-finite-cannot-comprehend-the-infinite
+              - s1_4_2_2_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-christ-s-statement-that-god-is-spirit-john-4
+              - s1_4_2_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#3-concerning-the-office-and-work-of-god
+              - s1_4_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-utility-of-this-knowledge-for-piety
+              - s1_4_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-god-s-office-as-creator-and-preserver
+              - s1_4_2_3_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-god-s-office-as-governor
+              - s1_4_2_3_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#d-denial-of-providence-is-denial-of-god
+              - s1_4_2_3_5: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#e-sufficient-knowledge-for-piety
+              - s1_5: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#v-what-manner-god-is-considering-essence
+              - s1_5_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-introduction-qualities-exist-in-all-things
+              - s1_5_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-what-is-predicated-of-god-s-essence
+              - s1_5_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-the-unity-of-the-essence
+              - s1_5_2_1_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-testimony-from-sacred-scripture
+              - s1_5_2_1_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-philosophers-and-poets-acknowledged-god-s-unity
+              - s1_5_2_1_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-the-reasoning-of-the-wise
+              - s1_5_2_1_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#d-the-folly-of-those-who-establish-multiple-gods
+              - s1_5_2_1_4_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#i-the-creator-is-greater-than-his-work
+              - s1_5_2_1_4_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#ii-divine-majesty-receives-neither-addition-nor-diminution
+              - s1_5_2_1_4_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#iii-the-similitude-of-the-sun
+              - s1_5_2_1_4_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#iv-the-similitude-of-the-soul
+              - s1_5_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-other-predicates-of-the-essence
+              - s1_5_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-not-composite-but-simple-and-pure
+              - s1_5_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-spirit-and-light
+              - s1_5_2_2_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-incorporeal-invisible-incomprehensible-immutable-etc
+              - s1_6: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#vi-what-manner-god-is-considering-hypostasis
+              - s1_6_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-distinction-between-ousia-and-hypostasis
+              - s1_6_1_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-definition-of-terms
+              - s1_6_1_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-common-and-proper-attributes
+              - s1_6_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#d-the-biblical-names-of-the-three-hypostases
+              - s1_6_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-old-testament-terminology
+              - s1_6_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-greek-and-latin-terminology
+              - s1_6_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#e-the-revelation-of-the-sacred-trinity-through-christ
+              - s1_6_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#f-summary-of-essential-truths
+              - s1_6_4_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-god-is-one-in-essence-triune-in-persons
+              - s1_6_4_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-the-appellations-of-the-persons
+              - s1_6_4_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#3-not-three-gods-but-one-god
+              - s1_6_4_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#4-illustrations-of-the-trinity
+              - s1_6_4_4_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-from-the-nature-of-man
+              - s1_6_4_4_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-from-the-sun
+              - s1_6_4_4_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-from-the-human-soul-mind-will-affections
+              - s1_6_5: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#g-secret-things-not-to-be-scrutinized
+              - s1_6_6: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#h-the-necessity-of-scriptural-testimonies
+              - s1_6_7: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#i-testimonies-of-sacred-scripture-concerning-the-divinity-of-christ
+              - s1_6_7_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-christ-as-the-eternal-word
+              - s1_6_7_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-christ-as-the-only-begotten-son-of-god
+              - s1_6_7_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#3-christ-expressly-named-god
+              - s1_6_7_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#4-christ-ascribes-to-himself-works-of-divinity
+              - s1_6_8: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#j-testimonies-of-sacred-scripture-concerning-the-divinity-of-the-holy-spirit
+              - s1_6_8_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#1-the-holy-spirit-joined-with-the-father-and-son-in-baptism
+              - s1_6_8_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#2-additional-biblical-testimonies
+              - s1_7: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#vii-what-manner-god-is-considering-nature
+              - s1_7_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-the-use-of-the-term-nature-concerning-god
+              - s1_7_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-what-is-predicated-concerning-god
+              - s1_7_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-the-immutability-of-god-s-nature
+              - s1_8: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#viii-how-great-god-is
+              - s1_8_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#a-divine-majesty-rather-than-corporeal-quantity
+              - s1_8_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#b-the-incomparable-and-immense-excellence-of-god
+              - s1_8_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#c-where-the-divine-excellence-is-to-be-observed
+              - s1_8_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/#d-conclusion
+              - s3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#concerningthe-works-of-god
+              - s3_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#i-introduction-the-necessity-of-considering-god-s-works
+              - s3_1_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#a-why-we-must-study-god-s-works
+              - s3_1_1_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#1-god-s-essence-hypostases-and-nature-revealed-in-his-works
+              - s3_1_1_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#2-two-aids-to-certain-knowledge-of-god
+              - s3_1_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#a-god-cannot-be-idle
+              - s3_1_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#b-god-can-only-operate-according-to-his-nature-s-quality
+              - s3_1_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#b-the-fivefold-genus-of-operation
+              - s3_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#1-first-genus-natural-operation-without-intelligence-or-will
+              - s3_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#2-second-genus-natural-operation-with-will-but-without-reason
+              - s3_1_2_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#3-third-genus-human-operation-with-reason-and-will-but-corrupt
+              - s3_1_2_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#4-fourth-genus-operation-of-good-spirits-angels
+              - s3_1_2_5: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#5-fifth-genus-divine-operation-supreme-and-perfect
+              - s3_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#ii-the-genera-of-god-s-operations
+              - s3_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#a-the-infinite-multitude-and-excellence-of-god-s-works
+              - s3_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#b-the-extent-to-which-man-may-consider-god-s-works
+              - s3_2_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/#c-six-genera-of-god-s-operations-established
+              - s4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#concerning-creation
+              - s4_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#i-why-creation-holds-first-place-among-god-s-works
+              - s4_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#ii-what-god-created
+              - s4_2_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#a-all-things-created-by-god-alone
+              - s4_2_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#b-the-sacred-trinity-not-excluded
+              - s4_2_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#b-evil-things-not-included
+              - s4_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#iii-from-what-god-created-all-things
+              - s4_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#iv-how-god-created-all-things
+              - s4_5: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#v-when-god-created-all-things
+              - s4_6: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-creation/#vi-to-what-end-god-created-all-things
+              - s5: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-creation-of-angels/#concerning-the-creation-of-angels
+              - s5_1: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-creation-of-angels/#i-the-principle-affirm-nothing-without-scripture
+              - s5_2: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-creation-of-angels/#ii-that-angels-exist
+              - s5_3: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-creation-of-angels/#iii-that-they-are-spirits-by-nature-angels-by-office
+              - s5_4: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-creation-of-angels/#iv-that-they-are-not-begotten-of-god-but-created
+              - s5_5: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-creation-of-angels/#iv-when-angels-were-created-not-revealed
+              - s5_6: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-creation-of-angels/#iv-conclusion-the-sufficiency-of-scriptures-testimony
+              - s6: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-the-angels/#concerningthe-fall-of-angels
+              - s6_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-the-angels/#i-that-certain-angels-fell-from-their-order
+              - s6_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-the-angels/#ii-that-they-fell-through-sin
+              - s6_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-the-angels/#a-the-sin-of-pride-commonly-alleged
+              - s6_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-the-angels/#b-the-mode-not-declared
+              - s6_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-the-angels/#iii-why-angelic-sin-is-not-clearly-expressed-in-scripture
+              - s6_4: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-the-angels/#iv-that-reprobate-angels-shall-never-be-saved
+              - s7: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#concerningthe-creation-of-man
+              - s7_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#i-the-necessity-and-propriety-of-knowing-man-s-creation
+              - s7_1_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#a-after-knowing-god-man-should-know-himself
+              - s7_1_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#b-salvation-requires-self-knowledge
+              - s7_1_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#c-scripture-expresses-man-s-creation-more-diligently
+              - s7_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#ii-the-mode-of-knowledge-to-be-observed
+              - s7_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#a-determine-from-scripture-not-human-cogitation
+              - s7_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#b-scripture-s-account-is-modest-but-solid
+              - s7_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#iii-what-scripture-teaches-concerning-man-s-creation
+              - s7_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#a-that-man-is-a-creature-made-in-time
+              - s7_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#b-that-god-is-man-s-maker
+              - s7_3_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#1-not-prometheus-but-the-true-god
+              - s7_3_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#2-what-this-faith-works-in-us
+              - s7_3_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#c-from-what-man-was-made
+              - s7_3_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#1-from-dust-of-the-ground
+              - s7_3_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#2-the-humility-this-should-produce
+              - s7_3_4: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#d-how-man-was-made
+              - s7_3_4_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#1-the-formation-of-adam
+              - s7_3_4_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#2-the-building-of-eve
+              - s7_3_5: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#e-what-manner-man-was-made
+              - s7_3_5_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#1-the-quality-of-original-nature-and-dignity
+              - s7_3_5_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#2-man-s-free-will-before-the-fall
+              - s7_3_5_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#3-the-dignity-of-being-made-in-god-s-image
+              - s7_3_5_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#a-interpretations-of-the-image-of-god
+              - s7_3_5_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#b-the-apostle-s-distinction-between-man-and-woman
+              - s7_3_5_3_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#c-adam-s-placement-in-paradise-and-naming-of-animals
+              - s7_4: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#iv-epilogue-of-this-place
+              - s7_5: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#v-concerning-the-soul
+              - s7_5_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#a-why-this-inquiry-should-be-avoided
+              - s7_5_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#b-the-innumerable-and-inextricable-questions-concerning-the-soul
+              - s7_5_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-creation-of-man/#c-the-difference-between-the-soul-mind-and-spirit
+              - s8: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#concerningthe-fall-of-man
+              - s8_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#i-introduction-to-the-fall-of-man
+              - s8_1_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#a-the-certainty-of-man-s-fall
+              - s8_1_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#b-why-the-fall-of-man-should-be-considered
+              - s8_1_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#c-four-things-to-be-examined-concerning-the-fall
+              - s8_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#ii-what-was-the-fall-of-the-first-man
+              - s8_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#a-the-history-of-original-sin
+              - s8_2_1_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#1-the-divine-command-genesis-2
+              - s8_2_1_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#2-the-transgression-of-the-command-genesis-3
+              - s8_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#b-two-parts-of-this-history
+              - s8_2_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#c-the-ease-and-indulgence-of-the-divine-command
+              - s8_2_4: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#d-the-mode-of-transgression
+              - s8_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#iii-what-is-the-force-operation-and-punishment-of-original-sin
+              - s8_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#a-distinguishing-between-the-efficacy-and-punishment-of-sin
+              - s8_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#b-what-good-this-sin-of-adam-took-away
+              - s8_3_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#1-the-good-of-innocence-lost
+              - s8_3_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#2-the-good-of-sincere-conscience-lost-and-fear-inflicted
+              - s8_3_2_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#3-integrity-of-mind-corrupted
+              - s8_3_2_4: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#4-free-will-lost
+              - s8_3_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#c-concerning-the-punishment-of-sin-expressly-inflicted
+              - s8_3_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#1-the-curse-upon-the-earth-in-man-s-labor
+              - s8_3_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#2-the-dignity-of-primacy-lost
+              - s8_3_3_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#3-corruption-and-death-inflicted
+              - s8_3_4: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#d-nature-itself-infected-and-lost
+              - s8_3_4_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#1-evil-transmitted-to-all-posterity
+              - s8_3_4_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#2-testimonies-of-sacred-scripture
+              - s8_3_5: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#e-epilogue-of-this-place
+              - s8_4: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#iv-to-whom-the-fall-of-the-human-race-should-be-imputed
+              - s8_4_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#a-the-necessity-of-this-consideration
+              - s8_4_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#b-three-concurring-factors-serpent-eve-adam
+              - s8_4_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#c-three-perspectives-on-imputation
+              - s8_4_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#1-if-concerning-the-principle-of-sin-in-general-the-devil
+              - s8_4_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#2-if-concerning-who-first-sinned-among-humans-eve
+              - s8_4_3_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#3-if-concerning-the-propagation-of-sin-adam
+              - s8_4_3_3_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#a-why-propagation-is-through-adam-not-eve
+              - s8_4_3_3_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#b-how-adam-was-not-deceived
+              - s8_5: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#v-by-what-counsel-of-god-the-human-race-fell-in-adam
+              - s8_5_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#a-god-foreknew-man-would-fall
+              - s8_5_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#b-god-s-foreknowledge-was-not-without-certain-counsel
+              - s8_5_3: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#c-god-could-have-prevented-man-s-fall
+              - s8_5_4: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#d-therefore-god-did-not-prevent-it-because-he-willed-not-to
+              - s8_5_5: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#e-god-willed-not-to-prevent-it-for-a-good-cause
+              - s8_5_6: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#f-this-good-was-sought-by-some-counsel-and-predestination
+              - s8_5_7: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#g-this-was-god-s-counsel-not-the-serpent-s-or-man-s
+              - s8_5_8: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#h-by-what-counsel-god-permitted-man-to-sin
+              - s8_5_8_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#1-man-sinned-and-the-human-race-perished-without-god-s-fault
+              - s8_5_8_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#2-what-was-that-good-for-whose-prospect-god-so-disposed
+              - s8_5_8_2_1: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#a-the-imitation-of-sin-in-angels-propagation-in-humans
+              - s8_5_8_2_2: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#b-salvation-of-man-destined-in-his-reparation-not-in-his-first-condition
+              - s8_5_9: https://confessionallyreformed.wordpress.com/2026/01/02/wolfgang-musculus-c-1497-1563-on-the-fall-of-man/#i-epilogue-of-this-place

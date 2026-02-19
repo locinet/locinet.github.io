@@ -14,10 +14,28 @@ beza-propositions:
     sections:
       - sanctification: On Sanctification
         loci: sanctification
+        sections:
+          - s1: "Distinction Between Sanctification and Christ’s Imputed Integrity"
+          - s2: "Scriptural Names for Sanctification"
+          - s3: "Definition of Sanctification"
+          - s4: "The Source of Sanctification"
+          - s5: "The Parts of Sanctification"
+          - s6: "Christian and Philosophical Virtues Distinguished"
+          - s7: "The Causes of Sanctification"
+          - s8: "Errors to Be Avoided"
     translations:
       - year: 1591
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - sanctification: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/
+
+              - s1: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/#i-distinction-between-sanctification-and-christ-s-imputed-integrity
+              - s2: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/#ii-scriptural-names-for-sanctification
+              - s3: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/#iii-definition-of-sanctification
+              - s4: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/#iv-the-source-of-sanctification
+              - s5: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/#v-the-parts-of-sanctification
+              - s6: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/#vi-christian-and-philosophical-virtues-distinguished
+              - s7: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/#vii-the-causes-of-sanctification
+              - s8: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/#viii-errors-to-be-avoided

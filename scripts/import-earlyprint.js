@@ -171,6 +171,7 @@ function parseTeiXml(xmlPath, tcpId) {
   let title = null;
   let authorName = null;
   let year = null;
+  let estc = null;
 
   if (biblFull) {
     const titleStmt = getElementsByTagNameNS(biblFull, teiNs, "titleStmt")[0];
@@ -186,6 +187,32 @@ function parseTeiXml(xmlPath, tcpId) {
         const match = dateText.match(/\d{4}/);
         if (match) year = parseInt(match[0], 10);
       }
+    }
+  }
+
+  // Extract ESTC catalog number from publicationStmt idno elements
+  const pubStmt = getElementByPath(doc, teiNs, "teiHeader", "fileDesc", "publicationStmt");
+  if (pubStmt) {
+    const idnoEls = getElementsByTagNameNS(pubStmt, teiNs, "idno");
+    for (let i = 0; i < idnoEls.length; i++) {
+      const type = idnoEls[i].getAttribute("type");
+      const text = (idnoEls[i].textContent || "").trim();
+      if (type === "STC" && text.startsWith("ESTC ")) {
+        estc = text.replace("ESTC ", "");
+        break;
+      }
+    }
+  }
+
+  // Try to extract title with standard spelling from body title page
+  const allDivs = getElementsByTagNameNS(root, teiNs, "div");
+  for (let i = 0; i < allDivs.length; i++) {
+    if (allDivs[i].getAttribute("type") === "title_page") {
+      const titlePageText = extractText(allDivs[i]);
+      if (titlePageText) {
+        title = titlePageText;
+      }
+      break;
     }
   }
 
@@ -229,7 +256,7 @@ function parseTeiXml(xmlPath, tcpId) {
     }
   }
 
-  return { title, authorName, year, sections };
+  return { title, authorName, year, estc, sections };
 }
 
 // Returns an array of sections found in this element.
@@ -303,8 +330,11 @@ function generateYaml(entry, metadata) {
   const { work_id, author, lang, orig_lang, translator } = entry;
   const tcpId = entry.tcp_id;
   const langCode = lang || "en";
-  const { title, year, sections } = metadata;
+  const { title, year, estc, sections } = metadata;
   const earlyPrintUrl = `https://texts.earlyprint.org/works/${tcpId}.xml`;
+  const tcpPrefix = tcpId.slice(0, 3);
+  const pdfUrl = `https://texts.earlyprint.org/downloads/${tcpPrefix}/${tcpId}_standard.pdf`;
+  const epubUrl = `https://texts.earlyprint.org/downloads/${tcpPrefix}/${tcpId}_standard.epub`;
 
   const slugSeen = new Set();
   const urlList = [];
@@ -328,12 +358,18 @@ function generateYaml(entry, metadata) {
     }
     out += `    translations:\n`;
     out += `      - year: ${year || "# FILL IN"}\n`;
+    if (estc) {
+      out += `        estc: ${estc}\n`;
+    }
+    out += `        earlyprint: ${tcpId}\n`;
     if (translator) {
       out += `        translator: ${yamlQuote(translator)}\n`;
     }
     out += `        sites:\n`;
     out += `          - site: EarlyPrint\n`;
     out += `            url: ${earlyPrintUrl}\n`;
+    out += `            pdf_url: ${pdfUrl}\n`;
+    out += `            epub_url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, pageId } of urlList) {
@@ -347,9 +383,15 @@ function generateYaml(entry, metadata) {
     out += `    orig_lang: true\n`;
     out += `    editions:\n`;
     out += `      - year: ${year || "# FILL IN"}\n`;
+    if (estc) {
+      out += `        estc: ${estc}\n`;
+    }
+    out += `        earlyprint: ${tcpId}\n`;
     out += `        sites:\n`;
     out += `          - site: EarlyPrint\n`;
     out += `            url: ${earlyPrintUrl}\n`;
+    out += `            pdf_url: ${pdfUrl}\n`;
+    out += `            epub_url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, pageId } of urlList) {
@@ -367,9 +409,15 @@ function generateYaml(entry, metadata) {
     out += `    orig_lang: true\n`;
     out += `    editions:\n`;
     out += `      - year: ${year || "# FILL IN"}\n`;
+    if (estc) {
+      out += `        estc: ${estc}\n`;
+    }
+    out += `        earlyprint: ${tcpId}\n`;
     out += `        sites:\n`;
     out += `          - site: EarlyPrint\n`;
     out += `            url: ${earlyPrintUrl}\n`;
+    out += `            pdf_url: ${pdfUrl}\n`;
+    out += `            epub_url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, pageId } of urlList) {

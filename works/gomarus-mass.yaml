@@ -10,8 +10,71 @@ gomarus-mass:
       - year: 1604
   en:
     title: "44th of the 3rd Repetition of Theological Disputations: On the Mass"
+    sections:
+      - s1: "I. Prolegomena: The Proper Place for Treating the Mass"
+      - s2: "II. The Methodological Approach"
+        sections:
+          - s2_1: "A. The Necessity of Establishing Existence Before Essence"
+          - s2_2: "B. The Twofold Method: Refutation and Demonstration"
+          - s2_3: "C. The Necessity of Clarifying Terminology"
+      - s3: "III. The Name of the Mass"
+        sections:
+          - s3_1: "A. The Paronymy of the Word “Mass”"
+          - s3_2: "B. The Homonymy of the Word “Mass”: Its Various Significations"
+      - s4: "IV. The Question at Issue Stated"
+        sections:
+          - s4_1: "A. The Three Questions Concerning the Mass"
+      - s5: "V. Refutation of the Opponents’ Arguments (τὸ ἀντίπαλον)"
+        sections:
+          - s5_1: "A. Arguments from the Old Testament Refuted"
+            sections:
+              - s5_1_1: "1. The Argument from Melchizedek Refuted"
+              - s5_1_2: "2. The Arguments from the Prophetic Oracles Refuted"
+                sections:
+                  - s5_1_2_1: "a. The First Prophecy (1 Samuel 2)"
+                  - s5_1_2_2: "b. The Second Prophecy (Isaiah 19)"
+                  - s5_1_2_3: "c. The Third Prophecy (Isaiah 66)"
+                  - s5_1_2_4: "d. The Fourth Prophecy (Daniel)"
+                  - s5_1_2_5: "e. The Fifth Prophecy (Malachi 1)"
+          - s5_2: "B. Arguments from the New Testament Refuted"
+            sections:
+              - s5_2_1: "1. The Argument from the Words of Institution"
+              - s5_2_2: "2. The Argument from λειτουργεῖν (Acts 13)"
+              - s5_2_3: "3. The Argument from “Table” and “Altar” (1 Corinthians 10; Hebrews 13)"
+      - s6: "VI. Establishment of Our Own Position (τὸ οἰκεῖον)"
+        sections:
+          - s6_1: "A. The Positive Demonstration: Christ the Only True Priest and Sacrifice"
+      - s7: "VII. The Second Question: Whether the Mass Is Propitiatory and Impetratory"
+        sections:
+          - s7_1: "A. Refutation of the Opponents’ Arguments"
+          - s7_2: "B. Confirmation of Our Own Position"
+      - s8: "VIII. The Third Question: Whether There Is a Private Mass"
+        sections:
+          - s8_1: "A. Refutation of the Opponents’ Arguments"
+          - s8_2: "B. Confirmation of Our Own Position"
+      - s9: "IX. The Testimony of the Ancient Fathers"
+        sections:
+          - s9_1: "A. Refutation of the Opponents’ Use of the Fathers"
+            sections:
+              - s9_1_1: "1. The Occasion of Their Language"
+              - s9_1_2: "2. The Sense of Their Language"
+                sections:
+                  - s9_1_2_1: "a. Offerings of Bread, Wine, and Alms"
+                  - s9_1_2_2: "b. The Consecration of the Elements"
+                  - s9_1_2_3: "c. The Commemoration and Representation of Christ’s Sacrifice"
+                  - s9_1_2_4: "d. Spiritual Sacrifices Offered by the Pious"
+          - s9_2: "B. Confirmation of Our Position from the Fathers"
+            sections:
+              - s9_2_1: "1. The Earlier Fathers (to A.D. 300)"
+              - s9_2_2: "2. The Fathers Around the Council of Nicaea (A.D. 328)"
+              - s9_2_3: "3. The Later Greek Fathers"
+              - s9_2_4: "4. The Latin Fathers"
+              - s9_2_5: "5. Medieval Writers"
+              - s9_2_6: "6. The Rise of the Doctrine of the Sacrifice of the Mass"
+              - s9_2_7: "7. The Council of Trent"
+      - s10: "X. Conclusion: The Mass Does Not Exist as a True Sacrifice"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/2026/02/01/franciscus-gomarus-c-1563-1641-on-the-mass/

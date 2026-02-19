@@ -27,6 +27,85 @@ gomarus-epitome:
         loci: angels
       - sacraments: On the Sacraments
         loci: sacraments
+        sections:
+          - s1: "I. The Sacraments in General"
+            sections:
+              - s1_1: "A. The Name and Etymology of “Sacrament”"
+              - s1_2: "B. The Twofold Use of the Word “Sacrament”"
+              - s1_3: "C. The Distinction of Ordinary and Extraordinary Sacraments"
+              - s1_4: "D. The Definition of a Sacrament"
+              - s1_5: "E. The Sacrament as a Sign"
+              - s1_6: "F. The Sacrament as a Seal"
+              - s1_7: "G. The Divine Institution of the Sacraments"
+              - s1_8: "H. The Twofold Word of Institution"
+                sections:
+                  - s1_8_1: "1. The Word of Command"
+                    sections:
+                      - s1_8_1_1: "a. Right Administration"
+                      - s1_8_1_2: "b. Right Reception and Use"
+                  - s1_8_2: "2. The Word of Promise"
+              - s1_9: "I. The Change Effected in the Sacraments"
+              - s1_10: "J. The Matter of the Sign"
+              - s1_11: "K. The Object or Thing Signified: The Covenant of Grace"
+                sections:
+                  - s1_11_1: "1. The External Covenant"
+                  - s1_11_2: "2. The Internal Covenant"
+              - s1_12: "L. The Form of the Sacrament: The Sacramental Union"
+              - s1_13: "M. The Simultaneous but Diverse Enjoyment of Sign and Grace"
+                sections:
+                  - s1_13_1: "1. Simultaneous Enjoyment"
+                  - s1_13_2: "2. Diverse Manner of Reception"
+              - s1_14: "N. Sacramental Expressions"
+              - s1_15: "O. The End and Purpose of the Sacraments"
+                sections:
+                  - s1_15_1: "1. The End “For Which” (The Good Itself)"
+                    sections:
+                      - s1_15_1_1: "a. The Proximate End: Signification and Sealing of the Covenant"
+                      - s1_15_1_2: "b. The Further End"
+                        sections:
+                          - s1_15_1_2_1: "(1) The Intermediate End: Confirmation of Faith and Obedience"
+                          - s1_15_1_2_2: "(2) The Supreme End"
+                  - s1_15_2: "2. The End “For Whom” (The Persons)"
+                    sections:
+                      - s1_15_2_1: "a. Those Bound by Both External and Internal Covenant"
+                      - s1_15_2_2: "b. Those Bound Only by the External Covenant"
+                      - s1_15_2_3: "c. The Sacraments Remain Such on God’s Part Despite Abuse"
+              - s1_16: "P. The Division of the Sacraments"
+                sections:
+                  - s1_16_1: "1. Sacraments of Initiation"
+                  - s1_16_2: "2. Sacraments of Confirmation"
+                  - s1_16_3: "3. The Essential Unity of Old and New Testament Sacraments"
+          - s2: "II. Holy Baptism"
+            sections:
+              - s2_1: "A. The Definition of Holy Baptism"
+              - s2_2: "B. The End of Baptism"
+                sections:
+                  - s2_2_1: "1. The End “For Which”"
+                    sections:
+                      - s2_2_1_1: "a. The General End: Signification and Sealing of the Covenant"
+                      - s2_2_1_2: "b. The Particular End"
+                        sections:
+                          - s2_2_1_2_1: "(1) The Proper End (For Those Inwardly and Outwardly Bound)"
+                          - s2_2_1_2_2: "(2) The Common End (For All Outwardly Bound)"
+                  - s2_2_2: "2. The Application to Christ’s Baptism"
+                  - s2_2_3: "3. The End “For Whom”"
+                    sections:
+                      - s2_2_3_1: "a. Adults Who Profess Faith and Repentance"
+                      - s2_2_3_2: "b. Children of Believing Parents"
+          - s3: "III. The Holy Supper of the Lord"
+            sections:
+              - s3_1: "A. The Definition of the Lord’s Supper"
+              - s3_2: "B. The End of the Lord’s Supper"
+                sections:
+                  - s3_2_1: "1. The End “For Which”"
+                  - s3_2_2: "2. The End “For Whom”"
+                    sections:
+                      - s3_2_2_1: "a. A Congregation Required"
+                      - s3_2_2_2: "b. The Three Qualifications of Communicants"
+                      - s3_2_2_3: "c. The Sealing of the Thing Signified Under Condition of Faith"
+                      - s3_2_2_4: "d. The Required Disposition of Soul"
+                      - s3_2_2_5: "e. The Punishment for Unworthy Participation"
+          - s4: "AFTERWORD"
       - eucharist: On the Eucharist
         loci: lords-supper
       - christian-liberty: On Christian Liberty
@@ -34,7 +113,7 @@ gomarus-epitome:
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - theology: https://confessionallyreformed.wordpress.com/2026/01/23/franciscus-gomarus-c-1563-1641-on-theology/
@@ -47,3 +126,64 @@ gomarus-epitome:
               - sacraments: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/
               - eucharist: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-eucharist/
               - christian-liberty: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-christian-liberty/
+
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#i-the-sacraments-in-general
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-the-name-and-etymology-of-sacrament
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-the-twofold-use-of-the-word-sacrament
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#c-the-distinction-of-ordinary-and-extraordinary-sacraments
+              - s1_4: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#d-the-definition-of-a-sacrament
+              - s1_5: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#e-the-sacrament-as-a-sign
+              - s1_6: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#f-the-sacrament-as-a-seal
+              - s1_7: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#g-the-divine-institution-of-the-sacraments
+              - s1_8: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#h-the-twofold-word-of-institution
+              - s1_8_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-the-word-of-command
+              - s1_8_1_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-right-administration
+              - s1_8_1_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-right-reception-and-use
+              - s1_8_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-the-word-of-promise
+              - s1_9: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#i-the-change-effected-in-the-sacraments
+              - s1_10: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#j-the-matter-of-the-sign
+              - s1_11: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#k-the-object-or-thing-signified-the-covenant-of-grace
+              - s1_11_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-the-external-covenant
+              - s1_11_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-the-internal-covenant
+              - s1_12: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#l-the-form-of-the-sacrament-the-sacramental-union
+              - s1_13: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#m-the-simultaneous-but-diverse-enjoyment-of-sign-and-grace
+              - s1_13_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-simultaneous-enjoyment
+              - s1_13_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-diverse-manner-of-reception
+              - s1_14: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#n-sacramental-expressions
+              - s1_15: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#o-the-end-and-purpose-of-the-sacraments
+              - s1_15_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-the-end-for-which-the-good-itself
+              - s1_15_1_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-the-proximate-end-signification-and-sealing-of-the-covenant
+              - s1_15_1_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-the-further-end
+              - s1_15_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-the-intermediate-end-confirmation-of-faith-and-obedience
+              - s1_15_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-the-supreme-end
+              - s1_15_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-the-end-for-whom-the-persons
+              - s1_15_2_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-those-bound-by-both-external-and-internal-covenant
+              - s1_15_2_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-those-bound-only-by-the-external-covenant
+              - s1_15_2_3: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#c-the-sacraments-remain-such-on-god-s-part-despite-abuse
+              - s1_16: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#p-the-division-of-the-sacraments
+              - s1_16_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-sacraments-of-initiation
+              - s1_16_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-sacraments-of-confirmation
+              - s1_16_3: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#3-the-essential-unity-of-old-and-new-testament-sacraments
+              - s2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#ii-holy-baptism
+              - s2_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-the-definition-of-holy-baptism
+              - s2_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-the-end-of-baptism
+              - s2_2_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-the-end-for-which
+              - s2_2_1_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-the-general-end-signification-and-sealing-of-the-covenant
+              - s2_2_1_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-the-particular-end
+              - s2_2_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-the-proper-end-for-those-inwardly-and-outwardly-bound
+              - s2_2_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-the-common-end-for-all-outwardly-bound
+              - s2_2_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-the-application-to-christ-s-baptism
+              - s2_2_3: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#3-the-end-for-whom
+              - s2_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-adults-who-profess-faith-and-repentance
+              - s2_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-children-of-believing-parents
+              - s3: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#iii-the-holy-supper-of-the-lord
+              - s3_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-the-definition-of-the-lord-s-supper
+              - s3_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-the-end-of-the-lord-s-supper
+              - s3_2_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#1-the-end-for-which
+              - s3_2_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#2-the-end-for-whom
+              - s3_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#a-a-congregation-required
+              - s3_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#b-the-three-qualifications-of-communicants
+              - s3_2_2_3: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#c-the-sealing-of-the-thing-signified-under-condition-of-faith
+              - s3_2_2_4: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#d-the-required-disposition-of-soul
+              - s3_2_2_5: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#e-the-punishment-for-unworthy-participation
+              - s4: https://confessionallyreformed.wordpress.com/2026/01/25/franciscus-gomarus-c-1563-1641-on-the-sacraments/#afterword

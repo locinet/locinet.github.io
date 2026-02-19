@@ -1,0 +1,22 @@
+vermigli-lords-supper:
+  author: Q598060
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: "A Discourse or Traictise of Petur Martyr Uermilla Florentine, the Public Reader of Divinity in the University of Oxford Wherein He Openly Declared His Whole and Determinate Judgement Concerning the Sacrament of the Lords Supper in the Said University."
+    sections:
+      - a-discourse-upon-the-sacrament-of-the-lords-supper-solemnly-: "¶ a Discourse Upon the Sacrament of the Lords Supper Solemnly Handled at the University of Oxford by Doctor Peter Martyr Uermila Florentine, and in the Said Universite, Placed by the Kings Maiestie, Edward the Sixth to Read Ope● Lectures in Divinity, Who Discoursed Thereof as Hereafter Followeth When He Had Finished the Declaration of the Leventhe Chapter of the First Epistle of S. Paul to the Chorinthyans'."
+        # loci:
+    translations:
+      - year: 1550
+        estc: S119144
+        earlyprint: A14347
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A14347.xml
+            pdf_url: https://texts.earlyprint.org/downloads/A14/A14347_standard.pdf
+            epub_url: https://texts.earlyprint.org/downloads/A14/A14347_standard.epub
+            section_urls:
+              - a-discourse-upon-the-sacrament-of-the-lords-supper-solemnly-: https://texts.earlyprint.org/works/A14347.xml?page=006-a

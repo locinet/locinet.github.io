@@ -11,8 +11,37 @@ trelcatius-jr-syntagma-justification:
         place: Leiden
   en:
     title: "Disputation 24: On the Justification of Man Before God"
+    sections:
+      - s1: "I. Prolegomena"
+      - s2: "II. Preliminary Definitions"
+        sections:
+          - s2_1: "A. The Definition of Justice"
+          - s2_2: "B. The Twofold Consideration of Personal Justice"
+          - s2_3: "C. The Definition of Justification"
+          - s2_4: "D. The Forensic Nature of Justification"
+      - s3: "III. The Formal Definition of Justification Stated"
+      - s4: "IV. The Causes of Justification"
+        sections:
+          - s4_1: "A. The Efficient Cause"
+          - s4_2: "B. The Impulsive Cause: Internal and External"
+            sections:
+              - s4_2_1: "1. The Internal Impulsive Cause: The Grace of God"
+              - s4_2_2: "2. The External Impulsive Cause: Jesus Christ"
+              - s4_2_3: "3. The Harmony of Gratuitous Justification and Christ’s Merit"
+          - s4_3: "C. The Material Cause"
+            sections:
+              - s4_3_1: "1. The Material Cause Ex Qua or Circa Quam"
+              - s4_3_2: "2. The Material Cause In Qua or the Receiving Subject"
+          - s4_4: "D. The Instrumental Cause"
+            sections:
+              - s4_4_1: "1. With Respect to God Justifying Us"
+              - s4_4_2: "2. With Respect to Man Receiving Justification"
+              - s4_4_3: "3. Faith Alone Justifies"
+          - s4_5: "E. The Form of Justification: Gracious Imputation"
+      - s5: "V. The Effects of Justification"
+      - s6: "VI. The End of Justification"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/2026/01/17/lucas-trelcatius-jr-c-1573-1607-on-the-justification-of-man-before-god-2/

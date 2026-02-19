@@ -11,22 +11,734 @@ alting-heidelberg-loci:
   en:
     title: Heidelberg Theological Writings, Didactic Common Places
     sections:
-      - locus-1: "Locus 1: On the Nature of Theology"
-        loci: nature-of-theology
-      - locus-2: "Locus 2: On the Principle of Theology, the Word of God"
-        loci: scripture
-      - locus-3: "Locus 3: On God"
-        loci: god
-      - locus-4: "Locus 4: On the Decrees of God and Especially Predestination"
-        loci: predestination
-      - locus-5: "Locus 5: On Creation"
-        loci: creation
-      - locus-11: "Locus 11: On the Church"
-        loci: church
+      - s1: "FIRST LOCUS Concerning THE NATURE OF THEOLOGY"
+        sections:
+          - s1_1: "I. The Definition of Theology"
+          - s1_2: "II. Exegesis of the Definition"
+            sections:
+              - s1_2_1: "A. Etymology of the Word “Theology”"
+              - s1_2_2: "B. Various Significations of the Word"
+              - s1_2_3: "C. Scriptural Synonyms for Theology"
+          - s1_3: "III. The Genus of Theology"
+            sections:
+              - s1_3_1: "A. Debates Concerning Whether Theoretical or Practical Habit"
+                sections:
+                  - s1_3_1_1: "1. Theology as Higher Order Discipline"
+                  - s1_3_1_2: "2. Infinite and Supernatural Nature"
+                  - s1_3_1_3: "3. Testimony of God’s Word for Both Knowledge and Action"
+              - s1_3_2: "B. Assignment of “Doctrine” as the Common Genus"
+                sections:
+                  - s1_3_2_1: "1. Testimony of the Old Testament (Torah)"
+                  - s1_3_2_2: "2. Testimony of the New Testament"
+                  - s1_3_2_3: "3. Suitability to Theology’s Nature"
+                  - s1_3_2_4: "4. Other Names Used Synecdochically"
+          - s1_4: "IV. The Object of Theology"
+            sections:
+              - s1_4_1: "A. Divine Things as the Adequate and Proper Object"
+                sections:
+                  - s1_4_1_1: "1. Definition of Divine Things"
+                  - s1_4_1_2: "2. Primary: God Himself"
+                  - s1_4_1_3: "3. Secondary: Works of God"
+              - s1_4_2: "B. Three Grades of Divine Things"
+                sections:
+                  - s1_4_2_1: "1. First and Highest Grade: God Himself"
+                  - s1_4_2_2: "2. Second Grade: Works of Redemption"
+                  - s1_4_2_3: "3. Third and Lowest Grade: Works of Creation and Conservation"
+              - s1_4_3: "C. Consideration of Sin in Theology"
+                sections:
+                  - s1_4_3_1: "1. Analogous to Medicine’s Treatment of Poisons"
+                  - s1_4_3_2: "2. Reduction to the Three Works"
+                    sections:
+                      - s1_4_3_2_1: "a. To Creation (Privation of Image)"
+                      - s1_4_3_2_2: "b. To Conservation (Divine Permission)"
+                      - s1_4_3_2_3: "c. To Redemption (Justification and Sanctification)"
+              - s1_4_4: "D. Theology’s Proper and Unique Object"
+                sections:
+                  - s1_4_4_1: "1. Treatment in Metaphysics"
+                  - s1_4_4_2: "2. Exclusive Treatment of Redemption"
+                  - s1_4_4_3: "3. Unique Mode of Considering Creation"
+          - s1_5: "V. The Efficient Cause of Theology"
+            sections:
+              - s1_5_1: "A. God as Revealer of Divine Things"
+              - s1_5_2: "B. Necessity of Revelation"
+              - s1_5_3: "C. Order of Trinitarian Revelation"
+          - s1_6: "VI. The End of Theology"
+            sections:
+              - s1_6_1: "A. Primary End: The Glory of God"
+              - s1_6_2: "B. Secondary End: The Salvation of Men"
+                sections:
+                  - s1_6_2_1: "1. Eternal Beatitude in Union with God"
+                  - s1_6_2_2: "2. Testimony of Scripture"
+                  - s1_6_2_3: "3. Subordination to Primary End"
+                  - s1_6_2_4: "4. Salvation of Men, Not Angels"
+                  - s1_6_2_5: "5. Salvation of the Elect Only"
+          - s1_7: "VII. The Use and Application of This Doctrine"
+            sections:
+              - s1_7_1: "A. For Teaching [Διδασκαλίαν, Didaskalian]"
+              - s1_7_2: "B. For Correction [Παιδείαν, Paideian]"
+              - s1_7_3: "C. For Reproof [ἐπανόρθωσιν, epanorthōsin]"
+      - s2: "SECOND LOCUS Concerning THE PRINCIPLE OF THEOLOGY, THE WORD OF GOD"
+        sections:
+          - s2_1: "I. The Definition of the Word of God"
+            sections:
+              - s2_1_1: "A. Essential Definition"
+              - s2_1_2: "B. Twofold Mode According to Revelation"
+          - s2_2: "II. Exegesis of the Definition"
+            sections:
+              - s2_2_1: "A. Revelation in General"
+                sections:
+                  - s2_2_1_1: "1. The Three Grades of Revelation in General"
+                    sections:
+                      - s2_2_1_1_1: "a. First Grade: Revelation in Creation"
+                      - s2_2_1_1_2: "b. Second Grade: Revelation Through the Works of Creation"
+                        sections:
+                          - s2_2_1_1_2_1: "i. Manifestation of Divine Attributes"
+                          - s2_2_1_1_2_2: "ii. Both Insufficient After the Fall"
+                      - s2_2_1_1_3: "c. Third Grade: Revelation Through the Word"
+                  - s2_2_1_2: "2. The Various Significations of “Word of God”"
+                    sections:
+                      - s2_2_1_2_1: "a. Metonymical Uses"
+                      - s2_2_1_2_2: "b. Metaphorical Uses"
+                      - s2_2_1_2_3: "c. Synecdochical Uses"
+                      - s2_2_1_2_4: "d. Proper Sense Here Employed"
+                  - s2_2_1_3: "3. The Causes of Revelation"
+                  - s2_2_1_4: "4. The Mode and Circumstances of Revelation"
+              - s2_2_2: "B. The Unwritten Word [ἄγραφον]"
+                sections:
+                  - s2_2_2_1: "1. Definition and Synonyms"
+                  - s2_2_2_2: "2. The Efficient Cause of the Unwritten Word"
+                    sections:
+                      - s2_2_2_2_1: "a. Principal Efficient: God"
+                        sections:
+                          - s2_2_2_2_1_1: "i. The Father’s Speaking"
+                          - s2_2_2_2_1_2: "ii. The Son’s Speaking"
+                          - s2_2_2_2_1_3: "iii. The Holy Spirit’s Speaking"
+                      - s2_2_2_2_2: "b. Instrumental Efficient: Ministers"
+                        sections:
+                          - s2_2_2_2_2_1: "i. In the Old Testament (Angels, Men, Women)"
+                          - s2_2_2_2_2_2: "ii. In the New Testament (Angels, Men, Women)"
+                          - s2_2_2_2_2_3: "iii. End of Immediate Revelation"
+                  - s2_2_2_3: "3. The Material or Object of the Unwritten Word"
+                  - s2_2_2_4: "4. The Form of the Unwritten Word"
+                  - s2_2_2_5: "5. The End of the Unwritten Word"
+                  - s2_2_2_6: "6. Other Modes of Revelation Referred to the Unwritten Word"
+                    sections:
+                      - s2_2_2_6_1: "a. Visions"
+                      - s2_2_2_6_2: "b. Divine Dreams"
+                      - s2_2_2_6_3: "c. Urim and Thummim"
+                        sections:
+                          - s2_2_2_6_3_1: "i. Scriptural References"
+                          - s2_2_2_6_3_2: "ii. Material (Twelve Gemstones)"
+                          - s2_2_2_6_3_3: "iii. Form"
+                          - s2_2_2_6_3_4: "iv. Efficient Cause"
+                          - s2_2_2_6_3_5: "v. End (Oracle Seeking)"
+                          - s2_2_2_6_3_6: "vi. Typical Significance"
+                          - s2_2_2_6_3_7: "vii. Subject (The Breastplate)"
+                          - s2_2_2_6_3_8: "viii. Duration"
+              - s2_2_3: "C. The Written Word [ἔγγραφον]"
+                sections:
+                  - s2_2_3_1: "1. Synonyms for Written Scripture"
+                  - s2_2_3_2: "2. The Efficient Cause of the Written Word"
+                    sections:
+                      - s2_2_3_2_1: "a. God as Author"
+                        sections:
+                          - s2_2_3_2_1_1: "i. Impulsive Cause"
+                          - s2_2_3_2_1_2: "ii. God as Triple Author of Scripture"
+                          - s2_2_3_2_1_3: "iii. By Example (Writing the Law)"
+                          - s2_2_3_2_1_4: "iv. By Command"
+                          - s2_2_3_2_1_5: "v. By Inspiration"
+                          - s2_2_3_2_1_6: "vi. Instrumental Writers (Prophets and Apostles)"
+                          - s2_2_3_2_1_7: "vii. Why Christ Wrote Nothing"
+                      - s2_2_3_2_2: "b. The Divine Authority of Scripture"
+                        sections:
+                          - s2_2_3_2_2_1: "i. Definition of Authority"
+                          - s2_2_3_2_2_2: "ii. Threefold Testimony Confirming Authority"
+                  - s2_2_3_3: "3. The Material or Object of the Written Word"
+                    sections:
+                      - s2_2_3_3_1: "a. Books of the Old Testament"
+                        sections:
+                          - s2_2_3_3_1_1: "i. Number (Forty or Twenty-Two)"
+                          - s2_2_3_3_1_2: "ii. Language (Hebrew and Chaldean)"
+                          - s2_2_3_3_1_3: "iii. Collection"
+                          - s2_2_3_3_1_4: "iv. Distribution (Law, Prophets, Writings)"
+                      - s2_2_3_3_2: "b. Books of the New Testament"
+                        sections:
+                          - s2_2_3_3_2_1: "i. Number (Twenty-Seven) and Language (Greek)"
+                          - s2_2_3_3_2_2: "ii. Authority Equal to Old Testament"
+                          - s2_2_3_3_2_3: "iii. Distribution (Histories, Epistles, Prophecy)"
+                  - s2_2_3_4: "4. The Form of the Written Word"
+                    sections:
+                      - s2_2_3_4_1: "a. Form Opposed to Unwritten Word"
+                      - s2_2_3_4_2: "b. Form in Itself: The Sense of Scripture"
+                      - s2_2_3_4_3: "c. The Sense of Scripture is Unique"
+                        sections:
+                          - s2_2_3_4_3_1: "i. Literal, Grammatical, Historical Sense"
+                          - s2_2_3_4_3_2: "ii. So-Called Multiple Senses are Applications"
+                      - s2_2_3_4_4: "f. Interpretation of Scripture"
+                        sections:
+                          - s2_2_3_4_4_1: "i. Interpretation of Words (Versions)"
+                          - s2_2_3_4_4_2: "ii. Interpretation of Things"
+                  - s2_2_3_5: "5. The End of the Written Word"
+                    sections:
+                      - s2_2_3_5_1: "a. Rule of Faith and Life"
+                      - s2_2_3_5_2: "b. Supreme Judge of Religious Controversies"
+                  - s2_2_3_6: "6. The Effects of the Written Word"
+                  - s2_2_3_7: "7. The Subject of the Written Word"
+                  - s2_2_3_8: "8. The Adjuncts of the Written Word"
+                    sections:
+                      - s2_2_3_8_1: "a. First Adjunct: Eternity"
+                        sections:
+                          - s2_2_3_8_1_1: "i. Not Simply as to Writing"
+                          - s2_2_3_8_1_2: "ii. By Reason of Object and Effect"
+                      - s2_2_3_8_2: "b. Second Adjunct: Sufficiency"
+                        sections:
+                          - s2_2_3_8_2_1: "i. Definition of Sufficiency"
+                          - s2_2_3_8_2_2: "ii. Essential and Integral Parts Demonstrate It"
+                          - s2_2_3_8_2_3: "iii. Diverse Modes of Expression"
+                      - s2_2_3_8_3: "c. Third Adjunct: Perspicuity"
+                        sections:
+                          - s2_2_3_8_3_1: "i. Definition"
+                          - s2_2_3_8_3_2: "ii. Many Obscure Things in Scripture"
+              - s2_2_4: "D. Scripture as the Sole and Unique Principle of Theology"
+                sections:
+                  - s2_2_4_1: "1. Distinction Between Theology and the Word of God"
+                  - s2_2_4_2: "2. Human Reason Not Properly a Principle of Theology"
+                  - s2_2_4_3: "3. The Use of Reason in Theology"
+          - s2_3: "III. The Use and Application of This Doctrine"
+            sections:
+              - s2_3_1: "A. For Teaching [Διδασκαλίαν, Didaskalian]"
+              - s2_3_2: "B. For Correction [Παιδείαν, Paideian]"
+              - s2_3_3: "C. For Reproof [ἐπανόρθωσιν, epanorthōsin]"
+              - s2_3_4: "D. For Consolation [Παράκλησιν, Paraklēsin]"
+      - s3: "THIRD LOCUS CONCERNING GOD"
+        sections:
+          - s3_1: "I. The Two Parts of Theology"
+          - s3_2: "II. The Definition of God"
+          - s3_3: "III. Exegesis of the Definition"
+            sections:
+              - s3_3_1: "A. Various Divisions of Theology"
+                sections:
+                  - s3_3_1_1: "1. Several Common Divisions"
+                  - s3_3_1_2: "2. The Division Into Doctrine Concerning God and His Works"
+                    sections:
+                      - s3_3_1_2_1: "a. Scriptural Foundation"
+                      - s3_3_1_2_2: "b. Conformity to Rules of Legitimate Division"
+                      - s3_3_1_2_3: "c. Works of God Defined"
+              - s3_3_2: "B. The Doctrine Concerning God as the First and Most Noble Part of Theology"
+                sections:
+                  - s3_3_2_1: "1. Reasons for Its Primacy"
+                  - s3_3_2_2: "2. No Need to Demonstrate God’s Existence"
+              - s3_3_3: "C. The Name “God” – Homonymy"
+                sections:
+                  - s3_3_3_1: "1. Usage of the Word “God”"
+                    sections:
+                      - s3_3_3_1_1: "a. Properly (Common and Particular)"
+                      - s3_3_3_1_2: "b. Improperly (By Ordination, Usurpation, or Human Error)"
+                  - s3_3_3_2: "2. Other Names of God"
+                    sections:
+                      - s3_3_3_2_1: "a. Multiplicity of Names Does Not Derogate Simplicity"
+                      - s3_3_3_2_2: "b. Names Not Synonymous"
+                      - s3_3_3_2_3: "c. Analogical Denomination from Creatures"
+                  - s3_3_3_3: "3. Most Common Names in the Old Testament"
+                    sections:
+                      - s3_3_3_3_1: "a. יהוה [Jehovah] – Its Meaning and Exclusivity"
+                      - s3_3_3_3_2: "b. Cognate Names (יה [Jah], אהיה [Ehejeh])"
+                      - s3_3_3_3_3: "c. אלהים [Elohim] – Power and Strength"
+                      - s3_3_3_3_4: "d. אל [El] – Meaning"
+                      - s3_3_3_3_5: "e. אדני [Adonai] – Lord or Master"
+                  - s3_3_3_4: "4. Principal Names in the New Testament"
+                    sections:
+                      - s3_3_3_4_1: "a. Θεός [Theos] – Etymology"
+                      - s3_3_3_4_2: "b. Κύριος [Kyrios] – Lord"
+              - s3_3_4: "D. Description of God"
+                sections:
+                  - s3_3_4_1: "1. No True Genus or True Difference"
+                  - s3_3_4_2: "2. Analogical Genus: Spirit"
+                  - s3_3_4_3: "3. Differentia: Uncreated and of Three Persons"
+                  - s3_3_4_4: "E. Twofold Theory Concerning God"
+          - s3_4: "IV. Absolute Theory: The Essence of God"
+            sections:
+              - s3_4_1: "A. The Essence of God Defined"
+                sections:
+                  - s3_4_1_1: "1. Synonyms for Essence"
+                  - s3_4_1_2: "2. Essence Is Deity Itself"
+                  - s3_4_1_3: "3. Preliminary Properties of the Divine Essence"
+                    sections:
+                      - s3_4_1_3_1: "a. From Itself (Self-Existent)"
+                      - s3_4_1_3_2: "b. Absolute (Equally Common to Three Persons)"
+                      - s3_4_1_3_3: "c. One in Number and Individual"
+              - s3_4_2: "B. Properties of the Divine Essence"
+                sections:
+                  - s3_4_2_1: "1. General Nature of Properties"
+                    sections:
+                      - s3_4_2_1_1: "a. Strict and Broad Significations"
+                      - s3_4_2_1_2: "b. Four Rules Concerning Properties"
+                        sections:
+                          - s3_4_2_1_2_1: "i. First Rule: Distinguished Only by Our Conception"
+                          - s3_4_2_1_2_2: "ii. Second Rule: All Properties Are Infinite, Eternal, etc."
+                          - s3_4_2_1_2_3: "iii. Third Rule: No Properties Communicable to Creatures"
+                          - s3_4_2_1_2_4: "iv. Properties Called Communicable or Incommunicable by Effects"
+                  - s3_4_2_2: "2. Two Orders of Properties"
+                    sections:
+                      - s3_4_2_2_1: "a. First Order: Negative Properties (Four)"
+                        sections:
+                          - s3_4_2_2_1_1: "i. Simplicity"
+                          - s3_4_2_2_1_2: "ii. Immutability"
+                          - s3_4_2_2_1_3: "iii. Eternity"
+                          - s3_4_2_2_1_4: "iv. Immensity"
+                      - s3_4_2_2_2: "b. Second Order: Affirmative Properties"
+                        sections:
+                          - s3_4_2_2_2_1: "i. Life of God"
+                          - s3_4_2_2_2_2: "ii. Intellect of God"
+                          - s3_4_2_2_2_3: "iii. Will of God"
+                          - s3_4_2_2_2_4: "v. Power of God (Omnipotence)"
+          - s3_5: "V. Relative Theory: The Persons of God"
+            sections:
+              - s3_5_1: "A. The Person Defined"
+                sections:
+                  - s3_5_1_1: "1. Synonyms for Person"
+                  - s3_5_1_2: "2. Definition of Person"
+                  - s3_5_1_3: "3. Mode of Subsisting"
+                  - s3_5_1_4: "4. Corollaries Concerning Divine Persons"
+              - s3_5_2: "B. The Number and Names of Divine Persons"
+                sections:
+                  - s3_5_2_1: "1. Three Persons Demonstrated"
+                    sections:
+                      - s3_5_2_1_1: "a. Proof from Scripture (Old and New Testament)"
+                      - s3_5_2_1_2: "b. Illustrations from Created Things"
+                  - s3_5_2_2: "2. Twofold Order Among the Three Persons"
+                    sections:
+                      - s3_5_2_2_1: "a. Natural Order"
+                      - s3_5_2_2_2: "b. Arbitrary Order"
+              - s3_5_3: "C. The First Person: The Father"
+                sections:
+                  - s3_5_3_1: "1. Definition and Meaning"
+                  - s3_5_3_2: "2. Common and Singular Predications"
+                    sections:
+                      - s3_5_3_2_1: "a. Common: Person of Deity"
+                      - s3_5_3_2_2: "b. Singular: First Person from None, Begetting the Son"
+                  - s3_5_3_3: "3. The Father as Begetter of the Son"
+                    sections:
+                      - s3_5_3_3_1: "a. Scriptural Testimony"
+                      - s3_5_3_3_2: "b. Mode of Generation"
+                        sections:
+                          - s3_5_3_3_2_1: "i. Hyperphysical"
+                          - s3_5_3_3_2_2: "ii. By Communication of Essence"
+                          - s3_5_3_3_2_3: "iii. From the Father Alone"
+                          - s3_5_3_3_2_4: "iv. By Property and Perfection of Nature"
+                          - s3_5_3_3_2_5: "v. From Eternity"
+              - s3_5_4: "D. The Second Person: The Son"
+                sections:
+                  - s3_5_4_1: "1. Definition and Meaning"
+                  - s3_5_4_2: "2. Common and Singular Predications"
+                    sections:
+                      - s3_5_4_2_1: "a. Common: Person of Deity"
+                      - s3_5_4_2_2: "b. Singular: Second Person Begotten from the Father"
+                  - s3_5_4_3: "3. Proofs That the Son Is from the Father by Generation"
+                  - s3_5_4_4: "4. Similitudes Adumbrating Generation"
+                  - s3_5_4_5: "5. The Son Begotten from the Father Alone"
+                  - s3_5_4_6: "6. Only-Begotten and Proper Son"
+                  - s3_5_4_7: "7. Begotten from Eternity"
+              - s3_5_5: "E. The Third Person: The Holy Spirit"
+                sections:
+                  - s3_5_5_1: "1. Definition and Meaning"
+                  - s3_5_5_2: "2. Common and Singular Predications"
+                    sections:
+                      - s3_5_5_2_1: "a. Common: Person of Deity"
+                      - s3_5_5_2_2: "b. Singular: Third Person Proceeding from Father and Son"
+                  - s3_5_5_3: "3. Proof of Origin from the Father"
+                  - s3_5_5_4: "4. Proof of Origin from the Son"
+                  - s3_5_5_5: "5. Mode Expressed by Procession"
+                  - s3_5_5_6: "6. What Procession Is and How It Differs from Generation"
+                  - s3_5_5_7: "7. Similitudes Adumbrating Procession"
+                  - s3_5_5_8: "8. Procession Is Natural and Eternal"
+              - s3_5_6: "F. The Common Essence of the Three Persons"
+                sections:
+                  - s3_5_6_1: "1. Four Classes of Proofs for Each Person"
+                    sections:
+                      - s3_5_6_1_1: "a. Proofs for the Father"
+                        sections:
+                          - s3_5_6_1_1_1: "i. From the Names of God"
+                          - s3_5_6_1_1_2: "ii. From the Properties of God"
+                          - s3_5_6_1_1_3: "iii. From the Proper Effects of God"
+                          - s3_5_6_1_1_4: "iv. From the Proper Worship of God"
+                      - s3_5_6_1_2: "b. Proofs for the Son"
+                        sections:
+                          - s3_5_6_1_2_1: "i. From the Names of God"
+                          - s3_5_6_1_2_2: "ii. From the Properties of God"
+                          - s3_5_6_1_2_3: "iii. From the Proper Effects of God"
+                          - s3_5_6_1_2_4: "iv. From the Proper Worship of God"
+                      - s3_5_6_1_3: "c. Proofs for the Holy Spirit"
+                        sections:
+                          - s3_5_6_1_3_1: "i. From the Names of God"
+                          - s3_5_6_1_3_2: "ii. From the Properties of God"
+                          - s3_5_6_1_3_3: "iii. From the Proper Effects of God"
+                          - s3_5_6_1_3_4: "iv. From the Proper Worship of God"
+                  - s3_5_6_2: "2. How the Essence Is Common to the Persons"
+                  - s3_5_6_3: "3. Consubstantiality and Equality of the Persons"
+                  - s3_5_6_4: "4. Mutual Indwelling of the Persons [Περιχώρησις]"
+                  - s3_5_6_5: "5. Distinction Between Divine and Created Persons"
+              - s3_5_7: "G. The Distinction of the Persons"
+                sections:
+                  - s3_5_7_1: "1. Twofold Distinction"
+                    sections:
+                      - s3_5_7_1_1: "a. From the Essence (By Reason)"
+                      - s3_5_7_1_2: "b. Among Themselves (Really)"
+                  - s3_5_7_2: "2. Real Distinction Among Persons Explained"
+                    sections:
+                      - s3_5_7_2_1: "a. In the Persons Themselves"
+                      - s3_5_7_2_2: "b. In Their Works"
+                        sections:
+                          - s3_5_7_2_2_1: "i. By Order of Operations"
+                          - s3_5_7_2_2_2: "ii. By Terms of Operation"
+      - s4: "THE FOURTH LOCUS CONCERNING THE DECREES OF GOD, AND ESPECIALLY THAT WHICH IS COMMONLY CALLED PREDESTINATION"
+        sections:
+          - s4_1: "INTRODUCTION TO THE WORKS OF GOD"
+            sections:
+              - s4_1_1: "I. Transition from the Doctrine of God to His Works"
+              - s4_1_2: "II. Definition and General Description of God’s Works"
+          - s4_2: "EXEGESIS"
+          - s4_3: "I. THE WORKS OF GOD IN GENERAL"
+            sections:
+              - s4_3_1: "A. Transition from the Doctrine of God to His Works"
+              - s4_3_2: "B. Definition and General Description of God’s Works"
+                sections:
+                  - s4_3_2_1: "1. The Works Defined as External Operations"
+                  - s4_3_2_2: "2. The Efficient Cause: God as the Operator"
+                  - s4_3_2_3: "3. The Object: Things External to God"
+                  - s4_3_2_4: "4. The End: God’s Glory Distinguished from Eternal Glory"
+                  - s4_3_2_5: "5. The Affections of God’s Works"
+                    sections:
+                      - s4_3_2_5_1: "a. As Proceeding from God: Wise, Just, and Good"
+                      - s4_3_2_5_2: "b. As Existing Outside God: Free, Mutable, and Finite"
+          - s4_4: "II. THE CONSIDERATION OF GOD’S WORKS IN DECREE AND EXECUTION"
+            sections:
+              - s4_4_1: "A. The Distinction Between Antecedent Decree and Subsequent Execution"
+              - s4_4_2: "B. The Existence and Eternity of God’s Decrees"
+                sections:
+                  - s4_4_2_1: "1. Proof from Scripture"
+                  - s4_4_2_2: "2. Proof from God’s Nature"
+          - s4_5: "III. THE DECREE OF GOD IN GENERAL"
+            sections:
+              - s4_5_1: "A. Definition and Terminology"
+                sections:
+                  - s4_5_1_1: "1. The Term “Decree” and Its Synonyms in Scripture"
+                  - s4_5_1_2: "2. The Genus: Eternal Counsel"
+                  - s4_5_1_3: "3. The Form: Concerning Future Things"
+                  - s4_5_1_4: "4. The Decree as Efficient and Exemplary Cause"
+              - s4_5_2: "B. The Relationship Between Decree and Foreknowledge"
+                sections:
+                  - s4_5_2_1: "1. Definite and Intuitive Foreknowledge"
+                  - s4_5_2_2: "2. Foreknowledge Arising from the Decree"
+                  - s4_5_2_3: "3. The Double Hypothetical Necessity of Future Things"
+              - s4_5_3: "C. The Mode of Decrees in God"
+              - s4_5_4: "D. Various Distinctions of the Decree"
+                sections:
+                  - s4_5_4_1: "1. Division into Providence and Predestination"
+                  - s4_5_4_2: "2. Other Divisions Mentioned"
+                  - s4_5_4_3: "3. The Nature of Conditioned Decrees"
+                  - s4_5_4_4: "4. The Distinction of God’s Will: Will of Sign and Will of Good Pleasure"
+                    sections:
+                      - s4_5_4_4_1: "a. The Will of Sign Defined"
+                      - s4_5_4_4_2: "b. The Will of Good Pleasure Defined"
+                      - s4_5_4_4_3: "c. Their Non-Contradiction"
+              - s4_5_5: "E. The Unity of the Decree in God"
+          - s4_6: "IV. THE DECREE OF PROVIDENCE"
+            sections:
+              - s4_6_1: "A. Definition and Terminology"
+                sections:
+                  - s4_6_1_1: "1. Providence and Its Greek Equivalents"
+                  - s4_6_1_2: "2. The Term “Fate” Considered and Rejected"
+              - s4_6_2: "B. The Object of the Decree of Providence"
+                sections:
+                  - s4_6_2_1: "1. Creation, Preservation, and Governance"
+                  - s4_6_2_2: "2. Relation to Good Things: Efficient Decree"
+                  - s4_6_2_3: "3. Relation to Evil Things (Sins): Permissive Decree"
+                    sections:
+                      - s4_6_2_3_1: "a. The Mode of Sin’s Subjection to the Decree"
+                      - s4_6_2_3_2: "b. The Decree as Permissive Yet Efficacious in Governance"
+          - s4_7: "V. THE DECREE OF PREDESTINATION IN GENERAL"
+            sections:
+              - s4_7_1: "A. Definition and Terminology"
+                sections:
+                  - s4_7_1_1: "1. The Term “Predestination” and Its Meaning"
+                  - s4_7_1_2: "2. Patristic and Scholastic Usage"
+                  - s4_7_1_3: "3. Extension to Include Both Election and Reprobation"
+              - s4_7_2: "B. The Components of the Definition"
+                sections:
+                  - s4_7_2_1: "1. The Object: Rational Creatures Only"
+                    sections:
+                      - s4_7_2_1_1: "a. Primary: Intelligent Creatures"
+                      - s4_7_2_1_2: "b. Secondary: Other Creatures Per Accidens"
+                  - s4_7_2_2: "2. The End: Eternal Supernatural State"
+              - s4_7_3: "C. The Manifestation of God’s Glory Through Predestination"
+              - s4_7_4: "D. The Division of Predestination"
+          - s4_8: "VI. THE PREDESTINATION OF ANGELS"
+            sections:
+              - s4_8_1: "A. Definition"
+              - s4_8_2: "B. Biblical Proof of Angelic Predestination"
+              - s4_8_3: "C. The Election of Angels"
+                sections:
+                  - s4_8_3_1: "1. The Two Acts: Preservation from Fall and Confirmation in Good"
+                  - s4_8_3_2: "2. The Medium of Their Election"
+                  - s4_8_3_3: "3. The Question of Election in Christ"
+              - s4_8_4: "D. The Reprobation of Angels"
+                sections:
+                  - s4_8_4_1: "1. The Two Acts: Negation of Confirmation and Damnation"
+                  - s4_8_4_2: "2. Without Hope of Grace"
+              - s4_8_5: "E. The Cause of Angelic Election and Reprobation"
+                sections:
+                  - s4_8_5_1: "1. The Supreme Cause: God’s Good Pleasure"
+                  - s4_8_5_2: "2. Respect to Sin in the Second Act of Reprobation"
+          - s4_9: "VII. THE PREDESTINATION OF HUMANS"
+            sections:
+              - s4_9_1: "A. Definition and Terminology"
+                sections:
+                  - s4_9_1_1: "1. The Definition Stated"
+                  - s4_9_1_2: "2. Synonymous Terms in Scripture"
+                  - s4_9_1_3: "3. The Proximate and Remote Genus"
+              - s4_9_2: "B. The Efficient Cause: God"
+              - s4_9_3: "C. The Moving Cause: God’s Good Pleasure"
+                sections:
+                  - s4_9_3_1: "1. The Free Will of God"
+                  - s4_9_3_2: "2. The Wisdom of the Counsel"
+                  - s4_9_3_3: "3. The Justice and Goodness of God’s Good Pleasure"
+                  - s4_9_3_4: "4. The Supreme Cause Excluding All External Causes"
+                  - s4_9_3_5: "5. The Final Cause Included in God’s Good Pleasure"
+              - s4_9_4: "D. The Material Cause: Humans Considered as Fallen"
+              - s4_9_5: "E. The Formal Cause: Destination to Eternal State"
+                sections:
+                  - s4_9_5_1: "1. Destination to End and Means"
+                  - s4_9_5_2: "2. Universal and Particular Predestination"
+                  - s4_9_5_3: "3. Predestination of Individuals"
+              - s4_9_6: "F. The Final Cause of Predestination"
+                sections:
+                  - s4_9_6_1: "1. The Supreme End: Declaration of God’s Glory"
+                  - s4_9_6_2: "2. The Subordinate End: Eternal State of Humans"
+              - s4_9_7: "G. The Division into Election and Reprobation"
+                sections:
+                  - s4_9_7_1: "1. The Division Adequate to Its Subject"
+                  - s4_9_7_2: "2. No Third Class of Neutrals"
+          - s4_10: "VIII. THE DOCTRINE OF ELECTION"
+            sections:
+              - s4_10_1: "A. Definition and Terminology"
+                sections:
+                  - s4_10_1_1: "1. Homonymy of the Term “Election”"
+                  - s4_10_1_2: "2. Various Significations in Scripture"
+                  - s4_10_1_3: "3. Synonymous Terms"
+              - s4_10_2: "B. The Efficient Cause: The Triune God"
+              - s4_10_3: "C. The Twofold Act of Election"
+                sections:
+                  - s4_10_3_1: "1. First: Decree to Show Mercy to Some unto Salvation"
+                  - s4_10_3_2: "2. Second: Decree to Lead Them Through Certain Means"
+              - s4_10_4: "D. The Moving Cause: God’s Good Pleasure, Not Foreseen Conditions"
+                sections:
+                  - s4_10_4_1: "1. Election Gratuitous in Both Acts"
+                  - s4_10_4_2: "2. God as Absolute Lord in Election"
+                  - s4_10_4_3: "3. God as Just Judge Regarding the Second Act"
+              - s4_10_5: "E. The Material Cause: Not All but Some Humans"
+                sections:
+                  - s4_10_5_1: "1. Election as Choosing Some from All"
+                  - s4_10_5_2: "2. The Definite Number of the Elect"
+              - s4_10_6: "F. The Formal Cause of Election"
+                sections:
+                  - s4_10_6_1: "1. Segregation from Others"
+                  - s4_10_6_2: "2. Destination to Salvation and Means of Salvation"
+              - s4_10_7: "G. Christ’s Ingression into the Decree of Election"
+                sections:
+                  - s4_10_7_1: "1. Christ as Mediator, the First and Supreme Medium"
+                  - s4_10_7_2: "2. Christ Himself Elected as Mediator"
+              - s4_10_8: "H. Other Media of Election Preordained"
+              - s4_10_9: "I. The End of Election"
+                sections:
+                  - s4_10_9_1: "1. The Supreme End: God’s Glory"
+                  - s4_10_9_2: "2. The Subaltern End"
+              - s4_10_10: "J. The Effects of Election"
+              - s4_10_11: "K. The Certainty of the Elect Concerning Their Election"
+              - s4_10_12: "L. The Adjuncts of Election"
+                sections:
+                  - s4_10_12_1: "1. Eternity"
+                  - s4_10_12_2: "2. Immutability"
+                  - s4_10_12_3: "3. Supreme Liberty"
+          - s4_11: "IX. THE DOCTRINE OF REPROBATION"
+            sections:
+              - s4_11_1: "A. Definition and Terminology"
+                sections:
+                  - s4_11_1_1: "1. Synonyms for Reprobation"
+                  - s4_11_1_2: "2. Metonymical Usage in Scripture"
+              - s4_11_2: "B. The Efficient Cause: God"
+                sections:
+                  - s4_11_2_1: "1. Biblical Testimony"
+                  - s4_11_2_2: "2. From the Nature of Relation to Election"
+              - s4_11_3: "C. The Acts of God in Reprobation"
+                sections:
+                  - s4_11_3_1: "1. First: Decree Not to Show Mercy but to Destine to Destruction"
+                  - s4_11_3_2: "2. Second: Subordination of Means to This End"
+                  - s4_11_3_3: "3. Common Distinction: Negative/Privative and Affirmative/Positive Acts"
+              - s4_11_4: "D. The Moving Cause of Reprobation"
+                sections:
+                  - s4_11_4_1: "1. Partly God’s Good Pleasure"
+                  - s4_11_4_2: "2. Partly the Sin of the Reprobate"
+                  - s4_11_4_3: "3. The Dual Aspect of God’s Action"
+                    sections:
+                      - s4_11_4_3_1: "a. God as Absolute Lord"
+                      - s4_11_4_3_2: "b. God as Just Judge"
+              - s4_11_5: "E. The Material Cause: Those Whom God Hates"
+              - s4_11_6: "F. The Formal Cause of Reprobation"
+                sections:
+                  - s4_11_6_1: "1. Rejection in the Election of Others"
+                  - s4_11_6_2: "2. Preterition in Preparation of Glory and Grace"
+                    sections:
+                      - s4_11_6_2_1: "a. Preterition in Preparation of Glory"
+                      - s4_11_6_2_2: "b. Preterition in Preparation of Grace"
+                  - s4_11_6_3: "3. Destination to Destruction"
+                  - s4_11_6_4: "4. Subordination of Means to This End"
+              - s4_11_7: "G. The Media (Means) of Reprobation"
+              - s4_11_8: "H. The End of Reprobation"
+                sections:
+                  - s4_11_8_1: "1. The Supreme End: God’s Glory"
+                  - s4_11_8_2: "2. The Subaltern End"
+                    sections:
+                      - s4_11_8_2_1: "a. Respect to the Elect"
+                      - s4_11_8_2_2: "b. Respect to the Reprobate: Just Damnation"
+              - s4_11_9: "I. The Effects/Consequents of Reprobation"
+                sections:
+                  - s4_11_9_1: "1. Reliction or Desertion in Sins"
+                  - s4_11_9_2: "2. Retention of Guilt"
+                  - s4_11_9_3: "3. Blinding and Hardening"
+                  - s4_11_9_4: "4. Obstinate Unbelief"
+                  - s4_11_9_5: "5. Damnation of the Reprobate"
+              - s4_11_10: "J. Concerning Reprobation Nothing Certain Can Be Determined Before Death"
+              - s4_11_11: "K. The Adjuncts of Reprobation"
+                sections:
+                  - s4_11_11_1: "1. Eternity"
+                  - s4_11_11_2: "2. Immutability"
+                    sections:
+                      - s4_11_11_2_1: "a. Double Necessity Following the Reprobate"
+                  - s4_11_11_3: "3. Supreme Liberty"
+          - s4_12: "X. PRACTICAL APPLICATION OF THE DOCTRINE"
+            sections:
+              - s4_12_1: "A. For Teaching [Ad Διδασκαλίαν]"
+              - s4_12_2: "B. For Instruction [Ad Παιδείαν]"
+              - s4_12_3: "C. For Correction [Ad ἐπανόρθωσιν]"
+              - s4_12_4: "D. For Consolation [Ad παράκλησιν]"
+      - s5: "THE FIFTH LOCUS CONCERNING CREATION"
+        sections:
+          - s5_1: "INTRODUCTION: TRANSITION FROM DECREE TO EXECUTION OF GOD’S WORKS"
+            sections:
+              - s5_1_1: "A. Definition of the Works of Nature"
+              - s5_1_2: "B. Definition of the Works of Creation"
+          - s5_2: "EXEGESIS"
+          - s5_3: "I. THE TEMPORAL EXECUTION CORRESPONDING TO THE ETERNAL DECREE"
+          - s5_4: "II. THE DISTINCTION BETWEEN WORKS OF NATURE AND WORKS OF GRACE"
+          - s5_5: "III. CREATION AS THE FIRST WORK OF NATURE"
+            sections:
+              - s5_5_1: "A. Creation as Proper Knowledge and Appellation of the Church"
+              - s5_5_2: "B. The Homonymy of the Term “Creation”"
+          - s5_6: "IV. THE EFFICIENT CAUSE OF CREATION: GOD"
+            sections:
+              - s5_6_1: "A. Biblical Testimony of God as Creator"
+              - s5_6_2: "B. God as the Sole Creator"
+              - s5_6_3: "C. Creation According to the Three Persons of the Deity"
+          - s5_7: "V. THE MOVING CAUSE OF CREATION"
+          - s5_8: "VI. THE MODE OF CREATION"
+          - s5_9: "VII. THE MATERIAL CAUSE OF CREATION: NONE"
+          - s5_10: "VIII. THE FORMAL CAUSE OF CREATION"
+          - s5_11: "IX. THE FINAL CAUSE OF CREATION"
+          - s5_12: "X. THE EFFECTS OF CREATION: THE WORKS OF CREATION THEMSELVES"
+          - s5_13: "XI. THE WORKS OF THE FIRST DAY"
+            sections:
+              - s5_13_1: "A. The Three Works of the First Day"
+              - s5_13_2: "B. The First Work: The Supreme Heaven with the Angels"
+                sections:
+                  - s5_13_2_1: "1. Identification of the Supreme Heaven"
+                  - s5_13_2_2: "2. Proof from Scripture"
+                  - s5_13_2_3: "3. The Supreme Heaven as First in Creation"
+                  - s5_13_2_4: "4. The Matter from Which: None"
+                  - s5_13_2_5: "5. The Matter of Which: Corporeal Substance"
+              - s5_13_3: "C. The Angels"
+                sections:
+                  - s5_13_3_1: "1. The Name “Angels” from Ministry"
+                  - s5_13_3_2: "2. The Time of Angelic Creation"
+                  - s5_13_3_3: "3. Moses’ Account of Creation"
+                  - s5_13_3_4: "4. The Qualities of Angels"
+                  - s5_13_3_5: "5. The Endowments of Angels"
+                  - s5_13_3_6: "6. The Number of Angels: Very Great but Not Defined"
+                  - s5_13_3_7: "7. The Habitation of Angels: The Supreme Heaven"
+              - s5_13_4: "D. The Second Work: Chaos"
+                sections:
+                  - s5_13_4_1: "1. The Rude and Undigested Mass"
+                  - s5_13_4_2: "2. Moses’ Designation: “Earth” Materially"
+                  - s5_13_4_3: "3. The Description of Chaos"
+                  - s5_13_4_4: "4. The Nature of Chaos"
+                  - s5_13_4_5: "5. Chaos as First Matter"
+                  - s5_13_4_6: "6. The Permanence of First Matter"
+              - s5_13_5: "E. The Third Work: Light"
+          - s5_14: "XII. THE WORKS OF THE SECOND DAY"
+            sections:
+              - s5_14_1: "A. The Two Works of the Second Day"
+              - s5_14_2: "B. The Firmament"
+              - s5_14_3: "C. The Division of the Waters"
+                sections:
+                  - s5_14_3_1: "1. The Superior Waters"
+                  - s5_14_3_2: "2. The Inferior Waters"
+          - s5_15: "XIII. THE WORKS OF THE THIRD DAY"
+            sections:
+              - s5_15_1: "A. The Three Works of the Third Day"
+              - s5_15_2: "B. The Collection of the Inferior Waters"
+              - s5_15_3: "C. The Drying of the Earth"
+              - s5_15_4: "D. The Germination of the Earth"
+          - s5_16: "XIV. THE WORK OF THE FOURTH DAY"
+            sections:
+              - s5_16_1: "A. The Creation of Luminaries in the Firmament"
+              - s5_16_2: "B. Not from Nothing but from the Original Light"
+              - s5_16_3: "C. The Threefold Use of Luminaries"
+              - s5_16_4: "D. The Motion of Luminaries"
+              - s5_16_5: "E. The Distribution of Luminaries"
+          - s5_17: "XV. THE WORK OF THE FIFTH DAY"
+          - s5_18: "XVI. THE WORK OF THE SIXTH DAY"
+            sections:
+              - s5_18_1: "A. The Creation of Terrestrial Animals and Man"
+              - s5_18_2: "B. The Terrestrial Animals"
+              - s5_18_3: "C. Man: The Last and Most Excellent Work"
+                sections:
+                  - s5_18_3_1: "1. Man as Microcosm"
+                  - s5_18_3_2: "2. The Double Sex of Man"
+                  - s5_18_3_3: "3. The Body of the Male"
+                  - s5_18_3_4: "4. The Body of the Female"
+                  - s5_18_3_5: "5. The Soul of Man"
+              - s5_18_4: "D. The Peculiarity: Man Created in the Image and Likeness of God"
+                sections:
+                  - s5_18_4_1: "1. “Image” and “Likeness” as Synonyms"
+                  - s5_18_4_2: "2. Definition of the Image of God"
+                  - s5_18_4_3: "3. The Image in the Soul"
+                  - s5_18_4_4: "4. The Image in the Body"
+                  - s5_18_4_5: "5. The Image in Both Together"
+                  - s5_18_4_6: "6. The Finite Character of Man’s Representation"
+                  - s5_18_4_7: "7. Original Justice as Part of the Image"
+              - s5_18_5: "E. The External State of the First Man"
+                sections:
+                  - s5_18_5_1: "1. Marriage"
+                  - s5_18_5_2: "2. Habitation: Paradise, (the Tree of Life & of Knowledge)"
+              - s5_18_6: "F. The Sabbath"
+          - s5_19: "XVII. THE SUBJECT OF CREATION"
+          - s5_20: "XVIII. THE ADJUNCTS OF CREATION"
+          - s5_21: "XIX. PRACTICAL APPLICATION OF THE DOCTRINE"
+            sections:
+              - s5_21_1: "A. For Teaching [Ad Διδασκαλίαν]"
+              - s5_21_2: "B. For Instruction [Ad Παιδείαν]"
+              - s5_21_3: "C. For Correction [Ad Επανόρθωσιν]"
+              - s5_21_4: "D. For Consolation [Ad Παράκλησιν]"
+      - s6: "VI. The Use and Application of This Doctrine"
+        sections:
+          - s6_1: "A. For Teaching [Διδασκαλίαν, Didaskalian]"
+          - s6_2: "B. For Correction [Παιδείαν, Paideian]"
+          - s6_3: "C. For Reproof [Ἐπανόρθωσιν, Epanorthōsin]"
+          - s6_4: "D. For Consolation [Παράκλησιν, Paraklēsin]"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - locus-1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/
@@ -35,3 +747,594 @@ alting-heidelberg-loci:
               - locus-4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/
               - locus-5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/
               - locus-11: https://confessionallyreformed.wordpress.com/2025/12/30/johann-heinrich-alting-c-1583-1644-on-the-church/
+
+              - s3: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/
+              - s3_1: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-name-of-god
+              - s3_2: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-essence-of-god
+              - s3_3: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#attributes-of-god
+              - s3_3_1: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#negative-attributes
+              - s3_3_2: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#positive-attributes
+              - s3_4: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-trinity-three-persons-in-one-essence
+              - s3_4_1: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-number-and-distinction-of-the-persons
+              - s3_4_2: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#order-of-the-persons
+              - s3_4_2_1: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-father
+              - s3_4_2_2: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-son
+              - s3_4_2_3: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-holy-spirit
+              - s3_4_3: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-unity-of-the-essence-among-the-persons
+              - s3_4_3_1: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#that-the-father-is-god
+              - s3_4_3_2: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#that-the-son-is-god
+              - s3_4_3_3: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#that-the-holy-spirit-is-god
+              - s3_4_4: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#the-consubstantiality-equality-of-the-persons
+              - s3_4_5: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#difference-between-divine-created-persons
+              - s3_4_6: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#distinction-of-the-persons
+              - s3_5: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#practical-applications
+              - s3_5_1: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#for-instruction
+              - s3_5_2: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#for-discipline
+              - s3_5_3: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#for-correction
+              - s3_5_4: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god-2/#for-consolation
+              - s1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#first-locus-concerning-the-nature-of-theology
+              - s1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#i-the-definition-of-theology
+              - s1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#ii-exegesis-of-the-definition
+              - s1_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#a-etymology-of-the-word-theology
+              - s1_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#b-various-significations-of-the-word
+              - s1_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#c-scriptural-synonyms-for-theology
+              - s1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#iii-the-genus-of-theology
+              - s1_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#a-debates-concerning-whether-theoretical-or-practical-habit
+              - s1_3_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#1-theology-as-higher-order-discipline
+              - s1_3_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#2-infinite-and-supernatural-nature
+              - s1_3_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#3-testimony-of-god-s-word-for-both-knowledge-and-action
+              - s1_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#b-assignment-of-doctrine-as-the-common-genus
+              - s1_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#1-testimony-of-the-old-testament-torah
+              - s1_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#2-testimony-of-the-new-testament
+              - s1_3_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#3-suitability-to-theology-s-nature
+              - s1_3_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#4-other-names-used-synecdochically
+              - s1_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#iv-the-object-of-theology
+              - s1_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#a-divine-things-as-the-adequate-and-proper-object
+              - s1_4_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#1-definition-of-divine-things
+              - s1_4_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#2-primary-god-himself
+              - s1_4_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#3-secondary-works-of-god
+              - s1_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#b-three-grades-of-divine-things
+              - s1_4_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#1-first-and-highest-grade-god-himself
+              - s1_4_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#2-second-grade-works-of-redemption
+              - s1_4_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#3-third-and-lowest-grade-works-of-creation-and-conservation
+              - s1_4_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#c-consideration-of-sin-in-theology
+              - s1_4_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#1-analogous-to-medicine-s-treatment-of-poisons
+              - s1_4_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#2-reduction-to-the-three-works
+              - s1_4_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#a-to-creation-privation-of-image
+              - s1_4_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#b-to-conservation-divine-permission
+              - s1_4_3_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#c-to-redemption-justification-and-sanctification
+              - s1_4_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#d-theology-s-proper-and-unique-object
+              - s1_4_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#1-treatment-in-metaphysics
+              - s1_4_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#2-exclusive-treatment-of-redemption
+              - s1_4_4_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#3-unique-mode-of-considering-creation
+              - s1_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#v-the-efficient-cause-of-theology
+              - s1_5_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#a-god-as-revealer-of-divine-things
+              - s1_5_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#b-necessity-of-revelation
+              - s1_5_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#c-order-of-trinitarian-revelation
+              - s1_6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#vi-the-end-of-theology
+              - s1_6_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#a-primary-end-the-glory-of-god
+              - s1_6_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#b-secondary-end-the-salvation-of-men
+              - s1_6_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#1-eternal-beatitude-in-union-with-god
+              - s1_6_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#2-testimony-of-scripture
+              - s1_6_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#3-subordination-to-primary-end
+              - s1_6_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#4-salvation-of-men-not-angels
+              - s1_6_2_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#5-salvation-of-the-elect-only
+              - s1_7: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#vii-the-use-and-application-of-this-doctrine
+              - s1_7_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#a-for-teaching-διδασκαλίαν-didaskalian
+              - s1_7_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#b-for-correction-παιδείαν-paideian
+              - s1_7_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/#c-for-reproof-ἐπανόρθωσιν-epanorthosin
+              - s2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#second-locus-concerning-the-principle-of-theology-the-word-of-god
+              - s2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-the-definition-of-the-word-of-god
+              - s2_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-essential-definition
+              - s2_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-twofold-mode-according-to-revelation
+              - s2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-exegesis-of-the-definition
+              - s2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-revelation-in-general
+              - s2_2_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#1-the-three-grades-of-revelation-in-general
+              - s2_2_1_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-first-grade-revelation-in-creation
+              - s2_2_1_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-second-grade-revelation-through-the-works-of-creation
+              - s2_2_1_1_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-manifestation-of-divine-attributes
+              - s2_2_1_1_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-both-insufficient-after-the-fall
+              - s2_2_1_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#c-third-grade-revelation-through-the-word
+              - s2_2_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#2-the-various-significations-of-word-of-god
+              - s2_2_1_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-metonymical-uses
+              - s2_2_1_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-metaphorical-uses
+              - s2_2_1_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#c-synecdochical-uses
+              - s2_2_1_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#d-proper-sense-here-employed
+              - s2_2_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#3-the-causes-of-revelation
+              - s2_2_1_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#4-the-mode-and-circumstances-of-revelation
+              - s2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-the-unwritten-word-ἄγραφον
+              - s2_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#1-definition-and-synonyms
+              - s2_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#2-the-efficient-cause-of-the-unwritten-word
+              - s2_2_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-principal-efficient-god
+              - s2_2_2_2_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-the-father-s-speaking
+              - s2_2_2_2_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-the-son-s-speaking
+              - s2_2_2_2_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iii-the-holy-spirit-s-speaking
+              - s2_2_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-instrumental-efficient-ministers
+              - s2_2_2_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-in-the-old-testament-angels-men-women
+              - s2_2_2_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-in-the-new-testament-angels-men-women
+              - s2_2_2_2_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iii-end-of-immediate-revelation
+              - s2_2_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#3-the-material-or-object-of-the-unwritten-word
+              - s2_2_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#4-the-form-of-the-unwritten-word
+              - s2_2_2_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#5-the-end-of-the-unwritten-word
+              - s2_2_2_6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#6-other-modes-of-revelation-referred-to-the-unwritten-word
+              - s2_2_2_6_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-visions
+              - s2_2_2_6_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-divine-dreams
+              - s2_2_2_6_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#c-urim-and-thummim
+              - s2_2_2_6_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-scriptural-references
+              - s2_2_2_6_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-material-twelve-gemstones
+              - s2_2_2_6_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iii-form
+              - s2_2_2_6_3_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iv-efficient-cause
+              - s2_2_2_6_3_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#v-end-oracle-seeking
+              - s2_2_2_6_3_6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#vi-typical-significance
+              - s2_2_2_6_3_7: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#vii-subject-the-breastplate
+              - s2_2_2_6_3_8: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#viii-duration
+              - s2_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#c-the-written-word-ἔγγραφον
+              - s2_2_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#1-synonyms-for-written-scripture
+              - s2_2_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#2-the-efficient-cause-of-the-written-word
+              - s2_2_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-god-as-author
+              - s2_2_3_2_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-impulsive-cause
+              - s2_2_3_2_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-god-as-triple-author-of-scripture
+              - s2_2_3_2_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iii-by-example-writing-the-law
+              - s2_2_3_2_1_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iv-by-command
+              - s2_2_3_2_1_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#v-by-inspiration
+              - s2_2_3_2_1_6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#vi-instrumental-writers-prophets-and-apostles
+              - s2_2_3_2_1_7: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#vii-why-christ-wrote-nothing
+              - s2_2_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-the-divine-authority-of-scripture
+              - s2_2_3_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-definition-of-authority
+              - s2_2_3_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-threefold-testimony-confirming-authority
+              - s2_2_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#3-the-material-or-object-of-the-written-word
+              - s2_2_3_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-books-of-the-old-testament
+              - s2_2_3_3_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-number-forty-or-twenty-two
+              - s2_2_3_3_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-language-hebrew-and-chaldean
+              - s2_2_3_3_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iii-collection
+              - s2_2_3_3_1_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iv-distribution-law-prophets-writings
+              - s2_2_3_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-books-of-the-new-testament
+              - s2_2_3_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-number-twenty-seven-and-language-greek
+              - s2_2_3_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-authority-equal-to-old-testament
+              - s2_2_3_3_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iii-distribution-histories-epistles-prophecy
+              - s2_2_3_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#4-the-form-of-the-written-word
+              - s2_2_3_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-form-opposed-to-unwritten-word
+              - s2_2_3_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-form-in-itself-the-sense-of-scripture
+              - s2_2_3_4_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#c-the-sense-of-scripture-is-unique
+              - s2_2_3_4_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-literal-grammatical-historical-sense
+              - s2_2_3_4_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-so-called-multiple-senses-are-applications
+              - s2_2_3_4_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#f-interpretation-of-scripture
+              - s2_2_3_4_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-interpretation-of-words-versions
+              - s2_2_3_4_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-interpretation-of-things
+              - s2_2_3_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#5-the-end-of-the-written-word
+              - s2_2_3_5_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-rule-of-faith-and-life
+              - s2_2_3_5_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-supreme-judge-of-religious-controversies
+              - s2_2_3_6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#6-the-effects-of-the-written-word
+              - s2_2_3_7: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#7-the-subject-of-the-written-word
+              - s2_2_3_8: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#8-the-adjuncts-of-the-written-word
+              - s2_2_3_8_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-first-adjunct-eternity
+              - s2_2_3_8_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-not-simply-as-to-writing
+              - s2_2_3_8_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-by-reason-of-object-and-effect
+              - s2_2_3_8_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-second-adjunct-sufficiency
+              - s2_2_3_8_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-definition-of-sufficiency
+              - s2_2_3_8_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-essential-and-integral-parts-demonstrate-it
+              - s2_2_3_8_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iii-diverse-modes-of-expression
+              - s2_2_3_8_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#c-third-adjunct-perspicuity
+              - s2_2_3_8_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#i-definition
+              - s2_2_3_8_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#ii-many-obscure-things-in-scripture
+              - s2_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#d-scripture-as-the-sole-and-unique-principle-of-theology
+              - s2_2_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#1-distinction-between-theology-and-the-word-of-god
+              - s2_2_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#2-human-reason-not-properly-a-principle-of-theology
+              - s2_2_4_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#3-the-use-of-reason-in-theology
+              - s2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#iii-the-use-and-application-of-this-doctrine
+              - s2_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#a-for-teaching-διδασκαλίαν-didaskalian
+              - s2_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#b-for-correction-παιδείαν-paideian
+              - s2_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#c-for-reproof-ἐπανόρθωσιν-epanorthosin
+              - s2_3_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/#d-for-consolation-παράκλησιν-paraklesin
+              - s3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#third-locus-concerning-god
+              - s3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-the-two-parts-of-theology
+              - s3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-the-definition-of-god
+              - s3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iii-exegesis-of-the-definition
+              - s3_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-various-divisions-of-theology
+              - s3_3_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-several-common-divisions
+              - s3_3_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-the-division-into-doctrine-concerning-god-and-his-works
+              - s3_3_1_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-scriptural-foundation
+              - s3_3_1_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-conformity-to-rules-of-legitimate-division
+              - s3_3_1_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#c-works-of-god-defined
+              - s3_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-the-doctrine-concerning-god-as-the-first-and-most-noble-part-of-theology
+              - s3_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-reasons-for-its-primacy
+              - s3_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-no-need-to-demonstrate-god-s-existence
+              - s3_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#c-the-name-god-homonymy
+              - s3_3_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-usage-of-the-word-god
+              - s3_3_3_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-properly-common-and-particular
+              - s3_3_3_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-improperly-by-ordination-usurpation-or-human-error
+              - s3_3_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-other-names-of-god
+              - s3_3_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-multiplicity-of-names-does-not-derogate-simplicity
+              - s3_3_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-names-not-synonymous
+              - s3_3_3_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#c-analogical-denomination-from-creatures
+              - s3_3_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#3-most-common-names-in-the-old-testament
+              - s3_3_3_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-יהוה-jehovah-its-meaning-and-exclusivity
+              - s3_3_3_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-cognate-names-יה-jah-אהיה-ehejeh
+              - s3_3_3_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#c-אלהים-elohim-power-and-strength
+              - s3_3_3_3_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#d-אל-el-meaning
+              - s3_3_3_3_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#e-אדני-adonai-lord-or-master
+              - s3_3_3_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#4-principal-names-in-the-new-testament
+              - s3_3_3_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-θεός-theos-etymology
+              - s3_3_3_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-κύριος-kyrios-lord
+              - s3_3_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#d-description-of-god
+              - s3_3_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-no-true-genus-or-true-difference
+              - s3_3_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-analogical-genus-spirit
+              - s3_3_4_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#3-differentia-uncreated-and-of-three-persons
+              - s3_3_4_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#e-twofold-theory-concerning-god
+              - s3_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iv-absolute-theory-the-essence-of-god
+              - s3_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-the-essence-of-god-defined
+              - s3_4_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-synonyms-for-essence
+              - s3_4_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-essence-is-deity-itself
+              - s3_4_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#3-preliminary-properties-of-the-divine-essence
+              - s3_4_1_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-from-itself-self-existent
+              - s3_4_1_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-absolute-equally-common-to-three-persons
+              - s3_4_1_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#c-one-in-number-and-individual
+              - s3_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-properties-of-the-divine-essence
+              - s3_4_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-general-nature-of-properties
+              - s3_4_2_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-strict-and-broad-significations
+              - s3_4_2_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-four-rules-concerning-properties
+              - s3_4_2_1_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-first-rule-distinguished-only-by-our-conception
+              - s3_4_2_1_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-second-rule-all-properties-are-infinite-eternal-etc
+              - s3_4_2_1_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iii-third-rule-no-properties-communicable-to-creatures
+              - s3_4_2_1_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iv-properties-called-communicable-or-incommunicable-by-effects
+              - s3_4_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-two-orders-of-properties
+              - s3_4_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-first-order-negative-properties-four
+              - s3_4_2_2_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-simplicity
+              - s3_4_2_2_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-immutability
+              - s3_4_2_2_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iii-eternity
+              - s3_4_2_2_1_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iv-immensity
+              - s3_4_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-second-order-affirmative-properties
+              - s3_4_2_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-life-of-god
+              - s3_4_2_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-intellect-of-god
+              - s3_4_2_2_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iii-will-of-god
+              - s3_4_2_2_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#v-power-of-god-omnipotence
+              - s3_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#v-relative-theory-the-persons-of-god
+              - s3_5_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-the-person-defined
+              - s3_5_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-synonyms-for-person
+              - s3_5_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-definition-of-person
+              - s3_5_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#3-mode-of-subsisting
+              - s3_5_1_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#4-corollaries-concerning-divine-persons
+              - s3_5_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-the-number-and-names-of-divine-persons
+              - s3_5_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-three-persons-demonstrated
+              - s3_5_2_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-proof-from-scripture-old-and-new-testament
+              - s3_5_2_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-illustrations-from-created-things
+              - s3_5_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-twofold-order-among-the-three-persons
+              - s3_5_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-natural-order
+              - s3_5_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-arbitrary-order
+              - s3_5_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#c-the-first-person-the-father
+              - s3_5_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-definition-and-meaning
+              - s3_5_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-common-and-singular-predications
+              - s3_5_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-common-person-of-deity
+              - s3_5_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-singular-first-person-from-none-begetting-the-son
+              - s3_5_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#3-the-father-as-begetter-of-the-son
+              - s3_5_3_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-scriptural-testimony
+              - s3_5_3_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-mode-of-generation
+              - s3_5_3_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-hyperphysical
+              - s3_5_3_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-by-communication-of-essence
+              - s3_5_3_3_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iii-from-the-father-alone
+              - s3_5_3_3_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iv-by-property-and-perfection-of-nature
+              - s3_5_3_3_2_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#v-from-eternity
+              - s3_5_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#d-the-second-person-the-son
+              - s3_5_4_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-definition-and-meaning
+              - s3_5_4_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-common-and-singular-predications
+              - s3_5_4_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-common-person-of-deity
+              - s3_5_4_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-singular-second-person-begotten-from-the-father
+              - s3_5_4_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#3-proofs-that-the-son-is-from-the-father-by-generation
+              - s3_5_4_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#4-similitudes-adumbrating-generation
+              - s3_5_4_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#5-the-son-begotten-from-the-father-alone
+              - s3_5_4_6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#6-only-begotten-and-proper-son
+              - s3_5_4_7: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#7-begotten-from-eternity
+              - s3_5_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#e-the-third-person-the-holy-spirit
+              - s3_5_5_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-definition-and-meaning
+              - s3_5_5_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-common-and-singular-predications
+              - s3_5_5_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-common-person-of-deity
+              - s3_5_5_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-singular-third-person-proceeding-from-father-and-son
+              - s3_5_5_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#3-proof-of-origin-from-the-father
+              - s3_5_5_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#4-proof-of-origin-from-the-son
+              - s3_5_5_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#5-mode-expressed-by-procession
+              - s3_5_5_6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#6-what-procession-is-and-how-it-differs-from-generation
+              - s3_5_5_7: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#7-similitudes-adumbrating-procession
+              - s3_5_5_8: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#8-procession-is-natural-and-eternal
+              - s3_5_6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#f-the-common-essence-of-the-three-persons
+              - s3_5_6_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-four-classes-of-proofs-for-each-person
+              - s3_5_6_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-proofs-for-the-father
+              - s3_5_6_1_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-from-the-names-of-god
+              - s3_5_6_1_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-from-the-properties-of-god
+              - s3_5_6_1_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iii-from-the-proper-effects-of-god
+              - s3_5_6_1_1_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iv-from-the-proper-worship-of-god
+              - s3_5_6_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-proofs-for-the-son
+              - s3_5_6_1_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-from-the-names-of-god
+              - s3_5_6_1_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-from-the-properties-of-god
+              - s3_5_6_1_2_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iii-from-the-proper-effects-of-god
+              - s3_5_6_1_2_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iv-from-the-proper-worship-of-god
+              - s3_5_6_1_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#c-proofs-for-the-holy-spirit
+              - s3_5_6_1_3_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-from-the-names-of-god
+              - s3_5_6_1_3_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-from-the-properties-of-god
+              - s3_5_6_1_3_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iii-from-the-proper-effects-of-god
+              - s3_5_6_1_3_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#iv-from-the-proper-worship-of-god
+              - s3_5_6_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-how-the-essence-is-common-to-the-persons
+              - s3_5_6_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#3-consubstantiality-and-equality-of-the-persons
+              - s3_5_6_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#4-mutual-indwelling-of-the-persons-περιχώρησις
+              - s3_5_6_5: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#5-distinction-between-divine-and-created-persons
+              - s3_5_7: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#g-the-distinction-of-the-persons
+              - s3_5_7_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#1-twofold-distinction
+              - s3_5_7_1_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-from-the-essence-by-reason
+              - s3_5_7_1_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-among-themselves-really
+              - s3_5_7_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#2-real-distinction-among-persons-explained
+              - s3_5_7_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-in-the-persons-themselves
+              - s3_5_7_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-in-their-works
+              - s3_5_7_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#i-by-order-of-operations
+              - s3_5_7_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#ii-by-terms-of-operation
+              - s4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#the-fourth-locusconcerningthe-decrees-of-god-and-especially-that-which-is-commonly-calledpredestination
+              - s4_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#introduction-to-the-works-of-god
+              - s4_1_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#i-transition-from-the-doctrine-of-god-to-his-works
+              - s4_1_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#ii-definition-and-general-description-of-god-s-works
+              - s4_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#exegesis
+              - s4_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#i-the-works-of-god-in-general
+              - s4_3_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-transition-from-the-doctrine-of-god-to-his-works
+              - s4_3_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-definition-and-general-description-of-god-s-works
+              - s4_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-works-defined-as-external-operations
+              - s4_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-efficient-cause-god-as-the-operator
+              - s4_3_2_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-the-object-things-external-to-god
+              - s4_3_2_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#4-the-end-god-s-glory-distinguished-from-eternal-glory
+              - s4_3_2_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#5-the-affections-of-god-s-works
+              - s4_3_2_5_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-as-proceeding-from-god-wise-just-and-good
+              - s4_3_2_5_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-as-existing-outside-god-free-mutable-and-finite
+              - s4_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#ii-the-consideration-of-god-s-works-in-decree-and-execution
+              - s4_4_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-the-distinction-between-antecedent-decree-and-subsequent-execution
+              - s4_4_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-existence-and-eternity-of-god-s-decrees
+              - s4_4_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-proof-from-scripture
+              - s4_4_2_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-proof-from-god-s-nature
+              - s4_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#iii-the-decree-of-god-in-general
+              - s4_5_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-definition-and-terminology
+              - s4_5_1_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-term-decree-and-its-synonyms-in-scripture
+              - s4_5_1_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-genus-eternal-counsel
+              - s4_5_1_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-the-form-concerning-future-things
+              - s4_5_1_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#4-the-decree-as-efficient-and-exemplary-cause
+              - s4_5_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-relationship-between-decree-and-foreknowledge
+              - s4_5_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-definite-and-intuitive-foreknowledge
+              - s4_5_2_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-foreknowledge-arising-from-the-decree
+              - s4_5_2_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-the-double-hypothetical-necessity-of-future-things
+              - s4_5_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#c-the-mode-of-decrees-in-god
+              - s4_5_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#d-various-distinctions-of-the-decree
+              - s4_5_4_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-division-into-providence-and-predestination
+              - s4_5_4_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-other-divisions-mentioned
+              - s4_5_4_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-the-nature-of-conditioned-decrees
+              - s4_5_4_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#4-the-distinction-of-god-s-will-will-of-sign-and-will-of-good-pleasure
+              - s4_5_4_4_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-the-will-of-sign-defined
+              - s4_5_4_4_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-will-of-good-pleasure-defined
+              - s4_5_4_4_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#c-their-non-contradiction
+              - s4_5_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#e-the-unity-of-the-decree-in-god
+              - s4_6: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#iv-the-decree-of-providence
+              - s4_6_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-definition-and-terminology
+              - s4_6_1_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-providence-and-its-greek-equivalents
+              - s4_6_1_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-term-fate-considered-and-rejected
+              - s4_6_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-object-of-the-decree-of-providence
+              - s4_6_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-creation-preservation-and-governance
+              - s4_6_2_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-relation-to-good-things-efficient-decree
+              - s4_6_2_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-relation-to-evil-things-sins-permissive-decree
+              - s4_6_2_3_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-the-mode-of-sin-s-subjection-to-the-decree
+              - s4_6_2_3_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-decree-as-permissive-yet-efficacious-in-governance
+              - s4_7: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#v-the-decree-of-predestination-in-general
+              - s4_7_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-definition-and-terminology
+              - s4_7_1_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-term-predestination-and-its-meaning
+              - s4_7_1_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-patristic-and-scholastic-usage
+              - s4_7_1_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-extension-to-include-both-election-and-reprobation
+              - s4_7_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-components-of-the-definition
+              - s4_7_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-object-rational-creatures-only
+              - s4_7_2_1_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-primary-intelligent-creatures
+              - s4_7_2_1_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-secondary-other-creatures-per-accidens
+              - s4_7_2_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-end-eternal-supernatural-state
+              - s4_7_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#c-the-manifestation-of-god-s-glory-through-predestination
+              - s4_7_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#d-the-division-of-predestination
+              - s4_8: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#vi-the-predestination-of-angels
+              - s4_8_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-definition
+              - s4_8_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-biblical-proof-of-angelic-predestination
+              - s4_8_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#c-the-election-of-angels
+              - s4_8_3_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-two-acts-preservation-from-fall-and-confirmation-in-good
+              - s4_8_3_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-medium-of-their-election
+              - s4_8_3_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-the-question-of-election-in-christ
+              - s4_8_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#d-the-reprobation-of-angels
+              - s4_8_4_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-two-acts-negation-of-confirmation-and-damnation
+              - s4_8_4_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-without-hope-of-grace
+              - s4_8_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#e-the-cause-of-angelic-election-and-reprobation
+              - s4_8_5_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-supreme-cause-god-s-good-pleasure
+              - s4_8_5_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-respect-to-sin-in-the-second-act-of-reprobation
+              - s4_9: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#vii-the-predestination-of-humans
+              - s4_9_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-definition-and-terminology
+              - s4_9_1_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-definition-stated
+              - s4_9_1_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-synonymous-terms-in-scripture
+              - s4_9_1_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-the-proximate-and-remote-genus
+              - s4_9_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-efficient-cause-god
+              - s4_9_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#c-the-moving-cause-god-s-good-pleasure
+              - s4_9_3_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-free-will-of-god
+              - s4_9_3_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-wisdom-of-the-counsel
+              - s4_9_3_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-the-justice-and-goodness-of-god-s-good-pleasure
+              - s4_9_3_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#4-the-supreme-cause-excluding-all-external-causes
+              - s4_9_3_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#5-the-final-cause-included-in-god-s-good-pleasure
+              - s4_9_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#d-the-material-cause-humans-considered-as-fallen
+              - s4_9_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#e-the-formal-cause-destination-to-eternal-state
+              - s4_9_5_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-destination-to-end-and-means
+              - s4_9_5_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-universal-and-particular-predestination
+              - s4_9_5_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-predestination-of-individuals
+              - s4_9_6: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#f-the-final-cause-of-predestination
+              - s4_9_6_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-supreme-end-declaration-of-god-s-glory
+              - s4_9_6_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-subordinate-end-eternal-state-of-humans
+              - s4_9_7: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#g-the-division-into-election-and-reprobation
+              - s4_9_7_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-division-adequate-to-its-subject
+              - s4_9_7_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-no-third-class-of-neutrals
+              - s4_10: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#viii-the-doctrine-of-election
+              - s4_10_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-definition-and-terminology
+              - s4_10_1_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-homonymy-of-the-term-election
+              - s4_10_1_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-various-significations-in-scripture
+              - s4_10_1_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-synonymous-terms
+              - s4_10_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-efficient-cause-the-triune-god
+              - s4_10_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#c-the-twofold-act-of-election
+              - s4_10_3_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-first-decree-to-show-mercy-to-some-unto-salvation
+              - s4_10_3_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-second-decree-to-lead-them-through-certain-means
+              - s4_10_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#d-the-moving-cause-god-s-good-pleasure-not-foreseen-conditions
+              - s4_10_4_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-election-gratuitous-in-both-acts
+              - s4_10_4_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-god-as-absolute-lord-in-election
+              - s4_10_4_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-god-as-just-judge-regarding-the-second-act
+              - s4_10_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#e-the-material-cause-not-all-but-some-humans
+              - s4_10_5_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-election-as-choosing-some-from-all
+              - s4_10_5_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-definite-number-of-the-elect
+              - s4_10_6: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#f-the-formal-cause-of-election
+              - s4_10_6_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-segregation-from-others
+              - s4_10_6_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-destination-to-salvation-and-means-of-salvation
+              - s4_10_7: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#g-christ-s-ingression-into-the-decree-of-election
+              - s4_10_7_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-christ-as-mediator-the-first-and-supreme-medium
+              - s4_10_7_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-christ-himself-elected-as-mediator
+              - s4_10_8: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#h-other-media-of-election-preordained
+              - s4_10_9: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#i-the-end-of-election
+              - s4_10_9_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-supreme-end-god-s-glory
+              - s4_10_9_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-subaltern-end
+              - s4_10_10: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#j-the-effects-of-election
+              - s4_10_11: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#k-the-certainty-of-the-elect-concerning-their-election
+              - s4_10_12: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#l-the-adjuncts-of-election
+              - s4_10_12_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-eternity
+              - s4_10_12_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-immutability
+              - s4_10_12_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-supreme-liberty
+              - s4_11: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#ix-the-doctrine-of-reprobation
+              - s4_11_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-definition-and-terminology
+              - s4_11_1_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-synonyms-for-reprobation
+              - s4_11_1_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-metonymical-usage-in-scripture
+              - s4_11_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-the-efficient-cause-god
+              - s4_11_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-biblical-testimony
+              - s4_11_2_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-from-the-nature-of-relation-to-election
+              - s4_11_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#c-the-acts-of-god-in-reprobation
+              - s4_11_3_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-first-decree-not-to-show-mercy-but-to-destine-to-destruction
+              - s4_11_3_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-second-subordination-of-means-to-this-end
+              - s4_11_3_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-common-distinction-negative-privative-and-affirmative-positive-acts
+              - s4_11_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#d-the-moving-cause-of-reprobation
+              - s4_11_4_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-partly-god-s-good-pleasure
+              - s4_11_4_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-partly-the-sin-of-the-reprobate
+              - s4_11_4_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-the-dual-aspect-of-god-s-action
+              - s4_11_4_3_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-god-as-absolute-lord
+              - s4_11_4_3_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-god-as-just-judge
+              - s4_11_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#e-the-material-cause-those-whom-god-hates
+              - s4_11_6: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#f-the-formal-cause-of-reprobation
+              - s4_11_6_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-rejection-in-the-election-of-others
+              - s4_11_6_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-preterition-in-preparation-of-glory-and-grace
+              - s4_11_6_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-preterition-in-preparation-of-glory
+              - s4_11_6_2_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-preterition-in-preparation-of-grace
+              - s4_11_6_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-destination-to-destruction
+              - s4_11_6_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#4-subordination-of-means-to-this-end
+              - s4_11_7: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#g-the-media-means-of-reprobation
+              - s4_11_8: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#h-the-end-of-reprobation
+              - s4_11_8_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-the-supreme-end-god-s-glory
+              - s4_11_8_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-the-subaltern-end
+              - s4_11_8_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-respect-to-the-elect
+              - s4_11_8_2_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-respect-to-the-reprobate-just-damnation
+              - s4_11_9: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#i-the-effects-consequents-of-reprobation
+              - s4_11_9_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-reliction-or-desertion-in-sins
+              - s4_11_9_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-retention-of-guilt
+              - s4_11_9_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-blinding-and-hardening
+              - s4_11_9_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#4-obstinate-unbelief
+              - s4_11_9_5: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#5-damnation-of-the-reprobate
+              - s4_11_10: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#j-concerning-reprobation-nothing-certain-can-be-determined-before-death
+              - s4_11_11: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#k-the-adjuncts-of-reprobation
+              - s4_11_11_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#1-eternity
+              - s4_11_11_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#2-immutability
+              - s4_11_11_2_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-double-necessity-following-the-reprobate
+              - s4_11_11_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#3-supreme-liberty
+              - s4_12: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#x-practical-application-of-the-doctrine
+              - s4_12_1: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#a-for-teaching-ad-διδασκαλίαν
+              - s4_12_2: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#b-for-instruction-ad-παιδείαν
+              - s4_12_3: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#c-for-correction-ad-ἐπανόρθωσιν
+              - s4_12_4: https://confessionallyreformed.wordpress.com/2025/12/27/johann-heinrich-alting-c-1583-1644-on-the-decrees-of-god-and-especially-that-which-is-commonly-called-predestination/#d-for-consolation-ad-παράκλησιν
+              - s5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#the-fifth-locusconcerningcreation
+              - s5_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#introduction-transition-from-decree-to-execution-of-god-s-works
+              - s5_1_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-definition-of-the-works-of-nature
+              - s5_1_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-definition-of-the-works-of-creation
+              - s5_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#exegesis
+              - s5_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#i-the-temporal-execution-corresponding-to-the-eternal-decree
+              - s5_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#ii-the-distinction-between-works-of-nature-and-works-of-grace
+              - s5_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#iii-creation-as-the-first-work-of-nature
+              - s5_5_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-creation-as-proper-knowledge-and-appellation-of-the-church
+              - s5_5_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-the-homonymy-of-the-term-creation
+              - s5_6: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#iv-the-efficient-cause-of-creation-god
+              - s5_6_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-biblical-testimony-of-god-as-creator
+              - s5_6_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-god-as-the-sole-creator
+              - s5_6_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#c-creation-according-to-the-three-persons-of-the-deity
+              - s5_7: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#v-the-moving-cause-of-creation
+              - s5_8: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#vi-the-mode-of-creation
+              - s5_9: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#vii-the-material-cause-of-creation-none
+              - s5_10: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#viii-the-formal-cause-of-creation
+              - s5_11: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#ix-the-final-cause-of-creation
+              - s5_12: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#x-the-effects-of-creation-the-works-of-creation-themselves
+              - s5_13: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xi-the-works-of-the-first-day
+              - s5_13_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-the-three-works-of-the-first-day
+              - s5_13_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-the-first-work-the-supreme-heaven-with-the-angels
+              - s5_13_2_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#1-identification-of-the-supreme-heaven
+              - s5_13_2_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#2-proof-from-scripture
+              - s5_13_2_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#3-the-supreme-heaven-as-first-in-creation
+              - s5_13_2_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#4-the-matter-from-which-none
+              - s5_13_2_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#5-the-matter-of-which-corporeal-substance
+              - s5_13_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#c-the-angels
+              - s5_13_3_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#1-the-name-angels-from-ministry
+              - s5_13_3_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#2-the-time-of-angelic-creation
+              - s5_13_3_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#3-moses-account-of-creation
+              - s5_13_3_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#4-the-qualities-of-angels
+              - s5_13_3_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#5-the-endowments-of-angels
+              - s5_13_3_6: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#6-the-number-of-angels-very-great-but-not-defined
+              - s5_13_3_7: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#7-the-habitation-of-angels-the-supreme-heaven
+              - s5_13_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#d-the-second-work-chaos
+              - s5_13_4_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#1-the-rude-and-undigested-mass
+              - s5_13_4_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#2-moses-designation-earth-materially
+              - s5_13_4_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#3-the-description-of-chaos
+              - s5_13_4_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#4-the-nature-of-chaos
+              - s5_13_4_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#5-chaos-as-first-matter
+              - s5_13_4_6: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#6-the-permanence-of-first-matter
+              - s5_13_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#e-the-third-work-light
+              - s5_14: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xii-the-works-of-the-second-day
+              - s5_14_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-the-two-works-of-the-second-day
+              - s5_14_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-the-firmament
+              - s5_14_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#c-the-division-of-the-waters
+              - s5_14_3_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#1-the-superior-waters
+              - s5_14_3_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#2-the-inferior-waters
+              - s5_15: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xiii-the-works-of-the-third-day
+              - s5_15_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-the-three-works-of-the-third-day
+              - s5_15_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-the-collection-of-the-inferior-waters
+              - s5_15_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#c-the-drying-of-the-earth
+              - s5_15_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#d-the-germination-of-the-earth
+              - s5_16: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xiv-the-work-of-the-fourth-day
+              - s5_16_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-the-creation-of-luminaries-in-the-firmament
+              - s5_16_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-not-from-nothing-but-from-the-original-light
+              - s5_16_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#c-the-threefold-use-of-luminaries
+              - s5_16_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#d-the-motion-of-luminaries
+              - s5_16_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#e-the-distribution-of-luminaries
+              - s5_17: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xv-the-work-of-the-fifth-day
+              - s5_18: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xvi-the-work-of-the-sixth-day
+              - s5_18_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-the-creation-of-terrestrial-animals-and-man
+              - s5_18_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-the-terrestrial-animals
+              - s5_18_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#c-man-the-last-and-most-excellent-work
+              - s5_18_3_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#1-man-as-microcosm
+              - s5_18_3_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#2-the-double-sex-of-man
+              - s5_18_3_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#3-the-body-of-the-male
+              - s5_18_3_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#4-the-body-of-the-female
+              - s5_18_3_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#5-the-soul-of-man
+              - s5_18_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#d-the-peculiarity-man-created-in-the-image-and-likeness-of-god
+              - s5_18_4_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#1-image-and-likeness-as-synonyms
+              - s5_18_4_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#2-definition-of-the-image-of-god
+              - s5_18_4_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#3-the-image-in-the-soul
+              - s5_18_4_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#4-the-image-in-the-body
+              - s5_18_4_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#5-the-image-in-both-together
+              - s5_18_4_6: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#6-the-finite-character-of-man-s-representation
+              - s5_18_4_7: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#7-original-justice-as-part-of-the-image
+              - s5_18_5: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#e-the-external-state-of-the-first-man
+              - s5_18_5_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#1-marriage
+              - s5_18_5_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#2-habitation-paradise-the-tree-of-life-of-knowledge
+              - s5_18_6: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#f-the-sabbath
+              - s5_19: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xvii-the-subject-of-creation
+              - s5_20: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xviii-the-adjuncts-of-creation
+              - s5_21: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#xix-practical-application-of-the-doctrine
+              - s5_21_1: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#a-for-teaching-ad-διδασκαλίαν
+              - s5_21_2: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#b-for-instruction-ad-παιδείαν
+              - s5_21_3: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#c-for-correction-ad-επανόρθωσιν
+              - s5_21_4: https://confessionallyreformed.wordpress.com/2025/12/28/johann-heinrich-alting-c-1583-1644-on-creation/#d-for-consolation-ad-παράκλησιν
+              - s6: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#vi-the-use-and-application-of-this-doctrine
+              - s6_1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#a-for-teaching-διδασκαλίαν-didaskalian
+              - s6_2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#b-for-correction-παιδείαν-paideian
+              - s6_3: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#c-for-reproof-ἐπανόρθωσιν-epanorthosin
+              - s6_4: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-god/#d-for-consolation-παράκλησιν-paraklesin

@@ -9,20 +9,439 @@ alsted-lexicon:
   en:
     title: Theological Lexicon
     sections:
-      - ch1: "Chapter 1: On Theology"
-        loci: theology
-      - ch7: "Chapter 7: On Ecstasy, Specters, Chance, Dreams"
-      - works-of-god: On the Works of God
-        loci: works-of-god
-      - names-of-god: On the Names of God
-        loci: names-of-god
+      - s1: "CHAPTER I: ON THEOLOGY"
+        sections:
+          - s1_1: "I. ON THEOLOGY"
+            sections:
+              - s1_1_1: "A. The Definition of Theology"
+              - s1_1_2: "B. The Etymology and Attestation of the Word “Theology”"
+                sections:
+                  - s1_1_2_1: "1. Divine Attestation"
+                  - s1_1_2_2: "2. Human Attestation"
+                    sections:
+                      - s1_1_2_2_1: "a. Among Sacred Authors"
+                        sections:
+                          - s1_1_2_2_1_1: "(1) Among the Greek Fathers"
+                          - s1_1_2_2_1_2: "(2) Among the Latin Fathers"
+                      - s1_1_2_2_2: "b. Among Profane Authors"
+                        sections:
+                          - s1_1_2_2_2_1: "(1) Among the Greek Philosophers"
+                          - s1_1_2_2_2_2: "(2) Among the Latin Authors"
+              - s1_1_3: "D. A Digression on the Names of the Disciplines"
+              - s1_1_4: "E. The Object of Theology"
+                sections:
+                  - s1_1_4_1: "1. The Objection Concerning the Adequate Object"
+                  - s1_1_4_2: "2. The Response: God in the Direct and Oblique Case"
+              - s1_1_5: "F. Words Derived from “Theologian”"
+                sections:
+                  - s1_1_5_1: "1. Theological"
+                  - s1_1_5_2: "2. To Theologize"
+                  - s1_1_5_3: "3. Things Theologized"
+                  - s1_1_5_4: "4. A Grammatical Rule on Verbal Compounds"
+              - s1_1_6: "G. Hebrew Names for the Sciences"
+              - s1_1_7: "H. Other Names for Theology"
+              - s1_1_8: "I. The Twofold Signification of the Name “Theology”"
+              - s1_1_9: "J. The Various Kinds of Theology by Mode of Treatment"
+              - s1_1_10: "K. True and False Theology"
+              - s1_1_11: "L. Archetypal and Ectypal Theology"
+                sections:
+                  - s1_1_11_1: "1. Archetypal or Prototypal Theology"
+                  - s1_1_11_2: "2. Ectypal Theology"
+                    sections:
+                      - s1_1_11_2_1: "a. Its Definition: The Expressed Image"
+                      - s1_1_11_2_2: "b. The Modes of Communication"
+              - s1_1_12: "M. The Unity and Multiplicity of Theology"
+              - s1_1_13: "N. Theology Considered in Various States"
+              - s1_1_14: "O. The Broad and Strict Acceptation of the Word “Theology”"
+                sections:
+                  - s1_1_14_1: "1. Broadly Accepted: Including Sacred Scripture"
+                  - s1_1_14_2: "2. Strictly Accepted: A Methodical System"
+              - s1_1_15: "P. The Question: Whether Theology is Theoretical, Practical, or Mixed"
+          - s1_2: "II. ON SACRED SCRIPTURE"
+            sections:
+              - s1_2_1: "A. The Greek Names for Sacred Scripture"
+              - s1_2_2: "B. The Name “Bible”"
+              - s1_2_3: "C. The Word of God Defined"
+                sections:
+                  - s1_2_3_1: "1. Unwritten and Written Tradition"
+                  - s1_2_3_2: "2. Written Word"
+          - s1_3: "III. ON THE SENSE OF SCRIPTURE"
+            sections:
+              - s1_3_1: "A. The Twofold Sense According to the Ancient Theologians"
+              - s1_3_2: "B. The Literal or Grammatical Sense"
+              - s1_3_3: "C. The Spiritual Sense"
+              - s1_3_4: "D. Bellarmine’s Division of the Literal Sense"
+              - s1_3_5: "E. The Tropical or Figurative Sense"
+              - s1_3_6: "F. The Rule for Recourse to Tropes"
+              - s1_3_7: "G. The Origin of This Doctrine from the Cabbalists and Talmudists"
+          - s1_4: "IV. ON ALLEGORIES"
+            sections:
+              - s1_4_1: "A. Of the Occasion of the Allegorical Sense"
+              - s1_4_2: "B. The Origin of the Term from the Rhetoricians"
+              - s1_4_3: "C. The Relation of Allegory to Parable"
+              - s1_4_4: "D. The Definition of Allegory"
+              - s1_4_5: "E. The Species of Allegory"
+                sections:
+                  - s1_4_5_1: "1. According to the Rhetoricians"
+                  - s1_4_5_2: "2. Other Species of Allegory"
+                  - s1_4_5_3: "3. Augustine’s Fourfold Allegory"
+              - s1_4_6: "H. The Causes of the Allegorical Sense"
+              - s1_4_7: "I. The Place of the Allegorical Sense"
+                sections:
+                  - s1_4_7_1: "1. The Place is Twofold: Necessity or Utility"
+                  - s1_4_7_2: "2. A Rule Concerning Allegory in Histories"
+              - s1_4_8: "L. The Manifold Utility of Allegories"
+              - s1_4_9: "N. The Division of Allegory"
+                sections:
+                  - s1_4_9_1: "1. Profane Allegory"
+                  - s1_4_9_2: "2. Historical and Anagogical Fable-Allegory"
+                  - s1_4_9_3: "3. The Threefold Division of Later Authors (per Caelius)"
+                    sections:
+                      - s1_4_9_3_1: "a. Physical Allegory"
+                      - s1_4_9_3_2: "b. Ethical Allegory (Tropology)"
+                      - s1_4_9_3_3: "c. Anagogical Allegory (Theological)"
+              - s1_4_10: "O. Theological Allegories Properly So-Called"
+                sections:
+                  - s1_4_10_1: "1. True Sought Allegories"
+                  - s1_4_10_2: "2. False and Absurd Sought Allegories"
+          - s1_5: "V. ON TRADITIONS OPPOSED TO SACRED SCRIPTURE"
+            sections:
+              - s1_5_1: "A. The Term “Traditions”"
+              - s1_5_2: "B. The Definition of Traditions"
+              - s1_5_3: "C. The Divisions of Traditions"
+                sections:
+                  - s1_5_3_1: "1. The First Division: Ecclesiastical and Political"
+                  - s1_5_3_2: "2. The Second Division: Adiaphorous and Openly Impious"
+                  - s1_5_3_3: "3. The Third Division: Good, Evil, and Indifferent"
+                  - s1_5_3_4: "4. The Fourth Division: Concerning Ceremonies and Morals"
+                  - s1_5_3_5: "5. The Fifth Division: Unwritten and Written"
+              - s1_5_4: "D. Corollaries"
+          - s1_6: "VI. ON THE PARTITION OF SACRED SCRIPTURE"
+            sections:
+              - s1_6_1: "A. The Canonical Books of the Old Testament"
+                sections:
+                  - s1_6_1_1: "1. The Number Twenty-Two According to the Hebrews"
+                  - s1_6_1_2: "2. The Number Twenty-Four According to Some"
+              - s1_6_2: "B. The Fourfold Hebrew Classification"
+                sections:
+                  - s1_6_2_1: "1. The First Class: Torah (The Law)"
+                  - s1_6_2_2: "2. The Second Class: Former Prophets"
+                  - s1_6_2_3: "3. The Third Class: Latter Prophets"
+                  - s1_6_2_4: "4. The Fourth Class: The Writings (Hagiographa)"
+              - s1_6_3: "C. The Explanation of the Count of Twenty-Two"
+              - s1_6_4: "D. The Apocryphal Books"
+                sections:
+                  - s1_6_4_1: "1. The Etymology of “Apocrypha”"
+                  - s1_6_4_2: "2. The Definition of Apocryphal"
+              - s1_6_5: "E. The Hebrew Manner of Inscribing Canonical Books"
+                sections:
+                  - s1_6_5_1: "1. From Persons"
+                  - s1_6_5_2: "2. From Things or Principal Actions"
+                  - s1_6_5_3: "3. From Initial Words"
+              - s1_6_6: "F. The Books of the New Testament"
+                sections:
+                  - s1_6_6_1: "1. Exegetical Books"
+                  - s1_6_6_2: "2. Dogmatic Books"
+                  - s1_6_6_3: "3. A Clarification on Universal Doctrine"
+                  - s1_6_6_4: "4. A Grammatical Rule on Citing Epistles"
+          - s1_7: "VII. ON THE TWOFOLD BOOK OF NATURE AND SCRIPTURE"
+          - s1_8: "VIII. ON CATECHESIS"
+            sections:
+              - s1_8_1: "A. The Greek Word and Its Signification and Etymology"
+              - s1_8_2: "B. The Significations of the Verb “to Catechize”"
+              - s1_8_3: "C. Related Terms"
+              - s1_8_4: "D. The Definition of Catechesis"
+              - s1_8_5: "E. Erasmus on Ancient Catechesis"
+          - s1_9: "IX. ON RELIGION"
+            sections:
+              - s1_9_1: "A. The Proper Signification of Religion"
+              - s1_9_2: "B. The Etymology of Religion"
+                sections:
+                  - s1_9_2_1: "1. Cicero’s Derivation: From “Relegere” (To Re-read)"
+                  - s1_9_2_2: "2. Lactantius’s Derivation: From “Religare” (To Bind)"
+                  - s1_9_2_3: "3. Others’ Derivation: From “Relinquere” (To Leave Behind)"
+              - s1_9_3: "C. Other Names for Religion"
+              - s1_9_4: "D. Greek Names for Religion"
+              - s1_9_5: "E. The Inept Distinction of Latreia and Douleia"
+              - s1_9_6: "F. The Proper Distinction: Religious vs. Civil Worship"
+              - s1_9_7: "G. The Etymology of Latreia"
+              - s1_9_8: "H. What is Opposed to Religion as a Virtue"
+                sections:
+                  - s1_9_8_1: "1. In Excess: Superstition"
+                  - s1_9_8_2: "2. In Defect: Irreligiosity"
+              - s1_9_9: "I. The Subject Matter of Religion, Catechesis, and Theology"
+              - s1_9_10: "J. Transition: To Treat These Objects in Order"
+      - s3: "CHAPTER III: Concerning the actions of God:"
+        sections:
+          - s3_1: "Elaboration (Evolutio)"
+          - s3_2: "Concerningthe Decree"
+          - s3_3: "ConcerningProvidence"
+          - s3_4: "ConcerningPredestination"
+          - s3_5: "ConcerningElection"
+          - s3_6: "ConcerningReprobation"
+      - s7: "CHAPTER VII: Concerning Ecstasy, Specters, Chance, and Dreams"
+        sections:
+          - s7_1: "I. CONCERNING ECSTASY"
+            sections:
+              - s7_1_1: "A. The Definition of Ecstasy"
+                sections:
+                  - s7_1_1_1: "1. Etymology and General Meaning"
+                  - s7_1_1_2: "2. Synecdochical Usage for Mental Emotion"
+                    sections:
+                      - s7_1_1_2_1: "a. Ecstasy as Madness"
+                      - s7_1_1_2_2: "b. Ecstasy as Rapture of the Soul"
+                      - s7_1_1_2_3: "c. Ecstasy as Astonishment"
+                      - s7_1_1_2_4: "d. Ecstasy as Mixed Astonishment and Fear"
+                  - s7_1_1_3: "3. Derivation from the Verb ἐξίστημι"
+              - s7_1_2: "B. The Description of Ecstatics"
+              - s7_1_3: "C. The Threefold Division of Ecstasy"
+                sections:
+                  - s7_1_3_1: "1. Natural Ecstasy"
+                  - s7_1_3_2: "2. Divine Ecstasy"
+                  - s7_1_3_3: "3. Diabolical Ecstasy"
+          - s7_2: "II. CONCERNING SPECTERS"
+            sections:
+              - s7_2_1: "A. Introduction: Scripture’s Mention of Apparitions"
+              - s7_2_2: "B. Terminology"
+              - s7_2_3: "C. The Fourfold Classification of Apparitions"
+                sections:
+                  - s7_2_3_1: "1. Natural Phenomena in the Air"
+                  - s7_2_3_2: "2. Apparitions According to Human Opinion"
+                  - s7_2_3_3: "3. True Apparitions in Sleep"
+                    sections:
+                      - s7_2_3_3_1: "a. Examples from Tragedy and History"
+                      - s7_2_3_3_2: "b. Tyrants Afflicted by Avenging Spirits"
+                      - s7_2_3_3_3: "c. The Fivefold Division of Dream-Visions"
+                        sections:
+                          - s7_2_3_3_3_1: "(1) Ὄνειρον [Dream]: Figurative Dreams Requiring Interpretation"
+                          - s7_2_3_3_3_2: "(2) Ὅραμα [Vision]: Simple Visions"
+                          - s7_2_3_3_3_3: "(3) Χρηματισμός [Oracle]: Divine Revelations"
+                          - s7_2_3_3_3_4: "(4) Ἐνύπνιον [Sleep-Vision]: Natural Dreams from Complexion and Occupation"
+                          - s7_2_3_3_3_5: "(5) Φάντασμα [Apparition]: Images in the First Mist of Sleep"
+                      - s7_2_3_3_4: "d. The Differences Among Apparitions"
+                  - s7_2_3_4: "4. True Specters Appearing to the Wakeful"
+          - s7_3: "III. CONCERNING CHANCE AND FORTUNE"
+            sections:
+              - s7_3_1: "A. The Stoic Doctrine of Fate"
+              - s7_3_2: "B. The Epicurean Doctrine of Fortune and Chance"
+                sections:
+                  - s7_3_2_1: "1. Acceptance by Pagan Philosophers"
+                  - s7_3_2_2: "2. Pittacus’s Ladder of Fortune"
+                  - s7_3_2_3: "3. The Poets’ Celebration of Fortune as a Goddess"
+                  - s7_3_2_4: "4. The Connection Between Polytheism and Fortune-Worship"
+              - s7_3_3: "C. The Peripatetic Distinction"
+                sections:
+                  - s7_3_3_1: "1. Fortune: Accidental Cause in Voluntary Agents"
+                  - s7_3_3_2: "2. Chance: Accidental Cause in Natural Agents"
+              - s7_3_4: "D. The Christian Rejection of Fortune and Chance"
+                sections:
+                  - s7_3_4_1: "1. What Is Impious to Believe Is Impious to Speak"
+                  - s7_3_4_2: "2. The Common Error of Attributing Things to Blind Fortune"
+                  - s7_3_4_3: "3. Augustine’s Correction"
+                  - s7_3_4_4: "4. Basil’s Royal Sentence"
+                  - s7_3_4_5: "5. Hesiod’s Testimony Among the Sounder Pagans"
+          - s7_4: "IV. CONCERNING DREAMS"
+            sections:
+              - s7_4_1: "A. The Threefold Classification of Dreams"
+              - s7_4_2: "B. Terminological Distinctions"
+              - s7_4_3: "C. The Non-Perpetual Nature of These Distinctions"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - ch1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/
               - ch7: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/
               - works-of-god: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-works-actions-of-god/
               - names-of-god: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-names-of-god/
+
+              - s1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#chapter-i-on-theology
+              - s1_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#i-on-theology
+              - s1_1_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-the-definition-of-theology
+              - s1_1_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-etymology-and-attestation-of-the-word-theology
+              - s1_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-divine-attestation
+              - s1_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-human-attestation
+              - s1_1_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-among-sacred-authors
+              - s1_1_2_2_1_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-among-the-greek-fathers
+              - s1_1_2_2_1_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-among-the-latin-fathers
+              - s1_1_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-among-profane-authors
+              - s1_1_2_2_2_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-among-the-greek-philosophers
+              - s1_1_2_2_2_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-among-the-latin-authors
+              - s1_1_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#d-a-digression-on-the-names-of-the-disciplines
+              - s1_1_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#e-the-object-of-theology
+              - s1_1_4_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-the-objection-concerning-the-adequate-object
+              - s1_1_4_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-the-response-god-in-the-direct-and-oblique-case
+              - s1_1_5: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#f-words-derived-from-theologian
+              - s1_1_5_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-theological
+              - s1_1_5_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-to-theologize
+              - s1_1_5_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#3-things-theologized
+              - s1_1_5_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#4-a-grammatical-rule-on-verbal-compounds
+              - s1_1_6: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#g-hebrew-names-for-the-sciences
+              - s1_1_7: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#h-other-names-for-theology
+              - s1_1_8: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#i-the-twofold-signification-of-the-name-theology
+              - s1_1_9: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#j-the-various-kinds-of-theology-by-mode-of-treatment
+              - s1_1_10: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#k-true-and-false-theology
+              - s1_1_11: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#l-archetypal-and-ectypal-theology
+              - s1_1_11_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-archetypal-or-prototypal-theology
+              - s1_1_11_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-ectypal-theology
+              - s1_1_11_2_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-its-definition-the-expressed-image
+              - s1_1_11_2_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-modes-of-communication
+              - s1_1_12: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#m-the-unity-and-multiplicity-of-theology
+              - s1_1_13: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#n-theology-considered-in-various-states
+              - s1_1_14: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#o-the-broad-and-strict-acceptation-of-the-word-theology
+              - s1_1_14_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-broadly-accepted-including-sacred-scripture
+              - s1_1_14_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-strictly-accepted-a-methodical-system
+              - s1_1_15: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#p-the-question-whether-theology-is-theoretical-practical-or-mixed
+              - s1_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#ii-on-sacred-scripture
+              - s1_2_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-the-greek-names-for-sacred-scripture
+              - s1_2_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-name-bible
+              - s1_2_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#c-the-word-of-god-defined
+              - s1_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-unwritten-and-written-tradition
+              - s1_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-written-word
+              - s1_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#iii-on-the-sense-of-scripture
+              - s1_3_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-the-twofold-sense-according-to-the-ancient-theologians
+              - s1_3_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-literal-or-grammatical-sense
+              - s1_3_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#c-the-spiritual-sense
+              - s1_3_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#d-bellarmine-s-division-of-the-literal-sense
+              - s1_3_5: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#e-the-tropical-or-figurative-sense
+              - s1_3_6: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#f-the-rule-for-recourse-to-tropes
+              - s1_3_7: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#g-the-origin-of-this-doctrine-from-the-cabbalists-and-talmudists
+              - s1_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#iv-on-allegories
+              - s1_4_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-of-the-occasion-of-the-allegorical-sense
+              - s1_4_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-origin-of-the-term-from-the-rhetoricians
+              - s1_4_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#c-the-relation-of-allegory-to-parable
+              - s1_4_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#d-the-definition-of-allegory
+              - s1_4_5: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#e-the-species-of-allegory
+              - s1_4_5_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-according-to-the-rhetoricians
+              - s1_4_5_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-other-species-of-allegory
+              - s1_4_5_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#3-augustine-s-fourfold-allegory
+              - s1_4_6: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#h-the-causes-of-the-allegorical-sense
+              - s1_4_7: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#i-the-place-of-the-allegorical-sense
+              - s1_4_7_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-the-place-is-twofold-necessity-or-utility
+              - s1_4_7_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-a-rule-concerning-allegory-in-histories
+              - s1_4_8: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#l-the-manifold-utility-of-allegories
+              - s1_4_9: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#n-the-division-of-allegory
+              - s1_4_9_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-profane-allegory
+              - s1_4_9_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-historical-and-anagogical-fable-allegory
+              - s1_4_9_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#3-the-threefold-division-of-later-authors-per-caelius
+              - s1_4_9_3_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-physical-allegory
+              - s1_4_9_3_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-ethical-allegory-tropology
+              - s1_4_9_3_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#c-anagogical-allegory-theological
+              - s1_4_10: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#o-theological-allegories-properly-so-called
+              - s1_4_10_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-true-sought-allegories
+              - s1_4_10_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-false-and-absurd-sought-allegories
+              - s1_5: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#v-on-traditionsopposed-to-sacred-scripture
+              - s1_5_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-the-term-traditions
+              - s1_5_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-definition-of-traditions
+              - s1_5_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#c-the-divisions-of-traditions
+              - s1_5_3_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-the-first-division-ecclesiastical-and-political
+              - s1_5_3_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-the-second-division-adiaphorous-and-openly-impious
+              - s1_5_3_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#3-the-third-division-good-evil-and-indifferent
+              - s1_5_3_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#4-the-fourth-division-concerning-ceremonies-and-morals
+              - s1_5_3_5: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#5-the-fifth-division-unwritten-and-written
+              - s1_5_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#d-corollaries
+              - s1_6: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#vi-on-the-partitionof-sacred-scripture
+              - s1_6_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-the-canonical-books-of-the-old-testament
+              - s1_6_1_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-the-number-twenty-two-according-to-the-hebrews
+              - s1_6_1_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-the-number-twenty-four-according-to-some
+              - s1_6_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-fourfold-hebrew-classification
+              - s1_6_2_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-the-first-class-torah-the-law
+              - s1_6_2_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-the-second-class-former-prophets
+              - s1_6_2_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#3-the-third-class-latter-prophets
+              - s1_6_2_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#4-the-fourth-class-the-writings-hagiographa
+              - s1_6_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#c-the-explanation-of-the-count-of-twenty-two
+              - s1_6_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#d-the-apocryphal-books
+              - s1_6_4_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-the-etymology-of-apocrypha
+              - s1_6_4_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-the-definition-of-apocryphal
+              - s1_6_5: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#e-the-hebrew-manner-of-inscribing-canonical-books
+              - s1_6_5_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-from-persons
+              - s1_6_5_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-from-things-or-principal-actions
+              - s1_6_5_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#3-from-initial-words
+              - s1_6_6: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#f-the-books-of-the-new-testament
+              - s1_6_6_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-exegetical-books
+              - s1_6_6_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-dogmatic-books
+              - s1_6_6_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#3-a-clarification-on-universal-doctrine
+              - s1_6_6_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#4-a-grammatical-rule-on-citing-epistles
+              - s1_7: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#vii-on-the-twofoldbook-of-nature-and-scripture
+              - s1_8: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#viii-on-catechesis
+              - s1_8_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-the-greek-word-and-its-signification-and-etymology
+              - s1_8_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-significations-of-the-verb-to-catechize
+              - s1_8_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#c-related-terms
+              - s1_8_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#d-the-definition-of-catechesis
+              - s1_8_5: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#e-erasmus-on-ancient-catechesis
+              - s1_9: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#ix-on-religion
+              - s1_9_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#a-the-proper-signification-of-religion
+              - s1_9_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#b-the-etymology-of-religion
+              - s1_9_2_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-cicero-s-derivation-from-relegere-to-re-read
+              - s1_9_2_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-lactantius-s-derivation-from-religare-to-bind
+              - s1_9_2_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#3-others-derivation-from-relinquere-to-leave-behind
+              - s1_9_3: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#c-other-names-for-religion
+              - s1_9_4: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#d-greek-names-for-religion
+              - s1_9_5: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#e-the-inept-distinction-of-latreia-and-douleia
+              - s1_9_6: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#f-the-proper-distinction-religious-vs-civil-worship
+              - s1_9_7: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#g-the-etymology-of-latreia
+              - s1_9_8: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#h-what-is-opposed-to-religion-as-a-virtue
+              - s1_9_8_1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#1-in-excess-superstition
+              - s1_9_8_2: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#2-in-defect-irreligiosity
+              - s1_9_9: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#i-the-subject-matter-of-religion-catechesis-and-theology
+              - s1_9_10: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/#j-transition-to-treat-these-objects-in-order
+              - s3: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-works-actions-of-god/
+              - s3_1: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-works-actions-of-god/#elaboration-evolutio
+              - s3_2: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-works-actions-of-god/#concerning-the-decree
+              - s3_3: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-works-actions-of-god/#concerning-providence
+              - s3_4: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-works-actions-of-god/#concerning-predestination
+              - s3_5: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-works-actions-of-god/#concerning-election
+              - s3_6: https://confessionallyreformed.wordpress.com/2025/04/18/johann-heinrich-alsted-c-1638-on-the-works-actions-of-god/#concerning-reprobation
+              - s7: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#chapter-vii-concerning-ecstasy-specters-chance-and-dreams
+              - s7_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#i-concerning-ecstasy
+              - s7_1_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#a-the-definition-of-ecstasy
+              - s7_1_1_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#1-etymology-and-general-meaning
+              - s7_1_1_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#2-synecdochical-usage-for-mental-emotion
+              - s7_1_1_2_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#a-ecstasy-as-madness
+              - s7_1_1_2_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#b-ecstasy-as-rapture-of-the-soul
+              - s7_1_1_2_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#c-ecstasy-as-astonishment
+              - s7_1_1_2_4: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#d-ecstasy-as-mixed-astonishment-and-fear
+              - s7_1_1_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#3-derivation-from-the-verb-ἐξίστημι
+              - s7_1_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#b-the-description-of-ecstatics
+              - s7_1_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#c-the-threefold-division-of-ecstasy
+              - s7_1_3_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#1-natural-ecstasy
+              - s7_1_3_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#2-divine-ecstasy
+              - s7_1_3_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#3-diabolical-ecstasy
+              - s7_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#ii-concerning-specters
+              - s7_2_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#a-introduction-scripture-s-mention-of-apparitions
+              - s7_2_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#b-terminology
+              - s7_2_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#c-the-fourfold-classification-of-apparitions
+              - s7_2_3_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#1-natural-phenomena-in-the-air
+              - s7_2_3_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#2-apparitions-according-to-human-opinion
+              - s7_2_3_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#3-true-apparitions-in-sleep
+              - s7_2_3_3_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#a-examples-from-tragedy-and-history
+              - s7_2_3_3_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#b-tyrants-afflicted-by-avenging-spirits
+              - s7_2_3_3_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#c-the-fivefold-division-of-dream-visions
+              - s7_2_3_3_3_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#1-ὄνειρον-dream-figurative-dreams-requiring-interpretation
+              - s7_2_3_3_3_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#2-ὅραμα-vision-simple-visions
+              - s7_2_3_3_3_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#3-χρηματισμός-oracle-divine-revelations
+              - s7_2_3_3_3_4: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#4-ἐνύπνιον-sleep-vision-natural-dreams-from-complexion-and-occupation
+              - s7_2_3_3_3_5: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#5-φάντασμα-apparition-images-in-the-first-mist-of-sleep
+              - s7_2_3_3_4: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#d-the-differences-among-apparitions
+              - s7_2_3_4: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#4-true-specters-appearing-to-the-wakeful
+              - s7_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#iii-concerning-chance-and-fortune
+              - s7_3_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#a-the-stoic-doctrine-of-fate
+              - s7_3_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#b-the-epicurean-doctrine-of-fortune-and-chance
+              - s7_3_2_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#1-acceptance-by-pagan-philosophers
+              - s7_3_2_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#2-pittacus-s-ladder-of-fortune
+              - s7_3_2_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#3-the-poets-celebration-of-fortune-as-a-goddess
+              - s7_3_2_4: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#4-the-connection-between-polytheism-and-fortune-worship
+              - s7_3_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#c-the-peripatetic-distinction
+              - s7_3_3_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#1-fortune-accidental-cause-in-voluntary-agents
+              - s7_3_3_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#2-chance-accidental-cause-in-natural-agents
+              - s7_3_4: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#d-the-christian-rejection-of-fortune-and-chance
+              - s7_3_4_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#1-what-is-impious-to-believe-is-impious-to-speak
+              - s7_3_4_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#2-the-common-error-of-attributing-things-to-blind-fortune
+              - s7_3_4_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#3-augustine-s-correction
+              - s7_3_4_4: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#4-basil-s-royal-sentence
+              - s7_3_4_5: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#5-hesiod-s-testimony-among-the-sounder-pagans
+              - s7_4: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#iv-concerning-dreams
+              - s7_4_1: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#a-the-threefold-classification-of-dreams
+              - s7_4_2: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#b-terminological-distinctions
+              - s7_4_3: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/#c-the-non-perpetual-nature-of-these-distinctions

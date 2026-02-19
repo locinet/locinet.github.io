@@ -21,7 +21,7 @@ bucanus-institutions:
       - translator: Unknown AI
         AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com
             section_urls:
               - god: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/

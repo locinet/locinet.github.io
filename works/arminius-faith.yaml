@@ -11,8 +11,49 @@ arminius-faith:
         place: Leiden
   en:
     title: On Faith
+    sections:
+      - s1: "I. INTRODUCTION: THE OCCASION AND ORDER OF THE DISPUTATION"
+      - s2: "II. THE SIGNIFICATIONS OF THE TERM “FAITH”"
+        sections:
+          - s2_1: "A. Improper and Borrowed Significations"
+          - s2_2: "B. The Proper Signification of Faith"
+      - s3: "III. THE CAUSES OF FAITH"
+        sections:
+          - s3_1: "A. The Efficient Cause"
+            sections:
+              - s3_1_1: "1. The Principal Efficient Cause: God the Father, Son, and Holy Spirit"
+              - s3_1_2: "2. The Instrumental Efficient Cause"
+                sections:
+                  - s3_1_2_1: "a. Ordinary Instrumental Causes"
+                  - s3_1_2_2: "b. The Manner in Which the Word Effects Faith"
+                    sections:
+                      - s3_1_2_2_1: "(1) The Work of the Law"
+                      - s3_1_2_2_2: "(2) The Work of the Gospel"
+                  - s3_1_2_3: "c. What Concurs in the Origin of Faith"
+                  - s3_1_2_4: "d. Extraordinary Instrumental Causes: Miracles"
+          - s3_2: "B. The Object of Faith"
+            sections:
+              - s3_2_1: "1. The Universal Object: The Word of God"
+              - s3_2_2: "2. The Proper and Adequate Object"
+                sections:
+                  - s3_2_2_1: "a. Negatively: Not the Law"
+                  - s3_2_2_2: "b. Positively: The Doctrine of the Gospel"
+              - s3_2_3: "3. What the Gospel Comprehends as the Object of Faith"
+              - s3_2_4: "4. What is Not the Object of Faith: Rejection of Roman Error"
+          - s3_3: "C. The Subject of Faith"
+            sections:
+              - s3_3_1: "1. The Common or Principal Subject: The Human Soul with Its Faculties"
+              - s3_3_2: "2. The Subject “To Whom”: The Sinner Acknowledging His Sins"
+          - s3_4: "D. The Form of Faith"
+            sections:
+              - s3_4_1: "1. Positively: The Legitimate Ordination to Christ"
+              - s3_4_2: "2. Negatively: Not Charity"
+          - s3_5: "E. The End of Faith"
+      - s4: "IV. THE ASSURANCE OF FAITH"
+      - s5: "V. THE CONTRARIES OF FAITH"
+      - s6: "VI. COROLLARY"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/2026/01/14/franciscus-gomarus-jacobus-arminius-c-1560-1641-on-faith/

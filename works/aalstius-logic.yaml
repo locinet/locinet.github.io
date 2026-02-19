@@ -14,7 +14,7 @@ aalstius-logic:
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - ch1: https://confessionallyreformed.wordpress.com/2026/01/29/johannes-aalstius-c-1660-1712-on-the-contemplation-of-logic-wherein-mans-self-knowledge-is-delineated-and-the-knowledge-of-god-is-investigated-in-a-firm-connection/

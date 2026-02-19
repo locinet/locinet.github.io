@@ -10,8 +10,39 @@ voet-christ-merit:
       - year: 1669
   en:
     title: On Whether Christ Merited Special Grace of Regeneration and Faith for the Elect
+    sections:
+      - s1: "I. Introduction"
+      - s2: "II. Statement of the Question"
+      - s3: "III. Arguments Establishing Position"
+        sections:
+          - s3_1: "Argument I: From Christ’s Self-Giving and Self-Sanctification"
+          - s3_2: "Argument II: From the Conferral of Spiritual Blessings in Christ"
+          - s3_3: "Argument III: From the Promises of the New Covenant"
+          - s3_4: "Argument IV: From the Sealing of the Sacraments"
+      - s4: "IV. Sources of Solutions"
+        sections:
+          - s4_1: "Source I: Distinction Between Regeneration and Actual Repentance"
+          - s4_2: "Source II: Distinction Between the Habit and Act of Faith"
+          - s4_3: "Source III: The Second Act as Both Our Work and God’s Gift"
+          - s4_4: "Source IV: The Same Work of Faith Considered Under Diverse Respects"
+      - s5: "V. Refutation of Objections"
+        sections:
+          - s5_1: "Objection I: That Merit Nullifies Faith as a Condition"
+            sections:
+              - s5_1_1: "Response 1: The Charge of Absurdity Refuted"
+              - s5_1_2: "Response 2: Faith as Both Condition and Gift"
+              - s5_1_3: "Response 3: God’s Obligation to His Own Promises"
+          - s5_2: "Objection II: That Merit Overturns Divine Precept"
+          - s5_3: "Objection III: That Merit Excludes Christ as Legislator"
+            sections:
+              - s5_3_1: "Response 1: The Compatibility of Command and Gift"
+              - s5_3_2: "Response 2: The Causes of Regeneration and Actual Faith Distinguished"
+              - s5_3_3: "Response 3: Divine Logic Contra Socinian Sophistry"
+              - s5_3_4: "Excursus: The Concurrence and Subordination of Causes"
+          - s5_4: "Objection IV: That Merit Limits the Extent of Christ’s Death"
+      - s6: "VI. Related Questions"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-whether-christ-merited-special-grace-of-regeneration-and-faith-for-the-elect-and-those-to-be-saved/

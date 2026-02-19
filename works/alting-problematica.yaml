@@ -10,12 +10,277 @@ alting-problematica:
   en:
     title: New Problematic Theology
     sections:
-      - locus-13: "Locus 13: Problems on the Church"
-        loci: church
+      - s13: "PROBLEMATA Of the Thirteenth Locus: Concerning THE CHURCH"
+        sections:
+          - s13_1: "PROBLEM I: Whether the People of the Old Testament are Always and Everywhere Called Synagogue, but of the New Testament Church?"
+            sections:
+              - s13_1_1: "A. The Pontifical Affirmation and Its Rationale"
+              - s13_1_2: "B. The Orthodox Response: Acknowledgment with Limitation"
+              - s13_1_3: "C. Demonstration That the Distinction Is Not Perpetual"
+                sections:
+                  - s13_1_3_1: "1. Proof That the Names Are Used Promiscuously"
+                  - s13_1_3_2: "2. Refutation of the Contrary Reasons"
+          - s13_2: "PROBLEM II: Whether Anywhere in Scripture the Word “Church” Is Taken for Ecclesiastical Monarchy?"
+            sections:
+              - s13_2_1: "A. The Pontifical Distinction of Church into Collective and Representative"
+                sections:
+                  - s13_2_1_1: "1. The Collective Church: Dispersed Faithful Under One Monarchy"
+                  - s13_2_1_2: "2. The Representative Church: University of Prelates Under the Pope"
+                  - s13_2_1_3: "3. The Aristotelian Foundation of This Doctrine"
+              - s13_2_2: "B. The Orthodox Negation and Twofold Argument"
+                sections:
+                  - s13_2_2_1: "1. First Argument: No Example of This Signification in Scripture"
+                  - s13_2_2_2: "2. Second Argument: Church and Monarchy Are Disparate Terms"
+              - s13_2_3: "C. The Improper and False Application to the Pope Alone"
+          - s13_3: "PROBLEM III: Whether Angels Are to Be Reckoned to the Church and Pertain to It as Members?"
+            sections:
+              - s13_3_1: "A. The Lutheran Negation"
+              - s13_3_2: "B. The Orthodox Threefold Response"
+                sections:
+                  - s13_3_2_1: "1. First: The Name “Church” Not Attributed to Angels in Scripture"
+                  - s13_3_2_2: "2. Second: Angels Not Parts of the Church Militant"
+                  - s13_3_2_3: "3. Third: Angels Truly Pertain to the Church Triumphant"
+              - s13_3_3: "C. The Question Whether Angels Are Called or Vocati"
+          - s13_4: "PROBLEM IV: Whether There Is Now Any Church Triumphant in the Heavens?"
+            sections:
+              - s13_4_1: "A. The Negative of Heterodox Teachers"
+              - s13_4_2: "B. The Orthodox Affirmative"
+                sections:
+                  - s13_4_2_1: "1. Confirmation from Sayings of Scripture"
+                  - s13_4_2_2: "2. Confirmation from Examples"
+                  - s13_4_2_3: "3. Confirmation from Reasons"
+              - s13_4_3: "C. Response to Adversarial Arguments"
+                sections:
+                  - s13_4_3_1: "1. General Response: Triumph Inchoate, Not Consummated"
+                  - s13_4_3_2: "2. Specific Solutions to Individual Arguments"
+                  - s13_4_3_3: "3. The Origin of the Error: False Hypothesis of Soul-Sleep"
+          - s13_5: "PROBLEM V: Whether the Church Triumphant Is Set Over the Church Militant for Governing It on Earth?"
+            sections:
+              - s13_5_1: "A. The Pontifical Affirmation"
+              - s13_5_2: "B. The Orthodox Negation with Fourfold Argument"
+              - s13_5_3: "C. Objections and Solutions"
+          - s13_6: "PROBLEM VI: Whether the Church Militant Also Existed in the Old Testament and Is One in Species with the Church of the New Testament?"
+            sections:
+              - s13_6_1: "A. The Libertine and Socinian Negation"
+              - s13_6_2: "B. The Orthodox Affirmation: Twofold Demonstration"
+                sections:
+                  - s13_6_2_1: "1. First Demonstration: Church Militant Always Existed in Old Testament"
+                  - s13_6_2_2: "2. Second Demonstration: Same in Species with New Testament Church"
+          - s13_7: "PROBLEM VII: Whether the Church Militant Is Rightly Distinguished into Those Only Called and Those Called and Elect?"
+            sections:
+              - s13_7_1: "A. The Affirmative with Fourfold Proof"
+              - s13_7_2: "B. The Twofold Polemical Use of This Distinction"
+          - s13_8: "PROBLEM VIII: In What Sense the Church of the Elect Is So Called?"
+            sections:
+              - s13_8_1: "A. The Lutheran Distinction Between Specific and General Election"
+              - s13_8_2: "B. Three Things to Be Noted and Corrected"
+                sections:
+                  - s13_8_2_1: "1. First: Petition of Principle – Faulty Distinction"
+                  - s13_8_2_2: "2. Second: Fallacy of Equivocation Concerning Perseverance"
+              - s13_8_3: "3. Third: Pelagian Assertion That Elect Can Fall Away"
+          - s13_9: "PROBLEM IX: How Is the Theological Axiom “Outside the Church There Is No Salvation” to Be Understood?"
+            sections:
+              - s13_9_1: "A. The Origin and Authority of the Axiom"
+              - s13_9_2: "B. The Orthodox Sense Through Twofold Distinction"
+                sections:
+                  - s13_9_2_1: "1. First Distinction: Valid of Catholic Church, Not Particular Church"
+                  - s13_9_2_2: "2. Second Distinction: Two Ways of Being Outside the Church"
+              - s13_9_3: "C. Confirmation of the Axiom Thus Declared"
+          - s13_10: "PROBLEM X: Whether Individuals Are Bound to Join Themselves to the Visible Church and Cultivate Communion with It?"
+            sections:
+              - s13_10_1: "A. The Libertine and Enthusiast Negation"
+              - s13_10_2: "B. The Orthodox Affirmation of External Conjunction"
+              - s13_10_3: "C. Seven Reasons for the Necessity"
+          - s13_11: "PROBLEM XI: Whether Communion Is to Be Cultivated Even with an Erring or Disordered Church?"
+            sections:
+              - s13_11_1: "A. The Magnitude and Use of This Problem"
+              - s13_11_2: "B. Explanation Through Terms and Prudent Distinction"
+              - s13_11_3: "C. Errors in Doctrine Distinguished by Three Genera"
+                sections:
+                  - s13_11_3_1: "1. Errors in the Foundation: Directly Destroying It"
+                  - s13_11_3_2: "2. Errors Concerning the Foundation: Indirectly Undermining It"
+                  - s13_11_3_3: "3. Errors Besides the Foundation: Curious Questions and Vain Strifes"
+              - s13_11_4: "D. Judgment Concerning Errors"
+                sections:
+                  - s13_11_4_1: "1. First Judgment: From Church Erring in Foundation, Depart Entirely"
+                  - s13_11_4_2: "2. Second Judgment: From Church Erring Concerning or Besides Foundation, Do Not Rashly Depart"
+              - s13_11_5: "E. Judgment Concerning Disordered Church"
+                sections:
+                  - s13_11_5_1: "1. Concerning Less Decorous or Superstitious Rites"
+                  - s13_11_5_2: "2. Concerning Remiss Discipline"
+          - s13_12: "PROBLEM XII: Whether the Roman Church Today Is and Merits to Be Called the True Church of Christ?"
+            sections:
+              - s13_12_1: "A. The Twofold Controversy Concerning Truth of Roman Church"
+                sections:
+                  - s13_12_1_1: "1. First Controversy: With Pontificals (Belongs to Polemical Theology)"
+                  - s13_12_1_2: "2. Second Controversy: Among Orthodox Doctors"
+              - s13_12_2: "B. Arguments for the Affirmative Sentence"
+              - s13_12_3: "C. Arguments for the Negative Sentence"
+              - s13_12_4: "D. Twofold Ratio of Conciliation"
+                sections:
+                  - s13_12_4_1: "1. First Ratio: From Subject – Distinction of Church Itself"
+                    sections:
+                      - s13_12_4_1_1: "a. Collectively: In Assemblies Under Antichrist’s Tyranny"
+                      - s13_12_4_1_2: "b. Representatively: In Pope, Clergy, Antichristian Ministry"
+                  - s13_12_4_2: "2. Second Ratio: From Attribute – Distinction of Truth"
+              - s13_12_5: "E. Censure of Both Distinctions"
+                sections:
+                  - s13_12_5_1: "1. Censure of First Distinction"
+                  - s13_12_5_2: "2. Censure of Second Distinction"
+              - s13_12_6: "F. The Simpler and Sounder Sentence"
+                sections:
+                  - s13_12_6_1: "1. Statement: Roman Church Not True but False Church"
+                  - s13_12_6_2: "2. Responses to Contrary Arguments"
+          - s13_13: "PROBLEM XIII: Whether the Reformed Churches Are Schismatic Because They Have Made Secession from the Roman Church Today?"
+            sections:
+              - s13_13_1: "A. The Pontifical Calumny"
+              - s13_13_2: "B. The Orthodox Response: Causes of Secession Demonstrate Praiseworthiness"
+              - s13_13_3: "C. The Apologetic Syllogism"
+          - s13_14: "PROBLEM XIV: Whether the Pious Under a Pontifical Persecuting Magistrate Can Institute and Foster Clandestine Ecclesiastical Assemblies?"
+            sections:
+              - s13_14_1: "A. The Importance and Difficulty of the Question"
+              - s13_14_2: "B. Objections Against Clandestine Assemblies"
+              - s13_14_3: "C. The Orthodox Affirmation with Seven Reasons"
+              - s13_14_4: "D. Refutation of Objections"
+          - s13_15: "PROBLEM XV: Why Do Some Orthodox Doctors Enumerate More, Others Fewer Marks of the Church?"
+            sections:
+              - s13_15_1: "A. The Discrepancy in Enumeration"
+              - s13_15_2: "B. The Cause of Discrepancy"
+              - s13_15_3: "C. Marks Taken Broadly and Strictly"
+                sections:
+                  - s13_15_3_1: "1. Broadly: Including Common and Quasi-Accidental"
+                  - s13_15_3_2: "2. Strictly: Essential and Proper Only (Three Marks)"
+              - s13_15_4: "D. The Three Proper Marks Distinguished by Degree of Necessity"
+                sections:
+                  - s13_15_4_1: "1. Supreme Degree: Pure Preaching of Word"
+                  - s13_15_4_2: "2. Middle Degree: Legitimate Administration of Sacraments"
+                  - s13_15_4_3: "3. Third Degree: Holy Discipline"
+                  - s13_15_4_4: "4. Proof of This Distinction of Degrees"
+          - s13_16: "PROBLEM XVI: Whether the Marks of the Church Avail Among Believers Only, or Also Among Unbelievers?"
+            sections:
+              - s13_16_1: "A. The Innovators’ Negation"
+              - s13_16_2: "B. The Orthodox Affirmation with Distinction"
+              - s13_16_3: "C. Demonstration of the Latter from Sayings and Reasons"
     translations:
       - AI: true
         sites:
-          - site: Confessionally Reformed
+          - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - locus-13: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/
+
+              - s13: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problemataof-the-thirteenth-locus-concerningthe-church
+              - s13_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-i-whether-the-people-of-the-old-testament-are-always-and-everywhere-called-synagogue-but-of-the-new-testament-church
+              - s13_1_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-pontifical-affirmation-and-its-rationale
+              - s13_1_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-response-acknowledgment-with-limitation
+              - s13_1_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-demonstration-that-the-distinction-is-not-perpetual
+              - s13_1_3_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-proof-that-the-names-are-used-promiscuously
+              - s13_1_3_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-refutation-of-the-contrary-reasons
+              - s13_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-ii-whether-anywhere-in-scripture-the-word-church-is-taken-for-ecclesiastical-monarchy
+              - s13_2_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-pontifical-distinction-of-church-into-collective-and-representative
+              - s13_2_1_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-the-collective-church-dispersed-faithful-under-one-monarchy
+              - s13_2_1_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-the-representative-church-university-of-prelates-under-the-pope
+              - s13_2_1_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#3-the-aristotelian-foundation-of-this-doctrine
+              - s13_2_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-negation-and-twofold-argument
+              - s13_2_2_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-first-argument-no-example-of-this-signification-in-scripture
+              - s13_2_2_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-second-argument-church-and-monarchy-are-disparate-terms
+              - s13_2_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-the-improper-and-false-application-to-the-pope-alone
+              - s13_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-iii-whether-angels-are-to-be-reckoned-to-the-church-and-pertain-to-it-as-members
+              - s13_3_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-lutheran-negation
+              - s13_3_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-threefold-response
+              - s13_3_2_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-first-the-name-church-not-attributed-to-angels-in-scripture
+              - s13_3_2_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-second-angels-not-parts-of-the-church-militant
+              - s13_3_2_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#3-third-angels-truly-pertain-to-the-church-triumphant
+              - s13_3_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-the-question-whether-angels-are-called-or-vocati
+              - s13_4: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-iv-whether-there-is-now-any-church-triumphant-in-the-heavens
+              - s13_4_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-negative-of-heterodox-teachers
+              - s13_4_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-affirmative
+              - s13_4_2_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-confirmation-from-sayings-of-scripture
+              - s13_4_2_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-confirmation-from-examples
+              - s13_4_2_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#3-confirmation-from-reasons
+              - s13_4_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-response-to-adversarial-arguments
+              - s13_4_3_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-general-response-triumph-inchoate-not-consummated
+              - s13_4_3_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-specific-solutions-to-individual-arguments
+              - s13_4_3_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#3-the-origin-of-the-error-false-hypothesis-of-soul-sleep
+              - s13_5: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-v-whether-the-church-triumphant-is-set-over-the-church-militant-for-governing-it-on-earth
+              - s13_5_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-pontifical-affirmation
+              - s13_5_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-negation-with-fourfold-argument
+              - s13_5_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-objections-and-solutions
+              - s13_6: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-vi-whether-the-church-militant-also-existed-in-the-old-testament-and-is-one-in-species-with-the-church-of-the-new-testament
+              - s13_6_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-libertine-and-socinian-negation
+              - s13_6_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-affirmation-twofold-demonstration
+              - s13_6_2_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-first-demonstration-church-militant-always-existed-in-old-testament
+              - s13_6_2_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-second-demonstration-same-in-species-with-new-testament-church
+              - s13_7: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-vii-whether-the-church-militant-is-rightly-distinguished-into-those-only-called-and-those-called-and-elect
+              - s13_7_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-affirmative-with-fourfold-proof
+              - s13_7_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-twofold-polemical-use-of-this-distinction
+              - s13_8: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-viii-in-what-sense-the-church-of-the-elect-is-so-called
+              - s13_8_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-lutheran-distinction-between-specific-and-general-election
+              - s13_8_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-three-things-to-be-noted-and-corrected
+              - s13_8_2_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-first-petition-of-principle-faulty-distinction
+              - s13_8_2_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-second-fallacy-of-equivocation-concerning-perseverance
+              - s13_8_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#3-third-pelagian-assertion-that-elect-can-fall-away
+              - s13_9: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-ix-how-is-the-theological-axiom-outside-the-church-there-is-no-salvation-to-be-understood
+              - s13_9_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-origin-and-authority-of-the-axiom
+              - s13_9_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-sense-through-twofold-distinction
+              - s13_9_2_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-first-distinction-valid-of-catholic-church-not-particular-church
+              - s13_9_2_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-second-distinction-two-ways-of-being-outside-the-church
+              - s13_9_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-confirmation-of-the-axiom-thus-declared
+              - s13_10: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-x-whether-individuals-are-bound-to-join-themselves-to-the-visible-church-and-cultivate-communion-with-it
+              - s13_10_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-libertine-and-enthusiast-negation
+              - s13_10_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-affirmation-of-external-conjunction
+              - s13_10_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-seven-reasons-for-the-necessity
+              - s13_11: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-xi-whether-communion-is-to-be-cultivated-even-with-an-erring-or-disordered-church
+              - s13_11_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-magnitude-and-use-of-this-problem
+              - s13_11_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-explanation-through-terms-and-prudent-distinction
+              - s13_11_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-errors-in-doctrine-distinguished-by-three-genera
+              - s13_11_3_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-errors-in-the-foundation-directly-destroying-it
+              - s13_11_3_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-errors-concerning-the-foundation-indirectly-undermining-it
+              - s13_11_3_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#3-errors-besides-the-foundation-curious-questions-and-vain-strifes
+              - s13_11_4: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#d-judgment-concerning-errors
+              - s13_11_4_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-first-judgment-from-church-erring-in-foundation-depart-entirely
+              - s13_11_4_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-second-judgment-from-church-erring-concerning-or-besides-foundation-do-not-rashly-depart
+              - s13_11_5: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#e-judgment-concerning-disordered-church
+              - s13_11_5_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-concerning-less-decorous-or-superstitious-rites
+              - s13_11_5_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-concerning-remiss-discipline
+              - s13_12: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-xii-whether-the-roman-church-today-is-and-merits-to-be-called-the-true-church-of-christ
+              - s13_12_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-twofold-controversy-concerning-truth-of-roman-church
+              - s13_12_1_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-first-controversy-with-pontificals-belongs-to-polemical-theology
+              - s13_12_1_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-second-controversy-among-orthodox-doctors
+              - s13_12_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-arguments-for-the-affirmative-sentence
+              - s13_12_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-arguments-for-the-negative-sentence
+              - s13_12_4: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#d-twofold-ratio-of-conciliation
+              - s13_12_4_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-first-ratio-from-subject-distinction-of-church-itself
+              - s13_12_4_1_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-collectively-in-assemblies-under-antichrist-s-tyranny
+              - s13_12_4_1_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-representatively-in-pope-clergy-antichristian-ministry
+              - s13_12_4_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-second-ratio-from-attribute-distinction-of-truth
+              - s13_12_5: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#e-censure-of-both-distinctions
+              - s13_12_5_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-censure-of-first-distinction
+              - s13_12_5_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-censure-of-second-distinction
+              - s13_12_6: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#f-the-simpler-and-sounder-sentence
+              - s13_12_6_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-statement-roman-church-not-true-but-false-church
+              - s13_12_6_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-responses-to-contrary-arguments
+              - s13_13: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-xiii-whether-the-reformed-churches-are-schismatic-because-they-have-made-secession-from-the-roman-church-today
+              - s13_13_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-pontifical-calumny
+              - s13_13_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-response-causes-of-secession-demonstrate-praiseworthiness
+              - s13_13_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-the-apologetic-syllogism
+              - s13_14: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-xiv-whether-the-pious-under-a-pontifical-persecuting-magistrate-can-institute-and-foster-clandestine-ecclesiastical-assemblies
+              - s13_14_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-importance-and-difficulty-of-the-question
+              - s13_14_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-objections-against-clandestine-assemblies
+              - s13_14_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-the-orthodox-affirmation-with-seven-reasons
+              - s13_14_4: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#d-refutation-of-objections
+              - s13_15: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-xv-why-do-some-orthodox-doctors-enumerate-more-others-fewer-marks-of-the-church
+              - s13_15_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-discrepancy-in-enumeration
+              - s13_15_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-cause-of-discrepancy
+              - s13_15_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-marks-taken-broadly-and-strictly
+              - s13_15_3_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-broadly-including-common-and-quasi-accidental
+              - s13_15_3_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-strictly-essential-and-proper-only-three-marks
+              - s13_15_4: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#d-the-three-proper-marks-distinguished-by-degree-of-necessity
+              - s13_15_4_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#1-supreme-degree-pure-preaching-of-word
+              - s13_15_4_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#2-middle-degree-legitimate-administration-of-sacraments
+              - s13_15_4_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#3-third-degree-holy-discipline
+              - s13_15_4_4: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#4-proof-of-this-distinction-of-degrees
+              - s13_16: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#problem-xvi-whether-the-marks-of-the-church-avail-among-believers-only-or-also-among-unbelievers
+              - s13_16_1: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#a-the-innovators-negation
+              - s13_16_2: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#b-the-orthodox-affirmation-with-distinction
+              - s13_16_3: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/#c-demonstration-of-the-latter-from-sayings-and-reasons
