@@ -110,6 +110,9 @@
           slug: predestination
           desc: "God's eternal decree concerning the salvation of rational creatures"
           children:
+            - name: Election
+              slug: election
+              desc: God's eternal choice of particular individuals for salvation
             - name: Reprobation
               slug: reprobation
               desc: God's decree to pass over or condemn the non-elect
@@ -197,6 +200,9 @@
       slug: grace
       desc: "Divine grace broadly: its nature, necessity, and divisions (distinct from specific effects like justification)"
       children:
+        - name: Covenant of works
+          slug: covenant-of-works
+          desc: "God's covenant with Adam in the state of integrity, promising life upon obedience; also called the covenant of nature or creation"
         - name: Covenant of grace
           slug: covenant-of-grace
           desc: "God's covenant of salvation in Christ, including its administration across Old and New Testaments"

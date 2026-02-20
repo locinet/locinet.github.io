@@ -216,6 +216,7 @@ alsted-lexicon:
                           - s7_2_3_3_3_1: "(1) Ὄνειρον [Dream]: Figurative Dreams Requiring Interpretation"
                           - s7_2_3_3_3_2: "(2) Ὅραμα [Vision]: Simple Visions"
                           - s7_2_3_3_3_3: "(3) Χρηματισμός [Oracle]: Divine Revelations"
+                            loci: revelation
                           - s7_2_3_3_3_4: "(4) Ἐνύπνιον [Sleep-Vision]: Natural Dreams from Complexion and Occupation"
                           - s7_2_3_3_3_5: "(5) Φάντασμα [Apparition]: Images in the First Mist of Sleep"
                       - s7_2_3_3_4: "d. The Differences Among Apparitions"

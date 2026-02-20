@@ -17,7 +17,7 @@ rivet-catholicus-orthodoxus:
       - q14: "Question 14: On Concupiscence"
         loci: concupiscence
       - hail-mary-rosary: "On the Hail Mary & the Rosary"
-        loci: prayer
+        loci: mariology
     translations:
       - AI: true
         sites:

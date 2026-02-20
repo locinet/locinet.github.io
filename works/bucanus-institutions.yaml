@@ -17,9 +17,9 @@ bucanus-institutions:
           - which-is-the-book-of-scripture: "Which is the Book of Scripture?"
             # loci:
           - how-many-ways-hath-the-lord-revealed-himself-in-the-books-of: "How Many Ways Hath the Lord Revealed Himself in the Books of the Scripture?"
-            # loci:
+            loci: revelation
           - by-what-oracles: "By What Oracles?"
-            # loci:
+            loci: revelation
           - by-what-testimonies: "By What Testimonies?"
             # loci:
           - what-then-is-that-is-reported-psal-14-1-the-fool-hath-said-i: "What Then is That is Reported Psal. 14.1. the Fool Hath Said in His Heart, There is No God?"
@@ -1613,7 +1613,7 @@ bucanus-institutions:
             sections:
               - whence-is-faith-derived: "Whence is Faith Derived?"
                 # loci:
-              - : 〈◊〉 〈◊〉 〈◊〉 〈◊〉 〈◊〉.
+              - bucanus-faith-unrecovered: 〈◊〉 〈◊〉 〈◊〉 〈◊〉 〈◊〉.
                 # loci:
               - what-differeth-faith-from-opinion-and-knowledge: "What Differeth Faith From Opinion and Knowledge?"
                 # loci:
@@ -3167,7 +3167,7 @@ bucanus-institutions:
               - whether-as-the-eye-hath-not-the-force-of-seeing-in-itself-bu: "Whether, as the Eye Hath Not the Force of Seeing in Itself, but by Reason of the Union With the Soul, and Receiveth it in the Union: so the Flesh of Christ Receiveth Not Those Proper Things in Itself, but Hath Them Truly and Really in That Wonderful Union?"
                 # loci:
               - must-we-altogether-abandon-mans-reason-and-the-principles-of: "Must We Altogether Abandon Man's Reason, and the Principles of Philosophy in Those Things Which Are Affirmed Concerning the Body of Christ?"
-                # loci:
+                loci: faith-and-reason
               - whether-unless-the-body-of-christ-be-determined-to-be-every-: "Whether, Unless the Body of Christ Be Determined to Be Every Where, by This, is it Separated and Pulled Asunder From the Divine Nature, Which is Everywhere, and to Which Itself is Personally United, or Hath the Body of the Lord Obtained That, by the Union, That it Should Be Wheresoever the Word Is."
                 # loci:
               - but-whether-did-that-which-christ-said-joh-3-13-no-man-ascen: "But Whether Did That Which Christ Said Joh. 3.13. No Man Ascendeth up to Heaven, but the Son of Man Which is in Heaven, Make the Human Nature of Christ While it Was in Earth, to Have Been Also at the Same Time in Heaven?"

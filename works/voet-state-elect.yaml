@@ -2,7 +2,9 @@ voet-state-elect:
   author: Q983347
   date_added: 2026-02-09
   category: disputations
-  loci: effectual-calling
+  loci:
+    - election
+    - effectual-calling
   la:
     title: De statu electorum ante conversionem
     orig_lang: true

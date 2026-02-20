@@ -900,9 +900,13 @@ aquinas-summa-theologiae:
           - iii-q26: Q26. Christ as Called the Mediator of God and Man
             loci: christ
           - iii-q27: Q27. The Sanctification of the Blessed Virgin
+            loci: mariology
           - iii-q28: Q28. The Virginity of the Mother of God
+            loci: mariology
           - iii-q29: Q29. The Espousals of the Mother of God
+            loci: mariology
           - iii-q30: Q30. The Annunciation of the Blessed Virgin
+            loci: mariology
           - iii-q31: Q31. The Matter From Which the Savior's Body Was Conceived
             loci: incarnation
           - iii-q32: Q32. The Active Principle in Christ's Conception

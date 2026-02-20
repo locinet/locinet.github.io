@@ -2,11 +2,13 @@ venema-disputes:
   date_added: 2026-02-09
   author: Q1977349
   loci:
+    - covenant-of-works
     - original-sin
     - transmission-of-sin
     - atonement
     - justification
     - predestination
+    - election
   nl:
     title: Korte verdediging van syne eere en leere
     orig_lang: true

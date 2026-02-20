@@ -415,9 +415,9 @@ hodge-st:
               - 4-dogmatism-or-the-third-form-of-rationalism: "4. Dogmatism, or the Third Form of Rationalism."
                 # loci:
               - 5-proper-office-of-reason-in-matters-of-religion: 5. Proper Office of Reason in Matters of Religion.
-                # loci:
+                loci: faith-and-reason
               - 6-relation-of-philosophy-and-revelation: 6. Relation of Philosophy and Revelation.
-                # loci:
+                loci: [revelation, faith-and-reason]
               - 7-office-of-the-senses-in-matters-of-faith: 7. Office of the Senses in Matters of Faith.
                 # loci:
           - chapter-iv-mysticism: Chapter IV. Mysticism.
@@ -629,7 +629,7 @@ hodge-st:
               - 3-can-a-miracle-be-known-as-such: "3. Can a Miracle be known as such?"
                 # loci:
               - 4-the-value-of-miracles-as-a-proof-of-a-divine-revelation: 4. The Value of Miracles as a Proof of a Divine Revelation.
-                # loci:
+                loci: revelation
           - chapter-xiii-angels: Chapter XIII. Angels.
             loci: nature-of-angels
             sections:
@@ -702,7 +702,7 @@ hodge-st:
               - 6-pelagian-and-rationalistic-doctrine: 6. Pelagian and Rationalistic Doctrine.
                 # loci:
           - chapter-vi-covenant-of-works: Chapter VI. Covenant of Works.
-            # loci:
+            loci: covenant-of-works
             sections:
               - 1-god-entered-into-covenant-with-adam: 1. God entered into Covenant with Adam.
                 # loci:

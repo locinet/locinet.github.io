@@ -107,6 +107,7 @@ musculus-commonplaces:
                       - s1_6_2_1: "1. Old Testament Terminology"
                       - s1_6_2_2: "2. Greek and Latin Terminology"
                   - s1_6_3: "E. The Revelation of the Sacred Trinity Through Christ"
+                    loci: revelation
                   - s1_6_4: "F. Summary of Essential Truths"
                     sections:
                       - s1_6_4_1: "1. God Is One in Essence, Triune in Persons"
@@ -147,6 +148,7 @@ musculus-commonplaces:
                   - s3_1_1: "A. Why We Must Study God’s Works"
                     sections:
                       - s3_1_1_1: "1. God’s Essence, Hypostases, and Nature Revealed in His Works"
+                        loci: natural-theology
                       - s3_1_1_2: "2. Two Aids to Certain Knowledge of God"
                         sections:
                           - s3_1_1_2_1: "a. God Cannot Be Idle"

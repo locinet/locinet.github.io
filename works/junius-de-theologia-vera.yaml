@@ -16,6 +16,7 @@ junius-de-theologia-vera:
           - s1: "I. Introduction to the Argument of Sacred Theology"
           - s2: "II. The Etymology and Homonymous Usage of the Term “Theology”"
           - s3: "III. Sacred Theology Distinguished from False Theologies"
+            loci: covenant-of-works
           - s4: "IV. The Essential Definition of Sacred Theology"
           - s5: "V. The Genus of Theology: Science"
           - s6: "VI. The Differences of Theological Science from Other Sciences"
@@ -60,6 +61,7 @@ junius-de-theologia-vera:
             sections:
               - s2_1: "A. The Two Modes of Distinguishing Scripture’s Matter"
               - s2_2: "B. The Twofold Subject and Matter of Scripture"
+                loci: revelation
               - s2_3: "C. The Proper and Supreme Subject: God"
               - s2_4: "D. The Inferior and Secondary Subject: Man and the Church"
               - s2_5: "E. The Exposition of Both Matters in Scripture"

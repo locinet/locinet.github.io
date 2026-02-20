@@ -13,7 +13,7 @@ vlak-dissertationum-trias:
     title: A Triad of Dissertations on the Covenants of Works and of Peace of God, and on Justification
     sections:
       - diss-1: "First Theological Dissertation: On the Covenant of Works of God"
-        loci: law
+        loci: covenant-of-works
         sections:
           - d1-s1c1: Prolegomena
           - d1-s1c2: On the Passage in Hosea VI. 7

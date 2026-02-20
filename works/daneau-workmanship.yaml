@@ -1,6 +1,6 @@
 daneau-workmanship:
   author: Q6481240
-  # loci:
+  loci: creation
   la:
     title: # FILL IN
     orig_lang: true
@@ -13,11 +13,11 @@ daneau-workmanship:
           - the-first-chapter-what-natural-philosophy-is-and-how-many-ki: "¶ the First Chapter. ¶ What Natural Philosophy Is, and How Many Kinds There Be Thereof."
             # loci:
           - the-second-chapter-whether-natural-philosophy-be-meet-for-a-: "¶ the Second Chapter. Whether Natural Philosophy Be Meet for a Christian?"
-            # loci:
+            loci: natural-theology
           - the-third-chapter-from-whence-the-knowledge-of-the-general-n: The Third Chapter. From Whence the Knowledge of the General Natural Philosophy is to Be Had Most Safely.
             # loci:
           - the-fourth-chapter-the-difference-beetween-christian-and-hea: The Fourth Chapter. the Difference Beetween Christian and Heathen Natural Philosophy.
-            # loci:
+            loci: natural-theology
           - the-fifth-chapter-what-and-how-great-the-certainty-is-of-the: "The Fifth Chapter. What, and How Great the Certainty Is, of the Knowledge of Natural Philosophy."
             # loci:
           - the-vi-chapter-the-ends-of-the-knowledge-of-natural-philosop: The Vi. Chapter. the Ends of the Knowledge of Natural Philosophy.
@@ -73,7 +73,7 @@ daneau-workmanship:
           - the-xxxi-chapter-the-chief-end-of-the-creation-of-the-world-: "The. Xxxi. Chapter. the Chief End of the Creation of the World, Is, the Glory, and Knowledge of God the Creator."
             # loci:
           - the-xxxii-chapter-what-knowledge-of-god-may-be-had-by-the-be: "The Xxxii. Chapter. What Knowledge of God May Be Had, by the Beeholdinge of This World."
-            # loci:
+            loci: natural-theology
           - the-xxxiii-chapter-two-ends-of-the-world-not-chief: "The Xxxiii. Chapter. Two Ends of the World, Not Chief."
             # loci:
           - the-xxxiiii-chapter-of-the-means-and-engines-whereby-god-rai: "The Xxxiiii. Chapter. of the Means and Engines Whereby God Raised This so Great a Frame of the World: and First of the Word of God Which Was the Means Whereby This World Was Created."
@@ -91,9 +91,9 @@ daneau-workmanship:
           - the-xl-chapter-god-created-this-world-good: "The. Xl. Chapter. God Created This World, Good."
             # loci:
           - the-xli-chapter-what-manner-one-this-world-is-now-at-this-pr: ¶ The. Xli. Chapter. What Manner One This World is Now at This Present After Sin.
-            # loci:
+            loci: fall-of-man
           - the-xlii-chapter-from-whence-poisons-and-hurtful-things-spru: The Xlii. Chapter. From Whence Poisons and Hurtful Things Sprung in the World.
-            # loci:
+            loci: fall-of-man
           - the-xliii-chapter-why-the-things-that-were-created-are-plain: "The Xliii. Chapter. Why the Things That Were Created, Are Plainly Said Too Be Good."
             # loci:
           - the-xliiii-chapter-whether-in-the-first-creation-of-all-thin: "¶ The. Xliiii. Chapter. Whether in the First Creation of All Things, God Made Two Contraries."

@@ -203,7 +203,9 @@ alting-heidelberg-loci:
                 sections:
                   - s2_2_4_1: "1. Distinction Between Theology and the Word of God"
                   - s2_2_4_2: "2. Human Reason Not Properly a Principle of Theology"
+                    loci: faith-and-reason
                   - s2_2_4_3: "3. The Use of Reason in Theology"
+                    loci: faith-and-reason
           - s2_3: "III. The Use and Application of This Doctrine"
             sections:
               - s2_3_1: "A. For Teaching [Διδασκαλίαν, Didaskalian]"
@@ -392,6 +394,7 @@ alting-heidelberg-loci:
                           - s3_5_7_2_2_1: "i. By Order of Operations"
                           - s3_5_7_2_2_2: "ii. By Terms of Operation"
       - s4: "THE FOURTH LOCUS CONCERNING THE DECREES OF GOD, AND ESPECIALLY THAT WHICH IS COMMONLY CALLED PREDESTINATION"
+        loci: predestination
         sections:
           - s4_1: "INTRODUCTION TO THE WORKS OF GOD"
             sections:
@@ -478,6 +481,7 @@ alting-heidelberg-loci:
               - s4_8_1: "A. Definition"
               - s4_8_2: "B. Biblical Proof of Angelic Predestination"
               - s4_8_3: "C. The Election of Angels"
+                loci: election
                 sections:
                   - s4_8_3_1: "1. The Two Acts: Preservation from Fall and Confirmation in Good"
                   - s4_8_3_2: "2. The Medium of Their Election"
@@ -520,6 +524,7 @@ alting-heidelberg-loci:
                   - s4_9_7_1: "1. The Division Adequate to Its Subject"
                   - s4_9_7_2: "2. No Third Class of Neutrals"
           - s4_10: "VIII. THE DOCTRINE OF ELECTION"
+            loci: election
             sections:
               - s4_10_1: "A. Definition and Terminology"
                 sections:
