@@ -1,0 +1,706 @@
+scotus-ordinatio:
+  author: Q190089
+  category: systematic
+  date_added: 2026-02-19
+  la:
+    title: Ordinatio
+    orig_lang: true
+    editions:
+      - year: 1300
+  en:
+    title: Ordinatio
+    sections:
+      - scotus-ord-prol: Prologue. On Revelation and Theology
+        loci: nature-of-theology
+        sections:
+          - scotus-ord-prol-i: Part I. On the Necessity of Supernatural Knowledge
+            loci: [revelation, natural-theology]
+          - scotus-ord-prol-ii: Part II. On the Credibility of Sacred Scripture
+            loci: credibility-of-scripture
+          - scotus-ord-prol-iii: Part III. On the Object of Theology
+            sections:
+              - scotus-ord-prol-iii-q1: Q1. Whether Theology Is about God as about Its First Object
+              - scotus-ord-prol-iii-q2: Q2. Whether Theology Is about God under Some Special Idea
+              - scotus-ord-prol-iii-q3: Q3. Whether Theology Is about All Things from the Attribution of Them to Its First Subject
+                sections:
+                  - scotus-ord-prol-iii-q3-i: I. Preliminary Remarks
+                  - scotus-ord-prol-iii-q3-ii: II. On Necessary Theology
+          - scotus-ord-prol-iv: Part IV. Whether Theology Is One Science
+          - scotus-ord-prol-v: Fifth Part. Whether Theology Is Practical or Speculative
+            sections:
+              - scotus-ord-prol-v-q1: Q1. Whether Theology Is a Practical or a Speculative Science
+              - scotus-ord-prol-v-q2: Q2. Whether a Science Is Called Practical per Se from Order to Action as to Its End
+                loci: human-acts
+                sections:
+                  - scotus-ord-prol-v-q2-i: I. What Action Is
+                  - scotus-ord-prol-v-q2-ii: II. How Practical Knowledge Is Extended to Action
+                  - scotus-ord-prol-v-q2-iii: III. From What Source Knowledge Gets Its Extension to Action
+                  - scotus-ord-prol-v-q2-iv: IV. To the Second Question
+                  - scotus-ord-prol-v-q2-v: V. To the First Question
+                    sections:
+                      - scotus-ord-prol-v-q2-v-a: A. The Opinion of Others
+                      - scotus-ord-prol-v-q2-v-b: "B. Scotus' Own Opinion"
+                  - scotus-ord-prol-v-q2-vi: VI. To the Principal Arguments of the First Question
+                  - scotus-ord-prol-v-q2-vii: VII. To the Principal Arguments of the Second Question
+
+      - scotus-ord-i: Book I. On God
+        sections:
+          - scotus-ord-i-d1: Distinction 1. On the Object of Theological Knowledge
+            loci: [knowability-of-god, happiness, faith-and-reason]
+          - scotus-ord-i-d2: Distinction 2. On the Existence, Infinity, and Unity of God
+            loci: [existence-of-god, divine-infinity, unity-of-god]
+          - scotus-ord-i-d3: Distinction 3. On the Trinity and Natural Knowledge
+            loci: [trinity, faith-and-reason, natural-theology]
+          - scotus-ord-i-d4: Distinction 4. On the Generation of the Son
+            loci: trinity
+          - scotus-ord-i-d5: Distinction 5. On Divine Paternity
+            loci: trinity
+          - scotus-ord-i-d6: Distinction 6. On the Procession of the Holy Spirit
+            loci: trinity
+          - scotus-ord-i-d7: Distinction 7. On the Holy Spirit and Spiration
+            loci: trinity
+          - scotus-ord-i-d8: Distinction 8. On the Distinction of the Divine Persons
+            loci: trinity
+          - scotus-ord-i-d9: Distinction 9. On Personal Properties
+            loci: trinity
+          - scotus-ord-i-d10: Distinction 10. On the Number of Divine Relations
+            loci: trinity
+          - scotus-ord-i-d11: Distinction 11. On the Appropriation of Attributes to Persons
+            loci: [trinity, attributes-of-god]
+          - scotus-ord-i-d12: Distinction 12. On the Equality of the Divine Persons
+            loci: trinity
+          - scotus-ord-i-d13: Distinction 13. On Similarity among the Persons
+            loci: trinity
+          - scotus-ord-i-d14: Distinction 14. On the Mutual Knowledge of the Persons
+            loci: [trinity, knowledge-of-god]
+          - scotus-ord-i-d15: Distinction 15. On the Procession of Love and the Holy Spirit
+            loci: [trinity, divine-love]
+          - scotus-ord-i-d16: Distinction 16. On the Missions of the Divine Persons
+            loci: trinity
+          - scotus-ord-i-d17: Distinction 17. On the Temporal Mission of the Spirit
+            loci: trinity
+          - scotus-ord-i-d18: Distinction 18. On the Invisible Sending of the Spirit
+            loci: trinity
+          - scotus-ord-i-d19: Distinction 19. On the Relations of Persons to Works
+            loci: trinity
+          - scotus-ord-i-d20: Distinction 20. On the Divine Essence and Real Relations
+            loci: [trinity, divine-simplicity]
+          - scotus-ord-i-d21: Distinction 21. On the Formal Distinction in God
+            loci: [trinity, divine-simplicity]
+          - scotus-ord-i-d22: Distinction 22. On Relative and Absolute Terms in God
+            loci: trinity
+          - scotus-ord-i-d23: Distinction 23. On the Signification of Notional Names
+            loci: [trinity, names-of-god]
+          - scotus-ord-i-d24: Distinction 24. On Whether Notional Names Are Said Essentially
+            loci: [trinity, names-of-god]
+          - scotus-ord-i-d25: Distinction 25. On Whether the Persons Can Be Multiplied
+            loci: trinity
+          - scotus-ord-i-d26: Distinction 26. On Divine Knowledge
+            loci: knowledge-of-god
+          - scotus-ord-i-d27: Distinction 27. On the Comprehensiveness of Divine Knowledge
+            loci: knowledge-of-god
+          - scotus-ord-i-d28: Distinction 28. On the Science of Simple Intelligence
+            loci: knowledge-of-god
+          - scotus-ord-i-d29: Distinction 29. On the Divine Ideas
+            loci: knowledge-of-god
+          - scotus-ord-i-d30: Distinction 30. On God's Knowledge of Evil Things
+            loci: knowledge-of-god
+          - scotus-ord-i-d31: Distinction 31. On God's Foreknowledge of Future Contingents
+            loci: [knowledge-of-god, providence]
+          - scotus-ord-i-d32: Distinction 32. On Whether God Knows Contingent Singulars
+            loci: knowledge-of-god
+          - scotus-ord-i-d33: Distinction 33. On Predestination and Foreknowledge
+            loci: [predestination, knowledge-of-god]
+          - scotus-ord-i-d34: Distinction 34. On Divine Foreknowledge and the Freedom of Future Events
+            loci: [predestination, knowledge-of-god, free-will]
+          - scotus-ord-i-d35: Distinction 35. On Predestination
+            loci: predestination
+          - scotus-ord-i-d36: Distinction 36. On the Ground of Predestination
+            loci: predestination
+          - scotus-ord-i-d37: Distinction 37. On Reprobation
+            loci: reprobation
+          - scotus-ord-i-d38: Distinction 38. On the Number of the Predestinate and Reprobate
+            loci: [predestination, reprobation]
+          - scotus-ord-i-d39: Distinction 39. On the Divine Will
+            loci: will-of-god
+          - scotus-ord-i-d40: Distinction 40. On the Relationship of Divine Will to Moral Evil
+            loci: will-of-god
+          - scotus-ord-i-d41: Distinction 41. On Whether God Wills Evil
+            loci: will-of-god
+          - scotus-ord-i-d42: Distinction 42. On Divine Omnipotence
+            loci: power-of-god
+          - scotus-ord-i-d43: Distinction 43. On the Limits of Divine Power
+            loci: power-of-god
+          - scotus-ord-i-d44: Distinction 44. On Divine Goodness
+            loci: goodness-of-god
+          - scotus-ord-i-d45: Distinction 45. On Divine Truth and Memory
+            loci: attributes-of-god
+          - scotus-ord-i-d46: Distinction 46. On the Divine Perfections
+            loci: divine-perfection
+          - scotus-ord-i-d47: Distinction 47. On Beatitude and the Final End
+            loci: [happiness, beatific-vision]
+          - scotus-ord-i-d48: Distinction 48. On Enjoyment and Delight in God
+            loci: happiness
+
+      - scotus-ord-ii: Book II. On Creation, Angels, and Man
+        sections:
+          - scotus-ord-ii-d1: Distinction 1. On Creation and the Eternity of the World
+            loci: [creation, nature-of-angels]
+          - scotus-ord-ii-d2: Distinction 2. On the Spiritual Nature of Angels
+            loci: nature-of-angels
+          - scotus-ord-ii-d3: Distinction 3. On Angelic Knowledge and Place
+            loci: nature-of-angels
+          - scotus-ord-ii-d4: Distinction 4. On the Fall of Lucifer
+            loci: [fall-of-angels, origin-of-sin]
+          - scotus-ord-ii-d5: Distinction 5. On the Sin of the Fallen Angels
+            loci: fall-of-angels
+          - scotus-ord-ii-d6: Distinction 6. On the Nature and Cause of Sin
+            loci: nature-of-sin
+          - scotus-ord-ii-d7: Distinction 7. On Sin in the Will and Its Causes
+            loci: [nature-of-sin, free-will]
+          - scotus-ord-ii-d8: Distinction 8. On the Malice of the Fallen Angels
+            loci: fall-of-angels
+          - scotus-ord-ii-d9: Distinction 9. On the Moral Status of the Good Angels after Confirmation
+            loci: [nature-of-angels, predestination]
+          - scotus-ord-ii-d10: Distinction 10. On Angelic Merit and Reward
+            loci: [nature-of-angels, merit]
+          - scotus-ord-ii-d11: Distinction 11. On the Angelic Intellect and Knowledge
+            loci: nature-of-angels
+          - scotus-ord-ii-d12: Distinction 12. On Angelic Cognition
+            loci: nature-of-angels
+          - scotus-ord-ii-d13: Distinction 13. On Whether Angels Can Sin after Confirmation
+            loci: nature-of-angels
+          - scotus-ord-ii-d14: Distinction 14. On Angelic Movement and Location
+            loci: nature-of-angels
+          - scotus-ord-ii-d15: Distinction 15. On the Creation of the Human Soul
+            loci: [soul, creation]
+          - scotus-ord-ii-d16: Distinction 16. On Original Righteousness
+            loci: original-righteousness
+          - scotus-ord-ii-d17: Distinction 17. On Whether Original Righteousness Was Natural or Supernatural
+            loci: [original-righteousness, grace]
+          - scotus-ord-ii-d18: Distinction 18. On Free Will
+            loci: free-will
+          - scotus-ord-ii-d19: Distinction 19. On the Faculties of the Soul and Free Will
+            loci: [free-will, soul]
+          - scotus-ord-ii-d20: Distinction 20. On Synderesis and the Natural Law
+            loci: [conscience, natural-law]
+          - scotus-ord-ii-d21: Distinction 21. On Conscience
+            loci: conscience
+          - scotus-ord-ii-d22: Distinction 22. On Whether Will or Intellect Is the Higher Faculty
+            loci: [free-will, soul]
+          - scotus-ord-ii-d23: Distinction 23. On the Gifts of the Holy Spirit in Original Righteousness
+            loci: [original-righteousness, spiritual-gifts]
+          - scotus-ord-ii-d24: Distinction 24. On the State of Original Man
+            loci: [original-righteousness, nature-of-man]
+          - scotus-ord-ii-d25: Distinction 25. On the Ordering of Man to God
+            loci: [original-righteousness, happiness]
+          - scotus-ord-ii-d26: Distinction 26. On the Fall of Man
+            loci: [fall-of-man, original-sin]
+          - scotus-ord-ii-d27: Distinction 27. On the Nature of Original Sin
+            loci: original-sin
+          - scotus-ord-ii-d28: Distinction 28. On the Transmission of Original Sin
+            loci: [original-sin, transmission-of-sin]
+          - scotus-ord-ii-d29: Distinction 29. On Concupiscence
+            loci: concupiscence
+          - scotus-ord-ii-d30: Distinction 30. On the Fomes of Sin
+            loci: concupiscence
+          - scotus-ord-ii-d31: Distinction 31. On the Penalties of Original Sin
+            loci: punishment-of-sin
+          - scotus-ord-ii-d32: Distinction 32. On Actual Sin and Its Causes
+            loci: nature-of-sin
+          - scotus-ord-ii-d33: Distinction 33. On Mortal and Venial Sin
+            loci: nature-of-sin
+          - scotus-ord-ii-d34: Distinction 34. On the Distinction of Sins
+            loci: nature-of-sin
+          - scotus-ord-ii-d35: Distinction 35. On the Necessity of Grace
+            loci: grace
+          - scotus-ord-ii-d36: Distinction 36. On Gratuitous and Sanctifying Grace
+            loci: grace
+          - scotus-ord-ii-d37: Distinction 37. On Merit and the Necessity of Grace for Meritorious Acts
+            loci: [grace, merit]
+          - scotus-ord-ii-d38: Distinction 38. On the Virtues and Their Relation to Grace
+            loci: [virtue, grace]
+          - scotus-ord-ii-d39: Distinction 39. On the Infused and Acquired Virtues
+            loci: virtue
+          - scotus-ord-ii-d40: Distinction 40. On the Number and Connection of the Virtues
+            loci: virtue
+          - scotus-ord-ii-d41: Distinction 41. On Natural Virtue
+            loci: virtue
+          - scotus-ord-ii-d42: Distinction 42. On Faith as a Virtue
+            loci: [faith, virtue]
+          - scotus-ord-ii-d43: Distinction 43. On Hope
+            loci: hope
+          - scotus-ord-ii-d44: Distinction 44. On Charity
+            loci: charity
+
+      - scotus-ord-iii: Book III. On the Incarnation and the Christian Life
+        sections:
+          - scotus-ord-iii-d1: Distinction 1. On the Incarnation
+            loci: [incarnation, person-of-christ, natures-of-christ]
+            sections:
+              - scotus-ord-iii-d1-p1: First Part. On the Possibility of the Incarnation
+                sections:
+                  - scotus-ord-iii-d1-p1-q1: Q1. Whether It Was Possible for Human Nature to Be Assumed by the Word
+                    sections:
+                      - scotus-ord-iii-d1-p1-q1-b: B. How Personal Union Is Possible on the Part of the Nature Assumed
+                      - scotus-ord-iii-d1-p1-q1-c: C. How Personal Union Is Possible on the Part of the Assuming Nature
+                      - scotus-ord-iii-d1-p1-q1-d: D. What One Should Think about the Two Ways
+                      - scotus-ord-iii-d1-p1-q1-e: E. To the Arguments against the Second Way
+              - scotus-ord-iii-d1-p2: Second Part. On the Fact of the Incarnation
+                sections:
+                  - scotus-ord-iii-d1-p2-q1: Single Question. Whether the Formal Idea of Being the Term of the Union of Human Nature with the Word Is His Relative Property
+                    sections:
+                      - scotus-ord-iii-d1-p2-q1-a: A. What the Property Is That Constitutes a Person
+                      - scotus-ord-iii-d1-p2-q1-b: B. Whether a Personal Property Is the Formal Idea of Being Term for the Union of Human Nature with the Word
+              - scotus-ord-iii-d1-app: Appendix. Notes on the Distinction of the Divine Persons through Absolutes
+          - scotus-ord-iii-d2: Distinction 2. On the Assumed Nature
+            loci: [incarnation, natures-of-christ]
+          - scotus-ord-iii-d3: Distinction 3. On Whether the Blessed Virgin Was Conceived without Original Sin
+            loci: [mariology, immaculate-conception, original-sin]
+            sections:
+              - scotus-ord-iii-d3-q1: Q1. Whether the Blessed Virgin Was Conceived without Original Sin
+              - scotus-ord-iii-d3-q2: Q2. Wherefore and How Christ's Body Did Not Contract Original Sin
+          - scotus-ord-iii-d4: Distinction 4. On Whether the Blessed Virgin Was Truly Mother of God
+            loci: mariology
+          - scotus-ord-iii-d5: Distinction 5. On the Mode of the Incarnation
+            loci: [incarnation, natures-of-christ]
+            sections:
+              - scotus-ord-iii-d5-q1: Q1. Whether the Divine Nature Assumed Human Nature
+              - scotus-ord-iii-d5-q2: Q2. Whether a Created Person Was Assumed or Was Able to Be Assumed
+          - scotus-ord-iii-d6: Distinction 6. On Whether Christ Has a Created Being
+            loci: [person-of-christ, natures-of-christ]
+            sections:
+              - scotus-ord-iii-d6-q1: Q1. Whether in Christ There Is Some Being Other than the Divine Being
+          - scotus-ord-iii-d7: Distinction 7. On the Knowledge of Christ's Soul
+            loci: [person-of-christ, beatific-vision]
+          - scotus-ord-iii-d8: Distinction 8. On the Grace and Gifts of Christ
+            loci: [grace, person-of-christ]
+          - scotus-ord-iii-d9: Distinction 9. On the Worship Due to Christ
+            loci: [worship, person-of-christ]
+            sections:
+              - scotus-ord-iii-d9-q1: Single Question. Whether to Christ Is Owed Divine Worship or the Honor of Divine Worship Only according to His Divine Nature
+          - scotus-ord-iii-d10: Distinction 10. On Whether Christ Merited for Himself
+            loci: [merit, person-of-christ]
+          - scotus-ord-iii-d11: Distinction 11. On the Beatific Vision in Christ's Soul
+            loci: [beatific-vision, person-of-christ]
+          - scotus-ord-iii-d12: Distinction 12. On the Beatific Vision and Faith in Christ
+            loci: [beatific-vision, faith]
+          - scotus-ord-iii-d13: Distinction 13. On the Grace of Christ's Soul
+            loci: [grace, person-of-christ]
+            sections:
+              - scotus-ord-iii-d13-q1: Q1. Whether on Christ's Soul Could Have Been Conferred the Highest Grace That Could Have Been Conferred on a Creature
+              - scotus-ord-iii-d13-q2: Q2. Whether on Christ's Soul Was Conferred the Highest Grace That Could Be Conferred on a Creature
+              - scotus-ord-iii-d13-q3: Q3. Whether It Was Possible for the Will of Christ's Soul to Have the Highest Enjoyment Possible for a Created Nature
+              - scotus-ord-iii-d13-q4: Q4. Whether Christ's Soul Was Able to Enjoy God Supremely
+          - scotus-ord-iii-d14: Distinction 14. On the Knowledge of Christ's Soul and the Beatific Vision
+            loci: [beatific-vision, person-of-christ]
+            sections:
+              - scotus-ord-iii-d14-q1: Q1. Whether It Was Possible for the Intellect of Christ's Soul to Be Perfected by the Most Perfect Vision of the Word Possible for a Creature
+              - scotus-ord-iii-d14-q2: Q2. Whether It Is Possible That the Intellect of Christ's Soul Sees Everything in the Word That the Word Sees
+          - scotus-ord-iii-d15: Distinction 15. On Sorrow in Christ's Soul
+            loci: [passions, state-of-humiliation]
+            sections:
+              - scotus-ord-iii-d15-q1: Single Question. Whether in Christ's Soul according to Its Higher Portion There Will Have Been True Sorrow
+          - scotus-ord-iii-d16: Distinction 16. On Whether Christ Was under Necessity to Die
+            loci: [atonement, state-of-humiliation]
+            sections:
+              - scotus-ord-iii-d16-q1: Q1. Whether Christ Was under Any Necessity to Die
+                sections:
+                  - scotus-ord-iii-d16-q1-a: A. The Opinion of Others
+                  - scotus-ord-iii-d16-q1-b: "B. Scotus' Own Response"
+                  - scotus-ord-iii-d16-q1-c: C. Doubts and Their Solution
+                  - scotus-ord-iii-d16-q1-d: D. To the Principal Arguments
+                  - scotus-ord-iii-d16-q1-e: E. To the Forms of the Argument for the Opinion of Others
+              - scotus-ord-iii-d16-q2: Q2. On a Second Question about the Necessity of Death
+          - scotus-ord-iii-d17: Distinction 17. On Whether Christ Had Two Wills
+            loci: [natures-of-christ, person-of-christ]
+            sections:
+              - scotus-ord-iii-d17-q1: Q1. Whether in Christ There Were Two Wills
+          - scotus-ord-iii-lec: Lectura, Book III, Distinctions 18–25
+            sections:
+              - scotus-lec-iii-d18: Distinction 18. On Faith
+                loci: faith
+              - scotus-lec-iii-d19: Distinction 19. On Hope
+                loci: hope
+              - scotus-lec-iii-d20: Distinction 20. On Charity
+                loci: charity
+              - scotus-lec-iii-d21: Distinction 21. On the Acts of Charity
+                loci: charity
+              - scotus-lec-iii-d22: Distinction 22. On the Virtues Generally
+                loci: virtue
+              - scotus-lec-iii-d23: Distinction 23. On Prudence
+                loci: prudence
+              - scotus-lec-iii-d24: Distinction 24. On Justice
+                loci: justice
+              - scotus-lec-iii-d25: Distinction 25. On the Perfection of the Virtues
+                loci: virtue
+          - scotus-ord-iii-d26: Distinction 26. On the Law of Nature and Moral Law
+            loci: [natural-law, moral-law]
+          - scotus-ord-iii-d27: Distinction 27. On Whether All the Decalogue Is Natural Law
+            loci: [moral-law, natural-law]
+          - scotus-ord-iii-d28: Distinction 28. On the First Commandment and Worship
+            loci: [moral-law, worship]
+          - scotus-ord-iii-d29: Distinction 29. On the Second and Third Commandments
+            loci: [moral-law, oaths, sabbath]
+          - scotus-ord-iii-d30: Distinction 30. On the Fourth Commandment
+            loci: moral-law
+          - scotus-ord-iii-d31: Distinction 31. On the Fifth Commandment
+            loci: moral-law
+          - scotus-ord-iii-d32: Distinction 32. On the Sixth Commandment
+            loci: [moral-law, chastity]
+          - scotus-ord-iii-d33: Distinction 33. On the Seventh, Eighth, Ninth, and Tenth Commandments
+            loci: [moral-law, property, truth]
+          - scotus-ord-iii-d34: Distinction 34. On the Gifts of the Holy Spirit
+            loci: spiritual-gifts
+          - scotus-ord-iii-d35: Distinction 35. On Temperance
+            loci: temperance
+          - scotus-ord-iii-d36: Distinction 36. On Fortitude
+            loci: fortitude
+          - scotus-ord-iii-d37: Distinction 37. On Justice as a Virtue
+            loci: justice
+          - scotus-ord-iii-d38: Distinction 38. On Fraternal Correction
+            loci: [justice, church-discipline]
+          - scotus-ord-iii-d39: Distinction 39. On Restitution
+            loci: [justice, property]
+          - scotus-ord-iii-d40: Distinction 40. On Precepts and Counsels
+            loci: moral-law
+
+      - scotus-ord-iv: Book IV. On the Sacraments and Last Things
+        sections:
+          - scotus-ord-iv-d1: Distinction 1. On the Sacraments in General
+            loci: sacraments
+          - scotus-ord-iv-d2: Distinction 2. On Sacramental Signs and Their Efficacy
+            loci: sacraments
+          - scotus-ord-iv-d3: Distinction 3. On the Effects of the Sacraments
+            loci: sacraments
+          - scotus-ord-iv-d4: Distinction 4. On Baptism
+            loci: baptism
+          - scotus-ord-iv-d5: Distinction 5. On the Effect and Minister of Baptism
+            loci: baptism
+          - scotus-ord-iv-d6: Distinction 6. On Baptism and the Remission of Sin
+            loci: baptism
+          - scotus-ord-iv-d7: Distinction 7. On Infant Baptism and the Necessity of Baptism
+            loci: baptism
+          - scotus-ord-iv-d8: Distinction 8. On Confirmation
+            loci: confirmation
+          - scotus-ord-iv-d9: Distinction 9. On the Institution and Nature of the Eucharist
+            loci: lords-supper
+          - scotus-ord-iv-d10: Distinction 10. On Transubstantiation
+            loci: transubstantiation
+          - scotus-ord-iv-d11: Distinction 11. On the Accidents of the Eucharist
+            loci: lords-supper
+          - scotus-ord-iv-d12: Distinction 12. On Communion under Both Species
+            loci: lords-supper
+          - scotus-ord-iv-d13: Distinction 13. On the Minister of the Eucharist
+            loci: [lords-supper, ordination]
+          - scotus-ord-iv-d14: Distinction 14. On Penance and Contrition
+            loci: [penance, repentance]
+          - scotus-ord-iv-d15: Distinction 15. On Confession
+            loci: penance
+          - scotus-ord-iv-d16: Distinction 16. On the Power of the Keys
+            loci: [power-of-the-church, penance]
+          - scotus-ord-iv-d17: Distinction 17. On Absolution and Its Conditions
+            loci: penance
+          - scotus-ord-iv-d18: Distinction 18. On Contrition and Its Sufficiency
+            loci: [penance, repentance]
+          - scotus-ord-iv-d19: Distinction 19. On the Parts of Penance
+            loci: penance
+          - scotus-ord-iv-d20: Distinction 20. On Restitution and Satisfaction
+            loci: penance
+          - scotus-ord-iv-d21: Distinction 21. On Indulgences
+            loci: [indulgences, penance]
+          - scotus-ord-iv-d22: Distinction 22. On the Keys and Their Extent
+            loci: [power-of-the-church, penance]
+          - scotus-ord-iv-d23: Distinction 23. On Extreme Unction
+            loci: extreme-unction
+          - scotus-ord-iv-d24: Distinction 24. On Holy Orders
+            loci: ordination
+          - scotus-ord-iv-d25: Distinction 25. On the Degrees of Order
+            loci: ordination
+          - scotus-ord-iv-d26: Distinction 26. On the Sacrament of Marriage
+            loci: marriage
+          - scotus-ord-iv-d27: Distinction 27. On the Impediments to Marriage
+            loci: marriage
+          - scotus-ord-iv-d28: Distinction 28. On the Goods of Marriage
+            loci: marriage
+          - scotus-ord-iv-d29: Distinction 29. On Betrothal
+            loci: marriage
+          - scotus-ord-iv-d30: Distinction 30. On the Consent Required for Marriage
+            loci: marriage
+          - scotus-ord-iv-d31: Distinction 31. On Bigamy and Divorce
+            loci: marriage
+          - scotus-ord-iv-d32: Distinction 32. On the Indissolubility of Marriage
+            loci: marriage
+          - scotus-ord-iv-d33: Distinction 33. On the Effects of Marriage
+            loci: marriage
+          - scotus-ord-iv-d34: Distinction 34. On Irregular Marriages and Consanguinity
+            loci: marriage
+          - scotus-ord-iv-d35: Distinction 35. On Affinity
+            loci: marriage
+          - scotus-ord-iv-d36: Distinction 36. On Spiritual Relationship as Impediment
+            loci: marriage
+          - scotus-ord-iv-d37: Distinction 37. On the Crime Impediment
+            loci: marriage
+          - scotus-ord-iv-d38: Distinction 38. On the Impediment of Disparity of Cult
+            loci: marriage
+          - scotus-ord-iv-d39: Distinction 39. On Clandestine Marriage
+            loci: marriage
+          - scotus-ord-iv-d40: Distinction 40. On the Impediment of Holy Orders
+            loci: marriage
+          - scotus-ord-iv-d41: Distinction 41. On the Impediment of Solemn Vow
+            loci: marriage
+          - scotus-ord-iv-d42: Distinction 42. On Matrimonial Law
+            loci: marriage
+          - scotus-ord-iv-d43: Distinction 43. On the Resurrection of the Dead
+            loci: resurrection-of-the-dead
+          - scotus-ord-iv-d44: Distinction 44. On the Properties of the Risen Body
+            loci: resurrection-of-the-dead
+          - scotus-ord-iv-d45: Distinction 45. On Purgatory
+            loci: [purgatory, intermediate-state]
+          - scotus-ord-iv-d46: Distinction 46. On the State of Souls after Death
+            loci: intermediate-state
+          - scotus-ord-iv-d47: Distinction 47. On the Final Judgment
+            loci: final-judgement
+          - scotus-ord-iv-d48: Distinction 48. On Hell and Its Punishments
+            loci: final-state
+          - scotus-ord-iv-d49: Distinction 49. On the Beatific Vision
+            loci: [beatific-vision, final-state]
+          - scotus-ord-iv-d50: Distinction 50. On the End of All Things
+            loci: final-state
+
+    translations:
+      - translator: Peter L. P. Simpson
+        sites:
+          - site: Aristotelophile
+            url: https://www.aristotelophile.com/current.htm
+            section_urls:
+              # Prologue
+              - scotus-ord-prol: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf
+              - scotus-ord-prol-i: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf
+              - scotus-ord-prol-ii: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf
+              - scotus-ord-prol-iii-q1: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=36
+              - scotus-ord-prol-iii-q2: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=37
+              - scotus-ord-prol-iii-q3: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=38
+              - scotus-ord-prol-iii-q3-i: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=38
+              - scotus-ord-prol-iii-q3-ii: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=40
+              - scotus-ord-prol-iv: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf
+              - scotus-ord-prol-v-q1: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=58
+              - scotus-ord-prol-v-q2: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=59
+              - scotus-ord-prol-v-q2-i: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=59
+              - scotus-ord-prol-v-q2-ii: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=61
+              - scotus-ord-prol-v-q2-iii: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=62
+              - scotus-ord-prol-v-q2-iv: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=67
+              - scotus-ord-prol-v-q2-v: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=69
+              - scotus-ord-prol-v-q2-v-a: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=69
+              - scotus-ord-prol-v-q2-v-b: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf#page=76
+              # Book I, dd.1-2
+              - scotus-ord-i: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.1-2.pdf
+              - scotus-ord-i-d1: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.1-2.pdf
+              - scotus-ord-i-d2: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.1-2.pdf
+              # Book I, d.3
+              - scotus-ord-i-d3: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20d.3.pdf
+              # Book I, dd.4-10
+              - scotus-ord-i-d4: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.4-10.pdf
+              - scotus-ord-i-d5: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.4-10.pdf
+              - scotus-ord-i-d6: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.4-10.pdf
+              - scotus-ord-i-d7: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.4-10.pdf
+              - scotus-ord-i-d8: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.4-10.pdf
+              - scotus-ord-i-d9: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.4-10.pdf
+              - scotus-ord-i-d10: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.4-10.pdf
+              # Book I, dd.11-25
+              - scotus-ord-i-d11: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d12: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d13: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d14: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d15: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d16: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d17: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d18: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d19: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d20: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d21: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d22: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d23: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d24: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              - scotus-ord-i-d25: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.11-25.pdf
+              # Book I, dd.26-48
+              - scotus-ord-i-d26: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d27: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d28: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d29: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d30: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d31: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d32: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d33: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d34: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d35: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d36: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d37: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d38: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d39: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d40: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d41: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d42: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d43: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d44: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d45: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d46: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d47: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              - scotus-ord-i-d48: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20I%20dd.26-48.pdf
+              # Book II, dd.1-3
+              - scotus-ord-ii: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.1-3.pdf
+              - scotus-ord-ii-d1: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.1-3.pdf
+              - scotus-ord-ii-d2: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.1-3.pdf
+              - scotus-ord-ii-d3: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.1-3.pdf
+              # Book II, dd.4-14
+              - scotus-ord-ii-d4: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d5: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d6: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d7: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d8: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d9: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d10: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d11: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d12: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d13: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              - scotus-ord-ii-d14: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.4-14.pdf
+              # Book II, dd.15-25
+              - scotus-ord-ii-d15: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d16: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d17: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d18: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d19: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d20: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d21: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d22: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d23: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d24: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              - scotus-ord-ii-d25: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.15-25.pdf
+              # Book II, dd.26-44
+              - scotus-ord-ii-d26: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d27: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d28: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d29: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d30: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d31: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d32: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d33: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d34: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d35: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d36: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d37: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d38: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d39: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d40: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d41: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d42: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d43: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              - scotus-ord-ii-d44: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%202%20dd.26-44.pdf
+              # Book III, dd.1-7 (with page numbers from bookmarks)
+              - scotus-ord-iii: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf
+              - scotus-ord-iii-d1: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=8
+              - scotus-ord-iii-d1-p1: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=8
+              - scotus-ord-iii-d1-p1-q1: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=8
+              - scotus-ord-iii-d1-p2: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=34
+              - scotus-ord-iii-d1-p2-q1: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=34
+              - scotus-ord-iii-d1-app: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=53
+              - scotus-ord-iii-d2: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=56
+              - scotus-ord-iii-d3: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=79
+              - scotus-ord-iii-d3-q1: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=79
+              - scotus-ord-iii-d3-q2: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=89
+              - scotus-ord-iii-d4: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=90
+              - scotus-ord-iii-d5: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=101
+              - scotus-ord-iii-d6: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=105
+              - scotus-ord-iii-d7: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.1-7.pdf#page=117
+              # Book III, dd.8-17 (with page numbers from bookmarks)
+              - scotus-ord-iii-d8: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=7
+              - scotus-ord-iii-d9: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=18
+              - scotus-ord-iii-d10: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=27
+              - scotus-ord-iii-d11: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=30
+              - scotus-ord-iii-d12: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=42
+              - scotus-ord-iii-d13: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=44
+              - scotus-ord-iii-d14: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=60
+              - scotus-ord-iii-d15: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=80
+              - scotus-ord-iii-d16: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=102
+              - scotus-ord-iii-d17: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.8-17.pdf#page=112
+              # Lectura III, dd.18-25
+              - scotus-ord-iii-lec: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              - scotus-lec-iii-d18: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              - scotus-lec-iii-d19: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              - scotus-lec-iii-d20: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              - scotus-lec-iii-d21: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              - scotus-lec-iii-d22: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              - scotus-lec-iii-d23: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              - scotus-lec-iii-d24: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              - scotus-lec-iii-d25: https://aristotelophile.com/Books/Translations/Scotus%20Lectura%20III%20dd.18-25.pdf
+              # Book III, dd.26-40
+              - scotus-ord-iii-d26: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d27: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d28: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d29: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d30: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d31: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d32: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d33: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d34: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d35: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d36: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d37: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d38: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d39: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              - scotus-ord-iii-d40: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20III%20dd.26-40.pdf
+              # Book IV, d.1-7
+              - scotus-ord-iv: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.1-7.pdf
+              - scotus-ord-iv-d1: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.1-7.pdf
+              - scotus-ord-iv-d2: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.1-7.pdf
+              - scotus-ord-iv-d3: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.1-7.pdf
+              - scotus-ord-iv-d4: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.1-7.pdf
+              - scotus-ord-iv-d5: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.1-7.pdf
+              - scotus-ord-iv-d6: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.1-7.pdf
+              - scotus-ord-iv-d7: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.1-7.pdf
+              # Book IV, d.8-13
+              - scotus-ord-iv-d8: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.8-13.pdf
+              - scotus-ord-iv-d9: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.8-13.pdf
+              - scotus-ord-iv-d10: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.8-13.pdf
+              - scotus-ord-iv-d11: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.8-13.pdf
+              - scotus-ord-iv-d12: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.8-13.pdf
+              - scotus-ord-iv-d13: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.8-13.pdf
+              # Book IV, d.14-42
+              - scotus-ord-iv-d14: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d15: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d16: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d17: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d18: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d19: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d20: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d21: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d22: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d23: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d24: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d25: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d26: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d27: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d28: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d29: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d30: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d31: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d32: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d33: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d34: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d35: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d36: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d37: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d38: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d39: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d40: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d41: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              - scotus-ord-iv-d42: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.14-42.pdf
+              # Book IV, d.43-50
+              - scotus-ord-iv-d43: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.43-50.pdf
+              - scotus-ord-iv-d44: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.43-50.pdf
+              - scotus-ord-iv-d45: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.43-50.pdf
+              - scotus-ord-iv-d46: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.43-50.pdf
+              - scotus-ord-iv-d47: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.43-50.pdf
+              - scotus-ord-iv-d48: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.43-50.pdf
+              - scotus-ord-iv-d49: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.43-50.pdf
+              - scotus-ord-iv-d50: https://aristotelophile.com/Books/Translations/Scotus%20Ordinatio%20IV%20d.43-50.pdf
