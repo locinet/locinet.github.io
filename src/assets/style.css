@@ -713,7 +713,7 @@ body:has(.loci-page), body:has(.author-page-layout) { max-width: 1200px; }
 }
 @media (max-width: 600px) {
   body { font-size: 14px; padding: 0.5em; }
-  .author-image-link { float: none; margin: 0 0 0.5em 0; }
+  .author-image-link { float: right; margin: 0 0 0.5em 0.5em; }
   .author-image { max-width: 160px; }
   .filter-box input { width: 100%; }
   .add-author-dropdown { width: calc(100vw - 1em); right: -0.5em; }

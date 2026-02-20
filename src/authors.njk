@@ -194,7 +194,7 @@ eleventyComputed:
           {%- for ed in work.origEditions %}
             {%- for s in ed.sites %}
               {%- if s.url %}
-                {%- if hasSiteLink %}, {% endif -%}
+                {%- if hasSiteLink %}, {% else %} {% endif -%}
                 <a href="{{ s.url }}">{{ s.siteName }}</a>
                 {%- if s.pdfUrl %} (<a href="{{ s.pdfUrl }}">PDF</a>){% endif -%}
                 {%- if s.epubUrl %} (<a href="{{ s.epubUrl }}">EPUB</a>){% endif -%}
