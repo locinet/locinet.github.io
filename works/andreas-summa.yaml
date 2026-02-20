@@ -1,0 +1,202 @@
+andreas-summa:
+  author: Q3620412
+  category: systematic
+  la:
+    title: Quaestiones super quatuor libros Sententiarum
+    orig_lang: true
+    editions:
+      - year: 1578
+        place: Venice
+  en:
+    title: "A Summa of Scotus' Theology, or Questions on the Four Books of Peter Lombard's Sentences"
+    sections:
+      - andreasq-b1: Book One
+        sections:
+          - andreasq-prol: Prologue
+            sections:
+              - andreasq-prol-q1: Q1. Whether for Man in His Present State There Is Need for Some Special Doctrine to Be Supernaturally Inspired that He Cannot Attain by the Natural Light of His Intellect
+              - andreasq-prol-q2: Q2. Whether the Supernatural Knowledge Necessary for the Wayfarer Is Sufficiently Handed Down in Sacred Scripture
+              - andreasq-prol-q3: Q3. Whether Theology Is About God as First Object or First Subject
+                sections:
+                  - andreasq-prol-q3-sq1: "First Side Question: Whether Theology Is About God under Some Special Idea"
+                  - andreasq-prol-q3-sq2: "Second Side Question: Whether Theology Is About Everything by Way of Attribution to the First Subject"
+                  - andreasq-prol-q3-sq34: "Third and Fourth Side Questions: Whether Theology Is Wisdom or Is a Subalterning or Subalternate Science"
+              - andreasq-prol-q4: Q4. Whether Theology Is a Practical or a Speculative Science
+          - andreasq-b1d1: First Distinction
+            sections:
+              - andreasq-b1d1-q1: Q1. Whether Enjoyment Is of the Ultimate End Only
+              - andreasq-b1d1-q2: Q2. Whether the Ultimate End Contains Only One Idea of Being Enjoyable
+              - andreasq-b1d1-q3: "Q3. Whether Enjoyment Is a Feeling Received in the Will, to Wit Some Delight"
+              - andreasq-b1d1-q4: Q4. Whether the Will Must Necessarily Enjoy the End When the Intellect Has Apprehended It
+              - andreasq-b1d1-q5: Q5. Whether God Properly Enjoys
+              - andreasq-b1d1-q6: Q6. Whether the Wayfarer Enjoys
+              - andreasq-b1d1-q7: Q7. Whether the Sinner Enjoys
+              - andreasq-b1d1-q8: Q8. Whether the Brute Animals Enjoy
+              - andreasq-b1d1-q9: Q9. Whether All Things Enjoy
+          - andreasq-b1d2: Second Distinction
+            sections:
+              - andreasq-b1d2-q1: Q1. Whether There Is Any Existing Infinite Thing Among Real Beings
+              - andreasq-b1d2-q2: "Q2. Whether the Proposition 'God Exists' Is Self-Evident"
+              - andreasq-b1d2-q3: Q3. Whether There Is Only One God
+              - andreasq-b1d2-q4: Q4. Whether a Plurality of Persons Is Consistent with the Unity of the Divine Essence
+              - andreasq-b1d2-q5: Q5. Whether There Are Only Three Persons in the Divine Essence
+              - andreasq-b1d2-q6: Q6. Whether the Divine Essence Can Exist in Something if that Something Is Produced
+              - andreasq-b1d2-q6bis: Q6bis. Whether There Are Several Productions in God
+              - andreasq-b1d2-q7: Q7. Whether There Are in God Only Two Productions Intrinsically
+          - andreasq-b1d3: Third Distinction
+            sections:
+              - andreasq-b1d3-q1: Q1. Whether God Can Be Naturally Known by the Intellect of the Wayfarer
+              - andreasq-b1d3-q2: Q2. Whether God Is the First Thing Naturally Known by the Wayfarer
+              - andreasq-b1d3-q3: Q3. Whether God Is the Sufficient Object of Our Intellect
+              - andreasq-b1d3-q4: Q4. Whether Some Sound and Certain Truth Can Be Known by the Intellect of the Wayfarer Without Special Illumination from the Uncreated Light
+              - andreasq-b1d3-q5: Q5. Whether a Trace or Footprint of the Trinity Is Found in All Creatures
+              - andreasq-b1d3-q6: "Q6. Whether in Intellectual Nature Taken Properly There Is Memory Properly, that Is, an Intellect Possessing an Intelligible Species Naturally Prior to the Act of Understanding"
+              - andreasq-b1d3-q7: "Q7. Whether the Intellective Part of the Soul Taken Properly, or Some Part of It, Is the Whole Cause, or the Whole Principle of Generating, Which Generates Actual Knowledge"
+              - andreasq-b1d3-q8: "Q8. Whether the More Principal Cause of Generated Knowledge Is the Object in Itself or Present in the Species, or the Intellective Part of the Soul"
+              - andreasq-b1d3-q9: Q9. Whether the Image of the Trinity Exists in the Mind Distinctly
+          - andreasq-b1d4: Fourth Distinction
+            sections:
+              - andreasq-b1d4-q1: "Whether This Proposition Is True: 'God Is Father, Son, and Holy Spirit'"
+          - andreasq-b1d5: Fifth Distinction
+            sections:
+              - andreasq-b1d5-q1: Q1. Whether the Divine Essence Generates or Is Generated
+          - andreasq-b1d26: Twenty-Sixth Distinction
+            sections:
+              - andreasq-b1d26-q1: Whether the Divine Persons Are Constituted in Their Personal Existence by Relations of Origin
+      - andreasq-b2: Book Two
+        sections:
+          - andreasq-b2d12: Twelfth Distinction
+            sections:
+              - andreasq-b2d12-q1: Q1. Whether There Is in Generable and Corruptible Things Any Positive Substantial Entity Really Distinct from the Form
+              - andreasq-b2d12-q2: Q2. Whether Matter Can, by Any Power, Exist Without Form
+          - andreasq-b2d15: Fifteenth Distinction
+            sections:
+              - andreasq-b2d15-q1: Whether the Elements Remain in a Mixed Body in Their Substance
+          - andreasq-b2d16: Sixteenth Distinction
+            sections:
+              - andreasq-b2d16-q1: Whether the Image of the Trinity Consists in Three Powers of the Rational Soul Really Distinct
+          - andreasq-b2d17: Seventeenth Distinction
+            sections:
+              - andreasq-b2d17-q1: Q1. Whether Adam's Soul Was Created in the Body
+              - andreasq-b2d17-q2: Q2. Whether Paradise Is a Suitable Place for Human Habitation
+          - andreasq-b2d18: Eighteenth Distinction
+            sections:
+              - andreasq-b2d18-q1: Whether There Are Seminal Reasons in Matter
+          - andreasq-b2d19: Nineteenth Distinction
+            sections:
+              - andreasq-b2d19-q1: Whether in the State of Innocence We Would Have Had Immortal Bodies
+          - andreasq-b2d20: Twentieth Distinction
+            sections:
+              - andreasq-b2d20-q1: Q1. Whether in the State of Innocence Everyone Would at Once Have Been Confirmed in Justice
+              - andreasq-b2d20-q2: Q2. Whether in the State of Innocence Only Those Would Have Been Born Who Are Now the Elect
+          - andreasq-b2d21: Twenty-First Distinction
+            sections:
+              - andreasq-b2d21-q1: "Whether Adam's Sin Was the Gravest Sin"
+          - andreasq-b2d22: Twenty-Second Distinction
+            sections:
+              - andreasq-b2d22-q1: Whether the Sin of the First Man Came from Ignorance
+          - andreasq-b2d23: Twenty-Third Distinction
+            sections:
+              - andreasq-b2d23-q1: Whether God Could Make the Will of a Rational Creature to Be Naturally Incapable of Sin
+          - andreasq-b2d24: Twenty-Fourth Distinction
+            sections:
+              - andreasq-b2d24-q1: Whether the Higher Part of the Intellect Is a Power Distinct from the Inferior Power
+          - andreasq-b2d25: Twenty-Fifth Distinction
+            sections:
+              - andreasq-b2d25-q1: Whether Anything Other than the Will Is the Effective Cause of an Act of Willing in the Will
+      - andreasq-b3: Book Three
+        sections:
+          - andreasq-b3d18: Eighteenth Distinction
+            sections:
+              - andreasq-b3d18-q1: Whether Christ Merited in the First Instant of His Conception
+          - andreasq-b3d19: Nineteenth Distinction
+            sections:
+              - andreasq-b3d19-q1: Whether Christ Merited Grace and Glory and Remission of Guilt and Punishment for All Men
+          - andreasq-b3d20: Twentieth Distinction
+            sections:
+              - andreasq-b3d20-q1: Whether It Was Necessary for the Human Race to Be Repaired by the Passion of Christ
+          - andreasq-b3d21: Twenty-First Distinction
+            sections:
+              - andreasq-b3d21-q1: "Whether Christ's Body Would Have Putrefied if His Resurrection Had Not Been Hastened"
+          - andreasq-b3d22: Twenty-Second Distinction
+            sections:
+              - andreasq-b3d22-q1: Whether Christ Was a Man during the Triduum
+          - andreasq-b3d23: Twenty-Third Distinction
+            sections:
+              - andreasq-b3d23-q1: Whether Infused Faith Must Be Posited for Matters Revealed to Us for Belief
+          - andreasq-b3d24: Twenty-Fourth Distinction
+            sections:
+              - andreasq-b3d24-q1: Whether About Revealed Matters of Belief Someone Can Have Science and Faith at the Same Time, Speaking of Science as It Is Taken for All the Certain Knowledge Received from the Evidence of the Thing
+          - andreasq-b3d25: Twenty-Fifth Distinction
+            sections:
+              - andreasq-b3d25-q1: Whether before Christ's Coming Faith About the Things We Now Believe Was Necessary
+    translations:
+      - translator: Peter L.P. Simpson
+        sites:
+          - site: Aristotelophile
+            url:
+              volumes:
+                1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf"
+                2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf"
+                3: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf"
+            pdf: true
+            section_urls:
+              - andreasq-prol-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=6"
+              - andreasq-prol-q2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=13"
+              - andreasq-prol-q3: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=14"
+              - andreasq-prol-q3-sq1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=15"
+              - andreasq-prol-q3-sq2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=21"
+              - andreasq-prol-q3-sq34: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=23"
+              - andreasq-prol-q4: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=25"
+              - andreasq-b1d1-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=30"
+              - andreasq-b1d1-q2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=32"
+              - andreasq-b1d1-q3: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=37"
+              - andreasq-b1d1-q4: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=39"
+              - andreasq-b1d1-q5: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=43"
+              - andreasq-b1d1-q6: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=43"
+              - andreasq-b1d1-q7: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=43"
+              - andreasq-b1d1-q8: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=44"
+              - andreasq-b1d1-q9: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=44"
+              - andreasq-b1d2-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=45"
+              - andreasq-b1d2-q2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=46"
+              - andreasq-b1d2-q3: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=53"
+              - andreasq-b1d2-q4: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=56"
+              - andreasq-b1d2-q5: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=57"
+              - andreasq-b1d2-q6: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=57"
+              - andreasq-b1d2-q6bis: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=58"
+              - andreasq-b1d2-q7: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=58"
+              - andreasq-b1d3-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=71"
+              - andreasq-b1d3-q2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=72"
+              - andreasq-b1d3-q3: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=76"
+              - andreasq-b1d3-q4: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=81"
+              - andreasq-b1d3-q5: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=88"
+              - andreasq-b1d3-q6: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=89"
+              - andreasq-b1d3-q7: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=91"
+              - andreasq-b1d3-q8: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=95"
+              - andreasq-b1d3-q9: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=97"
+              - andreasq-b1d4-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=101"
+              - andreasq-b1d5-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=102"
+              - andreasq-b1d26-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=104"
+              - andreasq-b2d12-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=4"
+              - andreasq-b2d12-q2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=6"
+              - andreasq-b2d15-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=8"
+              - andreasq-b2d16-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=11"
+              - andreasq-b2d17-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=14"
+              - andreasq-b2d17-q2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=15"
+              - andreasq-b2d18-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=16"
+              - andreasq-b2d19-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=19"
+              - andreasq-b2d20-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=21"
+              - andreasq-b2d20-q2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=22"
+              - andreasq-b2d21-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=23"
+              - andreasq-b2d22-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=24"
+              - andreasq-b2d23-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=26"
+              - andreasq-b2d24-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=27"
+              - andreasq-b2d25-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf#page=28"
+              - andreasq-b3d18-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf#page=3"
+              - andreasq-b3d19-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf#page=7"
+              - andreasq-b3d20-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf#page=9"
+              - andreasq-b3d21-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf#page=11"
+              - andreasq-b3d22-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf#page=13"
+              - andreasq-b3d23-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf#page=18"
+              - andreasq-b3d24-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf#page=21"
+              - andreasq-b3d25-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf#page=25"

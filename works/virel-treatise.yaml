@@ -1,0 +1,166 @@
+virel-treatise:
+  author: Q138354628
+  # loci:
+  fr:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: "A Learned and Excellent Treatise Containing All the Principal Grounds of Christian Religion. Set Down by Way of Conference in a Most Plain and Familiar Manner. Written First in French by Master Matthew Virell, After Translated Into Latin: and Now Turned Into English for the Use of Our Countrymen. 1. Tim. 4. 15. These Things Meditate, and Labour in Them, That Thy Profiting May Be Manifest to All. the Second Impression, Corrected and Amended. Deus Imperat Astris. Imprinted at London by Richard Field for Robert Dexter, Dwelling in Paul's Churchyard at the Sign of the Brazen Serpent. 1594."
+    sections:
+      - the-first-book-of-christian-religion-wherein-the-grounds-of-: "The First Book of Christian Religion, Wherein the Grounds of Our Salvation Are Handled."
+        # loci:
+        sections:
+          - chap-i-of-the-knowledge-of-god-who-being-perfectly-just-and-: "Chap. I. of the Knowledge of God, Who Being Perfectly Just, and Perfectly Merciful, Doth Never Exercise His Mercy, but He Doth Also Exercise His Justice."
+            # loci:
+          - chap-ii-of-the-knowledge-of-man-who-being-a-most-miserable-s: "Chap. Ii. of the Knowledge of Man, Who Being a Most Miserable Sinner, is Before God, Guilty of Eternal Death."
+            # loci:
+          - chap-iii-of-the-knowledge-of-christ-who-having-satisfied-for: "Chap. Iii. of the Knowledge of Christ, Who Having Satisfied for Us the Perfect Righteousness of God, Hath Opened a Way to His Infinite Mercy, Through the Which at Length We May Come to Eternal Life."
+            # loci:
+          - chap-four-of-faith-by-the-which-we-are-made-one-with-christ-: "Chap. Four of Faith, by the Which We Are Made One With Christ, and so Be Partakers of All His Gifts."
+            # loci:
+            sections:
+              - the-exposition-of-the-apostles-creed: The Exposition of the Apostles Creed.
+                # loci:
+                sections:
+                  - the-first-part-of-the-apostles-creed-which-is-of-faith-in-go: "The First Part of the Apostles Creed, Which is of Faith in God the Father."
+                    # loci:
+                  - the-second-part-of-the-apostles-creed-which-is-of-faith-in-c: "The Second Part of the Apostles Creed, Which is of Faith in Christ."
+                    # loci:
+                  - the-third-part-of-the-apostles-creed-which-is-faith-in-the-h: "The Third Part of the Apostles Creed, Which is Faith in the Holy Ghost."
+                    # loci:
+                  - the-fourth-part-of-the-apostles-creed-which-is-concerning-th: "The Fourth Part of the Apostles Creed, Which is Concerning the Church."
+                    # loci:
+                  - a-short-exposition-of-the-apostles-creed: A Short Exposition of the Apostles Creed.
+                    # loci:
+      - the-second-book-of-christian-religion-wherein-the-testimonie: "The Second Book of Christian Religion, Wherein the Testimonies of Our Salvation Are Declared."
+        # loci:
+        sections:
+          - chap-i-of-good-works-by-the-which-the-faith-that-is-hidden-i: "Chap. I. of Good Works, by the Which the Faith That is Hidden in Our Hearts is Manifested, That it May Be Seen and Known."
+            # loci:
+            sections:
+              - the-first-part-of-this-chapter-showeth-what-good-works-are-t: "The First Part of This Chapter, Showeth What Good Works Are to Be Done of Us."
+                # loci:
+                sections:
+                  - the-exposition-of-the-moral-law: The Exposition of the Moral Law.
+                    # loci:
+                    sections:
+                      - the-first-table-of-the-law: The First Table of the Law.
+                        # loci:
+                        sections:
+                          - the-preface-of-the-law: The Preface of the Law.
+                            # loci:
+                          - the-first-commandment: The First Commandment.
+                            # loci:
+                          - the-second-commandment: The Second Commandment.
+                            # loci:
+                          - the-third-commandment: The Third Commandment.
+                            # loci:
+                          - the-fourth-commandment: The Fourth Commandment.
+                            # loci:
+                      - the-second-table-of-the-law: The Second Table of the Law.
+                        # loci:
+                        sections:
+                          - the-fift-commandment-of-the-law: The Fift Commandment of the Law.
+                            # loci:
+                          - the-sixth-commandment: The Sixth Commandment.
+                            # loci:
+                          - the-seventh-commandment: The Seventh Commandment.
+                            # loci:
+                          - the-eight-commandment: The Eight Commandment.
+                            # loci:
+                          - the-ninth-commandment: The Ninth Commandment.
+                            # loci:
+                          - the-tenth-commandment: The Tenth Commandment.
+                            # loci:
+                      - the-sum-of-the-law-mat-22-37: The Sum of the Law. Mat. 22. 37.
+                        # loci:
+              - the-other-part-of-this-chapter-for-what-end-good-works-are-t: "The Other Part of This Chapter. for What End Good Works Are to Be Done, and What is the Use of Them."
+                # loci:
+          - chap-ii-of-prayer-which-hath-the-chief-place-among-good-work: "Chap. Ii. of Prayer: Which Hath the Chief Place Among Good Works, to Testify and Confirm Our Faith."
+            # loci:
+            sections:
+              - the-exposition-of-the-lords-prayer: The Exposition of the Lords Prayer.
+                # loci:
+                sections:
+                  - the-preface-of-the-lords-prayer: The Preface of the Lords Prayer.
+                    # loci:
+                  - the-first-petition: The First Petition.
+                    # loci:
+                  - the-second-petition: The Second Petition.
+                    # loci:
+                  - the-third-petition: The Third Petition.
+                    # loci:
+                  - the-fourth-petition: The Fourth Petition.
+                    # loci:
+                  - the-fift-petition: The Fift Petition.
+                    # loci:
+                  - the-sixth-petition: The Sixth Petition.
+                    # loci:
+      - the-third-book-of-christian-religion-entreating-of-the-outwa: "The Third Book of Christian Religion: Entreating of the Outward Means, by the Which God Bringeth Us to Salvation."
+        # loci:
+        sections:
+          - chap-i-of-the-ministery-of-the-word-by-the-which-the-holy-gh: "Chap. I. of the Ministery of the Word, by the Which the Holy Ghost Begetteth Faith in Our Hearts, Keepeth and Increaseth It."
+            # loci:
+          - chap-ii-of-the-sacraments-ordained-of-god-to-be-as-it-were-s: "Chap. Ii. of the Sacraments, Ordained of God to Be as it Were Seals of the Word, That We May With More Assurance Embrace the Promises by Christ, Revealed in the Word."
+            # loci:
+          - chap-iii-of-baptism-by-the-which-god-testifieth-that-we-are-: "Chap. Iii. of Baptism: by the Which God Testifieth That We Are Received Into Covenant of Him, Whiles He Doth Communicate Christ Jesus Unto Us Together With His Benefits."
+            # loci:
+          - chap-four-of-the-supper-of-the-lord-by-the-which-god-witness: "Chap. Four of the Supper of the Lord. by the Which God Witnesseth That His Covenant is Most Certain Toward Us, for as Much as by it He Maketh Us More and More Partakers of Christ and His Benefits."
+            # loci:
+          - the-sum-of-all-christian-religion-declared-by-a-threefold-me: "The Sum of All Christian Religion, Declared by a Threefold Method or Order."
+            # loci:
+    translations:
+      - year: 1594
+        estc: S119631
+        earlyprint: A14450
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A14450.xml
+            pdf_url: https://texts.earlyprint.org/downloads/A14/A14450_standard.pdf
+            epub_url: https://texts.earlyprint.org/downloads/A14/A14450_standard.epub
+            section_urls:
+              - the-first-book-of-christian-religion-wherein-the-grounds-of-: https://texts.earlyprint.org/works/A14450.xml?page=005-b
+              - chap-i-of-the-knowledge-of-god-who-being-perfectly-just-and-: https://texts.earlyprint.org/works/A14450.xml?page=006-a
+              - chap-ii-of-the-knowledge-of-man-who-being-a-most-miserable-s: https://texts.earlyprint.org/works/A14450.xml?page=010-a
+              - chap-iii-of-the-knowledge-of-christ-who-having-satisfied-for: https://texts.earlyprint.org/works/A14450.xml?page=012-b
+              - chap-four-of-faith-by-the-which-we-are-made-one-with-christ-: https://texts.earlyprint.org/works/A14450.xml?page=016-b
+              - the-exposition-of-the-apostles-creed: https://texts.earlyprint.org/works/A14450.xml?page=018-b
+              - the-first-part-of-the-apostles-creed-which-is-of-faith-in-go: https://texts.earlyprint.org/works/A14450.xml?page=020-a
+              - the-second-part-of-the-apostles-creed-which-is-of-faith-in-c: https://texts.earlyprint.org/works/A14450.xml?page=026-b
+              - the-third-part-of-the-apostles-creed-which-is-faith-in-the-h: https://texts.earlyprint.org/works/A14450.xml?page=031-a
+              - the-fourth-part-of-the-apostles-creed-which-is-concerning-th: https://texts.earlyprint.org/works/A14450.xml?page=035-b
+              - a-short-exposition-of-the-apostles-creed: https://texts.earlyprint.org/works/A14450.xml?page=041-a
+              - the-second-book-of-christian-religion-wherein-the-testimonie: https://texts.earlyprint.org/works/A14450.xml?page=042-b
+              - chap-i-of-good-works-by-the-which-the-faith-that-is-hidden-i: https://texts.earlyprint.org/works/A14450.xml?page=043-a
+              - the-first-part-of-this-chapter-showeth-what-good-works-are-t: https://texts.earlyprint.org/works/A14450.xml?page=043-b
+              - the-exposition-of-the-moral-law: https://texts.earlyprint.org/works/A14450.xml?page=045-a
+              - the-first-table-of-the-law: https://texts.earlyprint.org/works/A14450.xml?page=045-a
+              - the-preface-of-the-law: https://texts.earlyprint.org/works/A14450.xml?page=045-b
+              - the-first-commandment: https://texts.earlyprint.org/works/A14450.xml?page=047-a
+              - the-second-commandment: https://texts.earlyprint.org/works/A14450.xml?page=049-b
+              - the-third-commandment: https://texts.earlyprint.org/works/A14450.xml?page=063-b
+              - the-fourth-commandment: https://texts.earlyprint.org/works/A14450.xml?page=069-a
+              - the-second-table-of-the-law: https://texts.earlyprint.org/works/A14450.xml?page=071-b
+              - the-fift-commandment-of-the-law: https://texts.earlyprint.org/works/A14450.xml?page=072-a
+              - the-sixth-commandment: https://texts.earlyprint.org/works/A14450.xml?page=074-a
+              - the-seventh-commandment: https://texts.earlyprint.org/works/A14450.xml?page=078-a
+              - the-eight-commandment: https://texts.earlyprint.org/works/A14450.xml?page=079-b
+              - the-ninth-commandment: https://texts.earlyprint.org/works/A14450.xml?page=082-b
+              - the-tenth-commandment: https://texts.earlyprint.org/works/A14450.xml?page=086-a
+              - the-sum-of-the-law-mat-22-37: https://texts.earlyprint.org/works/A14450.xml?page=087-a
+              - the-other-part-of-this-chapter-for-what-end-good-works-are-t: https://texts.earlyprint.org/works/A14450.xml?page=089-a
+              - chap-ii-of-prayer-which-hath-the-chief-place-among-good-work: https://texts.earlyprint.org/works/A14450.xml?page=098-a
+              - the-exposition-of-the-lords-prayer: https://texts.earlyprint.org/works/A14450.xml?page=102-a
+              - the-preface-of-the-lords-prayer: https://texts.earlyprint.org/works/A14450.xml?page=102-a
+              - the-first-petition: https://texts.earlyprint.org/works/A14450.xml?page=103-b
+              - the-second-petition: https://texts.earlyprint.org/works/A14450.xml?page=104-a
+              - the-third-petition: https://texts.earlyprint.org/works/A14450.xml?page=105-b
+              - the-fourth-petition: https://texts.earlyprint.org/works/A14450.xml?page=107-a
+              - the-fift-petition: https://texts.earlyprint.org/works/A14450.xml?page=108-b
+              - the-sixth-petition: https://texts.earlyprint.org/works/A14450.xml?page=111-a
+              - the-third-book-of-christian-religion-entreating-of-the-outwa: https://texts.earlyprint.org/works/A14450.xml?page=115-b
+              - chap-i-of-the-ministery-of-the-word-by-the-which-the-holy-gh: https://texts.earlyprint.org/works/A14450.xml?page=115-b
+              - chap-ii-of-the-sacraments-ordained-of-god-to-be-as-it-were-s: https://texts.earlyprint.org/works/A14450.xml?page=127-a
+              - chap-iii-of-baptism-by-the-which-god-testifieth-that-we-are-: https://texts.earlyprint.org/works/A14450.xml?page=129-b
+              - chap-four-of-the-supper-of-the-lord-by-the-which-god-witness: https://texts.earlyprint.org/works/A14450.xml?page=132-a
+              - the-sum-of-all-christian-religion-declared-by-a-threefold-me: https://texts.earlyprint.org/works/A14450.xml?page=138-a

@@ -1,0 +1,78 @@
+ockham-ordinatio:
+  author: Q43936
+  category: systematic
+  la:
+    title: Ordinatio
+    orig_lang: true
+    editions:
+      - year: 1317
+  en:
+    title: Ordinatio
+    sections:
+      - ockham-ord-prologue: Prologue
+        loci: nature-of-theology
+        sections:
+          - ockham-ord-prologue-q1: Q1. Whether It Is Possible for the Intellect of the Wayfarer to Have Evident Knowledge of the Truths of Theology
+            loci: faith-and-reason
+          - ockham-ord-prologue-q2: Q2. Whether Evident Knowledge of the Truths of Theology Is Science Properly Speaking
+          - ockham-ord-prologue-q3: Q3. Whether a Property Knowable of Something by Science Properly Speaking Differ from It Really
+          - ockham-ord-prologue-q4: Q4. Whether Every Property Is Demonstrable a Priori of Its First Subject
+          - ockham-ord-prologue-q5: Q5. Whether in Every Demonstration a Definition Is the Middle Term
+          - ockham-ord-prologue-q6: Q6. Whether Only a Proposition per se in the Second Mode Is per se Knowable by Science
+          - ockham-ord-prologue-q7: Q7. Whether the Theology of Common Law Possessed by Theologians Is a Science Properly Speaking
+          - ockham-ord-prologue-q8: Q8. Whether the Habit of Theology Is Really One in Number
+          - ockham-ord-prologue-q9: Q9. Whether God under the Proper Idea of Deity Is the Subject of Theology
+          - ockham-ord-prologue-q10: Q10. Whether Only the Operation of the Sensitive Power Is Action
+          - ockham-ord-prologue-q11: Q11. Whether Practical and Speculative Knowledge Are Distinguished by Ends or by Objects
+          - ockham-ord-prologue-q12: Q12. Whether the Habit of Theology Is Speculative or Practical
+      - ockham-ord-book1: Book I
+        sections:
+          - ockham-ord-d1: Distinction I
+            sections:
+              - ockham-ord-d1-q1: Q1. Whether Only Whatever Is Other than God Is to Be Used
+                loci: happiness
+              - ockham-ord-d1-q2: Q2. Whether to Enjoy Is an Act of the Will Alone
+              - ockham-ord-d1-q3: Q3. Whether Enjoyment Is a Quality Really Distinct from Delight
+              - ockham-ord-d1-q4: Q4. Whether God Alone Is the Due Object of Enjoyment
+                loci: happiness
+              - ockham-ord-d1-q5: Q5. Whether the Will Can Enjoy the Essence without Enjoying the Person
+                loci: trinity
+              - ockham-ord-d1-q6: Q6. Whether the Will Enjoys the Ultimate End Contingently and Freely
+                loci: free-will
+          - ockham-ord-d2: Distinction II
+            loci: divine-simplicity
+            sections:
+              - ockham-ord-d2-preface: Preface
+              - ockham-ord-d2-q1: Q1. Whether There Be Identity in Every Way between the Divine Essence and the Attributal Perfections
+              - ockham-ord-d2-q2: Q2. Whether the Attributal Perfections Are the Divine Essence Itself
+              - ockham-ord-d2-q3: Q3. Whether Something Real Could Be Distinct in Idea from Something Real
+              - ockham-ord-d2-q4: Q4. Whether a Universal Is a True Thing outside the Soul
+    translations:
+      - sites:
+          - site: Aristotelophile
+            url: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf"
+            pdf: true
+            section_urls:
+              - ockham-ord-prologue-q1: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=7"
+              - ockham-ord-prologue-q2: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=41"
+              - ockham-ord-prologue-q3: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=67"
+              - ockham-ord-prologue-q4: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=74"
+              - ockham-ord-prologue-q5: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=81"
+              - ockham-ord-prologue-q6: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=90"
+              - ockham-ord-prologue-q7: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=93"
+              - ockham-ord-prologue-q8: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=105"
+              - ockham-ord-prologue-q9: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=115"
+              - ockham-ord-prologue-q10: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=141"
+              - ockham-ord-prologue-q11: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=153"
+              - ockham-ord-prologue-q12: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=164"
+              - ockham-ord-d1-q1: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.1.pdf#page=4"
+              - ockham-ord-d1-q2: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.1.pdf#page=13"
+              - ockham-ord-d1-q3: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.1.pdf#page=18"
+              - ockham-ord-d1-q4: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.1.pdf#page=29"
+              - ockham-ord-d1-q5: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.1.pdf#page=37"
+              - ockham-ord-d1-q6: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.1.pdf#page=53"
+              - ockham-ord-d2-preface: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.2-3.pdf#page=4"
+              - ockham-ord-d2-q1: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.2-3.pdf#page=4"
+              - ockham-ord-d2-q2: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.2-3.pdf#page=22"
+              - ockham-ord-d2-q3: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.2-3.pdf#page=32"
+              - ockham-ord-d2-q4: "https://aristotelophile.com/Books/Translations/Ockham%20Ord%20I.2-3.pdf#page=42"

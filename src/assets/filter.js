@@ -280,18 +280,29 @@
         }
       });
 
+      function handleTraditionChange(cb) {
+        if (cb.checked) {
+          activeTraditions.add(cb.value);
+        } else {
+          activeTraditions.delete(cb.value);
+        }
+        updateTraditionLabel();
+        applyTraditionToLociTree();
+        if (typeof applyAuthorAndLocusFilter === "function") {
+          applyAuthorAndLocusFilter();
+        }
+      }
+
       traditionCheckboxes.forEach(function (cb) {
+        var pendingChange = false;
+        cb.addEventListener("click", function () {
+          pendingChange = true;
+          handleTraditionChange(this);
+        });
+        // change also fires on desktop after click; skip if already handled
         cb.addEventListener("change", function () {
-          if (this.checked) {
-            activeTraditions.add(this.value);
-          } else {
-            activeTraditions.delete(this.value);
-          }
-          updateTraditionLabel();
-          applyTraditionToLociTree();
-          if (typeof applyAuthorAndLocusFilter === "function") {
-            applyAuthorAndLocusFilter();
-          }
+          if (pendingChange) { pendingChange = false; return; }
+          handleTraditionChange(this);
         });
       });
     }

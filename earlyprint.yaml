@@ -5,18 +5,18 @@
 #   lang: language code (optional, default: en)
 #   orig_lang: original language if this is a translation (optional; omit if not a translation)
 #   translator: translator name (optional)
-- tcp_id: A14350
-  author: Q598060
-  work_id: vermigli-lc
+- tcp_id: A09819
+  author: Q454349
+  work_id: polanus-substance
   lang: en
   orig_lang: la
-- tcp_id: A14347
-  author: Q598060
-  work_id: vermigli-lords-supper
+- tcp_id: A09822
+  author: Q454349
+  work_id: polanus-predestination
   lang: en
   orig_lang: la
-- tcp_id: A26892
-  author: Q680070
-  work_id: baxter-directory
+- tcp_id: A66823 
+  author: Q6217083
+  work_id: wolleb-abridgement
   lang: en
-  orig_lang: en
+  orig_lang: la
