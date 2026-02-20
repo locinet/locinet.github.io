@@ -1,0 +1,84 @@
+augustine-on-the-morals-of-the-manich-ans:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On the Morals of the Manichæans.
+    sections:
+      - title-page: Title Page.
+        # loci:
+      - argument: Argument.
+        # loci:
+      - the-supreme-good-is-that-which-is-possessed-of-supreme-exist: The Supreme Good is that Which is Possessed of Supreme Existence.
+        # loci:
+      - what-evil-is-that-evil-is-that-which-is-against-nature-in-al: "What Evil is. That Evil is that Which is Against Nature. In Allowing This, the Manichæans Refute Themselves."
+        # loci:
+      - if-evil-is-defined-as-that-which-is-hurtful-this-implies-ano: "If Evil is Defined as that Which is Hurtful, This Implies Another Refutation of the Manichæans."
+        # loci:
+      - the-difference-between-what-is-good-in-itself-and-what-is-go: The Difference Between What is Good in Itself and What is Good by Participation.
+        # loci:
+      - if-evil-is-defined-to-be-corruption-this-completely-refutes-: "If Evil is Defined to Be Corruption, This Completely Refutes the Manichæan Heresy."
+        # loci:
+      - what-corruption-affects-and-what-it-is: What Corruption Affects and What It is.
+        # loci:
+      - the-goodness-of-god-prevents-corruption-from-bringing-anythi: The Goodness of God Prevents Corruption from Bringing Anything to Non-Existence. The Difference Between Creating and Forming.
+        # loci:
+      - evil-is-not-a-substance-but-a-disagreement-hostile-to-substa: "Evil is Not a Substance, But a Disagreement Hostile to Substance."
+        # loci:
+      - the-manich-an-fictions-about-things-good-and-evil-are-not-co: The Manichæan Fictions About Things Good and Evil are Not Consistent with Themselves.
+        # loci:
+      - three-moral-symbols-devised-by-the-manich-ans-for-no-good: Three Moral Symbols Devised by the Manichæans for No Good.
+        # loci:
+      - the-value-of-the-symbol-of-the-mouth-among-the-manich-ans-wh: "The Value of the Symbol of the Mouth Among the Manichæans, Who are Found Guilty of Blaspheming God."
+        # loci:
+      - manich-an-subterfuge: Manichæan Subterfuge.
+        # loci:
+      - actions-to-be-judged-of-from-their-motive-not-from-externals: "Actions to Be Judged of from Their Motive, Not from Externals. Manichæan Abstinence to Be Tried by This Principle."
+        # loci:
+      - three-good-reasons-for-abstaining-from-certain-kinds-of-food: Three Good Reasons for Abstaining from Certain Kinds of Food.
+        # loci:
+      - why-the-manich-ans-prohibit-the-use-of-flesh: Why the Manichæans Prohibit the Use of Flesh.
+        # loci:
+      - disclosure-of-the-monstrous-tenets-of-the-manich-ans: Disclosure of the Monstrous Tenets of the Manichæans.
+        # loci:
+      - description-of-the-symbol-of-the-hands-among-the-manich-ans: Description of the Symbol of the Hands Among the Manichæans.
+        # loci:
+      - of-the-symbol-of-the-breast-and-of-the-shameful-mysteries-of: "Of the Symbol of the Breast, and of the Shameful Mysteries of the Manichæans."
+        # loci:
+      - crimes-of-the-manich-ans: Crimes of the Manichæans.
+        # loci:
+      - disgraceful-conduct-discovered-at-rome: Disgraceful Conduct Discovered at Rome.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.v.i.html
+              - argument: https://ccel.org/ccel/s/schaff/npnf104.iv.v.ii.html
+              - the-supreme-good-is-that-which-is-possessed-of-supreme-exist: https://ccel.org/ccel/s/schaff/npnf104.iv.v.iii.html
+              - what-evil-is-that-evil-is-that-which-is-against-nature-in-al: https://ccel.org/ccel/s/schaff/npnf104.iv.v.iv.html
+              - if-evil-is-defined-as-that-which-is-hurtful-this-implies-ano: https://ccel.org/ccel/s/schaff/npnf104.iv.v.v.html
+              - the-difference-between-what-is-good-in-itself-and-what-is-go: https://ccel.org/ccel/s/schaff/npnf104.iv.v.vi.html
+              - if-evil-is-defined-to-be-corruption-this-completely-refutes-: https://ccel.org/ccel/s/schaff/npnf104.iv.v.vii.html
+              - what-corruption-affects-and-what-it-is: https://ccel.org/ccel/s/schaff/npnf104.iv.v.viii.html
+              - the-goodness-of-god-prevents-corruption-from-bringing-anythi: https://ccel.org/ccel/s/schaff/npnf104.iv.v.ix.html
+              - evil-is-not-a-substance-but-a-disagreement-hostile-to-substa: https://ccel.org/ccel/s/schaff/npnf104.iv.v.x.html
+              - the-manich-an-fictions-about-things-good-and-evil-are-not-co: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xi.html
+              - three-moral-symbols-devised-by-the-manich-ans-for-no-good: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xii.html
+              - the-value-of-the-symbol-of-the-mouth-among-the-manich-ans-wh: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xiii.html
+              - manich-an-subterfuge: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xiv.html
+              - actions-to-be-judged-of-from-their-motive-not-from-externals: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xv.html
+              - three-good-reasons-for-abstaining-from-certain-kinds-of-food: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xvi.html
+              - why-the-manich-ans-prohibit-the-use-of-flesh: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xvii.html
+              - disclosure-of-the-monstrous-tenets-of-the-manich-ans: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xviii.html
+              - description-of-the-symbol-of-the-hands-among-the-manich-ans: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xix.html
+              - of-the-symbol-of-the-breast-and-of-the-shameful-mysteries-of: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xx.html
+              - crimes-of-the-manich-ans: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xxi.html
+              - disgraceful-conduct-discovered-at-rome: https://ccel.org/ccel/s/schaff/npnf104.iv.v.xxii.html

@@ -1,0 +1,80 @@
+rutherford-examination-of-arminianism:
+  author: Q2097515
+  category: systematic
+  la:
+    title: Examen Arminianismi
+    orig_lang: true
+    editions:
+      - year: 1668
+        place: Utrecht
+  en:
+    title: Examination of Arminianism
+    sections:
+      - exam-arm-ch1: "Chapter 1. On the Holy Scriptures, and Their Subject Matter; Fundamental and Non-Fundamental Articles; Also on Ignorance and Error, and Knowledge and Faith Concerning Them"
+        loci: [scripture, nature-of-theology]
+      - exam-arm-ch2: Chapter 2. On God
+        loci: [trinity, knowledge-of-god, will-of-god, unity-of-god]
+      - exam-arm-ch3: Chapter 3. On Election
+        loci: election
+      - exam-arm-ch4: Chapter 4. On Reprobation
+        loci: reprobation
+      - exam-arm-ch5: Chapter 5. On the State of the First Man
+        loci: [original-righteousness, image-of-god, covenant-of-works]
+      - exam-arm-ch6: Chapter 6. On Original Sin
+        loci: original-sin
+      - exam-arm-ch7: Chapter 7. On the State of Fallen Man
+        loci: free-will
+      - exam-arm-ch8: Chapter 8. On the State of Grace
+        loci: grace
+      - exam-arm-ch9: Chapter 9. On Universal Redemption
+        loci: extent-of-atonement
+      - exam-arm-ch10: Chapter 10. On the Covenant of Grace
+        loci: covenant-of-grace
+      - exam-arm-ch11: Chapter 11. On the Mode of Conversion
+        loci: regeneration
+      - exam-arm-ch12: "Chapter 12. The Justification of a Sinner"
+        loci: justification
+      - exam-arm-ch13: Chapter 13. On the Perseverance of the Saints
+        loci: perseverance
+      - exam-arm-ch14: Chapter 14. On the Certainty of Salvation
+        loci: assurance
+      - exam-arm-ch15: "Chapter 15. On the Church, and Its Marks"
+        loci: [nature-of-the-church, true-church]
+      - exam-arm-ch16: Chapter 16. On the Ministers of the Word
+        loci: [word-of-god, ordination]
+      - exam-arm-ch17: Chapter 17. On Synods
+        loci: government-of-the-church
+      - exam-arm-ch18: "Chapter 18. On the Sacraments and Ecclesiastical Discipline"
+        loci: [sacraments, church-discipline]
+      - exam-arm-ch19: Chapter 19. On the Magistrate
+        loci: civil-government
+      - exam-arm-ch20: "Chapter 20. On the Soul, and the Resurrection of the Flesh"
+        loci: [soul, resurrection-of-the-dead]
+    translations:
+      - translator: Onku
+        AI: true
+        sites:
+          - site: Reformed Books Online
+            url: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf
+            pdf: true
+            section_urls:
+              - exam-arm-ch1: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=36
+              - exam-arm-ch2: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=108
+              - exam-arm-ch3: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=162
+              - exam-arm-ch4: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=184
+              - exam-arm-ch5: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=197
+              - exam-arm-ch6: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=205
+              - exam-arm-ch7: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=213
+              - exam-arm-ch8: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=229
+              - exam-arm-ch9: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=240
+              - exam-arm-ch10: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=270
+              - exam-arm-ch11: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=284
+              - exam-arm-ch12: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=311
+              - exam-arm-ch13: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=340
+              - exam-arm-ch14: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=381
+              - exam-arm-ch15: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=389
+              - exam-arm-ch16: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=409
+              - exam-arm-ch17: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=415
+              - exam-arm-ch18: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=427
+              - exam-arm-ch19: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=434
+              - exam-arm-ch20: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=447

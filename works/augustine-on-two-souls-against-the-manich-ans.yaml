@@ -1,0 +1,66 @@
+augustine-on-two-souls-against-the-manich-ans:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: "On Two Souls, Against the Manichæans."
+    sections:
+      - title-page: Title Page.
+        # loci:
+      - by-what-course-of-reasoning-the-error-of-the-manich-ans-conc: "By What Course of Reasoning the Error of the Manichæans Concerning Two Souls, One of Which is Not from God, is Refuted. Every Soul, Inasmuch as It is a Certain Life, Can Have Its Existence Only from God the Source of Life."
+        # loci:
+      - if-the-light-that-is-perceived-by-sense-has-god-for-its-auth: "If the Light that is Perceived by Sense Has God for Its Author, as the Manichæans Acknowledge, Much More The Soul Which is Perceived by Intellect Alone."
+        # loci:
+      - how-it-is-proved-that-every-body-also-is-from-god-that-the-s: How It is Proved that Every Body Also is from God. That the Soul Which is Called Evil by the Manichæans is Better Than Light.
+        # loci:
+      - even-the-soul-of-a-fly-is-more-excellent-than-the-light: Even the Soul of a Fly is More Excellent Than the Light.
+        # loci:
+      - how-vicious-souls-however-worthy-of-condemnation-they-may-be: "How Vicious Souls, However Worthy of Condemnation They May Be, Excel the Light Which is Praiseworthy in Its Kind."
+        # loci:
+      - whether-even-vices-themselves-as-objects-of-intellectual-app: "Whether Even Vices Themselves as Objects of Intellectual Apprehension are to Be Preferred to Light as an Object of Sense Perception, and are to Be Attributed to God as Their Author. Vice of the Mind and Certain Defects are Not Rightly to Be Counted Among Intelligible Things. Defects Themselves Even If They Should Be Counted Among Intelligible Things Should Never Be Put Before Sensible Things. If Light is Visible by God, Much More is the Soul, Even If Vicious, Which in So Far as It Lives is an Intelligible Thing. Passages of Scripture are Adduced by the Manichæans to the Contrary."
+        # loci:
+      - how-evil-men-are-of-god-and-not-of-god: "How Evil Men are of God, and Not of God."
+        # loci:
+      - the-manich-ans-inquire-whence-is-evil-and-by-this-question-t: "The Manichæans Inquire Whence is Evil and by This Question Think They Have Triumphed. Let Them First Know, Which is Most Easy to Do, that Nothing Can Live Without God. Consummate Evil Cannot Be Known Except by the Knowledge of Consummate Good, Which is God."
+        # loci:
+      - augustin-deceived-by-familiarity-with-the-manich-ans-and-by-: "Augustin Deceived by Familiarity with the Manichæans, and by the Succession of Victories Over Ignorant Christians Reported by Them. The Manichæans are Likewise Easily Refuted from the Knowledge of Sin and the Will."
+        # loci:
+      - sin-is-only-from-the-will-his-own-life-and-will-best-known-t: Sin is Only from the Will. His Own Life and Will Best Known to Each Individual. What Will is.
+        # loci:
+      - what-sin-is: What Sin is.
+        # loci:
+      - from-the-definitions-given-of-sin-and-will-he-overthrows-the: "From the Definitions Given of Sin and Will, He Overthrows the Entire Heresy of the Manichæans. Likewise from the Just Condemnation of Evil Souls It Follows that They are Evil Not by Nature But by Will. That Souls are Good By Nature, to Which the Pardon of Sins is Granted."
+        # loci:
+      - from-deliberation-on-the-evil-and-on-the-good-part-it-result: "From Deliberation on the Evil and on the Good Part It Results that Two Classes of Souls are Not to Be Held to. A Class of Souls Enticing to Shameful Deeds Having Been Conceded, It Does Not Follow that These are Evil by Nature, that the Others are Supreme Good."
+        # loci:
+      - again-it-is-shown-from-the-utility-of-repenting-that-souls-a: Again It is Shown from the Utility of Repenting that Souls are Not by Nature Evil. So Sure a Demonstration is Not Contradicted Except from the Habit of Erring.
+        # loci:
+      - he-prays-for-his-friends-whom-he-has-had-as-associates-in-er: He Prays for His Friends Whom He Has Had as Associates in Error.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.i.html
+              - by-what-course-of-reasoning-the-error-of-the-manich-ans-conc: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.ii.html
+              - if-the-light-that-is-perceived-by-sense-has-god-for-its-auth: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.iii.html
+              - how-it-is-proved-that-every-body-also-is-from-god-that-the-s: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.iv.html
+              - even-the-soul-of-a-fly-is-more-excellent-than-the-light: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.v.html
+              - how-vicious-souls-however-worthy-of-condemnation-they-may-be: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.vi.html
+              - whether-even-vices-themselves-as-objects-of-intellectual-app: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.vii.html
+              - how-evil-men-are-of-god-and-not-of-god: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.viii.html
+              - the-manich-ans-inquire-whence-is-evil-and-by-this-question-t: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.ix.html
+              - augustin-deceived-by-familiarity-with-the-manich-ans-and-by-: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.x.html
+              - sin-is-only-from-the-will-his-own-life-and-will-best-known-t: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.xi.html
+              - what-sin-is: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.xii.html
+              - from-the-definitions-given-of-sin-and-will-he-overthrows-the: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.xiii.html
+              - from-deliberation-on-the-evil-and-on-the-good-part-it-result: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.xiv.html
+              - again-it-is-shown-from-the-utility-of-repenting-that-souls-a: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.xv.html
+              - he-prays-for-his-friends-whom-he-has-had-as-associates-in-er: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.xvi.html

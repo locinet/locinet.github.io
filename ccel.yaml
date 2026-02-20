@@ -1,4 +1,5 @@
 # CCEL import manifest
+# Usage: npm run import-ccel
 # Each entry specifies a CCEL work to import.
 # Fields:
 #   url:        direct URL to the CCEL ThML/XML file (required)
@@ -14,9 +15,9 @@
 #   author: Q507025
 #   id: hodge-st
 #   category: systematic
-- url: https://ccel.org/ccel/s/schaff/npnf103.xml
-  author: Q8018
-  id: augustine
-  work_level: 2
-  orig_lang: la
+- url: https://ccel.org/ccel/s/schaff/npnf208.xml
+  author: Q44258
+  id: basil
+  work_level: 1
+  orig_lang: grc
   lang: en

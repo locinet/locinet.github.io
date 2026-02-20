@@ -14,7 +14,7 @@ polhill-divine-will:
             url: https://archive.org/details/essayonextentofd00polh/page/n3/mode/2up
     sections:
       - extent-death-of-christ: The Extent of the Death of Christ
-        loci: atonement
+        loci: extent-of-atonement
     translations:
       - translator: Oz
         AI: true

@@ -106,13 +106,13 @@ scotus-ordinatio:
           - scotus-ord-i-d30: Distinction 30. On God's Knowledge of Evil Things
             loci: knowledge-of-god
           - scotus-ord-i-d31: Distinction 31. On God's Foreknowledge of Future Contingents
-            loci: [knowledge-of-god, providence]
+            loci: [foreknowledge, providence]
           - scotus-ord-i-d32: Distinction 32. On Whether God Knows Contingent Singulars
             loci: knowledge-of-god
           - scotus-ord-i-d33: Distinction 33. On Predestination and Foreknowledge
-            loci: [predestination, knowledge-of-god]
+            loci: [predestination, foreknowledge]
           - scotus-ord-i-d34: Distinction 34. On Divine Foreknowledge and the Freedom of Future Events
-            loci: [predestination, knowledge-of-god, free-will]
+            loci: [predestination, foreknowledge, free-will]
           - scotus-ord-i-d35: Distinction 35. On Predestination
             loci: predestination
           - scotus-ord-i-d36: Distinction 36. On the Ground of Predestination

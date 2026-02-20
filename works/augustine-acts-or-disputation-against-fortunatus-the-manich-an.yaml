@@ -1,0 +1,27 @@
+augustine-acts-or-disputation-against-fortunatus-the-manich-an:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Acts or Disputation Against Fortunatus the Manichæan.
+    sections:
+      - title-page: Title Page.
+        # loci:
+      - disputation-of-the-first-day: Disputation of the First Day.
+        # loci:
+      - disputation-of-the-second-day: Disputation of the Second Day.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.i.html
+              - disputation-of-the-first-day: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.ii.html
+              - disputation-of-the-second-day: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.iii.html

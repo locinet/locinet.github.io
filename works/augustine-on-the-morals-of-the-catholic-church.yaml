@@ -1,0 +1,129 @@
+augustine-on-the-morals-of-the-catholic-church:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On the Morals of the Catholic Church.
+    sections:
+      - title-page: Title Page.
+        # loci:
+      - argument: Argument.
+        # loci:
+      - how-the-pretensions-of-the-manich-ans-are-to-be-refuted-two-: How the Pretensions of the Manichæans are to Be Refuted. Two Manichæan Falsehoods.
+        # loci:
+      - he-begins-with-arguments-in-compliance-with-the-mistaken-met: "He Begins with Arguments, in Compliance with the Mistaken Method of the Manichæans."
+        # loci:
+      - happiness-is-in-the-enjoyment-of-man-s-chief-good-two-condit: "Happiness is in the Enjoyment of Man’s Chief Good. Two Conditions of the Chief Good: 1st, Nothing is Better Than It; 2d, It Cannot Be Lost Against the Will."
+        # loci:
+      - man-what: "Man—What?"
+        # loci:
+      - man-s-chief-good-is-not-the-chief-good-of-the-body-only-but-: "Man’s Chief Good is Not the Chief Good of the Body Only, But the Chief Good of the Soul."
+        # loci:
+      - virtue-gives-perfection-to-the-soul-the-soul-obtains-virtue-: Virtue Gives Perfection to the Soul; The Soul Obtains Virtue by Following God; Following God is the Happy Life.
+        # loci:
+      - the-knowledge-of-god-to-be-obtained-from-the-scripture-the-p: The Knowledge of God to Be Obtained from the Scripture. The Plan and Principal Mysteries of the Divine Scheme of Redemption.
+        # loci:
+      - god-is-the-chief-good-whom-we-are-to-seek-after-with-supreme: "God is the Chief Good, Whom We are to Seek After with Supreme Affection."
+        # loci:
+      - harmony-of-the-old-and-new-testament-on-the-precepts-of-char: Harmony of the Old and New Testament on the Precepts of Charity.
+        # loci:
+      - what-the-church-teaches-about-god-the-two-gods-of-the-manich: What the Church Teaches About God. The Two Gods of the Manichæans.
+        # loci:
+      - god-is-the-one-object-of-love-therefore-he-is-man-s-chief-go: God is the One Object of Love; Therefore He is Man’s Chief Good. Nothing is Better Than God. God Cannot Be Lost Against Our Will.
+        # loci:
+      - we-are-united-to-god-by-love-in-subjection-to-him: "We are United to God by Love, in Subjection to Him."
+        # loci:
+      - we-are-joined-inseparably-to-god-by-christ-and-his-spirit: We are Joined Inseparably to God by Christ and His Spirit.
+        # loci:
+      - we-cleave-to-the-trinity-our-chief-good-by-love: "We Cleave to the Trinity, Our Chief Good, by Love."
+        # loci:
+      - the-christian-definition-of-the-four-virtues: The Christian Definition of the Four Virtues.
+        # loci:
+      - harmony-of-the-old-and-new-testaments: Harmony of the Old and New Testaments.
+        # loci:
+      - appeal-to-the-manich-ans-calling-on-them-to-repent: "Appeal to the Manichæans, Calling on Them to Repent."
+        # loci:
+      - only-in-the-catholic-church-is-perfect-truth-established-on-: Only in the Catholic Church is Perfect Truth Established on the Harmony of Both Testaments.
+        # loci:
+      - description-of-the-duties-of-temperance-according-to-the-sac: "Description of the Duties of Temperance, According to the Sacred Scriptures."
+        # loci:
+      - we-are-required-to-despise-all-sensible-things-and-to-love-g: "We are Required to Despise All Sensible Things, and to Love God Alone."
+        # loci:
+      - popular-renown-and-inquisitiveness-are-condemned-in-the-sacr: Popular Renown and Inquisitiveness are Condemned in the Sacred Scriptures.
+        # loci:
+      - fortitude-comes-from-the-love-of-god: Fortitude Comes from the Love of God.
+        # loci:
+      - scripture-precepts-and-examples-of-fortitude: Scripture Precepts and Examples of Fortitude.
+        # loci:
+      - of-justice-and-prudence: Of Justice and Prudence.
+        # loci:
+      - four-moral-duties-regarding-the-love-of-god-of-which-love-th: "Four Moral Duties Regarding the Love of God, of Which Love the Reward is Eternal Life and the Knowledge of the Truth."
+        # loci:
+      - love-of-ourselves-and-of-our-neighbor: Love of Ourselves and of Our Neighbor.
+        # loci:
+      - on-doing-good-to-the-body-of-our-neighbor: On Doing Good to the Body of Our Neighbor.
+        # loci:
+      - on-doing-good-to-the-soul-of-our-neighbor-two-parts-of-disci: "On Doing Good to the Soul of Our Neighbor. Two Parts of Discipline, Restraint and Instruction. Through Good Conduct We Arrive at the Knowledge of the Truth."
+        # loci:
+      - of-the-authority-of-the-scriptures: Of the Authority of the Scriptures.
+        # loci:
+      - the-church-apostrophised-as-teacher-of-all-wisdom-doctrine-o: The Church Apostrophised as Teacher of All Wisdom. Doctrine of the Catholic Church.
+        # loci:
+      - the-life-of-the-anachoretes-and-c-nobites-set-against-the-co: The Life of the Anachoretes and Cœnobites Set Against the Continence of the Manichæans.
+        # loci:
+      - praise-of-the-clergy: Praise of the Clergy.
+        # loci:
+      - another-kind-of-men-living-together-in-cities-fasts-of-three: Another Kind of Men Living Together in Cities. Fasts of Three Days.
+        # loci:
+      - the-church-is-not-to-be-blamed-for-the-conduct-of-bad-christ: "The Church is Not to Be Blamed for the Conduct of Bad Christians, Worshippers of Tombs and Pictures."
+        # loci:
+      - marriage-and-property-allowed-to-the-baptized-by-the-apostle: Marriage and Property Allowed to the Baptized by the Apostles.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.i.html
+              - argument: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.ii.html
+              - how-the-pretensions-of-the-manich-ans-are-to-be-refuted-two-: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.iii.html
+              - he-begins-with-arguments-in-compliance-with-the-mistaken-met: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.iv.html
+              - happiness-is-in-the-enjoyment-of-man-s-chief-good-two-condit: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.v.html
+              - man-what: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.vi.html
+              - man-s-chief-good-is-not-the-chief-good-of-the-body-only-but-: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.vii.html
+              - virtue-gives-perfection-to-the-soul-the-soul-obtains-virtue-: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.viii.html
+              - the-knowledge-of-god-to-be-obtained-from-the-scripture-the-p: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.ix.html
+              - god-is-the-chief-good-whom-we-are-to-seek-after-with-supreme: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.x.html
+              - harmony-of-the-old-and-new-testament-on-the-precepts-of-char: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xi.html
+              - what-the-church-teaches-about-god-the-two-gods-of-the-manich: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xii.html
+              - god-is-the-one-object-of-love-therefore-he-is-man-s-chief-go: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xiii.html
+              - we-are-united-to-god-by-love-in-subjection-to-him: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xiv.html
+              - we-are-joined-inseparably-to-god-by-christ-and-his-spirit: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xv.html
+              - we-cleave-to-the-trinity-our-chief-good-by-love: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xvi.html
+              - the-christian-definition-of-the-four-virtues: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xvii.html
+              - harmony-of-the-old-and-new-testaments: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xviii.html
+              - appeal-to-the-manich-ans-calling-on-them-to-repent: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xix.html
+              - only-in-the-catholic-church-is-perfect-truth-established-on-: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xx.html
+              - description-of-the-duties-of-temperance-according-to-the-sac: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxi.html
+              - we-are-required-to-despise-all-sensible-things-and-to-love-g: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxii.html
+              - popular-renown-and-inquisitiveness-are-condemned-in-the-sacr: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxiii.html
+              - fortitude-comes-from-the-love-of-god: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxiv.html
+              - scripture-precepts-and-examples-of-fortitude: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxv.html
+              - of-justice-and-prudence: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxvi.html
+              - four-moral-duties-regarding-the-love-of-god-of-which-love-th: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxvii.html
+              - love-of-ourselves-and-of-our-neighbor: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxviii.html
+              - on-doing-good-to-the-body-of-our-neighbor: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxix.html
+              - on-doing-good-to-the-soul-of-our-neighbor-two-parts-of-disci: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxx.html
+              - of-the-authority-of-the-scriptures: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxxi.html
+              - the-church-apostrophised-as-teacher-of-all-wisdom-doctrine-o: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxxii.html
+              - the-life-of-the-anachoretes-and-c-nobites-set-against-the-co: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxxiii.html
+              - praise-of-the-clergy: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxxiv.html
+              - another-kind-of-men-living-together-in-cities-fasts-of-three: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxxv.html
+              - the-church-is-not-to-be-blamed-for-the-conduct-of-bad-christ: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxxvi.html
+              - marriage-and-property-allowed-to-the-baptized-by-the-apostle: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.xxxvii.html

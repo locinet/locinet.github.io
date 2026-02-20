@@ -1,0 +1,57 @@
+augustine-the-correction-of-the-donatists:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: The Correction of the Donatists.
+    sections:
+      - title-page: Title Page.
+        # loci:
+      - argument: Argument.
+        # loci:
+      - chapter-1: Chapter 1
+        # loci:
+      - chapter-2: Chapter 2
+        # loci:
+      - chapter-3: Chapter 3
+        # loci:
+      - chapter-4: Chapter 4
+        # loci:
+      - chapter-5: Chapter 5
+        # loci:
+      - chapter-6: Chapter 6
+        # loci:
+      - chapter-7: Chapter 7
+        # loci:
+      - chapter-8: Chapter 8
+        # loci:
+      - chapter-9: Chapter 9
+        # loci:
+      - chapter-10: Chapter 10
+        # loci:
+      - chapter-11: Chapter 11
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - title-page: https://ccel.org/ccel/s/schaff/npnf104.v.vi.i.html
+              - argument: https://ccel.org/ccel/s/schaff/npnf104.v.vi.ii.html
+              - chapter-1: https://ccel.org/ccel/s/schaff/npnf104.v.vi.iii.html
+              - chapter-2: https://ccel.org/ccel/s/schaff/npnf104.v.vi.iv.html
+              - chapter-3: https://ccel.org/ccel/s/schaff/npnf104.v.vi.v.html
+              - chapter-4: https://ccel.org/ccel/s/schaff/npnf104.v.vi.vi.html
+              - chapter-5: https://ccel.org/ccel/s/schaff/npnf104.v.vi.vii.html
+              - chapter-6: https://ccel.org/ccel/s/schaff/npnf104.v.vi.viii.html
+              - chapter-7: https://ccel.org/ccel/s/schaff/npnf104.v.vi.ix.html
+              - chapter-8: https://ccel.org/ccel/s/schaff/npnf104.v.vi.x.html
+              - chapter-9: https://ccel.org/ccel/s/schaff/npnf104.v.vi.xi.html
+              - chapter-10: https://ccel.org/ccel/s/schaff/npnf104.v.vi.xii.html
+              - chapter-11: https://ccel.org/ccel/s/schaff/npnf104.v.vi.xiii.html

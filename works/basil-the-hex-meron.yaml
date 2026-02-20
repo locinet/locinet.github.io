@@ -1,0 +1,48 @@
+basil-the-hex-meron:
+  author: Q44258
+  date_added: 2026-02-20
+  # loci:
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: The Hexæmeron.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - in-the-beginning-god-made-the-heaven-and-the-earth: In the Beginning God made the Heaven and the Earth.
+        # loci:
+      - the-earth-was-invisible-and-unfinished: “The Earth was Invisible and Unfinished.”
+        # loci:
+      - on-the-firmament: On the Firmament.
+        # loci:
+      - upon-the-gathering-together-of-the-waters: Upon the gathering together of the waters.
+        # loci:
+      - the-germination-of-the-earth: The Germination of the Earth.
+        # loci:
+      - the-creation-of-luminous-bodies: The creation of luminous bodies.
+        # loci:
+      - the-creation-of-moving-creatures: The creation of moving creatures.
+        # loci:
+      - the-creation-of-fowl-and-water-animals: The creation of fowl and water animals.
+        # loci:
+      - the-creation-of-terrestrial-animals: The creation of terrestrial animals.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf208.viii.i.html
+              - in-the-beginning-god-made-the-heaven-and-the-earth: https://ccel.org/ccel/s/schaff/npnf208.viii.ii.html
+              - the-earth-was-invisible-and-unfinished: https://ccel.org/ccel/s/schaff/npnf208.viii.iii.html
+              - on-the-firmament: https://ccel.org/ccel/s/schaff/npnf208.viii.iv.html
+              - upon-the-gathering-together-of-the-waters: https://ccel.org/ccel/s/schaff/npnf208.viii.v.html
+              - the-germination-of-the-earth: https://ccel.org/ccel/s/schaff/npnf208.viii.vi.html
+              - the-creation-of-luminous-bodies: https://ccel.org/ccel/s/schaff/npnf208.viii.vii.html
+              - the-creation-of-moving-creatures: https://ccel.org/ccel/s/schaff/npnf208.viii.viii.html
+              - the-creation-of-fowl-and-water-animals: https://ccel.org/ccel/s/schaff/npnf208.viii.ix.html
+              - the-creation-of-terrestrial-animals: https://ccel.org/ccel/s/schaff/npnf208.viii.x.html

@@ -1,0 +1,16 @@
+augustine-dedication-of-volume-ii-of-the-edinburgh-edition:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: Dedication of Volume II. Of the Edinburgh Edition.
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff

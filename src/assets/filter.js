@@ -394,6 +394,10 @@
               var bName = (b.textContent || "").trim();
               return aName.localeCompare(bName);
             }
+            // Chronological: sort by birth year, unknowns last
+            var aYear = a.dataset.birthYear ? parseInt(a.dataset.birthYear, 10) : Infinity;
+            var bYear = b.dataset.birthYear ? parseInt(b.dataset.birthYear, 10) : Infinity;
+            if (aYear !== bYear) return aYear - bYear;
             return Number(a.dataset.origIndex || 0) - Number(b.dataset.origIndex || 0);
           });
           for (var item of items) {

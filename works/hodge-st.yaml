@@ -865,7 +865,7 @@ hodge-st:
               - 7-objections: 7. Objections.
                 # loci:
           - chapter-viii-for-whom-did-christ-die: "Chapter VIII. For Whom Did Christ Die?"
-            loci: atonement
+            loci: extent-of-atonement
             sections:
               - 1-state-of-the-question: 1. State of the Question.
                 # loci:
@@ -951,7 +951,7 @@ hodge-st:
         # loci:
         sections:
           - chapter-xv-regeneration: Chapter XV. Regeneration.
-            loci: effectual-calling
+            loci: regeneration
             sections:
               - 1-usage-of-the-word: 1. Usage of the Word.
                 # loci:

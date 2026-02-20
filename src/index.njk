@@ -88,7 +88,7 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
     <span class="loci-slug-label">({{ node.slug }})</span>
     {% if authorList.length > 0 %}
       <span class="loci-authors">
-        <span class="loci-authors-dash">— </span>{% for author in authorList %}<span class="loci-author-item" data-tradition="{{ author.tradition }}"><a href="/authors/{{ author.slug }}/?locus={{ node.slug }}"
+        <span class="loci-authors-dash">— </span>{% for author in authorList %}<span class="loci-author-item" data-tradition="{{ author.tradition }}" data-birth-year="{{ author.birthYear or '' }}"><a href="/authors/{{ author.slug }}/?locus={{ node.slug }}"
              class="author-link"
              data-author-header="{{ author.name }}{% if author.birthYear or author.deathYear %} ({{ author.birthYear }}–{{ author.deathYear }}){% endif %}"
              data-entries="{{ author.entries | dump | escape }}">{{ author.displayName }}</a></span>{% endfor %}

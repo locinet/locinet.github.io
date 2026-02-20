@@ -1,0 +1,111 @@
+basil-de-spiritu-sancto:
+  author: Q44258
+  date_added: 2026-02-20
+  # loci:
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: De Spiritu Sancto.
+    sections:
+      - preface: Preface.
+        # loci:
+      - prefatory-remarks-on-the-need-of-exact-investigation-of-the-: Prefatory remarks on the need of exact investigation of the most minute portions of theology.
+        # loci:
+      - the-origin-of-the-heretics-close-observation-of-syllables: "The origin of the heretics' close observation of syllables."
+        # loci:
+      - the-systematic-discussion-of-syllables-is-derived-from-heath: The systematic discussion of syllables is derived from heathen philosophy.
+        # loci:
+      - that-there-is-no-distinction-in-the-scriptural-use-of-these-: That there is no distinction in the scriptural use of these syllables.
+        # loci:
+      - that-v-not-found-of-whom-in-the-case-of-the-son-and-of-the-s: "That v: not found “of whom” in the case of the Son and of the Spirit."
+        # loci:
+      - issue-joined-with-those-who-assert-that-the-son-is-not-with-: "Issue joined with those who assert that the Son is not with the Father, but after the Father. Also concerning the equal glory."
+        # loci:
+      - against-those-who-assert-that-it-is-not-proper-for-with-whom: "Against those who assert that it is not proper for “with whom” to be said of the Son, and that the proper phrase is “through whom.”"
+        # loci:
+      - in-how-many-ways-through-whom-is-used-and-in-what-sense-with: "In how many ways “Through whom” is used; and in what sense “with whom” is more suitable. Explanation of how the Son receives a commandment, and how He is sent."
+        # loci:
+      - definitive-conceptions-about-the-spirit-which-conform-to-the: Definitive conceptions about the Spirit which conform to the teaching of the Scriptures.
+        # loci:
+      - against-those-who-say-that-it-is-not-right-to-rank-the-holy-: Against those who say that it is not right to rank the Holy Spirit with the Father and the Son.
+        # loci:
+      - that-they-who-deny-the-spirit-are-transgressors: That they who deny the Spirit are transgressors.
+        # loci:
+      - against-those-who-assert-that-the-baptism-in-the-name-of-the: Against those who assert that the baptism in the name of the Father alone is sufficient.
+        # loci:
+      - statement-of-the-reason-why-in-the-writings-of-paul-the-ange: Statement of the reason why in the writings of Paul the angels are associated with the Father and the Son.
+        # loci:
+      - objection-that-some-were-baptized-unto-moses-and-believed-in: "Objection that some were baptized unto Moses and believed in him, and an answer to it; with remarks upon types."
+        # loci:
+      - reply-to-the-suggested-objection-that-we-are-baptized-into-w: Reply to the suggested objection that we are baptized “into water.” Also concerning baptism.
+        # loci:
+      - that-the-holy-spirit-is-in-every-conception-inseparable-from: "That the Holy Spirit is in every conception inseparable from the Father and the Son, alike in the creation of perceptible objects, in the dispensation of human affairs, and in the judgment to come."
+        # loci:
+      - against-those-who-say-that-the-holy-ghost-is-not-to-be-numbe: "Against those who say that the Holy Ghost is not to be numbered with, but numbered under, the Father and the Son. Wherein moreover there is a summary notice of the faith concerning right sub-numeration."
+        # loci:
+      - in-what-manner-in-the-confession-of-the-three-hypostases-we-: In what manner in the confession of the three hypostases we preserve the pious dogma of the Monarchia. Wherein also is the refutation of them that allege that the Spirit is subnumerated.
+        # loci:
+      - against-those-who-assert-that-the-spirit-ought-not-to-be-glo: Against those who assert that the Spirit ought not to be glorified.
+        # loci:
+      - against-those-who-maintain-that-the-spirit-is-in-the-rank-ne: "Against those who maintain that the Spirit is in the rank neither of a servant nor of a master, but in that of the free."
+        # loci:
+      - proof-from-scripture-that-the-spirit-is-called-lord: Proof from Scripture that the Spirit is called Lord.
+        # loci:
+      - establishment-of-the-natural-communion-of-the-spirit-from-hi: "Establishment of the natural communion of the Spirit from His being, equally with the Father and the Son, unapproachable in thought."
+        # loci:
+      - the-glorifying-of-the-enumeration-of-his-attributes: The glorifying of the enumeration of His attributes.
+        # loci:
+      - proof-of-the-absurdity-of-the-refusal-to-glorify-the-spirit-: "Proof of the absurdity of the refusal to glorify the Spirit, from the comparison of things glorified in creation."
+        # loci:
+      - that-scripture-uses-the-words-in-or-by-cf-note-on-p-3-in-pla: "That Scripture uses the words “in” or “by,” ἐν, cf. note on p. 3, in place of “with.” Wherein also it is proved that the word “and” has the same force as “with.”"
+        # loci:
+      - that-the-word-in-in-as-many-senses-as-it-bears-is-understood: "That the word “in,” in as many senses as it bears, is understood of the Spirit."
+        # loci:
+      - of-the-origin-of-the-word-with-and-what-force-it-has-also-co: "Of the origin of the word “with,” and what force it has. Also concerning the unwritten laws of the church."
+        # loci:
+      - that-our-opponents-refuse-to-concede-in-the-case-of-the-spir: "That our opponents refuse to concede in the case of the Spirit the terms which Scripture uses in the case of men, as reigning together with Christ."
+        # loci:
+      - enumeration-of-the-illustrious-men-in-the-church-who-in-thei: Enumeration of the illustrious men in the Church who in their writings have used the word “with.”
+        # loci:
+      - exposition-of-the-present-state-of-the-churches: Exposition of the present state of the Churches.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - preface: https://ccel.org/ccel/s/schaff/npnf208.vii.i.html
+              - prefatory-remarks-on-the-need-of-exact-investigation-of-the-: https://ccel.org/ccel/s/schaff/npnf208.vii.ii.html
+              - the-origin-of-the-heretics-close-observation-of-syllables: https://ccel.org/ccel/s/schaff/npnf208.vii.iii.html
+              - the-systematic-discussion-of-syllables-is-derived-from-heath: https://ccel.org/ccel/s/schaff/npnf208.vii.iv.html
+              - that-there-is-no-distinction-in-the-scriptural-use-of-these-: https://ccel.org/ccel/s/schaff/npnf208.vii.v.html
+              - that-v-not-found-of-whom-in-the-case-of-the-son-and-of-the-s: https://ccel.org/ccel/s/schaff/npnf208.vii.vi.html
+              - issue-joined-with-those-who-assert-that-the-son-is-not-with-: https://ccel.org/ccel/s/schaff/npnf208.vii.vii.html
+              - against-those-who-assert-that-it-is-not-proper-for-with-whom: https://ccel.org/ccel/s/schaff/npnf208.vii.viii.html
+              - in-how-many-ways-through-whom-is-used-and-in-what-sense-with: https://ccel.org/ccel/s/schaff/npnf208.vii.ix.html
+              - definitive-conceptions-about-the-spirit-which-conform-to-the: https://ccel.org/ccel/s/schaff/npnf208.vii.x.html
+              - against-those-who-say-that-it-is-not-right-to-rank-the-holy-: https://ccel.org/ccel/s/schaff/npnf208.vii.xi.html
+              - that-they-who-deny-the-spirit-are-transgressors: https://ccel.org/ccel/s/schaff/npnf208.vii.xii.html
+              - against-those-who-assert-that-the-baptism-in-the-name-of-the: https://ccel.org/ccel/s/schaff/npnf208.vii.xiii.html
+              - statement-of-the-reason-why-in-the-writings-of-paul-the-ange: https://ccel.org/ccel/s/schaff/npnf208.vii.xiv.html
+              - objection-that-some-were-baptized-unto-moses-and-believed-in: https://ccel.org/ccel/s/schaff/npnf208.vii.xv.html
+              - reply-to-the-suggested-objection-that-we-are-baptized-into-w: https://ccel.org/ccel/s/schaff/npnf208.vii.xvi.html
+              - that-the-holy-spirit-is-in-every-conception-inseparable-from: https://ccel.org/ccel/s/schaff/npnf208.vii.xvii.html
+              - against-those-who-say-that-the-holy-ghost-is-not-to-be-numbe: https://ccel.org/ccel/s/schaff/npnf208.vii.xviii.html
+              - in-what-manner-in-the-confession-of-the-three-hypostases-we-: https://ccel.org/ccel/s/schaff/npnf208.vii.xix.html
+              - against-those-who-assert-that-the-spirit-ought-not-to-be-glo: https://ccel.org/ccel/s/schaff/npnf208.vii.xx.html
+              - against-those-who-maintain-that-the-spirit-is-in-the-rank-ne: https://ccel.org/ccel/s/schaff/npnf208.vii.xxi.html
+              - proof-from-scripture-that-the-spirit-is-called-lord: https://ccel.org/ccel/s/schaff/npnf208.vii.xxii.html
+              - establishment-of-the-natural-communion-of-the-spirit-from-hi: https://ccel.org/ccel/s/schaff/npnf208.vii.xxiii.html
+              - the-glorifying-of-the-enumeration-of-his-attributes: https://ccel.org/ccel/s/schaff/npnf208.vii.xxiv.html
+              - proof-of-the-absurdity-of-the-refusal-to-glorify-the-spirit-: https://ccel.org/ccel/s/schaff/npnf208.vii.xxv.html
+              - that-scripture-uses-the-words-in-or-by-cf-note-on-p-3-in-pla: https://ccel.org/ccel/s/schaff/npnf208.vii.xxvi.html
+              - that-the-word-in-in-as-many-senses-as-it-bears-is-understood: https://ccel.org/ccel/s/schaff/npnf208.vii.xxvii.html
+              - of-the-origin-of-the-word-with-and-what-force-it-has-also-co: https://ccel.org/ccel/s/schaff/npnf208.vii.xxviii.html
+              - that-our-opponents-refuse-to-concede-in-the-case-of-the-spir: https://ccel.org/ccel/s/schaff/npnf208.vii.xxix.html
+              - enumeration-of-the-illustrious-men-in-the-church-who-in-thei: https://ccel.org/ccel/s/schaff/npnf208.vii.xxx.html
+              - exposition-of-the-present-state-of-the-churches: https://ccel.org/ccel/s/schaff/npnf208.vii.xxxi.html

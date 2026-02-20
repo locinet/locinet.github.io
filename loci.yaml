@@ -91,6 +91,10 @@
         - name: Knowledge of God
           slug: knowledge-of-god
           desc: "God's own knowledge (scientia Dei): foreknowledge, middle knowledge, and the divine ideas"
+          children:
+            - name: Foreknowledge
+              slug: foreknowledge
+              desc: "God's knowledge of future contingents and free acts; its relation to predestination and the Arminian doctrine of middle knowledge (scientia media)"
         - name: Will of God
           slug: will-of-god
           desc: "The divine will: its nature, freedom, and objects (voluntas Dei)"
@@ -309,6 +313,10 @@
             - name: Atonement
               slug: atonement
               desc: "Christ's work of satisfying divine justice and reconciling sinners to God"
+              children:
+                - name: Extent of atonement
+                  slug: extent-of-atonement
+                  desc: "Whether Christ's atoning work was intended for all persons universally or for the elect only; the universal vs. particular redemption debate"
         - name: Kingly office
           slug: kingly-office
     - name: Mariology
@@ -336,9 +344,17 @@
         - name: Effectual calling
           slug: effectual-calling
           desc: The inward call of the Spirit that infallibly brings about conversion
+          children:
+            - name: Regeneration
+              slug: regeneration
+              desc: "The new birth; the Spirit's act of imparting a new principle of spiritual life to those who are dead in sin"
     - name: Faith
       slug: faith
       desc: "Saving faith (fides salvifica): its nature, object, and acts"
+      children:
+        - name: Assurance
+          slug: assurance
+          desc: "The believer's subjective certainty of being in a state of grace and of final salvation (certitudo salutis); including whether assurance is of the essence of saving faith"
     - name: Hope
       slug: hope
       desc: "The theological virtue of hope: confident expectation of eternal life"

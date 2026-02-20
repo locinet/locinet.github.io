@@ -1,0 +1,1089 @@
+basil-the-letters:
+  author: Q44258
+  date_added: 2026-02-20
+  # loci:
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: The Letters.
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - to-eustathius-the-philosopher: To Eustathius the Philosopher.
+        # loci:
+      - basil-to-gregory: Basil to Gregory.
+        # loci:
+      - to-candidianus: To Candidianus.
+        # loci:
+      - to-olympius: To Olympius.
+        # loci:
+      - to-nectarius: To Nectarius.
+        # loci:
+      - to-the-wife-of-nectarius: To the wife of Nectarius.
+        # loci:
+      - to-gregory-my-friend: To Gregory my friend.
+        # loci:
+      - to-the-c-sareans-a-defence-of-his-withdrawal-and-concerning-: "To the Cæsareans. A defence of his withdrawal, and concerning the faith."
+        # loci:
+      - to-maximus-the-philosopher: To Maximus the Philosopher.
+        # loci:
+      - to-a-widow: To a widow.
+        # loci:
+      - without-address-to-some-friends: Without address. To some friends.
+        # loci:
+      - to-olympius-2: To Olympius.
+        # loci:
+      - to-olympius-3: To Olympius.
+        # loci:
+      - to-gregory-his-friend: To Gregory his friend.
+        # loci:
+      - to-arcadius-imperial-treasurer: "To Arcadius, Imperial Treasurer."
+        # loci:
+      - against-eunomius-the-heretic: Against Eunomius the heretic.
+        # loci:
+      - to-origenes: To Origenes.
+        # loci:
+      - to-macarius-and-john: To Macarius and John.
+        # loci:
+      - to-gregory-my-friend-2: To Gregory my friend.
+        # loci:
+      - to-leontius-the-sophist: To Leontius the Sophist.
+        # loci:
+      - to-leontius-the-sophist-2: To Leontius the Sophist.
+        # loci:
+      - without-address-on-the-perfection-of-the-life-of-solitaries: Without address. On the Perfection of the Life of Solitaries.
+        # loci:
+      - to-a-solitary: To a Solitary.
+        # loci:
+      - to-athanasius-father-of-athanasius-bishop-of-ancyra: "To Athanasius, father of Athanasius bishop of Ancyra."
+        # loci:
+      - to-athanasius-bishop-of-ancyra: "To Athanasius, bishop of Ancyra."
+        # loci:
+      - to-c-sarius-brother-of-gregory: "To Cæsarius, brother of Gregory."
+        # loci:
+      - to-eusebius-bishop-of-samosata: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-the-church-of-neoc-sarea-consolatory: To the Church of Neocæsarea. Consolatory.
+        # loci:
+      - to-the-church-of-ancyra-consolatory: To the Church of Ancyra. Consolatory.
+        # loci:
+      - to-eusebius-of-samosata: To Eusebius of Samosata.
+        # loci:
+      - to-eusebius-bishop-of-samosata-2: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-sophronius-the-master: To Sophronius the Master.
+        # loci:
+      - to-aburgius: To Aburgius.
+        # loci:
+      - to-eusebius-bishop-of-samosata-3: "To Eusebius, bishop of Samosata."
+        # loci:
+      - without-address: Without address.
+        # loci:
+      - without-address-2: Without address.
+        # loci:
+      - without-address-3: Without address.
+        # loci:
+      - to-his-brother-gregory-concerning-the-difference-between-and: "To his Brother Gregory, concerning the difference between οὐσία and ὑπόστασις."
+        # loci:
+      - julian-to-basil: Julian to Basil.
+        # loci:
+      - julian-to-basil-2: Julian to Basil.
+        # loci:
+      - basil-to-julian: Basil to Julian.
+        # loci:
+      - to-chilo-his-disciple: "To Chilo, his disciple."
+        # loci:
+      - admonition-to-the-young: Admonition to the Young.
+        # loci:
+      - to-a-lapsed-monk: To a lapsed Monk.
+        # loci:
+      - to-a-lapsed-monk-2: To a lapsed Monk.
+        # loci:
+      - to-a-fallen-virgin: To a fallen virgin.
+        # loci:
+      - to-gregory: To Gregory.
+        # loci:
+      - to-eusebius-bishop-of-samosata-4: "To Eusebius, Bishop of Samosata."
+        # loci:
+      - to-arcadius-the-bishop: To Arcadius the Bishop.
+        # loci:
+      - to-bishop-innocentius: To Bishop Innocentius.
+        # loci:
+      - to-bishop-bosporius: To Bishop Bosporius.
+        # loci:
+      - to-the-canonic: To the Canonicæ.
+        # loci:
+      - to-the-chorepiscopi: To the Chorepiscopi.
+        # loci:
+      - to-the-chorepiscopi-2: To the Chorepiscopi.
+        # loci:
+      - to-paregorius-the-presbyter: "To Paregorius, the presbyter."
+        # loci:
+      - to-pergamius: To Pergamius.
+        # loci:
+      - to-meletius-bishop-of-antioch: "To Meletius, Bishop of Antioch."
+        # loci:
+      - to-gregory-my-brother: To Gregory my brother.
+        # loci:
+      - to-gregory-his-uncle: "To Gregory, his uncle."
+        # loci:
+      - to-gregory-his-uncle-2: To Gregory his uncle.
+        # loci:
+      - to-athanasius-bishop-of-alexandria: "To Athanasius, Bishop of Alexandria."
+        # loci:
+      - to-the-church-of-parnassus: To the Church of Parnassus.
+        # loci:
+      - to-the-governor-of-neoc-sarea: To the Governor of Neocæsarea.
+        # loci:
+      - to-hesychius: To Hesychius.
+        # loci:
+      - to-atarbius: To Atarbius.
+        # loci:
+      - to-athanasius-bishop-of-alexandria-2: "To Athanasius, bishop of Alexandria."
+        # loci:
+      - to-athanasius-bishop-of-alexandria-3: "To Athanasius, bishop of Alexandria."
+        # loci:
+      - to-meletius-bishop-of-antioch-2: "To Meletius, bishop of Antioch."
+        # loci:
+      - to-athanasius-bishop-of-alexandria-4: "To Athanasius, bishop of Alexandria."
+        # loci:
+      - without-address-4: Without address.
+        # loci:
+      - basil-to-gregory-2: Basil to Gregory.
+        # loci:
+      - to-hesychius-2: To Hesychius.
+        # loci:
+      - to-callisthenes: To Callisthenes.
+        # loci:
+      - to-martinianus: To Martinianus.
+        # loci:
+      - to-aburgius-2: To Aburgius.
+        # loci:
+      - to-sophronius-the-master-2: To Sophronius the Master.
+        # loci:
+      - without-inscription-about-therasius: "Without inscription: about Therasius."
+        # loci:
+      - without-inscription-on-behalf-of-elpidius: "Without inscription, on behalf of Elpidius."
+        # loci:
+      - to-eustathius-bishop-of-sebastia: To Eustathius bishop of Sebastia.
+        # loci:
+      - to-athanasius-bishop-of-alexandria-5: "To Athanasius, bishop of Alexandria."
+        # loci:
+      - to-bishop-innocent: To Bishop Innocent.
+        # loci:
+      - to-athanasius-bishop-of-alexandria-6: "To Athanasius, bishop of Alexandria."
+        # loci:
+      - to-a-magistrate: To a Magistrate.
+        # loci:
+      - to-the-president: To the President.
+        # loci:
+      - that-the-oath-ought-not-to-be-taken: That the oath ought not to be taken.
+        # loci:
+      - to-the-governor: To the Governor.
+        # loci:
+      - without-address-on-the-same-subject: Without address on the same subject.
+        # loci:
+      - without-address-on-the-subject-of-the-exaction-of-taxes: Without address on the subject of the exaction of taxes.
+        # loci:
+      - to-meletius-bishop-of-antioch-3: "To Meletius, bishop of Antioch."
+        # loci:
+      - to-the-holy-brethren-the-bishops-of-the-west: To the holy brethren the bishops of the West.
+        # loci:
+      - to-valerianus-bishop-of-illyricum: "To Valerianus, Bishop of Illyricum."
+        # loci:
+      - to-the-italians-and-gauls: To the Italians and Gauls.
+        # loci:
+      - to-the-patrician-c-saria-concerning-communion: "To the Patrician Cæsaria, concerning Communion."
+        # loci:
+      - to-elias-governor-of-the-province: "To Elias, Governor of the Province."
+        # loci:
+      - to-eusebius-bishop-of-samosata-5: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-sophronius-the-master-3: "To Sophronius, the master."
+        # loci:
+      - to-the-senate-of-tyana: To the Senate of Tyana.
+        # loci:
+      - to-eusebius-bishop-of-samosata-6: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-count-terentius: To Count Terentius.
+        # loci:
+      - to-eusebius-bishop-of-samosata-7: "To Eusebius, Bishop of Samosata."
+        # loci:
+      - consolatory: Consolatory.
+        # loci:
+      - to-the-citizens-of-satala: To the citizens of Satala.
+        # loci:
+      - to-the-people-of-satala: To the people of Satala.
+        # loci:
+      - to-the-prefect-modestus: To the prefect Modestus.
+        # loci:
+      - to-the-deaconesses-the-daughters-of-count-terentius: "To the deaconesses, the daughters of Count Terentius."
+        # loci:
+      - to-a-soldier: To a soldier.
+        # loci:
+      - to-the-widow-julitta: To the Widow Julitta.
+        # loci:
+      - to-the-guardian-of-the-heirs-of-julitta: To the guardian of the heirs of Julitta.
+        # loci:
+      - to-the-count-helladius: To the Count Helladius.
+        # loci:
+      - to-the-prefect-modestus-2: To the prefect Modestus.
+        # loci:
+      - to-modestus-the-prefect: "To Modestus, the prefect."
+        # loci:
+      - to-andronicus-a-general: "To Andronicus, a general."
+        # loci:
+      - to-the-presbyters-of-tarsus: To the presbyters of Tarsus.
+        # loci:
+      - to-cyriacus-at-tarsus: "To Cyriacus, at Tarsus."
+        # loci:
+      - to-the-heretic-simplicia: To the heretic Simplicia.
+        # loci:
+      - to-firminius: To Firminius.
+        # loci:
+      - without-address-5: Without address.
+        # loci:
+      - to-jovinus-bishop-of-perrha: "To Jovinus, Bishop of Perrha."
+        # loci:
+      - to-eustathius-bishop-of-sebasteia: "To Eustathius, Bishop of Sebasteia."
+        # loci:
+      - to-meletius-bishop-of-antioch-4: "To Meletius, bishop of Antioch."
+        # loci:
+      - to-theodotus-bishop-of-nicopolis: "To Theodotus, bishop of Nicopolis."
+        # loci:
+      - to-p-menius-bishop-of-satala: "To Pœmenius, bishop of Satala."
+        # loci:
+      - to-urbicius-the-monk: "To Urbicius, the monk."
+        # loci:
+      - to-theodorus: To Theodorus.
+        # loci:
+      - a-transcript-of-the-faith-as-dictated-by-saint-basil-and-sub: "A transcript of the faith as dictated by Saint Basil, and subscribed by Eustathius, bishop of Sebasteia."
+        # loci:
+      - to-atarbius-2: To Atarbius.
+        # loci:
+      - to-eusebius-bishop-of-samosata-8: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-eusebius-bishop-of-samosata-9: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-meletius-bishop-of-antioch-5: To Meletius Bishop of Antioch.
+        # loci:
+      - to-theodotus-bishop-of-nicopolis-2: To Theodotus bishop of Nicopolis.
+        # loci:
+      - to-olympius-4: To Olympius.
+        # loci:
+      - to-abramius-bishop-of-batn: "To Abramius, bishop of Batnæ."
+        # loci:
+      - to-peter-bishop-of-alexandria: "To Peter, bishop of Alexandria."
+        # loci:
+      - to-the-presbyter-p-onius: To the presbyter Pœonius.
+        # loci:
+      - to-diodorus-presbyter-of-antioch: "To Diodorus, presbyter of Antioch."
+        # loci:
+      - to-eusebius-bishop-of-samosata-10: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-antipater-on-his-assuming-the-governorship-of-cappadocia: "To Antipater, on his assuming the governorship of Cappadocia."
+        # loci:
+      - to-eusebius-bishop-of-samosata-11: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-the-alexandrians: To the Alexandrians.
+        # loci:
+      - to-the-church-of-antioch: To the Church of Antioch.
+        # loci:
+      - to-eusebius-bishop-of-samosata-12: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-the-prefects-accountant: "To the prefects' accountant."
+        # loci:
+      - to-another-accountant: To another accountant.
+        # loci:
+      - to-the-prefects-officer: "To the prefects' officer."
+        # loci:
+      - to-eusebius-bishop-of-samosata-13: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-antiochus: To Antiochus.
+        # loci:
+      - to-aburgius-3: To Aburgius.
+        # loci:
+      - to-trajan: To Trajan.
+        # loci:
+      - to-trajan-2: To Trajan.
+        # loci:
+      - to-amphilochius-in-the-name-of-heraclidas: To Amphilochius in the name of Heraclidas.
+        # loci:
+      - to-eustathius-the-physician: To Eustathius the Physician.
+        # loci:
+      - to-victor-the-commander: "To Victor, the Commander."
+        # loci:
+      - to-victor-the-ex-consul: To Victor the Ex-Consul.
+        # loci:
+      - to-ascholius-bishop-of-thessalonica: "To Ascholius, bishop of Thessalonica."
+        # loci:
+      - without-address-in-the-case-of-a-trainer: Without address. In the case of a trainer.
+        # loci:
+      - to-the-presbyter-evagrius: To the Presbyter Evagrius.
+        # loci:
+      - to-amiochus: To Amiochus.
+        # loci:
+      - to-antiochus-2: To Antiochus.
+        # loci:
+      - to-eupaterius-and-his-daughter: To Eupaterius and his daughter.
+        # loci:
+      - to-diodorus: To Diodorus.
+        # loci:
+      - to-amphilochius-on-his-consecration-as-bishop: To Amphilochius on his consecration as Bishop.
+        # loci:
+      - to-eusebius-bishop-of-samosata-14: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-count-jovinus: To Count Jovinus.
+        # loci:
+      - to-ascholius: To Ascholius.
+        # loci:
+      - to-ascholius-bishop-of-thessalonica-2: "To Ascholius, bishop of Thessalonica."
+        # loci:
+      - to-eusebius-bishop-of-samosata-15: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-eusebius-bishop-of-samosata-16: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-antiochus-3: To Antiochus.
+        # loci:
+      - basil-to-gregory-3: Basil to Gregory.
+        # loci:
+      - to-glycerius: To Glycerius.
+        # loci:
+      - to-gregory-2: To Gregory.
+        # loci:
+      - to-sophronius-the-bishop: "To Sophronius, the bishop."
+        # loci:
+      - to-theodora-the-canoness: To Theodora the Canoness.
+        # loci:
+      - to-a-widow-2: To a Widow.
+        # loci:
+      - to-count-magnenianus: To Count Magnenianus.
+        # loci:
+      - to-amphilochius-bishop-of-iconium: "To Amphilochius, Bishop of Iconium."
+        # loci:
+      - to-saphronius-the-master: To Saphronius the Master.
+        # loci:
+      - to-aburgius-4: To Aburgius.
+        # loci:
+      - to-arinth-us: To Arinthæus.
+        # loci:
+      - to-the-master-sophronius-on-behalf-of-eunathius: "To the Master Sophronius, on behalf of Eunathius."
+        # loci:
+      - to-otreius-bishop-of-melitene: "To Otreius, bishop of Melitene."
+        # loci:
+      - to-the-presbyters-of-samosata: To the presbyters of Samosata.
+        # loci:
+      - to-the-senate-of-samosata: To the Senate of Samosata.
+        # loci:
+      - to-eustathius-bishop-of-himmeria: "To Eustathius, bishop of Himmeria."
+        # loci:
+      - to-theodotus-bishop-of-ber-a: "To Theodotus, bishop of Beræa."
+        # loci:
+      - to-antipater-the-governor: "To Antipater, the governor."
+        # loci:
+      - antipater-to-basil: Antipater to Basil.
+        # loci:
+      - to-amphilochius-concerning-the-canons: "To Amphilochius, concerning the Canons."
+        # loci:
+      - to-eustathius-the-physician-2: To Eustathius the physician.
+        # loci:
+      - to-amphilochius-bishop-of-iconium-2: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - to-amphilochius-bishop-of-iconium-3: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - to-sophronius-the-master-4: To Sophronius the Master.
+        # loci:
+      - to-meletius-the-physician: To Meletius the Physician.
+        # loci:
+      - to-zoilus: To Zoilus.
+        # loci:
+      - to-euphronius-bishop-of-colonia-armeni: "To Euphronius, bishop of Colonia Armeniæ."
+        # loci:
+      - to-aburgius-5: To Aburgius.
+        # loci:
+      - to-ambrose-bishop-of-milan: "To Ambrose, bishop of Milan."
+        # loci:
+      - to-eusebius-bishop-of-samosata-17: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-amphilochius-concerning-the-canons-2: "To Amphilochius, concerning the Canons."
+        # loci:
+      - to-amphilochius-bishop-of-iconium-4: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - to-amphilochius-bishop-of-iconium-5: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - to-amphilochius-bishop-of-iconium-6: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - to-the-bishops-of-the-sea-coast: To the bishops of the sea coast.
+        # loci:
+      - to-the-neoc-sareans: To the Neocæsareans.
+        # loci:
+      - to-elpidius-the-bishop: To Elpidius the bishop.
+        # loci:
+      - to-elpidius-the-bishop-consolatory: To Elpidius the bishop. Consolatory.
+        # loci:
+      - to-the-clergy-of-neoc-sarea: To the clergy of Neocæsarea.
+        # loci:
+      - to-eulancius: To Eulancius.
+        # loci:
+      - without-address-6: Without address.
+        # loci:
+      - to-the-notables-of-neoc-sarea: To the notables of Neocæsarea.
+        # loci:
+      - to-olympius-5: To Olympius.
+        # loci:
+      - to-hilarius: To Hilarius.
+        # loci:
+      - without-address-7: Without address.
+        # loci:
+      - to-count-terentius-2: To Count Terentius.
+        # loci:
+      - to-the-presbyter-dorotheus: To the Presbyter Dorotheus.
+        # loci:
+      - to-meletius-bishop-of-antioch-6: "To Meletius, bishop of Antioch."
+        # loci:
+      - to-amphilochius-the-canons: "To Amphilochius, the Canons."
+        # loci:
+      - to-amphilochius-bishop-of-iconium-7: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - to-the-clergy-of-samosata: To the clergy of Samosata.
+        # loci:
+      - to-the-ber-ans: To the Beræans.
+        # loci:
+      - to-the-ber-ans-2: To the Beræans.
+        # loci:
+      - to-the-people-of-chalcis: To the people of Chalcis.
+        # loci:
+      - against-eustathius-of-sebasteia: Against Eustathius of Sebasteia.
+        # loci:
+      - to-the-presbyter-genethlius: To the presbyter Genethlius.
+        # loci:
+      - to-demosthenes-as-from-the-synod-of-bishops: "To Demosthenes, as from the synod of bishops."
+        # loci:
+      - to-the-ascetics-under-him: To the ascetics under him.
+        # loci:
+      - consolatory-to-the-clergy-of-colonia: "Consolatory, to the clergy of Colonia."
+        # loci:
+      - to-the-magistrates-of-colonia: To the magistrates of Colonia.
+        # loci:
+      - to-the-clergy-of-nicopolis: To the clergy of Nicopolis.
+        # loci:
+      - to-the-magistrates-of-nicopolis: To the magistrates of Nicopolis.
+        # loci:
+      - to-amphilochius-bishop-of-iconium-8: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - to-amphilochius-bishop-of-iconium-9: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - to-amphilochius-in-reply-to-certain-questions: "To Amphilochius, in reply to certain questions."
+        # loci:
+      - to-the-same-in-answer-to-another-question: "To the same, in answer to another question."
+        # loci:
+      - to-the-same-in-answer-to-another-question-2: "To the same, in answer to another question."
+        # loci:
+      - to-the-same-amphilochius: To the same Amphilochius.
+        # loci:
+      - to-eusebius-bishop-of-samosata-18: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-the-presbyters-of-nicopolis: To the presbyters of Nicopolis.
+        # loci:
+      - to-eusebius-bishop-of-samosata-19: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-the-presbyters-of-nicopolis-2: To the Presbyters of Nicopolis.
+        # loci:
+      - to-eusebius-bishop-of-samosata-20: "To Eusebius, bishop of Samosata."
+        # loci:
+      - to-the-westerns: To the Westerns.
+        # loci:
+      - to-the-bishops-of-italy-and-gaul-concerning-the-condition-an: To the bishops of Italy and Gaul concerning the condition and confusion of the Churches.
+        # loci:
+      - to-patrophilus-bishop-of-g: "To Patrophilus, bishop of Ægæ."
+        # loci:
+      - to-theophilus-the-bishop: To Theophilus the Bishop.
+        # loci:
+      - to-the-nicopolitans: To the Nicopolitans.
+        # loci:
+      - to-the-nicopolitans-2: To the Nicopolitans.
+        # loci:
+      - to-amphilochius-bishop-of-iconium-10: "To Amphilochius, bishop of Iconium."
+        # loci:
+      - without-address-commendatory: Without address. Commendatory.
+        # loci:
+      - to-patrophilus-bishop-of-g-2: "To Patrophilus, bishop of Ægæ."
+        # loci:
+      - to-the-people-of-ev-s: To the people of Evæsæ.
+        # loci:
+      - to-the-bishops-of-the-pontic-diocese: To the bishops of the Pontic Diocese.
+        # loci:
+      - to-the-presbyters-of-antioch: To the presbyters of Antioch.
+        # loci:
+      - to-pelagius-bishop-of-the-syrian-laodicea: "To Pelagius, bishop of the Syrian Laodicea."
+        # loci:
+      - to-vitus-bishop-of-charr: "To Vitus, bishop of Charræ."
+        # loci:
+      - to-the-very-well-beloved-and-reverend-brethren-the-presbyter: "To the very well beloved and reverend brethren the presbyters Acacius, Aetius, Paulus, and Silvanus; the deacons Silvinus and Lucius, and the rest of the brethren the monks, Basil, the bishop."
+        # loci:
+      - to-the-monks-harassed-by-the-arians: To the monks harassed by the Arians.
+        # loci:
+      - to-epiphanius-the-bishop: To Epiphanius the bishop.
+        # loci:
+      - to-the-monks-palladius-and-innocent: To the monks Palladius and Innocent.
+        # loci:
+      - to-optimus-the-bishop: To Optimus the bishop.
+        # loci:
+      - to-the-sozopolitans: To the Sozopolitans.
+        # loci:
+      - to-the-monk-urbicius: To the Monk Urbicius.
+        # loci:
+      - to-the-westerns-2: To the Westerns.
+        # loci:
+      - to-barses-bishop-of-edessa-in-exile: "To Barses, bishop of Edessa, in exile."
+        # loci:
+      - to-eulogius-alexander-and-harpocration-bishops-of-egypt-in-e: "To Eulogius, Alexander, and Harpocration, bishops of Egypt, in exile."
+        # loci:
+      - to-petrus-bishop-of-alexandria: "To Petrus, bishop of Alexandria."
+        # loci:
+      - to-barses-bishop-of-edessa-in-exile-2: "To Barses, bishop of Edessa, in exile."
+        # loci:
+      - to-eusebius-in-exile: "To Eusebius, in exile."
+        # loci:
+      - to-the-wife-of-arinth-us-the-general-consolatory: "To the wife of Arinthæus, the General. Consolatory."
+        # loci:
+      - without-address-concerning-raptus: Without Address. Concerning Raptus.
+        # loci:
+      - to-eusebius-my-comrade-to-recommend-cyriacus-the-presbyter: "To Eusebius, my comrade, to recommend Cyriacus the presbyter."
+        # loci:
+      - to-sophronius-the-magister-officiorum: To Sophronius the magister officiorum.
+        # loci:
+      - without-address-concerning-hera: Without address. Concerning Hera.
+        # loci:
+      - to-himerius-the-master: "To Himerius, the master."
+        # loci:
+      - without-address-concerning-hera-2: Without address. Concerning Hera.
+        # loci:
+      - to-the-great-harmatius: To the great Harmatius.
+        # loci:
+      - to-the-learned-maximus: To the learned Maximus.
+        # loci:
+      - to-valerianus: To Valerianus.
+        # loci:
+      - to-modestus-the-prefect-2: To Modestus the Prefect.
+        # loci:
+      - to-modestus-the-prefect-3: To Modestus the Prefect.
+        # loci:
+      - to-modestus-the-prefect-4: To Modestus the Prefect.
+        # loci:
+      - to-a-bishop: To a bishop.
+        # loci:
+      - to-a-widow-3: To a widow.
+        # loci:
+      - to-the-assessor-in-the-case-of-monks: To the assessor in the case of monks.
+        # loci:
+      - without-address-8: Without Address.
+        # loci:
+      - to-the-commentariensis: To the Commentariensis.
+        # loci:
+      - without-address-9: Without address.
+        # loci:
+      - without-address-excommunicatory: Without address. Excommunicatory.
+        # loci:
+      - without-address-concerning-an-afflicted-woman: Without address. Concerning an afflicted woman.
+        # loci:
+      - to-nectarius-2: To Nectarius.
+        # loci:
+      - to-timotheus-the-chorepiscopus: To Timotheus the Chorepiscopus.
+        # loci:
+      - to-palladius: To Palladius.
+        # loci:
+      - to-julianus: To Julianus.
+        # loci:
+      - to-festus-and-magnus: To Festus and Magnus.
+        # loci:
+      - to-monks: To monks.
+        # loci:
+      - to-a-widow-4: To a widow.
+        # loci:
+      - to-a-widow-5: To a widow.
+        # loci:
+      - without-address-10: Without address.
+        # loci:
+      - to-a-censitor: To a Censitor.
+        # loci:
+      - without-address-11: Without address.
+        # loci:
+      - to-maximus: To Maximus.
+        # loci:
+      - to-the-wife-of-briso: To the wife of Briso.
+        # loci:
+      - to-the-comes-privatarum: To the Comes Privatarum.
+        # loci:
+      - to-aburgius-6: To Aburgius.
+        # loci:
+      - without-address-12: Without address.
+        # loci:
+      - to-the-governor-of-sebasteia: To the Governor of Sebasteia.
+        # loci:
+      - without-address-13: Without address.
+        # loci:
+      - without-address-14: Without address.
+        # loci:
+      - without-address-15: Without address.
+        # loci:
+      - without-address-16: Without address.
+        # loci:
+      - without-address-17: Without Address
+        # loci:
+      - without-address-18: Without Address
+        # loci:
+      - without-address-19: Without Address
+        # loci:
+      - without-address-20: Without address.
+        # loci:
+      - without-address-21: Without address.
+        # loci:
+      - without-address-22: Without address.
+        # loci:
+      - without-address-23: Without address.
+        # loci:
+      - to-thecla: To Thecla.
+        # loci:
+      - without-address-24: Without address.
+        # loci:
+      - to-philagrius-arcenus: To Philagrius Arcenus.
+        # loci:
+      - to-pasinicus-the-physician: "To Pasinicus, the Physician."
+        # loci:
+      - to-magninianus: To Magninianus.
+        # loci:
+      - without-address-25: Without address.
+        # loci:
+      - without-address-26: Without address.
+        # loci:
+      - to-hyperectius: To Hyperectius.
+        # loci:
+      - to-phalirius: To Phalirius.
+        # loci:
+      - letters-cccxxx-cccxxxi-cccxxxii-cccxxxiii: "Letters CCCXXX., CCCXXXI., CCCXXXII., CCCXXXIII."
+        # loci:
+      - to-a-writer: To a writer.
+        # loci:
+      - basil-to-libanius: Basil to Libanius.
+        # loci:
+      - libanius-to-basilius: Libanius to Basilius.
+        # loci:
+      - basil-to-libanius-2: Basil to Libanius.
+        # loci:
+      - libanius-to-basil: Libanius to Basil.
+        # loci:
+      - basil-to-libanius-3: Basil to Libanius.
+        # loci:
+      - libanius-to-basil-2: Libanius to Basil.
+        # loci:
+      - libanius-to-basil-3: Libanius to Basil.
+        # loci:
+      - basil-to-libanius-4: Basil to Libanius.
+        # loci:
+      - libanius-to-basil-4: Libanius to Basil.
+        # loci:
+      - basil-to-libanius-5: Basil to Libanius.
+        # loci:
+      - libanius-to-basil-5: Libanius to Basil.
+        # loci:
+      - libanius-to-basil-6: Libanius to Basil.
+        # loci:
+      - libanius-to-basil-7: Libanius to Basil.
+        # loci:
+      - basil-to-libanius-6: Basil to Libanius.
+        # loci:
+      - libanius-to-basil-8: Libanius to Basil.
+        # loci:
+      - basil-to-libanius-7: Basil to Libanius.
+        # loci:
+      - basil-to-libanius-8: Basil to Libanius.
+        # loci:
+      - libanius-to-basil-9: Libanius to Basil.
+        # loci:
+      - basil-to-libanius-9: Basil to Libanius.
+        # loci:
+      - libanius-to-basil-10: Libanius to Basil.
+        # loci:
+      - libanius-to-basil-11: Libanius to Basil.
+        # loci:
+      - basil-to-libanius-10: Basil to Libanius.
+        # loci:
+      - libanius-to-basil-12: Libanius to Basil.
+        # loci:
+      - libanius-to-basil-13: Libanius to Basil.
+        # loci:
+      - basil-to-libanius-11: Basil to Libanius.
+        # loci:
+      - of-the-holy-trinity-the-incarnation-the-invocation-of-saints: "Of the Holy Trinity, the Incarnation, the invocation of Saints, and their Images."
+        # loci:
+      - letters-ccclxi-ccclxv: Letters CCCLXI-CCCLXV
+        # loci:
+      - basil-to-urbicius-the-monk-concerning-continency: "Basil to Urbicius the monk, concerning continency."
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf208.ix.i.html
+              - to-eustathius-the-philosopher: https://ccel.org/ccel/s/schaff/npnf208.ix.ii.html
+              - basil-to-gregory: https://ccel.org/ccel/s/schaff/npnf208.ix.iii.html
+              - to-candidianus: https://ccel.org/ccel/s/schaff/npnf208.ix.iv.html
+              - to-olympius: https://ccel.org/ccel/s/schaff/npnf208.ix.v.html
+              - to-nectarius: https://ccel.org/ccel/s/schaff/npnf208.ix.vi.html
+              - to-the-wife-of-nectarius: https://ccel.org/ccel/s/schaff/npnf208.ix.vii.html
+              - to-gregory-my-friend: https://ccel.org/ccel/s/schaff/npnf208.ix.viii.html
+              - to-the-c-sareans-a-defence-of-his-withdrawal-and-concerning-: https://ccel.org/ccel/s/schaff/npnf208.ix.ix.html
+              - to-maximus-the-philosopher: https://ccel.org/ccel/s/schaff/npnf208.ix.x.html
+              - to-a-widow: https://ccel.org/ccel/s/schaff/npnf208.ix.xi.html
+              - without-address-to-some-friends: https://ccel.org/ccel/s/schaff/npnf208.ix.xii.html
+              - to-olympius-2: https://ccel.org/ccel/s/schaff/npnf208.ix.xiii.html
+              - to-olympius-3: https://ccel.org/ccel/s/schaff/npnf208.ix.xiv.html
+              - to-gregory-his-friend: https://ccel.org/ccel/s/schaff/npnf208.ix.xv.html
+              - to-arcadius-imperial-treasurer: https://ccel.org/ccel/s/schaff/npnf208.ix.xvi.html
+              - against-eunomius-the-heretic: https://ccel.org/ccel/s/schaff/npnf208.ix.xvii.html
+              - to-origenes: https://ccel.org/ccel/s/schaff/npnf208.ix.xviii.html
+              - to-macarius-and-john: https://ccel.org/ccel/s/schaff/npnf208.ix.xix.html
+              - to-gregory-my-friend-2: https://ccel.org/ccel/s/schaff/npnf208.ix.xx.html
+              - to-leontius-the-sophist: https://ccel.org/ccel/s/schaff/npnf208.ix.xxi.html
+              - to-leontius-the-sophist-2: https://ccel.org/ccel/s/schaff/npnf208.ix.xxii.html
+              - without-address-on-the-perfection-of-the-life-of-solitaries: https://ccel.org/ccel/s/schaff/npnf208.ix.xxiii.html
+              - to-a-solitary: https://ccel.org/ccel/s/schaff/npnf208.ix.xxiv.html
+              - to-athanasius-father-of-athanasius-bishop-of-ancyra: https://ccel.org/ccel/s/schaff/npnf208.ix.xxv.html
+              - to-athanasius-bishop-of-ancyra: https://ccel.org/ccel/s/schaff/npnf208.ix.xxvi.html
+              - to-c-sarius-brother-of-gregory: https://ccel.org/ccel/s/schaff/npnf208.ix.xxvii.html
+              - to-eusebius-bishop-of-samosata: https://ccel.org/ccel/s/schaff/npnf208.ix.xxviii.html
+              - to-the-church-of-neoc-sarea-consolatory: https://ccel.org/ccel/s/schaff/npnf208.ix.xxix.html
+              - to-the-church-of-ancyra-consolatory: https://ccel.org/ccel/s/schaff/npnf208.ix.xxx.html
+              - to-eusebius-of-samosata: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxi.html
+              - to-eusebius-bishop-of-samosata-2: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxii.html
+              - to-sophronius-the-master: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxiii.html
+              - to-aburgius: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxiv.html
+              - to-eusebius-bishop-of-samosata-3: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxv.html
+              - without-address: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxvi.html
+              - without-address-2: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxvii.html
+              - without-address-3: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxviii.html
+              - to-his-brother-gregory-concerning-the-difference-between-and: https://ccel.org/ccel/s/schaff/npnf208.ix.xxxix.html
+              - julian-to-basil: https://ccel.org/ccel/s/schaff/npnf208.ix.xl.html
+              - julian-to-basil-2: https://ccel.org/ccel/s/schaff/npnf208.ix.xli.html
+              - basil-to-julian: https://ccel.org/ccel/s/schaff/npnf208.ix.xlii.html
+              - to-chilo-his-disciple: https://ccel.org/ccel/s/schaff/npnf208.ix.xliii.html
+              - admonition-to-the-young: https://ccel.org/ccel/s/schaff/npnf208.ix.xliv.html
+              - to-a-lapsed-monk: https://ccel.org/ccel/s/schaff/npnf208.ix.xlv.html
+              - to-a-lapsed-monk-2: https://ccel.org/ccel/s/schaff/npnf208.ix.xlvi.html
+              - to-a-fallen-virgin: https://ccel.org/ccel/s/schaff/npnf208.ix.xlvii.html
+              - to-gregory: https://ccel.org/ccel/s/schaff/npnf208.ix.xlviii.html
+              - to-eusebius-bishop-of-samosata-4: https://ccel.org/ccel/s/schaff/npnf208.ix.xlix.html
+              - to-arcadius-the-bishop: https://ccel.org/ccel/s/schaff/npnf208.ix.l.html
+              - to-bishop-innocentius: https://ccel.org/ccel/s/schaff/npnf208.ix.li.html
+              - to-bishop-bosporius: https://ccel.org/ccel/s/schaff/npnf208.ix.lii.html
+              - to-the-canonic: https://ccel.org/ccel/s/schaff/npnf208.ix.liii.html
+              - to-the-chorepiscopi: https://ccel.org/ccel/s/schaff/npnf208.ix.liv.html
+              - to-the-chorepiscopi-2: https://ccel.org/ccel/s/schaff/npnf208.ix.lv.html
+              - to-paregorius-the-presbyter: https://ccel.org/ccel/s/schaff/npnf208.ix.lvi.html
+              - to-pergamius: https://ccel.org/ccel/s/schaff/npnf208.ix.lvii.html
+              - to-meletius-bishop-of-antioch: https://ccel.org/ccel/s/schaff/npnf208.ix.lviii.html
+              - to-gregory-my-brother: https://ccel.org/ccel/s/schaff/npnf208.ix.lix.html
+              - to-gregory-his-uncle: https://ccel.org/ccel/s/schaff/npnf208.ix.lx.html
+              - to-gregory-his-uncle-2: https://ccel.org/ccel/s/schaff/npnf208.ix.lxi.html
+              - to-athanasius-bishop-of-alexandria: https://ccel.org/ccel/s/schaff/npnf208.ix.lxii.html
+              - to-the-church-of-parnassus: https://ccel.org/ccel/s/schaff/npnf208.ix.lxiii.html
+              - to-the-governor-of-neoc-sarea: https://ccel.org/ccel/s/schaff/npnf208.ix.lxiv.html
+              - to-hesychius: https://ccel.org/ccel/s/schaff/npnf208.ix.lxv.html
+              - to-atarbius: https://ccel.org/ccel/s/schaff/npnf208.ix.lxvi.html
+              - to-athanasius-bishop-of-alexandria-2: https://ccel.org/ccel/s/schaff/npnf208.ix.lxvii.html
+              - to-athanasius-bishop-of-alexandria-3: https://ccel.org/ccel/s/schaff/npnf208.ix.lxviii.html
+              - to-meletius-bishop-of-antioch-2: https://ccel.org/ccel/s/schaff/npnf208.ix.lxix.html
+              - to-athanasius-bishop-of-alexandria-4: https://ccel.org/ccel/s/schaff/npnf208.ix.lxx.html
+              - without-address-4: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxi.html
+              - basil-to-gregory-2: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxii.html
+              - to-hesychius-2: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxiii.html
+              - to-callisthenes: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxiv.html
+              - to-martinianus: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxv.html
+              - to-aburgius-2: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxvi.html
+              - to-sophronius-the-master-2: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxvii.html
+              - without-inscription-about-therasius: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxviii.html
+              - without-inscription-on-behalf-of-elpidius: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxix.html
+              - to-eustathius-bishop-of-sebastia: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxx.html
+              - to-athanasius-bishop-of-alexandria-5: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxi.html
+              - to-bishop-innocent: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxii.html
+              - to-athanasius-bishop-of-alexandria-6: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxiii.html
+              - to-a-magistrate: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxiv.html
+              - to-the-president: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxv.html
+              - that-the-oath-ought-not-to-be-taken: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxvi.html
+              - to-the-governor: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxvii.html
+              - without-address-on-the-same-subject: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxviii.html
+              - without-address-on-the-subject-of-the-exaction-of-taxes: https://ccel.org/ccel/s/schaff/npnf208.ix.lxxxix.html
+              - to-meletius-bishop-of-antioch-3: https://ccel.org/ccel/s/schaff/npnf208.ix.xc.html
+              - to-the-holy-brethren-the-bishops-of-the-west: https://ccel.org/ccel/s/schaff/npnf208.ix.xci.html
+              - to-valerianus-bishop-of-illyricum: https://ccel.org/ccel/s/schaff/npnf208.ix.xcii.html
+              - to-the-italians-and-gauls: https://ccel.org/ccel/s/schaff/npnf208.ix.xciii.html
+              - to-the-patrician-c-saria-concerning-communion: https://ccel.org/ccel/s/schaff/npnf208.ix.xciv.html
+              - to-elias-governor-of-the-province: https://ccel.org/ccel/s/schaff/npnf208.ix.xcv.html
+              - to-eusebius-bishop-of-samosata-5: https://ccel.org/ccel/s/schaff/npnf208.ix.xcvi.html
+              - to-sophronius-the-master-3: https://ccel.org/ccel/s/schaff/npnf208.ix.xcvii.html
+              - to-the-senate-of-tyana: https://ccel.org/ccel/s/schaff/npnf208.ix.xcviii.html
+              - to-eusebius-bishop-of-samosata-6: https://ccel.org/ccel/s/schaff/npnf208.ix.xcix.html
+              - to-count-terentius: https://ccel.org/ccel/s/schaff/npnf208.ix.c.html
+              - to-eusebius-bishop-of-samosata-7: https://ccel.org/ccel/s/schaff/npnf208.ix.ci.html
+              - consolatory: https://ccel.org/ccel/s/schaff/npnf208.ix.cii.html
+              - to-the-citizens-of-satala: https://ccel.org/ccel/s/schaff/npnf208.ix.ciii.html
+              - to-the-people-of-satala: https://ccel.org/ccel/s/schaff/npnf208.ix.civ.html
+              - to-the-prefect-modestus: https://ccel.org/ccel/s/schaff/npnf208.ix.cv.html
+              - to-the-deaconesses-the-daughters-of-count-terentius: https://ccel.org/ccel/s/schaff/npnf208.ix.cvi.html
+              - to-a-soldier: https://ccel.org/ccel/s/schaff/npnf208.ix.cvii.html
+              - to-the-widow-julitta: https://ccel.org/ccel/s/schaff/npnf208.ix.cviii.html
+              - to-the-guardian-of-the-heirs-of-julitta: https://ccel.org/ccel/s/schaff/npnf208.ix.cix.html
+              - to-the-count-helladius: https://ccel.org/ccel/s/schaff/npnf208.ix.cx.html
+              - to-the-prefect-modestus-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cxi.html
+              - to-modestus-the-prefect: https://ccel.org/ccel/s/schaff/npnf208.ix.cxii.html
+              - to-andronicus-a-general: https://ccel.org/ccel/s/schaff/npnf208.ix.cxiii.html
+              - to-the-presbyters-of-tarsus: https://ccel.org/ccel/s/schaff/npnf208.ix.cxiv.html
+              - to-cyriacus-at-tarsus: https://ccel.org/ccel/s/schaff/npnf208.ix.cxv.html
+              - to-the-heretic-simplicia: https://ccel.org/ccel/s/schaff/npnf208.ix.cxvi.html
+              - to-firminius: https://ccel.org/ccel/s/schaff/npnf208.ix.cxvii.html
+              - without-address-5: https://ccel.org/ccel/s/schaff/npnf208.ix.cxviii.html
+              - to-jovinus-bishop-of-perrha: https://ccel.org/ccel/s/schaff/npnf208.ix.cxix.html
+              - to-eustathius-bishop-of-sebasteia: https://ccel.org/ccel/s/schaff/npnf208.ix.cxx.html
+              - to-meletius-bishop-of-antioch-4: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxi.html
+              - to-theodotus-bishop-of-nicopolis: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxii.html
+              - to-p-menius-bishop-of-satala: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxiii.html
+              - to-urbicius-the-monk: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxiv.html
+              - to-theodorus: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxv.html
+              - a-transcript-of-the-faith-as-dictated-by-saint-basil-and-sub: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxvi.html
+              - to-atarbius-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxvii.html
+              - to-eusebius-bishop-of-samosata-8: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxviii.html
+              - to-eusebius-bishop-of-samosata-9: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxix.html
+              - to-meletius-bishop-of-antioch-5: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxx.html
+              - to-theodotus-bishop-of-nicopolis-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxi.html
+              - to-olympius-4: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxii.html
+              - to-abramius-bishop-of-batn: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxiii.html
+              - to-peter-bishop-of-alexandria: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxiv.html
+              - to-the-presbyter-p-onius: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxv.html
+              - to-diodorus-presbyter-of-antioch: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxvi.html
+              - to-eusebius-bishop-of-samosata-10: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxvii.html
+              - to-antipater-on-his-assuming-the-governorship-of-cappadocia: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxviii.html
+              - to-eusebius-bishop-of-samosata-11: https://ccel.org/ccel/s/schaff/npnf208.ix.cxxxix.html
+              - to-the-alexandrians: https://ccel.org/ccel/s/schaff/npnf208.ix.cxl.html
+              - to-the-church-of-antioch: https://ccel.org/ccel/s/schaff/npnf208.ix.cxli.html
+              - to-eusebius-bishop-of-samosata-12: https://ccel.org/ccel/s/schaff/npnf208.ix.cxlii.html
+              - to-the-prefects-accountant: https://ccel.org/ccel/s/schaff/npnf208.ix.cxliii.html
+              - to-another-accountant: https://ccel.org/ccel/s/schaff/npnf208.ix.cxliv.html
+              - to-the-prefects-officer: https://ccel.org/ccel/s/schaff/npnf208.ix.cxlv.html
+              - to-eusebius-bishop-of-samosata-13: https://ccel.org/ccel/s/schaff/npnf208.ix.cxlvi.html
+              - to-antiochus: https://ccel.org/ccel/s/schaff/npnf208.ix.cxlvii.html
+              - to-aburgius-3: https://ccel.org/ccel/s/schaff/npnf208.ix.cxlviii.html
+              - to-trajan: https://ccel.org/ccel/s/schaff/npnf208.ix.cxlix.html
+              - to-trajan-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cl.html
+              - to-amphilochius-in-the-name-of-heraclidas: https://ccel.org/ccel/s/schaff/npnf208.ix.cli.html
+              - to-eustathius-the-physician: https://ccel.org/ccel/s/schaff/npnf208.ix.clii.html
+              - to-victor-the-commander: https://ccel.org/ccel/s/schaff/npnf208.ix.cliii.html
+              - to-victor-the-ex-consul: https://ccel.org/ccel/s/schaff/npnf208.ix.cliv.html
+              - to-ascholius-bishop-of-thessalonica: https://ccel.org/ccel/s/schaff/npnf208.ix.clv.html
+              - without-address-in-the-case-of-a-trainer: https://ccel.org/ccel/s/schaff/npnf208.ix.clvi.html
+              - to-the-presbyter-evagrius: https://ccel.org/ccel/s/schaff/npnf208.ix.clvii.html
+              - to-amiochus: https://ccel.org/ccel/s/schaff/npnf208.ix.clviii.html
+              - to-antiochus-2: https://ccel.org/ccel/s/schaff/npnf208.ix.clix.html
+              - to-eupaterius-and-his-daughter: https://ccel.org/ccel/s/schaff/npnf208.ix.clx.html
+              - to-diodorus: https://ccel.org/ccel/s/schaff/npnf208.ix.clxi.html
+              - to-amphilochius-on-his-consecration-as-bishop: https://ccel.org/ccel/s/schaff/npnf208.ix.clxii.html
+              - to-eusebius-bishop-of-samosata-14: https://ccel.org/ccel/s/schaff/npnf208.ix.clxiii.html
+              - to-count-jovinus: https://ccel.org/ccel/s/schaff/npnf208.ix.clxiv.html
+              - to-ascholius: https://ccel.org/ccel/s/schaff/npnf208.ix.clxv.html
+              - to-ascholius-bishop-of-thessalonica-2: https://ccel.org/ccel/s/schaff/npnf208.ix.clxvi.html
+              - to-eusebius-bishop-of-samosata-15: https://ccel.org/ccel/s/schaff/npnf208.ix.clxvii.html
+              - to-eusebius-bishop-of-samosata-16: https://ccel.org/ccel/s/schaff/npnf208.ix.clxviii.html
+              - to-antiochus-3: https://ccel.org/ccel/s/schaff/npnf208.ix.clxix.html
+              - basil-to-gregory-3: https://ccel.org/ccel/s/schaff/npnf208.ix.clxx.html
+              - to-glycerius: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxi.html
+              - to-gregory-2: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxii.html
+              - to-sophronius-the-bishop: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxiii.html
+              - to-theodora-the-canoness: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxiv.html
+              - to-a-widow-2: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxv.html
+              - to-count-magnenianus: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxvi.html
+              - to-amphilochius-bishop-of-iconium: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxvii.html
+              - to-saphronius-the-master: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxviii.html
+              - to-aburgius-4: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxix.html
+              - to-arinth-us: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxx.html
+              - to-the-master-sophronius-on-behalf-of-eunathius: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxi.html
+              - to-otreius-bishop-of-melitene: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxii.html
+              - to-the-presbyters-of-samosata: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxiii.html
+              - to-the-senate-of-samosata: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxiv.html
+              - to-eustathius-bishop-of-himmeria: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxv.html
+              - to-theodotus-bishop-of-ber-a: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxvi.html
+              - to-antipater-the-governor: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxvii.html
+              - antipater-to-basil: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxviii.html
+              - to-amphilochius-concerning-the-canons: https://ccel.org/ccel/s/schaff/npnf208.ix.clxxxix.html
+              - to-eustathius-the-physician-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cxc.html
+              - to-amphilochius-bishop-of-iconium-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cxci.html
+              - to-amphilochius-bishop-of-iconium-3: https://ccel.org/ccel/s/schaff/npnf208.ix.cxcii.html
+              - to-sophronius-the-master-4: https://ccel.org/ccel/s/schaff/npnf208.ix.cxciii.html
+              - to-meletius-the-physician: https://ccel.org/ccel/s/schaff/npnf208.ix.cxciv.html
+              - to-zoilus: https://ccel.org/ccel/s/schaff/npnf208.ix.cxcv.html
+              - to-euphronius-bishop-of-colonia-armeni: https://ccel.org/ccel/s/schaff/npnf208.ix.cxcvi.html
+              - to-aburgius-5: https://ccel.org/ccel/s/schaff/npnf208.ix.cxcvii.html
+              - to-ambrose-bishop-of-milan: https://ccel.org/ccel/s/schaff/npnf208.ix.cxcviii.html
+              - to-eusebius-bishop-of-samosata-17: https://ccel.org/ccel/s/schaff/npnf208.ix.cxcix.html
+              - to-amphilochius-concerning-the-canons-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cc.html
+              - to-amphilochius-bishop-of-iconium-4: https://ccel.org/ccel/s/schaff/npnf208.ix.cci.html
+              - to-amphilochius-bishop-of-iconium-5: https://ccel.org/ccel/s/schaff/npnf208.ix.ccii.html
+              - to-amphilochius-bishop-of-iconium-6: https://ccel.org/ccel/s/schaff/npnf208.ix.cciii.html
+              - to-the-bishops-of-the-sea-coast: https://ccel.org/ccel/s/schaff/npnf208.ix.cciv.html
+              - to-the-neoc-sareans: https://ccel.org/ccel/s/schaff/npnf208.ix.ccv.html
+              - to-elpidius-the-bishop: https://ccel.org/ccel/s/schaff/npnf208.ix.ccvi.html
+              - to-elpidius-the-bishop-consolatory: https://ccel.org/ccel/s/schaff/npnf208.ix.ccvii.html
+              - to-the-clergy-of-neoc-sarea: https://ccel.org/ccel/s/schaff/npnf208.ix.ccviii.html
+              - to-eulancius: https://ccel.org/ccel/s/schaff/npnf208.ix.ccix.html
+              - without-address-6: https://ccel.org/ccel/s/schaff/npnf208.ix.ccx.html
+              - to-the-notables-of-neoc-sarea: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxi.html
+              - to-olympius-5: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxii.html
+              - to-hilarius: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxiii.html
+              - without-address-7: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxiv.html
+              - to-count-terentius-2: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxv.html
+              - to-the-presbyter-dorotheus: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxvi.html
+              - to-meletius-bishop-of-antioch-6: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxvii.html
+              - to-amphilochius-the-canons: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxviii.html
+              - to-amphilochius-bishop-of-iconium-7: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxix.html
+              - to-the-clergy-of-samosata: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxx.html
+              - to-the-ber-ans: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxi.html
+              - to-the-ber-ans-2: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxii.html
+              - to-the-people-of-chalcis: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxiii.html
+              - against-eustathius-of-sebasteia: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxiv.html
+              - to-the-presbyter-genethlius: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxv.html
+              - to-demosthenes-as-from-the-synod-of-bishops: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxvi.html
+              - to-the-ascetics-under-him: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxvii.html
+              - consolatory-to-the-clergy-of-colonia: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxviii.html
+              - to-the-magistrates-of-colonia: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxix.html
+              - to-the-clergy-of-nicopolis: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxx.html
+              - to-the-magistrates-of-nicopolis: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxi.html
+              - to-amphilochius-bishop-of-iconium-8: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxii.html
+              - to-amphilochius-bishop-of-iconium-9: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxiii.html
+              - to-amphilochius-in-reply-to-certain-questions: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxiv.html
+              - to-the-same-in-answer-to-another-question: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxv.html
+              - to-the-same-in-answer-to-another-question-2: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxvi.html
+              - to-the-same-amphilochius: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxvii.html
+              - to-eusebius-bishop-of-samosata-18: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxviii.html
+              - to-the-presbyters-of-nicopolis: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxxxix.html
+              - to-eusebius-bishop-of-samosata-19: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxl.html
+              - to-the-presbyters-of-nicopolis-2: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxli.html
+              - to-eusebius-bishop-of-samosata-20: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxlii.html
+              - to-the-westerns: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxliii.html
+              - to-the-bishops-of-italy-and-gaul-concerning-the-condition-an: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxliv.html
+              - to-patrophilus-bishop-of-g: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxlv.html
+              - to-theophilus-the-bishop: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxlvi.html
+              - to-the-nicopolitans: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxlvii.html
+              - to-the-nicopolitans-2: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxlviii.html
+              - to-amphilochius-bishop-of-iconium-10: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxlix.html
+              - without-address-commendatory: https://ccel.org/ccel/s/schaff/npnf208.ix.ccl.html
+              - to-patrophilus-bishop-of-g-2: https://ccel.org/ccel/s/schaff/npnf208.ix.ccli.html
+              - to-the-people-of-ev-s: https://ccel.org/ccel/s/schaff/npnf208.ix.cclii.html
+              - to-the-bishops-of-the-pontic-diocese: https://ccel.org/ccel/s/schaff/npnf208.ix.ccliii.html
+              - to-the-presbyters-of-antioch: https://ccel.org/ccel/s/schaff/npnf208.ix.ccliv.html
+              - to-pelagius-bishop-of-the-syrian-laodicea: https://ccel.org/ccel/s/schaff/npnf208.ix.cclv.html
+              - to-vitus-bishop-of-charr: https://ccel.org/ccel/s/schaff/npnf208.ix.cclvi.html
+              - to-the-very-well-beloved-and-reverend-brethren-the-presbyter: https://ccel.org/ccel/s/schaff/npnf208.ix.cclvii.html
+              - to-the-monks-harassed-by-the-arians: https://ccel.org/ccel/s/schaff/npnf208.ix.cclviii.html
+              - to-epiphanius-the-bishop: https://ccel.org/ccel/s/schaff/npnf208.ix.cclix.html
+              - to-the-monks-palladius-and-innocent: https://ccel.org/ccel/s/schaff/npnf208.ix.cclx.html
+              - to-optimus-the-bishop: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxi.html
+              - to-the-sozopolitans: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxii.html
+              - to-the-monk-urbicius: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxiii.html
+              - to-the-westerns-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxiv.html
+              - to-barses-bishop-of-edessa-in-exile: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxv.html
+              - to-eulogius-alexander-and-harpocration-bishops-of-egypt-in-e: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxvi.html
+              - to-petrus-bishop-of-alexandria: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxvii.html
+              - to-barses-bishop-of-edessa-in-exile-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxviii.html
+              - to-eusebius-in-exile: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxix.html
+              - to-the-wife-of-arinth-us-the-general-consolatory: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxx.html
+              - without-address-concerning-raptus: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxi.html
+              - to-eusebius-my-comrade-to-recommend-cyriacus-the-presbyter: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxii.html
+              - to-sophronius-the-magister-officiorum: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxiii.html
+              - without-address-concerning-hera: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxiv.html
+              - to-himerius-the-master: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxv.html
+              - without-address-concerning-hera-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxvi.html
+              - to-the-great-harmatius: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxvii.html
+              - to-the-learned-maximus: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxviii.html
+              - to-valerianus: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxix.html
+              - to-modestus-the-prefect-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxx.html
+              - to-modestus-the-prefect-3: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxi.html
+              - to-modestus-the-prefect-4: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxii.html
+              - to-a-bishop: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxiii.html
+              - to-a-widow-3: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxiv.html
+              - to-the-assessor-in-the-case-of-monks: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxv.html
+              - without-address-8: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxvi.html
+              - to-the-commentariensis: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxvii.html
+              - without-address-9: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxviii.html
+              - without-address-excommunicatory: https://ccel.org/ccel/s/schaff/npnf208.ix.cclxxxix.html
+              - without-address-concerning-an-afflicted-woman: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxc.html
+              - to-nectarius-2: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxci.html
+              - to-timotheus-the-chorepiscopus: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxcii.html
+              - to-palladius: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxciii.html
+              - to-julianus: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxciv.html
+              - to-festus-and-magnus: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxcv.html
+              - to-monks: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxcvi.html
+              - to-a-widow-4: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxcvii.html
+              - to-a-widow-5: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxcviii.html
+              - without-address-10: https://ccel.org/ccel/s/schaff/npnf208.ix.ccxcix.html
+              - to-a-censitor: https://ccel.org/ccel/s/schaff/npnf208.ix.ccc.html
+              - without-address-11: https://ccel.org/ccel/s/schaff/npnf208.ix.ccci.html
+              - to-maximus: https://ccel.org/ccel/s/schaff/npnf208.ix.cccii.html
+              - to-the-wife-of-briso: https://ccel.org/ccel/s/schaff/npnf208.ix.ccciii.html
+              - to-the-comes-privatarum: https://ccel.org/ccel/s/schaff/npnf208.ix.ccciv.html
+              - to-aburgius-6: https://ccel.org/ccel/s/schaff/npnf208.ix.cccv.html
+              - without-address-12: https://ccel.org/ccel/s/schaff/npnf208.ix.cccvi.html
+              - to-the-governor-of-sebasteia: https://ccel.org/ccel/s/schaff/npnf208.ix.cccvii.html
+              - without-address-13: https://ccel.org/ccel/s/schaff/npnf208.ix.cccviii.html
+              - without-address-14: https://ccel.org/ccel/s/schaff/npnf208.ix.cccix.html
+              - without-address-15: https://ccel.org/ccel/s/schaff/npnf208.ix.cccx.html
+              - without-address-16: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxi.html
+              - without-address-17: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxii.html
+              - without-address-18: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxiii.html
+              - without-address-19: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxiv.html
+              - without-address-20: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxv.html
+              - without-address-21: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxvi.html
+              - without-address-22: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxvii.html
+              - without-address-23: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxviii.html
+              - to-thecla: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxix.html
+              - without-address-24: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxx.html
+              - to-philagrius-arcenus: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxi.html
+              - to-pasinicus-the-physician: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxii.html
+              - to-magninianus: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxiii.html
+              - without-address-25: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxiv.html
+              - without-address-26: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxv.html
+              - to-hyperectius: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxvi.html
+              - to-phalirius: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxvii.html
+              - letters-cccxxx-cccxxxi-cccxxxii-cccxxxiii: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxviii.html
+              - to-a-writer: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxix.html
+              - basil-to-libanius: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxx.html
+              - libanius-to-basilius: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxi.html
+              - basil-to-libanius-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxii.html
+              - libanius-to-basil: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxiii.html
+              - basil-to-libanius-3: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxiv.html
+              - libanius-to-basil-2: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxv.html
+              - libanius-to-basil-3: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxvi.html
+              - basil-to-libanius-4: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxvii.html
+              - libanius-to-basil-4: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxviii.html
+              - basil-to-libanius-5: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxxxix.html
+              - libanius-to-basil-5: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxl.html
+              - libanius-to-basil-6: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxli.html
+              - libanius-to-basil-7: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxlii.html
+              - basil-to-libanius-6: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxliii.html
+              - libanius-to-basil-8: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxliv.html
+              - basil-to-libanius-7: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxlv.html
+              - basil-to-libanius-8: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxlvi.html
+              - libanius-to-basil-9: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxlvii.html
+              - basil-to-libanius-9: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxlviii.html
+              - libanius-to-basil-10: https://ccel.org/ccel/s/schaff/npnf208.ix.cccxlix.html
+              - libanius-to-basil-11: https://ccel.org/ccel/s/schaff/npnf208.ix.cccl.html
+              - basil-to-libanius-10: https://ccel.org/ccel/s/schaff/npnf208.ix.cccli.html
+              - libanius-to-basil-12: https://ccel.org/ccel/s/schaff/npnf208.ix.ccclii.html
+              - libanius-to-basil-13: https://ccel.org/ccel/s/schaff/npnf208.ix.cccliii.html
+              - basil-to-libanius-11: https://ccel.org/ccel/s/schaff/npnf208.ix.cccliv.html
+              - of-the-holy-trinity-the-incarnation-the-invocation-of-saints: https://ccel.org/ccel/s/schaff/npnf208.ix.ccclv.html
+              - letters-ccclxi-ccclxv: https://ccel.org/ccel/s/schaff/npnf208.ix.ccclvi.html
+              - basil-to-urbicius-the-monk-concerning-continency: https://ccel.org/ccel/s/schaff/npnf208.ix.ccclvii.html
