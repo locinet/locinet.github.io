@@ -4,6 +4,8 @@ vermigli-lords-supper:
   la:
     title: # FILL IN
     orig_lang: true
+    editions:
+      - year: 1549
   en:
     title: "A Discourse or Traictise of Petur Martyr Uermilla Florentine, the Public Reader of Divinity in the University of Oxford Wherein He Openly Declared His Whole and Determinate Judgement Concerning the Sacrament of the Lords Supper in the Said University."
     sections:

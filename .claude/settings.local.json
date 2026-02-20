@@ -110,7 +110,14 @@
       "WebFetch(domain:schemata.earlyprint.org)",
       "WebFetch(domain:tei-c.org)",
       "WebFetch(domain:www.tei-c.org)",
-      "WebFetch(domain:api.bitbucket.org)"
+      "WebFetch(domain:api.bitbucket.org)",
+      "Bash(pip3 install:*)",
+      "Bash(find:*)",
+      "Bash(__NEW_LINE_d79b3b591839f217__ grep -n \"^[[:space:]]*- s1:\" synopsis-purioris-theologiae.yaml)",
+      "Bash(__NEW_LINE_0a213b060bb03b0a__ grep -n \"^[[:space:]]*- s3\" alting-heidelberg-loci.yaml)",
+      "Bash(npm run tag:*)",
+      "Bash(git restore:*)",
+      "Bash(git reset:*)"
     ]
   }
 }

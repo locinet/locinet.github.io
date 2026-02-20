@@ -595,6 +595,7 @@ function buildLociIndex(lociFlat, works, authors, corporateShortNames) {
         familyName: ca.label.split(/\s+/).pop(),
         givenName: ca.label.split(/\s+/)[0],
         birthYear: caMeta?.birthYear || null,
+        deathYear: caMeta?.deathYear || null,
         shortName: corporateShortNames[ca.label] || null,
       };
     } else {
@@ -636,6 +637,7 @@ function addToLociIndex(index, slug, authorMeta, work, section) {
       familyName: authorMeta.familyName || deriveFamilyName(authorMeta.name),
       givenName: authorMeta.givenName || nameParts[0],
       birthYear: authorMeta.birthYear || null,
+      deathYear: authorMeta.deathYear || null,
       shortName: authorMeta.shortName || null,
       entries: [],
     };
@@ -643,6 +645,7 @@ function addToLociIndex(index, slug, authorMeta, work, section) {
   index[slug][authorKey].entries.push({
     workId: work.id,
     workTitle: work.title,
+    workYear: work.year || null,
     sectionId: section ? section.id : null,
     sectionTitle: section ? section.title : null,
   });
@@ -802,8 +805,8 @@ module.exports = function () {
 
   // Works index: authors sorted by first published work year
   const worksIndex = [...authorPages].sort((a, b) => {
-    const aYear = a.works[0]?.year || 9999;
-    const bYear = b.works[0]?.year || 9999;
+    const aYear = a.works[0]?.year ?? a.birthYear ?? 9999;
+    const bYear = b.works[0]?.year ?? b.birthYear ?? 9999;
     return aYear - bYear;
   });
 

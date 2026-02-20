@@ -350,6 +350,7 @@ body:has(.loci-page), body:has(.author-page-layout) { max-width: 1200px; }
 }
 .author-tooltip ul { list-style: none; padding: 0; margin: 0; }
 .author-tooltip li { padding: 0.1em 0; }
+.tooltip-author-header { font-weight: bold; margin-bottom: 0.3em; }
 
 /* Tagging reference */
 .tagging-tree {

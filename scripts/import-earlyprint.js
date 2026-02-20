@@ -315,12 +315,9 @@ function findFirstPb(el, teiNs, tcpId) {
         }
         return null;
       }
-      // Recurse into child elements (but not into nested divs)
-      const childTag = child.localName || child.tagName;
-      if (childTag !== "div") {
-        const found = findFirstPb(child, teiNs, tcpId);
-        if (found) return found;
-      }
+      // Recurse into all child elements, including nested divs
+      const found = findFirstPb(child, teiNs, tcpId);
+      if (found) return found;
     }
   }
   return null;

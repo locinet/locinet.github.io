@@ -90,6 +90,7 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
       <span class="loci-authors">
         <span class="loci-authors-dash">— </span>{% for author in authorList %}<span class="loci-author-item" data-tradition="{{ author.tradition }}"><a href="/authors/{{ author.slug }}/?locus={{ node.slug }}"
              class="author-link"
+             data-author-header="{{ author.name }}{% if author.birthYear or author.deathYear %} ({{ author.birthYear }}–{{ author.deathYear }}){% endif %}"
              data-entries="{{ author.entries | dump | escape }}">{{ author.displayName }}</a></span>{% endfor %}
       </span>
     {% endif %}
@@ -152,10 +153,27 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
       link.addEventListener('mouseenter', function(e) {
         try {
           const entries = JSON.parse(this.dataset.entries);
-          let html = '<ul>';
+          const authorHeader = this.dataset.authorHeader || '';
+          // Group entries by work
+          const works = [];
+          const workIndex = {};
           for (const entry of entries) {
-            html += '<li>' + escapeHtml(entry.workTitle);
-            if (entry.sectionTitle) html += ' — ' + escapeHtml(entry.sectionTitle);
+            if (!workIndex[entry.workId]) {
+              const w = { title: entry.workTitle, year: entry.workYear, sections: [] };
+              workIndex[entry.workId] = w;
+              works.push(w);
+            }
+            if (entry.sectionTitle) workIndex[entry.workId].sections.push(entry.sectionTitle);
+          }
+          let html = '<div class="tooltip-author-header">' + escapeHtml(authorHeader) + '</div><ul>';
+          for (const w of works) {
+            const yearStr = w.year ? ' (' + w.year + ')' : '';
+            html += '<li>' + escapeHtml(w.title + yearStr);
+            if (w.sections.length > 0) {
+              html += '<ul>';
+              for (const s of w.sections) html += '<li>' + escapeHtml(s) + '</li>';
+              html += '</ul>';
+            }
             html += '</li>';
           }
           html += '</ul>';
