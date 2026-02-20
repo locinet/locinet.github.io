@@ -3,6 +3,9 @@
 (function () {
   "use strict";
 
+  // --- Section tree initialization (must run before any filtering) ---
+  initSectionTrees();
+
   // --- Loci filtering ---
 
   const filterInput = document.getElementById("loci-filter");
@@ -1055,8 +1058,6 @@
     var anyTreeHidden = work.querySelector('.section-item.tree-hidden') !== null;
     link.textContent = anyTreeHidden ? 'Expand all' : 'Collapse all';
   }
-
-  initSectionTrees();
 
   // --- Sections collapse/expand toggle ---
 

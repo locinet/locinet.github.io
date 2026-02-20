@@ -91,7 +91,7 @@ eleventyComputed:
   {% set allLociJson %}{{ work.allLoci | dump | safe }}{% endset %}
   {% set hasText = (work.sectionTexts and (work.sectionTexts | length > 0)) or work.workText %}
   {% set editionInfo %}{% for ed in work.origEditions %}{% if ed.place %}{{ ed.place }}, {% endif %}{% if ed.year %}{{ ed.year }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}{% endset %}
-  {% set translationInfo %}{% for t in work.translations %}Translated by {{ t.translator }}{% if t.year %} ({{ t.year }}){% endif %}{% if t.AI %} [AI]{% endif %}{% if not loop.last %}. {% endif %}{% endfor %}{% endset %}
+  {% set translationInfo %}{% for t in work.translations %}{% if t.translator == "Unknown" %}Unknown translator{% else %}Translated by {{ t.translator }}{% endif %}{% if t.year %} ({{ t.year }}){% endif %}{% if t.AI %} [AI]{% endif %}{% if not loop.last %}. {% endif %}{% endfor %}{% endset %}
   {% set authorDates %}{% if authorPage.birthYear %}{{ authorPage.birthYear }}{% endif %}{% if authorPage.deathYear %}–{{ authorPage.deathYear }}{% endif %}{% endset %}
   <div class="work" id="{{ work.id }}" data-loci="{{ allLociJson }}"
        {% if hasText %}data-has-text="1" data-work-title="{{ work.title }}" data-work-orig-title="{{ work.origTitle }}" data-work-author="{{ authorPage.name }}" data-author-orig-name="{{ authorPage.origLangName }}" data-author-dates="{{ authorDates | trim }}" data-author-image="{{ authorPage.imageUrl }}" data-edition-info="{{ editionInfo | trim }}" data-translation-info="{{ translationInfo | trim }}"{% endif %}>
@@ -146,23 +146,27 @@ eleventyComputed:
       {% if work.translations.length > 0 %}
         <p class="translations-summary{% if work.flatSections.length > 0 %} sections-toggle{% elif work.workText %} work-text-toggle{% endif %}">
           {%- for t in work.translations %}
+            {%- if t.translator == "Unknown" %}
+            Full text in English
+            {%- else %}
             Full text in English translated by {% if t.AI %}AI with thanks to {% endif %}{% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}
             {%- if t.translatorInfo and t.translatorInfo.support %} (<a href="{{ t.translatorInfo.support }}">support</a>){% endif %}
             {%- if t.translatorInfo and t.translatorInfo.paypal %} (<a href="https://www.paypal.com/us/home">PayPal</a> {{ t.translatorInfo.paypal }}){% endif %}
-            {%- if t.year %} ({{ t.year }}){% endif -%}
+            {%- if t.year %} ({{ t.year }}){% endif %}
+            {%- endif -%}
             :
             {%- set hasSiteLink = false -%}
             {%- for s in t.sites %}
               {%- if (s.sectionTexts | length > 0) or s.workText %}
                 {# Local/text site — skip site name, show download links below #}
               {%- elif s.url %}
-                {%- if hasSiteLink %}, {% endif -%}
+                {%- if hasSiteLink %}, {% else %} {% endif -%}
                 <a href="{{ s.url }}">{{ s.siteName }}</a>
                 {%- if s.pdfUrl %} (<a href="{{ s.pdfUrl }}">PDF</a>){% endif -%}
                 {%- if s.epubUrl %} (<a href="{{ s.epubUrl }}">EPUB</a>){% endif -%}
                 {%- set hasSiteLink = true -%}
               {%- elif s.volumes %}
-                {%- if hasSiteLink %}, {% endif -%}
+                {%- if hasSiteLink %}, {% else %} {% endif -%}
                 {{ s.siteName }}
                 {%- for volNum, volUrl in s.volumes %}
                   <a href="{{ volUrl }}">Vol. {{ volNum }}</a>
@@ -170,7 +174,7 @@ eleventyComputed:
                 {%- endfor %}
                 {%- set hasSiteLink = true -%}
               {%- else %}
-                {%- if hasSiteLink %}, {% endif -%}
+                {%- if hasSiteLink %}, {% else %} {% endif -%}
                 {{ s.siteName }}
                 {%- set hasSiteLink = true -%}
               {%- endif -%}

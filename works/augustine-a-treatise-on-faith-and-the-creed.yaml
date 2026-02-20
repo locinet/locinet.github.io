@@ -1,0 +1,51 @@
+augustine-a-treatise-on-faith-and-the-creed:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: A Treatise on Faith and the Creed.
+    sections:
+      - introductory-notice: Introductory Notice.
+        # loci:
+      - of-the-origin-and-object-of-the-composition: Of the Origin and Object of the Composition.
+        # loci:
+      - of-god-and-his-exclusive-eternity: Of God and His Exclusive Eternity.
+        # loci:
+      - of-the-son-of-god-and-his-peculiar-designation-as-the-word: "Of the Son of God, and His Peculiar Designation as the Word."
+        # loci:
+      - of-the-son-of-god-as-neither-made-by-the-father-nor-less-tha: "Of the Son of God as Neither Made by the Father Nor Less Than the Father, and of His Incarnation."
+        # loci:
+      - of-christ-s-passion-burial-and-resurrection: "Of Christ’s Passion, Burial, and Resurrection."
+        # loci:
+      - of-christ-s-ascension-into-heaven: Of Christ’s Ascension into Heaven.
+        # loci:
+      - of-christ-s-session-at-the-father-s-right-hand: Of Christ’s Session at the Father’s Right Hand.
+        # loci:
+      - of-christ-s-coming-to-judgment: Of Christ’s Coming to Judgment.
+        # loci:
+      - of-the-holy-spirit-and-the-mystery-of-the-trinity: Of the Holy Spirit and the Mystery of the Trinity.
+        # loci:
+      - of-the-catholic-church-the-remission-of-sins-and-the-resurre: "Of the Catholic Church, the Remission of Sins, and the Resurrection of the Flesh."
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introductory-notice: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.i.html
+              - of-the-origin-and-object-of-the-composition: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.ii.html
+              - of-god-and-his-exclusive-eternity: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.iii.html
+              - of-the-son-of-god-and-his-peculiar-designation-as-the-word: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.iv.html
+              - of-the-son-of-god-as-neither-made-by-the-father-nor-less-tha: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.v.html
+              - of-christ-s-passion-burial-and-resurrection: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.vi.html
+              - of-christ-s-ascension-into-heaven: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.vii.html
+              - of-christ-s-session-at-the-father-s-right-hand: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.viii.html
+              - of-christ-s-coming-to-judgment: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.ix.html
+              - of-the-holy-spirit-and-the-mystery-of-the-trinity: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.x.html
+              - of-the-catholic-church-the-remission-of-sins-and-the-resurre: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.xi.html

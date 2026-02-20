@@ -493,7 +493,7 @@ function buildAuthorPages(works, authors, traditionAuthors, lociTree, lociFlat) 
       const labels = meta.labels || {};
       for (const lang of origLangCodes) {
         if (lang === "en") continue;
-        if (labels[lang]) {
+        if (labels[lang] && labels[lang] !== meta.name) {
           authorLabels.push({ lang, label: labels[lang] });
         }
       }

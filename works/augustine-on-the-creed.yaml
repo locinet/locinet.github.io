@@ -1,0 +1,69 @@
+augustine-on-the-creed:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On the Creed.
+    sections:
+      - section-1: Section 1
+        # loci:
+      - section-2: Section 2
+        # loci:
+      - section-3: Section 3
+        # loci:
+      - section-4: Section 4
+        # loci:
+      - section-5: Section 5
+        # loci:
+      - section-6: Section 6
+        # loci:
+      - section-7: Section 7
+        # loci:
+      - section-8: Section 8
+        # loci:
+      - section-9: Section 9
+        # loci:
+      - section-10: Section 10
+        # loci:
+      - section-11: Section 11
+        # loci:
+      - section-12: Section 12
+        # loci:
+      - section-13: Section 13
+        # loci:
+      - section-14: Section 14
+        # loci:
+      - section-15: Section 15
+        # loci:
+      - section-16: Section 16
+        # loci:
+      - section-17: Section 17
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - section-1: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.i.html
+              - section-2: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.ii.html
+              - section-3: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.iii.html
+              - section-4: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.iv.html
+              - section-5: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.v.html
+              - section-6: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.vi.html
+              - section-7: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.vii.html
+              - section-8: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.viii.html
+              - section-9: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.ix.html
+              - section-10: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.x.html
+              - section-11: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.xi.html
+              - section-12: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.xii.html
+              - section-13: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.xiii.html
+              - section-14: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.xiv.html
+              - section-15: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.xv.html
+              - section-16: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.xvi.html
+              - section-17: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.xvii.html

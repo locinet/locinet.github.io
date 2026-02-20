@@ -1,0 +1,108 @@
+augustine-on-the-good-of-widowhood:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On the Good of Widowhood.
+    sections:
+      - translator-s-preface: Translator’s Preface.
+        # loci:
+      - section-1: Section 1
+        # loci:
+      - section-2: Section 2
+        # loci:
+      - section-3: Section 3
+        # loci:
+      - section-4: Section 4
+        # loci:
+      - section-5: Section 5
+        # loci:
+      - section-6: Section 6
+        # loci:
+      - section-7: Section 7
+        # loci:
+      - section-8: Section 8
+        # loci:
+      - section-9: Section 9
+        # loci:
+      - section-10: Section 10
+        # loci:
+      - section-11: Section 11
+        # loci:
+      - section-12: Section 12
+        # loci:
+      - section-13: Section 13
+        # loci:
+      - section-14: Section 14
+        # loci:
+      - section-15: Section 15
+        # loci:
+      - section-16: Section 16
+        # loci:
+      - section-17: Section 17
+        # loci:
+      - section-18: Section 18
+        # loci:
+      - section-19: Section 19
+        # loci:
+      - section-20: Section 20
+        # loci:
+      - section-21: Section 21
+        # loci:
+      - section-22: Section 22
+        # loci:
+      - section-23: Section 23
+        # loci:
+      - section-24: Section 24
+        # loci:
+      - section-25: Section 25
+        # loci:
+      - section-26: Section 26
+        # loci:
+      - section-27: Section 27
+        # loci:
+      - section-28: Section 28
+        # loci:
+      - section-29: Section 29
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - translator-s-preface: https://ccel.org/ccel/s/schaff/npnf103.v.iv.i.html
+              - section-1: https://ccel.org/ccel/s/schaff/npnf103.v.iv.ii.html
+              - section-2: https://ccel.org/ccel/s/schaff/npnf103.v.iv.iii.html
+              - section-3: https://ccel.org/ccel/s/schaff/npnf103.v.iv.iv.html
+              - section-4: https://ccel.org/ccel/s/schaff/npnf103.v.iv.v.html
+              - section-5: https://ccel.org/ccel/s/schaff/npnf103.v.iv.vi.html
+              - section-6: https://ccel.org/ccel/s/schaff/npnf103.v.iv.vii.html
+              - section-7: https://ccel.org/ccel/s/schaff/npnf103.v.iv.viii.html
+              - section-8: https://ccel.org/ccel/s/schaff/npnf103.v.iv.ix.html
+              - section-9: https://ccel.org/ccel/s/schaff/npnf103.v.iv.x.html
+              - section-10: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xi.html
+              - section-11: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xii.html
+              - section-12: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xiii.html
+              - section-13: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xiv.html
+              - section-14: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xv.html
+              - section-15: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xvi.html
+              - section-16: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xvii.html
+              - section-17: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xviii.html
+              - section-18: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xix.html
+              - section-19: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xx.html
+              - section-20: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxi.html
+              - section-21: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxii.html
+              - section-22: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxiii.html
+              - section-23: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxiv.html
+              - section-24: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxv.html
+              - section-25: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxvi.html
+              - section-26: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxvii.html
+              - section-27: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxviii.html
+              - section-28: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxix.html
+              - section-29: https://ccel.org/ccel/s/schaff/npnf103.v.iv.xxx.html

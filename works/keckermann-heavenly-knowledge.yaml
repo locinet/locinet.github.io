@@ -1,0 +1,32 @@
+keckermann-heavenly-knowledge:
+  author: Q67136
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: A Manuduction to Theologie. Written in Latin by Barthol. Keckerm. Done Into English by T. V. Mr. of Arts. Pro. 14.6. Knowledge is Easy to Him That Will Understand. Ecclus. 6.35. Be Willing to Hear Every Godly Discourse. Printed by Aug. Math.
+    sections:
+      - a-godly-and-devout-treatise-teaching-with-what-due-preparati: "A Godly and Devout Treatise, Teaching With What Due Preparation We Ought to Come to the Holy Communion, Which is Indeed an Abridgement of the Systeme of Divinity, and May Serve for a Catechism of Christianity."
+        # loci:
+        sections:
+          - the-second-part-of-this-celestial-science-which-is-touching-: "The Second Part of This Celestial Science, Which is Touching the Freeing of Man From His Misery, That Is, From Sin, and the Punishment of Sin."
+            # loci:
+      - to-the-right-honourable-and-religious-lady-the-countess-of-d: "To the Right Honourable and Religious Lady, the Countess of Devonshire, Health and Peace in Christ Jesus."
+        # loci:
+      - a-brief-direction-how-to-examine-ourselves-before-we-go-to-t: "A Brief Direction, How to Examine Ourselves Before We Go to the Lords Table, How to Behave Ourselves There, and How to Try Ourselves Afterwards."
+        # loci:
+    translations:
+      - year: 1622
+        estc: S103956
+        earlyprint: A04766
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A04766.xml
+            pdf_url: https://texts.earlyprint.org/downloads/A04/A04766_standard.pdf
+            epub_url: https://texts.earlyprint.org/downloads/A04/A04766_standard.epub
+            section_urls:
+              - a-godly-and-devout-treatise-teaching-with-what-due-preparati: https://texts.earlyprint.org/works/A04766.xml?page=017-b
+              - the-second-part-of-this-celestial-science-which-is-touching-: https://texts.earlyprint.org/works/A04766.xml?page=037-b
+              - to-the-right-honourable-and-religious-lady-the-countess-of-d: https://texts.earlyprint.org/works/A04766.xml?page=103-a
+              - a-brief-direction-how-to-examine-ourselves-before-we-go-to-t: https://texts.earlyprint.org/works/A04766.xml?page=104-b

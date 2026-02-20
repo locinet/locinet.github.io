@@ -1,0 +1,102 @@
+augustine-on-the-catechising-of-the-uninstructed:
+  author: Q8018
+  date_added: 2026-02-20
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On the Catechising of the Uninstructed.
+    sections:
+      - introductory-notice: Introductory Notice.
+        # loci:
+      - how-augustin-writes-in-answer-to-a-favor-asked-by-a-deacon-o: How Augustin Writes in Answer to a Favor Asked by a Deacon of Carthage.
+        # loci:
+      - how-it-often-happens-that-a-discourse-which-gives-pleasure-t: How It Often Happens that a Discourse Which Gives Pleasure to the Hearer is Distasteful to the Speaker; And What Explanation is to Be Offered of that Fact.
+        # loci:
+      - of-the-full-narration-to-be-employed-in-catechising: Of the Full Narration to Be Employed in Catechising.
+        # loci:
+      - that-the-great-reason-for-the-advent-of-christ-was-the-comme: That the Great Reason for the Advent of Christ Was the Commendation of Love.
+        # loci:
+      - that-the-person-who-comes-for-catechetical-instruction-is-to: "That the Person Who Comes for Catechetical Instruction is to Be Examined with Respect to His Views, on Desiring to Become a Christian."
+        # loci:
+      - of-the-way-to-commence-the-catechetical-instruction-and-of-t: "Of the Way to Commence the Catechetical Instruction, and of the Narration of Facts from the History of the World’s Creation on to the Present Times of the Church."
+        # loci:
+      - of-the-exposition-of-the-resurrection-the-judgment-and-other: "Of the Exposition of the Resurrection, the Judgment, and Other Subjects, Which Should Follow This Narration."
+        # loci:
+      - of-the-method-to-be-pursued-in-catechising-those-who-have-ha: Of the Method to Be Pursued in Catechising Those Who Have Had a Liberal Education.
+        # loci:
+      - of-the-method-in-which-grammarians-and-professional-speakers: Of the Method in Which Grammarians and Professional Speakers are to Be Dealt with.
+        # loci:
+      - of-the-attainment-of-cheerfulness-in-the-duty-of-catechising: "Of the Attainment of Cheerfulness in the Duty of Catechising, and of Various Causes Producing Weariness in the Catechumen."
+        # loci:
+      - of-the-remedy-for-the-second-source-of-weariness: Of the Remedy for the Second Source of Weariness.
+        # loci:
+      - of-the-remedy-for-the-third-source-of-weariness: Of the Remedy for the Third Source of Weariness.
+        # loci:
+      - of-the-remedy-for-the-fourth-source-of-weariness: Of the Remedy for the Fourth Source of Weariness.
+        # loci:
+      - of-the-remedy-against-the-fifth-and-sixth-sources-of-wearine: Of the Remedy Against the Fifth and Sixth Sources of Weariness.
+        # loci:
+      - of-the-method-in-which-our-address-should-be-adapted-to-diff: Of the Method in Which Our Address Should Be Adapted to Different Classes of Hearers.
+        # loci:
+      - a-specimen-of-a-catechetical-address-and-first-the-case-of-a: "A Specimen of a Catechetical Address; And First, the Case of a Catechumen with Worthy Views."
+        # loci:
+      - the-specimen-of-catechetical-discourse-continued-in-referenc: "The Specimen of Catechetical Discourse Continued, in Reference Specially to the Reproval of False Aims on the Catechumen’s Part."
+        # loci:
+      - of-what-is-to-be-believed-on-the-subject-of-the-creation-of-: Of What is to Be Believed on the Subject of the Creation of Man and Other Objects.
+        # loci:
+      - of-the-co-existence-of-good-and-evil-in-the-church-and-their: "Of the Co-Existence of Good and Evil in the Church, and Their Final Separation."
+        # loci:
+      - of-israel-s-bondage-in-egypt-their-deliverance-and-their-pas: "Of Israel’s Bondage in Egypt, Their Deliverance, and Their Passage Through the Red Sea."
+        # loci:
+      - of-the-babylonish-captivity-and-the-things-signified-thereby: "Of the Babylonish Captivity, and the Things Signified Thereby."
+        # loci:
+      - of-the-six-ages-of-the-world: Of the Six Ages of the World.
+        # loci:
+      - of-the-mission-of-the-holy-ghost-fifty-days-after-christ-s-r: Of the Mission of the Holy Ghost Fifty Days After Christ’s Resurrection.
+        # loci:
+      - of-the-church-in-its-likeness-to-a-vine-sprouting-and-suffer: Of the Church in Its Likeness to a Vine Sprouting and Suffering Pruning.
+        # loci:
+      - of-constancy-in-the-faith-of-the-resurrection: Of Constancy in the Faith of the Resurrection.
+        # loci:
+      - of-the-formal-admission-of-the-catechumen-and-of-the-signs-t: "Of the Formal Admission of the Catechumen, and of the Signs Therein Made Use of."
+        # loci:
+      - of-the-prophecies-of-the-old-testament-in-their-visible-fulf: Of the Prophecies of the Old Testament in Their Visible Fulfillment in the Church.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff
+            section_urls:
+              - introductory-notice: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.i.html
+              - how-augustin-writes-in-answer-to-a-favor-asked-by-a-deacon-o: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.ii.html
+              - how-it-often-happens-that-a-discourse-which-gives-pleasure-t: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.iii.html
+              - of-the-full-narration-to-be-employed-in-catechising: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.iv.html
+              - that-the-great-reason-for-the-advent-of-christ-was-the-comme: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.v.html
+              - that-the-person-who-comes-for-catechetical-instruction-is-to: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.vi.html
+              - of-the-way-to-commence-the-catechetical-instruction-and-of-t: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.vii.html
+              - of-the-exposition-of-the-resurrection-the-judgment-and-other: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.viii.html
+              - of-the-method-to-be-pursued-in-catechising-those-who-have-ha: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.ix.html
+              - of-the-method-in-which-grammarians-and-professional-speakers: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.x.html
+              - of-the-attainment-of-cheerfulness-in-the-duty-of-catechising: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xi.html
+              - of-the-remedy-for-the-second-source-of-weariness: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xii.html
+              - of-the-remedy-for-the-third-source-of-weariness: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xiii.html
+              - of-the-remedy-for-the-fourth-source-of-weariness: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xiv.html
+              - of-the-remedy-against-the-fifth-and-sixth-sources-of-wearine: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xv.html
+              - of-the-method-in-which-our-address-should-be-adapted-to-diff: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xvi.html
+              - a-specimen-of-a-catechetical-address-and-first-the-case-of-a: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xvii.html
+              - the-specimen-of-catechetical-discourse-continued-in-referenc: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xviii.html
+              - of-what-is-to-be-believed-on-the-subject-of-the-creation-of-: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xix.html
+              - of-the-co-existence-of-good-and-evil-in-the-church-and-their: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xx.html
+              - of-israel-s-bondage-in-egypt-their-deliverance-and-their-pas: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xxi.html
+              - of-the-babylonish-captivity-and-the-things-signified-thereby: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xxii.html
+              - of-the-six-ages-of-the-world: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xxiii.html
+              - of-the-mission-of-the-holy-ghost-fifty-days-after-christ-s-r: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xxiv.html
+              - of-the-church-in-its-likeness-to-a-vine-sprouting-and-suffer: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xxv.html
+              - of-constancy-in-the-faith-of-the-resurrection: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xxvi.html
+              - of-the-formal-admission-of-the-catechumen-and-of-the-signs-t: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xxvii.html
+              - of-the-prophecies-of-the-old-testament-in-their-visible-fulf: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.xxviii.html

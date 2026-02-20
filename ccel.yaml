@@ -14,9 +14,9 @@
 #   author: Q507025
 #   id: hodge-st
 #   category: systematic
-- url: https://ccel.org/ccel/s/schaff/npnf204.xml
-  author: Q44024
-  id: athanasius
-  work_level: 1
+- url: https://ccel.org/ccel/s/schaff/npnf103.xml
+  author: Q8018
+  id: augustine
+  work_level: 2
   orig_lang: la
   lang: en
