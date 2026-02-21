@@ -11,19 +11,94 @@ wendelin-christian-theology:
   en:
     title: Two Books of Christian Theology
     sections:
+      - def-object-eff: "Definition, Object, End, and Principal Efficient of Theology"
+        loci: nature-of-theology
+      - causes-subject-scripture: "The Causes and Subject of Sacred Scripture"
+        loci: scripture
+      - nature-of-god: "The Nature of God"
+        loci: being-of-god
+      - primary-attrs: "Primary Attributes of God"
+        loci: attributes-of-god
+        sections:
+          - primary-attrs-p1: "Part 1"
+          - primary-attrs-p2: "Part 2"
+      - trinity: "Doctrine of the Trinity"
+        loci: trinity
+        sections:
+          - trinity-p1: "Part 1"
+          - trinity-p2: "Part 2"
+      - creation: "Doctrine of Creation"
+        loci: creation
+      - creation-angels: "Doctrine of the Creation of Angels"
+        loci: nature-of-angels
+      - providence: "Doctrine of Providence"
+        loci: providence
+        sections:
+          - providence-p1: "Part 1"
+          - providence-p2: "Part 2"
+          - providence-p3: "Part 3"
+      - predestination: "Doctrine of Predestination"
+        loci: predestination
+      - election: "Doctrine of Election"
+        loci: election
+        sections:
+          - election-p1: "Part 1"
+          - election-p2: "Part 2"
+      - reprobation: "Doctrine of Reprobation"
+        loci: reprobation
+      - creation-men: "Doctrine of the Creation of Men"
+        loci: nature-of-man
+      - original-sin: "Doctrine of Original Sin"
+        loci: original-sin
+        sections:
+          - original-sin-p1: "Part 1"
+          - original-sin-p2: "Part 2"
+      - effects-personal-union: "Doctrine of the Effects of the Personal Union"
+        loci: person-of-christ
+        sections:
+          - effects-personal-union-p1: "Part 1"
+          - effects-personal-union-p2: "Part 2"
       - b1c25: "Book 1, Chapter 25: On Christ's Imputed Righteousness"
         loci: justification
       - b1c26: "Book 1, Chapter 26: On Sanctification"
         loci: sanctification
     translations:
       - translator: Michael Lynch
+        partial: true
         sites:
           - site: Translationes Lyncei
             section_urls:
               - b1c25: https://michaellynch.substack.com/p/marcus-friedrich-wendelin-on-christs
       - AI: true
+        partial: true
         sites:
           - site: CRT
             url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - b1c26: https://confessionallyreformed.wordpress.com/2026/01/14/markus-friedrich-wendelin-c-1584-1652-on-sanctification/
+      - translator: Steven Dilday
+        partial: true
+        sites:
+          - site: From Reformation to Reformation
+            section_urls:
+              - def-object-eff: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-definition-object-end-and-principal-efficient-of-theology
+              - causes-subject-scripture: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-the-causes-and-subject-of-sacred-scripture
+              - nature-of-god: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-the-nature-of-god
+              - primary-attrs-p1: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-primary-attributes-of-god-part-1
+              - primary-attrs-p2: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-primary-attributes-of-god-part-2
+              - trinity-p1: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-the-trinity-part-1
+              - trinity-p2: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-the-trinity-part-2
+              - creation: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-creation
+              - creation-angels: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-the-creation-of-angels
+              - providence-p1: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-providence-part-1
+              - providence-p2: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-providence-part-2
+              - providence-p3: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-providence-part-3
+              - predestination: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-predestination
+              - election-p1: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-election-part-1
+              - election-p2: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-election-part-2
+              - reprobation: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-reprobation
+              - creation-men: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-the-creation-of-men
+              - original-sin-p1: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-original-sin-part-1
+              - original-sin-p2: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-original-sin-part-2
+              - effects-personal-union-p1: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-the-effects-of-the-personal-union-part-1
+              - effects-personal-union-p2: https://www.fromreformationtoreformation.com/post/wendelin-s-christian-theology-doctrine-of-the-effects-of-the-personal-union-part-2

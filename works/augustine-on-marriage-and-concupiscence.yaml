@@ -1,7 +1,7 @@
 augustine-on-marriage-and-concupiscence:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [marriage, concupiscence, original-sin]
   la:
     title: # FILL IN
     orig_lang: true
@@ -34,7 +34,7 @@ augustine-on-marriage-and-concupiscence:
           - the-censuring-of-lust-is-not-a-condemnation-of-marriage-when: "The Censuring of Lust is Not a Condemnation of Marriage; Whence Comes Shame in the Human Body. Adam and Eve Were Not Created Blind; Meaning of Their 'Eyes Being Opened.'"
             # loci:
           - man-s-disobedience-justly-requited-in-the-rebellion-of-his-o: Man’s Disobedience Justly Requited in the Rebellion of His Own Flesh; The Blush of Shame for the Disobedient Members of the Body.
-            # loci:
+            loci: fall-of-man
           - the-evil-of-lust-does-not-take-away-the-good-of-marriage: The Evil of Lust Does Not Take Away the Good of Marriage.
             # loci:
           - this-disease-of-concupiscence-in-marriage-is-not-to-be-a-mat: "This Disease of Concupiscence in Marriage is Not to Be a Matter of Will, But of Necessity; What Ought to Be the Will of Believers in the Use of Matrimony; Who is to Be Regarded as Using, and Not Succumbing To, the Evil of Concupiscence; How the Holy Fathers of the Old Testament Formerly Used Wives."
@@ -74,7 +74,7 @@ augustine-on-marriage-and-concupiscence:
           - whatever-is-born-through-concupiscence-is-not-undeservedly-i: Whatever is Born Through Concupiscence is Not Undeservedly in Subjection to the Devil by Reason of Sin; The Devil Deserves Heavier Punishment Than Men.
             # loci:
           - through-lust-original-sin-is-transmitted-venial-sins-in-marr: "Through Lust Original Sin is Transmitted; Venial Sins in Married Persons; Concupiscence of the Flesh, the Daughter and Mother of Sin."
-            # loci:
+            loci: transmission-of-sin
           - concupiscence-remains-after-baptism-just-as-languor-does-aft: "Concupiscence Remains After Baptism, Just as Languor Does After Recovery from Disease; Concupiscence is Diminished in Persons of Advancing Years, and Increased in the Incontinent."
             # loci:
           - how-concupiscence-remains-in-the-baptized-in-act-when-it-has: "How Concupiscence Remains in the Baptized in Act, When It Has Passed Away as to Its Guilt."
@@ -96,7 +96,7 @@ augustine-on-marriage-and-concupiscence:
           - the-law-of-sin-with-its-guilt-in-unbaptized-infants-by-adam-: "The Law of Sin with Its Guilt in Unbaptized Infants. By Adam’s Sin the Human Race Has Become a 'Wild Olive Tree.'"
             # loci:
           - to-baptism-must-be-referred-all-remission-of-sins-and-the-co: "To Baptism Must Be Referred All Remission of Sins, and the Complete Healing of the Resurrection. Daily Cleansing."
-            # loci:
+            loci: baptism
           - by-the-holiness-of-baptism-not-sins-only-but-all-evils-whats: "By the Holiness of Baptism, Not Sins Only, But All Evils Whatsoever, Have to Be Removed. The Church is Not Yet Free from All Stain."
             # loci:
           - refutation-of-the-pelagians-by-the-authority-of-st-ambrose-w: "Refutation of the Pelagians by the Authority of St. Ambrose, Whom They Quote to Show that the Desire of the Flesh is a Natural Good."
@@ -230,7 +230,9 @@ augustine-on-marriage-and-concupiscence:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.xvi.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xvi.i.html
               - retractations: https://ccel.org/ccel/s/schaff/npnf105.xvi.ii.html

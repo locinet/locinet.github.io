@@ -1406,7 +1406,9 @@ aquinas-city-of-god:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf102.iv.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf102/cache/npnf102.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf102/cache/npnf102.epub
             section_urls:
               - translator-s-preface: https://ccel.org/ccel/s/schaff/npnf102.iv.i.html
               - augustin-censures-the-pagans-who-attributed-the-calamities-o: https://ccel.org/ccel/s/schaff/npnf102.iv.ii.html

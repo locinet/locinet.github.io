@@ -26,6 +26,8 @@ luther-bondage:
         sites:
           - site: CCEL
             url: https://ccel.org/ccel/l/luther/bondage
+            pdf_url: https://ccel.org/ccel/l/luther/bondage/cache/bondage.pdf
+            epub_url: https://ccel.org/ccel/l/luther/bondage/cache/bondage.epub
             section_urls:
               - introduction: https://ccel.org/ccel/l/luther/bondage.v.html
               - erasmus-preface-reviewed: https://ccel.org/ccel/l/luther/bondage.vi.html

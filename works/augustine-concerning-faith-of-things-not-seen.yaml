@@ -1,7 +1,7 @@
 augustine-concerning-faith-of-things-not-seen:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: faith
   la:
     title: # FILL IN
     orig_lang: true
@@ -36,7 +36,9 @@ augustine-concerning-faith-of-things-not-seen:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf103.iv.v.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - section-1: https://ccel.org/ccel/s/schaff/npnf103.iv.v.i.html
               - section-2: https://ccel.org/ccel/s/schaff/npnf103.iv.v.ii.html

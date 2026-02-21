@@ -25,7 +25,7 @@ augustine-on-the-catechising-of-the-uninstructed:
       - of-the-way-to-commence-the-catechetical-instruction-and-of-t: "Of the Way to Commence the Catechetical Instruction, and of the Narration of Facts from the History of the World’s Creation on to the Present Times of the Church."
         # loci:
       - of-the-exposition-of-the-resurrection-the-judgment-and-other: "Of the Exposition of the Resurrection, the Judgment, and Other Subjects, Which Should Follow This Narration."
-        # loci:
+        loci: resurrection-of-the-dead
       - of-the-method-to-be-pursued-in-catechising-those-who-have-ha: Of the Method to Be Pursued in Catechising Those Who Have Had a Liberal Education.
         # loci:
       - of-the-method-in-which-grammarians-and-professional-speakers: Of the Method in Which Grammarians and Professional Speakers are to Be Dealt with.
@@ -47,7 +47,7 @@ augustine-on-the-catechising-of-the-uninstructed:
       - the-specimen-of-catechetical-discourse-continued-in-referenc: "The Specimen of Catechetical Discourse Continued, in Reference Specially to the Reproval of False Aims on the Catechumen’s Part."
         # loci:
       - of-what-is-to-be-believed-on-the-subject-of-the-creation-of-: Of What is to Be Believed on the Subject of the Creation of Man and Other Objects.
-        # loci:
+        loci: creation
       - of-the-co-existence-of-good-and-evil-in-the-church-and-their: "Of the Co-Existence of Good and Evil in the Church, and Their Final Separation."
         # loci:
       - of-israel-s-bondage-in-egypt-their-deliverance-and-their-pas: "Of Israel’s Bondage in Egypt, Their Deliverance, and Their Passage Through the Red Sea."
@@ -57,11 +57,11 @@ augustine-on-the-catechising-of-the-uninstructed:
       - of-the-six-ages-of-the-world: Of the Six Ages of the World.
         # loci:
       - of-the-mission-of-the-holy-ghost-fifty-days-after-christ-s-r: Of the Mission of the Holy Ghost Fifty Days After Christ’s Resurrection.
-        # loci:
+        loci: trinity
       - of-the-church-in-its-likeness-to-a-vine-sprouting-and-suffer: Of the Church in Its Likeness to a Vine Sprouting and Suffering Pruning.
         # loci:
       - of-constancy-in-the-faith-of-the-resurrection: Of Constancy in the Faith of the Resurrection.
-        # loci:
+        loci: resurrection-of-the-dead
       - of-the-formal-admission-of-the-catechumen-and-of-the-signs-t: "Of the Formal Admission of the Catechumen, and of the Signs Therein Made Use of."
         # loci:
       - of-the-prophecies-of-the-old-testament-in-their-visible-fulf: Of the Prophecies of the Old Testament in Their Visible Fulfillment in the Church.
@@ -70,7 +70,9 @@ augustine-on-the-catechising-of-the-uninstructed:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - introductory-notice: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.i.html
               - how-augustin-writes-in-answer-to-a-favor-asked-by-a-deacon-o: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.ii.html

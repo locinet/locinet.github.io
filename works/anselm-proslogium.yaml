@@ -14,3 +14,5 @@ anselm-proslogium:
         sites:
           - site: CCEL
             url: https://ccel.org/ccel/a/anselm/basic_works.iii.html
+            pdf_url: https://ccel.org/ccel/a/anselm/basic_works/cache/basic_works.pdf
+            epub_url: https://ccel.org/ccel/a/anselm/basic_works/cache/basic_works.epub

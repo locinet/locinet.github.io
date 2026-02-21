@@ -18,7 +18,9 @@ athanasius-defence-of-dionysius-de-sententia-dionysii:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf204.xv.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xv.i.html
               - de-sententia-dionysii-defence-of-dionysius: https://ccel.org/ccel/s/schaff/npnf204.xv.ii.html

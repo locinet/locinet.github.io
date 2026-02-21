@@ -1,7 +1,7 @@
 augustine-on-the-creed:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: faith
   la:
     title: # FILL IN
     orig_lang: true
@@ -48,7 +48,9 @@ augustine-on-the-creed:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - section-1: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.i.html
               - section-2: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.ii.html

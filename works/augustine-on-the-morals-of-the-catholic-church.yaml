@@ -41,7 +41,7 @@ augustine-on-the-morals-of-the-catholic-church:
       - we-are-joined-inseparably-to-god-by-christ-and-his-spirit: We are Joined Inseparably to God by Christ and His Spirit.
         # loci:
       - we-cleave-to-the-trinity-our-chief-good-by-love: "We Cleave to the Trinity, Our Chief Good, by Love."
-        # loci:
+        loci: trinity
       - the-christian-definition-of-the-four-virtues: The Christian Definition of the Four Virtues.
         # loci:
       - harmony-of-the-old-and-new-testaments: Harmony of the Old and New Testaments.
@@ -88,7 +88,9 @@ augustine-on-the-morals-of-the-catholic-church:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.i.html
               - argument: https://ccel.org/ccel/s/schaff/npnf104.iv.iv.ii.html

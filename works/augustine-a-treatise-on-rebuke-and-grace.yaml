@@ -1,7 +1,7 @@
 augustine-a-treatise-on-rebuke-and-grace:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [grace, perseverance, predestination]
   la:
     title: # FILL IN
     orig_lang: true
@@ -41,7 +41,7 @@ augustine-a-treatise-on-rebuke-and-grace:
       - they-who-have-not-received-perseverance-are-not-distinguishe: They Who Have Not Received Perseverance are Not Distinguished from the Mass of Those that are Lost.
         # loci:
       - election-is-of-grace-not-of-merit: "Election is of Grace, Not of Merit."
-        # loci:
+        loci: election
       - none-of-the-elect-and-predestinated-can-perish: None of the Elect and Predestinated Can Perish.
         # loci:
       - perseverance-is-given-to-the-end: Perseverance is Given to the End.
@@ -73,9 +73,9 @@ augustine-a-treatise-on-rebuke-and-grace:
       - the-first-man-himself-also-might-have-stood-by-his-free-will: The First Man Himself Also Might Have Stood by His Free Will.
         # loci:
       - distinction-between-the-grace-given-before-and-after-the-fal: Distinction Between the Grace Given Before and After the Fall.
-        # loci:
+        loci: fall-of-man
       - the-incarnation-of-the-word: The Incarnation of the Word.
-        # loci:
+        loci: incarnation
       - the-first-man-had-received-the-grace-necessary-for-his-perse: "The First Man Had Received the Grace Necessary for His Perseverance, But Its Exercise Was Left in His Free Choice."
         # loci:
       - the-gifts-of-grace-conferred-on-adam-in-creation: The Gifts of Grace Conferred on Adam in Creation.
@@ -118,7 +118,9 @@ augustine-a-treatise-on-rebuke-and-grace:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.xx.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xx.i.html
               - extract-from-augustin-s-retractations: https://ccel.org/ccel/s/schaff/npnf105.xx.ii.html

@@ -1,7 +1,7 @@
 augustine-a-treatise-concerning-man-s-perfection-in-righteousness:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [grace, sanctification]
   la:
     title: # FILL IN
     orig_lang: true
@@ -110,7 +110,9 @@ augustine-a-treatise-concerning-man-s-perfection-in-righteousness:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.xiii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xiii.i.html
               - preface-to-the-treatise-on-man-s-perfection-in-righteousness: https://ccel.org/ccel/s/schaff/npnf105.xiii.ii.html

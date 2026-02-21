@@ -193,7 +193,9 @@ calvin-institutes:
         year: 1845
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/calvin/institutes/institutes.
+            url: https://ccel.org/ccel/calvin/institutes/institutes
+            pdf_url: https://ccel.org/ccel/calvin/institutes/cache/institutes.pdf
+            epub_url: https://ccel.org/ccel/calvin/institutes/cache/institutes.epub
             section_urls:
               - p: https://ccel.org/ccel/calvin/institutes/institutes.ii.html
               - prefatory-address: https://ccel.org/ccel/calvin/institutes/institutes.ii.viii.html

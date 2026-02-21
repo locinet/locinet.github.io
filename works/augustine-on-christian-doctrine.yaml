@@ -26,7 +26,7 @@ aquinas-on-christian-doctrine:
           - difference-of-use-and-enjoyment: Difference of Use and Enjoyment.
             # loci:
           - the-trinity-the-true-object-of-enjoyment: The Trinity the True Object of Enjoyment.
-            # loci:
+            loci: trinity
           - in-what-sense-god-is-ineffable: In What Sense God is Ineffable.
             # loci:
           - what-all-men-understand-by-the-term-god: What All Men Understand by the Term God.
@@ -38,11 +38,11 @@ aquinas-on-christian-doctrine:
           - to-see-god-the-soul-must-be-purified: "To See God, the Soul Must Be Purified."
             # loci:
           - wisdom-becoming-incarnate-a-pattern-to-us-of-purification: "Wisdom Becoming Incarnate, a Pattern to Us of Purification."
-            # loci:
+            loci: incarnation
           - in-what-sense-the-wisdom-of-god-came-to-us: In What Sense the Wisdom of God Came to Us.
             # loci:
           - the-word-was-made-flesh: The Word Was Made Flesh.
-            # loci:
+            loci: incarnation
           - how-the-wisdom-of-god-healed-man: How the Wisdom of God Healed Man.
             # loci:
           - faith-is-buttressed-by-the-resurrection-and-ascension-of-chr: "Faith is Buttressed by the Resurrection and Ascension of Christ, and is Stimulated by His Coming to Judgment."
@@ -54,9 +54,9 @@ aquinas-on-christian-doctrine:
           - the-keys-given-to-the-church: The Keys Given to the Church.
             # loci:
           - bodily-and-spiritual-death-and-resurrection: Bodily and Spiritual Death and Resurrection.
-            # loci:
+            loci: resurrection-of-the-dead
           - the-resurrection-to-damnation: The Resurrection to Damnation.
-            # loci:
+            loci: resurrection-of-the-dead
           - neither-body-nor-soul-extinguished-at-death: Neither Body Nor Soul Extinguished at Death.
             # loci:
           - god-alone-to-be-enjoyed: God Alone to Be Enjoyed.
@@ -330,7 +330,9 @@ aquinas-on-christian-doctrine:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf102.v.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf102/cache/npnf102.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf102/cache/npnf102.epub
             section_urls:
               - introductory-note-by-the-editor: https://ccel.org/ccel/s/schaff/npnf102.v.i.html
               - contents-of-christian-doctrine: https://ccel.org/ccel/s/schaff/npnf102.v.ii.html

@@ -1,0 +1,216 @@
+ames-marrow:
+  author: Q1374720
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: "The Marrow of Sacred Divinity"
+    sections:
+      - the-first-book-of-divinity: The First Book of Divinity.
+        # loci:
+        sections:
+          - the-first-chapter: The First Chapter.
+            # loci:
+          - chapter-ii: Chapter Ii.
+            # loci:
+          - chapter-iii: Chapter Iii.
+            # loci:
+          - chapter-four: Chapter Four
+            # loci:
+          - chapter-v: Chapter V.
+            # loci:
+          - chapter-vi: Chapter Vi.
+            # loci:
+          - chapter-vii: Chapter Vii.
+            # loci:
+          - chapter-viii: Chapter Viii.
+            # loci:
+          - chapter-ix: Chapter Ix.
+            # loci:
+          - chapter-x: Chapter X.
+            # loci:
+          - chapter-xi: Chapter Xi.
+            # loci:
+          - chapter-xii: Chapter Xii.
+            # loci:
+          - chapter-xiii: Chapter Xiii.
+            # loci:
+          - chapter-xiv: Chapter Xiv.
+            # loci:
+          - chapter-xv: Chapter. Xv.
+            # loci:
+          - chapter-xvi: Chapter Xvi.
+            # loci:
+          - chapter-xvii: Chapter Xvii.
+            # loci:
+          - chapter-xviii: Chapter Xviii.
+            # loci:
+          - chapter-xix: Chapter Xix.
+            # loci:
+          - chapter-xx: Chapter Xx.
+            # loci:
+          - chapter-xxi: Chapter Xxi.
+            # loci:
+          - chapter-xxii: Chapter Xxii.
+            # loci:
+          - chapter-xxiii: Chapter Xxiii.
+            # loci:
+          - chapter-xxiv: Chapter Xxiv.
+            # loci:
+          - chapter-xxv: Chapter Xxv.
+            # loci:
+          - chapter-xxvi: Chapter Xxvi.
+            # loci:
+          - chapter-xxvii: Chapter Xxvii.
+            # loci:
+          - chapter-xxviii: Chapter Xxviii.
+            # loci:
+          - chapter-xxix: Chapter Xxix.
+            # loci:
+          - chapter-xxx: Chapter Xxx.
+            # loci:
+          - chapter-xxxi: Chapter Xxxi.
+            # loci:
+          - chapter-xxxii: Chapter Xxxii.
+            # loci:
+          - chapter-xxxiii: Chapter Xxxiii.
+            # loci:
+          - chapter-xxxiiii: Chapter Xxxiiii.
+            # loci:
+          - chapter-xxxv: Chapter Xxxv.
+            # loci:
+          - chapter-xxxvi: Chapter Xxxvi.
+            # loci:
+          - chapter-xxxvii: Chapter Xxxvii.
+            # loci:
+          - chapter-xxxviii: Chapter Xxxviii.
+            # loci:
+          - chapter-xxxix: Chapter Xxxix.
+            # loci:
+          - chapter-lx: Chapter Lx.
+            # loci:
+          - chapter-xli: Chapter Xli.
+            # loci:
+      - the-second-book-of-sacred-theology: The Second Book of Sacred Theology.
+        # loci:
+        sections:
+          - chapter-1: Chapter 1.
+            # loci:
+          - chapter-ii-2: Chapter Ii.
+            # loci:
+          - chapter-iii-2: Chapter Iii.
+            # loci:
+          - chapter-four-2: Chapter Four
+            # loci:
+          - chapter-v-2: Chapter V.
+            # loci:
+          - chapter-vi-2: Chapter Vi.
+            # loci:
+          - chapter-vii-2: Chapter Vii.
+            # loci:
+          - chapter-viii-2: Chapter Viii.
+            # loci:
+          - chapter-ix-2: Chapter Ix.
+            # loci:
+          - chapter-x-2: Chapter X.
+            # loci:
+          - chapter-xi-2: Chapter Xi.
+            # loci:
+          - chapter-xii-2: Chapter. Xii.
+            # loci:
+          - chapter-xiii-2: Chapter Xiii.
+            # loci:
+          - chapter-xiiii: Chapter Xiiii.
+            # loci:
+          - chapter-xv-2: Chapter Xv.
+            # loci:
+          - chapter-xvi-2: Chapter Xvi.
+            # loci:
+          - chapter-xvii-2: Chapter Xvii.
+            # loci:
+          - chapter-xviii-2: Chapter Xviii.
+            # loci:
+          - chapter-xix-2: Chapter Xix.
+            # loci:
+          - chapter-xx-2: Chapter Xx.
+            # loci:
+          - chapter-xxi-2: Chapter Xxi.
+            # loci:
+          - chapter-xxii-2: Chapter Xxii.
+            # loci:
+    translations:
+      - year: 1642
+        estc: R23182
+        earlyprint: A25291
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A25291.xml
+            pdf_url: https://texts.earlyprint.org/downloads/A25/A25291_standard.pdf
+            epub_url: https://texts.earlyprint.org/downloads/A25/A25291_standard.epub
+            section_urls:
+              - the-first-book-of-divinity: https://texts.earlyprint.org/works/A25291.xml?page=010-b
+              - the-first-chapter: https://texts.earlyprint.org/works/A25291.xml?page=011-a
+              - chapter-ii: https://texts.earlyprint.org/works/A25291.xml?page=012-b
+              - chapter-iii: https://texts.earlyprint.org/works/A25291.xml?page=013-a
+              - chapter-four: https://texts.earlyprint.org/works/A25291.xml?page=015-b
+              - chapter-v: https://texts.earlyprint.org/works/A25291.xml?page=018-b
+              - chapter-vi: https://texts.earlyprint.org/works/A25291.xml?page=021-a
+              - chapter-vii: https://texts.earlyprint.org/works/A25291.xml?page=023-b
+              - chapter-viii: https://texts.earlyprint.org/works/A25291.xml?page=028-a
+              - chapter-ix: https://texts.earlyprint.org/works/A25291.xml?page=033-a
+              - chapter-x: https://texts.earlyprint.org/works/A25291.xml?page=035-b
+              - chapter-xi: https://texts.earlyprint.org/works/A25291.xml?page=038-a
+              - chapter-xii: https://texts.earlyprint.org/works/A25291.xml?page=040-b
+              - chapter-xiii: https://texts.earlyprint.org/works/A25291.xml?page=043-b
+              - chapter-xiv: https://texts.earlyprint.org/works/A25291.xml?page=044-b
+              - chapter-xv: https://texts.earlyprint.org/works/A25291.xml?page=047-a
+              - chapter-xvi: https://texts.earlyprint.org/works/A25291.xml?page=047-b
+              - chapter-xvii: https://texts.earlyprint.org/works/A25291.xml?page=049-a
+              - chapter-xviii: https://texts.earlyprint.org/works/A25291.xml?page=050-a
+              - chapter-xix: https://texts.earlyprint.org/works/A25291.xml?page=052-b
+              - chapter-xx: https://texts.earlyprint.org/works/A25291.xml?page=055-a
+              - chapter-xxi: https://texts.earlyprint.org/works/A25291.xml?page=057-a
+              - chapter-xxii: https://texts.earlyprint.org/works/A25291.xml?page=060-a
+              - chapter-xxiii: https://texts.earlyprint.org/works/A25291.xml?page=062-b
+              - chapter-xxiv: https://texts.earlyprint.org/works/A25291.xml?page=066-a
+              - chapter-xxv: https://texts.earlyprint.org/works/A25291.xml?page=068-b
+              - chapter-xxvi: https://texts.earlyprint.org/works/A25291.xml?page=072-a
+              - chapter-xxvii: https://texts.earlyprint.org/works/A25291.xml?page=075-a
+              - chapter-xxviii: https://texts.earlyprint.org/works/A25291.xml?page=078-a
+              - chapter-xxix: https://texts.earlyprint.org/works/A25291.xml?page=080-b
+              - chapter-xxx: https://texts.earlyprint.org/works/A25291.xml?page=083-b
+              - chapter-xxxi: https://texts.earlyprint.org/works/A25291.xml?page=085-b
+              - chapter-xxxii: https://texts.earlyprint.org/works/A25291.xml?page=088-b
+              - chapter-xxxiii: https://texts.earlyprint.org/works/A25291.xml?page=091-a
+              - chapter-xxxiiii: https://texts.earlyprint.org/works/A25291.xml?page=093-b
+              - chapter-xxxv: https://texts.earlyprint.org/works/A25291.xml?page=097-a
+              - chapter-xxxvi: https://texts.earlyprint.org/works/A25291.xml?page=102-a
+              - chapter-xxxvii: https://texts.earlyprint.org/works/A25291.xml?page=104-a
+              - chapter-xxxviii: https://texts.earlyprint.org/works/A25291.xml?page=106-b
+              - chapter-xxxix: https://texts.earlyprint.org/works/A25291.xml?page=109-b
+              - chapter-lx: https://texts.earlyprint.org/works/A25291.xml?page=116-a
+              - chapter-xli: https://texts.earlyprint.org/works/A25291.xml?page=118-b
+              - the-second-book-of-sacred-theology: https://texts.earlyprint.org/works/A25291.xml?page=120-b
+              - chapter-1: https://texts.earlyprint.org/works/A25291.xml?page=121-a
+              - chapter-ii-2: https://texts.earlyprint.org/works/A25291.xml?page=125-a
+              - chapter-iii-2: https://texts.earlyprint.org/works/A25291.xml?page=135-b
+              - chapter-four-2: https://texts.earlyprint.org/works/A25291.xml?page=138-b
+              - chapter-v-2: https://texts.earlyprint.org/works/A25291.xml?page=142-a
+              - chapter-vi-2: https://texts.earlyprint.org/works/A25291.xml?page=146-a
+              - chapter-vii-2: https://texts.earlyprint.org/works/A25291.xml?page=149-b
+              - chapter-viii-2: https://texts.earlyprint.org/works/A25291.xml?page=152-b
+              - chapter-ix-2: https://texts.earlyprint.org/works/A25291.xml?page=156-a
+              - chapter-x-2: https://texts.earlyprint.org/works/A25291.xml?page=162-b
+              - chapter-xi-2: https://texts.earlyprint.org/works/A25291.xml?page=165-b
+              - chapter-xii-2: https://texts.earlyprint.org/works/A25291.xml?page=168-b
+              - chapter-xiii-2: https://texts.earlyprint.org/works/A25291.xml?page=171-a
+              - chapter-xiiii: https://texts.earlyprint.org/works/A25291.xml?page=175-a
+              - chapter-xv-2: https://texts.earlyprint.org/works/A25291.xml?page=178-a
+              - chapter-xvi-2: https://texts.earlyprint.org/works/A25291.xml?page=188-a
+              - chapter-xvii-2: https://texts.earlyprint.org/works/A25291.xml?page=194-a
+              - chapter-xviii-2: https://texts.earlyprint.org/works/A25291.xml?page=199-a
+              - chapter-xix-2: https://texts.earlyprint.org/works/A25291.xml?page=201-b
+              - chapter-xx-2: https://texts.earlyprint.org/works/A25291.xml?page=204-a
+              - chapter-xxi-2: https://texts.earlyprint.org/works/A25291.xml?page=207-a
+              - chapter-xxii-2: https://texts.earlyprint.org/works/A25291.xml?page=209-b

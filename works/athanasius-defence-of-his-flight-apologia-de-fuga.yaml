@@ -73,7 +73,9 @@ athanasius-defence-of-his-flight-apologia-de-fuga:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf204.xix.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xix.i.html
               - defence-of-his-flight-apologia-de-fuga: https://ccel.org/ccel/s/schaff/npnf204.xix.ii.html

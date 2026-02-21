@@ -1,7 +1,7 @@
 augustine-the-enchiridion:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [faith, grace, original-sin]
   la:
     title: # FILL IN
     orig_lang: true
@@ -67,7 +67,7 @@ augustine-the-enchiridion:
       - through-adam-s-sin-his-whole-posterity-were-corrupted-and-we: "Through Adam’s Sin His Whole Posterity Were Corrupted, and Were Born Under the Penalty of Death, Which He Had Incurred."
         # loci:
       - the-state-of-misery-to-which-adam-s-sin-reduced-mankind-and-: "The State of Misery to Which Adam’s Sin Reduced Mankind, and the Restoration Effected Through the Mercy of God."
-        # loci:
+        loci: fall-of-man
       - when-the-rebellious-angels-were-cast-out-the-rest-remained-i: "When the Rebellious Angels Were Cast Out, the Rest Remained in the Enjoyment of Eternal Happiness with God."
         # loci:
       - the-restored-part-of-humanity-shall-in-accordance-with-the-p: "The Restored Part of Humanity Shall, in Accordance with the Promises of God, Succeed to the Place Which the Rebellious Angels Lost."
@@ -77,11 +77,11 @@ augustine-the-enchiridion:
       - faith-itself-is-the-gift-of-god-and-good-works-will-not-be-w: Faith Itself is the Gift of God; And Good Works Will Not Be Wanting in Those Who Believe.
         # loci:
       - the-freedom-of-the-will-is-also-the-gift-of-god-for-god-work: "The Freedom of the Will is Also the Gift of God, for God Worketh in Us Both to Will and to Do."
-        # loci:
+        loci: free-will
       - men-being-by-nature-the-children-of-wrath-needed-a-mediator-: "Men, Being by Nature the Children of Wrath, Needed a Mediator. In What Sense God is Said to Be Angry."
         # loci:
       - the-ineffable-mystery-of-the-birth-of-christ-the-mediator-th: The Ineffable Mystery of the Birth of Christ the Mediator Through the Virgin Mary.
-        # loci:
+        loci: incarnation
       - jesus-christ-being-the-only-son-of-god-is-at-the-same-time-m: "Jesus Christ, Being the Only Son of God, is at the Same Time Man."
         # loci:
       - the-grace-of-god-is-clearly-and-remarkably-displayed-in-rais: The Grace of God is Clearly and Remarkably Displayed in Raising the Man Christ Jesus to the Dignity of the Son of God.
@@ -97,9 +97,9 @@ augustine-the-enchiridion:
       - christ-who-was-himself-free-from-sin-was-made-sin-for-us-tha: "Christ, Who Was Himself Free from Sin, Was Made Sin for Us, that We Might Be Reconciled to God."
         # loci:
       - the-sacrament-of-baptism-indicates-our-death-with-christ-to-: "The Sacrament of Baptism Indicates Our Death with Christ to Sin, and Our Resurrection with Him to Newness of Life."
-        # loci:
+        loci: baptism
       - baptism-and-the-grace-which-it-typifies-are-open-to-all-both: "Baptism and the Grace Which It Typifies are Open to All, Both Infants and Adults."
-        # loci:
+        loci: baptism
       - in-speaking-of-sin-the-singular-number-is-often-put-for-the-: "In Speaking of Sin, the Singular Number is Often Put for the Plural, and the Plural for the Singular."
         # loci:
       - in-adam-s-first-sin-many-kinds-of-sin-were-involved: "In Adam’s First Sin, Many Kinds of Sin Were Involved."
@@ -125,7 +125,7 @@ augustine-the-enchiridion:
       - the-expression-christ-shall-judge-the-quick-and-the-dead-may: "The Expression, ‘Christ Shall Judge the Quick and the Dead,’ May Be Understood in Either of Two Senses."
         # loci:
       - the-holy-spirit-and-the-church-the-church-is-the-temple-of-g: The Holy Spirit and the Church. The Church is the Temple of God.
-        # loci:
+        loci: nature-of-the-church
       - the-condition-of-the-church-in-heaven: The Condition of the Church in Heaven.
         # loci:
       - we-have-no-certain-knowledge-of-the-organization-of-the-ange: We Have No Certain Knowledge of the Organization of the Angelic Society.
@@ -181,7 +181,7 @@ augustine-the-enchiridion:
       - the-man-who-despises-the-mercy-of-god-is-guilty-of-the-sin-a: The Man Who Despises the Mercy of God is Guilty of the Sin Against the Holy Ghost.
         # loci:
       - the-resurrection-of-the-body-gives-rise-to-numerous-question: The Resurrection of the Body Gives Rise to Numerous Questions.
-        # loci:
+        loci: resurrection-of-the-dead
       - the-case-of-abortive-conceptions: The Case of Abortive Conceptions.
         # loci:
       - if-they-have-ever-lived-they-must-of-course-have-died-and-th: "If They Have Ever Lived, They Must of Course Have Died, and Therefore Shall Have a Share in the Resurrection of the Dead."
@@ -197,7 +197,7 @@ augustine-the-enchiridion:
       - the-bodies-of-the-saints-shall-at-the-resurrection-be-spirit: The Bodies of the Saints Shall at The Resurrection Be Spiritual Bodies.
         # loci:
       - the-resurrection-of-the-lost: The Resurrection of the Lost.
-        # loci:
+        loci: resurrection-of-the-dead
       - both-the-first-and-the-second-deaths-are-the-consequence-of-: Both the First and the Second Deaths are the Consequence of Sin. Punishment is Proportioned to Guilt.
         # loci:
       - the-saints-shall-know-more-fully-in-the-next-world-the-benef: The Saints Shall Know More Fully in the Next World the Benefits They Have Received by Grace.
@@ -209,7 +209,7 @@ augustine-the-enchiridion:
       - in-what-sense-does-the-apostle-say-that-god-will-have-all-me: "In What Sense Does the Apostle Say that ’God Will Have All Men to Be Saved,’ When, as a Matter of Fact, All are Not Saved?"
         # loci:
       - predestination-to-eternal-life-is-wholly-of-god-s-free-grace: Predestination to Eternal Life is Wholly of God’s Free Grace.
-        # loci:
+        loci: predestination
       - as-god-s-mercy-is-free-so-his-judgments-are-just-and-cannot-: "As God’s Mercy is Free, So His Judgments are Just, and Cannot Be Gainsaid."
         # loci:
       - the-will-of-god-is-never-defeated-though-much-is-done-that-i: "The Will of God is Never Defeated, Though Much is Done that is Contrary to His Will."
@@ -235,7 +235,7 @@ augustine-the-enchiridion:
       - the-benefit-to-the-souls-of-the-dead-from-the-sacraments-and: The Benefit to the Souls of the Dead from the Sacraments and Alms of Their Living Friends.
         # loci:
       - after-the-resurrection-there-shall-be-two-distinct-kingdoms-: "After the Resurrection There Shall Be Two Distinct Kingdoms, One of Eternal Happiness, the Other of Eternal Misery."
-        # loci:
+        loci: final-judgement
       - there-is-no-ground-in-scripture-for-the-opinion-of-those-who: There is No Ground in Scripture for the Opinion of Those Who Deny the Eternity of Future Punishments.
         # loci:
       - the-death-of-the-wicked-shall-be-eternal-in-the-same-sense-a: The Death of the Wicked Shall Be Eternal in the Same Sense as the Life of the Saints.
@@ -262,7 +262,9 @@ augustine-the-enchiridion:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf103.iv.ii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - introductory-notice: https://ccel.org/ccel/s/schaff/npnf103.iv.ii.i.html
               - argument: https://ccel.org/ccel/s/schaff/npnf103.iv.ii.ii.html

@@ -1,7 +1,7 @@
 augustine-a-treatise-on-the-soul-and-its-origin:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: soul
   la:
     title: # FILL IN
     orig_lang: true
@@ -272,7 +272,9 @@ augustine-a-treatise-on-the-soul-and-its-origin:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.xvii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xvii.i.html
               - extract-from-augustin-s-retractations: https://ccel.org/ccel/s/schaff/npnf105.xvii.ii.html

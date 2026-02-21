@@ -5,7 +5,7 @@ virel-treatise:
     title: # FILL IN
     orig_lang: true
   en:
-    title: "A Learned and Excellent Treatise Containing All the Principal Grounds of Christian Religion. Set Down by Way of Conference in a Most Plain and Familiar Manner. Written First in French by Master Matthew Virell, After Translated Into Latin: and Now Turned Into English for the Use of Our Countrymen. 1. Tim. 4. 15. These Things Meditate, and Labour in Them, That Thy Profiting May Be Manifest to All. the Second Impression, Corrected and Amended. Deus Imperat Astris. Imprinted at London by Richard Field for Robert Dexter, Dwelling in Paul's Churchyard at the Sign of the Brazen Serpent. 1594."
+    title: "Treatise Containing All the Principal Grounds of Christian Religion."
     sections:
       - the-first-book-of-christian-religion-wherein-the-grounds-of-: "The First Book of Christian Religion, Wherein the Grounds of Our Salvation Are Handled."
         # loci:

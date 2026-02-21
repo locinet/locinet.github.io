@@ -1,7 +1,7 @@
 augustine-a-treatise-on-grace-and-free-will:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [grace, free-will]
   la:
     title: # FILL IN
     orig_lang: true
@@ -120,7 +120,9 @@ augustine-a-treatise-on-grace-and-free-will:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.xix.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xix.i.html
               - extract-from-augustin-s-retractations: https://ccel.org/ccel/s/schaff/npnf105.xix.ii.html

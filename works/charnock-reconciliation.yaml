@@ -9,6 +9,8 @@ charnock-reconciliation:
         sites:
           - site: CCEL
             url: https://ccel.org/ccel/c/charnock/reconcil
+            pdf_url: https://ccel.org/ccel/c/charnock/reconcil/cache/reconcil.pdf
+            epub_url: https://ccel.org/ccel/c/charnock/reconcil/cache/reconcil.epub
             section_urls:
               - introduction: https://ccel.org/ccel/c/charnock/reconcil.ii.html
               - what-reconciliation-is: https://ccel.org/ccel/c/charnock/reconcil.iii.html

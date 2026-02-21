@@ -1,7 +1,7 @@
 augustine-a-treatise-on-the-spirit-and-the-letter:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [grace, justification, free-will]
   la:
     title: # FILL IN
     orig_lang: true
@@ -69,9 +69,9 @@ augustine-a-treatise-on-the-spirit-and-the-letter:
       - no-fruit-good-except-it-grow-from-the-root-of-love: No Fruit Good Except It Grow from the Root of Love.
         # loci:
       - grace-concealed-in-the-old-testament-is-revealed-in-the-new: "Grace, Concealed in the Old Testament, is Revealed in the New."
-        # loci:
+        loci: new-covenant
       - why-the-holy-ghost-is-called-the-finger-of-god: Why the Holy Ghost is Called the Finger of God.
-        # loci:
+        loci: trinity
       - a-comparison-of-the-law-of-moses-and-of-the-new-law: A Comparison of the Law of Moses and of the New Law.
         # loci:
       - the-new-law-written-within: The New Law Written Within.
@@ -81,7 +81,7 @@ augustine-a-treatise-on-the-spirit-and-the-letter:
       - the-christian-faith-touching-the-assistance-of-grace: The Christian Faith Touching the Assistance of Grace.
         # loci:
       - the-prophecy-of-jeremiah-concerning-the-new-testament: The Prophecy of Jeremiah Concerning the New Testament.
-        # loci:
+        loci: new-covenant
       - the-law-grace: The Law; Grace.
         # loci:
       - the-old-law-the-new-law: The Old Law; The New Law.
@@ -99,7 +99,7 @@ augustine-a-treatise-on-the-spirit-and-the-letter:
       - the-law-written-in-the-heart-and-the-reward-of-the-eternal-c: "The Law Written in the Heart, and the Reward of the Eternal Contemplation of God, Belong to the New Covenant; Who Among the Saints are the Least and the Greatest."
         # loci:
       - difference-between-the-old-and-the-new-testaments: Difference Between the Old and the New Testaments.
-        # loci:
+        loci: [old-covenant, new-covenant]
       - a-question-touching-the-passage-in-the-apostle-about-the-gen: "A Question Touching the Passage in the Apostle About the Gentiles Who are Said to Do by Nature the Law’s Commands, Which They are Also Said to Have Written on Their Hearts."
         # loci:
       - the-answer-is-that-the-passage-must-be-understood-of-the-fai: "The Answer Is, that the Passage Must Be Understood of the Faithful of the New Covenant."
@@ -117,7 +117,7 @@ augustine-a-treatise-on-the-spirit-and-the-letter:
       - righteousness-is-the-gift-of-god: Righteousness is the Gift of God.
         # loci:
       - faith-the-ground-of-all-righteousness: Faith the Ground of All Righteousness.
-        # loci:
+        loci: faith
       - grace-establishes-free-will: Grace Establishes Free Will.
         # loci:
       - volition-and-ability: Volition and Ability.
@@ -152,7 +152,9 @@ augustine-a-treatise-on-the-spirit-and-the-letter:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.xi.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xi.i.html
               - extract-from-augustin-s-retractations: https://ccel.org/ccel/s/schaff/npnf105.xi.ii.html

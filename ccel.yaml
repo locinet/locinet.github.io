@@ -15,9 +15,9 @@
 #   author: Q507025
 #   id: hodge-st
 #   category: systematic
-- url: https://ccel.org/ccel/s/schaff/npnf208.xml
-  author: Q44258
-  id: basil
-  work_level: 1
+- url: https://ccel.org/ccel/s/schaff/npnf205.xml
+  author: Q191734
+  id: gregory-nyssa
+  work_level: 2
   orig_lang: grc
   lang: en

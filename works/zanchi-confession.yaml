@@ -5,7 +5,7 @@ zanchi-confession:
     title: # FILL IN
     orig_lang: true
   en:
-    title: "H. Zanchius His Confession of Christian Religion. Which Now at Length Being 70. Years of Age, He Causea to Be Published in the Name of Himself & His Family. Englished in Sense Agreeable, and in Words as Answerable to His Own Latin Copy, as in so Grave a Man's Work is Requisite: for the Profit of All the Unlearneder Sort, of English Christians, That Desire to Know His Judgement in Matters of Faith. Rom. 10. With the Heart Man Believeth Unto Righteousness: but With the Mouth Man Confesseth to Salvation. Let All Things Be Subject to the Judgement of the True Catholic Church. Printed by John Legat, Printer to the University of Cambridge. 1599"
+    title: "Confession of Christian Religion"
     sections:
       - chap-i-of-the-holy-scriptures-the-foundation-of-all-christia: "Chap. I. of the Holy Scriptures, the Foundation of All Christian Religion."
         # loci:

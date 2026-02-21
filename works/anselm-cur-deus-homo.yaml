@@ -69,6 +69,8 @@ anselm-cur-deus-homo:
         sites:
           - site: CCEL
             url: https://ccel.org/ccel/a/anselm/basic_works.vi.html
+            pdf_url: https://ccel.org/ccel/a/anselm/basic_works/cache/basic_works.pdf
+            epub_url: https://ccel.org/ccel/a/anselm/basic_works/cache/basic_works.epub
             section_urls:
               - preface: https://ccel.org/ccel/a/anselm/basic_works.vi.i.html
               - book-first: https://ccel.org/ccel/a/anselm/basic_works.vi.ii.html

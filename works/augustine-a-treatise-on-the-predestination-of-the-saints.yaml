@@ -1,7 +1,7 @@
 augustine-a-treatise-on-the-predestination-of-the-saints:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [predestination, election, perseverance]
   la:
     title: # FILL IN
     orig_lang: true
@@ -248,7 +248,9 @@ augustine-a-treatise-on-the-predestination-of-the-saints:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.xxi.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xxi.i.html
               - book-i: https://ccel.org/ccel/s/schaff/npnf105.xxi.ii.html

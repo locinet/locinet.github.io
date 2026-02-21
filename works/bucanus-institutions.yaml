@@ -5,7 +5,7 @@ bucanus-institutions:
     title: # FILL IN
     orig_lang: true
   en:
-    title: "Institutions of Christian Religion, Framed Out of God's Word, and the Writings of the Best Divines, Methodically Handled by Questions and Answers, Fit for All Such as Desire to Know, or Practise the Will of God. Written in Latin by William Bucanus Professor of Divinity in the University of Lausanna. and Published in English by Robert Hill, Bachelor in Divinity, and Fellow of Saint John's College in Cambridge, for the Benefit of Our English Nation, to Which is Added in the End the Practice of Papists Against Protestant Princes. Prov. 16.16. How Much Better is it to Get Wisdom Than Gold? and to Get Understanding, is More to Be Desired Than Silver. Printed at London, by George Snowdon, and Leonel Snowdon. 1606."
+    title: "Institutions of Christian Religion"
     sections:
       - what-is-the-main-and-most-principal-point-in-sacred-divinity: "What is the Main and Most Principal Point in Sacred Divinity?"
         # loci:

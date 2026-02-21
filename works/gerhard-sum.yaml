@@ -1,0 +1,88 @@
+gerhard-sum:
+  author: Q67477
+  # loci:
+  la:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: "The Sum of Christian Doctrine"
+    sections:
+      - chap-i-a-description-or-representation-of-the-theological-pl: "Chap. I. a Description or Representation of the Theological Places, or Heads of Divinity, Contained in This Book, Together With Their Order & Connexion."
+        loci: nature-of-theology
+      - chap-ii-wherein-are-contained-theological-aphorisms-concerni: Chap. Ii. Wherein Are Contained Theological Aphorisms Concerning the Holy Scripture.
+        loci: scripture
+      - chap-iii-wherein-are-contained-theological-aphorisms-concern: Chap. Iii. Wherein Are Contained Theological Aphorisms Concerning God.
+        loci: being-of-god
+      - chap-iu-wherein-are-contained-theological-aphorisms-concerni: Chap. Iu. Wherein Are Contained Theological Aphorisms Concerning the Person and Office of Christ.
+        loci: [person-of-christ, offices-of-christ]
+      - chap-v-wherein-are-contained-theological-aphorisms-concernin: "Chap. V Wherein Are Contained Theological Aphorisms Concerning the Creation, and Angels."
+        loci: [creation, angels]
+      - chap-vi-wherein-are-contained-theological-aphorisms-concerni: Chap. Vi Wherein Are Contained Theological Aphorisms Concerning the Providence of God.
+        loci: providence
+      - chap-vii-wherein-are-contained-theological-aphorisms-concern: Chap. Vii. Wherein Are Contained Theological Aphorisms Concerning Election and Reprobation.
+        loci: predestination
+      - chap-viii-wherein-are-contained-theological-aphorisms-concer: Chap. Viii. Wherein Are Contained Theological Aphorisms Concerning the Image of God in Man Before His Fall.
+        loci: image-of-god
+      - chap-ix-wherein-are-contained-theological-aphorisms-concerni: "Chap. Ix. Wherein Are Contained Theological Aphorisms Concerning Original Sin, That Is, the Fall of Our First Parents, and the Corruption of Nature Which Followed Thereupon, and is Propagated Unto Their Posterity."
+        loci: [fall-of-man, original-sin]
+      - chap-x-wherein-are-contained-theological-aphorisms-concernin: "Chap. X. Wherein Are Contained Theological Aphorisms Concerning Free-will: That Is, the Power Which is Left in Man Since the Fall."
+        loci: free-will
+      - chap-xi-wherein-are-contained-theological-aphorisms-concerni: Chap. Xi. Wherein Are Contained Theological Aphorisms Concerning the Law.
+        loci: law
+      - chap-xii-wherein-are-contained-theological-aphorisms-concern: Chap. Xii. Wherein Are Contained Theological Aphorisms Concerning the Gospel.
+        loci: gospel
+      - chap-xiii-wherein-are-contained-theological-aphorisms-concer: Chap. Xiii. ¶ Wherein Are Contained Theological Aphorisms Concerning Repentance.
+        loci: repentance
+      - chap-xiv-wherein-are-contained-theological-aphorisms-concern: "Chap. Xiv. Wherein Are Contained Theological Aphorisms Concerning Faith, Whereby We Are Justified Before God."
+        loci: [faith, justification]
+      - chap-xv-wherein-are-contained-theological-aphorisms-concerni: "Chap. Xv. Wherein Are Contained Theological Aphorisms Concerning Good Works, That Is, Renovation of the Man That is Regenerate by Faith in Christ."
+        loci: good-works
+      - chap-xvi-wherein-are-contained-theological-aphorisms-concern: Chap. Xvi. Wherein Are Contained Theological Aphorisms Concerning the Sacraments.
+        loci: sacraments
+      - chap-xvii-wherein-are-contained-theological-aphorisms-concer: Chap. Xvii. Wherein Are Contained Theological Aphorisms Concerning the Sacrament of Baptism.
+        loci: baptism
+      - chap-xviii-wherein-are-contained-theological-aphorisms-conce: "Chap. Xviii. ¶ Wherein Are Contained Theological Aphorisms Concerning the Lord's Supper."
+        loci: lords-supper
+      - chap-xix-wherein-are-contained-theological-aphorisms-concern: Chap. Xix. Wherein Are Contained Theological Aphorisms Concerning the Church.
+        loci: nature-of-the-church
+      - chap-xx-wherein-are-contained-theological-aphorisms-concerni: Chap. Xx. ¶ Wherein Are Contained Theological Aphorisms Concerning the Ecclesiastical Ministry.
+        loci: government-of-the-church
+      - chap-xxi-wherein-are-contained-theological-aphorisms-concern: "Chap. Xxi. Wherein Are Contained Theological Aphorisms Concerning the Political Order, or the Civil Magistracy."
+        loci: civil-government
+      - chap-xxii-wherein-are-contained-theological-aphorisms-concer: Chap. Xxii. Wherein Are Contained Theological Aphorisms Concerning Wedlock or Marriage.
+        loci: marriage
+      - chap-xxiii-wherein-are-contained-theological-aphorisms-conce: "Chap. Xxiii. ¶ Wherein Are Contained Theological Aphorisms Concerning the Four Last Things: Death, the Resurrection, the Judgement, and the Place Either of Eternal Joy, or of Eternal Torment."
+        loci: [death, resurrection-of-the-dead, final-judgement, final-state]
+    translations:
+      - year: 1640
+        estc: S4062
+        earlyprint: A01637
+        sites:
+          - site: EarlyPrint
+            url: https://texts.earlyprint.org/works/A01637.xml
+            pdf_url: https://texts.earlyprint.org/downloads/A01/A01637_standard.pdf
+            epub_url: https://texts.earlyprint.org/downloads/A01/A01637_standard.epub
+            section_urls:
+              - chap-i-a-description-or-representation-of-the-theological-pl: https://texts.earlyprint.org/works/A01637.xml?page=014-a
+              - chap-ii-wherein-are-contained-theological-aphorisms-concerni: https://texts.earlyprint.org/works/A01637.xml?page=018-b
+              - chap-iii-wherein-are-contained-theological-aphorisms-concern: https://texts.earlyprint.org/works/A01637.xml?page=025-a
+              - chap-iu-wherein-are-contained-theological-aphorisms-concerni: https://texts.earlyprint.org/works/A01637.xml?page=031-a
+              - chap-v-wherein-are-contained-theological-aphorisms-concernin: https://texts.earlyprint.org/works/A01637.xml?page=038-a
+              - chap-vi-wherein-are-contained-theological-aphorisms-concerni: https://texts.earlyprint.org/works/A01637.xml?page=044-a
+              - chap-vii-wherein-are-contained-theological-aphorisms-concern: https://texts.earlyprint.org/works/A01637.xml?page=049-b
+              - chap-viii-wherein-are-contained-theological-aphorisms-concer: https://texts.earlyprint.org/works/A01637.xml?page=053-a
+              - chap-ix-wherein-are-contained-theological-aphorisms-concerni: https://texts.earlyprint.org/works/A01637.xml?page=058-b
+              - chap-x-wherein-are-contained-theological-aphorisms-concernin: https://texts.earlyprint.org/works/A01637.xml?page=065-a
+              - chap-xi-wherein-are-contained-theological-aphorisms-concerni: https://texts.earlyprint.org/works/A01637.xml?page=071-a
+              - chap-xii-wherein-are-contained-theological-aphorisms-concern: https://texts.earlyprint.org/works/A01637.xml?page=076-a
+              - chap-xiii-wherein-are-contained-theological-aphorisms-concer: https://texts.earlyprint.org/works/A01637.xml?page=085-b
+              - chap-xiv-wherein-are-contained-theological-aphorisms-concern: https://texts.earlyprint.org/works/A01637.xml?page=094-b
+              - chap-xv-wherein-are-contained-theological-aphorisms-concerni: https://texts.earlyprint.org/works/A01637.xml?page=102-a
+              - chap-xvi-wherein-are-contained-theological-aphorisms-concern: https://texts.earlyprint.org/works/A01637.xml?page=110-b
+              - chap-xvii-wherein-are-contained-theological-aphorisms-concer: https://texts.earlyprint.org/works/A01637.xml?page=118-b
+              - chap-xviii-wherein-are-contained-theological-aphorisms-conce: https://texts.earlyprint.org/works/A01637.xml?page=127-b
+              - chap-xix-wherein-are-contained-theological-aphorisms-concern: https://texts.earlyprint.org/works/A01637.xml?page=136-b
+              - chap-xx-wherein-are-contained-theological-aphorisms-concerni: https://texts.earlyprint.org/works/A01637.xml?page=144-a
+              - chap-xxi-wherein-are-contained-theological-aphorisms-concern: https://texts.earlyprint.org/works/A01637.xml?page=152-a
+              - chap-xxii-wherein-are-contained-theological-aphorisms-concer: https://texts.earlyprint.org/works/A01637.xml?page=158-a
+              - chap-xxiii-wherein-are-contained-theological-aphorisms-conce: https://texts.earlyprint.org/works/A01637.xml?page=164-a

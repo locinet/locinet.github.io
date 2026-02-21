@@ -285,6 +285,7 @@ function parseWork(fileId, data, translatorsMap) {
       translatorInfo: translatorsMap[translatorName] || null,
       year: t.year || null,
       AI: t.AI || false,
+      partial: t.partial || false,
       sites,
     };
   });

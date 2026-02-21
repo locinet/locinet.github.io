@@ -18,7 +18,9 @@ athanasius-statement-of-faith-expositio-fidei:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf204.x.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.x.i.html
               - expositio-fidei-statement-of-faith: https://ccel.org/ccel/s/schaff/npnf204.x.ii.html

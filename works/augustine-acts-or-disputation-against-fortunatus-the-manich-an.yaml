@@ -1,7 +1,7 @@
 augustine-acts-or-disputation-against-fortunatus-the-manich-an:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: free-will
   la:
     title: # FILL IN
     orig_lang: true
@@ -20,7 +20,9 @@ augustine-acts-or-disputation-against-fortunatus-the-manich-an:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.i.html
               - disputation-of-the-first-day: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.ii.html

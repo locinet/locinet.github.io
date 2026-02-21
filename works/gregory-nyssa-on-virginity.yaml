@@ -1,0 +1,102 @@
+gregory-nyssa-on-virginity:
+  author: Q191734
+  date_added: 2026-02-20
+  loci: chastity
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On Virginity.
+    sections:
+      - preface: Preface.
+        # loci:
+      - on-virginity: On Virginity.
+        # loci:
+        sections:
+          - introduction: Introduction.
+            # loci:
+          - chapter-i: Chapter I
+            # loci:
+          - chapter-ii: Chapter II
+            # loci:
+          - chapter-iii: Chapter III
+            # loci:
+          - chapter-iv: Chapter IV
+            # loci:
+          - chapter-v: Chapter V
+            # loci:
+          - chapter-vi: Chapter VI
+            # loci:
+          - chapter-vii: Chapter VII
+            # loci:
+          - chapter-viii: Chapter VIII
+            # loci:
+          - chapter-ix: Chapter IX
+            # loci:
+          - chapter-x: Chapter X
+            # loci:
+          - chapter-xi: Chapter XI
+            # loci:
+          - chapter-xii: Chapter XII
+            # loci:
+          - chapter-xiii: Chapter XIII
+            # loci:
+          - chapter-xiv: Chapter XIV
+            # loci:
+          - xv: XV
+            # loci:
+          - chapter-xvi: Chapter XVI
+            # loci:
+          - chapter-xvii: Chapter XVII
+            # loci:
+          - chapter-xviii: Chapter XVIII
+            # loci:
+          - chapter-xix: Chapter XIX
+            # loci:
+          - chapter-xx: Chapter XX
+            # loci:
+          - chapter-xxi: Chapter XXI
+            # loci:
+          - chapter-xxii: Chapter XXII
+            # loci:
+          - chapter-xxiii: Chapter XXIII
+            # loci:
+          - chapter-xxiv: Chapter XXIV
+            # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
+            section_urls:
+              - preface: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.i.html
+              - on-virginity: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.html
+              - introduction: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.i.html
+              - chapter-i: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.ii.html
+              - chapter-ii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.iii.html
+              - chapter-iii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.iv.html
+              - chapter-iv: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.v.html
+              - chapter-v: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.vi.html
+              - chapter-vi: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.vii.html
+              - chapter-vii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.viii.html
+              - chapter-viii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.ix.html
+              - chapter-ix: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.x.html
+              - chapter-x: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xi.html
+              - chapter-xi: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xii.html
+              - chapter-xii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xiii.html
+              - chapter-xiii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xiv.html
+              - chapter-xiv: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xv.html
+              - xv: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xvi.html
+              - chapter-xvi: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xvii.html
+              - chapter-xvii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xviii.html
+              - chapter-xviii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xix.html
+              - chapter-xix: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xx.html
+              - chapter-xx: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xxi.html
+              - chapter-xxi: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xxii.html
+              - chapter-xxii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xxiii.html
+              - chapter-xxiii: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xxiv.html
+              - chapter-xxiv: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.xxv.html

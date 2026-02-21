@@ -147,9 +147,9 @@ eleventyComputed:
         <p class="translations-summary{% if work.flatSections.length > 0 %} sections-toggle{% elif work.workText %} work-text-toggle{% endif %}">
           {%- for t in work.translations %}
             {%- if t.translator == "Unknown" %}
-            Full text in English
+            {% if t.partial %}Partial text{% else %}Full text{% endif %} in English
             {%- else %}
-            Full text in English translated by {% if t.AI %}AI with thanks to {% endif %}{% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}
+            {% if t.partial %}Partial text{% else %}Full text{% endif %} in English translated by {% if t.AI %}AI with thanks to {% endif %}{% if t.translatorInfo and t.translatorInfo.website %}<a href="{{ t.translatorInfo.website }}">{{ t.translator }}</a>{% else %}{{ t.translator }}{% endif %}
             {%- if t.translatorInfo and t.translatorInfo.support %} (<a href="{{ t.translatorInfo.support }}">support</a>){% endif %}
             {%- if t.translatorInfo and t.translatorInfo.paypal %} (<a href="https://www.paypal.com/us/home">PayPal</a> {{ t.translatorInfo.paypal }}){% endif %}
             {%- if t.year %} ({{ t.year }}){% endif %}
@@ -256,7 +256,7 @@ eleventyComputed:
             {% endfor %}
             <span class="section-title"{% if sText %} role="button" tabindex="0"{% endif %}>{{ section.title }}</span>
             {% for link in sectionLinks %}
-              <a href="{{ link.url }}" class="section-link" title="{{ link.siteName }}">&#x2197;</a>
+              <a href="{{ link.url }}" class="section-link">[{{ link.siteName }}]</a>
             {% endfor %}
             {# Loci tags #}
             {% if section.loci.length > 0 %}

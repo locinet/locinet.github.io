@@ -5,19 +5,14 @@
 #   lang: language code (optional, default: en)
 #   orig_lang: original language if this is a translation (optional; omit if not a translation)
 #   translator: translator name (optional)
-- tcp_id: A15857
-  author: Q318742
-  work_id: zanchi-confession
+- tcp_id: A01637
+  author: Q67477
+  work_id: gerhard-sum
   lang: en
   orig_lang: la
-- tcp_id: A17599
-  author: Q76141
-  work_id: piscator-aphorisms
-  lang: en
-  orig_lang: la
-- tcp_id: A04766 
-  author: Q67136
-  work_id: keckermann-heavenly-knowledge
+- tcp_id: A25291
+  author: Q1374720
+  work_id: ames-marrow
   lang: en
   orig_lang: la
   

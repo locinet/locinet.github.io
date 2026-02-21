@@ -1,7 +1,7 @@
 augustine-on-two-souls-against-the-manich-ans:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [soul, free-will]
   la:
     title: # FILL IN
     orig_lang: true
@@ -46,7 +46,9 @@ augustine-on-two-souls-against-the-manich-ans:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.i.html
               - by-what-course-of-reasoning-the-error-of-the-manich-ans-conc: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.ii.html

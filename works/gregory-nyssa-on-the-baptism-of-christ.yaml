@@ -1,0 +1,18 @@
+gregory-nyssa-on-the-baptism-of-christ:
+  author: Q191734
+  date_added: 2026-02-20
+  loci: baptism
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On the Baptism of Christ.
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff/npnf205.xii.iii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub

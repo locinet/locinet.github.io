@@ -1,7 +1,7 @@
 augustine-on-the-trinity:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: trinity
   la:
     title: # FILL IN
     orig_lang: true
@@ -13,4 +13,6 @@ augustine-on-the-trinity:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf103.vi.i.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub

@@ -89,7 +89,9 @@ athanasius-apology-to-the-emperor-apologia-ad-constantium:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf204.xviii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xviii.i.html
               - apology-to-the-emperor-apologia-ad-constantium: https://ccel.org/ccel/s/schaff/npnf204.xviii.ii.html

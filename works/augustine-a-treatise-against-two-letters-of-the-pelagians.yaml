@@ -1,7 +1,7 @@
 augustine-a-treatise-against-two-letters-of-the-pelagians:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [grace, free-will, original-sin]
   la:
     title: # FILL IN
     orig_lang: true
@@ -280,7 +280,9 @@ augustine-a-treatise-against-two-letters-of-the-pelagians:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.xviii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xviii.i.html
               - extract-from-augustin-s-retractations: https://ccel.org/ccel/s/schaff/npnf105.xviii.ii.html

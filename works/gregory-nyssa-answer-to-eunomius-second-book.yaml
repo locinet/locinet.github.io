@@ -1,0 +1,26 @@
+gregory-nyssa-answer-to-eunomius-second-book:
+  author: Q191734
+  date_added: 2026-02-20
+  loci: trinity
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: "Answer to Eunomius' Second Book."
+    sections:
+      - introduction: Introduction.
+        # loci:
+      - answer-to-eunomius-second-book: "Answer to Eunomius' Second Book."
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff/npnf205.viii.ii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
+            section_urls:
+              - introduction: https://ccel.org/ccel/s/schaff/npnf205.viii.ii.i.html
+              - answer-to-eunomius-second-book: https://ccel.org/ccel/s/schaff/npnf205.viii.ii.ii.html

@@ -20,7 +20,9 @@ athanasius-synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf204.xxiii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xxiii.i.html
               - synodal-letter-to-the-people-of-antioch-tomus-ad-antiochenos: https://ccel.org/ccel/s/schaff/npnf204.xxiii.ii.html

@@ -113,7 +113,9 @@ athanasius-against-the-arians-orationes-contra-arianos-iv:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf204.xxi.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xxi.i.html
               - against-the-arians-orationes-contra-arianos-iv: https://ccel.org/ccel/s/schaff/npnf204.xxi.ii.html

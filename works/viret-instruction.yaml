@@ -6,7 +6,7 @@ viret-instruction:
     title: # FILL IN
     orig_lang: true
   en:
-    title: "A Christian Instruction, Conteyning the Law and the Gospell Also a Summarie of the Principall Poyntes of the Christian Fayth and Religion, and of the Abuses and Errors Contrary to the Same. Done in Certayne Dialogues in French"
+    title: "A Christian Instruction, Conteyning the Law and the Gospell Also a Summarie of the Principall Poyntes of the Christian Fayth and Religion, and of the Abuses and Errors Contrary to the Same"
     sections:
       - the-sum-of-the-principal-points-of-the-christian-faith-and-r: "The Sum of the Principal Points of the Christian Faith and Religion, and of the Abuses and Errors Contrary to the Same."
         # loci:

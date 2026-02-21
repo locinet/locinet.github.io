@@ -5,7 +5,7 @@ piscator-aphorisms:
     title: # FILL IN
     orig_lang: true
   en:
-    title: "Aphorisms of Christian Religion: Or, a Very Compendious Abridgement of M. I. Calvin's Institutions, Set Forth in Short Sentences Methodically by M. I. Piscator: and Now Englished According to the Authors Third and Last Edition, by H. Holland. Be Not Carried About With Diverse and Strange Doctrines: for it is a Good Thing That the Heart Be Established With Grace, Etc. Heb. 13.9. an Cho Ra Spei at London, Imprinted by Richard Field and Robert Dexter, and Are to Be Sold in Paul's Churchyard, at the Sign of the Brazen Serpent. 1596."
+    title: "Aphorisms of Christian Religion"
     sections:
       - chap-1-of-the-knowledge-of-god: Chap. 1. of the Knowledge of God.
         # loci:

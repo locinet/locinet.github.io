@@ -1,7 +1,7 @@
 augustine-against-lying:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: truth
   la:
     title: # FILL IN
     orig_lang: true
@@ -98,7 +98,9 @@ augustine-against-lying:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf103.v.vi.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - translator-s-preface: https://ccel.org/ccel/s/schaff/npnf103.v.vi.i.html
               - section-1: https://ccel.org/ccel/s/schaff/npnf103.v.vi.ii.html

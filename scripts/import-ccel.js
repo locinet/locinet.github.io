@@ -274,7 +274,8 @@ function generateSections(sections, indent, slugSeen, ccelBaseUrl, urlList) {
 // workTitle: the title for this work
 // sections: the section tree for this work
 // entry: the manifest entry (for author, lang, category, url)
-function generateYaml(workId, workTitle, sections, entry) {
+// workSectionId: optional div id of the split section (for work-level URL)
+function generateYaml(workId, workTitle, sections, entry, workSectionId) {
   const authorQid = entry.author;
   const lang = entry.lang || "en";
   const origLang = entry.orig_lang || null;
@@ -283,6 +284,11 @@ function generateYaml(workId, workTitle, sections, entry) {
 
   const ccelBaseUrl = ccelPageUrl(entry.url);
   const bookId = ccelBookId(entry.url);
+  const workUrl = workSectionId
+    ? `${ccelBaseUrl}/${bookId}.${workSectionId}.html`
+    : ccelBaseUrl;
+  const pdfUrl = `${ccelBaseUrl}/${bookId}/cache/${bookId}.pdf`;
+  const epubUrl = `${ccelBaseUrl}/${bookId}/cache/${bookId}.epub`;
 
   const slugSeen = new Set();
   const urlList = [];
@@ -314,7 +320,9 @@ function generateYaml(workId, workTitle, sections, entry) {
     out += `      - translator: # FILL IN\n`;
     out += `        sites:\n`;
     out += `          - site: CCEL\n`;
-    out += `            url: ${ccelBaseUrl}\n`;
+    out += `            url: ${workUrl}\n`;
+    out += `            pdf_url: ${pdfUrl}\n`;
+    out += `            epub_url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, id } of urlList) {
@@ -330,7 +338,9 @@ function generateYaml(workId, workTitle, sections, entry) {
     out += `      - year: # FILL IN\n`;
     out += `        sites:\n`;
     out += `          - site: CCEL\n`;
-    out += `            url: ${ccelBaseUrl}\n`;
+    out += `            url: ${workUrl}\n`;
+    out += `            pdf_url: ${pdfUrl}\n`;
+    out += `            epub_url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, id } of urlList) {
@@ -350,7 +360,9 @@ function generateYaml(workId, workTitle, sections, entry) {
     out += `      - year: # FILL IN\n`;
     out += `        sites:\n`;
     out += `          - site: CCEL\n`;
-    out += `            url: ${ccelBaseUrl}\n`;
+    out += `            url: ${workUrl}\n`;
+    out += `            pdf_url: ${pdfUrl}\n`;
+    out += `            epub_url: ${epubUrl}\n`;
     out += `  en:\n`;
     out += `    title: # FILL IN\n`;
     if (sectionsYaml) {
@@ -455,7 +467,7 @@ async function main() {
         for (const section of splitSections) {
           const sectionSlug = makeUniqueSlug(slugify(section.title), idSeen);
           const splitWorkId = `${entry.id}-${sectionSlug}`;
-          const yamlContent = generateYaml(splitWorkId, section.title, section.children, entry);
+          const yamlContent = generateYaml(splitWorkId, section.title, section.children, entry, section.id);
 
           if (combineIntoOne) {
             combinedYaml += (combinedYaml ? "\n" : "") + yamlContent;

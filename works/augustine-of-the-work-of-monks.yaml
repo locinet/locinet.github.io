@@ -98,7 +98,9 @@ augustine-of-the-work-of-monks:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf103.v.vii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - translator-s-preface: https://ccel.org/ccel/s/schaff/npnf103.v.vii.i.html
               - section-1: https://ccel.org/ccel/s/schaff/npnf103.v.vii.ii.html

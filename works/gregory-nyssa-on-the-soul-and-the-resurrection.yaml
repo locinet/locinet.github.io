@@ -1,0 +1,26 @@
+gregory-nyssa-on-the-soul-and-the-resurrection:
+  author: Q191734
+  date_added: 2026-02-20
+  loci: [soul, resurrection-of-the-dead]
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On the Soul and the Resurrection.
+    sections:
+      - argument: Argument.
+        # loci:
+      - on-the-soul-and-the-resurrection: On the Soul and the Resurrection.
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff/npnf205.x.iii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
+            section_urls:
+              - argument: https://ccel.org/ccel/s/schaff/npnf205.x.iii.i.html
+              - on-the-soul-and-the-resurrection: https://ccel.org/ccel/s/schaff/npnf205.x.iii.ii.html

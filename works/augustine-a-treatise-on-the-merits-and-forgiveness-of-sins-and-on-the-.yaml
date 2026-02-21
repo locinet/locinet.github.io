@@ -1,7 +1,7 @@
 augustine-a-treatise-on-the-merits-and-forgiveness-of-sins-and-on-the-:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: [original-sin, baptism]
   la:
     title: # FILL IN
     orig_lang: true
@@ -331,7 +331,9 @@ augustine-a-treatise-on-the-merits-and-forgiveness-of-sins-and-on-the-:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf105.x.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.x.i.html
               - extract-from-augustin-s-retractations: https://ccel.org/ccel/s/schaff/npnf105.x.ii.html

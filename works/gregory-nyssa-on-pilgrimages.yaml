@@ -1,0 +1,18 @@
+gregory-nyssa-on-pilgrimages:
+  author: Q191734
+  date_added: 2026-02-20
+  loci: worship
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: On Pilgrimages.
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff/npnf205.ix.iv.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub

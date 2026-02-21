@@ -6,7 +6,7 @@ viret-disputations:
     title: # FILL IN
     orig_lang: true
   en:
-    title: "The Christian Disputations, by Master Peter Viret. Deuided Into Three Partes, Dialogue Wise: Set Out With Such Grace, That it Cannot Be, but That a Man Shall Take Greate Pleasure in the Reading Thereoff."
+    title: "The Christian Disputations"
     sections:
       - the-argument-and-sum-of-the-first-dialogue: ¶ the Argument and Sum of the First Dialogue.
         # loci:

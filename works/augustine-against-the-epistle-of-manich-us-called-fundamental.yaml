@@ -1,7 +1,7 @@
 augustine-against-the-epistle-of-manich-us-called-fundamental:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: creation
   la:
     title: # FILL IN
     orig_lang: true
@@ -43,7 +43,7 @@ augustine-against-the-epistle-of-manich-us-called-fundamental:
       - the-doctrine-of-manich-us-not-only-uncertain-but-false-his-a: "The Doctrine of Manichæus Not Only Uncertain, But False. His Absurd Fancy of a Land and Race of Darkness Bordering on the Holy Region and the Substance of God. The Error, First of All, of Giving to the Nature of God Limits and Borders, as If God Were a Material Substance, Having Extension in Space."
         # loci:
       - the-soul-though-mutable-has-no-material-form-it-is-all-prese: "The Soul, Though Mutable, Has No Material Form. It is All Present in Every Part of the Body."
-        # loci:
+        loci: soul
       - the-memory-contains-the-ideas-of-places-of-the-greatest-size: The Memory Contains the Ideas of Places of the Greatest Size.
         # loci:
       - the-understanding-judges-of-the-truth-of-things-and-of-its-o: "The Understanding Judges of the Truth of Things, and of Its Own Action."
@@ -102,7 +102,9 @@ augustine-against-the-epistle-of-manich-us-called-fundamental:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf104.iv.viii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.viii.i.html
               - to-heal-heretics-is-better-than-to-destroy-them: https://ccel.org/ccel/s/schaff/npnf104.iv.viii.ii.html

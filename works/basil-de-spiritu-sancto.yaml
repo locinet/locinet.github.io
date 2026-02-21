@@ -76,7 +76,9 @@ basil-de-spiritu-sancto:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf208.vii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf208/cache/npnf208.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf208/cache/npnf208.epub
             section_urls:
               - preface: https://ccel.org/ccel/s/schaff/npnf208.vii.i.html
               - prefatory-remarks-on-the-need-of-exact-investigation-of-the-: https://ccel.org/ccel/s/schaff/npnf208.vii.ii.html

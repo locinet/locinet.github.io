@@ -1,0 +1,146 @@
+gregory-nyssa-the-great-catechism:
+  author: Q191734
+  date_added: 2026-02-20
+  # loci:
+  grc:
+    title: # FILL IN
+    orig_lang: true
+    editions:
+      - year: # FILL IN
+  en:
+    title: The Great Catechism.
+    sections:
+      - summary: Summary.
+        # loci:
+      - prologue: Prologue.
+        # loci:
+      - chapter-i: Chapter I
+        # loci:
+      - chapter-ii: Chapter II
+        # loci:
+      - chapter-iii: Chapter III
+        # loci:
+      - chapter-iv: Chapter IV
+        # loci:
+      - chapter-v: Chapter V
+        # loci:
+      - chapter-vi: Chapter VI
+        # loci:
+      - chapter-vii: Chapter VII
+        # loci:
+      - chapter-viii: Chapter VIII
+        # loci:
+      - chapter-ix: Chapter IX
+        # loci:
+      - chapter-x: Chapter X
+        # loci:
+      - chapter-xi: Chapter XI
+        # loci:
+      - chapter-xii: Chapter XII
+        # loci:
+      - chapter-xiii: Chapter XIII
+        # loci:
+      - chapter-xiv: Chapter XIV
+        # loci:
+      - chapter-xv: Chapter XV
+        # loci:
+      - xvi: XVI
+        # loci:
+      - xvii: XVII
+        # loci:
+      - xviii: XVIII
+        # loci:
+      - chapter-xix: Chapter XIX
+        # loci:
+      - chapter-xx: Chapter XX
+        # loci:
+      - chapter-xxi: Chapter XXI
+        # loci:
+      - chapter-xxii: Chapter XXII
+        # loci:
+      - chapter-xxiii: Chapter XXIII
+        # loci:
+      - chapter-xxiv: Chapter XXIV
+        # loci:
+      - chapter-xxv: Chapter XXV
+        # loci:
+      - chapter-xxvi: Chapter XXVI
+        # loci:
+      - chapter-xxvii: Chapter XXVII
+        # loci:
+      - chapter-xxviii: Chapter XXVIII
+        # loci:
+      - chapter-xxix: Chapter XXIX
+        # loci:
+      - chapter-xxx: Chapter XXX
+        # loci:
+      - chapter-xxxi: Chapter XXXI
+        # loci:
+      - chapter-xxxii: Chapter XXXII
+        # loci:
+      - chapter-xxxiii: Chapter XXXIII
+        # loci:
+      - chapter-xxxiv: Chapter XXXIV
+        # loci:
+      - chapter-xxxv: Chapter XXXV
+        # loci:
+      - chapter-xxxvi: Chapter XXXVI
+        # loci:
+      - chapter-xxxvii: Chapter XXXVII
+        # loci:
+      - chapter-xxxviii: Chapter XXXVIII
+        # loci:
+      - chapter-xxxix: Chapter XXXIX
+        # loci:
+      - chapter-xl: Chapter XL
+        # loci:
+    translations:
+      - translator: # FILL IN
+        sites:
+          - site: CCEL
+            url: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
+            section_urls:
+              - summary: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.i.html
+              - prologue: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.ii.html
+              - chapter-i: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.iii.html
+              - chapter-ii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.iv.html
+              - chapter-iii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.v.html
+              - chapter-iv: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.vi.html
+              - chapter-v: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.vii.html
+              - chapter-vi: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.viii.html
+              - chapter-vii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.ix.html
+              - chapter-viii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.x.html
+              - chapter-ix: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xi.html
+              - chapter-x: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xii.html
+              - chapter-xi: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xiii.html
+              - chapter-xii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xiv.html
+              - chapter-xiii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xv.html
+              - chapter-xiv: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xvi.html
+              - chapter-xv: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xvii.html
+              - xvi: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xviii.html
+              - xvii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xix.html
+              - xviii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xx.html
+              - chapter-xix: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxi.html
+              - chapter-xx: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxii.html
+              - chapter-xxi: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxiii.html
+              - chapter-xxii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxiv.html
+              - chapter-xxiii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxv.html
+              - chapter-xxiv: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxvi.html
+              - chapter-xxv: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxvii.html
+              - chapter-xxvi: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxviii.html
+              - chapter-xxvii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxix.html
+              - chapter-xxviii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxx.html
+              - chapter-xxix: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxi.html
+              - chapter-xxx: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxii.html
+              - chapter-xxxi: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxiii.html
+              - chapter-xxxii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxiv.html
+              - chapter-xxxiii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxv.html
+              - chapter-xxxiv: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxvi.html
+              - chapter-xxxv: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxvii.html
+              - chapter-xxxvi: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxviii.html
+              - chapter-xxxvii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xxxix.html
+              - chapter-xxxviii: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xl.html
+              - chapter-xxxix: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xli.html
+              - chapter-xl: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.xlii.html

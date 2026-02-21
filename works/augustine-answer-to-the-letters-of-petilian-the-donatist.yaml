@@ -1,7 +1,7 @@
 augustine-answer-to-the-letters-of-petilian-the-donatist:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: baptism
   la:
     title: # FILL IN
     orig_lang: true
@@ -421,7 +421,9 @@ augustine-answer-to-the-letters-of-petilian-the-donatist:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf104.v.v.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf104.v.v.i.html
               - preface: https://ccel.org/ccel/s/schaff/npnf104.v.v.ii.html

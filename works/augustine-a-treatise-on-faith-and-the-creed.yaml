@@ -1,7 +1,7 @@
 augustine-a-treatise-on-faith-and-the-creed:
   author: Q8018
   date_added: 2026-02-20
-  # loci:
+  loci: faith
   la:
     title: # FILL IN
     orig_lang: true
@@ -15,28 +15,30 @@ augustine-a-treatise-on-faith-and-the-creed:
       - of-the-origin-and-object-of-the-composition: Of the Origin and Object of the Composition.
         # loci:
       - of-god-and-his-exclusive-eternity: Of God and His Exclusive Eternity.
-        # loci:
+        loci: being-of-god
       - of-the-son-of-god-and-his-peculiar-designation-as-the-word: "Of the Son of God, and His Peculiar Designation as the Word."
-        # loci:
+        loci: person-of-christ
       - of-the-son-of-god-as-neither-made-by-the-father-nor-less-tha: "Of the Son of God as Neither Made by the Father Nor Less Than the Father, and of His Incarnation."
-        # loci:
+        loci: [trinity, incarnation]
       - of-christ-s-passion-burial-and-resurrection: "Of Christ’s Passion, Burial, and Resurrection."
-        # loci:
+        loci: state-of-humiliation
       - of-christ-s-ascension-into-heaven: Of Christ’s Ascension into Heaven.
-        # loci:
+        loci: state-of-exaltation
       - of-christ-s-session-at-the-father-s-right-hand: Of Christ’s Session at the Father’s Right Hand.
-        # loci:
+        loci: state-of-exaltation
       - of-christ-s-coming-to-judgment: Of Christ’s Coming to Judgment.
-        # loci:
+        loci: final-judgement
       - of-the-holy-spirit-and-the-mystery-of-the-trinity: Of the Holy Spirit and the Mystery of the Trinity.
-        # loci:
+        loci: trinity
       - of-the-catholic-church-the-remission-of-sins-and-the-resurre: "Of the Catholic Church, the Remission of Sins, and the Resurrection of the Flesh."
-        # loci:
+        loci: [nature-of-the-church, resurrection-of-the-dead]
     translations:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff
+            url: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.html
+            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - introductory-notice: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.i.html
               - of-the-origin-and-object-of-the-composition: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.ii.html
