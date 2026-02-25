@@ -313,7 +313,9 @@ voet-regeneration:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - appendix: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/
               - a-s1: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-some-questions-concerning-the-deaf-and-the-mentally-incapacitated/#a-the-state-of-salvation-of-the-deaf

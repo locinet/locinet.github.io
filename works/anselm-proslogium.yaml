@@ -13,6 +13,10 @@ anselm-proslogium:
         year: 1909
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/a/anselm/basic_works.iii.html
-            pdf_url: https://ccel.org/ccel/a/anselm/basic_works/cache/basic_works.pdf
-            epub_url: https://ccel.org/ccel/a/anselm/basic_works/cache/basic_works.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/a/anselm/basic_works.iii.html
+              - type: PDF
+                url: https://ccel.org/ccel/a/anselm/basic_works/cache/basic_works.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/a/anselm/basic_works/cache/basic_works.epub

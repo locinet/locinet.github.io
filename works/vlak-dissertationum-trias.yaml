@@ -99,8 +99,9 @@ vlak-dissertationum-trias:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Vlak-A-Triad-of-Dissertations-on-the-Covenants-and-Justification-contra-Leydekker.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Vlak-A-Triad-of-Dissertations-on-the-Covenants-and-Justification-contra-Leydekker.pdf
             section_urls:
               - diss-1: https://reformedbooksonline.com/wp-content/uploads/2026/02/Vlak-A-Triad-of-Dissertations-on-the-Covenants-and-Justification-contra-Leydekker.pdf#page=71
               - d1-s1c1: https://reformedbooksonline.com/wp-content/uploads/2026/02/Vlak-A-Triad-of-Dissertations-on-the-Covenants-and-Justification-contra-Leydekker.pdf#page=71

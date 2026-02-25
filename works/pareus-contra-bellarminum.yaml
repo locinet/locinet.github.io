@@ -19,7 +19,8 @@ pareus-contra-bellarminum:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Pareus-David-On-the-Loss-of-Grace-Bk-1-Ch-7.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Pareus-David-On-the-Loss-of-Grace-Bk-1-Ch-7.pdf
             section_urls:
               - b1c7: https://reformedbooksonline.com/wp-content/uploads/2026/02/Pareus-David-On-the-Loss-of-Grace-Bk-1-Ch-7.pdf

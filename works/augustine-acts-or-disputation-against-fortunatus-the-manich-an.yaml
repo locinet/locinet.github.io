@@ -20,9 +20,13 @@ augustine-acts-or-disputation-against-fortunatus-the-manich-an:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.i.html
               - disputation-of-the-first-day: https://ccel.org/ccel/s/schaff/npnf104.iv.vii.ii.html

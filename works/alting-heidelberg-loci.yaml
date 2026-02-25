@@ -744,7 +744,9 @@ alting-heidelberg-loci:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - locus-1: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology/
               - locus-2: https://confessionallyreformed.wordpress.com/2025/12/26/johann-heinrich-alting-c-1583-1644-on-the-principle-of-theology-the-word-of-god/

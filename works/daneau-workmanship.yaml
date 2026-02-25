@@ -106,9 +106,13 @@ daneau-workmanship:
         earlyprint: A19803
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A19803.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A19/A19803_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A19/A19803_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A19803.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A19/A19803_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A19/A19803_standard.epub
             section_urls:
               - an-excellent-discourse-of-christian-natural-philosophy: https://texts.earlyprint.org/works/A19803.xml?page=005-b
               - the-first-chapter-what-natural-philosophy-is-and-how-many-ki: https://texts.earlyprint.org/works/A19803.xml?page=006-a

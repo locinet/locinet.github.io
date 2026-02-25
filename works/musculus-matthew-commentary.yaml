@@ -9,7 +9,9 @@ musculus-matthew-commentary:
         place: Basel
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=vwQ-AAAAcAAJ
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=vwQ-AAAAcAAJ
   en:
     title: Commentary on the Gospel of Matthew
     sections:
@@ -20,5 +22,6 @@ musculus-matthew-commentary:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AJzzCiHgjB_QrzPDhEUE_R8?dl=0&e=2&preview=%5BWolfgang+Musculus%5D+Loving+Thy+Neighbor.+Commentary+on+Matthew+5.pdf&rlkey=fxax6agqlrzlwoukaiwdgtedf&st=419dw1p9
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AJzzCiHgjB_QrzPDhEUE_R8?dl=0&e=2&preview=%5BWolfgang+Musculus%5D+Loving+Thy+Neighbor.+Commentary+on+Matthew+5.pdf&rlkey=fxax6agqlrzlwoukaiwdgtedf&st=419dw1p9

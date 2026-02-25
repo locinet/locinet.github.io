@@ -52,8 +52,9 @@ ockham-ordinatio:
     translations:
       - sites:
           - site: Aristotelophile
-            url: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf"
-            pdf: true
+            formats:
+              - type: PDF
+                url: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf"
             section_urls:
               - ockham-ord-prologue-q1: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=7"
               - ockham-ord-prologue-q2: "https://aristotelophile.com/Books/Translations/Ockham%20Prologue.pdf#page=41"

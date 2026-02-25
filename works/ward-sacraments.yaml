@@ -8,5 +8,6 @@ ward-sacraments:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Ward-Samuel-On-the-Sacraments.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Ward-Samuel-On-the-Sacraments.pdf

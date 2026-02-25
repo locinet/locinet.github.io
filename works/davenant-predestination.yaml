@@ -35,8 +35,9 @@ davenant-predestination:
       - translator: unknown
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Davenant-John-On-Predestination-Reprobation.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Davenant-John-On-Predestination-Reprobation.pdf
             section_urls:
               - ch1-prolegomena: https://reformedbooksonline.com/wp-content/uploads/2026/02/Davenant-John-On-Predestination-Reprobation.pdf#page=4
               - ch2-foreseen-merits: https://reformedbooksonline.com/wp-content/uploads/2026/02/Davenant-John-On-Predestination-Reprobation.pdf#page=20

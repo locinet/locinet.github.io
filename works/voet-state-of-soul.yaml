@@ -9,5 +9,6 @@ voet-state-of-soul:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Voet-Gisbert-Some-Problems-on-the-State-of-the-Soul-after-Death.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Voet-Gisbert-Some-Problems-on-the-State-of-the-Soul-after-Death.pdf

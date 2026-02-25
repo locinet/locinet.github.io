@@ -15,7 +15,9 @@ placeus-justification:
         place: Saumur
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=redb4dlhJQMC
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=redb4dlhJQMC
   en:
     title: Theological Theses on the Justification of Man before God
     translations:

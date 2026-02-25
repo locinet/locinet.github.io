@@ -1,0 +1,82 @@
+claude-treatise-jesus-christ:
+  date_added: 2026-02-21
+  author: Q327246
+  loci: christ
+  fr:
+    title: Traité de Jésus-Christ
+    orig_lang: true
+  en:
+    title: Treatise on Jesus Christ
+    sections:
+      - claude-tjc-book1: Book One. Treatise on the Principle by Which Jesus Christ Came into the World
+        loci: incarnation
+        sections:
+          - claude-tjc-1-i: Chapter I. Whether Jesus Christ Would Have Come into the World Even if Adam Had Not Sinned
+          - claude-tjc-1-ii: Chapter II. What Is This Supernatural Principle of the Coming of Jesus Christ
+          - claude-tjc-1-iii: Chapter III. If It Was Arbitrary for God to Send Jesus Christ, or Not to Send Him
+          - claude-tjc-1-iv: Chapter IV. If the Crime of One Person Can Be Punished in the Person of Another
+            loci: atonement
+          - claude-tjc-1-vi: Chapter VI. If These Reasons Obliged God to Send Us His Son
+          - claude-tjc-1-vii: Chapter VII. If, Supposing That God Wanted to Save Us, He Could Do So without Sending His Son
+            loci: atonement
+          - claude-tjc-1-viii: Chapter VIII. If God Could Not Save Men by Other Means Than by the Death of His Son
+          - claude-tjc-1-ix: Chapter IX. If Jesus Christ Came into the World by a Love of God toward Men
+            loci: divine-love
+          - claude-tjc-1-x: Chapter X. Why the Coming of Jesus Christ Is Attributed to the Sending Which the Father Made of His Son
+      - claude-tjc-book2: Book Two. Of the Dispositions or Preparations Which Preceded the Coming of Jesus Christ
+        loci: old-covenant
+        sections:
+          - claude-tjc-2-i: Chapter I. Of the Dispositions Common to All Men
+          - claude-tjc-2-ii: Chapter II. Of the Oracles
+          - claude-tjc-2-iii: Chapter III. Of the Oracles Contained in the Book of Genesis
+          - claude-tjc-2-iv: Chapter IV. Of the Oracle Contained in the Book of Numbers
+          - claude-tjc-2-v: Chapter V. Of the Oracles Contained in the Book of Deuteronomy
+          - claude-tjc-2-vi: Chapter VI. Of the Oracle Contained in the Book of Job
+          - claude-tjc-2-vii: Chapter VII. Of the Oracles Contained in the Book of Psalms
+          - claude-tjc-2-viii: Chapter VIII. Of the Oracles Contained in the Book of the Song of Songs
+          - claude-tjc-2-ix: Chapter IX. Of the Oracles Contained in the Book of Isaiah
+          - claude-tjc-2-x: Chapter X. Of the Oracles Contained in the Book of Jeremiah
+          - claude-tjc-2-xi: Chapter XI. Of the Oracles Contained in the Book of Ezekiel
+          - claude-tjc-2-xii: Chapter XII. Of the Oracles Contained in the Book of Daniel
+          - claude-tjc-2-xiii: Chapter XIII. Of the Oracles Contained in the Book of Hosea
+          - claude-tjc-2-xiv: Chapter XIV. Of the Oracle Contained in the Book of Joel
+          - claude-tjc-2-xv: Chapter XV. Of the Oracle Contained in the Book of Amos
+          - claude-tjc-2-xvi: Chapter XVI. Of the Oracles Contained in the Book of Micah
+          - claude-tjc-2-xvii: Chapter XVII. Of the Oracle Contained in the Book of Zephaniah
+          - claude-tjc-2-xviii: Chapter XVIII. Of the Oracle Contained in the Book of Haggai
+          - claude-tjc-2-xix: Chapter XIX. Of the Oracles Contained in the Book of Zechariah
+          - claude-tjc-2-xx: Chapter XX. Of the Oracles Contained in the Book of Malachi
+          - claude-tjc-2-xxi: Chapter XXI. Of the Types or Figures Which Have Represented Jesus Christ
+          - claude-tjc-2-xxii: Chapter XXII. Of the Rigors or Severities of the Legal Alliance
+            loci: ceremonial-law
+          - claude-tjc-2-xxiii: Chapter XXIII. Of the Weakness and of the Yoke of Ceremonies
+            loci: ceremonial-law
+          - claude-tjc-2-xxiv: Chapter XXIV. Of the Spirit of Servitude
+      - claude-tjc-book3: Book Three. Of the Person and of the Natures of Jesus Christ
+        sections:
+          - claude-tjc-3-i: Chapter I. Of the Person of Jesus Christ
+            loci: person-of-christ
+          - claude-tjc-3-ii: Chapter II. Of the Two Natures of Jesus Christ
+            loci: natures-of-christ
+      - claude-tjc-book4: Book Four. Of the Offices or Charges of Jesus Christ
+        loci: offices-of-christ
+        sections:
+          - claude-tjc-4-i: Chapter I. Of the Names by Which Holy Scripture Expresses the Charge of Mediator
+          - claude-tjc-4-ii: Chapter II. Of the Sense in Which One Must Understand the Term of Mediator When It Is Applied to Jesus Christ
+          - claude-tjc-4-iii: Chapter III. In What the Acts of the Mediation of Jesus Christ Consist
+          - claude-tjc-4-iv: Chapter IV. Of the Necessity of the Mediator
+          - claude-tjc-4-v: Chapter V. Of the Qualities Which Must Be in the Person of the Mediator
+          - claude-tjc-4-vi: Chapter VI. Of the Establishment of Jesus Christ in the Office of Mediator
+          - claude-tjc-4-vii: Chapter VII. Of the Three Charges of Jesus Christ Considered in Common
+          - claude-tjc-4-viii: Chapter VIII. Of the Prophecy of Jesus Christ in General
+            loci: prophetic-office
+          - claude-tjc-4-ix: Chapter IX. Concerning the Prophecy of Jesus Christ Considered in Itself
+          - claude-tjc-4-x: Chapter X. Concerning the Prophecy of Jesus Christ, Considered by Application to His Person
+    translations:
+      - translator: Nosferatu
+        AI: true
+        sites:
+          - site: Dropbox
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AMBfFC7SfZR8GiQCZwAX77Q/%5BJean%20Claude%5D%20The%20Posthumous%20Works%20of%20Mr.Claude.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&e=2&dl=0

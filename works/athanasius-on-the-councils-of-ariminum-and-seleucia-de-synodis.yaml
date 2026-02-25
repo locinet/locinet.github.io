@@ -25,9 +25,13 @@ athanasius-on-the-councils-of-ariminum-and-seleucia-de-synodis:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf204.xxii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf204.xxii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xxii.i.html
               - on-the-councils-of-ariminum-and-seleucia-de-synodis: https://ccel.org/ccel/s/schaff/npnf204.xxii.ii.html

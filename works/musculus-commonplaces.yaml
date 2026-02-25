@@ -467,7 +467,9 @@ musculus-commonplaces:
         AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - god: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-1497-1563-on-god/
               - works-of-god: https://confessionallyreformed.wordpress.com/2026/01/01/wolfgang-musculus-c-1497-1563-on-the-works-of-god/

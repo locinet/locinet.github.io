@@ -1,0 +1,17 @@
+amyraut-universal-grace:
+  date_added: 2026-02-21
+  author: Q1236249
+  loci: grace
+  la:
+    title: # FILL IN
+    orig_lang: true
+  en:
+    title: Specimen of Animadversions on the Exercitations Concerning Universal Grace
+    translations:
+      - translator: Nosferatu
+        AI: true
+        sites:
+          - site: Dropbox
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AIF5HlBjI8phAHzj_TY_d6o/%5BMoses%20Amyraut%5D%20Specimen%20of%20Animadversions%20on%20the%20Exercitations%20Concerning%20Universal%20Grace.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&e=2&dl=0

@@ -13,6 +13,10 @@ augustine-dedication-of-volume-i-of-the-edinburgh-edition:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf105.vi.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf105.vi.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub

@@ -952,7 +952,9 @@ synopsis-purioris-theologiae:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - disp1: https://confessionallyreformed.wordpress.com/2026/01/04/the-professors-of-leiden-c-1565-1651-on-sacred-theology/
               - disp24: https://confessionallyreformed.wordpress.com/2025/11/26/the-professors-of-leiden-c-1565-1651-on-divine-predestination/

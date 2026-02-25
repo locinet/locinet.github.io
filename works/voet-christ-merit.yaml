@@ -45,4 +45,6 @@ voet-christ-merit:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-whether-christ-merited-special-grace-of-regeneration-and-faith-for-the-elect-and-those-to-be-saved/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/01/19/gisbertus-voetius-c-1589-1676-on-whether-christ-merited-special-grace-of-regeneration-and-faith-for-the-elect-and-those-to-be-saved/

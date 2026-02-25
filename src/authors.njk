@@ -158,12 +158,16 @@ eleventyComputed:
             {%- set hasSiteLink = false -%}
             {%- for s in t.sites %}
               {%- if (s.sectionTexts | length > 0) or s.workText %}
-                {# Local/text site — skip site name, show download links below #}
-              {%- elif s.url %}
+                {# Local/text site — skip site name; show formats if defined, otherwise download links appear below #}
+                {%- if s.formats | length > 0 %}
+                  {%- if hasSiteLink %}, {% else %} {% endif -%}
+                  {%- for f in s.formats %}[<a href="{{ f.url }}" target="_blank" rel="noopener noreferrer">{{ f.type }}</a>] {% endfor -%}
+                  {%- set hasSiteLink = true -%}
+                {%- endif -%}
+              {%- elif s.formats | length > 0 %}
                 {%- if hasSiteLink %}, {% else %} {% endif -%}
-                <a href="{{ s.url }}">{{ s.siteName }}</a>
-                {%- if s.pdfUrl %} (<a href="{{ s.pdfUrl }}">PDF</a>){% endif -%}
-                {%- if s.epubUrl %} (<a href="{{ s.epubUrl }}">EPUB</a>){% endif -%}
+                {{ s.siteName }}
+                {%- for f in s.formats %} [<a href="{{ f.url }}" target="_blank" rel="noopener noreferrer">{{ f.type }}</a>]{% endfor -%}
                 {%- set hasSiteLink = true -%}
               {%- elif s.volumes %}
                 {%- if hasSiteLink %}, {% else %} {% endif -%}
@@ -179,7 +183,7 @@ eleventyComputed:
                 {%- set hasSiteLink = true -%}
               {%- endif -%}
             {%- endfor -%}
-            {%- if hasText -%}
+            {%- if hasText and not t.hasFormats -%}
               {%- if hasSiteLink %}, {% endif -%}
               {% if work.pdfUrl -%}
                 <a href="{{ work.pdfUrl }}">PDF</a>
@@ -200,8 +204,7 @@ eleventyComputed:
               {%- if s.url %}
                 {%- if hasSiteLink %}, {% else %} {% endif -%}
                 <a href="{{ s.url }}">{{ s.siteName }}</a>
-                {%- if s.pdfUrl %} (<a href="{{ s.pdfUrl }}">PDF</a>){% endif -%}
-                {%- if s.epubUrl %} (<a href="{{ s.epubUrl }}">EPUB</a>){% endif -%}
+                {%- for f in s.formats %} [<a href="{{ f.url }}" target="_blank" rel="noopener noreferrer">{{ f.type }}</a>]{% endfor -%}
                 {%- set hasSiteLink = true -%}
               {%- endif -%}
             {%- endfor %}
@@ -222,7 +225,7 @@ eleventyComputed:
 
     {# Work-level text (no sections) #}
     {% if work.workText %}
-      <div class="work-text work-text-collapsed">{{ work.workText }}</div>
+      <div class="work-text work-text-collapsed">{{ work.workText | safe }}</div>
     {% endif %}
 
     {# Sections #}
@@ -268,7 +271,7 @@ eleventyComputed:
             {% endif %}
             {# Expandable text #}
             {% if sText %}
-              <div class="section-text">{{ sText }}</div>
+              <div class="section-text">{{ sText | safe }}</div>
             {% endif %}
           </li>
         {% endfor %}

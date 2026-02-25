@@ -10,7 +10,9 @@ bergius-johann-salvation:
         place: Berlin
         sites:
           - site: SBB
-            url: https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN603371396
+            formats:
+              - type: HTML
+                url: https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN603371396
   en:
     title: On the Will of God Concerning the Salvation of All Men
     translations:
@@ -18,5 +20,6 @@ bergius-johann-salvation:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AKfF5OcAsp_S63Vkph3-h_c/%5BJohann%20Bergius%5D%20The%20Will%20of%20God%20Concerning%20the%20Salvation%20of%20All%20Men.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AKfF5OcAsp_S63Vkph3-h_c/%5BJohann%20Bergius%5D%20The%20Will%20of%20God%20Concerning%20the%20Salvation%20of%20All%20Men.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

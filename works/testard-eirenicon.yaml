@@ -1,0 +1,39 @@
+testard-eirenicon:
+  date_added: 2026-02-21
+  author: Q58821471
+  loci: grace
+  fr:
+    title: Éirénicon ou Synopsis de la doctrine touchant la nature et la grâce
+    orig_lang: true
+    editions:
+      - year: 1633
+        place: Blois
+  en:
+    title: "Eirenicon, or Synopsis of the Doctrine Concerning Nature and Grace"
+    sections:
+      - testard-synopsis: Synopsis of the Doctrine Concerning Nature and Grace
+      - testard-effects-of-faith: Concerning the Effects of Faith
+        sections:
+          - testard-union-with-christ: I. Concerning Union with Christ
+            loci: union-with-christ
+          - testard-lords-supper: Concerning Union with Christ in the Sacrament of the Lord's Supper
+            loci: lords-supper
+          - testard-adoption: Concerning the Adoption of the Faithful
+            loci: adoption
+          - testard-justification: Concerning Justification through Faith
+            loci: justification
+          - testard-assurance: Concerning the Sense of Justification and Peace of Spirit
+            loci: assurance
+          - testard-object-justification: Concerning the Object of Justification
+          - testard-sanctification: Concerning Sanctification or the New Life
+            loci: sanctification
+          - testard-glorification: Concerning the Glorification of the Faithful
+            loci: glorification
+    translations:
+      - translator: Nosferatu
+        AI: true
+        sites:
+          - site: Dropbox
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/ADDfjCUfjWRDz5TtbP2h9MI/%5BPaul%20Testard%5DSynopsis%20on%20the%20Doctrine%20Concerning%20Nature%20%26%20Grace.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&e=2&dl=0

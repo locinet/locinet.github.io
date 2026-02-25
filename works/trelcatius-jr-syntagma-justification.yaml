@@ -44,4 +44,6 @@ trelcatius-jr-syntagma-justification:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/01/17/lucas-trelcatius-jr-c-1573-1607-on-the-justification-of-man-before-god-2/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/01/17/lucas-trelcatius-jr-c-1573-1607-on-the-justification-of-man-before-god-2/

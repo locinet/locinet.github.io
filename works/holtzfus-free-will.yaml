@@ -14,5 +14,6 @@ holtzfus-free-will:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Holtzfuz-Barthold-Theological-Dissertation-on-the-Free-Will-of-Man.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Holtzfuz-Barthold-Theological-Dissertation-on-the-Free-Will-of-Man.pdf

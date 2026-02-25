@@ -110,9 +110,13 @@ augustine-a-treatise-concerning-man-s-perfection-in-righteousness:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf105.xiii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf105.xiii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xiii.i.html
               - preface-to-the-treatise-on-man-s-perfection-in-righteousness: https://ccel.org/ccel/s/schaff/npnf105.xiii.ii.html

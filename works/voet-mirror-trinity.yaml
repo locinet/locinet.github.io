@@ -9,5 +9,6 @@ voet-mirror-trinity:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Voet-On-the-Mirror-of-the-Trinity.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Voet-On-the-Mirror-of-the-Trinity.pdf

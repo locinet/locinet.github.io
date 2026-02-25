@@ -1,12 +1,13 @@
 la-placette-premotion:
   author: Q12319161
   date_added: 2026-02-09
-  loci: providence
+  loci: divine-concurrence
   en:
     title: "La Placette vs. Naudé on Premotion, Concurrence & Decrees"
     translations:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/La-Placette-vs-Naude-on-Premotion-Concurrence-and-Decrees.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/La-Placette-vs-Naude-on-Premotion-Concurrence-and-Decrees.pdf

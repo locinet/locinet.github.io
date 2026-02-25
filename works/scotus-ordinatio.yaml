@@ -52,29 +52,29 @@ scotus-ordinatio:
           - scotus-ord-i-d3: Distinction 3. On the Trinity and Natural Knowledge
             loci: [trinity, faith-and-reason, natural-theology]
           - scotus-ord-i-d4: Distinction 4. On the Generation of the Son
-            loci: trinity
+            loci: divine-processions
           - scotus-ord-i-d5: Distinction 5. On Divine Paternity
-            loci: trinity
+            loci: divine-persons
           - scotus-ord-i-d6: Distinction 6. On the Procession of the Holy Spirit
-            loci: trinity
+            loci: divine-processions
           - scotus-ord-i-d7: Distinction 7. On the Holy Spirit and Spiration
-            loci: trinity
+            loci: divine-processions
           - scotus-ord-i-d8: Distinction 8. On the Distinction of the Divine Persons
-            loci: trinity
+            loci: divine-persons
           - scotus-ord-i-d9: Distinction 9. On Personal Properties
-            loci: trinity
+            loci: divine-processions
           - scotus-ord-i-d10: Distinction 10. On the Number of Divine Relations
-            loci: trinity
+            loci: divine-processions
           - scotus-ord-i-d11: Distinction 11. On the Appropriation of Attributes to Persons
             loci: [trinity, attributes-of-god]
           - scotus-ord-i-d12: Distinction 12. On the Equality of the Divine Persons
-            loci: trinity
+            loci: divine-persons
           - scotus-ord-i-d13: Distinction 13. On Similarity among the Persons
-            loci: trinity
+            loci: divine-persons
           - scotus-ord-i-d14: Distinction 14. On the Mutual Knowledge of the Persons
-            loci: [trinity, knowledge-of-god]
+            loci: [divine-persons, knowledge-of-god]
           - scotus-ord-i-d15: Distinction 15. On the Procession of Love and the Holy Spirit
-            loci: [trinity, divine-love]
+            loci: [divine-processions, divine-love]
           - scotus-ord-i-d16: Distinction 16. On the Missions of the Divine Persons
             loci: trinity
           - scotus-ord-i-d17: Distinction 17. On the Temporal Mission of the Spirit
@@ -82,19 +82,19 @@ scotus-ordinatio:
           - scotus-ord-i-d18: Distinction 18. On the Invisible Sending of the Spirit
             loci: trinity
           - scotus-ord-i-d19: Distinction 19. On the Relations of Persons to Works
-            loci: trinity
+            loci: divine-processions
           - scotus-ord-i-d20: Distinction 20. On the Divine Essence and Real Relations
-            loci: [trinity, divine-simplicity]
+            loci: [divine-processions, divine-simplicity]
           - scotus-ord-i-d21: Distinction 21. On the Formal Distinction in God
-            loci: [trinity, divine-simplicity]
+            loci: [divine-processions, divine-simplicity]
           - scotus-ord-i-d22: Distinction 22. On Relative and Absolute Terms in God
-            loci: trinity
+            loci: divine-processions
           - scotus-ord-i-d23: Distinction 23. On the Signification of Notional Names
-            loci: [trinity, names-of-god]
+            loci: [divine-persons, names-of-god]
           - scotus-ord-i-d24: Distinction 24. On Whether Notional Names Are Said Essentially
-            loci: [trinity, names-of-god]
+            loci: [divine-persons, names-of-god]
           - scotus-ord-i-d25: Distinction 25. On Whether the Persons Can Be Multiplied
-            loci: trinity
+            loci: divine-persons
           - scotus-ord-i-d26: Distinction 26. On Divine Knowledge
             loci: knowledge-of-god
           - scotus-ord-i-d27: Distinction 27. On the Comprehensiveness of Divine Knowledge
@@ -420,13 +420,13 @@ scotus-ordinatio:
           - scotus-ord-iv-d26: Distinction 26. On the Sacrament of Marriage
             loci: marriage
           - scotus-ord-iv-d27: Distinction 27. On the Impediments to Marriage
-            loci: marriage
+            loci: marriage-impediments
           - scotus-ord-iv-d28: Distinction 28. On the Goods of Marriage
-            loci: marriage
+            loci: goods-of-marriage
           - scotus-ord-iv-d29: Distinction 29. On Betrothal
-            loci: marriage
+            loci: marital-consent
           - scotus-ord-iv-d30: Distinction 30. On the Consent Required for Marriage
-            loci: marriage
+            loci: marital-consent
           - scotus-ord-iv-d31: Distinction 31. On Bigamy and Divorce
             loci: marriage
           - scotus-ord-iv-d32: Distinction 32. On the Indissolubility of Marriage
@@ -434,27 +434,27 @@ scotus-ordinatio:
           - scotus-ord-iv-d33: Distinction 33. On the Effects of Marriage
             loci: marriage
           - scotus-ord-iv-d34: Distinction 34. On Irregular Marriages and Consanguinity
-            loci: marriage
+            loci: marriage-impediments
           - scotus-ord-iv-d35: Distinction 35. On Affinity
-            loci: marriage
+            loci: marriage-impediments
           - scotus-ord-iv-d36: Distinction 36. On Spiritual Relationship as Impediment
-            loci: marriage
+            loci: marriage-impediments
           - scotus-ord-iv-d37: Distinction 37. On the Crime Impediment
-            loci: marriage
+            loci: marriage-impediments
           - scotus-ord-iv-d38: Distinction 38. On the Impediment of Disparity of Cult
-            loci: marriage
+            loci: marriage-impediments
           - scotus-ord-iv-d39: Distinction 39. On Clandestine Marriage
-            loci: marriage
+            loci: marital-consent
           - scotus-ord-iv-d40: Distinction 40. On the Impediment of Holy Orders
-            loci: marriage
+            loci: marriage-impediments
           - scotus-ord-iv-d41: Distinction 41. On the Impediment of Solemn Vow
-            loci: marriage
+            loci: marriage-impediments
           - scotus-ord-iv-d42: Distinction 42. On Matrimonial Law
             loci: marriage
           - scotus-ord-iv-d43: Distinction 43. On the Resurrection of the Dead
             loci: resurrection-of-the-dead
           - scotus-ord-iv-d44: Distinction 44. On the Properties of the Risen Body
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - scotus-ord-iv-d45: Distinction 45. On Purgatory
             loci: [purgatory, intermediate-state]
           - scotus-ord-iv-d46: Distinction 46. On the State of Souls after Death
@@ -472,7 +472,9 @@ scotus-ordinatio:
       - translator: Peter L. P. Simpson
         sites:
           - site: Aristotelophile
-            url: https://www.aristotelophile.com/current.htm
+            formats:
+              - type: HTML
+                url: https://www.aristotelophile.com/current.htm
             section_urls:
               # Prologue
               - scotus-ord-prol: https://aristotelophile.com/Books/Translations/Scotus%20Prologue.pdf

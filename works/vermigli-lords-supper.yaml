@@ -17,8 +17,12 @@ vermigli-lords-supper:
         earlyprint: A14347
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A14347.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A14/A14347_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A14/A14347_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A14347.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A14/A14347_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A14/A14347_standard.epub
             section_urls:
               - a-discourse-upon-the-sacrament-of-the-lords-supper-solemnly-: https://texts.earlyprint.org/works/A14347.xml?page=006-a

@@ -15,4 +15,6 @@ alexius-covenants:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/02/08/caspar-alexius-c-1581-1626-on-fecial-law-or-on-covenants/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/02/08/caspar-alexius-c-1581-1626-on-fecial-law-or-on-covenants/

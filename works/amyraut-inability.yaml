@@ -15,5 +15,6 @@ amyraut-inability:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AJzzCiHgjB_QrzPDhEUE_R8?dl=0&e=2&preview=%5BMoses+Amyraut%5D+The+Distinction+of+Natural+and+Moral+inability.pdf&rlkey=fxax6agqlrzlwoukaiwdgtedf&st=419dw1p9
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AJzzCiHgjB_QrzPDhEUE_R8?dl=0&e=2&preview=%5BMoses+Amyraut%5D+The+Distinction+of+Natural+and+Moral+inability.pdf&rlkey=fxax6agqlrzlwoukaiwdgtedf&st=419dw1p9

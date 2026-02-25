@@ -18,9 +18,13 @@ athanasius-synodal-letter-to-the-bishops-of-africa-ad-afros-epistola-sy:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf204.xxiv.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf204.xxiv.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xxiv.i.html
               - synodal-letter-to-the-bishops-of-africa-ad-afros-epistola-sy: https://ccel.org/ccel/s/schaff/npnf204.xxiv.ii.html

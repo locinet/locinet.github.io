@@ -5,11 +5,13 @@ palatinate-delegation-baptism:
     - Q1971867
   date_added: 2026-02-09
   corporate_author: "Palatinate Delegation at the Synod of Dordt"
-  loci: baptism
+  loci: infant-baptism
   en:
     title: Judgment of the Palatinate Theologians Concerning the Baptism of Children Born to Pagan Parents
     translations:
       - translator: Michael Lynch
         sites:
           - site: Translationes Lyncei
-            url: https://michaellynch.substack.com/p/the-palatinate-delegation-at-the
+            formats:
+              - type: HTML
+                url: https://michaellynch.substack.com/p/the-palatinate-delegation-at-the

@@ -143,7 +143,9 @@ alting-elenctic:
         AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/02/04/johann-heinrich-alting-c-1583-1644-on-elenctic-theology/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/02/04/johann-heinrich-alting-c-1583-1644-on-elenctic-theology/
             section_urls:
               - prooemium: https://confessionallyreformed.wordpress.com/2026/02/04/johann-heinrich-alting-c-1583-1644-on-elenctic-theology/
               - 13: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-2/
@@ -151,7 +153,9 @@ alting-elenctic:
         AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Alting-On-the-Law-and-Gospel-in-Elenctics-and-Problematics.pdf
+            formats:
+              - type: HTML
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Alting-On-the-Law-and-Gospel-in-Elenctics-and-Problematics.pdf
             section_urls:
               - 10: https://reformedbooksonline.com/wp-content/uploads/2026/02/Alting-On-the-Law-and-Gospel-in-Elenctics-and-Problematics.pdf#page=7
               - 11: https://reformedbooksonline.com/wp-content/uploads/2026/02/Alting-On-the-Law-and-Gospel-in-Elenctics-and-Problematics.pdf#page=52

@@ -77,4 +77,6 @@ gomarus-mass:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/02/01/franciscus-gomarus-c-1563-1641-on-the-mass/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/02/01/franciscus-gomarus-c-1563-1641-on-the-mass/

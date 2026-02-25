@@ -80,7 +80,7 @@ virel-treatise:
             loci: prayer
             sections:
               - the-exposition-of-the-lords-prayer: The Exposition of the Lords Prayer.
-                # loci:
+                loci: lords-prayer
                 sections:
                   - the-preface-of-the-lords-prayer: The Preface of the Lords Prayer.
                     # loci:
@@ -115,9 +115,13 @@ virel-treatise:
         earlyprint: A14450
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A14450.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A14/A14450_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A14/A14450_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A14450.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A14/A14450_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A14/A14450_standard.epub
             section_urls:
               - the-first-book-of-christian-religion-wherein-the-grounds-of-: https://texts.earlyprint.org/works/A14450.xml?page=005-b
               - chap-i-of-the-knowledge-of-god-who-being-perfectly-just-and-: https://texts.earlyprint.org/works/A14450.xml?page=006-a

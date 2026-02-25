@@ -39,9 +39,13 @@ athanasius-defence-against-the-arians-apologia-contra-arianos:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf204.xiii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf204.xiii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xiii.i.html
               - apologia-contra-arianos-defence-against-the-arians: https://ccel.org/ccel/s/schaff/npnf204.xiii.ii.html

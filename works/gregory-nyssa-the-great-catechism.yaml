@@ -98,9 +98,13 @@ gregory-nyssa-the-great-catechism:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
             section_urls:
               - summary: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.i.html
               - prologue: https://ccel.org/ccel/s/schaff/npnf205.xi.ii.ii.html

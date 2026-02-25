@@ -22,9 +22,13 @@ keckermann-heavenly-knowledge:
         earlyprint: A04766
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A04766.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A04/A04766_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A04/A04766_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A04766.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A04/A04766_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A04/A04766_standard.epub
             section_urls:
               - a-godly-and-devout-treatise-teaching-with-what-due-preparati: https://texts.earlyprint.org/works/A04766.xml?page=017-b
               - the-second-part-of-this-celestial-science-which-is-touching-: https://texts.earlyprint.org/works/A04766.xml?page=037-b

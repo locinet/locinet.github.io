@@ -16,4 +16,6 @@ polanus-letter-spirit:
         AI: true
         sites:
           - site: Obedientia Mortis Christi
-            url: https://matthaeusmac.substack.com/p/amandus-polanus-on-the-letter-and
+            formats:
+              - type: HTML
+                url: https://matthaeusmac.substack.com/p/amandus-polanus-on-the-letter-and

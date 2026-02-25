@@ -8,9 +8,13 @@ charnock-reconciliation:
       - year: 1680
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/c/charnock/reconcil
-            pdf_url: https://ccel.org/ccel/c/charnock/reconcil/cache/reconcil.pdf
-            epub_url: https://ccel.org/ccel/c/charnock/reconcil/cache/reconcil.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/c/charnock/reconcil
+              - type: PDF
+                url: https://ccel.org/ccel/c/charnock/reconcil/cache/reconcil.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/c/charnock/reconcil/cache/reconcil.epub
             section_urls:
               - introduction: https://ccel.org/ccel/c/charnock/reconcil.ii.html
               - what-reconciliation-is: https://ccel.org/ccel/c/charnock/reconcil.iii.html

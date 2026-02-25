@@ -9,9 +9,13 @@ polhill-divine-will:
         place: London
         sites:
           - site: EEBO
-            url: https://quod.lib.umich.edu/e/eebo/A55305.0001.001?view=toc
+            formats:
+              - type: HTML
+                url: https://quod.lib.umich.edu/e/eebo/A55305.0001.001?view=toc
           - site: Internet Archive
-            url: https://archive.org/details/essayonextentofd00polh/page/n3/mode/2up
+            formats:
+              - type: HTML
+                url: https://archive.org/details/essayonextentofd00polh/page/n3/mode/2up
     sections:
       - extent-death-of-christ: The Extent of the Death of Christ
         loci: extent-of-atonement
@@ -20,5 +24,6 @@ polhill-divine-will:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AHJ9xdAOyj9ZPrmhGejOflU/%5BEdward%20Polhill%5D%20The%20Extent%20of%20the%20Death%20of%20Christ.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AHJ9xdAOyj9ZPrmhGejOflU/%5BEdward%20Polhill%5D%20The%20Extent%20of%20the%20Death%20of%20Christ.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

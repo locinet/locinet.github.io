@@ -9,5 +9,6 @@ amyraut-free-will:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Amyraut-Moses-Disputation-on-the-Free-Will-of-Man.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Amyraut-Moses-Disputation-on-the-Free-Will-of-Man.pdf

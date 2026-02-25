@@ -15,7 +15,9 @@ amyraut-priesthood:
         place: Saumur
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=redb4dlhJQMC
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=redb4dlhJQMC
         sections:
           - I: "Doctrina cœlestis in verbo Dei revelata, est illa quidem tota & appellari potest Christiana. Nam siue posita sit in narratione rerum præteritarum; nihil sine Christo vel factum vel conditum est. Siue in prædictione futurarum; vaticiniorum propheticorum finis est Christus. Siue in declaratione naturæ numinis ac veræ religionis, virtutumque quæ ex religione manant; deducit homines ad salutem, cuius Christus sola causa est & unicum fundamentum. Eam tamen nomenclaturam doctrinæ quæ proprie de ipso Christo est suo quodam iure sibi vindicare videtur."
           - II: "Eius autem doctrinæ quæ Christum ipsum pro argumento habet, consideratio simplex non est. Vel enim spectatur in Christo Persona duabus naturis constans: Divina nempe, iuxta quam Patri æqualis est in omnibus: Atque humana, cuius respectu dicitur factus omnino similis hominibus, excepto peccato. Vel consideratur munus ab ipsâ persona diversum, sed ita tamen, cum eâ consentientis atque coniunctum, ut neque persona utraque naturam in se invenerit, nisi talis muneris obeundi causa, neque tale munus in ullam personam cadere potuerit quæ non esset utriusque naturæ particeps."
@@ -186,7 +188,9 @@ amyraut-priesthood:
         AI: true
         sites:
           - site: Local
-            pdf_url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AHhNFcCdY6zExeXAMWz54zs/%5BMoses%20Amyraut%5D%20Theses%20On%20The%20Priesthood%20of%20Christ.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&st=lzlzm8sn&dl=0
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AHhNFcCdY6zExeXAMWz54zs/%5BMoses%20Amyraut%5D%20Theses%20On%20The%20Priesthood%20of%20Christ.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&st=lzlzm8sn&dl=0
             text:
               - I: "The heavenly doctrine revealed in the word of God is indeed entirely Christian and may be so called. For whether it is set forth in the narration of past events—nothing was done or created without Christ—or whether in the prediction of things to come—the end of prophetic predictions is Christ—or whether in the declaration of the nature of the Godhead and of true religion, and of the virtues that flow from religion—it leads men to salvation, of which Christ is the sole cause and the only foundation. Yet that designation seems by a certain right to claim for itself the doctrine that properly concerns Christ himself."
               - II: "But the consideration of that doctrine which has Christ himself for its subject is not simple. For either the Person in Christ, consisting of two natures, is considered: the divine, according to which he is equal to the Father in all things; and the human, in respect of which he is said to have been made entirely like men, sin excepted. Or the office distinct from the person itself is considered, yet such as is nevertheless united and agreeing with it, so that neither would the person have had each nature in itself except for the sake of performing such an office, nor could such an office have fallen to any person who was not partaker of each nature."

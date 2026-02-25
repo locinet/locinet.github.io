@@ -68,9 +68,13 @@ augustine-on-patience:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf103.v.viii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf103.v.viii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - translator-s-preface: https://ccel.org/ccel/s/schaff/npnf103.v.viii.i.html
               - section-1: https://ccel.org/ccel/s/schaff/npnf103.v.viii.ii.html

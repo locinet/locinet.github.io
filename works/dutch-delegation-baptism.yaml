@@ -7,11 +7,13 @@ dutch-delegation-baptism:
     - Q931871
   date_added: 2026-02-09
   corporate_author: "Dutch Theologians at the Synod of Dordt"
-  loci: baptism
+  loci: infant-baptism
   en:
     title: Response of the Dutch Professors Concerning the Baptism of Children Born to Pagan Parents
     translations:
       - translator: Michael Lynch
         sites:
           - site: Translationes Lyncei
-            url: https://michaellynch.substack.com/p/the-dutch-theologians-at-the-synod
+            formats:
+              - type: HTML
+                url: https://michaellynch.substack.com/p/the-dutch-theologians-at-the-synod

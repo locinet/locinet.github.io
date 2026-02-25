@@ -9,5 +9,6 @@ gomarus-free-will:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Gomarus-Francis-On-Free-Will.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Gomarus-Francis-On-Free-Will.pdf

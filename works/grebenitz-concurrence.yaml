@@ -2,7 +2,7 @@ grebenitz-concurrence:
   date_added: 2026-02-10
   author: Q90150404
   category: disputations
-  loci: providence
+  loci: divine-concurrence
   la:
     title: De concurrente entium ente
     orig_lang: true
@@ -11,7 +11,9 @@ grebenitz-concurrence:
         place: Frankfurt
         sites:
           - site: SLUB Dresden
-            url: https://digital.slub-dresden.de/werkansicht/dlf/25024/1
+            formats:
+              - type: HTML
+                url: https://digital.slub-dresden.de/werkansicht/dlf/25024/1
   en:
     title: Concurrence of the First Cause with the Second Cause
     translations:
@@ -19,5 +21,6 @@ grebenitz-concurrence:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AIWHj3qUR1MKl0wUOKyKYcQ/%5BElias%20Gerbenitz%5D%20Concurrence%20of%20the%20First%20Cause%20with%20the%20Second%20Cause.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AIWHj3qUR1MKl0wUOKyKYcQ/%5BElias%20Gerbenitz%5D%20Concurrence%20of%20the%20First%20Cause%20with%20the%20Second%20Cause.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

@@ -37,6 +37,7 @@ trelcatius-jr-justification:
           - s3_5: "E. Against Preparatory Works and Dispositions"
       - s4: "IV. THE PARTS OF JUSTIFICATION"
       - s5: "V. THE FORM OF JUSTIFICATION"
+        loci: imputation
         sections:
           - s5_1: "A. The Form Stated: The Imputation of Christ’s Righteousness"
           - s5_2: "B. The Nature of Imputation Defended"
@@ -56,4 +57,6 @@ trelcatius-jr-justification:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/01/15/lucas-trelcatius-jr-c-1573-1607-on-the-justification-of-man-before-god/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/01/15/lucas-trelcatius-jr-c-1573-1607-on-the-justification-of-man-before-god/

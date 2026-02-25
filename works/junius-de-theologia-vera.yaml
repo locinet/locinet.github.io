@@ -42,7 +42,9 @@ junius-de-theologia-vera:
         year: 2014
         sites:
           - site: Junius Institute
-            url: https://www.juniusinstitute.org/companion/junius_de_vera/index.php
+            formats:
+              - type: HTML
+                url: https://www.juniusinstitute.org/companion/junius_de_vera/index.php
             section_urls:
               - jdtv-1-theology-exists: https://www.juniusinstitute.org/companion/junius_de_vera/index.php#sec_c3
               - jdtv-2-theology-definition: https://www.juniusinstitute.org/companion/junius_de_vera/index.php#sec_c4

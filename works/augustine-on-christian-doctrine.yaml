@@ -330,9 +330,13 @@ aquinas-on-christian-doctrine:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf102.v.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf102/cache/npnf102.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf102/cache/npnf102.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf102.v.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf102/cache/npnf102.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf102/cache/npnf102.epub
             section_urls:
               - introductory-note-by-the-editor: https://ccel.org/ccel/s/schaff/npnf102.v.i.html
               - contents-of-christian-doctrine: https://ccel.org/ccel/s/schaff/npnf102.v.ii.html

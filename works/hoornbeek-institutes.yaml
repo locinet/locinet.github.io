@@ -47,7 +47,9 @@ hoornbeek-institutes:
         AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658
+            formats:
+              - type: HTML
+                url: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658
             section_urls:
               - 1: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johann-heinrich-alting-c-1644-on-theology
               - 2: https://confessionallyreformedtheology.super.site/theologians/the-17th-century/johann-heinrich-alting-c-1644/theological-institutes-harmonized-from-the-best-authors-leiden-1658/johannes-hoornbeek-c-1666-on-sacred-scripture

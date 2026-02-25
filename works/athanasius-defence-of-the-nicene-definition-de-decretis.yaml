@@ -33,9 +33,13 @@ athanasius-defence-of-the-nicene-definition-de-decretis:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf204.xiv.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf204.xiv.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.xiv.i.html
               - de-decretis-defence-of-the-nicene-definition: https://ccel.org/ccel/s/schaff/npnf204.xiv.ii.html

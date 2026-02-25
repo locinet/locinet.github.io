@@ -342,7 +342,9 @@ leblanc-theses:
         AI: true
         sites:
           - site: Substack (Onku)
-            url: https://onkuoh.substack.com/p/louis-le-blanc-de-beaulieu-theological
+            formats:
+              - type: HTML
+                url: https://onkuoh.substack.com/p/louis-le-blanc-de-beaulieu-theological
             section_urls:
               - faith: https://onkuoh.substack.com/p/louis-le-blanc-de-beaulieu-theological
       - translator: Michael Lynch
@@ -354,7 +356,9 @@ leblanc-theses:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - predestination: https://confessionallyreformed.wordpress.com/2026/01/12/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-eternal-election-and-predestination-of-men/
               - cause-predestination: https://confessionallyreformed.wordpress.com/2026/01/11/louis-le-blanc-de-beaulieu-c-1614-1675-on-the-cause-of-predestination/

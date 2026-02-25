@@ -10,7 +10,9 @@ grebenitz-regeneration:
         place: Frankfurt
         sites:
           - site: BSB
-            url: https://www.digitale-sammlungen.de/en/view/bsb10354662?page=,1
+            formats:
+              - type: HTML
+                url: https://www.digitale-sammlungen.de/en/view/bsb10354662?page=,1
   en:
     title: Three Disputations on Regeneration
     translations:
@@ -18,5 +20,6 @@ grebenitz-regeneration:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AMPTKyA5sdy9wilPT0YTcqU/%5BElias%20Grebeniz%5D%20On%20Regeneration.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AMPTKyA5sdy9wilPT0YTcqU/%5BElias%20Grebeniz%5D%20On%20Regeneration.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

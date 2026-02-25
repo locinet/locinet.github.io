@@ -40,7 +40,9 @@ daneau-contra-bellarminum:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - baptism: https://confessionallyreformed.wordpress.com/2026/01/22/lambertus-daneau-c-1530-1595-on-baptism/
 

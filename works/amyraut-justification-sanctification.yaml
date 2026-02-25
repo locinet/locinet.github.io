@@ -11,5 +11,6 @@ amyraut-justification-sanctification:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Amyraut-Moses-Two-Sermons-on-Justification-and-Sanctification.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Amyraut-Moses-Two-Sermons-on-Justification-and-Sanctification.pdf

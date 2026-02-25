@@ -20,9 +20,13 @@ athanasius-letter-of-eusebius-epistola-eusebii:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf204.ix.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf204.ix.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf204/cache/npnf204.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf204.ix.i.html
               - letter-of-eusebius-epistola-eusebii: https://ccel.org/ccel/s/schaff/npnf204.ix.ii.html

@@ -11,7 +11,9 @@ amyraut-will-of-god:
         place: Saumur
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=redb4dlhJQMC
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=redb4dlhJQMC
   en:
     title: Thesis on the Will of God
     translations:
@@ -19,5 +21,6 @@ amyraut-will-of-god:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AJLGTL08p726Uz2fnneHIHw/%5BMoses%20Amyraut%5D%20Thesis%20on%20The%20Will%20of%20God.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&e=1&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AJLGTL08p726Uz2fnneHIHw/%5BMoses%20Amyraut%5D%20Thesis%20on%20The%20Will%20of%20God.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&e=1&dl=0

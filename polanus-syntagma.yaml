@@ -1,0 +1,89 @@
+# Manifest for: Amandus Polanus, Syntagma Theologiae Christianae (1609)
+# 10-volume bilingual Latin/English EPUB edition (AI translation, Monergism)
+#
+# Usage:
+#   npm run import-epub -- --manifest polanus-syntagma.yaml [--inspect] [--force]
+#
+# Inspect each EPUB first to verify paragraph structure and find the right
+# lang_detect mode and skip_chapters count:
+#   npm run import-epub -- --manifest polanus-syntagma.yaml --inspect
+
+id: polanus-syntagma
+author: Q454349
+category: systematic
+title: Syntagma of Christian Theology
+la_title: Syntagma Theologiae Christianae
+year: 1609
+place: Basel
+# url: https://www.monergism.com/...
+
+# How to split paragraphs into Latin/English pairs.
+# Override per volume if needed.
+#   alternate — p[0]=Latin, p[1]=English, p[2]=Latin, … (most common)
+#   class     — CSS class on <p> (set la_class / en_class below)
+#   lang      — xml:lang attribute
+#   half      — first half of file = Latin, second half = English
+lang_detect: alternate
+# la_class: latin
+# en_class: english
+
+volumes:
+  - vol: 1
+    epub: ./polanus-v1.epub   # path relative to this file
+    title: "Book I"           # English book section title (fill in from TOC)
+    la_title: "Liber I"       # Latin book title (fill in)
+    skip_chapters: 0          # increase to skip front matter chapters
+
+  - vol: 2
+    epub: ./polanus-v2.epub
+    title: "Book II"
+    la_title: "Liber II"
+    skip_chapters: 0
+
+  - vol: 3
+    epub: ./polanus-v3.epub
+    title: "Book III"
+    la_title: "Liber III"
+    skip_chapters: 0
+
+  - vol: 4
+    epub: ./polanus-v4.epub
+    title: "Book IV"
+    la_title: "Liber IV"
+    skip_chapters: 0
+
+  - vol: 5
+    epub: ./polanus-v5.epub
+    title: "Book V"
+    la_title: "Liber V"
+    skip_chapters: 0
+
+  - vol: 6
+    epub: ./polanus-v6.epub
+    title: "Book VI"
+    la_title: "Liber VI"
+    skip_chapters: 0
+
+  - vol: 7
+    epub: ./polanus-v7.epub
+    title: "Book VII"
+    la_title: "Liber VII"
+    skip_chapters: 0
+
+  - vol: 8
+    epub: ./polanus-v8.epub
+    title: "Book VIII"
+    la_title: "Liber VIII"
+    skip_chapters: 0
+
+  - vol: 9
+    epub: ./polanus-v9.epub
+    title: "Book IX"
+    la_title: "Liber IX"
+    skip_chapters: 0
+
+  - vol: 10
+    epub: ./polanus-v10.epub
+    title: "Book X"
+    la_title: "Liber X"
+    skip_chapters: 0

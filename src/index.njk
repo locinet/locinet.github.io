@@ -168,7 +168,7 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
           let html = '<div class="tooltip-author-header">' + escapeHtml(authorHeader) + '</div><ul>';
           for (const w of works) {
             const yearStr = w.year ? ' (' + w.year + ')' : '';
-            html += '<li>' + escapeHtml(w.title + yearStr);
+            html += '<li><em>' + escapeHtml(w.title) + '</em>' + escapeHtml(yearStr);
             if (w.sections.length > 0) {
               html += '<ul>';
               for (const s of w.sections) html += '<li>' + escapeHtml(s) + '</li>';

@@ -73,7 +73,9 @@ wendelin-christian-theology:
         partial: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - b1c26: https://confessionallyreformed.wordpress.com/2026/01/14/markus-friedrich-wendelin-c-1584-1652-on-sanctification/
       - translator: Steven Dilday

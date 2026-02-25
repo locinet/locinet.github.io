@@ -10,7 +10,9 @@ gomarus-death-of-christ:
       - year: 1621
         sites:
           - site: Google Books
-            url: https://www.google.com/books/edition/Disputatio_theologica_de_morte_Iesu_Chri/Eu2wiJzfd5AC?hl=en&gbpv=0
+            formats:
+              - type: HTML
+                url: https://www.google.com/books/edition/Disputatio_theologica_de_morte_Iesu_Chri/Eu2wiJzfd5AC?hl=en&gbpv=0
   en:
     title: Theological Disputation on the Death of Jesus Christ
     sections:
@@ -140,4 +142,6 @@ gomarus-death-of-christ:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/01/31/franciscus-gomarus-c-1563-1641-on-the-death-of-jesus-christ/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/01/31/franciscus-gomarus-c-1563-1641-on-the-death-of-jesus-christ/

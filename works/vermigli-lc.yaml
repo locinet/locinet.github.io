@@ -1135,9 +1135,13 @@ vermigli-lc:
         earlyprint: A14350
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A14350.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A14/A14350_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A14/A14350_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A14350.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A14/A14350_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A14/A14350_standard.epub
             section_urls:
               - the-common-places-of-the-famous-and-renowned-divine-peter-ma: https://texts.earlyprint.org/works/A14350.xml?page=016-a
               - honi-soit-mal-y-pense-e-r: https://texts.earlyprint.org/works/A14350.xml?page=017-a

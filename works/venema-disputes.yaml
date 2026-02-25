@@ -16,7 +16,9 @@ venema-disputes:
       - year: 1735
         sites:
           - site: Google Books
-            url: https://www.google.com/books/edition/Korte_verdediging_van_syne_eere_en_leere/7pBOAAAAcAAJ
+            formats:
+              - type: HTML
+                url: https://www.google.com/books/edition/Korte_verdediging_van_syne_eere_en_leere/7pBOAAAAcAAJ
   en:
     title: Disputes on Covenant of Works, Mediate or Immediate Imputation, Active and Passive Obedience of Christ, and General and Particular Decrees of Predestination
     sections:
@@ -27,8 +29,9 @@ venema-disputes:
         AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Venema-Herman-Disputes-on-Covenant-of-Works-Mediate-or-Immediate-Imputation-Active-and-Passive-Obedience-of-Christ-and-General-and-Particular-Decrees-of-Predestination.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Venema-Herman-Disputes-on-Covenant-of-Works-Mediate-or-Immediate-Imputation-Active-and-Passive-Obedience-of-Christ-and-General-and-Particular-Decrees-of-Predestination.pdf
             section_urls:
               - preface: "https://reformedbooksonline.com/wp-content/uploads/2026/02/Venema-Herman-Disputes-on-Covenant-of-Works-Mediate-or-Immediate-Imputation-Active-and-Passive-Obedience-of-Christ-and-General-and-Particular-Decrees-of-Predestination.pdf#page=4"
               - defense: "https://reformedbooksonline.com/wp-content/uploads/2026/02/Venema-Herman-Disputes-on-Covenant-of-Works-Mediate-or-Immediate-Imputation-Active-and-Passive-Obedience-of-Christ-and-General-and-Particular-Decrees-of-Predestination.pdf#page=26"

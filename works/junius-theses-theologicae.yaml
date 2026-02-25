@@ -443,7 +443,9 @@ junius-theses-theologicae:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - definition: https://confessionallyreformed.wordpress.com/2025/12/24/franciscus-junius-the-elder-c-1545-1602-on-the-definition-of-theology/
               - scripture-definition: https://confessionallyreformed.wordpress.com/2025/12/25/franciscus-junius-the-elder-c-1545-1602-on-the-definition-and-matter-of-sacred-scripture/

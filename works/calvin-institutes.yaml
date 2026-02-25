@@ -10,7 +10,9 @@ calvin-institutes:
         place: Geneva
         sites:
           - site: BSB
-            url: https://www.digitale-sammlungen.de/en/view/bsb10196585
+            formats:
+              - type: HTML
+                url: https://www.digitale-sammlungen.de/en/view/bsb10196585
   en:
     title: Institutes of the Christian Religion
     sections:
@@ -193,9 +195,13 @@ calvin-institutes:
         year: 1845
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/calvin/institutes/institutes
-            pdf_url: https://ccel.org/ccel/calvin/institutes/cache/institutes.pdf
-            epub_url: https://ccel.org/ccel/calvin/institutes/cache/institutes.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/calvin/institutes/institutes
+              - type: PDF
+                url: https://ccel.org/ccel/calvin/institutes/cache/institutes.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/calvin/institutes/cache/institutes.epub
             section_urls:
               - p: https://ccel.org/ccel/calvin/institutes/institutes.ii.html
               - prefatory-address: https://ccel.org/ccel/calvin/institutes/institutes.ii.viii.html
@@ -290,10 +296,9 @@ calvin-institutes:
         year: 1960
         sites:
           - site: Internet Archive Lending Library
-            url:
-              volumes:
-                1: https://archive.org/details/institutesofchri0001calv_p7o5
-                2: https://archive.org/details/institutesofchri0002calv/
+            volumes:
+              1: https://archive.org/details/institutesofchri0001calv_p7o5
+              2: https://archive.org/details/institutesofchri0002calv/
             section_urls:
               - p: https://archive.org/details/institutesofchri0001calv_p7o5/page/n23/
               - epistle-to-reader: https://archive.org/details/institutesofchri0001calv_p7o5/page/3/

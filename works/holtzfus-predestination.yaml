@@ -24,8 +24,9 @@ holtzfus-predestination:
         AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Holtzfuz-Barthold-Theological-Treatise-on-Predestination-Election-and-Reprobation-of-Men.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Holtzfuz-Barthold-Theological-Treatise-on-Predestination-Election-and-Reprobation-of-Men.pdf
             section_urls:
               - diss1-predestination-in-general: https://reformedbooksonline.com/wp-content/uploads/2026/02/Holtzfuz-Barthold-Theological-Treatise-on-Predestination-Election-and-Reprobation-of-Men.pdf#page=4
               - diss2-election-of-men: https://reformedbooksonline.com/wp-content/uploads/2026/02/Holtzfuz-Barthold-Theological-Treatise-on-Predestination-Election-and-Reprobation-of-Men.pdf#page=166

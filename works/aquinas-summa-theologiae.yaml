@@ -65,37 +65,37 @@ aquinas-summa-theologiae:
           - i-q26: Q26. The Beatitude of God
             loci: attributes-of-god
           - i-q27: Q27. The Procession of the Divine Persons
-            loci: trinity
+            loci: divine-processions
           - i-q28: Q28. The Divine Relations
-            loci: trinity
+            loci: divine-processions
           - i-q29: Q29. The Divine Persons
-            loci: trinity
+            loci: divine-persons
           - i-q30: Q30. The Plurality of Persons in God
-            loci: trinity
+            loci: divine-persons
           - i-q31: Q31. What Belongs to the Unity or Plurality in God
-            loci: trinity
+            loci: divine-persons
           - i-q32: Q32. The Knowledge of the Divine Persons
-            loci: trinity
+            loci: divine-persons
           - i-q33: Q33. The Person of the Father
-            loci: trinity
+            loci: divine-persons
           - i-q34: Q34. The Person of the Son
-            loci: trinity
+            loci: divine-persons
           - i-q35: Q35. Image
-            loci: trinity
+            loci: divine-persons
           - i-q36: Q36. The Person of the Holy Ghost
-            loci: trinity
+            loci: divine-persons
           - i-q37: "Q37. The Name of the Holy Ghost — Love"
-            loci: trinity
+            loci: divine-persons
           - i-q38: "Q38. The Name of the Holy Ghost — Gift"
-            loci: trinity
+            loci: divine-persons
           - i-q39: Q39. The Persons in Relation to the Essence
-            loci: trinity
+            loci: divine-processions
           - i-q40: Q40. The Persons in Comparison to the Relations or Properties
-            loci: trinity
+            loci: divine-processions
           - i-q41: Q41. The Persons in Relation to the Notional Acts
-            loci: trinity
+            loci: divine-processions
           - i-q42: Q42. Equality and Likeness Among the Divine Persons
-            loci: trinity
+            loci: divine-persons
           - i-q43: Q43. The Mission of the Divine Persons
             loci: trinity
           - i-q44: Q44. The Procession of Creatures From God, and the First Cause of All Things
@@ -602,7 +602,7 @@ aquinas-summa-theologiae:
           - ii-ii-q61: Q61. The Parts of Justice
             loci: justice
           - ii-ii-q62: Q62. Restitution
-            loci: justice
+            loci: restitution
           - ii-ii-q63: Q63. Respect of Persons
             loci: justice
           - ii-ii-q64: Q64. Murder
@@ -622,15 +622,15 @@ aquinas-summa-theologiae:
           - ii-ii-q71: Q71. Injustice in Judgment on the Part of Counsel
             loci: justice
           - ii-ii-q72: Q72. Reviling
-            loci: justice
+            loci: detraction
           - ii-ii-q73: Q73. Backbiting
-            loci: justice
+            loci: detraction
           - ii-ii-q74: Q74. Tale-Bearing
-            loci: justice
+            loci: detraction
           - ii-ii-q75: Q75. Derision
-            loci: justice
+            loci: detraction
           - ii-ii-q76: Q76. Cursing
-            loci: justice
+            loci: detraction
           - ii-ii-q77: "Q77. Cheating, Which Is Committed in Buying and Selling"
             loci: justice
           - ii-ii-q78: Q78. The Sin of Usury
@@ -1092,51 +1092,51 @@ aquinas-summa-theologiae:
           - sup-q34: Q34. The Marriage Contract
             loci: marriage
           - sup-q35: Q35. The Consent of Marriage
-            loci: marriage
+            loci: marital-consent
           - sup-q36: Q36. Matrimonial Consent
-            loci: marriage
+            loci: marital-consent
           - sup-q37: Q37. The Nuptial Blessing
             loci: marriage
           - sup-q38: Q38. Bigamy
             loci: marriage
           - sup-q39: Q39. The Impediments of Marriage
-            loci: marriage
+            loci: marriage-impediments
           - sup-q40: Q40. The Impediment of Servile Condition
-            loci: marriage
+            loci: marriage-impediments
           - sup-q41: Q41. The Impediment of Vows and Orders
-            loci: marriage
+            loci: marriage-impediments
           - sup-q42: Q42. The Impediment of Consanguinity
-            loci: marriage
+            loci: marriage-impediments
           - sup-q43: Q43. The Impediment of Affinity
-            loci: marriage
+            loci: marriage-impediments
           - sup-q44: Q44. The Impediment of Spiritual Relationship
-            loci: marriage
+            loci: marriage-impediments
           - sup-q45: Q45. The Impediment of Legal Relationship
-            loci: marriage
+            loci: marriage-impediments
           - sup-q46: Q46. The Impediment of Lack of Age
-            loci: marriage
+            loci: marriage-impediments
           - sup-q47: Q47. The Impediment of Impotence
-            loci: marriage
+            loci: marriage-impediments
           - sup-q48: Q48. The Impediment of Disparity of Worship
-            loci: marriage
+            loci: marriage-impediments
           - sup-q49: Q49. The Marriage Goods
-            loci: marriage
+            loci: goods-of-marriage
           - sup-q50: Q50. The Marriage Act
             loci: marriage
           - sup-q51: Q51. Virginity
-            loci: marriage
+            loci: chastity
           - sup-q52: Q52. The Vice of Lust
-            loci: marriage
+            loci: chastity
           - sup-q53: Q53. The Impediment of Frigidity
-            loci: marriage
+            loci: marriage-impediments
           - sup-q54: Q54. The Impediment of Sorcery
-            loci: marriage
+            loci: marriage-impediments
           - sup-q55: Q55. The Impediment of Madness
-            loci: marriage
+            loci: marriage-impediments
           - sup-q56: Q56. Mutual Consent as Expressed in Words of the Present
-            loci: marriage
+            loci: marital-consent
           - sup-q57: Q57. A Betrothal
-            loci: marriage
+            loci: marital-consent
           - sup-q58: Q58. The Marriage of Slaves
             loci: marriage
           - sup-q59: Q59. Marriage With Second Partners
@@ -1144,17 +1144,17 @@ aquinas-summa-theologiae:
           - sup-q60: Q60. The Resurrection
             loci: resurrection-of-the-dead
           - sup-q61: Q61. The Quality of Those Who Rise Again
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q62: Q62. The Conditions Under Which the Risen Shall Rise
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q63: Q63. The Condition of the Risen as Regards Knowledge
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q64: Q64. The Condition of the Risen in Relation to Others
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q65: Q65. The Condition of the Risen in Relation to the Heavenly Bodies
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q66: Q66. The Condition of the Risen in Relation to the Earthly Bodies
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q67: Q67. The General Judgment and the Signs That Will Precede It
             loci: [last-things, final-judgement]
           - sup-q68: Q68. The Manner in Which the Judge Will Come
@@ -1182,15 +1182,15 @@ aquinas-summa-theologiae:
           - sup-q79: Q79. The Conditions of the Children Who Have Died With Original Sin Only
             loci: intermediate-state
           - sup-q80: Q80. The Form of the Risen Body
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q81: Q81. The Impassibility of the Bodies of the Blessed
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q82: Q82. The Subtlety of the Bodies of the Blessed
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q83: Q83. The Agility of the Bodies of the Blessed
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q84: Q84. The Clarity of the Bodies of the Blessed
-            loci: resurrection-of-the-dead
+            loci: resurrection-body
           - sup-q85: Q85. The Condition of the Bodies of the Damned
             loci: final-state
           - sup-q86: Q86. The Condition of the Bodies of the Damned
@@ -1223,7 +1223,9 @@ aquinas-summa-theologiae:
       - translator: Fathers of the English Dominican Province
         sites:
           - site: aquinas.cc
-            url: https://aquinas.cc/la/en/~ST.I
+            formats:
+              - type: HTML
+                url: https://aquinas.cc/la/en/~ST.I
             section_urls:
               - prima-pars: https://aquinas.cc/la/en/~ST.I
               - i-q1: https://aquinas.cc/la/en/~ST.I.Q1

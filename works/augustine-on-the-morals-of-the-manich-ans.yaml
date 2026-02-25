@@ -58,9 +58,13 @@ augustine-on-the-morals-of-the-manich-ans:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf104.iv.v.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf104.iv.v.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.v.i.html
               - argument: https://ccel.org/ccel/s/schaff/npnf104.iv.v.ii.html

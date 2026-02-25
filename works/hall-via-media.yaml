@@ -10,7 +10,9 @@ hall-via-media:
         place: Geneva
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=wWM9AAAAcAAJ
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=wWM9AAAAcAAJ
   en:
     title: "Via Media; Or, The Middle Way"
     translations:
@@ -18,5 +20,6 @@ hall-via-media:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AIH56C3-WzyBz5VhbSIlYw8/%5BJoseph%20Hall%5D%20The%20Middle%20Way.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AIH56C3-WzyBz5VhbSIlYw8/%5BJoseph%20Hall%5D%20The%20Middle%20Way.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

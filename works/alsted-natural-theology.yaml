@@ -39,7 +39,9 @@ alsted-natural-theology:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - s1: https://confessionallyreformed.wordpress.com/2025/04/15/johann-heinrich-alsted-1558-1638-on-the-principle-of-natural-theology/#introduction
               - s1_1: https://confessionallyreformed.wordpress.com/2025/04/15/johann-heinrich-alsted-1558-1638-on-the-principle-of-natural-theology/#1-the-pure-principle

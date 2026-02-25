@@ -70,9 +70,13 @@ augustine-on-the-catechising-of-the-uninstructed:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - introductory-notice: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.i.html
               - how-augustin-writes-in-answer-to-a-favor-asked-by-a-deacon-o: https://ccel.org/ccel/s/schaff/npnf103.iv.iii.ii.html

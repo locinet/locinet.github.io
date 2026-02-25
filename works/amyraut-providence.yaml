@@ -12,5 +12,6 @@ amyraut-providence:
         AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Amyraut-Moses-Theological-Theses-on-the-Providence-of-God-in-Evil.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Amyraut-Moses-Theological-Theses-on-the-Providence-of-God-in-Evil.pdf

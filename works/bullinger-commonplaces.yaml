@@ -34,7 +34,9 @@ bullinger-commonplaces:
         year: 1572
         sites:
           - site: Internet Archive
-            url: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/
+            formats:
+              - type: HTML
+                url: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/
             section_urls:
               - 1: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n32/
               - 2: https://archive.org/details/bim_early-english-books-1475-1640_common-places-of-christi_henry-bullinger_1572/page/n97/

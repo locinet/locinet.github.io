@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./display_names.yaml");
   eleventyConfig.addWatchTarget("./earlyprint.yaml");
   eleventyConfig.addWatchTarget("./_cache/");
+  eleventyConfig.addWatchTarget("./_texts/");
 
   // Nunjucks filter: pad string to a given length
   eleventyConfig.addFilter("padEnd", function (str, len) {

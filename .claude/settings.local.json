@@ -117,7 +117,8 @@
       "Bash(__NEW_LINE_0a213b060bb03b0a__ grep -n \"^[[:space:]]*- s3\" alting-heidelberg-loci.yaml)",
       "Bash(npm run tag:*)",
       "Bash(git restore:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(cd:*)"
     ]
   }
 }

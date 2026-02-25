@@ -48,9 +48,13 @@ augustine-on-the-creed:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - section-1: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.i.html
               - section-2: https://ccel.org/ccel/s/schaff/npnf103.iv.vii.ii.html

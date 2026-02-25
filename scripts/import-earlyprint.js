@@ -364,9 +364,13 @@ function generateYaml(entry, metadata) {
     }
     out += `        sites:\n`;
     out += `          - site: EarlyPrint\n`;
-    out += `            url: ${earlyPrintUrl}\n`;
-    out += `            pdf_url: ${pdfUrl}\n`;
-    out += `            epub_url: ${epubUrl}\n`;
+    out += `            formats:\n`;
+    out += `              - type: HTML\n`;
+    out += `                url: ${earlyPrintUrl}\n`;
+    out += `              - type: PDF\n`;
+    out += `                url: ${pdfUrl}\n`;
+    out += `              - type: EPUB\n`;
+    out += `                url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, pageId } of urlList) {
@@ -386,9 +390,13 @@ function generateYaml(entry, metadata) {
     out += `        earlyprint: ${tcpId}\n`;
     out += `        sites:\n`;
     out += `          - site: EarlyPrint\n`;
-    out += `            url: ${earlyPrintUrl}\n`;
-    out += `            pdf_url: ${pdfUrl}\n`;
-    out += `            epub_url: ${epubUrl}\n`;
+    out += `            formats:\n`;
+    out += `              - type: HTML\n`;
+    out += `                url: ${earlyPrintUrl}\n`;
+    out += `              - type: PDF\n`;
+    out += `                url: ${pdfUrl}\n`;
+    out += `              - type: EPUB\n`;
+    out += `                url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, pageId } of urlList) {
@@ -412,9 +420,13 @@ function generateYaml(entry, metadata) {
     out += `        earlyprint: ${tcpId}\n`;
     out += `        sites:\n`;
     out += `          - site: EarlyPrint\n`;
-    out += `            url: ${earlyPrintUrl}\n`;
-    out += `            pdf_url: ${pdfUrl}\n`;
-    out += `            epub_url: ${epubUrl}\n`;
+    out += `            formats:\n`;
+    out += `              - type: HTML\n`;
+    out += `                url: ${earlyPrintUrl}\n`;
+    out += `              - type: PDF\n`;
+    out += `                url: ${pdfUrl}\n`;
+    out += `              - type: EPUB\n`;
+    out += `                url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, pageId } of urlList) {

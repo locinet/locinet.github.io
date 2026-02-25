@@ -10,7 +10,9 @@ crocius-theology:
         place: Bremen
         sites:
           - site: SLUB Dresden
-            url: https://digital.slub-dresden.de/werkansicht/dlf/73637/608
+            formats:
+              - type: HTML
+                url: https://digital.slub-dresden.de/werkansicht/dlf/73637/608
   en:
     title: Compendium of Sacred Theology
     sections:
@@ -21,5 +23,6 @@ crocius-theology:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AF0s3FQ7UFB26KkY6ATF2DM/%5BLudwig%20Crocius%5D%20Chapter%20on%20the%20Knowledge%20of%20God.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AF0s3FQ7UFB26KkY6ATF2DM/%5BLudwig%20Crocius%5D%20Chapter%20on%20the%20Knowledge%20of%20God.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

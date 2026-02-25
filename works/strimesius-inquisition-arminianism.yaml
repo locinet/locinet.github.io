@@ -1,0 +1,165 @@
+strimesius-inquisition-arminianism:
+  date_added: 2026-02-21
+  author: Q1407941
+  la:
+    title: Inquisitio Ingenua in Arminianismum
+    orig_lang: true
+    editions:
+      - year: 1703
+        place: Frankfurt an der Oder
+  en:
+    title: An Ingenuous Inquisition into Arminianism
+    sections:
+      - strimesius-preface: Preface to the Reader
+        sections:
+          - strimesius-on-socinians: Concerning the Socinians, Not to Be Co-opted into Ecclesiastical Fraternity
+      - strimesius-annotations-protheory: Annotations to the Historical Protheory of Arminianism
+        sections:
+          - strimesius-ann-arminian-schism: Annotation I. Concerning the Arminian Schism
+          - strimesius-ann-pelagius: Annotation II. Concerning Controversies Condemned in Pelagius, the Massilians, and the Adversaries of Gottschalk
+          - strimesius-ann-arminius-denomination: Annotation III. Concerning the Denomination of Arminians from Arminius
+          - strimesius-ann-synod-dort: Annotation IV. Concerning the Synod of Dort, Its Indiction, Amplitude, History, Acts, Sentences, and Authority
+          - strimesius-ann-schism-socinian: Annotation V. Concerning the Arminian Schism, Destined to Turn into the Socinian Heresy
+          - strimesius-ann-liberty-prophesying-1: Annotation VI. Concerning the Liberty of Prophesying
+      - strimesius-annotations-pentad: Annotations on the Pentad of Arminian Articles
+        sections:
+          - strimesius-ann-pentad-predestination: Annotation I. To the First Controversial Article, Concerning Predestination
+            loci: predestination
+          - strimesius-ann-predestinarian-heresy: Annotation II. Concerning the Predestinarian Heresy Imputed to the Reformed
+          - strimesius-ann-pentad-redemption: Annotation III. To the Second Article, Concerning the Redemption of the Human Race
+            loci: extent-of-atonement
+          - strimesius-ann-pentad-free-will: Annotation IV. To the Third Article, Concerning the Powers of the Free Will of Man in the State of Sin
+            loci: free-will
+          - strimesius-ann-pentad-grace: Annotation V. To the Fourth Article, Concerning Converting Grace
+            loci: effectual-calling
+          - strimesius-ann-pentad-vocation: Annotation VI. Concerning the Distinction of External and Internal Vocation
+            loci: calling
+          - strimesius-ann-pentad-perseverance: Annotation VII. Concerning the Necessary Perseverance of the Faithful
+            loci: perseverance
+      - strimesius-annotations-later: Annotations on the Later Controversies
+        sections:
+          - strimesius-ann-certainty-scripture: Annotation I. Concerning the Certainty of Faith regarding the Divinity of Holy Scripture
+            loci: credibility-of-scripture
+          - strimesius-ann-principle-assent: Annotation II. Concerning the Principle of Assent regarding Truths Revealed in Holy Scripture
+            loci: scripture
+          - strimesius-ann-fallibility-writers: Annotation III. Concerning the Fallibility of Sacred Writers
+            loci: scripture
+          - strimesius-ann-fundamental-articles: Annotation IV. Concerning Fundamental Articles of Faith and Universal Syncretism
+          - strimesius-ann-natural-religion: Annotation V. Concerning Natural Religion and the Faith of the Fathers
+            loci: natural-theology
+          - strimesius-ann-liberty-prophesying-2: Annotation VI. Concerning the Liberty of Prophesying in the Same Republic and Particular Church
+          - strimesius-ann-attributes-god: Annotation VII. Concerning the Truth, or Certainty and Necessity of the Various Attributes of God
+            loci: attributes-of-god
+          - strimesius-ann-middle-knowledge: Annotation VIII. Concerning Middle Knowledge, and the Absurdities Following Its Negation
+            loci: foreknowledge
+          - strimesius-ann-affections-virtues-god: Annotation IX. Concerning the Affections and Virtues of God
+          - strimesius-ann-trinity: Annotation X. Concerning the Fundamental Doctrine of the Holy Trinity
+            loci: trinity
+          - strimesius-ann-three-essences: Annotation XI. Concerning Three Essences in God according to Curcellaeus
+          - strimesius-ann-adorability-son: Annotation XII. Concerning the Adorability of the Son and Holy Spirit, and Proving Their Divinity from It
+            loci: divine-persons
+      - strimesius-annotations-second-dozen: Annotations of the Second Dozen
+        sections:
+          - strimesius-ann-divine-decrees: Annotation I. Concerning the Eternity and Immutability of Divine Decrees
+            loci: will-of-god
+          - strimesius-ann-creation: Annotation II. Concerning the Creation of All Things, in the Beginning
+            loci: creation
+          - strimesius-ann-providence: Annotation III. Concerning the Providence of God and Its Mode, Both regarding Goods and Evils, and likewise regarding the Birth, Marriage, and Death of Man
+            loci: providence
+          - strimesius-ann-image-of-god: Annotation IV. Concerning the Image of God in Man, or Concerning Original Justice
+            loci: image-of-god
+          - strimesius-ann-immortality: Annotation V. Concerning the Immortality of the Integral Man
+            loci: soul
+          - strimesius-ann-promise-eternal-life: Annotation VI. Concerning the Promise of Eternal Life in the Covenant of Nature
+            loci: covenant-of-works
+          - strimesius-ann-futurition-sin: Annotation VII. Concerning the Futurition and Necessity of the First Sin
+            loci: fall-of-man
+          - strimesius-ann-loss-divine-image: Annotation VIII. Concerning the Loss of the Divine Image, and the Impotence to Salutary Good Contracted Through the Fall
+            loci: fall-of-man
+          - strimesius-ann-original-sin: Annotation IX. Concerning the Nature of Original Sin and in What Sense It Is Said to Be Imputed
+            loci: original-sin
+          - strimesius-ann-covenant-grace-universality: Annotation X. On the Universality of the Covenant of Grace
+            loci: covenant-of-grace
+          - strimesius-ann-precept-faith-ot: Annotation XI. On the Precept of Faith and the Promise of Spiritual and Celestial Goods Made to the Fathers of the Old Testament
+            loci: old-covenant
+          - strimesius-ann-new-precepts: Annotation XII. On the Addition of New Precepts by Christ to the Law of Moses, and the Perfection of the Latter
+            loci: moral-law
+      - strimesius-annotations-third-dozen: Annotations of the Third Dozen
+        sections:
+          - strimesius-ann-son-of-god: Annotation I. On the Modes by Which Christ Is the Son of God and the Logos of the Father
+            loci: divine-persons
+          - strimesius-ann-christ-savior: Annotation II. On the Mode by Which Christ Is Savior and Sponsor
+            loci: atonement
+          - strimesius-ann-impeccability: Annotation III. Concerning the Impeccability of the Man Christ
+            loci: natures-of-christ
+          - strimesius-ann-church-marks: Annotation IV. On the Members and Marks of the Church of Christ
+            loci: true-church
+          - strimesius-ann-calling: Annotation V. On Natural and Supernatural Calling
+            loci: calling
+          - strimesius-ann-justification: Annotation VI. On the Justification of the Sinner before God
+            loci: justification
+          - strimesius-ann-sanctification: Annotation VII. On the Perfection and Necessity of Sanctification
+            loci: sanctification
+          - strimesius-ann-power-majesty: Annotation VIII. On the Power of the Majesty regarding Sacred Matters
+            loci: civil-government
+          - strimesius-ann-ordination: Annotation IX. On the Necessity of Vocation and Ordination to the Function of the Sacred Ministry
+            loci: ordination
+          - strimesius-ann-formulas-consensus: Annotation X. On Formulas of Consensus and Their Bond
+          - strimesius-ann-administrator-sacraments: Annotation XI. On the Administrator of Sacraments
+            loci: sacraments
+          - strimesius-ann-paedobaptism: Annotation XII. On the Origin and Use of Paedobaptism
+            loci: infant-baptism
+      - strimesius-annotations-last-things: Epimetric Annotations on the Last Things
+        sections:
+          - strimesius-ann-state-soul: Annotation on the State of the Soul Separated from the Body
+            loci: intermediate-state
+          - strimesius-ann-resurrection: Annotation on the Resurrection of the Same Body in Number and the Same Flesh
+            loci: resurrection-of-the-dead
+      - strimesius-principal-controversies: Principal Controversies with the Arminians and Modern Remonstrants
+        sections:
+          - strimesius-historical-protheoria: A Brief Historical Protheoria
+          - strimesius-five-articles: The Five Controverted Articles
+            sections:
+              - strimesius-article-predestination: "I. Concerning the Cause and Object of Predestination"
+                loci: predestination
+              - strimesius-article-redemption: "II. Concerning the Amplitude, Object, and Efficacy of the Death of Christ"
+                loci: extent-of-atonement
+              - strimesius-article-free-will: "III. Concerning the Powers of Free Will in the State of Sin, the Cause of Conversion to God, and Its Antecedents"
+                loci: free-will
+              - strimesius-article-grace: "IV. Concerning the Mode of the Operation of Divine Grace in Conversion, and Its Efficacy"
+                loci: effectual-calling
+              - strimesius-article-perseverance: "V. Concerning the Necessary Perseverance of the Faithful and the Elect"
+                loci: perseverance
+          - strimesius-spanheim-xi: "XI. Concerning the Decrees of God in General, and Predestination in Specific"
+            loci: predestination
+          - strimesius-spanheim-xii: "XII. Concerning the Actions of Creation and Divine Providence"
+          - strimesius-spanheim-xiii: "XIII. Concerning the Instituted State of the First Man"
+            loci: original-righteousness
+          - strimesius-spanheim-xiv: "XIV. Concerning the Destitute State of Man"
+            loci: fall-of-man
+          - strimesius-spanheim-xv: "XV. Concerning the Covenant of Grace, and Its Economies"
+            loci: covenant-of-grace
+          - strimesius-spanheim-xvi: "XVI. Concerning Faith in Christ, before the Economy of the Gospel"
+            loci: old-covenant
+          - strimesius-spanheim-xvii: "XVII. Concerning the Person and Office of Christ the Mediator"
+            loci: offices-of-christ
+          - strimesius-spanheim-xviii: "XVIII. Concerning the Church of Christ"
+            loci: nature-of-the-church
+          - strimesius-spanheim-xix: "XIX. Concerning Efficacious Vocation, and Faith"
+            loci: effectual-calling
+          - strimesius-spanheim-xx: "XX. Concerning the Justification of the Sinner before God"
+            loci: justification
+          - strimesius-spanheim-xxi: "XXI. Concerning the External Economy of the Covenant of Grace: the Christian Magistrate; and the Sacred Ministry"
+          - strimesius-spanheim-xxii: "XXII. Concerning the Necessity of Mission for the Function of the Holy Ministry"
+            loci: ordination
+          - strimesius-spanheim-xxiii: "XXIII. Concerning the Bond of Public Formulas"
+          - strimesius-seals-covenant: Concerning the Seals of the Covenant of Grace
+            loci: sacraments
+    translations:
+      - translator: Nosferatu
+        AI: true
+        sites:
+          - site: Dropbox
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AAT3-KZxJLH7zh19pcvYgQ0/%5BSamuel%20Strimesius%5D%20An%20Ingenuous%20Inquisition%20into%20Arminianism.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&e=2&dl=0

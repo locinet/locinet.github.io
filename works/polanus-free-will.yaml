@@ -15,7 +15,6 @@ polanus-free-will:
         AI: true
         sites:
           - site: Obedientia Mortis Christi
-            url:
-              volumes:
-                1: https://matthaeusmac.substack.com/p/amandus-polanus-on-mans-free-will
-                2: https://matthaeusmac.substack.com/p/amandus-polanus-on-mans-free-will-eaa
+            volumes:
+              1: https://matthaeusmac.substack.com/p/amandus-polanus-on-mans-free-will
+              2: https://matthaeusmac.substack.com/p/amandus-polanus-on-mans-free-will-eaa

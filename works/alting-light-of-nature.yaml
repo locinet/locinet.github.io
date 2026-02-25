@@ -13,4 +13,6 @@ alting-light-of-nature:
       - translator: Travis Fentiman
         sites:
           - site: Wikisource
-            url: https://en.wikisource.org/wiki/A_Disputation_Concerning_the_Light_of_Nature
+            formats:
+              - type: HTML
+                url: https://en.wikisource.org/wiki/A_Disputation_Concerning_the_Light_of_Nature

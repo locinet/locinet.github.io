@@ -47,7 +47,9 @@ work-id:
         oclc: 123456789        # Optional: OCLC number (shows WorldCat link on works page)
         sites:                 # Optional: links to original
           - site: BSB
-            url: https://...
+            formats:           # Format links shown as [HTML], [PDF], etc.
+              - type: HTML
+                url: https://...
   en:                          # English block
     title: English Title
     sections:                  # Optional (MUST be sibling of title, NOT child)
@@ -61,8 +63,16 @@ work-id:
         AI: true               # Optional
         sites:
           - site: Site Name
-            url: https://...   # String, or {volumes: {1: url, 2: url}}
-            pdf: true          # Optional
+            volumes:           # Optional: multi-volume works {1: url, 2: url}
+              1: https://...
+              2: https://...
+            formats:           # Format links shown as [HTML], [PDF], [EPUB], etc.
+              - type: HTML
+                url: https://...
+              - type: PDF
+                url: https://...
+              - type: EPUB
+                url: https://...
             section_urls:      # Optional
               - section-id: https://...
 ```

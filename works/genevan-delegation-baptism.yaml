@@ -2,11 +2,13 @@ genevan-delegation-baptism:
   author: Q692115
   date_added: 2026-02-09
   corporate_author: "Genevan Delegation at the Synod of Dordt"
-  loci: baptism
+  loci: infant-baptism
   en:
     title: Judgment of the Genevan Delegation Concerning the Baptism of Children Born to Pagan Parents
     translations:
       - translator: Michael Lynch
         sites:
           - site: Translationes Lyncei
-            url: https://michaellynch.substack.com/p/the-genevan-delegation-at-the-synod
+            formats:
+              - type: HTML
+                url: https://michaellynch.substack.com/p/the-genevan-delegation-at-the-synod

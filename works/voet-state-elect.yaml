@@ -96,4 +96,6 @@ voet-state-elect:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-the-state-of-the-elect-before-conversion/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/01/18/gisbertus-voetius-c-1589-1676-on-the-state-of-the-elect-before-conversion/

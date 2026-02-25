@@ -97,6 +97,74 @@ function getPlainText(el) {
   return text.replace(/\s+/g, " ").trim();
 }
 
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+// Get the HTML content of an element, converting <note> elements to numbered sidenote spans.
+// counter is a shared { n: 0 } object so footnote numbers are sequential within a section.
+// Other nested markup (spans, i, scripRef, etc.) is flattened to plain text.
+function getHtmlContent(el, counter) {
+  let html = "";
+  for (let i = 0; i < el.childNodes.length; i++) {
+    const child = el.childNodes[i];
+    if (child.nodeType === 3) { // text node
+      html += escapeHtml(child.nodeValue);
+    } else if (child.nodeType === 1) {
+      const tag = (child.localName || child.tagName || "").toLowerCase();
+      if (tag === "note") {
+        const noteText = getPlainText(child).trim();
+        if (noteText) {
+          counter.n++;
+          const n = counter.n;
+          html += `<sup class="sidenote-marker">${n}</sup><span class="sidenote"><sup>${n}</sup> ${escapeHtml(noteText)}</span>`;
+        }
+      } else {
+        html += getHtmlContent(child, counter);
+      }
+    }
+  }
+  return html;
+}
+
+// Get the body of a div element as HTML paragraphs,
+// excluding content from nested div1-4 sub-sections.
+// Returns an HTML string, or "" if none.
+function getDivBodyHtml(el) {
+  const parts = [];
+  const counter = { n: 0 };
+  walkForHtmlParagraphs(el, parts, counter);
+  return parts.join("\n");
+}
+
+function walkForHtmlParagraphs(el, parts, counter) {
+  for (let i = 0; i < el.childNodes.length; i++) {
+    const child = el.childNodes[i];
+    if (child.nodeType !== 1) continue;
+    const tag = (child.localName || child.tagName || "").toLowerCase();
+    // Stop at sub-sections — they are handled as separate section entries
+    if (/^div[1-4]$/.test(tag)) continue;
+    // Skip h2 — it repeats the section title already captured from the title attribute
+    if (tag === "h2") continue;
+    if (/^(p|blockquote)$/.test(tag)) {
+      const inner = getHtmlContent(child, counter).trim();
+      if (inner) parts.push(`<p>${inner}</p>`);
+    } else if (/^h[3-6]$/.test(tag)) {
+      const inner = getHtmlContent(child, counter).trim();
+      if (inner) parts.push(`<h4>${inner}</h4>`);
+    } else if (/^(verse|lg|pre)$/.test(tag)) {
+      const text = getPlainText(child).trim();
+      if (text) parts.push(`<p class="verse">${escapeHtml(text)}</p>`);
+    } else {
+      // Recurse into other container elements (body, div, span wrappers, etc.)
+      walkForHtmlParagraphs(child, parts, counter);
+    }
+  }
+}
+
 // Extract the book ID from an XML URL (filename without .xml)
 function ccelBookId(url) {
   const parts = url.replace(/\/+$/, "").split("/");
@@ -197,9 +265,10 @@ function collectDivSections(parentEl) {
 
     const children = collectDivSections(child);
     const cleanTitle = cleanSectionTitle(divTitle);
+    const text = getDivBodyHtml(child);
 
     if (cleanTitle) {
-      results.push({ title: cleanTitle, id: divId, children });
+      results.push({ title: cleanTitle, id: divId, text, children });
     } else if (children.length > 0) {
       // No title on this div — promote children up
       results.push(...children);
@@ -255,6 +324,15 @@ function generateSections(sections, indent, slugSeen, ccelBaseUrl, urlList) {
     out += `${pad}- ${slug}: ${yamlQuote(section.title)}\n`;
     out += `${pad}  # loci:\n`;
 
+    // Emit body text as a YAML literal block scalar
+    if (section.text) {
+      const textIndent = " ".repeat(indent + 4);
+      out += `${pad}  text: |\n`;
+      for (const line of section.text.split("\n")) {
+        out += `${textIndent}${line}\n`;
+      }
+    }
+
     // Collect page URL for section_urls
     if (ccelBaseUrl && section.id) {
       urlList.push({ slug, id: section.id });
@@ -286,7 +364,7 @@ function generateYaml(workId, workTitle, sections, entry, workSectionId) {
   const bookId = ccelBookId(entry.url);
   const workUrl = workSectionId
     ? `${ccelBaseUrl}/${bookId}.${workSectionId}.html`
-    : ccelBaseUrl;
+    : `${ccelBaseUrl}/${bookId}`;
   const pdfUrl = `${ccelBaseUrl}/${bookId}/cache/${bookId}.pdf`;
   const epubUrl = `${ccelBaseUrl}/${bookId}/cache/${bookId}.epub`;
 
@@ -303,7 +381,7 @@ function generateYaml(workId, workTitle, sections, entry, workSectionId) {
   }
   out += `  # loci:\n`;
 
-  if (origLang) {
+  if (origLang && origLang !== lang) {
     // Work has a non-English original language
     out += `  ${origLang}:\n`;
     out += `    title: # FILL IN\n`;
@@ -320,9 +398,13 @@ function generateYaml(workId, workTitle, sections, entry, workSectionId) {
     out += `      - translator: # FILL IN\n`;
     out += `        sites:\n`;
     out += `          - site: CCEL\n`;
-    out += `            url: ${workUrl}\n`;
-    out += `            pdf_url: ${pdfUrl}\n`;
-    out += `            epub_url: ${epubUrl}\n`;
+    out += `            formats:\n`;
+    out += `              - type: HTML\n`;
+    out += `                url: ${workUrl}\n`;
+    out += `              - type: PDF\n`;
+    out += `                url: ${pdfUrl}\n`;
+    out += `              - type: EPUB\n`;
+    out += `                url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, id } of urlList) {
@@ -338,9 +420,13 @@ function generateYaml(workId, workTitle, sections, entry, workSectionId) {
     out += `      - year: # FILL IN\n`;
     out += `        sites:\n`;
     out += `          - site: CCEL\n`;
-    out += `            url: ${workUrl}\n`;
-    out += `            pdf_url: ${pdfUrl}\n`;
-    out += `            epub_url: ${epubUrl}\n`;
+    out += `            formats:\n`;
+    out += `              - type: HTML\n`;
+    out += `                url: ${workUrl}\n`;
+    out += `              - type: PDF\n`;
+    out += `                url: ${pdfUrl}\n`;
+    out += `              - type: EPUB\n`;
+    out += `                url: ${epubUrl}\n`;
     if (urlList.length > 0) {
       out += `            section_urls:\n`;
       for (const { slug, id } of urlList) {
@@ -360,9 +446,13 @@ function generateYaml(workId, workTitle, sections, entry, workSectionId) {
     out += `      - year: # FILL IN\n`;
     out += `        sites:\n`;
     out += `          - site: CCEL\n`;
-    out += `            url: ${workUrl}\n`;
-    out += `            pdf_url: ${pdfUrl}\n`;
-    out += `            epub_url: ${epubUrl}\n`;
+    out += `            formats:\n`;
+    out += `              - type: HTML\n`;
+    out += `                url: ${workUrl}\n`;
+    out += `              - type: PDF\n`;
+    out += `                url: ${pdfUrl}\n`;
+    out += `              - type: EPUB\n`;
+    out += `                url: ${epubUrl}\n`;
     out += `  en:\n`;
     out += `    title: # FILL IN\n`;
     if (sectionsYaml) {

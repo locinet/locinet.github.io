@@ -27,7 +27,9 @@ beza-propositions:
       - year: 1591
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - sanctification: https://confessionallyreformed.wordpress.com/2025/05/21/theodore-de-beze-c-1605-on-sanctification/
 

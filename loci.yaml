@@ -15,10 +15,6 @@
     - name: Nature of theology
       slug: nature-of-theology
       desc: The object, method, and divisions of theology as a discipline
-      children:
-        - name: Faith and reason
-          slug: faith-and-reason
-          desc: The relationship between natural reason and supernatural faith; fides et ratio; whether philosophy and theology are in harmony or tension; Anselm's fides quaerens intellectum
     - name: Natural theology
       slug: natural-theology
       desc: Knowledge of God attainable by unaided reason from creation and conscience
@@ -104,6 +100,13 @@
         - name: Trinity
           slug: trinity
           desc: "The doctrine of the triune God: the three persons, their relations, processions, and missions"
+          children:
+            - name: Divine processions
+              slug: divine-processions
+              desc: "The eternal processions within the Godhead: the generation of the Son and the spiration of the Spirit; the divine relations, properties, and notional acts"
+            - name: Divine persons
+              slug: divine-persons
+              desc: "The Father, Son, and Holy Spirit considered individually as distinct subsistences within the one divine essence"
     - name: Works of God
       slug: works-of-god
       children:
@@ -123,6 +126,10 @@
         - name: Providence
           slug: providence
           desc: God's ongoing governance and preservation of creation
+          children:
+            - name: Divine concurrence
+              slug: divine-concurrence
+              desc: "God's concurrence with secondary causes (concursus Dei); the controversy over physical premotion (praemotio physica) and the influx of God into creaturely actions"
 
 - name: Angels
   slug: angels
@@ -173,6 +180,13 @@
         - name: Justice
           slug: justice
           desc: The cardinal virtue of rendering to each what is due (distinct from divine justice)
+          children:
+            - name: Restitution
+              slug: restitution
+              desc: "The obligation to restore what was wrongfully taken or damaged; making right for injustices committed"
+            - name: Detraction
+              slug: detraction
+              desc: "Sins against reputation through speech: backbiting, tale-bearing, reviling, derision, and cursing"
         - name: Fortitude
           slug: fortitude
         - name: Temperance
@@ -367,6 +381,10 @@
     - name: Justification
       slug: justification
       desc: The act of God declaring sinners righteous on account of Christ
+      children:
+        - name: Imputation
+          slug: imputation
+          desc: "The imputation of Christ's active and passive righteousness to the sinner; whether justification is by reckoned (imputed) or infused righteousness"
     - name: Sanctification
       slug: sanctification
       desc: The progressive renewal of the believer in holiness by the Holy Spirit
@@ -426,6 +444,10 @@
           children:
             - name: Baptism
               slug: baptism
+              children:
+                - name: Infant baptism
+                  slug: infant-baptism
+                  desc: "The lawfulness of baptizing infants; the paedobaptism vs. credobaptism controversy"
             - name: Lord's supper
               slug: lords-supper
               children:
@@ -444,9 +466,23 @@
               slug: extreme-unction
         - name: Prayer
           slug: prayer
+          children:
+            - name: Lord's Prayer
+              slug: lords-prayer
+              desc: "Exposition and commentary on the Lord's Prayer (Pater Noster) and its petitions"
     - name: Marriage
       slug: marriage
       desc: Marriage as a divine institution and (in some traditions) a sacrament
+      children:
+        - name: Marital consent
+          slug: marital-consent
+          desc: "The role of free and mutual consent in constituting a valid marriage; betrothal and expression of consent"
+        - name: Marriage impediments
+          slug: marriage-impediments
+          desc: "Conditions that prevent or dissolve a valid marriage: consanguinity, affinity, impotence, disparity of cult, prior vow, etc."
+        - name: Goods of marriage
+          slug: goods-of-marriage
+          desc: "The three goods of marriage (bona matrimonii): offspring (proles), fidelity (fides), and sacramental bond (sacramentum)"
     - name: Civil government
       slug: civil-government
       desc: "The civil magistrate: the authority of the state, church-state relations, and the Christian's duty to civil authority"
@@ -471,6 +507,10 @@
       desc: "The thousand-year reign of Christ (Rev. 20) and its interpretation"
     - name: Resurrection of the dead
       slug: resurrection-of-the-dead
+      children:
+        - name: Resurrection body
+          slug: resurrection-body
+          desc: "The qualities and properties of the risen body: impassibility, subtlety, agility, and clarity (the four gifts of the glorified body)"
     - name: Final judgement
       slug: final-judgement
     - name: Beatific vision

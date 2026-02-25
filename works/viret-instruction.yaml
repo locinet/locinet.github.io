@@ -225,13 +225,13 @@ viret-instruction:
           - the-form-of-prayer-given-by-jesus-christ: The Form of Prayer Given by Jesus Christ.
             loci: prayer
           - division-of-the-matters-contained-in-the-lords-prayer: Division of the Matters Contained in the Lords Prayer.
-            # loci:
+            loci: lords-prayer
           - of-the-address-of-the-christians-in-their-prayers-and-of-the: "Of the Address of the Christians in Their Prayers, and of Their True Advocate in the Same."
             # loci:
           - what-things-we-aught-to-demand-of-god-in-our-prayers: "What Things We Aught to Demand of God, in Our Prayers."
             # loci:
           - a-division-of-the-requests-contained-in-the-lord-his-prayer: A Division of the Requests Contained in the Lord His Prayer.
-            # loci:
+            loci: lords-prayer
           - of-the-ministery-of-the-church-and-of-the-use-of-the-same: "Of the Ministery of the Church, and of the Use of the Same."
             # loci:
           - of-the-parts-of-the-ministery-of-the-church: Of the Parts of the Ministery of the Church.
@@ -891,7 +891,9 @@ viret-instruction:
         translator: I.s. Seene
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A14463.xml
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A14463.xml
             section_urls:
               - the-sum-of-the-principal-points-of-the-christian-faith-and-r: https://texts.earlyprint.org/works/A14463.xml?page=005-b
               - how-needful-it-is-that-all-christians-do-well-know-what-fait: https://texts.earlyprint.org/works/A14463.xml?page=006-a

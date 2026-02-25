@@ -5,11 +5,13 @@ bremen-delegation-baptism:
     - Q55124802
     - Q101080
   corporate_author: "Bremen Delegation at the Synod of Dordt"
-  loci: baptism
+  loci: infant-baptism
   en:
     title: Judgment of the Bremen Theologians Concerning the Baptism of Children Who Were Born to Pagan Parents and Adopted into Christian Families
     translations:
       - translator: Michael Lynch
         sites:
           - site: Translationes Lyncei
-            url: https://michaellynch.substack.com/p/the-bremen-delegation-at-the-synod
+            formats:
+              - type: HTML
+                url: https://michaellynch.substack.com/p/the-bremen-delegation-at-the-synod

@@ -9,5 +9,6 @@ voet-charismata:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Voet-On-Spiritual-Gifts-Charismas-Select-Theological-Disputations-vol.-2.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Voet-On-Spiritual-Gifts-Charismas-Select-Theological-Disputations-vol.-2.pdf

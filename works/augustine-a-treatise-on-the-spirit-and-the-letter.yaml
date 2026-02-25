@@ -152,9 +152,13 @@ augustine-a-treatise-on-the-spirit-and-the-letter:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf105.xi.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf105.xi.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.xi.i.html
               - extract-from-augustin-s-retractations: https://ccel.org/ccel/s/schaff/npnf105.xi.ii.html

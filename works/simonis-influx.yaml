@@ -1,7 +1,7 @@
 simonis-influx:
   date_added: 2026-02-09
   author: Q110226797
-  loci: providence
+  loci: divine-concurrence
   la:
     title: De influxu Dei in causas secundas
     orig_lang: true
@@ -25,8 +25,9 @@ simonis-influx:
         AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Simonis-Johann-The-Influx-of-God-into-Secondary-Causes.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Simonis-Johann-The-Influx-of-God-into-Secondary-Causes.pdf
             section_urls:
               - onomatides: https://reformedbooksonline.com/wp-content/uploads/2026/02/Simonis-Johann-The-Influx-of-God-into-Secondary-Causes.pdf#page=5
               - pragmatodes: https://reformedbooksonline.com/wp-content/uploads/2026/02/Simonis-Johann-The-Influx-of-God-into-Secondary-Causes.pdf#page=6

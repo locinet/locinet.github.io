@@ -1126,6 +1126,9 @@
       title.addEventListener("click", function (e) {
         if (e.target.closest("a")) return;
         toggleSectionChildren(li);
+        if (li.classList.contains("has-text")) {
+          li.classList.toggle("expanded");
+        }
       });
     }
   });

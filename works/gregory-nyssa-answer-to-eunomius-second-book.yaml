@@ -18,9 +18,13 @@ gregory-nyssa-answer-to-eunomius-second-book:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf205.viii.ii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf205.viii.ii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf205.viii.ii.i.html
               - answer-to-eunomius-second-book: https://ccel.org/ccel/s/schaff/npnf205.viii.ii.ii.html

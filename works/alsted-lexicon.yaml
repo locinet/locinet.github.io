@@ -250,7 +250,9 @@ alsted-lexicon:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - ch1: https://confessionallyreformed.wordpress.com/2026/01/04/johann-heinrich-alsted-c-1588-1638-on-theology/
               - ch7: https://confessionallyreformed.wordpress.com/2026/01/10/johann-heinrich-alsted-c-1588-1638-on-ecstasy-specters-chance-dreams/

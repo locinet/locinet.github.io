@@ -36,9 +36,13 @@ augustine-a-treatise-on-faith-and-the-creed:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - introductory-notice: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.i.html
               - of-the-origin-and-object-of-the-composition: https://ccel.org/ccel/s/schaff/npnf103.iv.iv.ii.html

@@ -178,7 +178,9 @@ coccejus-summa:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - ch6: https://confessionallyreformed.wordpress.com/2026/01/02/johannes-coccejus-c-1603-1669-on-the-perspicuity-and-interpretation-of-scripture/
               - ch7: https://confessionallyreformed.wordpress.com/2026/01/04/johannes-coccejus-c-1603-1669-on-the-foundation/

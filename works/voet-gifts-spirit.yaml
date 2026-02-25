@@ -9,5 +9,6 @@ voet-gifts-spirit:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Voet-Gisbert-A-Disquisition-on-Thomas-Pt-1-of-Pt-2-Questions-68-70-of-the-Gifts-Blessings-Fruits-of-the-Spirit-Select-Theological-Disputations.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Voet-Gisbert-A-Disquisition-on-Thomas-Pt-1-of-Pt-2-Questions-68-70-of-the-Gifts-Blessings-Fruits-of-the-Spirit-Select-Theological-Disputations.pdf

@@ -22,9 +22,13 @@ boethius-tractates:
       - translator: H.F. Stewart and E.K. Rand
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/boethius/tracts/tracts
-            pdf_url: https://ccel.org/ccel/boethius/tracts/cache/tracts.pdf
-            epub_url: https://ccel.org/ccel/boethius/tracts/cache/tracts.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/boethius/tracts/tracts
+              - type: PDF
+                url: https://ccel.org/ccel/boethius/tracts/cache/tracts.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/boethius/tracts/cache/tracts.epub
             section_urls:
               - trinity-is-one-god: https://ccel.org/ccel/boethius/tracts/tracts.iv.i.html
               - father-son-holy-spirit: https://ccel.org/ccel/boethius/tracts/tracts.iv.ii.html

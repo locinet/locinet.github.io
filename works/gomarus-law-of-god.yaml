@@ -10,7 +10,9 @@ gomarus-law-of-god:
       - year: 1603
         sites:
           - site: Google Books
-            url: https://www.google.com/books/edition/Disputationum_theologicarum_decima_quint/
+            formats:
+              - type: HTML
+                url: https://www.google.com/books/edition/Disputationum_theologicarum_decima_quint/
   en:
     title: "15th of the Theological Disputations: On the Law of God"
     sections:
@@ -67,4 +69,6 @@ gomarus-law-of-god:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/02/02/franciscus-gomarus-c-1563-1641-on-the-law-of-god/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/02/02/franciscus-gomarus-c-1563-1641-on-the-law-of-god/

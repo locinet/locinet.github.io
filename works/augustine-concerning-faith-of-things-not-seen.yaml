@@ -36,9 +36,13 @@ augustine-concerning-faith-of-things-not-seen:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf103.iv.v.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf103.iv.v.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf103/cache/npnf103.epub
             section_urls:
               - section-1: https://ccel.org/ccel/s/schaff/npnf103.iv.v.i.html
               - section-2: https://ccel.org/ccel/s/schaff/npnf103.iv.v.ii.html

@@ -30,4 +30,6 @@ voet-justification-problems:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/01/20/gisbertus-voetius-c-1589-1676-on-some-problems-concerning-justification/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/01/20/gisbertus-voetius-c-1589-1676-on-some-problems-concerning-justification/

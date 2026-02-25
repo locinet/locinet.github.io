@@ -69,9 +69,13 @@ gregory-nyssa-on-virginity:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf205/cache/npnf205.epub
             section_urls:
               - preface: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.i.html
               - on-virginity: https://ccel.org/ccel/s/schaff/npnf205.ix.ii.ii.html

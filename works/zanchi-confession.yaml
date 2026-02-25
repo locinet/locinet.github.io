@@ -1331,9 +1331,13 @@ zanchi-confession:
         earlyprint: A15857
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A15857.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A15/A15857_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A15/A15857_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A15857.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A15/A15857_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A15/A15857_standard.epub
             section_urls:
               - chap-i-of-the-holy-scriptures-the-foundation-of-all-christia: https://texts.earlyprint.org/works/A15857.xml?page=023-a
               - ii-god-himself-speaketh-in-the-wrighting-of-the-prophets-and: https://texts.earlyprint.org/works/A15857.xml?page=024-a

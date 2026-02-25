@@ -10,7 +10,9 @@ bergius-johann-holy-supper:
         place: Berlin
         sites:
           - site: SLUB Dresden
-            url: https://digital.slub-dresden.de/werkansicht/dlf/3826/5
+            formats:
+              - type: HTML
+                url: https://digital.slub-dresden.de/werkansicht/dlf/3826/5
   en:
     title: "The Holy Supper: Healing the Reformed and Lutheran Divide"
     translations:
@@ -18,5 +20,6 @@ bergius-johann-holy-supper:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/APeC1pYJMHheaOyny5sRVO0/%5BJohann%20Bergius%5D%20The%20Holy%20Supper.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&e=1&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/APeC1pYJMHheaOyny5sRVO0/%5BJohann%20Bergius%5D%20The%20Holy%20Supper.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&e=1&dl=0

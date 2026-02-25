@@ -8,6 +8,7 @@ const AUTHORS_DIR = path.resolve(__dirname, "../../_cache/authors");
 const TRADITIONS_PATH = path.resolve(__dirname, "../../traditions.yaml");
 const TRANSLATORS_PATH = path.resolve(__dirname, "../../translators.yaml");
 const DISPLAY_NAMES_PATH = path.resolve(__dirname, "../../display_names.yaml");
+const TEXTS_DIR = path.resolve(__dirname, "../../_texts");
 
 // --- Loci processing ---
 
@@ -99,9 +100,29 @@ function loadTranslators() {
   return yaml.load(raw) || {};
 }
 
+// --- Text processing ---
+
+// Convert plain-text section content to safe HTML for rendering.
+// If the text is already HTML (starts with "<"), pass it through as-is.
+// Otherwise, escape HTML entities and wrap double-newline-separated blocks in <p> tags.
+function processText(text) {
+  if (!text) return null;
+  if (text.trimStart().startsWith("<")) return text;
+  const escaped = text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+  return escaped
+    .split(/\n\n+/)
+    .map((p) => p.replace(/\n/g, " ").trim())
+    .filter((p) => p)
+    .map((p) => `<p>${p}</p>`)
+    .join("\n");
+}
+
 // --- Section parsing ---
 
-const RESERVED_KEYS = new Set(["loci", "sections"]);
+const RESERVED_KEYS = new Set(["loci", "sections", "text"]);
 
 function parseSection(item) {
   const keys = Object.keys(item);
@@ -123,11 +144,22 @@ function parseSection(item) {
       : [String(lociRaw)]
     : [];
 
+  const text = typeof item.text === "string" ? processText(item.text.trim()) : null;
+
   const children = item.sections
     ? item.sections.map(parseSection).filter(Boolean)
     : [];
 
-  return { id, title, loci, children };
+  return { id, title, loci, text, children };
+}
+
+function collectSectionTexts(sections, out) {
+  out = out || {};
+  for (const s of sections) {
+    if (s.text) out[s.id] = s.text;
+    if (s.children && s.children.length > 0) collectSectionTexts(s.children, out);
+  }
+  return out;
 }
 
 function flattenSections(sections, depth, out) {
@@ -202,6 +234,20 @@ function slugify(name) {
     .replace(/^-|-$/g, "");
 }
 
+// --- External text files ---
+
+function loadTextFiles(workId) {
+  const dir = path.join(TEXTS_DIR, workId);
+  if (!fs.existsSync(dir)) return {};
+  const result = {};
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".html")) continue;
+    const sectionId = file.slice(0, -5);
+    result[sectionId] = processText(fs.readFileSync(path.join(dir, file), "utf8").trim());
+  }
+  return result;
+}
+
 // --- Work parsing ---
 
 const WORK_META_KEYS = new Set(["author", "category", "loci", "corporate_author", "date_added"]);
@@ -259,24 +305,21 @@ function parseWork(fileId, data, translatorsMap) {
   // Translations
   const translations = (en.translations || []).map((t) => {
     const sites = (t.sites || []).map((s) => {
-      const urlData = s.url;
-      let mainUrl = null;
-      let volumes = null;
-      if (urlData && typeof urlData === "object" && urlData.volumes) {
-        volumes = urlData.volumes;
-      } else {
-        mainUrl = urlData || null;
-      }
+      // After YAML migration: url/pdf removed from YAML; formats holds HTML/PDF entries;
+      // volumes is now a top-level key on the site entry.
+      const volumes = s.volumes && typeof s.volumes === "object" ? s.volumes : null;
+      const formats = (s.formats || []).map((f) => ({ type: String(f.type), url: String(f.url) }));
+      // Compute url from formats for template backward compatibility
+      const htmlFormat = formats.find((f) => f.type.toUpperCase() === "HTML");
+      const url = htmlFormat ? htmlFormat.url : (formats[0] ? formats[0].url : null);
       return {
         siteName: s.site || "Unknown",
-        url: mainUrl,
+        url,
         volumes,
-        pdf: s.pdf || false,
-        pdfUrl: s.pdf_url || null,
-        epubUrl: s.epub_url || null,
+        formats,
         sectionUrls: buildSectionUrlMap(s.section_urls),
         sectionTexts: typeof s.text === "string" ? {} : buildSectionUrlMap(s.text),
-        workText: typeof s.text === "string" ? s.text.trim() : null,
+        workText: typeof s.text === "string" ? processText(s.text.trim()) : null,
       };
     });
     const translatorName = t.translator || "Unknown";
@@ -287,6 +330,7 @@ function parseWork(fileId, data, translatorsMap) {
       AI: t.AI || false,
       partial: t.partial || false,
       sites,
+      hasFormats: sites.some((s) => s.formats.length > 0),
     };
   });
 
@@ -300,8 +344,21 @@ function parseWork(fileId, data, translatorsMap) {
         if (!sectionTexts[k]) sectionTexts[k] = v;
       }
       if (s.workText && !workText) workText = s.workText;
-      if (s.pdfUrl && !pdfUrl) pdfUrl = s.pdfUrl;
+      if (!pdfUrl) {
+        const pdfFormat = s.formats.find((f) => f.type.toUpperCase() === "PDF");
+        if (pdfFormat) pdfUrl = pdfFormat.url;
+      }
     }
+  }
+
+  // Merge section-level text from YAML (fills gaps not covered by translation sites)
+  for (const [k, v] of Object.entries(collectSectionTexts(sections))) {
+    if (!sectionTexts[k]) sectionTexts[k] = v;
+  }
+
+  // Merge section texts from _texts/{workId}/ files
+  for (const [k, v] of Object.entries(loadTextFiles(fileId))) {
+    if (!sectionTexts[k]) sectionTexts[k] = v;
   }
 
   // Original language edition sites
@@ -312,17 +369,31 @@ function parseWork(fileId, data, translatorsMap) {
       const entry = { year: ed.year, place: ed.place || null, title: ed.title || null, collection: ed.collection || false, sites: [] };
       if (ed.sites) {
         for (const s of ed.sites) {
+          const formats = (s.formats || []).map((f) => ({ type: String(f.type), url: String(f.url) }));
+          const htmlFormat = formats.find((f) => f.type.toUpperCase() === "HTML");
+          const url = htmlFormat ? htmlFormat.url : (formats[0] ? formats[0].url : null);
           entry.sites.push({
             siteName: s.site,
-            url: s.url,
-            pdfUrl: s.pdf_url || null,
-            epubUrl: s.epub_url || null,
+            url,
+            formats,
             sectionUrls: buildSectionUrlMap(s.section_urls),
+            sectionTexts: typeof s.text === "string" ? {} : buildSectionUrlMap(s.text),
+            workText: typeof s.text === "string" ? processText(s.text.trim()) : null,
           });
         }
       }
       if (ed.oclc && !oclc) oclc = String(ed.oclc);
       origEditions.push(entry);
+    }
+  }
+
+  // Merge section texts from original-language edition sites
+  for (const ed of origEditions) {
+    for (const s of ed.sites) {
+      for (const [k, v] of Object.entries(s.sectionTexts || {})) {
+        if (!sectionTexts[k]) sectionTexts[k] = v;
+      }
+      if (s.workText && !workText) workText = s.workText;
     }
   }
 

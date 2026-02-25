@@ -55,8 +55,9 @@ rutherford-examination-of-arminianism:
         AI: true
         sites:
           - site: Reformed Books Online
-            url: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf
             section_urls:
               - exam-arm-ch1: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=36
               - exam-arm-ch2: https://reformedbooksonline.com/wp-content/uploads/2024/10/Examination_Of_Arminianism.pdf#page=108

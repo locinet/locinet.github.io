@@ -8,5 +8,6 @@ gomarus-commentaries-epistles:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Gomarus-Francis-Works-Pt-2-Romans-and-Galatians.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Gomarus-Francis-Works-Pt-2-Romans-and-Galatians.pdf

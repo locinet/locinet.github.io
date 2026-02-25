@@ -261,8 +261,9 @@ trelcatius-elder-commonplaces:
         AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf
             section_urls:
               - 1: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=16
               - 2: https://confessionallyreformed.wordpress.com/wp-content/uploads/2025/04/opuscula-theologica-omnia.pdf#page=26

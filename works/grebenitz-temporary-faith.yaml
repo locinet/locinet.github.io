@@ -11,7 +11,9 @@ grebenitz-temporary-faith:
         place: Frankfurt
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=hoVBAAAAcAAJ
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=hoVBAAAAcAAJ
   en:
     title: Temporary Faith
     translations:
@@ -19,5 +21,6 @@ grebenitz-temporary-faith:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AM_eNc5mJC9EMcKD8Gwn3eU/%5BElias%20Gerbenitz%5D%20Temporary%20Faith.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AM_eNc5mJC9EMcKD8Gwn3eU/%5BElias%20Gerbenitz%5D%20Temporary%20Faith.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

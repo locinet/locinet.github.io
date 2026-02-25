@@ -3505,9 +3505,13 @@ bucanus-institutions:
         earlyprint: A69010
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A69010.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A69/A69010_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A69/A69010_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A69010.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A69/A69010_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A69/A69010_standard.epub
             section_urls:
               - what-is-the-main-and-most-principal-point-in-sacred-divinity: https://texts.earlyprint.org/works/A69010.xml?page=009-b
               - show-me-the-principal-reasons-to-prove-that-there-is-a-god: https://texts.earlyprint.org/works/A69010.xml?page=010-a

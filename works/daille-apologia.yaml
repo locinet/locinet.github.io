@@ -19,16 +19,15 @@ daille-apologia:
         AI: true
         sites:
           - site: Dropbox
-            url:
-              volumes:
-                1: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/ADXagW6h0xzz660OIBxeCrc/%5BJean%20Daill%C3%A9%5D%20Apologia%20Vol%201..pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-                2: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AOcbhFjdaQqYete9RkepFQI/%5BJean%20Daill%C3%A9%5D%20Apologia%20Vol%202.%20Testimonies.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            volumes:
+              1: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/ADXagW6h0xzz660OIBxeCrc/%5BJean%20Daill%C3%A9%5D%20Apologia%20Vol%201..pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
+              2: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AOcbhFjdaQqYete9RkepFQI/%5BJean%20Daill%C3%A9%5D%20Apologia%20Vol%202.%20Testimonies.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
       - translator: Nos
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AKVx2HJ6scGUS879cf5VRcA/%5BJean%20Daill%C3%A9%5D%20Vindication%20of%20the%20Apology.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AKVx2HJ6scGUS879cf5VRcA/%5BJean%20Daill%C3%A9%5D%20Vindication%20of%20the%20Apology.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
             section_urls:
               - vindication: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AKVx2HJ6scGUS879cf5VRcA/%5BJean%20Daill%C3%A9%5D%20Vindication%20of%20the%20Apology.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

@@ -17,6 +17,5 @@ baxter-method-theology:
       - AI: true
         sites:
           - site: RBO
-            pdf: true
             section_urls:
               - atonement-justice: https://reformedbooksonline.com/wp-content/uploads/2026/02/Baxter-Richard-Method-of-Christian-Theology-Atonement-Justice-Merit-Justification.pdf

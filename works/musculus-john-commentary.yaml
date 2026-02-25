@@ -9,7 +9,9 @@ musculus-john-commentary:
         place: Basel
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=xJw5AAAAcAAJ
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=xJw5AAAAcAAJ
   en:
     title: Commentary on the Gospel of John
     sections:
@@ -19,5 +21,6 @@ musculus-john-commentary:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fi/2m9asvzm4szyoegd2bwux/Wolfgang-Musculus-John-316-The-Redemption-of-Mankind.pdf?rlkey=qvh7x6aelmqn2qnzgr3u35b4m&e=1&st=penz4ozh&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fi/2m9asvzm4szyoegd2bwux/Wolfgang-Musculus-John-316-The-Redemption-of-Mankind.pdf?rlkey=qvh7x6aelmqn2qnzgr3u35b4m&e=1&st=penz4ozh&dl=0

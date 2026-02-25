@@ -66,7 +66,9 @@ alting-methodus: # Every work should have its own YAML file, which should start 
         AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - nature-of-theology: https://confessionallyreformed.wordpress.com/2026/02/04/johann-heinrich-alting-c-1583-1644-on-the-nature-of-theology-2/
               - methodus-god: https://confessionallyreformed.wordpress.com/2025/04/20/johann-heinrich-alting-c-1644-on-god/

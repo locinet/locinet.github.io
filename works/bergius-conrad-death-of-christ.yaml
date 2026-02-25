@@ -11,7 +11,9 @@ bergius-conrad-death-of-christ:
         place: Cologne
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=tIVBAAAAcAAJ
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=tIVBAAAAcAAJ
   en:
     title: On the Sufficiency & Efficiency of the Death of Christ
     translations:
@@ -19,5 +21,6 @@ bergius-conrad-death-of-christ:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AKiYFQkD2Wh64ZNa-elybaY/%5BConrad%20Bergius%5D%20On%20The%20Sufficiency%20and%20Efficiency%20of%20the%20Death%20of%20Christ.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AKiYFQkD2Wh64ZNa-elybaY/%5BConrad%20Bergius%5D%20On%20The%20Sufficiency%20and%20Efficiency%20of%20the%20Death%20of%20Christ.pdf?rlkey=fxax6agqlrzlwoukaiwdgtedf&dl=0

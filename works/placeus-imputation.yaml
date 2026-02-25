@@ -2,6 +2,7 @@ placeus-imputation:
   date_added: 2026-02-07
   author: Q3186122
   category: monograph
+  loci: imputation
   la:
     title: De Imputatione Primi Peccati Adami Disputatio
     orig_lang: true
@@ -18,7 +19,8 @@ placeus-imputation:
         AI: true
         sites:
           - site: RBO
-            pdf: true
-            url: https://reformedbooksonline.com/
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/
             section_urls:
               - 12: https://reformedbooksonline.com/wp-content/uploads/2026/02/Placeus-Joshua-Works-vol.-1-ch-12-On-the-Imputation-of-the-First-Sin-of-Adam.pdf

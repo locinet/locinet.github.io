@@ -12,7 +12,9 @@ rollock-sermons-2cor5:
     translations:
       - sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - sermon-1: https://confessionallyreformed.wordpress.com/2026/01/28/robert-rollock-c-1555-1599-sermon-on-2nd-corinthians-chapter-51-4/
               - sermon-2: https://confessionallyreformed.wordpress.com/2026/01/29/robert-rollock-c-1555-1599-sermon-on-2nd-corinthians-55-8/

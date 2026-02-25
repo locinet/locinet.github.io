@@ -59,9 +59,13 @@ gerhard-sum:
         earlyprint: A01637
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A01637.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A01/A01637_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A01/A01637_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A01637.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A01/A01637_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A01/A01637_standard.epub
             section_urls:
               - chap-i-a-description-or-representation-of-the-theological-pl: https://texts.earlyprint.org/works/A01637.xml?page=014-a
               - chap-ii-wherein-are-contained-theological-aphorisms-concerni: https://texts.earlyprint.org/works/A01637.xml?page=018-b

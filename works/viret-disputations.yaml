@@ -39,7 +39,9 @@ viret-disputations:
         translator: Iohn Brooke of Ashe
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A14461.xml
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A14461.xml
             section_urls:
               - the-argument-and-sum-of-the-first-dialogue: https://texts.earlyprint.org/works/A14461.xml?page=028-a
               - the-first-dialogue-which-is-called-the-alchymee-of-purgatory: https://texts.earlyprint.org/works/A14461.xml?page=029-a

@@ -10,7 +10,9 @@ daille-christ-dead-risen:
         place: Charenton
         sites:
           - site: Google Books
-            url: https://books.google.com/books?id=St88AAAAcAAJ
+            formats:
+              - type: HTML
+                url: https://books.google.com/books?id=St88AAAAcAAJ
   en:
     title: Christ Dead and Risen for Us
     translations:
@@ -18,5 +20,6 @@ daille-christ-dead-risen:
         AI: true
         sites:
           - site: Dropbox
-            url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AJzzCiHgjB_QrzPDhEUE_R8?dl=0&e=2&preview=Christ+Dead+and+Risen+for+Us+by+Jean+Daill%C3%A9.pdf&rlkey=fxax6agqlrzlwoukaiwdgtedf&st=419dw1p9
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://www.dropbox.com/scl/fo/uv2juioyzp386pfbj4aq4/AJzzCiHgjB_QrzPDhEUE_R8?dl=0&e=2&preview=Christ+Dead+and+Risen+for+Us+by+Jean+Daill%C3%A9.pdf&rlkey=fxax6agqlrzlwoukaiwdgtedf&st=419dw1p9

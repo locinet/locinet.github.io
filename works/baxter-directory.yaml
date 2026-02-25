@@ -653,6 +653,7 @@ baxter-directory:
           - tit-1-directions-for-prayer-in-general: Tit. 1. Directions for Prayer, in General.
             sections:
               - a-brief-explication-of-the-method-of-the-lords-prayer: A Brief Explication of the Method of the Lords Prayer.
+                loci: lords-prayer
           - tit-2-some-questions-about-prayer-answered: Tit. 2. Some Questions About Prayer Answered.
           - tit-3-special-directions-for-family-prayer: Tit. 3. Special Directions for Family-prayer.
           - tit-4-special-directions-for-secret-prayer: Tit. 4. Special Directions for Secret Prayer.
@@ -1475,9 +1476,13 @@ baxter-directory:
         earlyprint: A26892
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A26892.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A26/A26892_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A26/A26892_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A26892.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A26/A26892_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A26/A26892_standard.epub
             section_urls:
               - a-christian-directory-tom-i-christian-ethics: https://texts.earlyprint.org/works/A26892.xml?page=018-a
               - chap-i-leg-danielis-episcop-epist-ad-bonif-mogunt-inter-epis: https://texts.earlyprint.org/works/A26892.xml?page=019-b

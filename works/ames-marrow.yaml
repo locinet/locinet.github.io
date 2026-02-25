@@ -145,9 +145,13 @@ ames-marrow:
         earlyprint: A25291
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A25291.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A25/A25291_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A25/A25291_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A25291.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A25/A25291_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A25/A25291_standard.epub
             section_urls:
               - the-first-book-of-divinity: https://texts.earlyprint.org/works/A25291.xml?page=010-b
               - the-first-chapter: https://texts.earlyprint.org/works/A25291.xml?page=011-a

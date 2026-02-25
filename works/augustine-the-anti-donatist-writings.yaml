@@ -13,6 +13,10 @@ augustine-the-anti-donatist-writings:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf104.vi.ii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf104.vi.ii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub

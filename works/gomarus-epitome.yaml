@@ -114,7 +114,9 @@ gomarus-epitome:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - theology: https://confessionallyreformed.wordpress.com/2026/01/23/franciscus-gomarus-c-1563-1641-on-theology/
               - scripture: https://confessionallyreformed.wordpress.com/2026/01/23/franciscus-gomarus-c-1563-1641-on-sacred-scripture/

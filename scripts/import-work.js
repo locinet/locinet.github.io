@@ -195,8 +195,9 @@ async function main() {
   if (pdfUrl) {
     yaml += `        sites:\n`;
     yaml += `          - site: # FILL IN\n`;
-    yaml += `            url: ${pdfUrl}\n`;
-    yaml += `            pdf: true\n`;
+    yaml += `            formats:\n`;
+    yaml += `              - type: PDF\n`;
+    yaml += `                url: ${pdfUrl}\n`;
     if (urlList.length > 0) {
       yaml += `            section_urls:\n`;
       for (const { slug, page } of urlList) {

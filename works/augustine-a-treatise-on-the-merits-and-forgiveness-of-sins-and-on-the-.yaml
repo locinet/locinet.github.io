@@ -331,9 +331,13 @@ augustine-a-treatise-on-the-merits-and-forgiveness-of-sins-and-on-the-:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf105.x.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf105.x.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf105/cache/npnf105.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf105.x.i.html
               - extract-from-augustin-s-retractations: https://ccel.org/ccel/s/schaff/npnf105.x.ii.html

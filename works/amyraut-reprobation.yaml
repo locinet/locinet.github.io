@@ -10,4 +10,6 @@ amyraut-reprobation:
         AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Amyraut-Moses-A-Defense-of-the-Doctrine-of-John-Calvin-concerning-the-Absolute-Decree-of-Reprobation.pdf
+            formats:
+              - type: HTML
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Amyraut-Moses-A-Defense-of-the-Doctrine-of-John-Calvin-concerning-the-Absolute-Decree-of-Reprobation.pdf

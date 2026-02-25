@@ -46,15 +46,15 @@ andreas-summa:
               - andreasq-b1d2-q3: Q3. Whether There Is Only One God
                 loci: unity-of-god
               - andreasq-b1d2-q4: Q4. Whether a Plurality of Persons Is Consistent with the Unity of the Divine Essence
-                loci: trinity
+                loci: divine-persons
               - andreasq-b1d2-q5: Q5. Whether There Are Only Three Persons in the Divine Essence
-                loci: trinity
+                loci: divine-persons
               - andreasq-b1d2-q6: Q6. Whether the Divine Essence Can Exist in Something if that Something Is Produced
-                loci: trinity
+                loci: divine-processions
               - andreasq-b1d2-q6bis: Q6bis. Whether There Are Several Productions in God
-                loci: trinity
+                loci: divine-processions
               - andreasq-b1d2-q7: Q7. Whether There Are in God Only Two Productions Intrinsically
-                loci: trinity
+                loci: divine-processions
           - andreasq-b1d3: Third Distinction
             sections:
               - andreasq-b1d3-q1: Q1. Whether God Can Be Naturally Known by the Intellect of the Wayfarer
@@ -78,15 +78,15 @@ andreas-summa:
           - andreasq-b1d4: Fourth Distinction
             sections:
               - andreasq-b1d4-q1: "Whether This Proposition Is True: 'God Is Father, Son, and Holy Spirit'"
-                loci: trinity
+                loci: divine-persons
           - andreasq-b1d5: Fifth Distinction
             sections:
               - andreasq-b1d5-q1: Q1. Whether the Divine Essence Generates or Is Generated
-                loci: trinity
+                loci: divine-processions
           - andreasq-b1d26: Twenty-Sixth Distinction
             sections:
               - andreasq-b1d26-q1: Whether the Divine Persons Are Constituted in Their Personal Existence by Relations of Origin
-                loci: trinity
+                loci: divine-processions
       - andreasq-b2: Book Two
         sections:
           - andreasq-b2d12: Twelfth Distinction
@@ -177,12 +177,10 @@ andreas-summa:
       - translator: Peter L.P. Simpson
         sites:
           - site: Aristotelophile
-            url:
-              volumes:
-                1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf"
-                2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf"
-                3: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf"
-            pdf: true
+            volumes:
+              1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf"
+              2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%202.pdf"
+              3: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format%203.pdf"
             section_urls:
               - andreasq-prol-q1: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=6"
               - andreasq-prol-q2: "https://aristotelophile.com/Books/Translations/Antonius%20Andreas%20format.pdf#page=13"

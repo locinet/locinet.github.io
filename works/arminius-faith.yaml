@@ -56,4 +56,6 @@ arminius-faith:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/2026/01/14/franciscus-gomarus-jacobus-arminius-c-1560-1641-on-faith/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/2026/01/14/franciscus-gomarus-jacobus-arminius-c-1560-1641-on-faith/

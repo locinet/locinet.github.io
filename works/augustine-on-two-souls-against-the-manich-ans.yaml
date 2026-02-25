@@ -46,9 +46,13 @@ augustine-on-two-souls-against-the-manich-ans:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf104/cache/npnf104.epub
             section_urls:
               - title-page: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.i.html
               - by-what-course-of-reasoning-the-error-of-the-manich-ans-conc: https://ccel.org/ccel/s/schaff/npnf104.iv.vi.ii.html

@@ -14,11 +14,15 @@
     "import-earlyprint": "node --max-old-space-size=4096 scripts/import-earlyprint.js",
     "import-ccel": "node scripts/import-ccel.js",
     "list-sections": "node scripts/list-sections.js",
-    "tag": "node scripts/tag-sections.js"
+    "tag": "node scripts/tag-sections.js",
+    "import-csv": "node scripts/import-csv.js",
+    "import-epub": "node scripts/import-epub.js",
+    "extract-texts": "node scripts/extract-texts.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@xmldom/xmldom": "^0.8.11",
+    "adm-zip": "^0.5.16",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {

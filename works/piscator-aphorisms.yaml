@@ -967,9 +967,13 @@ piscator-aphorisms:
         earlyprint: A17599
         sites:
           - site: EarlyPrint
-            url: https://texts.earlyprint.org/works/A17599.xml
-            pdf_url: https://texts.earlyprint.org/downloads/A17/A17599_standard.pdf
-            epub_url: https://texts.earlyprint.org/downloads/A17/A17599_standard.epub
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A17599.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A17/A17599_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A17/A17599_standard.epub
             section_urls:
               - chap-1-of-the-knowledge-of-god: https://texts.earlyprint.org/works/A17599.xml?page=012-b
               - four: https://texts.earlyprint.org/works/A17599.xml?page=013-a

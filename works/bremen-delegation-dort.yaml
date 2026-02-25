@@ -17,5 +17,6 @@ bremen-delegation-dort:
       - AI: true
         sites:
           - site: RBO
-            url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Bremen-Delegation-at-Dort-On-Predestination-Reprobation-Christs-Death-Regeneration-Free-Choice-and-Perseverance.pdf
-            pdf: true
+            formats:
+              - type: PDF
+                url: https://reformedbooksonline.com/wp-content/uploads/2026/02/Bremen-Delegation-at-Dort-On-Predestination-Reprobation-Christs-Death-Regeneration-Free-Choice-and-Perseverance.pdf

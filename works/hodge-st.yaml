@@ -11,9 +11,13 @@ hodge-st:
       - year: 1940
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/hodge/theology1
-            pdf_url: https://ccel.org/ccel/hodge/theology1/cache/theology1.pdf
-            epub_url: https://ccel.org/ccel/hodge/theology1/cache/theology1.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/hodge/theology1
+              - type: PDF
+                url: https://ccel.org/ccel/hodge/theology1/cache/theology1.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/hodge/theology1/cache/theology1.epub
             section_urls:
               - introduction: https://ccel.org/ccel/hodge/theology1/theology1.iii.html
               - chapter-i-on-method: https://ccel.org/ccel/hodge/theology1/theology1.iii.i.html

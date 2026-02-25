@@ -165,7 +165,9 @@ alting-problematica:
       - AI: true
         sites:
           - site: CRT
-            url: https://confessionallyreformed.wordpress.com/
+            formats:
+              - type: HTML
+                url: https://confessionallyreformed.wordpress.com/
             section_urls:
               - locus-13: https://confessionallyreformed.wordpress.com/2025/12/31/johann-heinrich-alting-c-1583-1644-on-the-church-4/
 

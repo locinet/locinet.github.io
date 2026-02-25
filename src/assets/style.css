@@ -187,7 +187,6 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   border-left: 2px solid var(--border);
   font-size: 1em;
   line-height: 1.7;
-  white-space: pre-wrap;
 }
 .section-item.expanded > .section-text { display: block; }
 /* Work-level text (works without sections) */
@@ -197,7 +196,48 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   border-left: 2px solid var(--border);
   font-size: 0.9em;
   line-height: 1.7;
+}
+/* Paragraph spacing inside rendered text blocks */
+.section-text p,
+.work-text p {
+  margin-bottom: 0.8em;
+}
+.section-text p:last-child,
+.work-text p:last-child {
+  margin-bottom: 0;
+}
+.section-text h4,
+.work-text h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1em 0 0.3em;
+}
+.section-text .verse,
+.work-text .verse {
   white-space: pre-wrap;
+}
+/* Sidenotes (from imported footnotes) */
+.sidenote-marker {
+  font-size: 0.7em;
+  color: var(--muted);
+  margin-left: 0.1em;
+}
+.sidenote {
+  display: block;
+  float: right;
+  clear: right;
+  width: 30%;
+  margin: 0 0 0.5em 1em;
+  padding-left: 0.6em;
+  border-left: 2px solid var(--border);
+  font-size: 0.8em;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.4;
+}
+.sidenote sup {
+  font-style: normal;
+  font-size: 0.85em;
 }
 .work-text.work-text-collapsed { display: none; }
 .work-text-toggle { cursor: pointer; }
@@ -721,4 +761,9 @@ body:has(.loci-page), body:has(.author-page-layout) { max-width: 1200px; }
   .view-toggle { gap: 0.3em; }
   .tradition-dropdown-menu { left: auto; right: 0; }
   .tradition-option { padding: 0.5em 0.6em; }
+  .sidenote {
+    float: none;
+    width: 100%;
+    margin: 0.3em 0;
+  }
 }

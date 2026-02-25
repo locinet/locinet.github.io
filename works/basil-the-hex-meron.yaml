@@ -34,9 +34,13 @@ basil-the-hex-meron:
       - translator: # FILL IN
         sites:
           - site: CCEL
-            url: https://ccel.org/ccel/s/schaff/npnf208.viii.html
-            pdf_url: https://ccel.org/ccel/s/schaff/npnf208/cache/npnf208.pdf
-            epub_url: https://ccel.org/ccel/s/schaff/npnf208/cache/npnf208.epub
+            formats:
+              - type: HTML
+                url: https://ccel.org/ccel/s/schaff/npnf208.viii.html
+              - type: PDF
+                url: https://ccel.org/ccel/s/schaff/npnf208/cache/npnf208.pdf
+              - type: EPUB
+                url: https://ccel.org/ccel/s/schaff/npnf208/cache/npnf208.epub
             section_urls:
               - introduction: https://ccel.org/ccel/s/schaff/npnf208.viii.i.html
               - in-the-beginning-god-made-the-heaven-and-the-earth: https://ccel.org/ccel/s/schaff/npnf208.viii.ii.html

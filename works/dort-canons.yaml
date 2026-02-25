@@ -26,4 +26,6 @@ dort-canons:
         year: 1619
         sites:
           - site: CCEL
-            url: https://www.ccel.org/creeds/canons-of-dort.html
+            formats:
+              - type: HTML
+                url: https://www.ccel.org/creeds/canons-of-dort.html
