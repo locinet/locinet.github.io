@@ -89,11 +89,12 @@ eleventyComputed:
 <div id="works-list">
 {% for work in authorPage.works %}
   {% set allLociJson %}{{ work.allLoci | dump | safe }}{% endset %}
+  {% set workLociJson %}{{ work.workLoci | dump | safe }}{% endset %}
   {% set hasText = (work.sectionTexts and (work.sectionTexts | length > 0)) or work.workText %}
   {% set editionInfo %}{% for ed in work.origEditions %}{% if ed.place %}{{ ed.place }}, {% endif %}{% if ed.year %}{{ ed.year }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}{% endset %}
   {% set translationInfo %}{% for t in work.translations %}{% if t.translator == "Unknown" %}Unknown translator{% else %}Translated by {{ t.translator }}{% endif %}{% if t.year %} ({{ t.year }}){% endif %}{% if t.AI %} [AI]{% endif %}{% if not loop.last %}. {% endif %}{% endfor %}{% endset %}
   {% set authorDates %}{% if authorPage.birthYear %}{{ authorPage.birthYear }}{% endif %}{% if authorPage.deathYear %}–{{ authorPage.deathYear }}{% endif %}{% endset %}
-  <div class="work" id="{{ work.id }}" data-loci="{{ allLociJson }}"
+  <div class="work" id="{{ work.id }}" data-loci="{{ allLociJson }}" data-work-loci="{{ workLociJson }}"
        {% if hasText %}data-has-text="1" data-work-title="{{ work.title }}" data-work-orig-title="{{ work.origTitle }}" data-work-author="{{ authorPage.name }}" data-author-orig-name="{{ authorPage.origLangName }}" data-author-dates="{{ authorDates | trim }}" data-author-image="{{ authorPage.imageUrl }}" data-edition-info="{{ editionInfo | trim }}" data-translation-info="{{ translationInfo | trim }}"{% endif %}>
     <div class="work-header">
       <h2 class="work-title">{{ work.title }}

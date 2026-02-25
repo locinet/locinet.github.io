@@ -79,6 +79,27 @@
         const sectionArr = Array.from(sections);
         let anyMatchingSection = false;
 
+        // If the work itself is tagged with the matching locus (not just sections),
+        // show all sections with normal tree behavior — the whole work is relevant.
+        let workOwnLoci;
+        try {
+          workOwnLoci = JSON.parse(work.dataset.workLoci || "[]");
+        } catch (e) {
+          workOwnLoci = [];
+        }
+        if (workOwnLoci.some((l) => matchingSlugs.has(l))) {
+          sectionArr.forEach((s) => s.classList.remove("filtered-hidden"));
+          if (sectionArr.length > 0) {
+            const list = work.querySelector(".sections-list");
+            if (list) list.classList.remove("sections-collapsed");
+            const toggle = work.querySelector(".sections-toggle");
+            if (toggle) toggle.classList.add("sections-open");
+            var expandToggle = work.querySelector(".expand-all-toggle");
+            if (expandToggle) expandToggle.style.display = "";
+          }
+          continue;
+        }
+
         // First pass: determine which sections directly match
         const directMatch = new Array(sectionArr.length);
         for (let si = 0; si < sectionArr.length; si++) {
@@ -91,24 +112,40 @@
           directMatch[si] = sectionLoci.some((l) => matchingSlugs.has(l));
         }
 
-        // Second pass: also show ancestor sections of any matching section
+        // Second pass: mark ancestors of direct matches visible (and track which need expansion)
         const visible = new Array(sectionArr.length).fill(false);
+        const needExpand = new Array(sectionArr.length).fill(false);
         for (let si = 0; si < sectionArr.length; si++) {
           if (directMatch[si]) {
             visible[si] = true;
-            // Walk backwards to mark ancestor sections visible
+            // Walk backwards to mark ancestor sections visible and needing expansion
             const myDepth = parseInt(sectionArr[si].dataset.depth || "0", 10);
             let needDepth = myDepth - 1;
             for (let pi = si - 1; pi >= 0 && needDepth >= 0; pi--) {
               const pd = parseInt(sectionArr[pi].dataset.depth || "0", 10);
               if (pd === needDepth) {
                 visible[pi] = true;
+                needExpand[pi] = true;
                 needDepth--;
               } else if (pd < needDepth) {
                 // Skipped a level, still mark as visible
                 visible[pi] = true;
+                needExpand[pi] = true;
                 needDepth = pd - 1;
               }
+            }
+          }
+        }
+
+        // Third pass: mark descendants of directly-matching sections as visible
+        // (they stay tree-hidden until the user manually expands the parent)
+        for (let si = 0; si < sectionArr.length; si++) {
+          if (directMatch[si]) {
+            const myDepth = parseInt(sectionArr[si].dataset.depth || "0", 10);
+            for (let ci = si + 1; ci < sectionArr.length; ci++) {
+              const cd = parseInt(sectionArr[ci].dataset.depth || "0", 10);
+              if (cd <= myDepth) break;
+              visible[ci] = true;
             }
           }
         }
@@ -128,11 +165,28 @@
           if (list) list.classList.remove("sections-collapsed");
           const toggle = work.querySelector(".sections-toggle");
           if (toggle) toggle.classList.add("sections-open");
-          // Remove tree-hidden so matching nested sections are visible
-          work.querySelectorAll(".section-item").forEach(function(s) {
-            s.classList.remove("tree-hidden");
-            if (s.classList.contains("section-parent")) s.classList.add("tree-expanded");
-          });
+          // Selectively manage tree state:
+          // - Ancestors of direct matches: expand them so the match is reachable
+          // - Direct matches: make visible but keep collapsed (children show on click)
+          // - Descendants of direct matches: keep tree-hidden (revealed on user click)
+          for (let si = 0; si < sectionArr.length; si++) {
+            if (!visible[si]) continue;
+            const myDepth = parseInt(sectionArr[si].dataset.depth || "0", 10);
+            if (needExpand[si]) {
+              sectionArr[si].classList.remove("tree-hidden");
+              sectionArr[si].classList.add("tree-expanded");
+              // Remove tree-hidden from its direct children (same as click handler does)
+              for (let ci = si + 1; ci < sectionArr.length; ci++) {
+                const cd = parseInt(sectionArr[ci].dataset.depth || "0", 10);
+                if (cd <= myDepth) break;
+                if (cd === myDepth + 1) sectionArr[ci].classList.remove("tree-hidden");
+              }
+            } else if (directMatch[si]) {
+              // Just make the direct match visible; don't expand its children
+              sectionArr[si].classList.remove("tree-hidden");
+            }
+            // Descendants of direct matches: leave tree-hidden intact
+          }
           var expandToggle = work.querySelector(".expand-all-toggle");
           if (expandToggle) expandToggle.style.display = "";
         }
