@@ -1,0 +1,19 @@
+witsius-baptism:
+  author: Q339211
+  date_added: 2026-02-25
+  loci: baptism
+  la:
+    title: De Efficacia et Utilitate Baptismi in Electis Foederatorum Parentum Infantibus
+    place: Utrecht
+    year: 1693
+    orig_lang: true
+  en:
+    title: On the Efficacy and Utility of Baptism in the Case of Elect Infants Whose Parents Are Under the Covenant
+    translations:
+      - translator: William Marshall
+        AI: false
+        sites:
+          - site: MARS
+            formats:
+              - type: PDF
+                url: https://www.midamerica.edu/uploads/files/pdf/journal/17-witsius.pdf
