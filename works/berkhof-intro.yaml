@@ -10,8 +10,10 @@ berkhof-intro:
         sites:
           - site: Monergism
             formats:
-              - type: EPUB
+              - type: ePub
                 url: https://www.monergism.com/thethreshold/sdg/berkhof/IntrotoSystematicLouisBerkhof.epub
+              - type: MOBI
+                url: https://www.monergism.com/thethreshold/sdg/berkhof/IntrotoSystematicLouisBerkhof.mobi
               - type: PDF
                 url: https://www.monergism.com/thethreshold/sdg/berkhof/IntrotoSystematicLouisBerkhof.pdf
             text:

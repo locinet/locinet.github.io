@@ -136,9 +136,11 @@ eleventyComputed:
         {% if not ed.collection %}
         <p class="edition-info">
           {% if ed.place %}{{ ed.place }}, {% endif %}{% if ed.year %}{{ ed.year }}.{% endif %}
-          {% for s in ed.sites %}
-            Original: <a href="{{ s.url }}">{{ s.siteName }}</a>
-          {% endfor %}
+          {% if work.origLang != "en" %}
+            {% for s in ed.sites %}
+              {% if s.url %}Original: <a href="{{ s.url }}">{{ s.siteName }}</a>{% endif %}
+            {% endfor %}
+          {% endif %}
         </p>
         {% endif %}
       {% endfor %}
@@ -168,11 +170,13 @@ eleventyComputed:
               {%- elif s.formats | length > 0 %}
                 {%- if hasSiteLink %}, {% else %} {% endif -%}
                 {{ s.siteName }}
+                {%- if s.siteInfo and s.siteInfo.support %} (<a href="{{ s.siteInfo.support }}">support</a>){% endif %}
                 {%- for f in s.formats %} [<a href="{{ f.url }}" target="_blank" rel="noopener noreferrer">{{ f.type }}</a>]{% endfor -%}
                 {%- set hasSiteLink = true -%}
               {%- elif s.volumes %}
                 {%- if hasSiteLink %}, {% else %} {% endif -%}
                 {{ s.siteName }}
+                {%- if s.siteInfo and s.siteInfo.support %} (<a href="{{ s.siteInfo.support }}">support</a>){% endif %}
                 {%- for volNum, volUrl in s.volumes %}
                   <a href="{{ volUrl }}">Vol. {{ volNum }}</a>
                   {%- if not loop.last %}, {% endif -%}
@@ -181,6 +185,7 @@ eleventyComputed:
               {%- else %}
                 {%- if hasSiteLink %}, {% else %} {% endif -%}
                 {{ s.siteName }}
+                {%- if s.siteInfo and s.siteInfo.support %} (<a href="{{ s.siteInfo.support }}">support</a>){% endif %}
                 {%- set hasSiteLink = true -%}
               {%- endif -%}
             {%- endfor -%}
@@ -198,13 +203,19 @@ eleventyComputed:
       {% elif work.origLang == "en" and work.origEditions.length > 0 %}
         {# Edition-only English works (e.g. EarlyPrint) #}
         <p class="translations-summary{% if work.flatSections.length > 0 %} sections-toggle{% endif %}">
-          Full text in English:
+          Full text:
           {%- set hasSiteLink = false -%}
           {%- for ed in work.origEditions %}
             {%- for s in ed.sites %}
-              {%- if s.url %}
+              {%- if s.url or s.formats.length > 0 %}
                 {%- if hasSiteLink %}, {% else %} {% endif -%}
-                <a href="{{ s.url }}">{{ s.siteName }}</a>
+                {%- if s.siteInfo and s.siteInfo.support %}
+                  {{ s.siteName }} (<a href="{{ s.siteInfo.support }}">support</a>)
+                {%- elif s.url %}
+                  <a href="{{ s.url }}">{{ s.siteName }}</a>
+                {%- else %}
+                  {{ s.siteName }}
+                {%- endif %}
                 {%- for f in s.formats %} [<a href="{{ f.url }}" target="_blank" rel="noopener noreferrer">{{ f.type }}</a>]{% endfor -%}
                 {%- set hasSiteLink = true -%}
               {%- endif -%}

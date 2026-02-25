@@ -7,6 +7,7 @@ const LOCI_PATH = path.resolve(__dirname, "../../loci.yaml");
 const AUTHORS_DIR = path.resolve(__dirname, "../../_cache/authors");
 const TRADITIONS_PATH = path.resolve(__dirname, "../../traditions.yaml");
 const TRANSLATORS_PATH = path.resolve(__dirname, "../../translators.yaml");
+const SITES_PATH = path.resolve(__dirname, "../../sites.yaml");
 const DISPLAY_NAMES_PATH = path.resolve(__dirname, "../../display_names.yaml");
 const TEXTS_DIR = path.resolve(__dirname, "../../_texts");
 
@@ -97,6 +98,14 @@ function loadTraditions() {
 function loadTranslators() {
   if (!fs.existsSync(TRANSLATORS_PATH)) return {};
   const raw = fs.readFileSync(TRANSLATORS_PATH, "utf8");
+  return yaml.load(raw) || {};
+}
+
+// --- Sites ---
+
+function loadSites() {
+  if (!fs.existsSync(SITES_PATH)) return {};
+  const raw = fs.readFileSync(SITES_PATH, "utf8");
   return yaml.load(raw) || {};
 }
 
@@ -252,7 +261,7 @@ function loadTextFiles(workId) {
 
 const WORK_META_KEYS = new Set(["author", "category", "loci", "corporate_author", "date_added"]);
 
-function parseWork(fileId, data, translatorsMap) {
+function parseWork(fileId, data, translatorsMap, sitesMap) {
   const work = data[fileId];
   if (!work) return null;
 
@@ -314,6 +323,7 @@ function parseWork(fileId, data, translatorsMap) {
       const url = htmlFormat ? htmlFormat.url : (formats[0] ? formats[0].url : null);
       return {
         siteName: s.site || "Unknown",
+        siteInfo: sitesMap[s.site] || null,
         url,
         volumes,
         formats,
@@ -374,6 +384,7 @@ function parseWork(fileId, data, translatorsMap) {
           const url = htmlFormat ? htmlFormat.url : (formats[0] ? formats[0].url : null);
           entry.sites.push({
             siteName: s.site,
+            siteInfo: sitesMap[s.site] || null,
             url,
             formats,
             sectionUrls: buildSectionUrlMap(s.section_urls),
@@ -459,7 +470,7 @@ function parseWork(fileId, data, translatorsMap) {
   };
 }
 
-function loadAllWorks(translatorsMap) {
+function loadAllWorks(translatorsMap, sitesMap) {
   const works = [];
   for (const file of fs.readdirSync(WORKS_DIR).sort()) {
     if (!file.endsWith(".yaml")) continue;
@@ -467,7 +478,7 @@ function loadAllWorks(translatorsMap) {
       const raw = fs.readFileSync(path.join(WORKS_DIR, file), "utf8");
       const data = yaml.load(raw);
       for (const fileId of Object.keys(data)) {
-        const work = parseWork(fileId, data, translatorsMap);
+        const work = parseWork(fileId, data, translatorsMap, sitesMap);
         if (work) {
           work.yamlFilename = file;
           works.push(work);
@@ -860,7 +871,8 @@ module.exports = function () {
   const lociFlat = buildLociFlat(lociTree);
   const authors = loadAuthors();
   const translatorsMap = loadTranslators();
-  const works = loadAllWorks(translatorsMap);
+  const sitesMap = loadSites();
+  const works = loadAllWorks(translatorsMap, sitesMap);
   const traditionsData = loadTraditions();
   const traditionAuthors = traditionsData.authors || {};
   const displayNames = loadDisplayNames();
