@@ -1,0 +1,114 @@
+burges-law:
+  author: Q4772176
+  date_added: 2026-02-25
+  loci: moral-law
+  en:
+    title: "Vindiciae Legis: Or, a Vindication of the Moral Law and the Covenants, From the Errors of Papists, Arminians, Socinians, and More Especially, Antinomians. in Xxix. Lectures"
+    orig_lang: true
+    year: 1654
+    sections:
+      - vindiciae-legis-or-the-vindication-of-the-law-called-moral: "Vindiciae Legis: Or, the Vindication of the Law, Called Moral."
+        # loci:
+        sections:
+          - lecture-i: Lecture I.
+            # loci:
+          - lecture-ii: Lecture Ii.
+            # loci:
+          - lecture-iii: Lecture Iii.
+            # loci:
+          - lecture-iu: Lecture Iu.
+            # loci:
+          - lecture-v: Lecture V.
+            # loci:
+          - lecture-vi: Lecture Vi.
+            # loci:
+          - lecture-vii: Lecture Vii.
+            # loci:
+          - lecture-viii: Lecture Viii.
+            # loci:
+          - lecture-ix: Lecture Ix.
+            # loci:
+          - lecture-x: Lecture X.
+            # loci:
+          - lecture-xi: Lecture Xi.
+            # loci:
+          - lecture-xii: Lecture Xii.
+            # loci:
+          - lecture-xiii: Lecture Xiii.
+            # loci:
+          - lecture-xiv: Lecture Xiv.
+            # loci:
+          - lecture-xv: Lecture Xv.
+            # loci:
+          - lecture-xvi: Lecture Xvi.
+            # loci:
+          - lecture-xvii: Lecture Xvii.
+            # loci:
+          - lecture-xviii: Lecture Xviii.
+            # loci:
+          - lecture-xix: Lecture Xix.
+            # loci:
+          - lecture-xx: Lecture Xx.
+            # loci:
+          - lecture-xxi: Lecture Xxi.
+            # loci:
+          - lecture-xxii: Lecture Xxii.
+            # loci:
+          - lecture-xxiii: Lecture Xxiii.
+            # loci:
+          - lecture-xxiiii: Lecture Xxiiii.
+            # loci:
+          - lecture-xxv: Lecture Xxv.
+            # loci:
+          - lecture-xxvi: Lecture Xxvi.
+            # loci:
+          - lecture-xxvii: Lecture Xxvii.
+            # loci:
+          - lecture-xxviii: Lecture Xxviii.
+            # loci:
+          - lecture-xxix: Lecture Xxix.
+            # loci:
+    translations:
+      - year: 1646
+        estc: R201144
+        earlyprint: A77854
+        sites:
+          - site: EarlyPrint
+            formats:
+              - type: HTML
+                url: https://texts.earlyprint.org/works/A77854.xml
+              - type: PDF
+                url: https://texts.earlyprint.org/downloads/A77/A77854_standard.pdf
+              - type: EPUB
+                url: https://texts.earlyprint.org/downloads/A77/A77854_standard.epub
+            section_urls:
+              - vindiciae-legis-or-the-vindication-of-the-law-called-moral: https://texts.earlyprint.org/works/A77854.xml?page=006-b
+              - lecture-i: https://texts.earlyprint.org/works/A77854.xml?page=007-a
+              - lecture-ii: https://texts.earlyprint.org/works/A77854.xml?page=014-a
+              - lecture-iii: https://texts.earlyprint.org/works/A77854.xml?page=020-a
+              - lecture-iu: https://texts.earlyprint.org/works/A77854.xml?page=025-a
+              - lecture-v: https://texts.earlyprint.org/works/A77854.xml?page=030-a
+              - lecture-vi: https://texts.earlyprint.org/works/A77854.xml?page=034-a
+              - lecture-vii: https://texts.earlyprint.org/works/A77854.xml?page=039-a
+              - lecture-viii: https://texts.earlyprint.org/works/A77854.xml?page=043-a
+              - lecture-ix: https://texts.earlyprint.org/works/A77854.xml?page=047-a
+              - lecture-x: https://texts.earlyprint.org/works/A77854.xml?page=052-a
+              - lecture-xi: https://texts.earlyprint.org/works/A77854.xml?page=057-a
+              - lecture-xii: https://texts.earlyprint.org/works/A77854.xml?page=061-b
+              - lecture-xiii: https://texts.earlyprint.org/works/A77854.xml?page=066-a
+              - lecture-xiv: https://texts.earlyprint.org/works/A77854.xml?page=070-b
+              - lecture-xv: https://texts.earlyprint.org/works/A77854.xml?page=075-a
+              - lecture-xvi: https://texts.earlyprint.org/works/A77854.xml?page=079-a
+              - lecture-xvii: https://texts.earlyprint.org/works/A77854.xml?page=084-b
+              - lecture-xviii: https://texts.earlyprint.org/works/A77854.xml?page=089-b
+              - lecture-xix: https://texts.earlyprint.org/works/A77854.xml?page=094-b
+              - lecture-xx: https://texts.earlyprint.org/works/A77854.xml?page=098-b
+              - lecture-xxi: https://texts.earlyprint.org/works/A77854.xml?page=103-a
+              - lecture-xxii: https://texts.earlyprint.org/works/A77854.xml?page=107-a
+              - lecture-xxiii: https://texts.earlyprint.org/works/A77854.xml?page=113-a
+              - lecture-xxiiii: https://texts.earlyprint.org/works/A77854.xml?page=116-a
+              - lecture-xxv: https://texts.earlyprint.org/works/A77854.xml?page=120-b
+              - lecture-xxvi: https://texts.earlyprint.org/works/A77854.xml?page=127-a
+              - lecture-xxvii: https://texts.earlyprint.org/works/A77854.xml?page=131-b
+              - lecture-xxviii: https://texts.earlyprint.org/works/A77854.xml?page=133-a
+              - lecture-xxix: https://texts.earlyprint.org/works/A77854.xml?page=139-a

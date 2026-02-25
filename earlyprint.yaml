@@ -5,14 +5,14 @@
 #   lang: language code (optional, default: en)
 #   orig_lang: original language if this is a translation (optional; omit if not a translation)
 #   translator: translator name (optional)
-- tcp_id: A01637
-  author: Q67477
-  work_id: gerhard-sum
+- tcp_id: A77853
+  author: Q4772176
+  work_id: burges-justification
   lang: en
-  orig_lang: la
-- tcp_id: A25291
-  author: Q1374720
-  work_id: ames-marrow
+  orig_lang: en
+- tcp_id: A77854
+  author: Q4772176
+  work_id: burges-law
   lang: en
-  orig_lang: la
+  orig_lang: en
   
