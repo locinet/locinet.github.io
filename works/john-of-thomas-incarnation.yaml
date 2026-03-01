@@ -1,0 +1,17 @@
+john-of-thomas-incarnation:
+  author: Q3735496
+  date_added: 2026-02-25
+  loci: incarnation
+  la: 
+    orig_lang: true
+  en:
+    title: The Mystery of the Incarnation
+    translations:
+      - AI: true
+        sites:
+          - site: Academia.org
+            formats:
+              - type: PDF
+                volumes:
+                  1: https://www.academia.edu/145659232/The_Mystery_of_the_Incarnation_1_John_of_St_Thomas_O_P
+                  2: https://www.academia.edu/145660117/The_Mystery_of_the_Incarnation_2_John_of_St_Thomas_O_P

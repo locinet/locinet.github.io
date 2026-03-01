@@ -1,0 +1,74 @@
+---
+layout: layout.njk
+pageTitle: "Authors — Locinet"
+permalink: "/authors/"
+---
+
+<h1>Authors</h1>
+
+<div class="filter-box">
+  <label for="author-name-filter">Filter by name:</label>
+  <input type="text" id="author-name-filter" placeholder="Type to filter..." autocomplete="off">
+  <button type="button" id="clear-name-filter" class="clear-btn">Clear</button>
+</div>
+<div class="view-toggle">
+  <div class="tradition-dropdown" id="ai-tradition-dropdown">
+    <button type="button" class="tradition-dropdown-btn" id="ai-tradition-btn">All traditions</button>
+    <div class="tradition-dropdown-menu" id="ai-tradition-menu" style="display:none;">
+      {% for t in site.traditions %}
+        <label class="tradition-option">
+          <input type="checkbox" value="{{ t.slug }}" class="ai-tradition-checkbox"> {{ t.name }}
+        </label>
+      {% endfor %}
+      <label class="tradition-option">
+        <input type="checkbox" value="__none__" class="ai-tradition-checkbox"> No tradition
+      </label>
+    </div>
+  </div>
+</div>
+
+<p id="ai-count" style="font-size:0.9em; color:var(--muted); margin-bottom:0.5em;"></p>
+
+{% set authors = site.authorPages | sort(false, false, "alphaSortKey") %}
+
+<table class="authors-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th class="col-dates">Dates</th>
+      <th>Tradition</th>
+      <th class="col-works">Works</th>
+      <th class="col-links">Links</th>
+    </tr>
+  </thead>
+  <tbody id="ai-tbody">
+    {% for author in authors %}
+      {% set tradName = '' %}
+      {% for t in site.traditions %}{% if t.slug == author.tradition %}{% set tradName = t.name %}{% endif %}{% endfor %}
+      <tr data-name="{{ author.name | lower }}" data-tradition="{{ author.tradition or '' }}">
+        <td><a href="/authors/{{ author.slug }}/">{{ author.name }}</a></td>
+        <td class="col-dates">
+          {%- if author.birthYear or author.deathYear -%}
+            {{ author.birthYear or '' }}{% if author.deathYear %}–{{ author.deathYear }}{% endif %}
+          {%- else -%}—{%- endif -%}
+        </td>
+        <td>
+          {%- if tradName -%}
+            {{ tradName }}
+          {%- else -%}
+            <span class="author-tradition-none">—</span>
+          {%- endif -%}
+        </td>
+        <td class="col-works">{{ author.works | length }}</td>
+        <td class="col-links">
+          {%- if author.wikipediaUrl -%}
+            <a href="{{ author.wikipediaUrl }}">Wikipedia</a>
+          {%- endif -%}
+          {%- if author.qid and author.qid.startsWith("Q") -%}
+            <a href="https://www.wikidata.org/wiki/{{ author.qid }}">Wikidata</a>
+          {%- endif -%}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

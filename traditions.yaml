@@ -5,13 +5,15 @@ traditions:
     slug: lutheran
   - name: Anglican
     slug: anglican
-  - name: Medieval Scholastic
-    slug: medieval-scholastic
+  - name: Roman Catholic
+    slug: roman-catholic
   - name: Patristic
     slug: patristic
+  - name: Eastern Orthodox
+    slug: orthodox
 
 authors:
-  Q9438: medieval-scholastic # Thomas Aquinas
+  Q9438: roman-catholic # Thomas Aquinas
   Q8018: patristic          # Augustine of Hippo
   Q43939: patristic         # Anselm of Canterbury
   Q102851: patristic        # Boethius
@@ -74,5 +76,34 @@ authors:
   Q4499080: anglican        # Joseph Hall
   Q18528344: reformed       # Edward Polhill
   Q123337: reformed         # Pierre Viret
-  Q190089: medieval-scholastic #Duns Scotus
+  Q190089: roman-catholic #Duns Scotus
   Q2097515: reformed            # Samuel Rutherford
+  Q970981: reformed   # Charles Hodge
+  Q44024: patristic    # Athanasius of Alexandria
+  Q598060: reformed   # Peter Martyr Vermigli
+  Q138354628: reformed # Matthieu Virel
+  Q43936: roman-catholic    # William of Ockham
+  Q316339: roman-catholic   # Francisco Suárez
+  Q1451148: roman-catholic  # François Noël
+  Q535000: roman-catholic   # François Annat
+  Q3620412: roman-catholic  # Antonius Andreas
+  Q67136: reformed    # Bartholomaeus Keckermann
+  Q76141: reformed    # Johannes Piscator
+  Q318742: reformed   # Girolamo Zanchi
+  Q44258: patristic    # Basil of Caesarea
+  Q191734: patristic   # Gregory of Nyssa
+  Q1374720: reformed  # William Ames
+  Q67477: lutheran    # Johann Gerhard
+  Q327246: reformed   # Jean Claude
+  Q1407941: reformed  # Samuel Strimesius
+  Q58821471: reformed # Paul Testard
+  Q5972078: reformed  # Louis Berkhof
+  Q339211: reformed   # Hermann Witsius
+  Q4772176: reformed  # Anthony Burges
+  Q2960110: roman-catholic  # Charles René Billuart
+  Q16199073: roman-catholic # Jean Baptiste Gonet
+  Q3184679: orthodox  # Joseph Bryennios
+  Q3735496: roman-catholic  # John of St. Thomas
+  Q79142: roman-catholic    # Johann Baptist Franzelin
+  Q54882753: roman-catholic # Christian Pesch
+  Q15454561: reformed # Bernhardinus de Moor

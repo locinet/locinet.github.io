@@ -24,6 +24,11 @@ eleventyComputed:
   <p class="author-dates">
     {% if authorPage.birthYear %}{{ authorPage.birthYear }}{% endif %}{% if authorPage.deathYear %}–{{ authorPage.deathYear }}{% endif %}
   </p>
+  {% if authorPage.tradition %}
+    {% set tradName = '' %}
+    {% for t in site.traditions %}{% if t.slug == authorPage.tradition %}{% set tradName = t.name %}{% endif %}{% endfor %}
+    {% if tradName %}<p class="author-label">{{ tradName }}</p>{% endif %}
+  {% endif %}
   {% if authorPage.isCorporate and authorPage.members.length > 0 %}
     <p class="corporate-members">Members:
       {%- for member in authorPage.members %}

@@ -398,6 +398,8 @@
       }
     }
 
+    var applyAuthorAndLocusFilter;
+
     if (toggleTopicBtn && toggleAuthorBtn && toggleChronologicalBtn && toggleAlphabeticalBtn && lociMain && worksMain) {
       let currentMode = "topic";
       let currentSort = "chronological";
@@ -602,7 +604,7 @@
 
       // --- Author + locus combined filter for works ---
 
-      function applyAuthorAndLocusFilter() {
+      applyAuthorAndLocusFilter = function() {
         var authorQuery = authorFilterInput ? authorFilterInput.value.toLowerCase().trim() : "";
         var locusSlugs = activeLocusSlug ? getSlugsForLocus(activeLocusSlug) : null;
 
@@ -1824,6 +1826,162 @@
       if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
+
+  // --- Author link tooltips (loci index page) ---
+
+  var _tooltip = null;
+
+  function showAuthorTooltip(link, e) {
+    hideAuthorTooltip();
+    var header = link.dataset.authorHeader || '';
+    var tradLabel = link.dataset.traditionLabel || '';
+    var entries = [];
+    try { entries = JSON.parse(link.dataset.entries || '[]'); } catch (ex) {}
+
+    _tooltip = document.createElement('div');
+    _tooltip.className = 'author-tooltip';
+    var html = '<div class="tooltip-author-header">' + escapeHtml(header) + '</div>';
+    if (tradLabel) {
+      html += '<div class="tooltip-tradition">' + escapeHtml(tradLabel) + '</div>';
+    }
+    if (entries.length > 0) {
+      var works = [];
+      var workIndex = {};
+      entries.forEach(function (entry) {
+        if (!workIndex[entry.workId]) {
+          var w = { title: entry.workTitle, year: entry.workYear, sections: [] };
+          workIndex[entry.workId] = w;
+          works.push(w);
+        }
+        if (entry.sectionTitle) workIndex[entry.workId].sections.push(entry.sectionTitle);
+      });
+      html += '<ul>';
+      works.forEach(function (w) {
+        var yearStr = w.year ? ' (' + w.year + ')' : '';
+        html += '<li><em>' + escapeHtml(w.title) + '</em>' + escapeHtml(yearStr);
+        if (w.sections.length > 0) {
+          html += '<ul>';
+          w.sections.forEach(function (s) { html += '<li>' + escapeHtml(s) + '</li>'; });
+          html += '</ul>';
+        }
+        html += '</li>';
+      });
+      html += '</ul>';
+    }
+    _tooltip.innerHTML = html;
+    _tooltip.style.position = 'absolute';
+    document.body.appendChild(_tooltip);
+    positionTooltip(e);
+  }
+
+  function positionTooltip(e) {
+    if (!_tooltip) return;
+    var x = e.clientX + window.scrollX + 14;
+    var y = e.clientY + window.scrollY + 18;
+    var maxX = window.scrollX + window.innerWidth - _tooltip.offsetWidth - 12;
+    if (x > maxX) x = Math.max(window.scrollX + 4, maxX);
+    _tooltip.style.left = x + 'px';
+    _tooltip.style.top = y + 'px';
+  }
+
+  function hideAuthorTooltip() {
+    if (_tooltip) { _tooltip.remove(); _tooltip = null; }
+  }
+
+  document.querySelectorAll('.author-link').forEach(function (link) {
+    link.addEventListener('mouseenter', function (e) { showAuthorTooltip(this, e); });
+    link.addEventListener('mouseleave', hideAuthorTooltip);
+    link.addEventListener('mousemove', positionTooltip);
+  });
+
+  // --- Authors index page ---
+
+  var aiTbody = document.getElementById('ai-tbody');
+  if (aiTbody) {
+    var aiNameInput = document.getElementById('author-name-filter');
+    var aiClearBtn = document.getElementById('clear-name-filter');
+    var aiCountEl = document.getElementById('ai-count');
+    var aiTradBtn = document.getElementById('ai-tradition-btn');
+    var aiTradMenu = document.getElementById('ai-tradition-menu');
+    var aiTradDropdown = document.getElementById('ai-tradition-dropdown');
+    var aiCheckboxes = document.querySelectorAll('.ai-tradition-checkbox');
+    var aiRows = Array.from(aiTbody.querySelectorAll('tr'));
+    var aiTotal = aiRows.length;
+    var aiActiveTraditions = new Set();
+
+    function aiApplyFilters() {
+      var query = aiNameInput ? aiNameInput.value.trim().toLowerCase() : '';
+      aiRows.forEach(function (row) {
+        var nameMatch = !query || row.dataset.name.indexOf(query) !== -1;
+        var trad = row.dataset.tradition || '';
+        var tradMatch = aiActiveTraditions.size === 0 ||
+          (aiActiveTraditions.has('__none__') && trad === '') ||
+          (trad !== '' && aiActiveTraditions.has(trad));
+        row.classList.toggle('filtered-hidden', !(nameMatch && tradMatch));
+      });
+      aiUpdateCount();
+      aiUpdateTradBtn();
+    }
+
+    function aiUpdateCount() {
+      if (!aiCountEl) return;
+      var visible = aiRows.filter(function (r) { return !r.classList.contains('filtered-hidden'); }).length;
+      aiCountEl.textContent = visible === aiTotal ? '' : visible + ' of ' + aiTotal + ' authors';
+    }
+
+    function aiUpdateTradBtn() {
+      if (!aiTradBtn) return;
+      if (aiActiveTraditions.size === 0) {
+        aiTradBtn.textContent = 'All traditions';
+      } else {
+        var names = [];
+        aiCheckboxes.forEach(function (cb) {
+          if (aiActiveTraditions.has(cb.value)) names.push(cb.parentElement.textContent.trim());
+        });
+        aiTradBtn.textContent = names.length === 1 ? names[0] : names.length + ' traditions';
+      }
+    }
+
+    if (aiNameInput) aiNameInput.addEventListener('input', aiApplyFilters);
+    if (aiClearBtn) {
+      aiClearBtn.addEventListener('click', function () {
+        if (aiNameInput) aiNameInput.value = '';
+        aiApplyFilters();
+      });
+    }
+
+    aiCheckboxes.forEach(function (cb) {
+      cb.addEventListener('change', function () {
+        if (this.checked) { aiActiveTraditions.add(this.value); }
+        else { aiActiveTraditions.delete(this.value); }
+        aiApplyFilters();
+      });
+    });
+
+    if (aiTradBtn && aiTradMenu) {
+      var aiJustOpened = false;
+      aiTradBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var open = aiTradMenu.style.display !== 'none';
+        aiTradMenu.style.display = open ? 'none' : '';
+        if (!open) {
+          aiJustOpened = true;
+          requestAnimationFrame(function () { aiJustOpened = false; });
+        }
+      });
+      aiTradMenu.addEventListener('click', function (e) { e.stopPropagation(); });
+      document.addEventListener('click', function (e) {
+        if (aiJustOpened) return;
+        if (aiTradMenu.style.display !== 'none' &&
+            !aiTradMenu.contains(e.target) &&
+            e.target !== aiTradBtn) {
+          aiTradMenu.style.display = 'none';
+        }
+      });
+    }
+
+    aiUpdateCount();
+  }
 
   // --- Helpers ---
 

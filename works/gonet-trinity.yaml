@@ -1,0 +1,15 @@
+gonet-trinity:
+  author: Q16199073
+  date_added: 2026-02-25
+  loci: trinity
+  la: 
+    orig_lang: true
+  en:
+    title: On the Sacred Mystery of the Trinity
+    translations:
+      - AI: true
+        sites:
+          - site: Academia.org
+            formats:
+              - type: PDF
+                url: https://www.academia.edu/143212036/On_the_Sacred_Mystery_of_the_Trinity_Jean_Baptiste_Gonet_O_P

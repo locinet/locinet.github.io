@@ -1,0 +1,17 @@
+annat-middle-knowledge:
+  author: Q535000
+  date_added: 2026-02-25
+  loci: [providence, free-will]
+  la: 
+    title: Scientia Media contra Novos eius Impugnatores
+    orig_lang: true
+    year: 1662
+  en:
+    title: A Defense of Middle Knowledge Against Opponents
+    translations:
+      - AI: true
+        sites:
+          - site: Academia.org
+            formats:
+              - type: PDF
+                url: https://www.academia.edu/143311672/A_Defense_of_Middle_Knowledge_Against_Opponents_Fran%C3%A7ois_Annat_S_J

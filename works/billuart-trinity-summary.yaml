@@ -1,0 +1,15 @@
+billuart-trinity-summary:
+  author: Q2960110
+  date_added: 2026-02-27
+  loci: trinity
+  la: 
+    orig_lang: true
+  en:
+    title: Summary of the Holy Trinity
+    translations:
+      - AI: true
+        sites:
+          - site: Academia.org
+            formats:
+              - type: PDF
+                url: https://www.academia.edu/143211765/Summary_of_the_Holy_Trinity_Charles_Ren%C3%A9_Billuart_O_P

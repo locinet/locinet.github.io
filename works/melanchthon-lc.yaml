@@ -1,0 +1,129 @@
+melanchthon-lc:
+  author: Q76325
+  date_added: 2026-02-28
+  de:
+    title: Loci Communes
+    orig_lang: true
+    editions:
+      - year: 1555    
+  en:
+    title: On Christian Doctrine
+    sections:
+      - I: I. Of God
+        loci: god
+      - II: II. Of the Three Persons, Eternal Father, Eternal Son, and Eternal Holy Spirit, Who are One United Being 
+        loci: trinity
+      - III: III. Of the Article That God Created All Other Things
+        loci: creation
+      - IV: IV. Of the Origin of Sin
+        loci: origin-of-sin
+      - V: Of Human Strength and Free Will
+        loci: free-will
+      - VI: Of Original Sin
+        loci: original-sin
+      - VII: Of Divine Law
+        loci: law
+      - VIII: Of the Distinction of Commandment and Counsel
+        loci: law
+      - IX: Of the Gospel
+        loci: gospel
+      - X: How Man Obtains Forgiveness of Sin and Is Justified Before God
+        loci: justification
+      - XI: Of the Word "Faith"
+        loci: faith
+      - XII: Of the Word "Grace"
+        loci: grace
+      - XIII: Of the Word "Justification" and "To Be Justified"
+        loci: justification
+      - XIV: Of Good Works
+        loci: good-works
+      - XV: Of Eternal Predestination and Damnation
+        loci: predestination
+      - XVI: Of the Difference Between the Old and New Testaments
+        loci: [old-covenant, new-covenant]
+      - XVII: Of Christian Freedom
+        loci: christian-liberty
+      - XVIII: Of the Letter and the Spirit
+        loci:
+      - XIX: Of the Sacraments
+        loci: sacraments
+      - XX: Of Baptism
+        loci: baptism
+      - XXI: Of Baptism of Children
+        loci: infant-Baptism
+      - XXII: Of the Supper of Christ the Lord
+        loci: lords-supper
+      - XXIII: Distinction Between Ceremonies, Sacraments, and Sacrifices
+        loci: [sacraments, idolatry]
+      - XXIV: Of Penance
+        loci: penance
+      - XXV: Of Sin Against the Holy Spirit
+        loci: holy-spirit
+      - XXVI: Of Confession
+        loci: penance
+      - XXVII: Of Satisfaction
+        loci: atonement
+      - XXVIII: Of the Power of the Church, or of the Keys
+        loci: power-of-the-church
+      - XXIX: Of the Church
+        loci: church
+      - XXX: Of the Kingdom of Christ
+        loci: kingly-office
+      - XXXI: Of the Resurrection of the Dead
+        loci: resurrection-of-the-dead
+      - XXXII: Of Bearing Tribulation and the Cross
+        loci: 
+      - XXXIII: Of Prayer
+        loci: prayer
+      - XXXIV: Of Human Precepts in the Church
+        loci: government-of-the-church
+      - XXXV: Of Offense
+        loci: church-discipline
+      - XXXVI: Of Worldly Authority
+        loci: civil-government
+    translations:
+      - translator: Clyde L. Manschreck
+        year: 1965
+        place: New York
+        sites:
+          - site: Internet Archive Lending Library
+            formats:
+              - type: Internet Archive Bookreader
+                url: https://archive.org/details/melanchthononchr0000mela/
+            section_urls:
+              - I: https://archive.org/details/melanchthononchr0000mela/page/3/mode/1up
+              - II: https://archive.org/details/melanchthononchr0000mela/page/11/mode/1up
+              - III: https://archive.org/details/melanchthononchr0000mela/page/39/mode/1up
+              - IV: https://archive.org/details/melanchthononchr0000mela/page/45/mode/1up
+              - V: https://archive.org/details/melanchthononchr0000mela/page/51/mode/1up
+              - VI: https://archive.org/details/melanchthononchr0000mela/page/70/mode/1up
+              - VII: https://archive.org/details/melanchthononchr0000mela/page/83/mode/1up
+              - VIII: https://archive.org/details/melanchthononchr0000mela/page/130/mode/1up
+              - IX: https://archive.org/details/melanchthononchr0000mela/page/141/mode/1up
+              - X: https://archive.org/details/melanchthononchr0000mela/page/150/mode/1up
+              - XI: https://archive.org/details/melanchthononchr0000mela/page/158/mode/1up
+              - XII: https://archive.org/details/melanchthononchr0000mela/page/160/mode/1up
+              - XIII: https://archive.org/details/melanchthononchr0000mela/page/161/mode/1up
+              - XIV: https://archive.org/details/melanchthononchr0000mela/page/175/mode/1up
+              - XV: https://archive.org/details/melanchthononchr0000mela/page/187/mode/1up
+              - XVI: https://archive.org/details/melanchthononchr0000mela/page/192/mode/1up
+              - XVII: https://archive.org/details/melanchthononchr0000mela/page/195/mode/1up
+              - XVIII: https://archive.org/details/melanchthononchr0000mela/page/201/mode/1up
+              - XIX: https://archive.org/details/melanchthononchr0000mela/page/202/mode/1up
+              - XX: https://archive.org/details/melanchthononchr0000mela/page/206/mode/1up
+              - XXI: https://archive.org/details/melanchthononchr0000mela/page/209/mode/1up
+              - XXII: https://archive.org/details/melanchthononchr0000mela/page/217/mode/1up
+              - XXIII: https://archive.org/details/melanchthononchr0000mela/page/223/mode/1up
+              - XXIV: https://archive.org/details/melanchthononchr0000mela/page/231/mode/1up
+              - XXV: https://archive.org/details/melanchthononchr0000mela/page/235/mode/1up
+              - XXVI: https://archive.org/details/melanchthononchr0000mela/page/244/mode/1up
+              - XXVII: https://archive.org/details/melanchthononchr0000mela/page/247/mode/1up
+              - XXVIII: https://archive.org/details/melanchthononchr0000mela/page/255/mode/1up
+              - XXIX: https://archive.org/details/melanchthononchr0000mela/page/266/mode/1up
+              - XXX: https://archive.org/details/melanchthononchr0000mela/page/274/mode/1up
+              - XXXI: https://archive.org/details/melanchthononchr0000mela/page/280/mode/1up
+              - XXXII: https://archive.org/details/melanchthononchr0000mela/page/286/mode/1up
+              - XXXIII: https://archive.org/details/melanchthononchr0000mela/page/296/mode/1up
+              - XXXIV: https://archive.org/details/melanchthononchr0000mela/page/306/mode/1up
+              - XXXV: https://archive.org/details/melanchthononchr0000mela/page/317/mode/1up
+              - XXXVI: https://archive.org/details/melanchthononchr0000mela/page/323/mode/1up

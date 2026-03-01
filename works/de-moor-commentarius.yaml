@@ -1,0 +1,795 @@
+de-moor-commentarius:
+  author: Q15454561
+  category: systematic
+  date_added: 2026-02-28
+  la:
+    title: "Commentarius Perpetuus in Johannis Marckii Compendium Theologiae Christianae Didactico-Elenchticum"
+    orig_lang: true
+    editions:
+      - year: 1761
+        place: Leiden
+  en:
+    title: "Continuous Commentary on Johannes Marckius' Didactico-Elenctic Compendium of Christian Theology"
+    sections:
+      - de-moor-ch-i: "Chapter I. Concerning the Word and Definition of Theology"
+        loci: nature-of-theology
+        sections:
+          - de-moor-i-title-page: "Title Page"
+          - de-moor-i-outline: "Outline of the Term and Definition of Theology"
+          - de-moor-i-1: "§1. The Etymology of \"Theology\""
+          - de-moor-i-2: "§2. Extra-Biblical Uses of \"Theology\""
+          - de-moor-i-3: "§3. Biblical Uses of \"Theology\" and the Personal Word"
+          - de-moor-i-4: "§4. Biblical Uses of \"Theology\" and the External Word"
+          - de-moor-i-5: "§5. Synonyms of \"Theology\""
+          - de-moor-i-6: "§6. Homonyms of \"Theology\""
+          - de-moor-i-7: "§7. Archetypal Theology"
+          - de-moor-i-8: "§8. Ectypal Theology: Of Union"
+          - de-moor-i-9: "§9. Ectypal Theology: Of Vision"
+          - de-moor-i-10: "§10. Ectypal Theology: Of the Way and the Race-Course"
+            sections:
+              - de-moor-i-10-way: "The Existence of Theology of the Way"
+              - de-moor-i-10-racecourse: "Ectypal Theology of the Race-Course"
+          - de-moor-i-11: "§11. Natural Theology: Innate"
+            loci: natural-theology
+          - de-moor-i-13: "§13. Natural Theology: Acquired"
+            loci: natural-theology
+          - de-moor-i-14: "§14. Acquired Natural Theology and Universal Doubt"
+            loci: natural-theology
+          - de-moor-i-15: "§15. The Idea of God"
+            loci: natural-theology
+          - de-moor-i-16: "§16. Natural Theology before and after the Fall"
+            loci: natural-theology
+          - de-moor-i-17: "§17. Defense of the Existence of Natural Theology"
+            loci: natural-theology
+          - de-moor-i-18: "§18. The Object of Natural Theology"
+            loci: natural-theology
+          - de-moor-i-19: "§19. The Insufficiency of Natural Theology"
+            loci: natural-theology
+          - de-moor-i-20: "§20. Vindication of the Insufficiency of Natural Theology"
+            loci: natural-theology
+          - de-moor-i-21: "§21. Natural and Revealed Theology Compared and Contrasted"
+            loci: natural-theology
+          - de-moor-i-22: "§22. The End of Natural Theology"
+            loci: natural-theology
+          - de-moor-i-23: "§23. The Necessity of Revealed Theology"
+            loci: supernatural-theology
+          - de-moor-i-24: "§24. Habitual Revealed Theology"
+          - de-moor-i-25: "§25. Systematic Revealed Theology"
+          - de-moor-i-26: "§26. Scholastic Theology"
+          - de-moor-i-27: "§27. Definition of Revealed Theology"
+          - de-moor-i-28: "§28. The Genus of Theology"
+          - de-moor-i-29: "§29. Theology as Apprehensive and Discursive"
+          - de-moor-i-30: "§30. Defense of Discursive Theology"
+          - de-moor-i-31: "§31. Consequences of Theology and of Faith"
+          - de-moor-i-32: "§32. The Unique Principia of Theology"
+          - de-moor-i-33: "§33. Modes of Revelation"
+            loci: revelation
+          - de-moor-i-34: "§34. The Object of Revealed Theology: True Religion"
+            loci: religion
+          - de-moor-i-35: "§35. The Subject of Revealed Theology: Fallen Sinners"
+          - de-moor-i-36: "§36. The Ends of Revealed Theology"
+      - de-moor-ch-ii: "Chapter II. Concerning the Principium of Theology, or Holy Scripture"
+        loci: scripture
+        sections:
+          - de-moor-ii-title-page: "Title Page"
+          - de-moor-ii-outline: "Outline of the Principium of Theology, or Sacred Scripture"
+          - de-moor-ii-1: "§1. The Denomination of the Word as Sacred Scripture"
+          - de-moor-ii-2: "§2. The Definition of Sacred Scripture"
+          - de-moor-ii-3: "§3. The Word of God Unwritten"
+          - de-moor-ii-4: "§4. The Word of God Written"
+          - de-moor-ii-5: "§5. The Infallible Inspiration of the Scriptures"
+            loci: inspiration-of-scripture
+          - de-moor-ii-6: "§6. The Certainty of the Inspiration and Authority of the Scriptures"
+            loci: inspiration-of-scripture
+          - de-moor-ii-7: "§7. The Authority of Scripture and the Testimony of the Church"
+            loci: credibility-of-scripture
+          - de-moor-ii-8: "§8. The Authenticity of the Hebrew and Greek Originals"
+            loci: credibility-of-scripture
+          - de-moor-ii-9: "§9. The Authenticity of the Hebrew and Greek Originals Defended"
+            loci: credibility-of-scripture
+          - de-moor-ii-10: "§10. Against the Authenticity of the Vulgate"
+            loci: credibility-of-scripture
+          - de-moor-ii-11: "§11. Against the Authenticity of the Samaritan and Septuagint"
+            loci: credibility-of-scripture
+          - de-moor-ii-12: "§12. The Instrumental Cause of Scripture: The Amanuenses"
+          - de-moor-ii-13: "§13. The Canon of Scripture"
+          - de-moor-ii-14: "§14. The Canon and the Church"
+          - de-moor-ii-15: "§15. Canonical Books Imperishable"
+          - de-moor-ii-16: "§16. Canonical Books Imperishable (cont.)"
+          - de-moor-ii-17: "§17. The Abiding Canonicity of the Old Testament"
+          - de-moor-ii-18: "§18. The Abiding Canonicity of the Old Testament (cont.)"
+          - de-moor-ii-19: "§19. The Apocrypha"
+          - de-moor-ii-20: "§20. The Apocrypha (cont.)"
+          - de-moor-ii-21: "§21. The Argument of Scripture"
+          - de-moor-ii-22: "§22. The Truth of Scripture"
+          - de-moor-ii-23: "§23. The Self-Consistency of Scripture"
+          - de-moor-ii-24: "§24. The Perspicuity of Scripture"
+          - de-moor-ii-25: "§25. The Perspicuity of Scripture (cont.)"
+          - de-moor-ii-26: "§26. The Perspicuity of Scripture (cont.)"
+          - de-moor-ii-27: "§27. The Sufficiency of Scripture"
+            loci: sufficiency-of-scripture
+          - de-moor-ii-28: "§28. The Sufficiency of Scripture (cont.)"
+            loci: sufficiency-of-scripture
+          - de-moor-ii-29: "§29. The Sufficiency of Scripture (cont.)"
+            loci: sufficiency-of-scripture
+          - de-moor-ii-30: "§30. The Sufficiency of Scripture (cont.)"
+            loci: sufficiency-of-scripture
+          - de-moor-ii-31: "§31. The Sufficiency of Scripture (cont.)"
+            loci: sufficiency-of-scripture
+          - de-moor-ii-32: "§32. The Proximate End of Scripture: The Rule of Faith and Manners"
+          - de-moor-ii-33: "§33. The Translation of Scripture"
+          - de-moor-ii-34: "§34. The Translation of Scripture (cont.)"
+          - de-moor-ii-35: "§35. The Reading of the Scriptures"
+          - de-moor-ii-36: "§36. The Reading of the Scriptures (cont.)"
+          - de-moor-ii-37: "§37. The Sense of Scripture: Simple or Composite"
+          - de-moor-ii-38: "§38. The Sense of Scripture: Simple or Composite (cont.)"
+          - de-moor-ii-39: "§39. Private and Ministerial Judgment"
+          - de-moor-ii-40: "§40. The Supreme Judge: Neither Enthusiastic Experience nor Reason"
+            loci: credibility-of-scripture
+          - de-moor-ii-41: "§41. The Supreme Judge: Not the Church"
+          - de-moor-ii-42: "§42. The Supreme Judge: Not the Church (cont.)"
+          - de-moor-ii-43: "§43. The Supreme Judge: The Holy Spirit"
+            loci: illumination
+          - de-moor-ii-44: "§44. The Object of Interpretation: The Whole Scripture"
+          - de-moor-ii-45: "§45. The Means of Proper Interpretation"
+          - de-moor-ii-46: "§46. The Use of the Fathers in Interpretation"
+          - de-moor-ii-47: "§47. The Use of the Fathers in Interpretation (cont.)"
+          - de-moor-ii-48: "§48. Hermeneutical Canons"
+          - de-moor-ii-49: "§49. Hermeneutical Canons (cont.)"
+          - de-moor-ii-50: "§50. Scripture's Highest End"
+      - de-moor-ch-iii: "Chapter III. Concerning Religion"
+        loci: religion
+        sections:
+          - de-moor-iii-doctrine: "De Moor's Doctrine of Religion"
+      - de-moor-ch-iv: "Chapter IV. Concerning God, His Names, Essence, and Attributes"
+        loci: being-of-god
+        sections:
+          - de-moor-iv-a-definition: "A Definition of God"
+          - de-moor-iv-1: "§1. The Names of God"
+            loci: names-of-god
+          - de-moor-iv-2: "§2. Is 'God' a Name of Essence or of Office?"
+            loci: names-of-god
+          - de-moor-iv-3: "§3. Categorization of the Divine Names"
+            loci: names-of-god
+          - de-moor-iv-4: "§4. Is Sabbaoth Properly a Name of God?"
+            loci: names-of-god
+          - de-moor-iv-5: "§5. Hebrew Names for God"
+            loci: names-of-god
+          - de-moor-iv-6: "§6. The Tetragrammaton and Its Pronunciation"
+            loci: names-of-god
+          - de-moor-iv-7: "§7. The Significance of the Divine Name"
+            loci: names-of-god
+          - de-moor-iv-8: "§8. Misuse of the Divine Name"
+            loci: names-of-god
+          - de-moor-iv-9: "§9. Threefold Communication of the Divine Names"
+            loci: names-of-god
+          - de-moor-iv-10: "§10. Arguments for the Existence of God"
+            loci: existence-of-god
+          - de-moor-iv-11: "§11. The Incomprehensibility of God"
+            loci: knowability-of-god
+          - de-moor-iv-13: "§13. The Spiritual Nature of God"
+            loci: attributes-of-god
+          - de-moor-iv-14: "§14. Answering the Anthropomorphites"
+            loci: attributes-of-god
+          - de-moor-iv-15: "§15. Against Images of God"
+            loci: attributes-of-god
+          - de-moor-iv-16: "§16. God as Intelligent, Living, Omnipotent, and Willing Substance"
+            loci: attributes-of-god
+          - de-moor-iv-17: "§17. The Rabbis on the Attributes of God"
+            loci: attributes-of-god
+          - de-moor-iv-18: "§18. The Infinity and Perfection of the Divine Being"
+            loci: [divine-infinity, divine-perfection]
+          - de-moor-iv-19: "§19. Classification of God's Attributes"
+            loci: attributes-of-god
+            sections:
+              - de-moor-iv-19-abs-rel: "Absolute and Relative"
+              - de-moor-iv-19-prop-met: "Proper and Metaphorical"
+              - de-moor-iv-19-int-ext: "Internal and External"
+              - de-moor-iv-19-neg-pos: "Negative and Positive"
+              - de-moor-iv-19-comm-incomm: "Communicable and Incommunicable"
+          - de-moor-iv-20: "§20. The Independence of God"
+            loci: attributes-of-god
+          - de-moor-iv-21: "§21. God's Power: Absolute and Actual"
+            loci: power-of-god
+          - de-moor-iv-22: "§22. The Grace of God"
+            loci: goodness-of-god
+          - de-moor-iv-23: "§23. Arguments for the Simplicity of God"
+            loci: [divine-simplicity, unity-of-god]
+          - de-moor-iv-24: "§24. Divine Simplicity"
+            loci: divine-simplicity
+            sections:
+              - de-moor-iv-24-socinians: "Divine Simplicity Defended against the Socinians and Vorstius"
+              - de-moor-iv-24-composition: "Against Composition in God"
+              - de-moor-iv-24-remonstrants: "Divine Simplicity Defended against the Remonstrants"
+          - de-moor-iv-25: "§25. Against Pantheism and Composition with the Creature"
+            loci: existence-of-god
+            sections:
+              - de-moor-iv-25-pantheism: "Against Pantheism"
+              - de-moor-iv-25-not-composition: "Not Composition of God with the Creature"
+          - de-moor-iv-26: "§26. The Immutability and Impassibility of God"
+            loci: divine-immutability
+          - de-moor-iv-27: "§27. God's Immensity and Omnipresence"
+            loci: divine-infinity
+          - de-moor-iv-28: "§28. Divine Omnipresence"
+            loci: divine-infinity
+          - de-moor-iv-29: "§29. God Alone Omnipresent"
+            loci: divine-infinity
+          - de-moor-iv-30: "§30. The Immensity of God: Controversy between Lutherans and Reformed"
+            loci: divine-infinity
+          - de-moor-iv-31: "§31. The Eternity of God"
+            loci: divine-eternity
+          - de-moor-iv-32: "§32. Divine Eternity without Succession"
+            loci: divine-eternity
+          - de-moor-iv-33: "§33. Eternity Proper to God Alone"
+            loci: divine-eternity
+          - de-moor-iv-34: "§34. Divine Knowledge"
+            loci: knowledge-of-god
+          - de-moor-iv-35: "§35. The Perfection of God's Knowledge"
+            loci: knowledge-of-god
+          - de-moor-iv-36: "§36. The Extent of God's Knowledge"
+            loci: knowledge-of-god
+          - de-moor-iv-37: "§37. God's Knowledge of Vision and of Simple Intelligence"
+            loci: knowledge-of-god
+          - de-moor-iv-38: "§38. Refutation of the Doctrine of Middle Knowledge"
+            loci: foreknowledge
+          - de-moor-iv-39: "§39. Answering the Molinists"
+            loci: foreknowledge
+          - de-moor-iv-40: "§40. God's Knowledge Not Properly the Cause of Things"
+            loci: knowledge-of-god
+          - de-moor-iv-41: "§41. The Love and Goodness of God"
+            loci: divine-love
+          - de-moor-iv-42: "§42. Classes and Categories of Grace"
+            loci: goodness-of-god
+          - de-moor-iv-43: "§43. The Mercy of God"
+            loci: divine-mercy
+          - de-moor-iv-44: "§44. The Patience of God"
+            loci: attributes-of-god
+          - de-moor-iv-45: "§45. God's Righteousness: Dominical, Essential, and Faithful"
+            loci: divine-justice
+          - de-moor-iv-46: "§46. God's Remunerative Justice"
+            loci: divine-justice
+          - de-moor-iv-47: "§47. Controversy over God's Vindicatory Righteousness"
+            loci: divine-justice
+          - de-moor-iv-48: "§48. God's Absolute Right and Authority over All His Creatures"
+            loci: attributes-of-god
+      - de-moor-ch-v: "Chapter V. On the Trinity"
+        loci: trinity
+        sections:
+          - de-moor-v-outline: "Outline of the Doctrine of the Trinity"
+          - de-moor-v-1: "§1. Trinitarian Terminology"
+          - de-moor-v-2: "§2. Trinitarian Terminology (cont.)"
+          - de-moor-v-3: "§3. The Divine Persons and Substance"
+          - de-moor-v-4: "§4. The Abiding Usefulness of Traditional Trinitarian Vocabulary"
+          - de-moor-v-5: "§5. The Three Modes of Subsistence in the One Divine Essence"
+            sections:
+              - de-moor-v-5-one-essence: "God One with Respect to Essence"
+              - de-moor-v-5-modes: "The Three Modes of Subsistence in the One Divine Essence"
+              - de-moor-v-5-subsisting: "Three Persons Subsisting in One Essence"
+              - de-moor-v-5-equal-honor: "Three Persons Equal in Honor and Glory"
+              - de-moor-v-5-emperichoresis: "Emperichoresis"
+          - de-moor-v-7: "§7. The Person of the Father"
+            loci: divine-persons
+          - de-moor-v-8: "§8. The Eternal Generation of the Son"
+            loci: divine-processions
+            sections:
+              - de-moor-v-8-generation: "The Generation of the Son"
+              - de-moor-v-8-hyperphysical: "The Hyperphysical Generation of the Son"
+              - de-moor-v-8-proper: "The Proper Generation of the Son"
+              - de-moor-v-8-unique-sonship: "The Unique Sonship of Jesus Christ"
+              - de-moor-v-8-communication: "The Communication of the Divine Essence by Generation"
+              - de-moor-v-8-john-5: "The Proper Generation of the Son: John 5:26"
+              - de-moor-v-8-proverbs: "The Eternal Generation of the Son: Proverbs 8"
+              - de-moor-v-8-micah: "The Generation of the Son: Micah 5:2"
+              - de-moor-v-8-psalm: "The Generation of the Son: Psalm 2:7"
+          - de-moor-v-9: "§9. Eternal Generation Defended"
+            loci: divine-processions
+          - de-moor-v-10: "§10. The Son as Autotheos"
+            loci: divine-persons
+          - de-moor-v-11: "§11. The Procession of the Holy Spirit"
+            loci: divine-processions
+          - de-moor-v-12: "§12. The Difference between Generation and Spiration"
+            loci: divine-processions
+          - de-moor-v-13: "§13. Old Testament Confirmation of the Doctrine of the Trinity"
+          - de-moor-v-15: "§15. Old Testament Confirmation (cont.)"
+          - de-moor-v-16: "§16. Old Testament Confirmation (cont.)"
+          - de-moor-v-17: "§17. New Testament Testimonies for the Doctrine of the Trinity"
+          - de-moor-v-18: "§18. New Testament Testimonies (cont.)"
+          - de-moor-v-19: "§19. Answering Anti-Trinitarian Objections of the Socinians"
+          - de-moor-v-20: "§20. Answering Anti-Trinitarian Objections (cont.)"
+          - de-moor-v-21: "§21. The Deity of Christ Demonstrated"
+            loci: divine-persons
+            sections:
+              - de-moor-v-21-titles: "From Divine Titles"
+              - de-moor-v-21-attributes: "From Divine Attributes"
+              - de-moor-v-21-works: "From Divine Works"
+              - de-moor-v-21-worship: "From Divine Worship"
+          - de-moor-v-22: "§22. The Deity of the Son Defended"
+            loci: divine-persons
+          - de-moor-v-23: "§23. The Truth of the Spirit's Person Defended"
+            loci: divine-persons
+          - de-moor-v-24: "§24. The Holy Spirit as a Distinct and Single Person"
+            loci: divine-persons
+          - de-moor-v-26: "§26. Defense of the Deity of the Holy Spirit"
+            loci: divine-persons
+          - de-moor-v-27: "§27. Defense of the Deity of the Holy Spirit (cont.)"
+            loci: divine-persons
+          - de-moor-v-28: "§28. The Sublimity of the Doctrine of the Trinity"
+          - de-moor-v-29: "§29. The Necessity of the Doctrine of the Trinity"
+          - de-moor-v-30: "§30. The Utility of the Doctrine of the Trinity"
+      - de-moor-ch-vi: "Chapter VI. On the Divine Decrees"
+        loci: works-of-god
+        sections:
+          - de-moor-vi-outline: "Outline of the Doctrine of the Divine Decree"
+          - de-moor-vi-intro: "Divine Decrees as Internal Acts ad Extra"
+          - de-moor-vi-2: "§2. The Term 'Decrees'"
+          - de-moor-vi-3: "§3. The Existence of the Decrees"
+          - de-moor-vi-4: "§4. A Definition for Divine Decrees"
+          - de-moor-vi-5: "§5. The General Nature of the Divine Decrees"
+          - de-moor-vi-6: "§6. The Eternity of the Divine Decrees"
+          - de-moor-vi-7: "§7. The Liberty of the Divine Decrees"
+          - de-moor-vi-8: "§8. The Wisdom of the Divine Decrees"
+          - de-moor-vi-9: "§9. The Independence of the Divine Decrees"
+          - de-moor-vi-10: "§10. The Immutability of the Divine Decrees"
+          - de-moor-vi-11: "§11. The Object of the Divine Decrees"
+          - de-moor-vi-12: "§12. The Object of the Divine Decrees (cont.)"
+          - de-moor-vi-13: "§13. The Object of the Divine Decrees (cont.)"
+          - de-moor-vi-14: "§14. The Order of the Decrees"
+          - de-moor-vi-15: "§15. The Connection of All Things"
+          - de-moor-vi-16: "§16. Things Possible but Not Future"
+          - de-moor-vi-17: "§17. The Chief End of the Decree"
+      - de-moor-ch-vii: "Chapter VII. Concerning Predestination"
+        loci: predestination
+        sections:
+          - de-moor-vii-outline: "Outline of the Doctrine of Predestination"
+          - de-moor-vii-1: "§1. The Term 'Predestination'"
+          - de-moor-vii-2: "§2. The Homonymy of 'Predestination'"
+          - de-moor-vii-3: "§3. Double Meaning of 'Predestination'"
+          - de-moor-vii-4: "§4. The Reality of Predestination"
+          - de-moor-vii-5: "§5. A Definition of Predestination"
+          - de-moor-vii-6: "§6. A Definition of Predestination (cont.)"
+          - de-moor-vii-7: "§7. The Eternity of Predestination"
+          - de-moor-vii-8: "§8. The Liberty of Predestination"
+          - de-moor-vii-9: "§9. The Wisdom of Predestination"
+          - de-moor-vii-10: "§10. God's Independence in Predestination"
+          - de-moor-vii-11: "§11. God's Independence in Predestination Defended"
+          - de-moor-vii-12: "§12. God's Independence in Predestination Defended (cont.)"
+          - de-moor-vii-13: "§13. The Immutability of Predestination"
+          - de-moor-vii-14: "§14. The Immutability of Predestination (cont.)"
+          - de-moor-vii-15: "§15. The Object of Predestination"
+          - de-moor-vii-16: "§16. The Object of Predestination (cont.)"
+          - de-moor-vii-17: "§17. The Object of Predestination (cont.)"
+          - de-moor-vii-18: "§18. The Object of Predestination (cont.)"
+          - de-moor-vii-19: "§19. The End of Predestination"
+          - de-moor-vii-20: "§20. The Term 'Election'"
+            loci: election
+          - de-moor-vii-21: "§21. The Definition of Election"
+            loci: election
+          - de-moor-vii-22: "§22. The Predisposing Cause of Election"
+            loci: election
+          - de-moor-vii-23: "§23. The Object of Election"
+            loci: election
+          - de-moor-vii-24: "§24. The Object of Election (cont.)"
+            loci: election
+          - de-moor-vii-25: "§25. The Object of Election (cont.)"
+            loci: election
+          - de-moor-vii-26: "§26. The End of Election"
+            loci: election
+          - de-moor-vii-27: "§27. The Certainty of Election"
+            loci: election
+          - de-moor-vii-28: "§28. The Certainty of Election (cont.)"
+            loci: election
+          - de-moor-vii-29: "§29. The Term 'Reprobation'"
+            loci: reprobation
+          - de-moor-vii-30: "§30. A Definition of Reprobation"
+            loci: reprobation
+          - de-moor-vii-31: "§31. The Predisposing Cause of Reprobation"
+            loci: reprobation
+          - de-moor-vii-32: "§32. The Object of Reprobation"
+            loci: reprobation
+          - de-moor-vii-33: "§33. The Object of Reprobation (cont.)"
+            loci: reprobation
+          - de-moor-vii-34: "§34. The Ultimate End of Reprobation"
+            loci: reprobation
+          - de-moor-vii-35: "§35. The Proximate End of Reprobation"
+            loci: reprobation
+          - de-moor-vii-36: "§36. The Subjective Uncertainty of Reprobation"
+            loci: reprobation
+          - de-moor-vii-37: "§37. The Sublimity, Necessity, and Usefulness of the Doctrine of Predestination"
+      - de-moor-ch-viii: "Chapter VIII. Concerning Creation"
+        loci: creation
+        sections:
+          - de-moor-viii-outline: "Outline of the Doctrine of Creation"
+          - de-moor-viii-1: "§1. From the Internal to the External Works of God"
+          - de-moor-viii-2: "§2. The Term 'Creation'"
+          - de-moor-viii-3: "§3. The Term 'Creation' (cont.)"
+          - de-moor-viii-4: "§4. The Truth of Creation"
+          - de-moor-viii-5: "§5. The Definition of Creation"
+          - de-moor-viii-6: "§6. The Efficient Cause of Creation"
+          - de-moor-viii-7: "§7. The Efficient Cause of Creation (cont.)"
+          - de-moor-viii-8: "§8. The Efficient Cause of Creation (cont.)"
+          - de-moor-viii-9: "§9. The Efficient Cause of Creation (cont.)"
+          - de-moor-viii-10: "§10. The Formal Cause of Creation"
+          - de-moor-viii-11: "§11. The Formal Cause of Creation (cont.)"
+          - de-moor-viii-12: "§12. The Formal Cause of Creation (cont.)"
+          - de-moor-viii-13: "§13. The Material Cause of Creation"
+          - de-moor-viii-14: "§14. The Material Cause of Creation (cont.)"
+          - de-moor-viii-15: "§15. The Aptness of Creation"
+          - de-moor-viii-16: "§16. The Order of Creation"
+          - de-moor-viii-17: "§17. The End of Creation"
+          - de-moor-viii-18: "§18. The End of Creation (cont.)"
+          - de-moor-viii-19: "§19. The Time of Creation"
+          - de-moor-viii-20: "§20. The Time of Creation (cont.)"
+          - de-moor-viii-21: "§21. The Time of Creation (cont.)"
+          - de-moor-viii-22: "§22. The Time of Creation (cont.)"
+          - de-moor-viii-23: "§23. The Time of Creation (cont.)"
+          - de-moor-viii-24: "§24. The First Day"
+          - de-moor-viii-25: "§25. The Second Day"
+          - de-moor-viii-26: "§26. The Third Day"
+          - de-moor-viii-27: "§27. The Fourth Day"
+          - de-moor-viii-28: "§28. The Fifth Day"
+          - de-moor-viii-29: "§29. The Sixth Day"
+          - de-moor-viii-30: "§30. The Sabbath Day"
+          - de-moor-viii-31: "§31. The Effects of Creation"
+          - de-moor-viii-32: "§32. The Old and New World"
+          - de-moor-viii-33: "§33. The Unity of the World"
+          - de-moor-viii-34: "§34. The Finitude of the World"
+          - de-moor-viii-35: "§35. The Possibility of More Worlds"
+          - de-moor-viii-36: "§36. A World Soul"
+      - de-moor-ch-ix: "Chapter IX. Concerning Angels"
+        loci: angels
+        sections:
+          - de-moor-ix-title-page: "Title Page"
+          - de-moor-ix-outline: "Outline of the Doctrine of Angels, Good and Evil"
+          - de-moor-ix-1: "§1. The Term 'Angels'"
+            loci: nature-of-angels
+          - de-moor-ix-3: "§3. The Existence of Angels"
+            loci: nature-of-angels
+          - de-moor-ix-4: "§4. Angels as Creatures"
+            loci: nature-of-angels
+          - de-moor-ix-5: "§5. Angels as Creatures (cont.)"
+            loci: nature-of-angels
+          - de-moor-ix-6: "§6. Angels as Spiritual Substances"
+            loci: nature-of-angels
+          - de-moor-ix-7: "§7. Angels as Incorporeal Substances"
+            loci: nature-of-angels
+          - de-moor-ix-8: "§8. The Angelic Faculty of Intellect"
+            loci: nature-of-angels
+          - de-moor-ix-9: "§9. The Angelic Faculty of Will"
+            loci: nature-of-angels
+          - de-moor-ix-10: "§10. The Angelic Faculty of Power"
+            loci: nature-of-angels
+          - de-moor-ix-11: "§11. The Office of Angels"
+            loci: nature-of-angels
+          - de-moor-ix-12: "§12. The Office of Angels (cont.)"
+            loci: nature-of-angels
+          - de-moor-ix-13: "§13. The Division of Angels"
+          - de-moor-ix-14: "§14. The Cause of the Goodness of the Good Angels"
+          - de-moor-ix-15: "§15. The Cause of the Goodness of the Good Angels (cont.)"
+          - de-moor-ix-17: "§17. The Office of Angels (cont.)"
+          - de-moor-ix-18: "§18. The Veneration of Angels"
+          - de-moor-ix-19: "§19. The Number and Order of Angels"
+    translations:
+      - translator: Steven Dilday
+        partial: true
+        sites:
+          - site: From Reformation to Reformation
+            formats:
+              - type: HTML
+                url: https://www.fromreformationtoreformation.com/blog/tags/de-moor
+            section_urls:
+              - de-moor-ch-i: https://www.fromreformationtoreformation.com/blog/categories/de-moor-general
+              - de-moor-i-title-page: https://www.fromreformationtoreformation.com/post/de-moor-i-title-page
+              - de-moor-i-outline: https://www.fromreformationtoreformation.com/post/de-moor-i-outline-of-the-term-and-definition-of-theology
+              - de-moor-i-1: https://www.fromreformationtoreformation.com/post/de-moor-i-1-the-etymology-of-theology
+              - de-moor-i-2: https://www.fromreformationtoreformation.com/post/de-moor-i-2-extra-biblical-uses-of-theology
+              - de-moor-i-3: https://www.fromreformationtoreformation.com/post/de-moor-i-3-biblical-uses-of-theology-and-the-personal-word
+              - de-moor-i-4: https://www.fromreformationtoreformation.com/post/de-moor-i-4-biblical-uses-of-theology-and-the-external-word
+              - de-moor-i-5: https://www.fromreformationtoreformation.com/post/de-moor-i-5-synonyms-of-theology
+              - de-moor-i-6: https://www.fromreformationtoreformation.com/post/de-moor-i-6-homonyms-of-theology
+              - de-moor-i-7: https://www.fromreformationtoreformation.com/post/de-moor-i-7-archetypal-theology
+              - de-moor-i-8: https://www.fromreformationtoreformation.com/post/de-moor-i-8-ectypal-theology-of-union
+              - de-moor-i-9: https://www.fromreformationtoreformation.com/post/de-moor-i-9-ectypal-theology-of-vision
+              - de-moor-i-10: https://www.fromreformationtoreformation.com/post/de-moor-i-10-the-existence-of-theology-of-the-way
+              - de-moor-i-10-way: https://www.fromreformationtoreformation.com/post/de-moor-i-10-the-existence-of-theology-of-the-way
+              - de-moor-i-10-racecourse: https://www.fromreformationtoreformation.com/post/de-moor-i-10-ectypal-theology-of-the-race-course
+              - de-moor-i-11: https://www.fromreformationtoreformation.com/post/de-moor-i-11-natural-theology-innate
+              - de-moor-i-13: https://www.fromreformationtoreformation.com/post/de-moor-i-13-natural-theology-acquired
+              - de-moor-i-14: https://www.fromreformationtoreformation.com/post/de-moor-i-14-acquired-natural-theology-and-universal-doubt
+              - de-moor-i-15: https://www.fromreformationtoreformation.com/post/de-moor-i-15-the-idea-of-god
+              - de-moor-i-16: https://www.fromreformationtoreformation.com/post/de-moor-i-16-natural-theology-before-and-after-the-fall
+              - de-moor-i-17: https://www.fromreformationtoreformation.com/post/de-moor-i-17-defense-of-the-existence-of-natural-theology
+              - de-moor-i-18: https://www.fromreformationtoreformation.com/post/de-moor-i-18-the-object-of-natural-theology
+              - de-moor-i-19: https://www.fromreformationtoreformation.com/post/de-moor-i-19-the-insufficiency-of-natural-theology
+              - de-moor-i-20: https://www.fromreformationtoreformation.com/post/de-moor-i-20-vindication-of-the-insufficiency-of-natural-theology
+              - de-moor-i-21: https://www.fromreformationtoreformation.com/post/de-moor-i-21-natural-and-revealed-theology-compared-and-contrasted
+              - de-moor-i-22: https://www.fromreformationtoreformation.com/post/de-moor-i-22-the-end-of-natural-theology
+              - de-moor-i-23: https://www.fromreformationtoreformation.com/post/de-moor-i-23-the-necessity-of-revealed-theology
+              - de-moor-i-24: https://www.fromreformationtoreformation.com/post/de-moor-i-24-habitual-revealed-theology
+              - de-moor-i-25: https://www.fromreformationtoreformation.com/post/de-moor-i-25-systematic-revealed-theology
+              - de-moor-i-26: https://www.fromreformationtoreformation.com/post/de-moor-i-26-scholastic-theology
+              - de-moor-i-27: https://www.fromreformationtoreformation.com/post/de-moor-i-27-definition-of-revealed-theology
+              - de-moor-i-28: https://www.fromreformationtoreformation.com/post/de-moor-i-28-the-genus-of-theology
+              - de-moor-i-29: https://www.fromreformationtoreformation.com/post/de-moor-i-29-theology-as-apprehensive-and-discursive
+              - de-moor-i-30: https://www.fromreformationtoreformation.com/post/de-moor-i-30-defense-of-discursive-theology
+              - de-moor-i-31: https://www.fromreformationtoreformation.com/post/de-moor-i-31-consequences-of-theology-and-of-faith
+              - de-moor-i-32: https://www.fromreformationtoreformation.com/post/de-moor-i-32-the-unique-principia-of-theology
+              - de-moor-i-33: https://www.fromreformationtoreformation.com/post/de-moor-i-33-modes-of-revelation
+              - de-moor-i-34: https://www.fromreformationtoreformation.com/post/de-moor-i-34-the-object-of-revealed-theology-true-religion
+              - de-moor-i-35: https://www.fromreformationtoreformation.com/post/de-moor-i-35-the-subject-of-revealed-theology-fallen-sinners
+              - de-moor-i-36: https://www.fromreformationtoreformation.com/post/de-moor-i-36-the-ends-of-revealed-theology
+              - de-moor-ch-ii: https://www.fromreformationtoreformation.com/blog/categories/de-moor-on-scripture
+              - de-moor-ii-title-page: https://www.fromreformationtoreformation.com/post/de-moor-ii-title-page
+              - de-moor-ii-outline: https://www.fromreformationtoreformation.com/post/de-moor-ii-outline-of-the-principium-of-theology-or-sacred-scripture
+              - de-moor-ii-1: https://www.fromreformationtoreformation.com/post/de-moor-ii-1-the-denomination-of-the-word-as-sacred-scripture
+              - de-moor-ii-2: https://www.fromreformationtoreformation.com/post/de-moor-ii-2-the-definition-of-sacred-scripture
+              - de-moor-ii-3: https://www.fromreformationtoreformation.com/post/de-moor-ii-3-the-word-of-god-unwritten
+              - de-moor-ii-4: https://www.fromreformationtoreformation.com/post/de-moor-ii-4-the-word-of-god-written
+              - de-moor-ii-5: https://www.fromreformationtoreformation.com/post/de-moor-ii-5-the-infallible-inspiration-of-the-scriptures
+              - de-moor-ii-6: https://www.fromreformationtoreformation.com/post/de-moor-ii-6-the-certainty-of-the-inspiration-and-authority-of-the-scriptures
+              - de-moor-ii-7: https://www.fromreformationtoreformation.com/post/de-moor-ii-7-the-authority-of-scripture-and-the-testimony-of-the-church
+              - de-moor-ii-8: https://www.fromreformationtoreformation.com/post/de-moor-ii-8-the-authenticity-of-the-hebrew-and-greek-originals-part-1
+              - de-moor-ii-9: https://www.fromreformationtoreformation.com/post/de-moor-ii-9-the-authenticity-of-the-hebrew-and-greek-originals-defended-part-1
+              - de-moor-ii-10: https://www.fromreformationtoreformation.com/post/de-moor-ii-10-against-the-authenticity-of-the-vulgate
+              - de-moor-ii-11: https://www.fromreformationtoreformation.com/post/de-moor-ii-11-against-the-authenticity-of-the-samaritan-and-septuagint-part-1
+              - de-moor-ii-12: https://www.fromreformationtoreformation.com/post/de-moor-ii-12-the-instrumental-cause-of-scripture-the-amanuenses-part-1
+              - de-moor-ii-13: https://www.fromreformationtoreformation.com/post/de-moor-ii-13-the-canon-of-scripture-part-1
+              - de-moor-ii-14: https://www.fromreformationtoreformation.com/post/de-moor-ii-14-the-canon-and-the-church-part-1
+              - de-moor-ii-15: https://www.fromreformationtoreformation.com/post/de-moor-ii-15-canonical-books-imperishable-part-1
+              - de-moor-ii-16: https://www.fromreformationtoreformation.com/post/de-moor-ii-16-canonical-books-imperishable-part-2
+              - de-moor-ii-17: https://www.fromreformationtoreformation.com/post/de-moor-ii-17-the-abiding-canonicity-of-the-old-testament-part-1
+              - de-moor-ii-18: https://www.fromreformationtoreformation.com/post/de-moor-ii-18-the-abiding-canonicity-of-the-old-testament-part-2
+              - de-moor-ii-19: https://www.fromreformationtoreformation.com/post/de-moor-ii-19-the-apocrypha-part-1
+              - de-moor-ii-20: https://www.fromreformationtoreformation.com/post/de-moor-ii-20-the-apocrypha-part-2
+              - de-moor-ii-21: https://www.fromreformationtoreformation.com/post/de-moor-ii-21-the-argument-of-scripture
+              - de-moor-ii-22: https://www.fromreformationtoreformation.com/post/de-moor-ii-22-the-truth-of-scripture
+              - de-moor-ii-23: https://www.fromreformationtoreformation.com/post/de-moor-ii-23-the-self-consistency-of-scripture
+              - de-moor-ii-24: https://www.fromreformationtoreformation.com/post/de-moor-ii-24-the-perspicuity-of-scripture-part-1
+              - de-moor-ii-25: https://www.fromreformationtoreformation.com/post/de-moor-ii-25-the-perspicuity-of-scripture-part-2
+              - de-moor-ii-26: https://www.fromreformationtoreformation.com/post/de-moor-ii-26-the-perspicuity-of-scripture-part-3
+              - de-moor-ii-27: https://www.fromreformationtoreformation.com/post/de-moor-ii-27-the-sufficiency-of-scripture-part-1
+              - de-moor-ii-28: https://www.fromreformationtoreformation.com/post/de-moor-ii-28-the-sufficiency-of-scripture-part-2
+              - de-moor-ii-29: https://www.fromreformationtoreformation.com/post/de-moor-ii-29-the-sufficiency-of-scripture-part-3
+              - de-moor-ii-30: https://www.fromreformationtoreformation.com/post/de-moor-ii-30-the-sufficiency-of-scripture-part-4
+              - de-moor-ii-31: https://www.fromreformationtoreformation.com/post/de-moor-ii-31-the-sufficiency-of-scripture-part-5
+              - de-moor-ii-32: https://www.fromreformationtoreformation.com/post/de-moor-ii-32-the-proximate-end-of-scripture-the-rule-of-faith-and-manners
+              - de-moor-ii-33: https://www.fromreformationtoreformation.com/post/de-moor-ii-33-the-translation-of-scripture-part-1
+              - de-moor-ii-34: https://www.fromreformationtoreformation.com/post/de-moor-ii-34-the-translation-of-scripture-part-2
+              - de-moor-ii-35: https://www.fromreformationtoreformation.com/post/de-moor-ii-35-the-reading-of-the-scriptures-part-1
+              - de-moor-ii-36: https://www.fromreformationtoreformation.com/post/de-moor-ii-36-the-reading-of-the-scriptures-part-2
+              - de-moor-ii-37: https://www.fromreformationtoreformation.com/post/de-moor-ii-37-the-sense-of-scripture-simple-or-composite-part-1
+              - de-moor-ii-38: https://www.fromreformationtoreformation.com/post/de-moor-ii-38-the-sense-of-scripture-simple-or-composite-part-2
+              - de-moor-ii-39: https://www.fromreformationtoreformation.com/post/de-moor-ii-39-private-and-ministerial-judgment
+              - de-moor-ii-40: https://www.fromreformationtoreformation.com/post/de-moor-ii-40-the-supreme-judge-neither-enthusiastic-experience-nor-reason
+              - de-moor-ii-41: https://www.fromreformationtoreformation.com/post/de-moor-ii-41-the-supreme-judge-not-the-church-part-1
+              - de-moor-ii-42: https://www.fromreformationtoreformation.com/post/de-moor-ii-42-the-supreme-judge-not-the-church-part-2
+              - de-moor-ii-43: https://www.fromreformationtoreformation.com/post/de-moor-ii-43-the-supreme-judge-the-holy-spirit
+              - de-moor-ii-44: https://www.fromreformationtoreformation.com/post/de-moor-ii-44-the-object-of-interpretation-the-whole-scripture
+              - de-moor-ii-45: https://www.fromreformationtoreformation.com/post/de-moor-ii-45-the-means-of-proper-interpretation
+              - de-moor-ii-46: https://www.fromreformationtoreformation.com/post/de-moor-ii-46-the-use-of-the-fathers-in-interpretation-part-1
+              - de-moor-ii-47: https://www.fromreformationtoreformation.com/post/de-moor-ii-47-the-use-of-the-fathers-in-interpretation-part-2
+              - de-moor-ii-48: https://www.fromreformationtoreformation.com/post/de-moor-ii-48-hermeneutical-canons-part-1
+              - de-moor-ii-49: https://www.fromreformationtoreformation.com/post/de-moor-ii-49-hermeneutical-canons-part-2
+              - de-moor-ii-50: https://www.fromreformationtoreformation.com/post/de-moor-ii-50-scripture-s-highest-end
+              - de-moor-ch-iii: https://www.fromreformationtoreformation.com/blog/categories/de-moor-on-religion
+              - de-moor-iii-doctrine: https://www.fromreformationtoreformation.com/post/de-moor-s-doctrine-of-religion
+              - de-moor-ch-iv: https://www.fromreformationtoreformation.com/blog/categories/de-moor-on-god
+              - de-moor-iv-a-definition: https://www.fromreformationtoreformation.com/post/de-moor-iv-a-definition-of-god
+              - de-moor-iv-1: https://www.fromreformationtoreformation.com/post/de-moor-iv-1-the-names-of-god-part-1
+              - de-moor-iv-2: https://www.fromreformationtoreformation.com/post/de-moor-iv-2-is-god-a-name-of-essence-or-of-office-part-1
+              - de-moor-iv-3: https://www.fromreformationtoreformation.com/post/de-moor-iv-3-categorization-of-the-divine-names
+              - de-moor-iv-4: https://www.fromreformationtoreformation.com/post/de-moor-iv-4-is-sabbaoth-properly-a-name-of-god
+              - de-moor-iv-5: https://www.fromreformationtoreformation.com/post/de-moor-iv-5-hebrew-names-for-god
+              - de-moor-iv-6: https://www.fromreformationtoreformation.com/post/de-moor-iv-6-jewish-traditions-concerning-the-writing-of-the-divine-name
+              - de-moor-iv-8: https://www.fromreformationtoreformation.com/post/de-moor-iv-8-gentile-misuse-of-the-divine-name
+              - de-moor-iv-9: https://www.fromreformationtoreformation.com/post/de-moor-iv-9-threefold-communication-of-the-divine-names
+              - de-moor-iv-10: https://www.fromreformationtoreformation.com/post/de-moor-iv-10-spanheim-s-arguments-for-the-existence-of-god
+              - de-moor-iv-11: https://www.fromreformationtoreformation.com/post/de-moor-iv-11-the-incomprehensibility-of-god
+              - de-moor-iv-13: https://www.fromreformationtoreformation.com/post/de-moor-iv-13-the-spiritual-nature-of-god
+              - de-moor-iv-14: https://www.fromreformationtoreformation.com/post/de-moor-iv-14-answering-the-anthropomorphites
+              - de-moor-iv-15: https://www.fromreformationtoreformation.com/post/de-moor-iv-15-against-images-of-god
+              - de-moor-iv-16: https://www.fromreformationtoreformation.com/post/de-moor-iv-16-god-as-substance-essence
+              - de-moor-iv-17: https://www.fromreformationtoreformation.com/post/de-moor-iv-17-the-rabbis-on-the-attributes-of-god
+              - de-moor-iv-18: https://www.fromreformationtoreformation.com/post/de-moor-iv-18-the-infinity-and-perfection-of-the-divine-being-part-1
+              - de-moor-iv-19: https://www.fromreformationtoreformation.com/post/de-moor-iv-19-classification-of-god-s-attributes-absolute-and-relative
+              - de-moor-iv-19-abs-rel: https://www.fromreformationtoreformation.com/post/de-moor-iv-19-classification-of-god-s-attributes-absolute-and-relative
+              - de-moor-iv-19-prop-met: https://www.fromreformationtoreformation.com/post/de-moor-iv-19-classification-of-god-s-attributes-proper-and-metaphorical
+              - de-moor-iv-19-int-ext: https://www.fromreformationtoreformation.com/post/de-moor-iv-19-classification-of-god-s-attributes-internal-and-external
+              - de-moor-iv-19-neg-pos: https://www.fromreformationtoreformation.com/post/de-moor-iv-19-classification-of-god-s-attributes-negative-and-positive
+              - de-moor-iv-19-comm-incomm: https://www.fromreformationtoreformation.com/post/de-moor-iv-19-classification-of-god-s-attributes-communicable-and-incommunicable
+              - de-moor-iv-20: https://www.fromreformationtoreformation.com/post/de-moor-iv-20-the-independence-of-god
+              - de-moor-iv-21: https://www.fromreformationtoreformation.com/post/de-moor-iv-21-god-s-independence-in-existence-and-essence
+              - de-moor-iv-22: https://www.fromreformationtoreformation.com/post/de-moor-iv-22-the-grace-of-god
+              - de-moor-iv-23: https://www.fromreformationtoreformation.com/post/de-moor-iv-23-arguments-for-the-simplicity-of-god-a-priori
+              - de-moor-iv-24: https://www.fromreformationtoreformation.com/post/de-moor-iv-24-divine-simplicity-defended-against-the-socinians-and-vorstius
+              - de-moor-iv-24-socinians: https://www.fromreformationtoreformation.com/post/de-moor-iv-24-divine-simplicity-defended-against-the-socinians-and-vorstius
+              - de-moor-iv-24-composition: https://www.fromreformationtoreformation.com/post/de-moor-iv-24-against-composition-in-god
+              - de-moor-iv-24-remonstrants: https://www.fromreformationtoreformation.com/post/de-moor-iv-24-divine-simplicity-defended-against-the-remonstrants
+              - de-moor-iv-25: https://www.fromreformationtoreformation.com/post/de-moor-iv-25-against-pantheism
+              - de-moor-iv-25-pantheism: https://www.fromreformationtoreformation.com/post/de-moor-iv-25-against-pantheism
+              - de-moor-iv-25-not-composition: https://www.fromreformationtoreformation.com/post/de-moor-iv-25-not-composition-of-god-with-the-creature
+              - de-moor-iv-26: https://www.fromreformationtoreformation.com/post/de-moor-iv-26-the-immutability-of-god
+              - de-moor-iv-27: https://www.fromreformationtoreformation.com/post/de-moor-iv-27-god-s-immensity-and-omnipresence-proven-from-scripture
+              - de-moor-iv-28: https://www.fromreformationtoreformation.com/post/de-moor-iv-28-divine-omnipresence-in-the-hand-of-the-philosophers
+              - de-moor-iv-29: https://www.fromreformationtoreformation.com/post/de-moor-iv-29-god-alone-omnipresent
+              - de-moor-iv-30: https://www.fromreformationtoreformation.com/post/de-moor-iv-30-the-immensity-of-god
+              - de-moor-iv-31: https://www.fromreformationtoreformation.com/post/de-moor-iv-31-the-eternity-of-god
+              - de-moor-iv-32: https://www.fromreformationtoreformation.com/post/de-moor-iv-32-divine-eternity-without-succession-against-the-socinians
+              - de-moor-iv-33: https://www.fromreformationtoreformation.com/post/de-moor-iv-33-eternity-proper-to-god-alone
+              - de-moor-iv-34: https://www.fromreformationtoreformation.com/post/de-moor-iv-34-divine-knowledge
+              - de-moor-iv-35: https://www.fromreformationtoreformation.com/post/de-moor-iv-35-the-perfection-of-god-s-knowledge
+              - de-moor-iv-36: https://www.fromreformationtoreformation.com/post/de-moor-iv-36-god-s-knowledge-of-all-things
+              - de-moor-iv-37: https://www.fromreformationtoreformation.com/post/de-moor-iv-37-god-s-knowledge-of-vision-and-of-simple-intelligence
+              - de-moor-iv-38: https://www.fromreformationtoreformation.com/post/de-moor-iv-38-refutation-of-the-doctrine-of-middle-knowledge
+              - de-moor-iv-39: https://www.fromreformationtoreformation.com/post/de-moor-iv-39-answering-the-molinists-part-1
+              - de-moor-iv-40: https://www.fromreformationtoreformation.com/post/de-moor-iv-40-god-s-knowledge-not-properly-the-cause-of-things
+              - de-moor-iv-41: https://www.fromreformationtoreformation.com/post/de-moor-iv-41-the-intrinsic-and-essential-goodness-of-god
+              - de-moor-iv-42: https://www.fromreformationtoreformation.com/post/de-moor-iv-42-classes-and-categories-of-grace-featuring-sufficient-and-efficacious
+              - de-moor-iv-43: https://www.fromreformationtoreformation.com/post/de-moor-iv-43-the-mercy-of-god
+              - de-moor-iv-44: https://www.fromreformationtoreformation.com/post/de-moor-iv-44-the-patience-of-god
+              - de-moor-iv-45: https://www.fromreformationtoreformation.com/post/de-moor-iv-45-god-s-unfailing-truth-and-faithfulness
+              - de-moor-iv-46: https://www.fromreformationtoreformation.com/post/de-moor-iv-46-god-s-remunerative-justice
+              - de-moor-iv-47: https://www.fromreformationtoreformation.com/post/de-moor-iv-47-denial-of-vindicatory-righteousness-as-natural-to-god-by-the-socinians-et-al
+              - de-moor-iv-48: https://www.fromreformationtoreformation.com/post/de-moor-iv-48-god-s-absolute-right-and-authority-over-all-his-creatures
+              - de-moor-ch-v: https://www.fromreformationtoreformation.com/blog/categories/de-moor-on-trinity
+              - de-moor-v-outline: https://www.fromreformationtoreformation.com/post/de-moor-v-outline-of-the-doctrine-of-the-trinity
+              - de-moor-v-1: https://www.fromreformationtoreformation.com/post/de-moor-v-1-trinitarian-terminology-part-1
+              - de-moor-v-2: https://www.fromreformationtoreformation.com/post/de-moor-v-2-trinitarian-terminology-part-2
+              - de-moor-v-3: https://www.fromreformationtoreformation.com/post/de-moor-v-3-the-divine-persons-and-substance-part-1
+              - de-moor-v-4: https://www.fromreformationtoreformation.com/post/de-moor-v-4-the-abiding-usefulness-of-the-traditional-trinitarian-vocabulary
+              - de-moor-v-5: https://www.fromreformationtoreformation.com/post/de-moor-v-5-the-three-modes-of-subsistence-in-the-one-divine-essence
+              - de-moor-v-5-one-essence: https://www.fromreformationtoreformation.com/post/de-moor-v-5-god-one-with-respect-to-essence
+              - de-moor-v-5-modes: https://www.fromreformationtoreformation.com/post/de-moor-v-5-the-three-modes-of-subsistence-in-the-one-divine-essence
+              - de-moor-v-5-subsisting: https://www.fromreformationtoreformation.com/post/de-moor-v-5-three-persons-subsisting-in-one-essence
+              - de-moor-v-5-equal-honor: https://www.fromreformationtoreformation.com/post/de-moor-v-5-three-person-equal-in-honor-and-glory
+              - de-moor-v-5-emperichoresis: https://www.fromreformationtoreformation.com/post/de-moor-v-5-emperichoresis
+              - de-moor-v-7: https://www.fromreformationtoreformation.com/post/de-moor-v-7-the-person-of-the-father
+              - de-moor-v-8: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-generation-of-the-son
+              - de-moor-v-8-generation: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-generation-of-the-son
+              - de-moor-v-8-hyperphysical: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-hyperphysical-generation-of-the-son
+              - de-moor-v-8-proper: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-proper-generation-of-the-son
+              - de-moor-v-8-unique-sonship: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-unique-sonship-of-jesus-christ
+              - de-moor-v-8-communication: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-communication-of-the-divine-essence-by-generation
+              - de-moor-v-8-john-5: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-proper-generation-of-the-son-john-5-26
+              - de-moor-v-8-proverbs: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-eternal-generation-of-the-son-proverbs-8
+              - de-moor-v-8-micah: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-generation-of-the-son-micah-5-2
+              - de-moor-v-8-psalm: https://www.fromreformationtoreformation.com/post/de-moor-v-8-the-generation-of-the-son-psalm-2-7
+              - de-moor-v-9: https://www.fromreformationtoreformation.com/post/de-moor-v-9-eternal-generation-defended-against-the-remonstrants-part-1
+              - de-moor-v-10: https://www.fromreformationtoreformation.com/post/de-moor-v-10-the-son-as-autotheos-part-1
+              - de-moor-v-11: https://www.fromreformationtoreformation.com/post/de-moor-v-11-the-procession-of-the-holy-spirit-and-john-15-26
+              - de-moor-v-12: https://www.fromreformationtoreformation.com/post/de-moor-v-12-the-difference-between-generation-and-spiration
+              - de-moor-v-13: https://www.fromreformationtoreformation.com/post/de-moor-v-13-old-testament-confirmation-of-the-doctrine-of-the-trinity-part-1
+              - de-moor-v-15: https://www.fromreformationtoreformation.com/post/de-moor-v-15-old-testament-confirmation-of-the-doctrine-of-the-trinity-part-3
+              - de-moor-v-16: https://www.fromreformationtoreformation.com/post/de-moor-v-16-old-testament-confirmation-of-the-doctrine-of-the-trinity-part-4
+              - de-moor-v-17: https://www.fromreformationtoreformation.com/post/de-moor-v-17-new-testament-testimonies-for-the-doctrine-of-the-trinity-part-1
+              - de-moor-v-18: https://www.fromreformationtoreformation.com/post/de-moor-v-18-new-testament-testimonies-for-the-doctrine-of-the-trinity-part-2
+              - de-moor-v-19: https://www.fromreformationtoreformation.com/post/de-moor-v-19-the-socinians-among-the-anti-trinitarians
+              - de-moor-v-20: https://www.fromreformationtoreformation.com/post/de-moor-v-20-answering-the-anti-trinitarian-objections-of-the-socinians-part-2
+              - de-moor-v-21: https://www.fromreformationtoreformation.com/post/de-moor-v-21-the-deity-of-christ-demonstrated-from-divine-titles-part-1
+              - de-moor-v-21-titles: https://www.fromreformationtoreformation.com/post/de-moor-v-21-the-deity-of-christ-demonstrated-from-divine-titles-part-1
+              - de-moor-v-21-attributes: https://www.fromreformationtoreformation.com/post/de-moor-v-21-the-deity-of-christ-demonstrated-from-divine-attributes-part-1
+              - de-moor-v-21-works: https://www.fromreformationtoreformation.com/post/de-moor-v-21-the-deity-of-christ-demonstrated-from-divine-works
+              - de-moor-v-21-worship: https://www.fromreformationtoreformation.com/post/de-moor-v-21-the-deity-of-christ-demonstrated-from-divine-worship
+              - de-moor-v-22: https://www.fromreformationtoreformation.com/post/de-moor-v-22-the-deity-of-the-son-defended-part-1
+              - de-moor-v-23: https://www.fromreformationtoreformation.com/post/de-moor-v-23-the-truth-of-the-spirit-s-person-defended-part-1
+              - de-moor-v-24: https://www.fromreformationtoreformation.com/post/de-moor-v-24-the-spirit-as-a-distinct-person
+              - de-moor-v-26: https://www.fromreformationtoreformation.com/post/de-moor-v-26-defense-of-the-deity-of-the-holy-spirit-part-1
+              - de-moor-v-27: https://www.fromreformationtoreformation.com/post/de-moor-v-27-defense-of-the-deity-of-the-holy-spirit-part-6
+              - de-moor-v-28: https://www.fromreformationtoreformation.com/post/de-moor-v-28-the-sublimity-of-the-doctrine-of-the-trinity-part-1
+              - de-moor-v-29: https://www.fromreformationtoreformation.com/post/de-moor-v-29-the-necessity-of-the-doctrine-of-the-trinity-part-1
+              - de-moor-v-30: https://www.fromreformationtoreformation.com/post/de-moor-v-30-the-utility-of-the-doctrine-of-the-trinity
+              - de-moor-ch-vi: https://www.fromreformationtoreformation.com/blog/categories/de-moor-on-the-decree
+              - de-moor-vi-outline: https://www.fromreformationtoreformation.com/post/de-moor-vi-outline-of-the-doctrine-of-the-divine-decree
+              - de-moor-vi-intro: https://www.fromreformationtoreformation.com/post/de-moor-vi-divine-decrees-as-internal-acts-ad-extra
+              - de-moor-vi-2: https://www.fromreformationtoreformation.com/post/de-moor-vi-2-the-term-decrees
+              - de-moor-vi-3: https://www.fromreformationtoreformation.com/post/de-moor-vi-3-the-existence-of-the-decrees
+              - de-moor-vi-4: https://www.fromreformationtoreformation.com/post/de-moor-vi-4-a-definition-for-divine-decrees
+              - de-moor-vi-5: https://www.fromreformationtoreformation.com/post/de-moor-vi-5-the-general-nature-of-the-divine-decrees
+              - de-moor-vi-6: https://www.fromreformationtoreformation.com/post/de-moor-vi-6-the-eternity-of-the-divine-decrees
+              - de-moor-vi-7: https://www.fromreformationtoreformation.com/post/de-moor-vi-7-the-liberty-of-the-divine-decrees
+              - de-moor-vi-8: https://www.fromreformationtoreformation.com/post/de-moor-vi-8-the-wisdom-of-the-divine-decrees
+              - de-moor-vi-9: https://www.fromreformationtoreformation.com/post/de-moor-vi-9-the-independence-of-the-divine-decrees
+              - de-moor-vi-10: https://www.fromreformationtoreformation.com/post/de-moor-vi-10-the-immutability-of-the-divine-decrees
+              - de-moor-vi-11: https://www.fromreformationtoreformation.com/post/de-moor-vi-11-the-object-of-the-divine-decrees-part-1
+              - de-moor-vi-12: https://www.fromreformationtoreformation.com/post/de-moor-vi-12-the-object-of-the-divine-decrees-part-2
+              - de-moor-vi-13: https://www.fromreformationtoreformation.com/post/de-moor-vi-13-the-object-of-the-divine-decrees-part-3
+              - de-moor-vi-14: https://www.fromreformationtoreformation.com/post/de-moor-vi-14-the-order-of-the-decrees
+              - de-moor-vi-15: https://www.fromreformationtoreformation.com/post/de-moor-vi-15-the-connection-of-all-things
+              - de-moor-vi-16: https://www.fromreformationtoreformation.com/post/de-moor-vi-16-things-possible-but-not-future
+              - de-moor-vi-17: https://www.fromreformationtoreformation.com/post/de-moor-vi-17-the-chief-end-of-the-decree
+              - de-moor-ch-vii: https://www.fromreformationtoreformation.com/blog/categories/de-moor-on-predestination
+              - de-moor-vii-outline: https://www.fromreformationtoreformation.com/post/de-moor-vii-outline-of-the-doctrine-of-predestination
+              - de-moor-vii-1: https://www.fromreformationtoreformation.com/post/de-moor-vii-1-the-term-predestination
+              - de-moor-vii-2: https://www.fromreformationtoreformation.com/post/de-moor-vii-2-the-homonymy-of-predestination
+              - de-moor-vii-3: https://www.fromreformationtoreformation.com/post/de-moor-vii-3-double-meaning-of-predestination
+              - de-moor-vii-4: https://www.fromreformationtoreformation.com/post/de-moor-vii-4-the-reality-of-predestination
+              - de-moor-vii-5: https://www.fromreformationtoreformation.com/post/de-moor-vii-5-a-definition-of-predestination-part-1
+              - de-moor-vii-6: https://www.fromreformationtoreformation.com/post/de-moor-vii-6-a-definition-of-predestination-part-2
+              - de-moor-vii-7: https://www.fromreformationtoreformation.com/post/de-moor-vii-7-the-eternity-of-predestination
+              - de-moor-vii-8: https://www.fromreformationtoreformation.com/post/de-moor-vii-8-the-liberty-of-predestination
+              - de-moor-vii-9: https://www.fromreformationtoreformation.com/post/de-moor-vii-9-the-wisdom-of-predestination
+              - de-moor-vii-10: https://www.fromreformationtoreformation.com/post/de-moor-vii-10-god-s-independence-in-predestination
+              - de-moor-vii-11: https://www.fromreformationtoreformation.com/post/de-moor-vii-11-god-s-independence-in-predestination-defended-part-1
+              - de-moor-vii-12: https://www.fromreformationtoreformation.com/post/de-moor-vii-12-god-s-independence-in-predestination-defended-part-4
+              - de-moor-vii-13: https://www.fromreformationtoreformation.com/post/de-moor-vii-13-the-immutability-of-predestination
+              - de-moor-vii-14: https://www.fromreformationtoreformation.com/post/de-moor-vii-14-the-immutability-of-predestination-part-2
+              - de-moor-vii-15: https://www.fromreformationtoreformation.com/post/de-moor-vii-15-the-object-of-predestination-part-1
+              - de-moor-vii-16: https://www.fromreformationtoreformation.com/post/de-moor-vii-16-the-object-of-predestination-part-2
+              - de-moor-vii-17: https://www.fromreformationtoreformation.com/post/de-moor-vii-17-the-object-of-predestination-part-3
+              - de-moor-vii-18: https://www.fromreformationtoreformation.com/post/de-moor-vii-18-the-object-of-predestination-part-4
+              - de-moor-vii-19: https://www.fromreformationtoreformation.com/post/de-moor-vii-19-the-end-of-predestination
+              - de-moor-vii-20: https://www.fromreformationtoreformation.com/post/de-moor-vii-20-the-term-election
+              - de-moor-vii-21: https://www.fromreformationtoreformation.com/post/de-moor-vii-21-the-definition-of-election
+              - de-moor-vii-22: https://www.fromreformationtoreformation.com/post/de-moor-vii-22-the-predisposing-cause-of-election
+              - de-moor-vii-23: https://www.fromreformationtoreformation.com/post/de-moor-vii-23-the-object-of-election-part-1
+              - de-moor-vii-24: https://www.fromreformationtoreformation.com/post/de-moor-vii-24-the-object-of-election-part-2
+              - de-moor-vii-25: https://www.fromreformationtoreformation.com/post/de-moor-vii-25-the-object-of-election-part-3
+              - de-moor-vii-26: https://www.fromreformationtoreformation.com/post/de-moor-vii-26-the-end-of-election
+              - de-moor-vii-27: https://www.fromreformationtoreformation.com/post/de-moor-vii-27-the-certainty-of-election-part-1
+              - de-moor-vii-28: https://www.fromreformationtoreformation.com/post/de-moor-vii-28-the-certainty-of-election-part-2
+              - de-moor-vii-29: https://www.fromreformationtoreformation.com/post/de-moor-vii-29-the-term-reprobation
+              - de-moor-vii-30: https://www.fromreformationtoreformation.com/post/de-moor-vii-30-a-definition-of-reprobation
+              - de-moor-vii-31: https://www.fromreformationtoreformation.com/post/de-moor-vii-31-the-predisposing-cause-of-reprobation
+              - de-moor-vii-32: https://www.fromreformationtoreformation.com/post/de-moor-vii-32-the-object-of-reprobation-part-1
+              - de-moor-vii-33: https://www.fromreformationtoreformation.com/post/de-moor-vii-33-the-object-of-reprobation-part-2
+              - de-moor-vii-34: https://www.fromreformationtoreformation.com/post/de-moor-vii-34-the-ultimate-end-of-reprobation
+              - de-moor-vii-35: https://www.fromreformationtoreformation.com/post/de-moor-vii-35-the-proximate-end-of-reprobation
+              - de-moor-vii-36: https://www.fromreformationtoreformation.com/post/de-moor-vii-36-the-subjective-uncertainty-of-reprobation
+              - de-moor-vii-37: https://www.fromreformationtoreformation.com/post/de-moor-vii-37-the-sublimity-necessity-and-usefulness-of-the-doctrine-of-predestination
+              - de-moor-ch-viii: https://www.fromreformationtoreformation.com/blog/categories/de-moor-on-creation
+              - de-moor-viii-outline: https://www.fromreformationtoreformation.com/post/de-moor-viii-outline-of-the-doctrine-of-creation
+              - de-moor-viii-1: https://www.fromreformationtoreformation.com/post/de-moor-viii-1-from-the-internal-to-the-external-works-of-god
+              - de-moor-viii-2: https://www.fromreformationtoreformation.com/post/de-moor-viii-2-the-term-creation-part-1
+              - de-moor-viii-3: https://www.fromreformationtoreformation.com/post/de-moor-viii-3-the-term-creation-part-2
+              - de-moor-viii-4: https://www.fromreformationtoreformation.com/post/de-moor-viii-4-the-truth-of-creation
+              - de-moor-viii-5: https://www.fromreformationtoreformation.com/post/de-moor-viii-5-the-definition-of-creation
+              - de-moor-viii-6: https://www.fromreformationtoreformation.com/post/de-moor-viii-6-the-efficient-cause-of-creation-part-1
+              - de-moor-viii-7: https://www.fromreformationtoreformation.com/post/de-moor-viii-7-the-efficient-cause-of-creation-part-2
+              - de-moor-viii-8: https://www.fromreformationtoreformation.com/post/de-moor-viii-8-the-efficient-cause-of-creation-part-3
+              - de-moor-viii-9: https://www.fromreformationtoreformation.com/post/de-moor-viii-9-the-efficient-cause-of-creation-part-4
+              - de-moor-viii-10: https://www.fromreformationtoreformation.com/post/de-moor-viii-10-the-formal-cause-of-creation-part-1
+              - de-moor-viii-11: https://www.fromreformationtoreformation.com/post/de-moor-viii-11-the-formal-cause-of-creation-part-2
+              - de-moor-viii-12: https://www.fromreformationtoreformation.com/post/de-moor-viii-12-the-formal-cause-of-creation-part-3
+              - de-moor-viii-13: https://www.fromreformationtoreformation.com/post/de-moor-viii-13-the-material-cause-of-creation-part-1a
+              - de-moor-viii-14: https://www.fromreformationtoreformation.com/post/de-moor-viii-14-the-material-cause-of-creation-part-2
+              - de-moor-viii-15: https://www.fromreformationtoreformation.com/post/de-moor-viii-15-the-aptness-of-creation
+              - de-moor-viii-16: https://www.fromreformationtoreformation.com/post/de-moor-viii-16-the-order-of-creation
+              - de-moor-viii-17: https://www.fromreformationtoreformation.com/post/de-moor-viii-17-the-end-of-creation-part-1
+              - de-moor-viii-18: https://www.fromreformationtoreformation.com/post/de-moor-viii-18-the-end-of-creation-part-2
+              - de-moor-viii-19: https://www.fromreformationtoreformation.com/post/de-moor-viii-19-the-time-of-creation-part-1
+              - de-moor-viii-20: https://www.fromreformationtoreformation.com/post/de-moor-viii-20-the-time-of-creation-part-2
+              - de-moor-viii-21: https://www.fromreformationtoreformation.com/post/de-moor-viii-21-the-time-of-creation-part-3a
+              - de-moor-viii-22: https://www.fromreformationtoreformation.com/post/de-moor-viii-22-the-time-of-creation-part-4
+              - de-moor-viii-23: https://www.fromreformationtoreformation.com/post/de-moor-viii-23-the-time-of-creation-part-5a
+              - de-moor-viii-24: https://www.fromreformationtoreformation.com/post/de-moor-viii-24-the-first-day-part-1
+              - de-moor-viii-25: https://www.fromreformationtoreformation.com/post/de-moor-viii-25-the-second-day-part-1
+              - de-moor-viii-26: https://www.fromreformationtoreformation.com/post/de-moor-viii-26-the-third-day-part-1
+              - de-moor-viii-27: https://www.fromreformationtoreformation.com/post/de-moor-viii-27-the-fourth-day-part-1
+              - de-moor-viii-28: https://www.fromreformationtoreformation.com/post/de-moor-viii-28-the-fifth-day-part-1
+              - de-moor-viii-29: https://www.fromreformationtoreformation.com/post/de-moor-viii-29-the-sixth-day-part-1
+              - de-moor-viii-30: https://www.fromreformationtoreformation.com/post/de-moor-viii-30-the-sabbath-day
+              - de-moor-viii-31: https://www.fromreformationtoreformation.com/post/de-moor-viii-31-the-effects-of-creation
+              - de-moor-viii-32: https://www.fromreformationtoreformation.com/post/de-moor-viii-32-the-old-and-new-world
+              - de-moor-viii-33: https://www.fromreformationtoreformation.com/post/de-moor-viii-33-the-unity-of-the-world
+              - de-moor-viii-34: https://www.fromreformationtoreformation.com/post/de-moor-viii-34-the-finitude-of-the-world
+              - de-moor-viii-35: https://www.fromreformationtoreformation.com/post/de-moor-viii-35-the-possibility-of-more-worlds
+              - de-moor-viii-36: https://www.fromreformationtoreformation.com/post/de-moor-viii-36-a-world-soul
+              - de-moor-ch-ix: https://www.fromreformationtoreformation.com/blog/categories/de-moor-on-angels
+              - de-moor-ix-title-page: https://www.fromreformationtoreformation.com/post/de-moor-ix-title-page
+              - de-moor-ix-outline: https://www.fromreformationtoreformation.com/post/de-moor-ix-outline-of-the-doctrine-of-angels-good-and-evil
+              - de-moor-ix-1: https://www.fromreformationtoreformation.com/post/de-moor-ix-1-the-term-angels-part-1
+              - de-moor-ix-3: https://www.fromreformationtoreformation.com/post/de-moor-ix-3-the-existence-of-angels
+              - de-moor-ix-4: https://www.fromreformationtoreformation.com/post/de-moor-ix-4-angels-as-creatures-part-1
+              - de-moor-ix-5: https://www.fromreformationtoreformation.com/post/de-moor-ix-5-angels-as-creatures-part-3
+              - de-moor-ix-6: https://www.fromreformationtoreformation.com/post/de-moor-ix-6-angels-as-spiritual-substances
+              - de-moor-ix-7: https://www.fromreformationtoreformation.com/post/de-moor-ix-7-angels-as-incorporeal-substances-part-1
+              - de-moor-ix-8: https://www.fromreformationtoreformation.com/post/de-moor-ix-8-the-angelic-faculty-of-intellect
+              - de-moor-ix-9: https://www.fromreformationtoreformation.com/post/de-moor-ix-9-the-angelic-faculty-of-will
+              - de-moor-ix-10: https://www.fromreformationtoreformation.com/post/de-moor-ix-10-the-angelic-faculty-of-power-part-1
+              - de-moor-ix-11: https://www.fromreformationtoreformation.com/post/de-moor-ix-11-the-office-of-angels-part-1
+              - de-moor-ix-12: https://www.fromreformationtoreformation.com/post/de-moor-ix-12-the-office-of-angels-part-3
+              - de-moor-ix-13: https://www.fromreformationtoreformation.com/post/de-moor-ix-13-the-division-of-angels
+              - de-moor-ix-14: https://www.fromreformationtoreformation.com/post/de-moor-ix-14-the-cause-of-the-goodness-of-the-good-angels-part-1
+              - de-moor-ix-15: https://www.fromreformationtoreformation.com/post/de-moor-ix-15-the-cause-of-the-goodness-of-the-good-angels-part-2
+              - de-moor-ix-17: https://www.fromreformationtoreformation.com/post/de-moor-ix-17-the-office-of-angels-part-2
+              - de-moor-ix-18: https://www.fromreformationtoreformation.com/post/de-moor-ix-18-the-veneration-of-angels-part-1
+              - de-moor-ix-19: https://www.fromreformationtoreformation.com/post/de-moor-ix-19-the-number-of-angels

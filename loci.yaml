@@ -15,6 +15,9 @@
     - name: Nature of theology
       slug: nature-of-theology
       desc: The object, method, and divisions of theology as a discipline
+    - name: Religion
+      slug: religion
+      desc: "The concept of religion: its definition, necessity, and divisions (true vs. false, natural vs. revealed); the subject matter of theology considered as piety and worship"
     - name: Natural theology
       slug: natural-theology
       desc: Knowledge of God attainable by unaided reason from creation and conscience
@@ -29,6 +32,9 @@
           slug: scripture
           desc: The nature, authority, canon, and interpretation of Holy Scripture
           children:
+            - name: Inspiration of Scripture
+              slug: inspiration-of-scripture
+              desc: The divine inspiration of Scripture (theopneustia); the origin, nature, and extent of biblical inspiration
             - name: Illumination
               slug: illumination
               desc: The internal work of the Holy Spirit enabling understanding of Scripture
@@ -109,6 +115,7 @@
               desc: "The Father, Son, and Holy Spirit considered individually as distinct subsistences within the one divine essence"
     - name: Works of God
       slug: works-of-god
+      desc: "God's eternal decrees and their execution: the divine plan (decretum Dei) as expressed in creation, predestination, and providence"
       children:
         - name: Creation
           slug: creation
@@ -266,6 +273,9 @@
               desc: "The lawful use of oaths and vows, and the sin of perjury"
             - name: Sabbath
               slug: sabbath
+            - name: Simony
+              slug: simony
+              desc: The buying or selling of spiritual things, sacred offices, or sacraments
         - name: Chastity
           slug: chastity
         - name: War
@@ -428,6 +438,9 @@
         - name: Church discipline
           slug: church-discipline
           desc: "The exercise of corrective discipline, censures, and excommunication"
+        - name: Religious life
+          slug: religious-life
+          desc: "The theology and practice of the religious state: vows of poverty, chastity, and obedience; monastic and mendicant orders; rules and constitutions"
     - name: Power of the church
       slug: power-of-the-church
       desc: "Ecclesiastical power and jurisdiction (potestas ecclesiae): the keys, authority, and limits of church power"

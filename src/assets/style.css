@@ -390,7 +390,8 @@ body:has(.loci-page), body:has(.author-page-layout) { max-width: 1200px; }
 }
 .author-tooltip ul { list-style: none; padding: 0; margin: 0; }
 .author-tooltip li { padding: 0.1em 0; }
-.tooltip-author-header { font-weight: bold; margin-bottom: 0.3em; }
+.tooltip-author-header { font-weight: bold; margin-bottom: 0.1em; }
+.tooltip-tradition { color: var(--tooltip-text); opacity: 0.75; font-style: italic; margin-bottom: 0.3em; }
 
 /* Tagging reference */
 .tagging-tree {
@@ -737,6 +738,16 @@ body:has(.loci-page), body:has(.author-page-layout) { max-width: 1200px; }
 
 /* Hidden elements during filtering */
 .filtered-hidden { display: none; }
+
+/* Authors index table */
+.authors-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+.authors-table th { text-align: left; border-bottom: 2px solid var(--border); padding: 0.3em 0.5em; }
+.authors-table td { padding: 0.25em 0.5em; border-bottom: 1px solid var(--border); }
+.authors-table .col-dates { white-space: nowrap; color: var(--muted); }
+.authors-table .col-works { text-align: right; color: var(--muted); }
+.authors-table .col-links { white-space: nowrap; font-size: 0.85em; }
+.authors-table .col-links a + a::before { content: ' · '; }
+.author-tradition-none { color: var(--muted); font-style: italic; }
 
 /* What's new */
 .whats-new-subtitle { color: var(--muted); margin-bottom: 1em; }

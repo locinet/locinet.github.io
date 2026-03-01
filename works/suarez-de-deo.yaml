@@ -1,0 +1,29 @@
+suarez-de-deo:
+  author: Q316339
+  date_added: 2026-02-27
+  loci: 
+  la: 
+    title: De Deo Uno et Trino
+    orig_lang: true
+  en:
+    sections:
+      - one: The One God
+        loci: unity-of-god
+      - predestination: Divine predestination
+        loci: predestination
+      - triune: The Triune God
+        loci: trinity
+    translations:
+      - AI: true
+        sites:
+          - site: Academia.org
+            section_urls:
+              - one: https://www.academia.edu/129705323/The_One_God_Francisco_Su%C3%A1rez_S_J
+              - predestination: https://www.academia.edu/129740957/Divine_Predestination_Francisco_Su%C3%A1rez_S_J
+              - triune: https://www.academia.edu/143211572/The_Triune_God_Francisco_Su%C3%A1rez_S_J
+            formats:
+              - type: PDF
+                volumes:
+                  1: https://www.academia.edu/129705323/The_One_God_Francisco_Su%C3%A1rez_S_J
+                  2: https://www.academia.edu/129740957/Divine_Predestination_Francisco_Su%C3%A1rez_S_J
+                  3: https://www.academia.edu/143211572/The_Triune_God_Francisco_Su%C3%A1rez_S_J

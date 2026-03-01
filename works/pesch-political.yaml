@@ -1,0 +1,15 @@
+pesch-political:
+  author: Q54882753
+  date_added: 2026-02-25
+  loci: civil-government
+  la: 
+    orig_lang: true
+  en:
+    title: Christian Political Theory
+    translations:
+      - AI: true
+        sites:
+          - site: Academia.org
+            formats:
+              - type: PDF
+                url: https://www.academia.edu/145194904/Christian_Political_Theory_Fr_Christiano_Pesh_S_J

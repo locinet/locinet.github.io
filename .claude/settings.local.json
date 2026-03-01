@@ -120,5 +120,10 @@
       "Bash(git reset:*)",
       "Bash(cd:*)"
     ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bun x ccusage statusline",
+    "padding": 0
   }
 }

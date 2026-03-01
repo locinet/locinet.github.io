@@ -1,0 +1,15 @@
+franzelin-holy-spirit:
+  author: Q79142
+  date_added: 2026-02-25
+  loci: holy-spirit
+  la: 
+    orig_lang: true
+  en:
+    title: On the Procession of the Holy Spirit
+    translations:
+      - AI: true
+        sites:
+          - site: Academia.org
+            formats:
+              - type: PDF
+                url: https://www.academia.edu/144096963/On_the_Procession_of_the_Holy_Spirit_Card_Johann_Baptist_Franzelin_S_J

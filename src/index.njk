@@ -88,9 +88,10 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
     <span class="loci-slug-label">({{ node.slug }})</span>
     {% if authorList.length > 0 %}
       <span class="loci-authors">
-        <span class="loci-authors-dash">— </span>{% for author in authorList %}<span class="loci-author-item" data-tradition="{{ author.tradition }}" data-birth-year="{{ author.birthYear or '' }}"><a href="/authors/{{ author.slug }}/?locus={{ node.slug }}"
+        <span class="loci-authors-dash">— </span>{% for author in authorList %}<span class="loci-author-item" data-tradition="{{ author.tradition }}" data-birth-year="{{ author.birthYear or '' }}">{% set tradLabel = '' %}{% for t in site.traditions %}{% if t.slug == author.tradition %}{% set tradLabel = t.name %}{% endif %}{% endfor %}<a href="/authors/{{ author.slug }}/?locus={{ node.slug }}"
              class="author-link"
              data-author-header="{{ author.name }}{% if author.birthYear or author.deathYear %} ({{ author.birthYear }}–{{ author.deathYear }}){% endif %}"
+             data-tradition-label="{{ tradLabel }}"
              data-entries="{{ author.entries | dump | escape }}">{{ author.displayName }}</a></span>{% endfor %}
       </span>
     {% endif %}
@@ -135,8 +136,6 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
 
 </div>
 
-<div class="author-tooltip" id="author-tooltip" style="display:none;"></div>
-
 <script>
   const lociFlat = {{ site.lociFlat | dump | safe }};
   const traditions = {{ site.traditions | dump | safe }};
@@ -144,59 +143,4 @@ navExtra: '<div class="add-author-container"><a href="#" class="contribute-link"
     {% for author in site.authorPages %}"{{ author.qid }}": { name: {{ author.name | dump | safe }}, slug: "{{ author.slug }}" }{% if not loop.last %},{% endif %}
     {% endfor %}
   };
-</script>
-<script>
-  // Tooltip for author mouseover
-  (function() {
-    const tooltip = document.getElementById('author-tooltip');
-    document.querySelectorAll('.author-link').forEach(link => {
-      link.addEventListener('mouseenter', function(e) {
-        try {
-          const entries = JSON.parse(this.dataset.entries);
-          const authorHeader = this.dataset.authorHeader || '';
-          // Group entries by work
-          const works = [];
-          const workIndex = {};
-          for (const entry of entries) {
-            if (!workIndex[entry.workId]) {
-              const w = { title: entry.workTitle, year: entry.workYear, sections: [] };
-              workIndex[entry.workId] = w;
-              works.push(w);
-            }
-            if (entry.sectionTitle) workIndex[entry.workId].sections.push(entry.sectionTitle);
-          }
-          let html = '<div class="tooltip-author-header">' + escapeHtml(authorHeader) + '</div><ul>';
-          for (const w of works) {
-            const yearStr = w.year ? ' (' + w.year + ')' : '';
-            html += '<li><em>' + escapeHtml(w.title) + '</em>' + escapeHtml(yearStr);
-            if (w.sections.length > 0) {
-              html += '<ul>';
-              for (const s of w.sections) html += '<li>' + escapeHtml(s) + '</li>';
-              html += '</ul>';
-            }
-            html += '</li>';
-          }
-          html += '</ul>';
-          tooltip.innerHTML = html;
-          tooltip.style.display = 'block';
-          positionTooltip(e);
-        } catch(err) {}
-      });
-      link.addEventListener('mousemove', positionTooltip);
-      link.addEventListener('mouseleave', function() {
-        tooltip.style.display = 'none';
-      });
-    });
-
-    function positionTooltip(e) {
-      tooltip.style.left = (e.pageX + 12) + 'px';
-      tooltip.style.top = (e.pageY + 12) + 'px';
-    }
-
-    function escapeHtml(s) {
-      const d = document.createElement('div');
-      d.textContent = s;
-      return d.innerHTML;
-    }
-  })();
 </script>

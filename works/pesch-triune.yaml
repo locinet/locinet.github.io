@@ -1,0 +1,15 @@
+pesch-triune:
+  author: Q54882753
+  date_added: 2026-02-27
+  loci: trinity
+  la: 
+    orig_lang: true
+  en:
+    title: On the Triune God
+    translations:
+      - AI: true
+        sites:
+          - site: Academia.org
+            formats:
+              - type: PDF
+                url: https://www.academia.edu/143211657/On_the_Triune_God_Christiano_Pesch_S_J
