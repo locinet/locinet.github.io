@@ -1,0 +1,33 @@
+{
+  "_cacheVersion": 5,
+  "qid": "Q1708699",
+  "name": "Goaljan",
+  "slug": "goaljan",
+  "birthYear": null,
+  "deathYear": null,
+  "imageUrl": null,
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Goaljan",
+  "prdlId": null,
+  "familyName": null,
+  "givenName": null,
+  "openLibraryId": null,
+  "labels": {
+    "bn": "গোয়ালজান",
+    "bpy": "গোয়ালজান",
+    "en": "Goaljan",
+    "fr": "Goaljan",
+    "hi": "गोआलजान",
+    "it": "Goaljan",
+    "lld": "Goaljan",
+    "ms": "Goaljan",
+    "nan": "Goaljan",
+    "new": "गोअल्जन",
+    "nl": "Goaljan",
+    "pt": "Goaljan",
+    "vi": "Goaljan",
+    "zh": "戈阿尔詹",
+    "zh-hans": "戈阿尔詹",
+    "zh-hant": "戈阿爾詹",
+    "zh-hk": "戈阿爾詹"
+  }
+}

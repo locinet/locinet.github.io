@@ -1,0 +1,21 @@
+{
+  "_cacheVersion": 5,
+  "qid": "Q1427702",
+  "name": "Marine Corps Security Force Regiment",
+  "slug": "marine-corps-security-force-regiment",
+  "birthYear": null,
+  "deathYear": null,
+  "imageUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/MCSF%20Regt%20Logo.gif",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Marine_Corps_Security_Force_Regiment",
+  "prdlId": null,
+  "familyName": null,
+  "givenName": null,
+  "openLibraryId": null,
+  "labels": {
+    "de": "Fleet Antiterrorism Security Team",
+    "en": "Marine Corps Security Force Regiment",
+    "fr": "Marine Corps Security Force Regiment",
+    "ja": "海兵隊保安連隊",
+    "zh": "海軍陸戰隊保安團"
+  }
+}

@@ -409,7 +409,7 @@ function parseWork(fileId, data, translatorsMap, sitesMap) {
   }
 
   // Normalize author to array
-  const authors = Array.isArray(work.author) ? work.author : [work.author];
+  const authors = Array.isArray(work.author) ? work.author.filter(Boolean) : (work.author ? [work.author] : []);
 
   // Parse corporate_author
   let corporateAuthor = null;

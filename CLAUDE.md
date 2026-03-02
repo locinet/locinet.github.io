@@ -17,6 +17,10 @@ A directory of theological works hosted on the internet, built with 11ty and dep
 - `npm run oclc-search -- "author" "title"` — search Open Library for OCLC numbers, prints WorldCat link
 - `npm run import-work -- <pdf-url> [--author Q123] [--id work-id] [--depth N] [--lang la]` — generate YAML skeleton from PDF outline
 - `npm run import-ccel -- [--id work-id] [--force]` — import works from CCEL ThML/XML (reads `ccel.yaml` manifest)
+- `npm run import-earlyprint -- [--id work-id] [--force]` — import works from EarlyPrint Library TEI XML (reads `earlyprint.yaml` manifest; may need `node --max-old-space-size=4096`)
+- `npm run import-epub -- [options]` — import bilingual EPUB files (single-EPUB mode or manifest mode via `polanus-syntagma.yaml`)
+- `npm run import-csv` — import works from a CSV file into individual YAML files
+- `npm run extract-texts -- <work-file.yaml>` — extract `text:` blocks from YAML sections into `_texts/{workId}/{sectionId}.html` files and rewrite the YAML
 - `npm run list-sections -- <work-file.yaml>` — list all sections with current loci tags (tab-separated, indented)
 - `npm run tag -- <work-file.yaml> < mappings.txt` — apply loci tags from stdin (`section-id: locus` per line, `_work` for work-level, supports `[locus1, locus2]` arrays)
 
@@ -26,9 +30,13 @@ A directory of theological works hosted on the internet, built with 11ty and dep
 1. `works/*.yaml` — one file per theological work (source of truth for works)
 2. `loci.yaml` — the loci topic tree (source of truth for tags)
 3. `traditions.yaml` — tradition definitions and author-to-tradition mapping
-4. `_cache/authors/Q*.json` — cached Wikidata author data (name, dates, image, labels)
-5. `src/_data/site.js` — reads all of the above, builds data structures for templates
-6. 11ty generates static HTML from Nunjucks templates
+4. `translators.yaml` — maps translator names to metadata (website, support links)
+5. `sites.yaml` — maps site names to metadata (website, support links)
+6. `display_names.yaml` — maps corporate author labels to short display names for the loci index
+7. `_cache/authors/Q*.json` — cached Wikidata author data (name, dates, image, labels)
+8. `_texts/{workId}/{sectionId}.html` — external HTML text files for sections (alternative to inline `text:`)
+9. `src/_data/site.js` — reads all of the above, builds data structures for templates
+10. 11ty generates static HTML from Nunjucks templates
 
 ### YAML work file schema
 Each file has one top-level key (the work ID, e.g. `calvin-institutes`). Structure:
@@ -38,13 +46,16 @@ work-id:
   corporate_author: "Name"    # Optional: string label, or {label: "Name", qid: Q999}
   category: systematic         # Optional: systematic, monograph, sermons
   loci: tag                    # Optional: work-level loci (string or array)
+  date_added: "2024-01-15"    # Optional: ISO date for "What's New" ordering
   la:                          # Original language block (la, fr, de, nl, etc.)
     title: Latin Title
     orig_lang: true
     editions:
       - year: 1559
         place: Geneva          # Optional
+        title: "Alt Title"     # Optional: alternative edition title
         oclc: 123456789        # Optional: OCLC number (shows WorldCat link on works page)
+        collection: true       # Optional: marks this edition as a collection
         sites:                 # Optional: links to original
           - site: BSB
             formats:           # Format links shown as [HTML], [PDF], etc.
@@ -55,12 +66,14 @@ work-id:
     sections:                  # Optional (MUST be sibling of title, NOT child)
       - section-id: Section Title
         loci: tag              # Optional (string or array)
+        text: "<p>HTML content</p>"  # Optional: inline text for this section
         sections:              # Optional: nested sub-sections
           - sub-id: Sub Title
     translations:              # Optional (MUST be sibling of title, NOT child)
       - translator: Name
         year: 1845             # Optional
-        AI: true               # Optional
+        AI: true               # Optional: AI-generated translation
+        partial: true          # Optional: incomplete translation
         sites:
           - site: Site Name
             volumes:           # Optional: multi-volume works {1: url, 2: url}
@@ -85,7 +98,7 @@ work-id:
 
 **Critical YAML rules:**
 - `sections` and `translations` are siblings of `title` under the language key, never children
-- Reserved keys in section mappings: `loci`, `sections` — all other keys are treated as section-id: title
+- Reserved keys in section mappings: `loci`, `sections`, `text` — all other keys are treated as section-id: title
 - Colons in YAML values need quoting: `"THE TENTH TOPIC: On the LAW of GOD"`
 - Loci slugs: lowercase, hyphens for spaces, no apostrophes (e.g., `lords-supper`)
 - Section titles should be in title case (e.g., `Section I. On the Name` not `SECTION I. ON THE NAME`)
@@ -124,7 +137,7 @@ work-id:
 ### 11ty configuration (.eleventy.js)
 - Input: `src/`, Output: `_site/`
 - Passthrough: `src/assets`
-- Watch targets: `works/`, `loci.yaml`, `traditions.yaml`, `_cache/`
+- Watch targets: `works/`, `loci.yaml`, `traditions.yaml`, `translators.yaml`, `sites.yaml`, `display_names.yaml`, `_cache/`, `_texts/`
 - `pathPrefix`: reads from `PATH_PREFIX` env var (set to `/locinet/` in GitHub Actions deploy)
 - Custom filter: `padEnd` for tagging reference formatting
 
@@ -134,9 +147,11 @@ work-id:
 - Wikidata results are cached in repo so builds don't fail if Wikidata is down
 
 ### Key data structures in site.js
-- `authorPages[]`: one entry per author with `{qid, name, slug, birthYear, deathYear, tradition, works[], authorLabels[]}`, sorted by birth year
+- `authorPages[]`: one entry per author with `{qid, name, slug, birthYear, deathYear, tradition, works[], authorLabels[]}`, sorted by birth year; corporate author entries have `isCorporate: true` and `members[]`
 - `worksIndex[]`: same data as authorPages but sorted by earliest work year
 - `lociIndex[slug][qid]`: maps each locus to authors who discuss it, with `{displayName, entries[]}` for the home page tree
+- `whatsNew[]`: works sorted by `date_added` for the "What's New" page
+- `translatorIndex[]`: works organized by site → translator
 - `computeDisplayNames()`: disambiguates authors sharing a family name (adds initial, then birth year if still ambiguous)
 
 ### Creating a work YAML from a PDF

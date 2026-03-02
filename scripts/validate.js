@@ -55,7 +55,7 @@ function main() {
     for (const key of Object.keys(data)) {
     const work = data[key];
 
-    if (!work.author) {
+    if (!work.author && !work.corporate_author) {
       console.error(`ERROR [${file}/${key}]: Missing author field`);
       errors++;
     } else if (Array.isArray(work.author)) {
